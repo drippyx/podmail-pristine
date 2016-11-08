@@ -1,0 +1,465 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp406531lfb;
+        Tue, 8 Dec 2015 20:12:21 -0800 (PST)
+X-Received: by 10.66.219.39 with SMTP id pl7mr5088182pac.88.1449634341220;
+        Tue, 08 Dec 2015 20:12:21 -0800 (PST)
+Return-Path: <speechdrafts+bncBCRIVK5JUEBBBJGUT2ZQKGQEIDXG74Y@hillaryclinton.com>
+Received: from mail-pa0-x247.google.com (mail-pa0-x247.google.com. [2607:f8b0:400e:c03::247])
+        by mx.google.com with ESMTPS id fu6si8765950pac.175.2015.12.08.20.12.20
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 08 Dec 2015 20:12:21 -0800 (PST)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBCRIVK5JUEBBBJGUT2ZQKGQEIDXG74Y@hillaryclinton.com designates 2607:f8b0:400e:c03::247 as permitted sender) client-ip=2607:f8b0:400e:c03::247;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBCRIVK5JUEBBBJGUT2ZQKGQEIDXG74Y@hillaryclinton.com designates 2607:f8b0:400e:c03::247 as permitted sender) smtp.mailfrom=speechdrafts+bncBCRIVK5JUEBBBJGUT2ZQKGQEIDXG74Y@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com
+Received: by mail-pa0-x247.google.com with SMTP id dm15sf87757524pac.0
+        for <john.podesta@gmail.com>; Tue, 08 Dec 2015 20:12:20 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:from:to:cc:subject:thread-topic:thread-index:date:message-id
+         :references:in-reply-to:accept-language:content-language
+         :content-type:mime-version:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=CADre/Mji978swiGSMMXj0EGkcKO7gDHM3tT1d1l6Rk=;
+        b=GUhqo7e95KOf2fs2Bqs/0Bx2H+DEN1n5rulB+fO43f+w3pUGSu02BBi4OYorQY5Yly
+         5cIZNDv4v/OdMX0AcW/dXjFxfN5VciJmJnpi3TJYdxM6kbUR8l7rPagM5YPb9H/ERHUO
+         UhC4fE4WZjo556sTeQ2sXcTi+gRP3TMKwtZZk=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:from:to:cc:subject:thread-topic
+         :thread-index:date:message-id:references:in-reply-to:accept-language
+         :content-language:content-type:mime-version:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=CADre/Mji978swiGSMMXj0EGkcKO7gDHM3tT1d1l6Rk=;
+        b=IdxcfkuKnLk3EOJr/pF+zQDU9tPN6+f9QlOUw4gb2w98hrdEF+l04pTkqjT+4OFSzg
+         SYPf0NFxFn6l2sijiW8cI9axZwYPEVUMe72gMFEqN0rXBx+rMGs2VotvzT2KcmnEhV3k
+         et5ZbEsHze8YxPE4y/FUTnZgrTyU++XDs5WcEMvODjB9RTNPdF5EH8zdyAVg4yqH/hqU
+         I8FGvIJPy3SA79YdvDBQc3j2OQVbzVYH8/pMHf5gz250Bx8nb1wWRoopkKzlMnYcvSg/
+         8tad6DOBIqUAWUb6JY9oUuF3yWE9vEf+OStTwhZfQHoVddOdSD0Bi4X2rPFJyI3nVR5d
+         eWxw==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQnR5C80jR8ZBZbNCWCXx+HuFyW2lC4Vr41Sf30YcakGAqqhJOrOMSgdb4xWbmE8jITizHsUHwqxGYF9bA//pBrz/DXL7g==
+X-Received: by 10.98.1.203 with SMTP id 194mr6356866pfb.5.1449634340944;
+        Tue, 08 Dec 2015 20:12:20 -0800 (PST)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.140.109.197 with SMTP id l63ls673189qgf.27.gmail; Tue, 08 Dec
+ 2015 20:12:20 -0800 (PST)
+X-Received: by 10.129.128.129 with SMTP id q123mr4325931ywf.295.1449634340369;
+        Tue, 08 Dec 2015 20:12:20 -0800 (PST)
+Received: from hub031-co-8.exch031.serverdata.net (hub031-co-8.exch031.serverdata.net. [199.193.204.142])
+        by mx.google.com with ESMTPS id o85si3582300ywd.263.2015.12.08.20.12.20
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 08 Dec 2015 20:12:20 -0800 (PST)
+Received-SPF: pass (google.com: domain of jbenenson@bsgco.com designates 199.193.204.142 as permitted sender) client-ip=199.193.204.142;
+Received: from MBX031-W1-CO-2.exch031.domain.local ([10.224.113.68]) by
+ HUB031-CO-8.exch031.domain.local ([10.224.113.61]) with mapi id
+ 14.03.0224.002; Tue, 8 Dec 2015 20:12:19 -0800
+From: Joel Benenson <jbenenson@bsgco.com>
+To: Jake Sullivan <jsullivan@hillaryclinton.com>
+CC: David Kamin <davidckamin@gmail.com>, 
+ Brian Fallon <bfallon@hillaryclinton.com>, 
+ Gary Gensler <ggensler@hillaryclinton.com>, 
+ Megan Rooney <mrooney@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ Speech Book <speechbook@hillaryclinton.com>
+Subject: Re: DRAFT + FOR THE BOOK: Iowa town halls (manufacturing and
+ inversions)
+Thread-Topic: DRAFT + FOR THE BOOK: Iowa town halls (manufacturing and
+ inversions)
+Thread-Index: AQHRMhsxA4HhOT9AQEup6JzBl4Z6ip7CWOGAgAABiQCAAASTgIAABhsAgAAF+oCAAAvkgP//lGk9
+Date: Wed, 9 Dec 2015 04:12:18 +0000
+Message-ID: <B3BB5490-08D3-491D-8337-197D074EEE24@bsgco.com>
+References: <CAFcwtWBnevDeLe-43eGny9NEoYuRispE4k4GEQU8uL8uoCiU0g@mail.gmail.com>
+ <CAPWwyw0yXQw-paPJNUKpKgj7pgivSLNrdvXmRbBrcNEYKzbw7g@mail.gmail.com>
+ <CAFcwtWD7AtedNkZg0BAgqvWqNY9frNVyry0icdH1AU=BHfXgvg@mail.gmail.com>
+ <1605737905446255549@unknownmsgid>
+ <CANqZgL_-1MDM1juRZVSvvj6rOjd6SRwjA2T7mD8aZbSM=M_J=Q@mail.gmail.com>
+ <A58284F3-B921-4ABA-8D3E-DACA7032A2E4@gmail.com>,<-3144687359431490375@unknownmsgid>
+In-Reply-To: <-3144687359431490375@unknownmsgid>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-Type: multipart/alternative;
+	boundary="_000_B3BB549008D3491D8337197D074EEE24bsgcocom_"
+MIME-Version: 1.0
+X-Original-Sender: jbenenson@bsgco.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of jbenenson@bsgco.com designates 199.193.204.142 as permitted sender) smtp.mailfrom=jbenenson@bsgco.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--_000_B3BB549008D3491D8337197D074EEE24bsgcocom_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+It feels antiseptic. There's nothing wrong but it feels more like list than=
+ a mission.
+
+We need languages that demonstrates her belief that reviving manufacturing,=
+ especially high tech small business manufacturing is essential if we are g=
+oing to build on our progress to create lasting prosperity.
+Manufacturing is about exports and seeking more American goods around the w=
+orld.
+
+Sent from my iPad
+
+On Dec 8, 2015, at 9:37 PM, Jake Sullivan <jsullivan@hillaryclinton.com<mai=
+lto:jsullivan@hillaryclinton.com>> wrote:
+
+This is shaping up nicely.  I still want to put a finer point at the end of=
+ the riff on her basic principle - she is going to close loopholes for comp=
+anies moving profits overseas, and use that money to help companies create =
+jobs here at home.   This is a core part of her economic plan.
+
+
+
+On Dec 8, 2015, at 8:54 PM, David Kamin <davidckamin@gmail.com<mailto:david=
+ckamin@gmail.com>> wrote:
+
+I like Gary=92s framing but defer to comms and speechwriting on the issue. =
+ We can also use somewhat different rhetoric depending on the audience =97 =
+and deploy Gary=92s framing more when talking to wonky reporters, etc., who=
+ I think will buy much more into that approach.
+
+Two suggestions in the attached.
+
+--On exec authority, I=92ve added =97 "in fact, I=92ll do so by [DEL: using=
+] [ADD: asking my Treasury Department to use its] regulatory authority if C=
+ongress doesn=92t act.=94  This is my trying to give us some cover when cha=
+rged with acting unlawfully/imperial presidency/etc.  Think we=92re trying =
+to use that phrasing in the written material, at least.
+
+=97Also would suggest getting a hit in on the Republicans, especially since=
+ the exec authority part will be seen as a knock on Obama.  Added the follo=
+wing line:  "Republicans in Congress should stop standing in the way of clo=
+sing these loopholes and investing here in America.=94  But, completely def=
+er to you guys on whether to use.
+
+<2015-12-09 IA manufacturing town hall 745pm MPS - bf DK.docx>
+
+
+
+
+
+On Dec 8, 2015, at 8:33 PM, Brian Fallon <bfallon@hillaryclinton.com<mailto=
+:bfallon@hillaryclinton.com>> wrote:
+
+I made changes to one bullet atop Mike's. My point in doing so was to seque=
+nce the three ideas we are presenting in terms of what's already been annou=
+nced (50/50 and "exit tax") and what is new as of tomorrow (exec action on =
+earnings stripping). Thanks!
+
+On Tue, Dec 8, 2015 at 8:11 PM, Gary Gensler <ggensler@hillaryclinton.com<m=
+ailto:ggensler@hillaryclinton.com>> wrote:
+My quick read I like though would drop the 'it's about patriotism' and grat=
+itude lines.  Companies aren't people (even if courts see it that way).   I=
+t will strike many in business community as silly.  I would say 'it's about=
+ fairness'. And also about paying all taxes due.  Also about leveling with =
+small business.
+
+Just a thought
+
+Sent from my iPhone
+
+On Dec 8, 2015, at 7:55 PM, Megan Rooney <mrooney@hillaryclinton.com<mailto=
+:mrooney@hillaryclinton.com>> wrote:
+
++ Gary
+
+---------- Forwarded message ----------
+From: Michael Shapiro <mshapiro@hillaryclinton.com<mailto:mshapiro@hillaryc=
+linton.com>>
+Date: Tue, Dec 8, 2015 at 7:49 PM
+Subject: Re: DRAFT + FOR THE BOOK: Iowa town halls (manufacturing and inver=
+sions)
+To: Megan Rooney <mrooney@hillaryclinton.com<mailto:mrooney@hillaryclinton.=
+com>>, David Kamin <davidckamin@gmail.com<mailto:davidckamin@gmail.com>>
+Cc: Speech Drafts <speechdrafts@hillaryclinton.com<mailto:speechdrafts@hill=
+aryclinton.com>>, Speech Book <speechbook@hillaryclinton.com<mailto:speechb=
+ook@hillaryclinton.com>>
+
+
++Kamin
+
+On Tue, Dec 8, 2015 at 7:47 PM, Megan Rooney <mrooney@hillaryclinton.com<ma=
+ilto:mrooney@hillaryclinton.com>> wrote:
+Hey everyone --
+
+These remarks look very similar to what she has today in New Hampshire.  Th=
+e only significant difference is that now, in addition to manufacturing, we=
+'ve added inversions and earnings stripping.
+
+I'm sending this to the book now, so please send edits anytime overnight.
+
+Thanks!
+
+
+
+
+--
+Michael Shapiro
+Hillary for America
+Policy
+860-306-5849<tel:860-306-5849>
+
+<2015-12-09 IA manufacturing town hall 745pm.docx>
+
+<2015-12-09 IA manufacturing town hall 745pm MPS - bf.docx>
+
+
+--_000_B3BB549008D3491D8337197D074EEE24bsgcocom_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body dir=3D"auto">
+<div>It feels antiseptic. There's nothing wrong but it feels more like list=
+ than a mission.&nbsp;</div>
+<div id=3D"AppleMailSignature"><br>
+</div>
+<div id=3D"AppleMailSignature">We need languages that demonstrates her beli=
+ef that reviving manufacturing, especially high tech small business manufac=
+turing is essential if we are going to build on our progress to create last=
+ing prosperity.&nbsp;</div>
+<div id=3D"AppleMailSignature">Manufacturing is about exports and seeking m=
+ore American goods around the world.&nbsp;</div>
+<div id=3D"AppleMailSignature"><br>
+Sent from my iPad</div>
+<div><br>
+On Dec 8, 2015, at 9:37 PM, Jake Sullivan &lt;<a href=3D"mailto:jsullivan@h=
+illaryclinton.com">jsullivan@hillaryclinton.com</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div>This is shaping up nicely.&nbsp; I still want to put a finer point at =
+the end of the riff on her basic principle - she is going to close loophole=
+s for companies moving profits overseas, and use that money to help compani=
+es create jobs here at home. &nbsp; This is
+ a core part of her economic plan. &nbsp;<br>
+<br>
+<br>
+</div>
+<div><br>
+On Dec 8, 2015, at 8:54 PM, David Kamin &lt;<a href=3D"mailto:davidckamin@g=
+mail.com">davidckamin@gmail.com</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>I like Gary=92s framing but defer to comms and speechwriting on the is=
+sue.&nbsp; We can also use somewhat different rhetoric depending on the aud=
+ience =97 and deploy Gary=92s framing more when talking to wonky reporters,=
+ etc., who I think will buy much more into
+ that approach.
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Two suggestions in the attached. &nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">--On exec authority, I=92ve added =97 &quot;in fact, I=92ll=
+ do so by [DEL: using] [ADD: asking my Treasury Department to use its] regu=
+latory authority if Congress doesn=92t act.=94 &nbsp;This is my trying to g=
+ive us some cover when charged with acting unlawfully/imperial
+ presidency/etc.&nbsp; Think we=92re trying to use that phrasing in the wri=
+tten material, at least.</div>
+<div class=3D""><br class=3D"">
+</div>
+<div style=3D"text-indent: -24px;" class=3D""><span class=3D"Apple-tab-span=
+" style=3D"white-space:pre"></span>=97Also would suggest getting a hit in o=
+n the Republicans, especially since the exec authority part will be seen as=
+ a knock on Obama.&nbsp; Added the following line:
+ &nbsp;<font face=3D"Arial" class=3D"">&quot;<span style=3D"text-indent: -0=
+.25in;" class=3D"">Republicans in Congress should stop standing in the way =
+of closing these loopholes and investing here in America.=94 &nbsp;But, com=
+pletely defer to you guys on whether to use.</span></font></div>
+<div style=3D"text-indent: -24px;" class=3D""><font face=3D"Arial" class=3D=
+""><span style=3D"text-indent: -0.25in;" class=3D""><br class=3D"">
+</span></font></div>
+<div style=3D"text-indent: -24px;" class=3D""><span class=3D"Apple-tab-span=
+" style=3D"white-space:pre"></span></div>
+</div>
+</blockquote>
+<blockquote type=3D"cite">
+<div>&lt;2015-12-09 IA manufacturing town hall 745pm MPS - bf DK.docx&gt;</=
+div>
+</blockquote>
+<blockquote type=3D"cite">
+<div>
+<div style=3D"text-indent: -24px;" class=3D""></div>
+<div style=3D"text-indent: -24px;" class=3D""><font face=3D"Arial" class=3D=
+""><span style=3D"text-indent: -0.25in;" class=3D""><br class=3D"">
+</span></font></div>
+<div class=3D"">&nbsp;&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D""><br class=3D"">
+<div class=3D"">
+<div class=3D""><br class=3D"">
+<div>
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">On Dec 8, 2015, at 8:33 PM, Brian Fallon &lt;<a href=3D"mai=
+lto:bfallon@hillaryclinton.com" class=3D"">bfallon@hillaryclinton.com</a>&g=
+t; wrote:</div>
+<br class=3D"Apple-interchange-newline">
+<div class=3D"">
+<div dir=3D"ltr" class=3D"">I made changes to one bullet atop Mike's. My po=
+int in doing so was to sequence the three ideas we are presenting in terms =
+of what's already been announced (50/50 and &quot;exit tax&quot;) and what =
+is new as of tomorrow (exec action on earnings
+ stripping). Thanks!</div>
+<div class=3D"gmail_extra"><br class=3D"">
+<div class=3D"gmail_quote">On Tue, Dec 8, 2015 at 8:11 PM, Gary Gensler <sp=
+an dir=3D"ltr" class=3D"">
+&lt;<a href=3D"mailto:ggensler@hillaryclinton.com" target=3D"_blank" class=
+=3D"">ggensler@hillaryclinton.com</a>&gt;</span> wrote:<br class=3D"">
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div dir=3D"auto" class=3D"">
+<div class=3D"">My quick read I like though would drop the 'it's about patr=
+iotism' and gratitude lines.&nbsp; Companies aren't people (even if courts =
+see it that way). &nbsp; It will strike many in business community as silly=
+.&nbsp; I would say 'it's about fairness'. And also
+ about paying all taxes due.&nbsp; Also about leveling with small business.=
+ &nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Just a thought<br class=3D"">
+<br class=3D"">
+Sent from my iPhone</div>
+<div class=3D"">
+<div class=3D"h5">
+<div class=3D""><br class=3D"">
+On Dec 8, 2015, at 7:55 PM, Megan Rooney &lt;<a href=3D"mailto:mrooney@hill=
+aryclinton.com" target=3D"_blank" class=3D"">mrooney@hillaryclinton.com</a>=
+&gt; wrote:<br class=3D"">
+<br class=3D"">
+</div>
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">
+<div dir=3D"ltr" class=3D"">&#43; Gary
+<div class=3D""><br class=3D"">
+<div class=3D"gmail_quote">---------- Forwarded message ----------<br class=
+=3D"">
+From: <b class=3D"gmail_sendername">Michael Shapiro</b> <span dir=3D"ltr" c=
+lass=3D"">&lt;<a href=3D"mailto:mshapiro@hillaryclinton.com" target=3D"_bla=
+nk" class=3D"">mshapiro@hillaryclinton.com</a>&gt;</span><br class=3D"">
+Date: Tue, Dec 8, 2015 at 7:49 PM<br class=3D"">
+Subject: Re: DRAFT &#43; FOR THE BOOK: Iowa town halls (manufacturing and i=
+nversions)<br class=3D"">
+To: Megan Rooney &lt;<a href=3D"mailto:mrooney@hillaryclinton.com" target=
+=3D"_blank" class=3D"">mrooney@hillaryclinton.com</a>&gt;, David Kamin &lt;=
+<a href=3D"mailto:davidckamin@gmail.com" target=3D"_blank" class=3D"">david=
+ckamin@gmail.com</a>&gt;<br class=3D"">
+Cc: Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hillaryclinton.com" ta=
+rget=3D"_blank" class=3D"">speechdrafts@hillaryclinton.com</a>&gt;, Speech =
+Book &lt;<a href=3D"mailto:speechbook@hillaryclinton.com" target=3D"_blank"=
+ class=3D"">speechbook@hillaryclinton.com</a>&gt;<br class=3D"">
+<br class=3D"">
+<br class=3D"">
+<div dir=3D"ltr" class=3D"">&#43;Kamin</div>
+<div class=3D"gmail_extra">
+<div class=3D"">
+<div class=3D""><br class=3D"">
+<div class=3D"gmail_quote">On Tue, Dec 8, 2015 at 7:47 PM, Megan Rooney <sp=
+an dir=3D"ltr" class=3D"">
+&lt;<a href=3D"mailto:mrooney@hillaryclinton.com" target=3D"_blank" class=
+=3D"">mrooney@hillaryclinton.com</a>&gt;</span> wrote:<br class=3D"">
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div dir=3D"ltr" class=3D"">Hey everyone --&nbsp;
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">These remarks look very similar to what she has today in Ne=
+w Hampshire.&nbsp; The only significant difference is that now, in addition=
+ to manufacturing, we've added inversions and earnings stripping. &nbsp;</d=
+iv>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">I'm sending this to the book now, so please send edits anyt=
+ime overnight.&nbsp;</div>
+<div class=3D""><br class=3D"">
+</div>
+<div class=3D"">Thanks!</div>
+<div class=3D""><br class=3D"">
+</div>
+</div>
+</blockquote>
+</div>
+<br class=3D"">
+<br clear=3D"all" class=3D"">
+<div class=3D""><br class=3D"">
+</div>
+</div>
+</div>
+<span class=3D""><font color=3D"#888888" class=3D"">-- <br class=3D"">
+<div class=3D"">
+<div dir=3D"ltr" class=3D"">
+<div class=3D"">
+<div dir=3D"ltr" class=3D"">
+<div class=3D"">
+<div dir=3D"ltr" class=3D"">
+<div class=3D"">Michael Shapiro</div>
+<div class=3D"">Hillary for America</div>
+<div class=3D"">Policy</div>
+<div class=3D""><a href=3D"tel:860-306-5849" value=3D"&#43;18603065849" tar=
+get=3D"_blank" class=3D"">860-306-5849</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</font></span></div>
+</div>
+<br class=3D"">
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+<blockquote type=3D"cite" class=3D"">
+<div class=3D"">&lt;2015-12-09 IA manufacturing town hall 745pm.docx&gt;</d=
+iv>
+</blockquote>
+</div>
+</blockquote>
+</div>
+<br class=3D"">
+</div>
+<span id=3D"cid:83FAB701-2BF5-48D8-B373-2A57866EB1CE@home">&lt;2015-12-09 I=
+A manufacturing town hall 745pm MPS - bf.docx&gt;</span></div>
+</blockquote>
+</div>
+<br class=3D"">
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</body>
+</html>
+
+--_000_B3BB549008D3491D8337197D074EEE24bsgcocom_--

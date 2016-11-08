@@ -1,0 +1,468 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.226 with SMTP id 95csp1888862lfy;
+        Tue, 5 Jan 2016 16:22:56 -0800 (PST)
+X-Received: by 10.140.137.199 with SMTP id 190mr131774746qhj.91.1452039776736;
+        Tue, 05 Jan 2016 16:22:56 -0800 (PST)
+Return-Path: <speechdrafts+bncBCRIVK5JUEBBBX54WG2AKGQEVBGNEDA@hillaryclinton.com>
+Received: from mail-qk0-x246.google.com (mail-qk0-x246.google.com. [2607:f8b0:400d:c09::246])
+        by mx.google.com with ESMTPS id n66si24318265qgn.37.2016.01.05.16.22.55
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 05 Jan 2016 16:22:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBCRIVK5JUEBBBX54WG2AKGQEVBGNEDA@hillaryclinton.com designates 2607:f8b0:400d:c09::246 as permitted sender) client-ip=2607:f8b0:400d:c09::246;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBCRIVK5JUEBBBX54WG2AKGQEVBGNEDA@hillaryclinton.com designates 2607:f8b0:400d:c09::246 as permitted sender) smtp.mailfrom=speechdrafts+bncBCRIVK5JUEBBBX54WG2AKGQEVBGNEDA@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com
+Received: by mail-qk0-x246.google.com with SMTP id n135sf628949659qka.2
+        for <john.podesta@gmail.com>; Tue, 05 Jan 2016 16:22:55 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:from:to:cc:subject:thread-topic:thread-index:date:message-id
+         :references:in-reply-to:accept-language:content-language
+         :content-type:mime-version:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=Syni3HKnR6ZbK2qRG7WQhNCqv9Ey8NgBgYJhKYWupJg=;
+        b=NVHzSP9yLT7s+9StHgQS1MfEDS3PXLBHCZdcthaLOtobf7BafpcB0lFGfa8gFL/JpR
+         C6Ei80cCYts8g+fBW++P22YUBPmXi6un0gOQd+NSapnZcFMBT49ZG5ZW1PJiN5D/4GZj
+         3obiuw8BGxHaVAn5G3r0b+eUCYwo27op3qPeQ=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:from:to:cc:subject:thread-topic
+         :thread-index:date:message-id:references:in-reply-to:accept-language
+         :content-language:content-type:mime-version:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=Syni3HKnR6ZbK2qRG7WQhNCqv9Ey8NgBgYJhKYWupJg=;
+        b=hg5qEWHtsgczquom/tQsODqlhTuJJDX/VD5QrapZEQBOE5kmCzei3wLOvkquFlCWCG
+         eEKh72JdHPe362qTFvjechEAuKTN1QIBhcu398tQmoHTI7C9vz7SO9Esw0a/t0gHVcK0
+         R3wiUx7ivKk+40tNVazZ+3kbMEtpi9ku9A+JJgtHmY4yGzEAjbsG0kAS1wNy8tTjWHj1
+         NcWymqjACAP4IYbNkbqgLXxEgvyoobKAxATMAGBdcew4jvzI/SynNpnxn+CIfOA9jeiO
+         g0i6aZq9NzmDKf9wn0nHUN2M/H4j/pmQXF0rGBX3AwzUvkNmkSqe91tu3T1vyEP8aYeR
+         XAbg==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQkoFOnaXmxgntYmdRN06t8BLsC6UnJkBEffGtJoNA7QnQea4PvSHIKJfM10JShFvvCh+d2Gl1JPSq/aOGPi+5BUuHCX0g==
+X-Received: by 10.129.130.135 with SMTP id s129mr83638106ywf.20.1452039775875;
+        Tue, 05 Jan 2016 16:22:55 -0800 (PST)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.107.6.199 with SMTP id f68ls4508922ioi.44.gmail; Tue, 05 Jan
+ 2016 16:22:55 -0800 (PST)
+X-Received: by 10.67.24.33 with SMTP id if1mr61582047pad.137.1452039775376;
+        Tue, 05 Jan 2016 16:22:55 -0800 (PST)
+Received: from hub031-co-7.exch031.serverdata.net (hub031-co-7.exch031.serverdata.net. [199.193.204.141])
+        by mx.google.com with ESMTPS id qz2si69443888pab.53.2016.01.05.16.22.55
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 05 Jan 2016 16:22:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of jbenenson@bsgco.com designates 199.193.204.141 as permitted sender) client-ip=199.193.204.141;
+Received: from MBX031-W1-CO-2.exch031.domain.local ([10.224.113.68]) by
+ HUB031-CO-7.exch031.domain.local ([10.224.113.58]) with mapi id
+ 14.03.0266.001; Tue, 5 Jan 2016 16:22:54 -0800
+From: Joel Benenson <jbenenson@bsgco.com>
+To: Megan Rooney <mrooney@hillaryclinton.com>
+CC: Speech Book <speechbook@hillaryclinton.com>, 
+ John Podesta <john.podesta@gmail.com>, John Anzalone <john@algpolling.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ Corey Ciorciari <cciorciari@hillaryclinton.com>, 
+ Sara Solow <ssolow@hillaryclinton.com>
+Subject: Re: FOR THE BOOK: SCOTUS op-ed
+Thread-Topic: FOR THE BOOK: SCOTUS op-ed
+Thread-Index: AQHRSBeK+2/ZHBItTk2idNPeyNe9HJ7toJVC
+Date: Wed, 6 Jan 2016 00:22:54 +0000
+Message-ID: <E9B129FE-E0D4-4FB7-ADA4-16DFFC419A6D@bsgco.com>
+References: <CAFcwtWBWepJQz8Fmcw0oXa8Zpqn2j-aAwKwokfqcWOmh_HxFWQ@mail.gmail.com>
+In-Reply-To: <CAFcwtWBWepJQz8Fmcw0oXa8Zpqn2j-aAwKwokfqcWOmh_HxFWQ@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-Type: multipart/alternative;
+	boundary="_000_E9B129FEE0D44FB7ADA416DFFC419A6Dbsgcocom_"
+MIME-Version: 1.0
+X-Original-Sender: jbenenson@bsgco.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of jbenenson@bsgco.com designates 199.193.204.141 as permitted sender) smtp.mailfrom=jbenenson@bsgco.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <https://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--_000_E9B129FEE0D44FB7ADA416DFFC419A6Dbsgcocom_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Word missing in first sentence of 2nd graph.  PROFOUND effect
+
+Sent from my iPhone
+
+On Jan 5, 2016, at 7:16 PM, Megan Rooney <mrooney@hillaryclinton.com<mailto=
+:mrooney@hillaryclinton.com>> wrote:
+
+Hi all -- we've revised the op-ed with many of your comments in mind, and t=
+hank you for them.  This is ready to go to her.  But please send additional=
+ edits if you have them!
+
+Megan
+
+
+
+On Tue, Jan 5, 2016 at 4:13 PM, Joel Benenson <jbenenson@bsgco.com<mailto:j=
+benenson@bsgco.com>> wrote:
+As you k now, I=92ve never been a huge fan of the Court as an issue and hav=
+e never found it to be a motivator.
+
+That said, if we trying this, I think we need a clearer context that elevat=
+es the court=92s role in major achievements (ending segregation; one person=
+, one vote; right to privacy in Griswold, right to counsel, marriage equali=
+ty) and possibly call out egregious rulings as well --- Citizens United, sh=
+utting down the recount in the 2000 election ---
+
+I think we have to try to make this remote institution more relevant to peo=
+ple=92s lives. Consequently, on the prospective side I would say we have to=
+ find a simpler, cleaner way to make the point about Friedrichs since this =
+seems to be our news hook. Instead of giving the history first, lead the gr=
+aph with the consequences in the last sentence.
+
+One person, one vote case from last month --- raise stakes --- the next pre=
+sident=92s appointments to the court will determine if the court will uphol=
+d or decimate the laws that protect and preserve our elections and democrac=
+y from insidious discriminatory manipulation.
+
+You get the idea =96 we need to introduce these ideas less with the structu=
+re of the legal brief and more for the lay person --- Tell them what is at =
+stake, not what the details of the case are in the first sentence of each o=
+f these graphs.
+
+From: speechdrafts@hillaryclinton.com<mailto:speechdrafts@hillaryclinton.co=
+m> [mailto:speechdrafts@hillaryclinton.com<mailto:speechdrafts@hillaryclint=
+on.com>] On Behalf Of Megan Rooney
+Sent: Tuesday, January 05, 2016 2:59 PM
+To: John Podesta
+Cc: John Anzalone; Speech Drafts; Corey Ciorciari; Sara Solow
+Subject: Re: DRAFT: SCOTUS op-ed
+
+Here were John's edits (all of which I'm making now):
+
+Three ticks
+1) not wild about humane view of the Constitution. Not sure what that means=
+ and easily lampooned
+2) in the power plant graph I'd say tackle climate change and reduce carbon=
+ pollution nationwide
+3) in the stakes graph, I'd add protect the environment to the list.
+
+On Tue, Jan 5, 2016 at 2:56 PM, John Podesta <john.podesta@gmail.com<mailto=
+:john.podesta@gmail.com>> wrote:
+We have two chains going here. I sent comments thru a different chain
+
+
+On Tuesday, January 5, 2016, John Anzalone <john@algpolling.com<mailto:john=
+@algpolling.com>> wrote:
+There is so much good stuff in here.  I wonder if we should add something a=
+bout HRC being a lawyer or a practicing attorney for most of her career.  O=
+r something as simple as =93As President (and a attorney) I will appoint=85=
+.constitution=85
+
+Just a thought.  Also didn=92t she teach law at one point in AR?  Wonder wh=
+at she taught.  Con Law?
+
+
+John Anzalone
+Partner
+Anzalone Liszt Grove Research
+(o) 334.387.3121<tel:334.387.3121>
+Website<http://algpolling.com/>| Twitter<http://twitter.com/anzaloneliszt>|=
+ LinkedIn<https://www.linkedin.com/pub/john-anzalone/5/aa2/563>| Facebook<h=
+ttp://facebook.com/anzaloneresearch>
+
+From: <speechdrafts@hillaryclinton.com<mailto:speechdrafts@hillaryclinton.c=
+om>> on behalf of Megan Rooney <mrooney@hillaryclinton.com<mailto:mrooney@h=
+illaryclinton.com>>
+Date: Tuesday, January 5, 2016 at 11:46 AM
+To: Speech Drafts <speechdrafts@hillaryclinton.com<mailto:speechdrafts@hill=
+aryclinton.com>>, Corey Ciorciari <cciorciari@hillaryclinton.com<mailto:cci=
+orciari@hillaryclinton.com>>, Sara Solow <ssolow@hillaryclinton.com<mailto:=
+ssolow@hillaryclinton.com>>
+Subject: DRAFT: SCOTUS op-ed
+
+Hey all -- here's a draft of an op-ed on the Court -- another proof point i=
+n the "raise the stakes" argument.  I believe the plan is to try to place i=
+t for publication on Friday in the Boston Globe but I may be behind the cur=
+ve on that.  We want to send this to the Secretary tonight so please send m=
+e edits by 5pm.  Thanks!
+
+
+<2016-01-05 HRC Supreme Court Op-Ed rooney 7pm.docx>
+
+--_000_E9B129FEE0D44FB7ADA416DFFC419A6Dbsgcocom_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body dir=3D"auto">
+<div>Word missing in first sentence of 2nd graph. &nbsp;PROFOUND effect<br>
+<br>
+Sent from my iPhone</div>
+<div><br>
+On Jan 5, 2016, at 7:16 PM, Megan Rooney &lt;<a href=3D"mailto:mrooney@hill=
+aryclinton.com">mrooney@hillaryclinton.com</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div dir=3D"ltr">Hi all -- we've revised the op-ed with many of your commen=
+ts in mind, and thank you for them.&nbsp; This is ready to go to her.&nbsp;=
+ But please send additional edits if you have them!
+<div><br>
+</div>
+<div>Megan</div>
+<div><br>
+</div>
+<div><br>
+<div>
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_quote">On Tue, Jan 5, 2016 at 4:13 PM, Joel Benenson <s=
+pan dir=3D"ltr">
+&lt;<a href=3D"mailto:jbenenson@bsgco.com" target=3D"_blank">jbenenson@bsgc=
+o.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">As you k now, I=92ve neve=
+r been a huge fan of the Court as an issue and have never found it to be a =
+motivator.
+<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>&nbsp;<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">That said, if we trying t=
+his, I think we need a clearer context that elevates the court=92s role in =
+major achievements (ending segregation; one person, one vote;
+ right to privacy in Griswold, right to counsel, marriage equality) and pos=
+sibly call out egregious rulings as well --- Citizens United, shutting down=
+ the recount in the 2000 election ---
+<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>&nbsp;<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">I think we have to try to=
+ make this remote institution more relevant to people=92s lives. Consequent=
+ly, on the prospective side I would say we have to find a
+ simpler, cleaner way to make the point about Friedrichs since this seems t=
+o be our news hook. Instead of giving the history first, lead the graph wit=
+h the consequences in the last sentence. &nbsp;<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>&nbsp;<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">One person, one vote case=
+ from last month --- raise stakes --- the next president=92s appointments t=
+o the court will determine if the court will uphold or decimate
+ the laws that protect and preserve our elections and democracy from insidi=
+ous discriminatory manipulation.&nbsp;
+<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>&nbsp;<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">You get the idea =96 we n=
+eed to introduce these ideas less with the structure of the legal brief and=
+ more for the lay person --- Tell them what is at stake, not
+ what the details of the case are in the first sentence of each of these gr=
+aphs. <u>
+</u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d"><u></u>&nbsp;<u></u></spa=
+n></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">
+<a href=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">speech=
+drafts@hillaryclinton.com</a> [mailto:<a href=3D"mailto:speechdrafts@hillar=
+yclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>]
+<b>On Behalf Of </b>Megan Rooney<br>
+<b>Sent:</b> Tuesday, January 05, 2016 2:59 PM<br>
+<b>To:</b> John Podesta<br>
+<b>Cc:</b> John Anzalone; Speech Drafts; Corey Ciorciari; Sara Solow<br>
+<b>Subject:</b> Re: DRAFT: SCOTUS op-ed<u></u><u></u></span></p>
+<div>
+<div class=3D"h5">
+<p class=3D"MsoNormal"><u></u>&nbsp;<u></u></p>
+<div>
+<p class=3D"MsoNormal">Here were John's edits (all of which I'm making now)=
+:<u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><u></u>&nbsp;<u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">Three ticks</span><=
+u></u><u></u></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">1) not wild about h=
+umane view of the Constitution. Not sure what that means and easily lampoon=
+ed<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">2) in the power pla=
+nt graph I'd say tackle climate change and reduce carbon pollution nationwi=
+de<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">3) in the stakes gr=
+aph, I'd add protect the environment to the list.<u></u><u></u></span></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><u></u>&nbsp;<u></u></p>
+<div>
+<p class=3D"MsoNormal">On Tue, Jan 5, 2016 at 2:56 PM, John Podesta &lt;<a =
+href=3D"mailto:john.podesta@gmail.com" target=3D"_blank">john.podesta@gmail=
+.com</a>&gt; wrote:<u></u><u></u></p>
+<p class=3D"MsoNormal">We have two chains going here. I sent comments thru =
+a different chain<u></u><u></u></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+On Tuesday, January 5, 2016, John Anzalone &lt;<a href=3D"mailto:john@algpo=
+lling.com" target=3D"_blank">john@algpolling.com</a>&gt; wrote:<u></u><u></=
+u></p>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ge=
+orgia&quot;,&quot;serif&quot;;color:black">There is so much good stuff in h=
+ere.&nbsp; I wonder if we should add something about HRC being a lawyer or =
+a practicing attorney for most of her career.&nbsp; Or something as
+ simple as =93As President (and a attorney) I will appoint=85.constitution=
+=85<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ge=
+orgia&quot;,&quot;serif&quot;;color:black"><u></u>&nbsp;<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ge=
+orgia&quot;,&quot;serif&quot;;color:black">Just a thought.&nbsp; Also didn=
+=92t she teach law at one point in AR?&nbsp; Wonder what she taught.&nbsp; =
+Con Law?<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ge=
+orgia&quot;,&quot;serif&quot;;color:black"><u></u>&nbsp;<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ge=
+orgia&quot;,&quot;serif&quot;;color:black"><u></u>&nbsp;<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;;color:black">John Anzalone</span></b>=
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-=
+serif&quot;;color:black"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><i><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;;color:black">Partner&nbsp;</span></i>=
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-=
+serif&quot;;color:black"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:black">Anzalone Liszt Grove Resear=
+ch<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:black">(o)&nbsp;</span><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;=
+;color:green"><a href=3D"tel:334.387.3121" target=3D"_blank">334.387.3121</=
+a></span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;;color:black"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:black"><a href=3D"http://algpollin=
+g.com/" target=3D"_blank">Website</a><b>|&nbsp;</b><a href=3D"http://twitte=
+r.com/anzaloneliszt" target=3D"_blank">Twitter</a><b>|</b>&nbsp;<a href=3D"=
+https://www.linkedin.com/pub/john-anzalone/5/aa2/563" target=3D"_blank">Lin=
+kedIn</a><b>|</b>&nbsp;<a href=3D"http://facebook.com/anzaloneresearch" tar=
+get=3D"_blank">Facebook</a><u></u><u></u></span></p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ge=
+orgia&quot;,&quot;serif&quot;;color:black"><u></u>&nbsp;<u></u></span></p>
+</div>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;;color:black">From:
+</span></b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,=
+&quot;sans-serif&quot;;color:black">&lt;<a href=3D"mailto:speechdrafts@hill=
+aryclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>&gt; o=
+n behalf of Megan Rooney &lt;<a href=3D"mailto:mrooney@hillaryclinton.com" =
+target=3D"_blank">mrooney@hillaryclinton.com</a>&gt;<br>
+<b>Date: </b>Tuesday, January 5, 2016 at 11:46 AM<br>
+<b>To: </b>Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hillaryclinton.=
+com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>&gt;, Corey Ciorc=
+iari &lt;<a href=3D"mailto:cciorciari@hillaryclinton.com" target=3D"_blank"=
+>cciorciari@hillaryclinton.com</a>&gt;, Sara Solow &lt;<a href=3D"mailto:ss=
+olow@hillaryclinton.com" target=3D"_blank">ssolow@hillaryclinton.com</a>&gt=
+;<br>
+<b>Subject: </b>DRAFT: SCOTUS op-ed<u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ge=
+orgia&quot;,&quot;serif&quot;;color:black"><u></u>&nbsp;<u></u></span></p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ge=
+orgia&quot;,&quot;serif&quot;;color:black">Hey all -- here's a draft of an =
+op-ed on the Court -- another proof point in the &quot;raise the stakes&quo=
+t; argument.&nbsp; I believe the plan is to try to place it for publication
+ on Friday in the Boston Globe but I may be behind the curve on that.&nbsp;=
+ We want to send this to the Secretary tonight so please send me edits by 5=
+pm.&nbsp; Thanks!<u></u><u></u></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>&nbsp;<u></u></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+<blockquote type=3D"cite">
+<div>&lt;2016-01-05 HRC Supreme Court Op-Ed rooney 7pm.docx&gt;</div>
+</blockquote>
+</body>
+</html>
+
+--_000_E9B129FEE0D44FB7ADA416DFFC419A6Dbsgcocom_--

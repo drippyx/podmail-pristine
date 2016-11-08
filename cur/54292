@@ -1,0 +1,667 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.220.94.71 with SMTP id y7cs68252vcm;
+        Wed, 17 Jun 2009 12:19:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of grbounce-4WpGdQUAAABX6aJFW9GviX2Fxj-sPCbK=john.podesta=gmail.com@googlegroups.com designates 10.114.178.1 as permitted sender) client-ip=10.114.178.1;
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of grbounce-4WpGdQUAAABX6aJFW9GviX2Fxj-sPCbK=john.podesta=gmail.com@googlegroups.com designates 10.114.178.1 as permitted sender) smtp.mail=grbounce-4WpGdQUAAABX6aJFW9GviX2Fxj-sPCbK=john.podesta=gmail.com@googlegroups.com; dkim=pass header.i=grbounce-4WpGdQUAAABX6aJFW9GviX2Fxj-sPCbK=john.podesta=gmail.com@googlegroups.com
+Received: from mr.google.com ([10.114.178.1])
+        by 10.114.178.1 with SMTP id a1mr931379waf.22.1245266396124 (num_hops = 1);
+        Wed, 17 Jun 2009 12:19:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results
+         :x-asg-debug-id:x-barracuda-url:received:received:x-asg-whitelist
+         :received:from:to:date:x-asg-orig-subj:subject:thread-topic
+         :thread-index:message-id:accept-language:content-language
+         :x-ms-has-attach:x-ms-tnef-correlator:acceptlanguage:mime-version
+         :content-type:x-barracuda-connect:x-barracuda-start-time
+         :x-barracuda-encrypted:x-barracuda-virus-scanned:reply-to:sender
+         :precedence:x-google-loop:mailing-list:list-id:list-post:list-help
+         :list-unsubscribe:x-beenthere-env:x-beenthere;
+        bh=Xidka9RG5Hj3CcMo9OCDljxnatdyJibEhAtDwn2mBs4=;
+        b=sJt5ruZ04NlAWT6IJRzw+7MTu2iAZpq/Rbay3v6ro66nzo6MU9fB8JsDHy/p2pCfxB
+         qEmv0jZtSJ2l6LadWNcQv0TZqbWtFSQnFS96aAf3vvhKkT5drKar+vvwT/LBHM2ESDGb
+         QUcyFpgOYBsveG0jcqebHgRmMjVE1v7XzdljE=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=googlegroups.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :x-asg-debug-id:x-barracuda-url:x-asg-whitelist:from:to:date
+         :x-asg-orig-subj:subject:thread-topic:thread-index:message-id
+         :accept-language:content-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version:content-type
+         :x-barracuda-connect:x-barracuda-start-time:x-barracuda-encrypted
+         :x-barracuda-virus-scanned:reply-to:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere-env:x-beenthere;
+        b=iSA6rE4m1GvnbrU+7d7yX9Zu5ECJhmVTUbPg/mD5jebrk/dTBXGNA0OngGlaSYlPAP
+         FWtT4Hlzvdrz4/0TdkocQeR00nZR2PmnWzYKqDPySfuNVxwoJ7v6jG/WBA1Un4IUsCXc
+         +idAd1Vg4vJhfFFomnpakNVtiPNEEAkzVp8IU=
+Received: by 10.114.178.1 with SMTP id a1mr107415waf.22.1245266385701;
+        Wed, 17 Jun 2009 12:19:45 -0700 (PDT)
+Received: by 10.106.168.10 with SMTP id q10gr3234pre.0;
+	Wed, 17 Jun 2009 12:19:40 -0700 (PDT)
+X-Sender: ajentleson@americanprogressaction.org
+X-Apparently-To: bigcampaign@googlegroups.com
+Received: by 10.229.82.69 with SMTP id a5mr283744qcl.27.1245266378721; Wed, 17 Jun 2009 12:19:38 -0700 (PDT)
+Return-Path: <ajentleson@americanprogressaction.org>
+Received: from mrelay2.americanprogress.org (mrelay2.americanprogress.org [76.74.8.245]) by gmr-mx.google.com with ESMTP id 20si108552qyk.3.2009.06.17.12.19.38; Wed, 17 Jun 2009 12:19:38 -0700 (PDT)
+Received-SPF: neutral (google.com: 76.74.8.245 is neither permitted nor denied by best guess record for domain of ajentleson@americanprogressaction.org) client-ip=76.74.8.245;
+Authentication-Results: gmr-mx.google.com; spf=neutral (google.com: 76.74.8.245 is neither permitted nor denied by best guess record for domain of ajentleson@americanprogressaction.org) smtp.mail=ajentleson@americanprogressaction.org
+X-ASG-Debug-ID: 1245266377-5efb012e0000-QLVFix
+X-Barracuda-URL: http://mrelay2.americanprogress.org:8000/cgi-bin/mark.cgi
+Received: from mail.americanprogress.org (localhost [127.0.0.1]) by mrelay2.americanprogress.org (Spam Firewall) with ESMTP id 28E34158A1B for <bigcampaign@googlegroups.com>; Wed, 17 Jun 2009 15:19:37 -0400 (EDT)
+Received: from mail.americanprogress.org ([172.16.10.1]) by mrelay2.americanprogress.org with ESMTP id 8jeJqC0xGcmMiQr8 (version=TLSv1 cipher=RC4-MD5 bits=128 verify=NO) for <bigcampaign@googlegroups.com>; Wed, 17 Jun 2009 15:19:37 -0400 (EDT)
+X-ASG-Whitelist: Client
+Received: from CAPMAILBOX.americanprogresscenter.org ([172.16.10.17]) by mailfe1.americanprogresscenter.org ([172.16.10.19]) with mapi; Wed, 17 Jun 2009 15:19:36 -0400
+From: "Adam Jentleson (CAPAF)" <ajentleson@americanprogressaction.org>
+To: "'bigcampaign@googlegroups.com'" <bigcampaign@googlegroups.com>, 
+ Adam Jentleson <Ajentleson@americanprogress.org>
+Date: Wed, 17 Jun 2009 15:19:34 -0400
+X-ASG-Orig-Subj: FW:  MarkUpdate: 400 Ways To Say "No" To Reform; Coburn Plan Would Keep Insurance Companies In Charge
+Subject: [big campaign] FW:  MarkUpdate: 400 Ways To Say "No" To Reform;
+ Coburn Plan Would Keep Insurance Companies In Charge
+Thread-Topic: MarkUpdate: 400 Ways To Say "No" To Reform; Coburn Plan Would Keep Insurance Companies In Charge
+Thread-Index: AcnvfiNVTKpkNcJ6Sxij+uUMDtmxwwAAFZWgAAAI59AAAFurgAAAEW4A
+Message-ID: <A28459BA2B4D5D49BED0238513058A7F01251CB54B03@CAPMAILBOX.americanprogresscenter.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="_000_A28459BA2B4D5D49BED0238513058A7F01251CB54B03CAPMAILBOXa_"
+X-Barracuda-Connect: UNKNOWN[172.16.10.1]
+X-Barracuda-Start-Time: 1245266377
+X-Barracuda-Encrypted: RC4-MD5
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at americanprogress.org
+Reply-To: ajentleson@americanprogressaction.org
+Sender: bigcampaign@googlegroups.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list bigcampaign@googlegroups.com;
+	contact bigcampaign+owner@googlegroups.com
+List-Id: <bigcampaign.googlegroups.com>
+List-Post: <mailto:bigcampaign@googlegroups.com>
+List-Help: <mailto:bigcampaign+help@googlegroups.com>
+List-Unsubscribe: <http://googlegroups.com/group/bigcampaign/subscribe>,
+	<mailto:bigcampaign+unsubscribe@googlegroups.com>
+X-BeenThere-Env: bigcampaign@googlegroups.com
+X-BeenThere: bigcampaign@googlegroups.com
+
+--_000_A28459BA2B4D5D49BED0238513058A7F01251CB54B03CAPMAILBOXa_
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+
+Fyi -- our pushback on Day 1 of the HELP markup.
+
+-Adam
+
+
+
+________________________________
+From: Progressive Media [mailto:ajentleson@americanprogressaction.org]
+Sent: Wednesday, June 17, 2009 3:02 PM
+To: Adam Jentleson
+Subject: MarkUpdate: 400 Ways To Say "No" To Reform; Coburn Plan Would Keep=
+ Insurance Companies In Charge
+
+View in your web browser<http://app.mx3.americanprogressaction.org/e/es.asp=
+x?s=3D785&e=3Dc39e3641ae534147a034d5c06cab62a5&elq=3DFF7F3164F1874AF8B288CE=
+0B3CDC1A75>
+
+[http://images2.americanprogress.org/email/progressivemedia600.png]
+
+A PROJECT OF CENTER FOR AMERICAN PROGRESS ACTION FUND<http://app.mx3.americ=
+anprogressaction.org/e/er.aspx?s=3D785&lid=3D216&elq=3DFF7F3164F1874AF8B288=
+CE0B3CDC1A75> AND MEDIA MATTERS ACTION<http://app.mx3.americanprogressactio=
+n.org/e/er.aspx?s=3D785&lid=3D19774&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75>
+
+
+June 17, 2009
+MARKUPDATE
+
+GOP Senators Introduce 400 Ways To "Just Say No" To Reform
+
+ *   Senators Coburn, Enzi, McCain and other obstructionist senators today =
+introduced nearly 400 ways to "just say no" to health care reform that will=
+ lower costs and increase choice for hard-working Americans.
+
+ *   Playing politics instead of pursuing reform, they are introducing ridi=
+culous amendments whose sole goal is to delay and obstruct the process. For=
+ instance, they have introduced:
+
+    *   Two separate amendments that would force doctors to spy on each oth=
+er (Coburn 11, 87).
+
+    *   "Name-calling" amendments that do nothing except make silly title c=
+hanges - like an amendment to rename the prevention and public health inves=
+tment fund - the "Slush Fund for Special Interests" (Coburn 18).
+
+    *   For more examples, see the illustrative list below.
+
+ *   At a time when health care costs are crushing hard-working American fa=
+milies, businesses and dragging down our economy<http://www.americanprogres=
+s.org/issues/2008/12/health_imperative.html> - is this really a productive =
+use of time?
+
+ *   By contrast, today a bipartisan group led by former Senators Tom Dasch=
+le, Bob Dole and former Secretary of State Howard Baker released<http://www=
+.google.com/hostednews/ap/article/ALeqM5hL8Vyx9jlIHpOKVVVGk0V62TgrRwD98S9AD=
+O0> a good-faith, intellectually serious effort at crafting a bipartisan so=
+lution to our health care crisis.
+
+The Coburn/Burr Alternative Unravels The Employer-Based System And Keeps In=
+surance Companies In Charge.
+
+ *   The Coburn/Burr plan does not provide sufficient protection for patien=
+ts against abusive insurance company practices - like denying coverage to p=
+eople with pre-existing conditions.
+
+    *   Today, insurance companies use the flimsiest reasons to deny people=
+ coverage - for instance, a woman in Los Angeles was denied coverage for he=
+r breast cancer because she failed to disclose that she had visited a derma=
+tologist<http://app.mx3.americanprogressaction.org/e/er.aspx?s=3D785&lid=3D=
+22926&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75>.
+
+    *   Under the Coburn plan, insurance companies could continue this prac=
+tice - called "rescission," which "has left thousands of Americans burdened=
+ with costly medical bills despite paying insurance premiums<http://app.mx3=
+.americanprogressaction.org/e/er.aspx?s=3D785&lid=3D22926&elq=3DFF7F3164F18=
+74AF8B288CE0B3CDC1A75>," according to the L.A. Times.
+
+ *   The Coburn/Burr plan would unravel the employer based system, and repl=
+ace it with an insufficient tax credit that doesn't even cover half of the =
+average family's medical costs.
+
+    *   The $5,700-per-family tax subsidy<http://app.mx3.americanprogressac=
+tion.org/e/er.aspx?s=3D785&lid=3D21614&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A=
+75> proposed in the Coburn plan is less than half of the $12,680 that the a=
+verage American family paid for health care in 2008<http://app.mx3.american=
+progressaction.org/e/er.aspx?s=3D785&lid=3D21615&elq=3DFF7F3164F1874AF8B288=
+CE0B3CDC1A75>.
+
+Bipartisan Group Proposes Health Reform That Mirrors Many Obama Principles
+
+Baker And Dole Agree The Time For Reform Is Now. According to the Bipartisa=
+n Policy Center website, Howard Baker noted that the "the time for health r=
+eform had come." [Bipartisan Policy Center, accessed 6/17/09<http://app.mx3=
+.americanprogressaction.org/e/er.aspx?s=3D785&lid=3D22927&elq=3DFF7F3164F18=
+74AF8B288CE0B3CDC1A75>]
+
+Baker And Dole's Proposal Calls For A Mandate. The Associated Press reporte=
+d: "A summary of the plan calls for an individual requirement to carry heal=
+th insurance." [Associated Press, 6/17/09<http://app.mx3.americanprogressac=
+tion.org/e/er.aspx?s=3D785&lid=3D22928&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A=
+75>]
+
+Baker And Dole's Proposals Calls For $1.2 Trillion Plan. The Associated Pre=
+ss reported: "Democrats Tom Daschle and George Mitchell are set to join Rep=
+ublicans Bob Dole and Howard Baker on Wednesday to release a $1.2 trillion =
+proposal that would be fully paid for with a combination of spending cuts a=
+nd tax increases." [Associated Press, 6/17/09<http://app.mx3.americanprogre=
+ssaction.org/e/er.aspx?s=3D785&lid=3D22928&elq=3DFF7F3164F1874AF8B288CE0B3C=
+DC1A75>]
+
+Republicans Are Standing In The Way Of Real Health Care Reform: A Sample Of=
+ Proposed Republican Amendments<http://app.mx3.americanprogressaction.org/e=
+/er.aspx?s=3D785&lid=3D22929&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75>.
+
+ *   Coburn 17: To clarify the intent of the prevention and public health i=
+nvestment fund - would rename it the "Public Health Earmark Fund."
+
+ *   Coburn 18: To clarify the intent of the prevention and public health i=
+nvestment fund - would rename it the "Slush Fund for Special Interests."
+
+ *   Coburn 19: To restate the purpose of the Prevention and Public health =
+Investment Fund - would insert the following: "It is the purpose of this se=
+ction to circumvent the regular budget process in order to ignore revenue c=
+onstraints and other spending priorities ..."
+
+ *   Coburn 43: To rename the community health program subtitle IV - would =
+rename it the "Federal Takeover of Local Communities."
+
+ *   Coburn 51: To prohibit the use of funds to build football stadiums.
+
+ *   Coburn 111: To prohibit the Department of Health and Human Services fr=
+om providing funding for fashion shows.
+
+For more information, contact:
+Adam Jentleson, 202.682.1611
+ajentleson@americanprogressaction.org
+
+Center for American Progress Action Fund | 1333 H Street NW, 10th Floor | W=
+ashington, DC 20005
+
+
+[http://images2.americanprogress.org/email/progressivemedia-footer-logos.pn=
+g]
+
+
+ <http://app.mx3.americanprogressaction.org/e/er.aspx?s=3D785&lid=3D20880&e=
+lq=3DFF7F3164F1874AF8B288CE0B3CDC1A75>
+
+Unsubscribe from Progressive Media emails
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" =
+group.
+
+To post to this group, send to bigcampaign@googlegroups.com
+
+To unsubscribe, send email to bigcampaign-unsubscribe@googlegroups.com
+
+E-mail dubois.sara@gmail.com with questions or concerns
+=20
+This is a list of individuals. It is not affiliated with any group or organ=
+ization.
+-~----------~----~----~----~------~----~------~--~---
+
+
+--_000_A28459BA2B4D5D49BED0238513058A7F01251CB54B03CAPMAILBOXa_
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Segment In A Box</TITLE><!------------------------------=
+------------------------
+
+To view a web version of this email, copy this entire link into your browse=
+r:
+http://now.eloqua.com/e/es.aspx?s=3D785&e=3Dc39e3641ae534147a034d5c06cab62a=
+5&elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75
+
+------------------------------------------------------------->
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<STYLE type=3Dtext/css>.style2 {
+	COLOR: #000000; FONT-STYLE: italic
+}
+</STYLE>
+
+<META content=3D"MSHTML 6.00.6000.16850" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV><SPAN class=3D041440519-17062009><SPAN class=3D206561719-17062009><FON=
+T=20
+size=3D4>Fyi -- our pushback on Day 1 of the HELP=20
+markup.</FONT></SPAN></SPAN></DIV>
+<DIV><SPAN class=3D041440519-17062009><SPAN class=3D206561719-17062009><FON=
+T=20
+size=3D4></FONT></SPAN></SPAN>&nbsp;</DIV>
+<DIV><SPAN class=3D041440519-17062009><SPAN class=3D206561719-17062009><FON=
+T=20
+size=3D4>-Adam</FONT></SPAN></SPAN></DIV>
+<DIV><SPAN class=3D041440519-17062009><SPAN class=3D206561719-17062009><FON=
+T=20
+size=3D4></FONT></SPAN></SPAN>&nbsp;</DIV>
+<DIV><FONT size=3D4><SPAN class=3D041440519-17062009></SPAN><SPAN=20
+class=3D041440519-17062009></SPAN></FONT><FONT face=3DArial size=3D2></FONT=
+><FONT=20
+face=3DArial size=3D2></FONT><BR>&nbsp;</DIV>
+<DIV class=3DOutlookMessageHeader lang=3Den-us dir=3Dltr align=3Dleft>
+<HR tabIndex=3D-1>
+<FONT face=3DTahoma size=3D2><B>From:</B> Progressive Media=20
+[mailto:ajentleson@americanprogressaction.org] <BR><B>Sent:</B> Wednesday, =
+June=20
+17, 2009 3:02 PM<BR><B>To:</B> Adam Jentleson<BR><B>Subject:</B> MarkUpdate=
+: 400=20
+Ways To Say &#8220;No&#8221; To Reform; Coburn Plan Would Keep Insurance Co=
+mpanies In=20
+Charge<BR></FONT><BR></DIV>
+<DIV></DIV>
+<TABLE width=3D550 align=3Dcenter>
+  <TBODY>
+  <TR>
+    <TD align=3Dmiddle><FONT face=3DArial size=3D1><A=20
+      href=3D"http://app.mx3.americanprogressaction.org/e/es.aspx?s=3D785&a=
+mp;e=3Dc39e3641ae534147a034d5c06cab62a5&amp;elq=3DFF7F3164F1874AF8B288CE0B3=
+CDC1A75">View=20
+      in your web browser</A>&nbsp;</FONT></TD></TR></TBODY></TABLE>
+<STYLE type=3Dtext/css>BODY {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 13px; BORDER-LEFT: 0px; LIN=
+E-HEIGHT: 1.33em; BORDER-BOTTOM: 0px; FONT-FAMILY: Georgia, Times New Roman=
+, Times, serif
+}
+.main {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px;=
+ BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 12px auto; BORDER-LEFT: 0px=
+; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; TEXT-ALIGN: left
+}
+A {
+	COLOR: #990000
+}
+.outside A {
+	COLOR: #990000
+}
+.inside {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 1.5em; BORDER-TOP: 0px; PADDING-LEFT: 1.=
+5em; PADDING-BOTTOM: 0.5em; MARGIN: 0px; BORDER-LEFT: 0px; COLOR: #333; LIN=
+E-HEIGHT: 1.33em; PADDING-TOP: 0.5em; BORDER-BOTTOM: 0px
+}
+.inside P {
+	MARGIN: 0px 0px 1.5em
+}
+.footer {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0.5em; BORDER-TOP: 0px; PADDING-LEFT: 0.=
+5em; BACKGROUND: #8a8888; PADDING-BOTTOM: 0.5em; MARGIN: 0px; BORDER-LEFT: =
+0px; COLOR: #fff; LINE-HEIGHT: 1.5em; PADDING-TOP: 0.5em; BORDER-BOTTOM: 0p=
+x; TEXT-ALIGN: center
+}
+TD {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px;=
+ PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORD=
+ER-BOTTOM: 0px
+}
+TR {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px;=
+ PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORD=
+ER-BOTTOM: 0px
+}
+TABLE {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px;=
+ FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; BORDER-LEFT: 0px; =
+PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: Georgia, Times New Roman=
+, Times, serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.5em; MARGIN: 1em 0px; COLOR: #000; FONT-FA=
+MILY: Helvetica, Arial, sans-serif
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1.15e=
+m; PADDING-BOTTOM: 0.25em; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 1em=
+; PADDING-BOTTOM: 0px; COLOR: #666; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.outside {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #666; P=
+ADDING-TOP: 0.5em; TEXT-ALIGN: center
+}
+</STYLE>
+<!-- Container Table -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D"100%"><!-- Layout Table -->
+      <TABLE class=3Dmain cellSpacing=3D0 cellPadding=3D0 width=3D600 align=
+=3Dcenter=20
+      bgColor=3D#ffffff border=3D0>
+        <TBODY>
+        <TR>
+          <TD vAlign=3Dtop>
+            <P><IMG height=3D58 alt=3D"Progressive Media"=20
+            src=3D"http://images2.americanprogress.org/email/progressivemed=
+ia600.png"=20
+            width=3D600 NOSEND=3D"1"></P>
+            <P=20
+            style=3D"FONT-SIZE: 0.8em; COLOR: #8a8888; FONT-FAMILY: Helveti=
+ca, Arial, sans-serif; TEXT-ALIGN: right">A=20
+            PROJECT OF <A style=3D"COLOR: #2d3b63; TEXT-DECORATION: none"=
+=20
+            href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx?s=
+=3D785&amp;lid=3D216&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">CENTER=20
+            FOR AMERICAN PROGRESS ACTION FUND</A> AND <A=20
+            style=3D"COLOR: #2d3b63; TEXT-DECORATION: none"=20
+            href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx?s=
+=3D785&amp;lid=3D19774&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">MEDIA=20
+            MATTERS ACTION</A></P></TD></TR>
+        <TR>
+          <TD class=3Dinside=20
+          style=3D"BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 1.5em; BORD=
+ER-TOP: #ccc 1px solid; PADDING-LEFT: 1.5em; PADDING-BOTTOM: 0.5em; MARGIN:=
+ 0px; BORDER-LEFT: #ccc 1px solid; COLOR: #333; LINE-HEIGHT: 1.5em; PADDING=
+-TOP: 0.5em; BORDER-BOTTOM: #ccc 1px solid"=20
+          vAlign=3Dtop>
+            <H4=20
+            style=3D"FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: #666; TEXT=
+-ALIGN: right">June=20
+            17, 2009</H4>
+            <H2=20
+            style=3D"FONT-WEIGHT: normal; FONT-SIZE: 1.5em; MARGIN: 1em 0px=
+; COLOR: #000">MARK<SPAN=20
+            class=3Dstyle2>UP</SPAN><EM>DATE</EM></H2>
+            <P><STRONG>GOP Senators Introduce 400 Ways To &#8220;Just Say N=
+o&#8221; To=20
+            Reform </STRONG></P>
+            <UL type=3Ddisc>
+              <LI>Senators Coburn, Enzi, McCain and other obstructionist=20
+              senators today introduced nearly 400 ways to &#8220;just say =
+no&#8221; to=20
+              health care reform that will lower costs and increase choice =
+for=20
+              hard-working Americans. </LI></UL>
+            <UL type=3Ddisc>
+              <LI>Playing politics instead of pursuing reform, they are=20
+              introducing ridiculous amendments whose sole goal is to delay=
+ and=20
+              obstruct the process. For instance, they have introduced: </L=
+I></UL>
+            <UL type=3Ddisc>
+              <UL type=3Dcircle>
+                <LI>Two separate amendments that would force doctors to spy=
+ on=20
+                each other (Coburn 11, 87). </LI></UL></UL>
+            <UL type=3Ddisc>
+              <UL type=3Dcircle>
+                <LI>&#8220;Name-calling&#8221; amendments that do nothing e=
+xcept make silly=20
+                title changes &#8211; like an amendment to rename the preve=
+ntion and=20
+                public health investment fund - the &#8220;Slush Fund for S=
+pecial=20
+                Interests&#8221; (Coburn 18). </LI></UL></UL>
+            <UL type=3Ddisc>
+              <UL type=3Dcircle>
+                <LI>For more examples, see the illustrative list below.=20
+            </LI></UL></UL>
+            <UL type=3Ddisc>
+              <LI>At a time when <A=20
+              href=3D"http://www.americanprogress.org/issues/2008/12/health=
+_imperative.html">health=20
+              care costs are crushing hard-working American families, busin=
+esses=20
+              and dragging down our economy</A> &#8211; is this really a pr=
+oductive=20
+              use of time? </LI></UL>
+            <UL type=3Ddisc>
+              <LI>By contrast, today a bipartisan group led by former Senat=
+ors=20
+              Tom Daschle, Bob Dole and former Secretary of State Howard Ba=
+ker=20
+              <A=20
+              href=3D"http://www.google.com/hostednews/ap/article/ALeqM5hL8=
+Vyx9jlIHpOKVVVGk0V62TgrRwD98S9ADO0">released</A>=20
+              a good-faith, intellectually serious effort at crafting a=20
+              bipartisan solution to our health care crisis. </LI></UL>
+            <P><STRONG>The Coburn/Burr Alternative Unravels The Employer-Ba=
+sed=20
+            System And Keeps Insurance Companies In Charge. </STRONG></P>
+            <UL type=3Ddisc>
+              <LI>The Coburn/Burr plan does not provide sufficient protecti=
+on=20
+              for patients against abusive insurance company practices &#82=
+11; like=20
+              denying coverage to people with pre-existing conditions. </LI=
+></UL>
+            <UL type=3Ddisc>
+              <UL type=3Dcircle>
+                <LI>Today, insurance companies use the flimsiest reasons to=
+ deny=20
+                people coverage &#8211; for instance, a <A=20
+                href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx=
+?s=3D785&amp;lid=3D22926&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">woman=
+=20
+                in Los Angeles was denied coverage for her breast cancer be=
+cause=20
+                she failed to disclose that she had visited a dermatologist=
+</A>.=20
+                </LI></UL></UL>
+            <UL type=3Ddisc>
+              <UL type=3Dcircle>
+                <LI>Under the Coburn plan, insurance companies could contin=
+ue=20
+                this practice &#8211; called &#8220;rescission,&#8221; whic=
+h &#8220;has&nbsp;<A=20
+                href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx=
+?s=3D785&amp;lid=3D22926&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">left=
+=20
+                thousands of Americans burdened with costly medical bills=
+=20
+                despite paying insurance premiums</A>,&#8221; according to =
+the=20
+                <EM>L.A. Times</EM>. </LI></UL></UL>
+            <UL type=3Ddisc>
+              <LI>The Coburn/Burr plan would unravel the employer based sys=
+tem,=20
+              and replace it with an insufficient tax credit that doesn&#82=
+17;t even=20
+              cover half of the average family&#8217;s medical costs.=20
+              <STRONG></STRONG></LI></UL>
+            <UL type=3Ddisc>
+              <UL type=3Dcircle>
+                <LI>The <A=20
+                href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx=
+?s=3D785&amp;lid=3D21614&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">$5,700=
+-per-family=20
+                tax subsidy</A> proposed in the Coburn plan is less than ha=
+lf of=20
+                the <A=20
+                href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx=
+?s=3D785&amp;lid=3D21615&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">$12,68=
+0=20
+                that the average American family paid for health care in=20
+                2008</A>. </LI></UL></UL>
+            <P><STRONG>Bipartisan Group Proposes Health Reform That Mirrors=
+ Many=20
+            Obama Principles <BR><BR>Baker And Dole Agree The Time For Refo=
+rm Is=20
+            Now. </STRONG>According to the Bipartisan Policy Center website=
+,=20
+            Howard Baker noted that the &#8220;the time for health reform h=
+ad come.&#8221;=20
+            [Bipartisan Policy Center, accessed <A=20
+            href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx?s=
+=3D785&amp;lid=3D22927&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">6/17/09<=
+/A>]<BR><BR><STRONG>Baker=20
+            And Dole&#8217;s</STRONG> <STRONG>Proposal Calls For A Mandate.=
+=20
+            </STRONG>The Associated Press reported: &#8220;A summary of the=
+ plan calls=20
+            for an individual requirement to carry health insurance.&#8221;=
+=20
+            [Associated Press, <A=20
+            href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx?s=
+=3D785&amp;lid=3D22928&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">6/17/09<=
+/A>]<STRONG><BR><BR></STRONG><STRONG>Baker=20
+            And Dole&#8217;s</STRONG> <STRONG>Proposals Calls For $1.2 Tril=
+lion Plan.=20
+            </STRONG>The Associated Press reported: &#8220;Democrats Tom Da=
+schle and=20
+            George Mitchell are set to join Republicans Bob Dole and Howard=
+=20
+            Baker on Wednesday to release a $1.2 trillion proposal that wou=
+ld be=20
+            fully paid for with a combination of spending cuts and tax=20
+            increases.&#8221; [Associated Press, <A=20
+            href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx?s=
+=3D785&amp;lid=3D22928&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">6/17/09<=
+/A>]</P>
+            <P><STRONG>Republicans Are Standing In The Way Of Real Health C=
+are=20
+            Reform: A Sample Of Proposed Republican <A=20
+            href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx?s=
+=3D785&amp;lid=3D22929&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">Amendmen=
+ts</A>.</STRONG></P>
+            <UL type=3Ddisc>
+              <LI>Coburn 17: To clarify the intent of the prevention and pu=
+blic=20
+              health investment fund - would rename it the &#8220;Public He=
+alth=20
+              Earmark Fund.&#8221; </LI></UL>
+            <UL type=3Ddisc>
+              <LI>Coburn 18: To clarify the intent of the prevention and pu=
+blic=20
+              health investment fund - would rename it the &#8220;Slush Fun=
+d for=20
+              Special Interests.&#8221; </LI></UL>
+            <UL type=3Ddisc>
+              <LI>Coburn 19: To restate the purpose of the Prevention and P=
+ublic=20
+              health Investment Fund - would insert the following: "It is t=
+he=20
+              purpose of this section to circumvent the regular budget proc=
+ess=20
+              in order to ignore revenue constraints and other spending=20
+              priorities ...&#8221; </LI></UL>
+            <UL type=3Ddisc>
+              <LI>Coburn 43: To rename the community health program subtitl=
+e IV=20
+              - would rename it the &#8220;Federal Takeover of Local Commun=
+ities.&#8221;=20
+              </LI></UL>
+            <UL type=3Ddisc>
+              <LI>Coburn 51: To prohibit the use of funds to build football=
+=20
+              stadiums.</LI></UL>
+            <UL>
+              <LI>Coburn 111: To prohibit the Department of Health and Huma=
+n=20
+              Services from providing funding for fashion shows.<BR></LI></=
+UL>
+            <P><STRONG>For more information, contact:</STRONG><BR>Adam=20
+            Jentleson, 202.682.1611 <BR>ajentleson@americanprogressaction.o=
+rg=20
+            </P>
+        <TR>
+          <TD class=3Dfooter vAlign=3Dbottom>
+            <P=20
+            style=3D"BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: bl=
+ock; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: #8a8888; BORDER=
+-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0.5em; MARGIN: 0px; COLOR: white; LINE-=
+HEIGHT: 1.5em; PADDING-TOP: 0.5em; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: =
+0px">Center=20
+            for American Progress Action Fund | 1333 H Street NW, 10th Floo=
+r |=20
+            Washington, DC 20005</P></TD></TR></TBODY></TABLE><!-- close la=
+yout table -->
+      <CENTER>
+      <P><IMG height=3D70 alt=3D"CAP Action and Media Matters Action Logos"=
+=20
+      src=3D"http://images2.americanprogress.org/email/progressivemedia-foo=
+ter-logos.png"=20
+      width=3D600 useMap=3D#Map border=3D0=20
+NOSEND=3D"1"></P></CENTER></TD></TR></TBODY></TABLE><!-- close container ta=
+ble --><MAP=20
+id=3DMap name=3DMap><AREA shape=3DRECT alt=3D"CAP Action" coords=3D0,1,320,=
+70=20
+  href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx?s=3D785&amp;l=
+id=3D216&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75"><AREA=20
+  shape=3DRECT alt=3D"Media Matters Action" coords=3D376,5,599,68=20
+  href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx?s=3D785&amp;l=
+id=3D19774&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75"></MAP><IMG=20
+height=3D3=20
+src=3D"http://app.mx3.americanprogressaction.org/e/FooterImages/FooterImage=
+1.aspx?elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75&amp;siteid=3D785"=20
+width=3D3 border=3D0 NOSEND=3D"1"><IMG height=3D3=20
+src=3D"http://app.mx3.americanprogressaction.org/e/FooterImages/FooterImage=
+2.aspx?elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75&amp;siteid=3D785"=20
+width=3D3 border=3D0 NOSEND=3D"1"> <A=20
+href=3D"http://app.mx3.americanprogressaction.org/e/er.aspx?s=3D785&amp;lid=
+=3D20880&amp;elq=3DFF7F3164F1874AF8B288CE0B3CDC1A75">
+<P align=3Dcenter><FONT face=3DArial size=3D1>Unsubscribe from Progressive =
+Media=20
+emails</FONT></P></A><br>
+--~--~---------~--~----~------------~-------~--~----~<br>
+You received this message because you are subscribed to the &quot;big campa=
+ign&quot; group.
+ <br> <p>To post to this group, send to bigcampaign@googlegroups.com
+ <br> <p>To unsubscribe, send email to bigcampaign-unsubscribe@googlegroups=
+.com
+ <br> <p>E-mail dubois.sara@gmail.com with questions or concerns
+ <br> <p>This is a list of individuals. It is not affiliated with any group=
+ or organization.<br>
+-~----------~----~----~----~------~----~------~--~---<br>
+</BODY></HTML>
+<br>
+
+--_000_A28459BA2B4D5D49BED0238513058A7F01251CB54B03CAPMAILBOXa_--

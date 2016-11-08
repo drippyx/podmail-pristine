@@ -1,0 +1,696 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.136 with SMTP id r130csp188lfr;
+        Tue, 8 Sep 2015 15:53:34 -0700 (PDT)
+X-Received: by 10.50.6.16 with SMTP id w16mr45353488igw.74.1441752796088;
+        Tue, 08 Sep 2015 15:53:16 -0700 (PDT)
+Return-Path: <speechdrafts+bncBCRIVK5JUEBBBTGNXWXQKGQE6SHXKEQ@hillaryclinton.com>
+Received: from mail-io0-x245.google.com (mail-io0-x245.google.com. [2607:f8b0:4001:c06::245])
+        by mx.google.com with ESMTPS id i6si254578igg.28.2015.09.08.15.53.00
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 08 Sep 2015 15:53:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBCRIVK5JUEBBBTGNXWXQKGQE6SHXKEQ@hillaryclinton.com designates 2607:f8b0:4001:c06::245 as permitted sender) client-ip=2607:f8b0:4001:c06::245;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBCRIVK5JUEBBBTGNXWXQKGQE6SHXKEQ@hillaryclinton.com designates 2607:f8b0:4001:c06::245 as permitted sender) smtp.mailfrom=speechdrafts+bncBCRIVK5JUEBBBTGNXWXQKGQE6SHXKEQ@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com
+Received: by mail-io0-x245.google.com with SMTP id i196sf13145ioi.3
+        for <john.podesta@gmail.com>; Tue, 08 Sep 2015 15:53:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:from:to:cc:subject:thread-topic:thread-index:date:message-id
+         :references:in-reply-to:accept-language:content-language
+         :content-type:mime-version:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=4gZR0/RKUzUCRhNyEjCnXRrRlE40ViCe9YIH16Q8+aU=;
+        b=TCuat9vPin0k3LBJDYpVk8peFgAvRUiYq6k78qddOTPrzOvrERIr2H41N29RkPlTCK
+         BS3s20abVAQD1ULYHlxKGZPrSc3jjWIH+bgYPBlm8UjAcTx5K637JJQiakngQ1jUB1bN
+         b0yQZSbd8AuKlFl9Y7UBVPlQGFigJz7OcZ2Eo=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:from:to:cc:subject:thread-topic
+         :thread-index:date:message-id:references:in-reply-to:accept-language
+         :content-language:content-type:mime-version:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=4gZR0/RKUzUCRhNyEjCnXRrRlE40ViCe9YIH16Q8+aU=;
+        b=ZZknE7Wva3o5mWsb3KBQig9ff0g148UJuM/PzW7rJOIVTuN9GND+pAyFR7pL4u6Rsm
+         jlZUWw6BtvKX5czkGASdRQD7nCs257BPEBvCXujEWjkAlw44iV+f52loGoeaG8/ETlp0
+         UtErLi7uOpE7+gvGfgcQMyWe74bpJoVWsZ4J1laQRcEnb9qXw/2uQuNuK04qFqEbMrD6
+         aEtqNxo7ibr8FxnfsQkLOlBl7BW6m2u1RAKbFTsWFTloHpwU/x/ezEHaWGFrp/XoBB05
+         HTeQh5oy5Rz+4CfFfpyTIeRU4EW7xwBKU/p8HLFeDnKkxe1/gIz6Ij261QpL581uZ/Is
+         t0Mw==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQm4/+TtHhYGFqZ0U3AHF+bRYqJp7+46A+qRquN55gDNkCNM3HjdzhWggU7l/s+wo3YNiSUs
+X-Received: by 10.182.106.11 with SMTP id gq11mr27075846obb.25.1441752780488;
+        Tue, 08 Sep 2015 15:53:00 -0700 (PDT)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.50.79.196 with SMTP id l4ls1163269igx.22.canary; Tue, 08 Sep
+ 2015 15:53:00 -0700 (PDT)
+X-Received: by 10.68.191.130 with SMTP id gy2mr63841243pbc.124.1441752780056;
+        Tue, 08 Sep 2015 15:53:00 -0700 (PDT)
+Received: from hub031-co-5.exch031.serverdata.net (hub031-co-5.exch031.serverdata.net. [199.193.204.139])
+        by mx.google.com with ESMTPS id y4si6245789pbw.84.2015.09.08.15.52.59
+        (version=TLSv1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 08 Sep 2015 15:53:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jbenenson@bsgco.com designates 199.193.204.139 as permitted sender) client-ip=199.193.204.139;
+Received: from MBX031-W1-CO-6.exch031.domain.local ([10.224.113.72]) by
+ HUB031-CO-5.exch031.domain.local ([10.224.113.52]) with mapi id
+ 14.03.0224.002; Tue, 8 Sep 2015 15:52:57 -0700
+From: Joel Benenson <jbenenson@bsgco.com>
+To: Nikki Budzinski <nbudzinski@hillaryclinton.com>
+CC: Kristina Costa <kcosta@hillaryclinton.com>, 
+ Tony Carrk <tcarrk@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ Approvals Account <approvals@hillaryclinton.com>, 
+ Trevor Houser <tghouser.hrc@gmail.com>, Ben Kobren <benkobren@gmail.com>, 
+ Pete Ogden <progden@gmail.com>
+Subject: Re: Energy infrastructure fact sheet & KXL oped
+Thread-Topic: Energy infrastructure fact sheet & KXL oped
+Thread-Index: AQHQ6XKvTR58A488GEC3o93Lehffw54xXuEAgADS5wD//41Z4IAAeCUAgAFb84CAAAGEgP//j7tugAB3+gCAAAEqAIAAAIKA//+hMuc=
+Date: Tue, 8 Sep 2015 22:52:58 +0000
+Message-ID: <B96DB05D-FBF0-4DAD-AC20-31DF289CCA9E@bsgco.com>
+References: <CAD6XBDBh54rV85Rm=-Z-1ZEWHbF2brdeKgNHVy7xnLXThH=RJw@mail.gmail.com>
+ <1A484C9C32B526468802B7C2E6FD1BCEB3CBB603@mbx031-w1-co-6.exch031.domain.local>
+ <CAD6XBDB9BNnxWgmsDJQxA=GFQ+AfMv3wiXqHxvAE+ZKOL9Fnvg@mail.gmail.com>
+ <1A484C9C32B526468802B7C2E6FD1BCEB3CBF123@mbx031-w1-co-6.exch031.domain.local>
+ <CAD6XBDAYO6rrTn9HyHCnf-PU9vW7ncHzneORe-=3aX7mk12j9Q@mail.gmail.com>
+ <CAD6XBDD=4Ja_Qd6L9qY3bOgqsh-QfymJ4vb6r=M-uCFBEdMpPg@mail.gmail.com>
+ <7b378dfed89fc261905461128e9232df@mail.gmail.com>
+ <C6770B40-61A1-46FF-ADF2-DEFD4700F4F7@bsgco.com>
+ <CA+Z3wa3-K4Mu_jxD_2vPMfFOyGzoQCEayd+Wmn1eqAhKPQRjHw@mail.gmail.com>
+ <CAD6XBDASm8LcSZKc+Y4tjWrO5XwMVHbOEgBw1T9MHXrxfNy4Aw@mail.gmail.com>,<CA+Z3wa38ONjPAXGKa0WnSBCu5DBepE2kDfkMpvYDS-R7tZtxbA@mail.gmail.com>
+In-Reply-To: <CA+Z3wa38ONjPAXGKa0WnSBCu5DBepE2kDfkMpvYDS-R7tZtxbA@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Content-Type: multipart/alternative;
+	boundary="_000_B96DB05DFBF04DADAC2031DF289CCA9Ebsgcocom_"
+MIME-Version: 1.0
+X-Original-Sender: jbenenson@bsgco.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of jbenenson@bsgco.com designates 199.193.204.139 as permitted sender) smtp.mailfrom=jbenenson@bsgco.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--_000_B96DB05DFBF04DADAC2031DF289CCA9Ebsgcocom_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+How does that help us? We are have been challenged for not having a positio=
+n and being strong in opposing is essential. Vague or less than clear direc=
+t language will reinforce weakness instead of showing strength.
+
+I think the graph as written lacks any impact, is circuitous and her statem=
+ent needs to be super strong to get us past the fact that she hadn't taken =
+a position.
+
+Sent from my iPhone
+
+On Sep 8, 2015, at 5:32 PM, Nikki Budzinski <nbudzinski@hillaryclinton.com<=
+mailto:nbudzinski@hillaryclinton.com>> wrote:
+
+Yes, correct to Joel's comment.  Thank you.
+
+On Tue, Sep 8, 2015 at 5:30 PM, Kristina Costa <kcosta@hillaryclinton.com<m=
+ailto:kcosta@hillaryclinton.com>> wrote:
+You mean on Joel's comment, Nikki? Agree bc we said "point towards" as the =
+State EIS climate impact of the pipeline would set a very low bar to hold o=
+urselves to for all other future projects.
+
+
+On Tue, Sep 8, 2015 at 5:26 PM, Nikki Budzinski <nbudzinski@hillaryclinton.=
+com<mailto:nbudzinski@hillaryclinton.com>> wrote:
+I would prefer language a little less bold from the labor perspective.  I w=
+orry it will be interpreted to reflect on similar future projects.
+
+On Tue, Sep 8, 2015 at 5:16 PM, Joel Benenson <jbenenson@bsgco.com<mailto:j=
+benenson@bsgco.com>> wrote:
+I don't like saying points us to an energy future.
+
+Isn't it simply: keystone xl puts our economy, our country, and our global =
+climate at risk.
+
+Sent from my iPhone
+
+On Sep 8, 2015, at 4:58 PM, Tony Carrk <tcarrk@hillaryclinton.com<mailto:tc=
+arrk@hillaryclinton.com>> wrote:
+
+Good here as long as policy is.
+
+From: speechdrafts@hillaryclinton.com<mailto:speechdrafts@hillaryclinton.co=
+m> [mailto:speechdrafts@hillaryclinton.com<mailto:speechdrafts@hillaryclint=
+on.com>] On Behalf Of Kristina Costa
+Sent: Tuesday, September 8, 2015 4:53 PM
+To: Joel Benenson <jbenenson@bsgco.com<mailto:jbenenson@bsgco.com>>
+Cc: Speech Drafts <speechdrafts@hillaryclinton.com<mailto:speechdrafts@hill=
+aryclinton.com>>; Approvals Account <approvals@hillaryclinton.com<mailto:ap=
+provals@hillaryclinton.com>>; Nikki Budzinski <nbudzinski@hillaryclinton.co=
+m<mailto:nbudzinski@hillaryclinton.com>>; Trevor Houser <tghouser.hrc@gmail=
+.com<mailto:tghouser.hrc@gmail.com>>; Ben Kobren <benkobren@gmail.com<mailt=
+o:benkobren@gmail.com>>; Pete Ogden <progden@gmail.com<mailto:progden@gmail=
+.com>>
+Subject: Re: Energy infrastructure fact sheet & KXL oped
+
+Any further edits or comments from this group before sending the package fo=
+rward to the book? Thanks all.
+
+On Mon, Sep 7, 2015 at 8:07 PM, Kristina Costa <kcosta@hillaryclinton.com<m=
+ailto:kcosta@hillaryclinton.com>> wrote:
+How about we invert it and cut the additional detail. Can you live with tha=
+t?
+
+
+Keystone XL points us toward an energy future that puts the United States a=
+nd our global climate at even greater risk. But building clean, secure, and=
+ affordable North American energy future is bigger than Keystone XL or any =
+other single project.
+
+We can make the United States the global leader in the fight against climat=
+e change and the clean energy superpower of the 21st century. That=92s why =
+today I am announcing a comprehensive strategy to modernize American energy=
+ infrastructure and forge a new partnership with Canada and Mexico to cut c=
+arbon pollution across the continent and combat climate change, unleashing =
+billions in investment, delivering reliable and affordable energy, protecti=
+ng the health of our families and communities, and creating good-paying job=
+s and careers.
+
+
+
+
+On Mon, Sep 7, 2015 at 7:59 PM, Joel Benenson <jbenenson@bsgco.com<mailto:j=
+benenson@bsgco.com>> wrote:
+I understand the point. But right now you don=92t have any sound bite that =
+elevates her position and all that will get picked up is that she=92s oppos=
+ed to keystone.
+
+The clean energy superpower phrase is in the final clause of a single-sente=
+nce 60-word paragraph.   We have to have a single big idea that encapsulate=
+s her vision on this and link it to our country=92s future.   The clean ene=
+rgy superpower is her line;  leading the world in running our homes, factor=
+ies, offices and schools on clean energy is a big idea =85.
+
+I=92m worried that if we don=92t have something like that we are light on h=
+er core values and beliefs on this issue and we are missing those, she risk=
+s looking very political, especially on this.
+
+From: speechdrafts@hillaryclinton.com<mailto:speechdrafts@hillaryclinton.co=
+m> [mailto:speechdrafts@hillaryclinton.com<mailto:speechdrafts@hillaryclint=
+on.com>] On Behalf Of Kristina Costa
+Sent: Monday, September 07, 2015 7:48 PM
+To: Joel Benenson
+Cc: Speech Drafts; Approvals Account; Nikki Budzinski; Trevor Houser; Ben K=
+obren; Pete Ogden
+Subject: Re: Energy infrastructure fact sheet & KXL oped
+
+Recirculating both the fact sheet and op-ed reflecting edits and comments f=
+rom Jake, Nikki, and Joel. In answer to research: changed 20 to 40, and Tre=
+vor can provide calculations based on EIA data, if reporters need it, on th=
+e Mexico/Canada trade point. It isn't written up neatly in one place online=
+, unfortunately.
+
+Joel, we pumped up the climate impacts but in discussing with Jake decided =
+we do still need to address why she's making her position known, when she h=
+as previously said she will wait for the President to make a decision. Adde=
+d a line about wanting to let voters know where she stands, and added a mor=
+e expansive graf about making the US the leader in fighting climate change =
+and becoming a clean energy superpower. Nipped and tucked elsewhere to keep=
+ the word count down.
+
+Knowing we are still working out rollout timing - comms, policy, political,=
+ do you clear these to go forward to the book?
+
+Thanks all.
+
+
+
+On Mon, Sep 7, 2015 at 2:11 PM, Joel Benenson <jbenenson@bsgco.com<mailto:j=
+benenson@bsgco.com>> wrote:
+Sure you have these stats, on cities, but just in case:
+
+http://www.environmentamerica.org/reports/ame/shining-cities-0
+
+
+
+From: speechdrafts@hillaryclinton.com<mailto:speechdrafts@hillaryclinton.co=
+m> [mailto:speechdrafts@hillaryclinton.com<mailto:speechdrafts@hillaryclint=
+on.com>] On Behalf Of Kristina Costa
+Sent: Monday, September 07, 2015 9:39 AM
+To: Speech Drafts; Approvals Account; Nikki Budzinski; Trevor Houser; Ben K=
+obren; Pete Ogden
+Subject: Energy infrastructure fact sheet & KXL oped
+
+Team,
+
+Attaching a draft HRC op-ed which uses opposition to KXL as a pivot to talk=
+ about a plan for broad investment in modernizing our energy infrastructure=
+ and forging a climate compact between the US, Mexico, and Canada. These ve=
+rsions reflect initial edits and comments from the policy team, JDP, and Ni=
+kki.
+
+The current thinking is to have HRC address this in her meeting with the bu=
+ilding trades on Wednesday and roll out the fact sheet and op-ed in conjunc=
+tion with that. Please send edits and clearances from comms, policy, resear=
+ch, and political to me, Trevor, Ben, and Pete no later than 10 am tomorrow=
+ so we can get this to HRC with plenty of time for her review and clearance=
+.
+
+Thanks,
+
+Kristina
+
+
+
+
+
+
+--
+Nikki Budzinski
+Labor Outreach Director
+Hillary for America
+646-854-1442<tel:646-854-1442> (direct)
+
+
+
+
+--
+Nikki Budzinski
+Labor Outreach Director
+Hillary for America
+646-854-1442 (direct)
+
+--_000_B96DB05DFBF04DADAC2031DF289CCA9Ebsgcocom_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body dir=3D"auto">
+<div>How does that help us? We are have been challenged for not having a po=
+sition and being strong in opposing is essential. Vague or less than clear =
+direct language will reinforce weakness instead of showing strength.&nbsp;<=
+/div>
+<div><br>
+</div>
+<div>I think the graph as written lacks any impact, is circuitous and her s=
+tatement needs to be super strong to get us past the fact that she hadn't t=
+aken a position.&nbsp;<br>
+<br>
+Sent from my iPhone</div>
+<div><br>
+On Sep 8, 2015, at 5:32 PM, Nikki Budzinski &lt;<a href=3D"mailto:nbudzinsk=
+i@hillaryclinton.com">nbudzinski@hillaryclinton.com</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div dir=3D"ltr">Yes, correct to Joel's comment.&nbsp; Thank you.</div>
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_quote">On Tue, Sep 8, 2015 at 5:30 PM, Kristina Costa <=
+span dir=3D"ltr">
+&lt;<a href=3D"mailto:kcosta@hillaryclinton.com" target=3D"_blank">kcosta@h=
+illaryclinton.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div dir=3D"ltr">You mean on Joel's comment, Nikki? Agree bc we said &quot;=
+point towards&quot; as the State EIS climate impact of the pipeline would s=
+et a very low bar to hold ourselves to for all other future projects.&nbsp;
+<div><br>
+</div>
+</div>
+<div class=3D"HOEnZb">
+<div class=3D"h5">
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_quote">On Tue, Sep 8, 2015 at 5:26 PM, Nikki Budzinski =
+<span dir=3D"ltr">
+&lt;<a href=3D"mailto:nbudzinski@hillaryclinton.com" target=3D"_blank">nbud=
+zinski@hillaryclinton.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div dir=3D"ltr">I would prefer language a little less bold from the labor =
+perspective.&nbsp; I worry it will be interpreted to reflect on similar fut=
+ure projects.</div>
+<div class=3D"gmail_extra">
+<div>
+<div><br>
+<div class=3D"gmail_quote">On Tue, Sep 8, 2015 at 5:16 PM, Joel Benenson <s=
+pan dir=3D"ltr">
+&lt;<a href=3D"mailto:jbenenson@bsgco.com" target=3D"_blank">jbenenson@bsgc=
+o.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div dir=3D"auto">
+<div>I don't like saying points us to an energy future. &nbsp;</div>
+<div><br>
+</div>
+<div>Isn't it simply: keystone xl puts our economy, our country, and our gl=
+obal climate at risk.&nbsp;<br>
+<br>
+Sent from my iPhone</div>
+<div>
+<div>
+<div><br>
+On Sep 8, 2015, at 4:58 PM, Tony Carrk &lt;<a href=3D"mailto:tcarrk@hillary=
+clinton.com" target=3D"_blank">tcarrk@hillaryclinton.com</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Good here as long as policy is.</span=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">&nbsp;</span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif">
+<a href=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">speech=
+drafts@hillaryclinton.com</a> [mailto:<a href=3D"mailto:speechdrafts@hillar=
+yclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>]
+<b>On Behalf Of </b>Kristina Costa<br>
+<b>Sent:</b> Tuesday, September 8, 2015 4:53 PM<br>
+<b>To:</b> Joel Benenson &lt;<a href=3D"mailto:jbenenson@bsgco.com" target=
+=3D"_blank">jbenenson@bsgco.com</a>&gt;<br>
+<b>Cc:</b> Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hillaryclinton.=
+com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>&gt;; Approvals A=
+ccount &lt;<a href=3D"mailto:approvals@hillaryclinton.com" target=3D"_blank=
+">approvals@hillaryclinton.com</a>&gt;; Nikki Budzinski
+ &lt;<a href=3D"mailto:nbudzinski@hillaryclinton.com" target=3D"_blank">nbu=
+dzinski@hillaryclinton.com</a>&gt;; Trevor Houser &lt;<a href=3D"mailto:tgh=
+ouser.hrc@gmail.com" target=3D"_blank">tghouser.hrc@gmail.com</a>&gt;; Ben =
+Kobren &lt;<a href=3D"mailto:benkobren@gmail.com" target=3D"_blank">benkobr=
+en@gmail.com</a>&gt;;
+ Pete Ogden &lt;<a href=3D"mailto:progden@gmail.com" target=3D"_blank">prog=
+den@gmail.com</a>&gt;<br>
+<b>Subject:</b> Re: Energy infrastructure fact sheet &amp; KXL oped</span><=
+/p>
+<p class=3D"MsoNormal">&nbsp;</p>
+<div>
+<p class=3D"MsoNormal">Any further edits or comments from this group before=
+ sending the package forward to the book? Thanks all.&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+<div>
+<p class=3D"MsoNormal">On Mon, Sep 7, 2015 at 8:07 PM, Kristina Costa &lt;<=
+a href=3D"mailto:kcosta@hillaryclinton.com" target=3D"_blank">kcosta@hillar=
+yclinton.com</a>&gt; wrote:</p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">How about we invert it and cut the additional detail=
+. Can you live with that?&nbsp;</p>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Keystone XL points us toward an energy future that p=
+uts the United States and our global climate at even greater risk. But buil=
+ding clean, secure, and affordable North American energy future is bigger t=
+han Keystone XL or any other single
+ project. </p>
+<p class=3D"MsoNormal">&nbsp;</p>
+<p class=3D"MsoNormal">We can make the United States the global leader in t=
+he fight against climate change and the clean energy superpower of the 21<s=
+up>st</sup> century. That=92s why today I am announcing a comprehensive str=
+ategy to modernize American energy infrastructure
+ and forge a new partnership with Canada and Mexico to cut carbon pollution=
+ across the continent and combat climate change, unleashing billions in inv=
+estment, delivering reliable and affordable energy, protecting the health o=
+f our families and communities,
+ and creating good-paying jobs and careers.&nbsp;</p>
+<p class=3D"MsoNormal">&nbsp;</p>
+<p class=3D"MsoNormal">&nbsp;</p>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+<div>
+<p class=3D"MsoNormal">On Mon, Sep 7, 2015 at 7:59 PM, Joel Benenson &lt;<a=
+ href=3D"mailto:jbenenson@bsgco.com" target=3D"_blank">jbenenson@bsgco.com<=
+/a>&gt; wrote:</p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">I understand the point. But right now=
+ you don=92t have any sound bite that elevates her position and all that wi=
+ll get picked up is that she=92s opposed to keystone.&nbsp;
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">The clean energy superpower phrase is=
+ in the final clause of a single-sentence 60-word paragraph.&nbsp;&nbsp; We=
+ have to have a single big idea that encapsulates her vision
+ on this and link it to our country=92s future.&nbsp;&nbsp; The clean energ=
+y superpower is her line;&nbsp; leading the world in running our homes, fac=
+tories, offices and schools on clean energy is a big idea =85.
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">I=92m worried that if we don=92t have=
+ something like that we are light on her core values and beliefs on this is=
+sue and we are missing those, she risks looking very
+ political, especially on this. </span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">&nbsp;</span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,sans-serif">From:</span></b><span style=3D"font-size:10.0pt;f=
+ont-family:&quot;Tahoma&quot;,sans-serif">
+<a href=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">speech=
+drafts@hillaryclinton.com</a> [mailto:<a href=3D"mailto:speechdrafts@hillar=
+yclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>]
+<b>On Behalf Of </b>Kristina Costa<br>
+<b>Sent:</b> Monday, September 07, 2015 7:48 PM<br>
+<b>To:</b> Joel Benenson<br>
+<b>Cc:</b> Speech Drafts; Approvals Account; Nikki Budzinski; Trevor Houser=
+; Ben Kobren; Pete Ogden<br>
+<b>Subject:</b> Re: Energy infrastructure fact sheet &amp; KXL oped</span><=
+/p>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+<div>
+<p class=3D"MsoNormal">Recirculating both the fact sheet and op-ed reflecti=
+ng edits and comments from Jake, Nikki, and Joel. In answer to research: ch=
+anged 20 to 40, and Trevor can provide calculations based on EIA data, if r=
+eporters need it, on the Mexico/Canada
+ trade point. It isn't written up neatly in one place online, unfortunately=
+.&nbsp;</p>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Joel, we pumped up the climate impacts but in discus=
+sing with Jake decided we do still need to address why she's making her pos=
+ition known, when she has previously said she will wait for the President t=
+o make a decision. Added a line about
+ wanting to let voters know where she stands, and added a more expansive gr=
+af about making the US the leader in fighting climate change and becoming a=
+ clean energy superpower. Nipped and tucked elsewhere to keep the word coun=
+t down.&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Knowing we are still working out rollout timing - co=
+mms, policy, political, do you clear these to go forward to the book?&nbsp;=
+</p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thanks all.&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+<div>
+<p class=3D"MsoNormal">On Mon, Sep 7, 2015 at 2:11 PM, Joel Benenson &lt;<a=
+ href=3D"mailto:jbenenson@bsgco.com" target=3D"_blank">jbenenson@bsgco.com<=
+/a>&gt; wrote:</p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">Sure you have these stats, on cities,=
+ but just in case:
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d"><a href=3D"http://www.environmentamer=
+ica.org/reports/ame/shining-cities-0" target=3D"_blank">http://www.environm=
+entamerica.org/reports/ame/shining-cities-0</a></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">&nbsp;</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">&nbsp;</span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,sans-serif">From:</span></b><span style=3D"font-size:10.0pt;f=
+ont-family:&quot;Tahoma&quot;,sans-serif">
+<a href=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">speech=
+drafts@hillaryclinton.com</a> [mailto:<a href=3D"mailto:speechdrafts@hillar=
+yclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>]
+<b>On Behalf Of </b>Kristina Costa<br>
+<b>Sent:</b> Monday, September 07, 2015 9:39 AM<br>
+<b>To:</b> Speech Drafts; Approvals Account; Nikki Budzinski; Trevor Houser=
+; Ben Kobren; Pete Ogden<br>
+<b>Subject:</b> Energy infrastructure fact sheet &amp; KXL oped</span></p>
+<p class=3D"MsoNormal">&nbsp;</p>
+<div>
+<p class=3D"MsoNormal">Team,</p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Attaching a draft HRC op-ed which uses opposition to=
+ KXL as a pivot to talk about a plan for broad investment in modernizing ou=
+r energy infrastructure and forging a climate compact between the US, Mexic=
+o, and Canada. These versions reflect
+ initial edits and comments from the policy team, JDP, and Nikki.&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">The current thinking is to have HRC address this in =
+her meeting with the building trades on Wednesday and roll out the fact she=
+et and op-ed in conjunction with that. Please send edits and clearances fro=
+m comms, policy, research, and political
+ to me, Trevor, Ben, and Pete no later than <b>10&nbsp;am tomorrow</b>&nbsp=
+;so we can get this to HRC with plenty of time for her review and clearance=
+.&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thanks,</p>
+</div>
+<div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Kristina</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal">&nbsp;</p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+<br clear=3D"all">
+<div><br>
+</div>
+</div>
+</div>
+<span><font color=3D"#888888">-- <br>
+<div>
+<div dir=3D"ltr">
+<div>
+<div dir=3D"ltr">
+<div>Nikki Budzinski</div>
+<div>Labor Outreach Director</div>
+<div>Hillary for America</div>
+<div><a href=3D"tel:646-854-1442" value=3D"&#43;16468541442" target=3D"_bla=
+nk">646-854-1442</a> (direct)</div>
+</div>
+</div>
+</div>
+</div>
+</font></span></div>
+</blockquote>
+</div>
+<br>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+<br clear=3D"all">
+<div><br>
+</div>
+-- <br>
+<div class=3D"gmail_signature">
+<div dir=3D"ltr">
+<div>
+<div dir=3D"ltr">
+<div>Nikki Budzinski</div>
+<div>Labor Outreach Director</div>
+<div>Hillary for America</div>
+<div>646-854-1442 (direct)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</body>
+</html>
+
+--_000_B96DB05DFBF04DADAC2031DF289CCA9Ebsgcocom_--

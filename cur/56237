@@ -1,0 +1,317 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.12 with SMTP id m12csp1919754lfb;
+        Tue, 26 Jan 2016 08:33:17 -0800 (PST)
+X-Received: by 10.28.19.76 with SMTP id 73mr26255878wmt.24.1453825992868;
+        Tue, 26 Jan 2016 08:33:12 -0800 (PST)
+Return-Path: <hannon@hillaryclinton.com>
+Received: from mail-wm0-x233.google.com (mail-wm0-x233.google.com. [2a00:1450:400c:c09::233])
+        by mx.google.com with ESMTPS id 203si1440632wmw.23.2016.01.26.08.33.12
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 26 Jan 2016 08:33:12 -0800 (PST)
+Received-SPF: pass (google.com: domain of hannon@hillaryclinton.com designates 2a00:1450:400c:c09::233 as permitted sender) client-ip=2a00:1450:400c:c09::233;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hannon@hillaryclinton.com designates 2a00:1450:400c:c09::233 as permitted sender) smtp.mailfrom=hannon@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wm0-x233.google.com with SMTP id r129so83567582wmr.0
+        for <john.podesta@gmail.com>; Tue, 26 Jan 2016 08:33:12 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:from:to:cc:content-type;
+        bh=NK8FfLuRMORudN0q267GfYvsV+OqfJwUC+7JmCGBGfc=;
+        b=WDJS53jX9roGanQ1ydPUTtaKMgTPif9cHmtNAgCpCbE3RMR9DDDtkS4Dvj5LgFZnU1
+         NEUlbUIwwZr1TTw59k3TkjahWROwpowEyW6vEdQ7X9UJy3vtIigndj+tk+YH9fhYTe9O
+         Xs/KqFt/q8lSFeDBQSxWC4C9mKLXOn53zt8Ko=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=NK8FfLuRMORudN0q267GfYvsV+OqfJwUC+7JmCGBGfc=;
+        b=e3t22lLxs41Sv9AFG7k/Vu1dBR11k4VIA9wwXh96E8WJ6mcd74wetqOgzGVGkv/Bdn
+         OwkxGgSbFEY+da3AwRfE5pz0NksPelRcRQddPz8mT45edkkaCgG9+vu/ksYnMzLPVNdA
+         MbllJWw+urV9MX0tiGw2voEju1/u8MzJaUZiZURTANMJTXxa+kZO89FvgLPqrzj5JPee
+         KAQFm9HVSl7pxxjoNVcq1/qMShK+Cy3SyZJ9PEAoItIldQFE2QMxAvWEnhxQt9BO10Cg
+         +vz/87A+cTXCh94187r6tCVsLX1imcjEVVgOcgV/wXIP7cLElsHRsYStwOJCY+bPodKO
+         Vkfw==
+X-Gm-Message-State: AG10YOTrX85PdY3hAqmfKb31QUxoYGH839BDhyKRvoebEkbY0KzjwJK8hlhDfe53tOE3HxZOvSWTp+QP0f+9Lk2G
+MIME-Version: 1.0
+X-Received: by 10.28.87.135 with SMTP id l129mr26592745wmb.9.1453825992615;
+ Tue, 26 Jan 2016 08:33:12 -0800 (PST)
+Received: by 10.27.86.143 with HTTP; Tue, 26 Jan 2016 08:33:12 -0800 (PST)
+Date: Tue, 26 Jan 2016 11:33:12 -0500
+Message-ID: <CAMaQOZ+ZCMoinr1WG+RvZnJnh+KHcSsN5au6aAvAkXmKFcbY4g@mail.gmail.com>
+Subject: Tech Weekly Report (Jan 18th to Jan 25th)
+From: Stephanie Hannon <hannon@hillaryclinton.com>
+To: Teddy Goff <tgoff@hillaryclinton.com>, 
+ Elan Kriegel <ekriegel@hillaryclinton.com>, 
+ Jenna Lowenstein <jlowenstein@hillaryclinton.com>, 
+ Katie Dowd <kdowd@hillaryclinton.com>, 
+ Marlon Marshall <mmarshall@hillaryclinton.com>, 
+ Brynne Craig <bcraig@hillaryclinton.com>, 
+ Rebecca Leal <rleal@hillaryclinton.com>, 
+ Dennis Cheng <dcheng@hillaryclinton.com>, 
+ Beth Jones <bjones@hillaryclinton.com>, 
+ Robby Mook <re47@hillaryclinton.com>, 
+ Heather Stone <hstone@hillaryclinton.com>, 
+ Kimberly Panicek Trueblood <kptrueblood@hillaryclinton.com>, 
+ Tracey Lewis <tlewis@hillaryclinton.com>, 
+ John Podesta <john.podesta@gmail.com>, 
+ Huma Abedin <ha16@hillaryclinton.com>, 
+ Nell Thomas <nthomas@hillaryclinton.com>, 
+ Kit Rodolfa <krodolfa@hillaryclinton.com>, 
+ Kristina Schake <kschake@hillaryclinton.com>, 
+ Christina Reynolds <creynolds@hillaryclinton.com>, 
+ Brian Fallon <bfallon@hillaryclinton.com>, 
+ Jesse Ferguson <jferguson@hillaryclinton.com>
+CC: Tech Managers <tech-managers@hillaryclinton.com>, 
+ The Product Team <product@hillaryclinton.com>, 
+ Ahna Rao <arao@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a1144308cdb0651052a3f3d5c
+
+--001a1144308cdb0651052a3f3d5c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Week starting January 18th
+
+Updates:
+
+   -
+
+   SMS GOTC:To help support Iowa=E2=80=99s GOTC effort, we=E2=80=99re worki=
+ng on a tool
+   that will allow field organizers to send SMS messages to caucus-goers an=
+d
+   volunteers. Now that the Twilio (text messaging provider) contract has b=
+een
+   signed, we can wrap up the development and move into the the testing pha=
+se
+   so we can have the tool in Iowa=E2=80=99s hands as soon as possible.
+   -
+
+   Vertica has new hardware and backup taken: Progress is moving along well
+   running our own instance of Vertica up on AWS. We have successfully move=
+d
+   all the data onto new hardware with better tuned configurations and have
+   noticed immediate benefits. The new hardware allows us to take advantage=
+ of
+   better networking and the tuning has nearly 5x=E2=80=99d some aspects of
+   performance out of the machines (for the same cost!). We also have taken
+   the first backup of our data (which turns out is no small feat with
+   Vertica) so we can sleep more easily at night.
+   -
+
+   Recurring upsell experiment update: Last week we launched an experiment
+   aimed at increasing the number of monthly recurring donors. The experime=
+nt
+   is still collecting data.
+   -
+
+   Two step lightbox experiment: We launched an experiment that turns the
+   homepage email sign-up lightbox into a two step process. First we ask th=
+e
+   user to agree to a prompt (e.g. =E2=80=9CLet's elect a president who'll =
+defend and
+   build on President Obama's progress.=E2=80=9D) and if they agree to the =
+prompt we
+   ask them to sign up for our email list.
+   -
+
+   ACH/HVF support for events: We=E2=80=99re on track to launch ACH and HVF=
+ support
+   for ticketed events by February 1st!
+   -
+
+   Call Tool: The team has started the first phase/backbone of the Call
+   Tool, which will enable us to engage our supporters in states with littl=
+e
+   or no staff to help the campaign. So far we=E2=80=99ve been able to pull=
+ virtual
+   phone bank information from VAN and send the call data back (a big step!=
+).
+   We=E2=80=99re are currently working on a visual design for the call tool=
+.
+   -
+
+   Tech Team goes to Rhode Island: Fourteen people from Brooklyn HQ,
+   including 4 members of Team Tech went to Rhode Island to help get HRC on
+   the ballot. The signature goal for the weekend was 1000 and the entire
+   Brooklyn crew worked door-to-door and in high traffic canvassing locatio=
+ns
+   to collect 1,004 signatures in ~2 days.
+
+
+Hiring:
+
+   -
+
+   Welcome Mike Lang (Software Engineer, frontend) =E2=80=94 Before joining=
+ us Mike
+   was a freelance web developer for Madwell, a digital agency. He is joini=
+ng
+   our Organizing Red product team that is building things our events app,
+   prospecting app, and VAN improvements Chrome extension.
+   -
+
+   Welcome Chris Mills (Engineering Manager) =E2=80=94 Chris joins us from
+   BlackRock an asset management company. She will be managing the content
+   publishing team which is responsible for the new website redesign, our
+   upcoming replacement of our current CMS with WordPress and many other
+   projects.
+   -
+
+   Welcome Nat Welch (Site Reliability Engineer, Ops) =E2=80=94 Nat comes t=
+o us
+   from Littlebits Electronics in Manhattan and Google London before that. =
+He
+   brings a lot of experience to our Ops team and positive energy towards
+   making our computer systems healthier and happier.
+
+
+[image: techteaminRI.jpg]
+
+Archive of previous Weekly Reports
+<https://docs.google.com/document/d/1QfJQgg1QImpPVyDPwCTsFGVIOK8ZkA1lntkRqs=
+n3dJc/edit#>
+
+--001a1144308cdb0651052a3f3d5c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_extra"><div class=3D"gmail_quote"><spa=
+n id=3D"docs-internal-guid-54d66705-7ebd-9b44-ec52-b192a479bfe1"><div dir=
+=3D"ltr" style=3D"margin-left:0pt"><table style=3D"border:none;border-colla=
+pse:collapse"><colgroup><col width=3D"24"><col width=3D"600"></colgroup><tb=
+ody><tr style=3D"height:40px"><td style=3D"border:1px solid rgb(11,83,148);=
+vertical-align:top;padding:7px;background-color:rgb(11,83,148)"><br></td><t=
+d style=3D"border:1px solid rgb(11,83,148);vertical-align:middle;padding:7p=
+x"><h1 dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0=
+pt"><span style=3D"font-family:Arial;color:rgb(0,0,0);vertical-align:baseli=
+ne;white-space:pre-wrap;background-color:transparent"><font size=3D"4">Week=
+ starting January 18th</font></span></h1></td></tr></tbody></table></div><b=
+r><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt=
+"><span style=3D"font-family:Arial;color:rgb(0,0,0);font-weight:700;vertica=
+l-align:baseline;white-space:pre-wrap;background-color:transparent">Updates=
+:</span></p><ul style=3D"margin-top:0pt;margin-bottom:0pt"><li dir=3D"ltr" =
+style=3D"list-style-type:disc;vertical-align:baseline"><p dir=3D"ltr" style=
+=3D"margin-top:0pt;margin-bottom:0pt"><span style=3D"color:rgb(0,0,0);font-=
+family:Arial;font-weight:700;line-height:1.38;vertical-align:baseline;white=
+-space:pre-wrap;background-color:transparent">SMS GOTC:</span>To help suppo=
+rt Iowa=E2=80=99s GOTC effort, we=E2=80=99re working on a tool that will al=
+low field organizers to send SMS messages to caucus-goers and volunteers. N=
+ow that the Twilio (text messaging provider) contract has been signed, we c=
+an wrap up the development and move into the the testing phase so we can ha=
+ve the tool in Iowa=E2=80=99s hands as soon as possible.<span style=3D"colo=
+r:rgb(0,0,0);font-family:Arial;font-weight:400;line-height:1.38;vertical-al=
+ign:baseline;white-space:pre-wrap;background-color:transparent"> </span></p=
+></li><li dir=3D"ltr" style=3D"list-style-type:disc;vertical-align:baseline=
+"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0pt"><span style=3D"=
+color:rgb(0,0,0);font-family:Arial;font-weight:700;line-height:1.38;vertica=
+l-align:baseline;white-space:pre-wrap;background-color:transparent">Vertica=
+ has new hardware and backup taken:</span><span style=3D"color:rgb(0,0,0);f=
+ont-family:Arial;font-weight:400;line-height:1.38;vertical-align:baseline;w=
+hite-space:pre-wrap;background-color:transparent"> </span>Progress is movin=
+g along well running our own instance of Vertica up on AWS. We have success=
+fully moved all the data onto new hardware with better tuned configurations=
+ and have noticed immediate benefits. The new hardware allows us to take ad=
+vantage of better networking and the tuning has nearly 5x=E2=80=99d some as=
+pects of performance out of the machines (for the same cost!). We also have=
+ taken the first backup of our data (which turns out is no small feat with =
+Vertica) so we can sleep more easily at night.</p></li><li dir=3D"ltr" styl=
+e=3D"list-style-type:disc;vertical-align:baseline"><p dir=3D"ltr" style=3D"=
+margin-top:0pt;margin-bottom:0pt"><span style=3D"color:rgb(0,0,0);font-fami=
+ly:Arial;font-weight:700;line-height:1.38;vertical-align:baseline;white-spa=
+ce:pre-wrap;background-color:transparent">Recurring upsell experiment updat=
+e:</span><span style=3D"color:rgb(0,0,0);font-family:Arial;font-weight:400;=
+line-height:1.38;vertical-align:baseline;white-space:pre-wrap;background-co=
+lor:transparent"> </span>Last week we launched an experiment aimed at incre=
+asing the number of monthly recurring donors. The experiment is still colle=
+cting data.</p></li><li dir=3D"ltr" style=3D"list-style-type:disc;vertical-=
+align:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0pt"><=
+span style=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;line-heigh=
+t:1.38;vertical-align:baseline;white-space:pre-wrap;background-color:transp=
+arent">Two step lightbox experiment</span><span style=3D"color:rgb(0,0,0);f=
+ont-family:Arial;font-weight:400;line-height:1.38;vertical-align:baseline;w=
+hite-space:pre-wrap;background-color:transparent">: </span>We launched an e=
+xperiment that turns the homepage email sign-up lightbox into a two step pr=
+ocess. First we ask the user to agree to a prompt (e.g. =E2=80=9CLet&#39;s =
+elect a president who&#39;ll defend and build on President Obama&#39;s prog=
+ress.=E2=80=9D) and if they agree to the prompt we ask them to sign up for =
+our email list.</p></li><li dir=3D"ltr" style=3D"list-style-type:disc;verti=
+cal-align:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0p=
+t"><span style=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;line-h=
+eight:1.38;vertical-align:baseline;white-space:pre-wrap;background-color:tr=
+ansparent">ACH/HVF support for events: </span>We=E2=80=99re on track to lau=
+nch ACH and HVF support for ticketed events by February 1st! =C2=A0</p></li=
+><li dir=3D"ltr" style=3D"list-style-type:disc;vertical-align:baseline"><p =
+dir=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0pt"><span style=3D"color=
+:rgb(0,0,0);font-family:Arial;font-weight:700;line-height:1.38;vertical-ali=
+gn:baseline;white-space:pre-wrap;background-color:transparent">Call Tool: <=
+/span>The team has started the first phase/backbone of the Call Tool, which=
+ will enable us to engage our supporters in states with little or no staff =
+to help the campaign. So far we=E2=80=99ve been able to pull virtual phone =
+bank information from VAN and send the call data back (a big step!). We=E2=
+=80=99re are currently working on a visual design for the call tool.</p></l=
+i><li dir=3D"ltr" style=3D"list-style-type:disc;vertical-align:baseline"><p=
+ dir=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0pt"><span style=3D"colo=
+r:rgb(0,0,0);font-family:Arial;font-weight:400;line-height:1.38;vertical-al=
+ign:baseline;white-space:pre-wrap;background-color:transparent"><span style=
+=3D"line-height:20.24px;font-weight:700;vertical-align:baseline;background-=
+color:transparent">Tech Team goes to Rhode Island: </span></span>Fourteen p=
+eople from Brooklyn HQ, including 4 members of Team Tech went to Rhode Isla=
+nd to help get HRC on the ballot. The signature goal for the weekend was 10=
+00 and the entire Brooklyn crew worked door-to-door and in high traffic can=
+vassing locations to collect 1,004 signatures in ~2 days.</p></li></ul><br>=
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-family:Arial;color:rgb(0,0,0);font-weight:700;vertical-=
+align:baseline;white-space:pre-wrap;background-color:transparent">Hiring:</=
+span></p><ul style=3D"margin-top:0pt;margin-bottom:0pt"><li dir=3D"ltr" sty=
+le=3D"list-style-type:disc;vertical-align:baseline"><p dir=3D"ltr" style=3D=
+"margin-top:0pt;margin-bottom:0pt"><span style=3D"color:rgb(0,0,0);font-fam=
+ily:Arial;font-weight:700;line-height:1.38;vertical-align:baseline;white-sp=
+ace:pre-wrap;background-color:transparent">Welcome Mike</span><span style=
+=3D"color:rgb(0,0,0);font-family:Arial;font-weight:400;line-height:1.38;ver=
+tical-align:baseline;white-space:pre-wrap;background-color:transparent"> </=
+span><span style=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;line=
+-height:1.38;vertical-align:baseline;white-space:pre-wrap;background-color:=
+transparent">Lang (Software Engineer, frontend) <font size=3D"1">=E2=80=94 =
+</font></span>Before joining us Mike was a freelance web developer for Madw=
+ell, a digital agency. He is joining our Organizing Red product team that i=
+s building things our events app, prospecting app, and VAN improvements Chr=
+ome extension.</p></li><li dir=3D"ltr" style=3D"list-style-type:disc;vertic=
+al-align:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0pt=
+"><span style=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;line-he=
+ight:1.38;vertical-align:baseline;white-space:pre-wrap;background-color:tra=
+nsparent">Welcome Chris Mills (Engineering Manager)</span><span style=3D"co=
+lor:rgb(0,0,0);font-family:Arial;font-weight:400;line-height:1.38;vertical-=
+align:baseline;white-space:pre-wrap;background-color:transparent">=C2=A0</s=
+pan><span style=3D"color:rgb(0,0,0);font-family:Arial;font-size:x-small;fon=
+t-weight:bold;line-height:13.8px;white-space:pre-wrap">=E2=80=94 </span>Chr=
+is joins us from BlackRock an asset management company. She will be managin=
+g the content publishing team which is responsible for the new website rede=
+sign, our upcoming replacement of our current CMS with WordPress and many o=
+ther projects.</p></li><li dir=3D"ltr" style=3D"list-style-type:disc;vertic=
+al-align:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0pt=
+"><span style=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;line-he=
+ight:1.38;vertical-align:baseline;white-space:pre-wrap;background-color:tra=
+nsparent">Welcome Nat Welch (Site Reliability Engineer, Ops)</span><span st=
+yle=3D"color:rgb(0,0,0);font-family:Arial;font-weight:400;line-height:1.38;=
+vertical-align:baseline;white-space:pre-wrap;background-color:transparent">=
+=C2=A0</span><span style=3D"color:rgb(0,0,0);font-family:Arial;font-size:x-=
+small;font-weight:bold;line-height:13.8px;white-space:pre-wrap">=E2=80=94 <=
+/span>Nat comes to us from Littlebits Electronics in Manhattan and Google L=
+ondon before that. He brings a lot of experience to our Ops team and positi=
+ve energy towards making our computer systems healthier and happier.</p></l=
+i></ul><br></span><div><img src=3D"https://lh4.googleusercontent.com/1DqUF3=
+7H2zYKthmlsrVcJsnir3fpwsZ6BA3jhLVlVmYWBPiKS8OW3Rqu6bSY7c4wJb7cj9tIezUs6zznC=
+fr6jWHAV2bewMtwMMhQb6hbPqk0H2baCkOc7hPKMYK_10hQtQjo0Iq1" width=3D"466" heig=
+ht=3D"466" alt=3D"techteaminRI.jpg" style=3D"color: rgb(0, 0, 0); font-fami=
+ly: Arial; font-size: 14.6667px; font-weight: 700; white-space: pre-wrap; b=
+order: none; background-color: transparent;">=C2=A0</div><div><br></div><di=
+v><span style=3D"font-size:12.8px">Archive of previous=C2=A0</span><a href=
+=3D"https://docs.google.com/document/d/1QfJQgg1QImpPVyDPwCTsFGVIOK8ZkA1lntk=
+Rqsn3dJc/edit#" target=3D"_blank" style=3D"font-size:12.8px">Weekly=C2=A0Re=
+ports</a><br></div></div></div></div>
+
+--001a1144308cdb0651052a3f3d5c--

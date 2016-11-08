@@ -1,0 +1,479 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.88 with SMTP id o85csp2312949lfi;
+        Tue, 7 Jul 2015 08:30:48 -0700 (PDT)
+X-Received: by 10.194.89.225 with SMTP id br1mr9779801wjb.97.1436283047861;
+        Tue, 07 Jul 2015 08:30:47 -0700 (PDT)
+Return-Path: <hrcrapid+bncBCTNTQVNBMIKPYPPVQCRUBFX2TWLQ@hillaryclinton.com>
+Received: from mail-wg0-x245.google.com (mail-wg0-x245.google.com. [2a00:1450:400c:c00::245])
+        by mx.google.com with ESMTPS id pk5si33028570wjb.201.2015.07.07.08.30.47
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jul 2015 08:30:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of hrcrapid+bncBCTNTQVNBMIKPYPPVQCRUBFX2TWLQ@hillaryclinton.com designates 2a00:1450:400c:c00::245 as permitted sender) client-ip=2a00:1450:400c:c00::245;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hrcrapid+bncBCTNTQVNBMIKPYPPVQCRUBFX2TWLQ@hillaryclinton.com designates 2a00:1450:400c:c00::245 as permitted sender) smtp.mail=hrcrapid+bncBCTNTQVNBMIKPYPPVQCRUBFX2TWLQ@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wg0-x245.google.com with SMTP id k7sf7012wgw.0
+        for <john.podesta@gmail.com>; Tue, 07 Jul 2015 08:30:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:date:message-id:subject:from:to:content-type
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-subscribe:list-unsubscribe;
+        bh=jLAYKwTgtWpYkp+rHQu6HBsYDV1fQ2bUhBJshw9FegE=;
+        b=eRppOHnnQoCqIKBaQVVhVLrZWeyPA2RJxKXKoCmU4nGmCYz+GWsdaChUn1bzps54lE
+         aNk7BCKofsdc6WPGIvAK0gn7gUORFie3wNXHvaydeZKPIv4HhJvs3ZFd4nwsMdYu36X1
+         YL/rufx/Vuo7LHkz+x7Y/WON2f1oy5LJjTg74=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:date:message-id:subject:from
+         :to:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-subscribe:list-unsubscribe;
+        bh=jLAYKwTgtWpYkp+rHQu6HBsYDV1fQ2bUhBJshw9FegE=;
+        b=I0BqUt3ITPXlBPBxF5zH48ac3cwXHAIZqOD2p9vtCVA4W6lPu+7TOHgpRhzg+sYaSc
+         yKb4ejpmKecIrY7sMQKPMsNSBU7OL52R3VmDKNiNf/FtBv6Vmwq8r/bl4T1bmbfH0YQx
+         GOY268JZbIGw8O9M/plm0Tvktfo2hiW97UP3ib21Tx2n+t+Tl1+s6QFb+3SHUvxyl0SI
+         eAb96tg7e6mH0Eyt78yAL4IiRF3HfxxfY2q3Kw7UjcOYZU6oHNMNN7a2DbG/hEcYyMoB
+         aRtJ8FoMvbYxWj0OHmbqG2LShdY+IyDXivjTukvUHMgirAWAxN752/d8L74tEAGEFeGw
+         e+fA==
+Sender: hrcrapid@hillaryclinton.com
+X-Gm-Message-State: ALoCoQldWXIA8sPfFGHB0XjquKWHa6VuY1lgjy4oWN12/H3arMFXA9nIGzFiIzokPXlaTn6FqzsS
+X-Received: by 10.152.120.69 with SMTP id la5mr2393125lab.7.1436283047554;
+        Tue, 07 Jul 2015 08:30:47 -0700 (PDT)
+X-BeenThere: hrcrapid@hillaryclinton.com
+Received: by 10.180.92.101 with SMTP id cl5ls1461245wib.16.gmail; Tue, 07 Jul
+ 2015 08:30:47 -0700 (PDT)
+X-Received: by 10.180.9.75 with SMTP id x11mr61812543wia.80.1436283046941;
+        Tue, 07 Jul 2015 08:30:46 -0700 (PDT)
+Received: from mail-wi0-x22b.google.com (mail-wi0-x22b.google.com. [2a00:1450:400c:c05::22b])
+        by mx.google.com with ESMTPS id eu3si37313860wic.47.2015.07.07.08.30.46
+        for <HRCRapid@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 07 Jul 2015 08:30:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of chicks@hillaryclinton.com designates 2a00:1450:400c:c05::22b as permitted sender) client-ip=2a00:1450:400c:c05::22b;
+Received: by wibdq8 with SMTP id dq8so186834599wib.1
+        for <HRCRapid@hillaryclinton.com>; Tue, 07 Jul 2015 08:30:46 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.180.81.38 with SMTP id w6mr70280925wix.14.1436283046709;
+ Tue, 07 Jul 2015 08:30:46 -0700 (PDT)
+Received: by 10.27.11.18 with HTTP; Tue, 7 Jul 2015 08:30:46 -0700 (PDT)
+Date: Tue, 7 Jul 2015 11:30:46 -0400
+Message-ID: <CAD0-Q+Rk4POjwFbmbYk0O7f6Ob00avvQgXFt_XT_AZYdu5JOBA@mail.gmail.com>
+Subject: July 6 Evening Cable News
+From: Charles Hicks <chicks@hillaryclinton.com>
+To: HRC Rapid <HRCRapid@hillaryclinton.com>, 
+ Jennifer Palmieri <jpalmieri@hillaryclinton.com>, 
+ Kristina Schake <kschake@hillaryclinton.com>, 
+ Julie McClain <jmcclain@hillaryclinton.com>, 
+ Meredith Thatcher <mthatcher@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=f46d044288c0cc192e051a4ab418
+X-Original-Sender: chicks@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of chicks@hillaryclinton.com designates 2a00:1450:400c:c05::22b as
+ permitted sender) smtp.mail=chicks@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list HRCRapid@hillaryclinton.com; contact HRCRapid+owners@hillaryclinton.com
+List-ID: <HRCRapid.hillaryclinton.com>
+X-Spam-Checked-In-Group: HRCRapid@hillaryclinton.com
+X-Google-Group-Id: 301712100758
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/post>,
+ <mailto:HRCRapid@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:HRCRapid+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/>
+List-Subscribe: <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/subscribe>,
+ <mailto:HRCRapid+subscribe@hillaryclinton.com>
+List-Unsubscribe: <mailto:googlegroups-manage+301712100758+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/subscribe>
+
+--f46d044288c0cc192e051a4ab418
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+National
+
+
+
+-- Report that HFA roped off the press in New Hampshire; Eric Bolling guest
+hosts; panel with Jehmu Greene and Mercedes Schlapp; Greene noted that Brit
+Hume said earlier in the day that the press can get jumbled up near the
+candidate; Greene said the press thinks HRC=E2=80=99s responsibility was to=
+ them
+not to the voters; Schlapp said the optics were bad, said it was bad
+campaign management; Bolling said HRC treats the press like 5-year olds
+because they act like 5-year olds; Bolling brought up reporters chasing
+HRC=E2=80=99s van; shifted into report that Brianna Keilar attended an HFA=
+=E2=80=99s aide=E2=80=99s
+wedding; Greene asked who cared about that, said people in DC attend
+weddings; Schlapp said HFA kept HRC from press because it was paranoid;
+Greene said the press was obsessed with HRC and needed to go to therapy;
+Schlapp said people do not trust HRC; Greene said HRC was still in the
+lead; Schlapp said HRC was running like a dictator; Greene said HRC=E2=80=
+=99s
+answered questions for 30 years. Fox News=E2=80=99 Hannity
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D9c2e3ce7-5dd2-4fcd=
+-962a-6aac642aad3d>,
+2015 07 06 Hillary Clinton, Clips, National, Mercedes Schlapp Jehmu Greene
+HRC first interview.mp4
+
+
+
+-- Report that HFA roped off the press in New Hampshire; Shannon Bream
+guest hosts; reported that HFA said the rope line was a way to accommodate
+the press; panel with Chris Stirewalt and Howard Kurtz; Stirewalt said it
+was like 50 Shades of Grey came to New Hampshire; Stirewalt said there was
+something masochistic about the press=E2=80=99s relationship with HRC, said=
+ the
+Clintons always beat the press up and the press comes back; shifted into
+conversation about HRC doing national interviews; Kurtz said he broke the
+story about national interviews on Sunday, said Jen Palmieri confirmed it
+to him; Kurtz said the rope was a metaphor for a campaign that was trying
+to lasso reporters, said this would have been a blip for someone else=E2=80=
+=99s
+campaign but was a problem for HRC=E2=80=99s due to her press relationship;=
+ shifted
+into report about HRC=E2=80=99s interview with Brianna Keilar; Bream noted =
+there
+was some criticism that Keilar attended an HFA staffer=E2=80=99s wedding; B=
+ream
+said DC was a small town and a lot of people know one another; Stirewalt
+said HRC needed to sit down with someone where there weren=E2=80=99t questi=
+ons
+about how strong the interview would be. Fox News=E2=80=99 The Kelly File
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D2a29fbdd-0f12-4176=
+-8542-2425ca73f845>,
+2015 07 06 Hillary Clinton, Clips, National, Kelly File on HRC national
+interviews CNN wedding.mp4
+
+
+
+-- Read a letter to the show that said Bill O=E2=80=99Reilly=E2=80=99s stat=
+ement that HRC
+was subjected to false accusations was humorous; O=E2=80=99Reilly said ther=
+e was no
+person in the country more mocked than HRC; O=E2=80=99Reilly said he wanted=
+ to get
+to the bottom of the email scandal and every other scandal. Fox News=E2=80=
+=99 The
+O=E2=80=99Reilly Factor
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D17f67a73-9268-4729=
+-9d18-346940ecaecf>,
+2015 07 06 Hillary Clinton, Clips, National, Bill OReilly said HRC countrys
+most mocked person.mp4
+
+
+
+-- Report that Bernie Sanders wrote for The Vermont Freeman in the 1960s
+and 1970s about people causing cancer; noted Sanders is holding his own in
+the race for POTUS; reported HRC trailed HRC by eight points in a CNN/WMUR
+poll and drew huge crowds in rallies in Denver and Madison; showed Jen
+Palmieri on Morning Joe saying HFA was worried about Sanders; panel with
+David Corn, Jennice Fuentes, and Jonathan Allen; Corn said the root of the
+Sanders=E2=80=99 story wasn=E2=80=99t HFA; Chris Matthews asked Jon Allen w=
+hether Sanders
+could win New Hampshire; Allen said he thought Sanders could win NH. MSNBC=
+=E2=80=99s
+Hardball with Chris Matthews
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D84261bee-af85-41c7=
+-a663-51c4ecea12b5>,
+2015 07 06 Hillary Clinton, Bernie Sanders, Clips, National, Chris Matthews
+on Sanders surge and HFA oppo.mp4
+
+
+
+-- Report that HRC roped off reporters for the July 4th parade; panel with
+Rick Klein and Betsy Woodruff; Klein said he was stunned by the pictures,
+said he understood what HFA was trying to do but the image was not the
+best; Woodruff said she wasn=E2=80=99t surprised because this is a reflecti=
+on of
+how HFA views the press. Fox News=E2=80=99 On the Record With Greta Van Sus=
+teren
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Ddce53df8-6337-4ca2=
+-a4b4-368269131f1d>,
+2015 07 06 Hillary Clinton, Clips, National, Greta Van Susteren on HRCs
+July 4 rope line.mp4
+
+
+
+-- Report that HRC planned to interview with Brianna Keilar; Pamela Brown
+(guest host) reported that HRC shifted to make herself available to the
+media; panel with Sara Murray, Gloria Borger, and Jeff Zeleny; Murray said
+HFA was a well-planned campaign, said it now wants to move into these
+longer interviews; Murray said sitting for interviews allows HRC; Borger
+said HRC could look like the serious adult in the room as long as Donald
+Trump was getting so much attention; Zeleny said interviews give HRC the
+chance to lower expectations. CNN=E2=80=99s Situation Room
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D079fb398-97a9-4cc9=
+-96c4-98088acaf7ce>,
+2015 07 06 Hillary Clinton, Clips, National, Preview of HRCs first national
+interview on CNN.mp4
+
+
+
+-- Report on Bernie Sanders=E2=80=99 campaign surge; interviewed Angela Rye=
+; Rye
+said Sanders would continue to hold HRC=E2=80=99s feet to the fire, said sh=
+e wanted
+to know more about Sanders=E2=80=99 campaign team; Rye said it is =E2=80=9C=
+very very clear
+that Hillary Clinton=E2=80=99s campaign team reflects the face of America. =
+Where
+are the diverse folks that are running Sen. Sanders=E2=80=99 campaign?=E2=
+=80=9D; Sharpton
+agreed that HRC=E2=80=99s had diversity for a long time with the =E2=80=9CM=
+inyon Moores=E2=80=A6
+and the younger people now=E2=80=9D; Rye said Sanders could beat HRC in Iow=
+a, noted
+Edwards beat HRC in Iowa. MSNBC=E2=80=99s PoliticsNation With Al Sharpton
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dd3b74eb9-8229-4aa0=
+-a797-35e11cd394ae>,
+2015 07 06 Hillary Clinton, Clips, National, Angela Rye Al Sharpton on HFAs
+staff diversity.mp4
+
+
+
+-- Report that many in the media are =E2=80=9Cfit to be tied=E2=80=9D about=
+ HRC roping off
+the press in New Hampshire; Doug McKelway reports; McKelway mentioned New
+Hampshire=E2=80=99s motto is =E2=80=9CLive Free or Die,=E2=80=9D said ropin=
+g off reporters
+backfired; McKelway said Twitter lit up with comments like, =E2=80=9CHogtie=
+d=E2=80=9D;
+showed Chris Christie calling the rope line outrageous, read a quote from
+Jennifer Horn; used footage of Jen Palmieri on Morning Joe, noted the
+Morning Joe team laughed at Palmieri=E2=80=99s answer; McKelway explained t=
+he rest
+of Palmieri=E2=80=99s answer that the rope was a compromise between a stati=
+c press
+and a free-for-all, showed Palmieri saying the press couldn=E2=80=99t get i=
+n the
+way of HRC campaigning; showed footage of Palmieri saying the campaign
+didn=E2=80=99t have all of the vehicles it would have later in the campaign=
+;
+reported that the Fox News camera operator said he was free to come and go
+from the rope line so long as he didn=E2=80=99t get closer than the rope or=
+ ask
+questions; led into report that on June 1st journalists covering HRC met
+about not having enough access to HRC; McKelway said HRC=E2=80=99s press av=
+ersion
+took its toll on HRC in polls. Fox News=E2=80=99 Special Report With Bret B=
+aier
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Df251e51b-d61b-4106=
+-8152-9c7a27986429>,
+2015 07 06 Hillary Clinton, Clips, National, Doug McKelway on HRCs Iowa
+rope line.mp4
+
+--=20
+Charles Hicks
+(912) 429-8253
+
+--f46d044288c0cc192e051a4ab418
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><h2>National</h2>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report that HFA roped off the press in New Hampsh=
+ire;
+Eric Bolling guest hosts; panel with Jehmu Greene and Mercedes Schlapp; Gre=
+ene noted
+that Brit Hume said earlier in the day that the press can get jumbled up ne=
+ar
+the candidate; Greene said the press thinks HRC=E2=80=99s responsibility wa=
+s to them not
+to the voters; Schlapp said the optics were bad, said it was bad campaign
+management; <span style=3D"background:yellow">Bolling said
+HRC treats the press like 5-year olds because they act like 5-year olds;
+Bolling brought up reporters chasing HRC=E2=80=99s van;</span> shifted into=
+ report that
+Brianna Keilar attended an HFA=E2=80=99s aide=E2=80=99s wedding; Greene ask=
+ed who cared about
+that, said people in DC attend weddings; <span style=3D"background:yellow">=
+Schlapp said HFA kept HRC from press because it was
+paranoid; Greene said the press was obsessed with HRC and needed to go to
+therapy</span>; Schlapp said people do not trust HRC; Greene said HRC was s=
+till
+in the lead; Schlapp said HRC was running like a dictator; Greene said HRC=
+=E2=80=99s
+answered questions for 30 years. <a href=3D"http://mms.tveyes.com/PlaybackP=
+ortal.aspx?SavedEditID=3D9c2e3ce7-5dd2-4fcd-962a-6aac642aad3d">Fox
+News=E2=80=99 Hannity</a>, 2015 07 06 Hillary Clinton, Clips, National, Mer=
+cedes
+Schlapp Jehmu Greene HRC first interview.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report that HFA roped off the press in New Hampsh=
+ire; Shannon
+Bream guest hosts; reported that HFA said the rope line was a way to accomm=
+odate
+the press; panel with Chris Stirewalt and Howard Kurtz; <span style=3D"back=
+ground:yellow">Stirewalt said it was like 50 Shades of Grey came
+to New Hampshire; Stirewalt said there was something masochistic about the
+press=E2=80=99s relationship with HRC, said the Clintons always beat the pr=
+ess up and
+the press comes back</span>; shifted into conversation about HRC doing nati=
+onal
+interviews; Kurtz said he broke the story about national interviews on Sund=
+ay,
+said Jen Palmieri confirmed it to him; Kurtz said the rope was a metaphor f=
+or a
+campaign that was trying to lasso reporters, said this would have been a bl=
+ip for
+someone else=E2=80=99s campaign but was a problem for HRC=E2=80=99s due to =
+her press
+relationship; shifted into report about HRC=E2=80=99s interview with Briann=
+a Keilar; <span style=3D"background:yellow">Bream noted there was some
+criticism that Keilar attended an HFA staffer=E2=80=99s wedding; Bream said=
+ DC was a
+small town and a lot of people know one another; Stirewalt said HRC needed =
+to
+sit down with someone where there weren=E2=80=99t questions about how stron=
+g the
+interview would be</span>. <a href=3D"http://mms.tveyes.com/PlaybackPortal.=
+aspx?SavedEditID=3D2a29fbdd-0f12-4176-8542-2425ca73f845">Fox
+News=E2=80=99 The Kelly File</a>, 2015 07 06 Hillary Clinton, Clips, Nation=
+al, Kelly
+File on HRC national interviews CNN wedding.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Read a letter to the show that said Bill O=E2=80=
+=99Reilly=E2=80=99s
+statement that HRC was subjected to false accusations was humorous; <span s=
+tyle=3D"background:yellow">O=E2=80=99Reilly said there was no
+person in the country more mocked than HRC</span>; O=E2=80=99Reilly said he=
+ wanted to
+get to the bottom of the email scandal and every other scandal. <a href=3D"=
+http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D17f67a73-9268-4729-=
+9d18-346940ecaecf">Fox
+News=E2=80=99 The O=E2=80=99Reilly Factor</a>, 2015 07 06 Hillary Clinton, =
+Clips, National,
+Bill OReilly said HRC countrys most mocked person.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report that Bernie Sanders wrote for The Vermont =
+Freeman
+in the 1960s and 1970s about people causing cancer; noted Sanders is holdin=
+g
+his own in the race for POTUS; reported HRC trailed HRC by eight points in =
+a
+CNN/WMUR poll and drew huge crowds in rallies in Denver and Madison; showed=
+ Jen
+Palmieri on Morning Joe saying HFA was worried about Sanders; panel with Da=
+vid
+Corn, Jennice Fuentes, and Jonathan Allen; <span style=3D"background:yellow=
+">Corn said the root of the Sanders=E2=80=99 story wasn=E2=80=99t HFA</span=
+>;
+Chris Matthews asked Jon Allen whether Sanders could win New Hampshire; All=
+en
+said he thought Sanders could win NH. <a href=3D"http://mms.tveyes.com/Play=
+backPortal.aspx?SavedEditID=3D84261bee-af85-41c7-a663-51c4ecea12b5">MSNBC=
+=E2=80=99s
+Hardball with Chris Matthews</a>, 2015 07 06 Hillary Clinton, Bernie Sander=
+s,
+Clips, National, Chris Matthews on Sanders surge and HFA oppo.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report that HRC roped off reporters for the July =
+4<sup>th</sup>
+parade; panel with Rick Klein and Betsy Woodruff; Klein said he was stunned=
+ by
+the pictures, said he understood what HFA was trying to do but the image wa=
+s
+not the best; Woodruff said she wasn=E2=80=99t surprised because this is a =
+reflection
+of how HFA views the press. <a href=3D"http://mms.tveyes.com/PlaybackPortal=
+.aspx?SavedEditID=3Ddce53df8-6337-4ca2-a4b4-368269131f1d">Fox
+News=E2=80=99 On the Record With Greta Van Susteren</a>, 2015 07 06 Hillary=
+ Clinton,
+Clips, National, Greta Van Susteren on HRCs July 4 rope line.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report that HRC planned to interview with Brianna=
+ Keilar;
+Pamela Brown (guest host) reported that HRC shifted to make herself availab=
+le
+to the media; panel with Sara Murray, Gloria Borger, and Jeff Zeleny; Murra=
+y
+said HFA was a well-planned campaign, said it now wants to move into these
+longer interviews; Murray said sitting for interviews allows HRC; Borger sa=
+id
+HRC could look like the serious adult in the room as long as Donald Trump w=
+as
+getting so much attention; Zeleny said interviews give HRC the chance to lo=
+wer
+expectations. <a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEdi=
+tID=3D079fb398-97a9-4cc9-96c4-98088acaf7ce">CNN=E2=80=99s
+Situation Room</a>, 2015 07 06 Hillary Clinton, Clips, National, Preview of
+HRCs first national interview on CNN.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report on Bernie Sanders=E2=80=99 campaign surge;=
+ interviewed
+Angela Rye; Rye said Sanders would continue to hold HRC=E2=80=99s feet to t=
+he fire,
+said she wanted to know more about Sanders=E2=80=99 campaign team; <span st=
+yle=3D"background:yellow">Rye said it is =E2=80=9Cvery very clear
+that Hillary Clinton=E2=80=99s campaign team reflects the face of America. =
+Where are
+the diverse folks that are running Sen. Sanders=E2=80=99 campaign?=E2=80=9D=
+; Sharpton agreed
+that HRC=E2=80=99s had diversity for a long time with the =E2=80=9CMinyon M=
+oores=E2=80=A6 and the
+younger people now=E2=80=9D; Rye said Sanders could beat HRC in Iowa, noted=
+ Edwards
+beat HRC in Iowa.</span> <a href=3D"http://mms.tveyes.com/PlaybackPortal.as=
+px?SavedEditID=3Dd3b74eb9-8229-4aa0-a797-35e11cd394ae">MSNBC=E2=80=99s
+PoliticsNation With Al Sharpton</a>, 2015 07 06 Hillary Clinton, Clips,
+National, Angela Rye Al Sharpton on HFAs staff diversity.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report that many in the media are =E2=80=9Cfit to=
+ be tied=E2=80=9D about
+HRC roping off the press in New Hampshire; Doug McKelway reports; McKelway
+mentioned New Hampshire=E2=80=99s motto is =E2=80=9CLive Free or Die,=E2=80=
+=9D said roping off
+reporters backfired; McKelway said Twitter lit up with comments like, =E2=
+=80=9CHogtied=E2=80=9D;
+showed Chris Christie calling the rope line outrageous, read a quote from
+Jennifer Horn; used footage of Jen Palmieri on Morning Joe, noted the Morni=
+ng
+Joe team laughed at Palmieri=E2=80=99s answer; McKelway explained the rest =
+of Palmieri=E2=80=99s
+answer that the rope was a compromise between a static press and a
+free-for-all, showed Palmieri saying the press couldn=E2=80=99t get in the =
+way of HRC
+campaigning; showed footage of Palmieri saying the campaign didn=E2=80=99t =
+have all of
+the vehicles it would have later in the campaign; reported that the Fox New=
+s
+camera operator said he was free to come and go from the rope line so long =
+as
+he didn=E2=80=99t get closer than the rope or ask questions; led into repor=
+t that on
+June 1<sup>st</sup> journalists covering HRC met about not having enough ac=
+cess
+to HRC; <span style=3D"background:yellow">McKelway said HRC=E2=80=99s
+press aversion took its toll on HRC in polls</span>. <a href=3D"http://mms.=
+tveyes.com/PlaybackPortal.aspx?SavedEditID=3Df251e51b-d61b-4106-8152-9c7a27=
+986429">Fox
+News=E2=80=99 Special Report With Bret Baier</a>, 2015 07 06 Hillary Clinto=
+n, Clips,
+National, Doug McKelway on HRCs Iowa rope line.mp4</p><div><br></div>-- <br=
+><div class=3D"gmail_signature"><div dir=3D"ltr">Charles Hicks<div>(912) 42=
+9-8253</div></div></div>
+</div>
+
+--f46d044288c0cc192e051a4ab418--

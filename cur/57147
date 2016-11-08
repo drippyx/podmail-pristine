@@ -1,0 +1,568 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp693450lfb;
+        Thu, 17 Mar 2016 17:12:55 -0700 (PDT)
+X-Received: by 10.50.22.65 with SMTP id b1mr40728655igf.88.1458259975846;
+        Thu, 17 Mar 2016 17:12:55 -0700 (PDT)
+Return-Path: <kfinney@hillaryclinton.com>
+Received: from mail-io0-x232.google.com (mail-io0-x232.google.com. [2607:f8b0:4001:c06::232])
+        by mx.google.com with ESMTPS id w6si12058047igz.60.2016.03.17.17.12.55
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 17 Mar 2016 17:12:55 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kfinney@hillaryclinton.com designates 2607:f8b0:4001:c06::232 as permitted sender) client-ip=2607:f8b0:4001:c06::232;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of kfinney@hillaryclinton.com designates 2607:f8b0:4001:c06::232 as permitted sender) smtp.mailfrom=kfinney@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-io0-x232.google.com with SMTP id g184so61298087ioa.3
+        for <john.podesta@gmail.com>; Thu, 17 Mar 2016 17:12:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=from:mime-version:references:in-reply-to:date:message-id:subject:to
+         :cc;
+        bh=2ucHJ4iwBRYERFxEi+juNoocHSyX92it0Y4JvVGqvMU=;
+        b=WQGB1tb7Imk2vkgsNrIYyyjsOq6wT7M6OwQW3JDG/ggdecz01Q3pd9ns5gdDQnLWJL
+         n1ZNKepJsEF5FIFt1OY9q+Uc+qwNKP5XWoGvim521LerQf+b5hUkkKxi2A9mwJ1n1Doj
+         EP8QI3mm0cVm9cUxG3ZU1nv5g5NX8bj8ug/G8=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:mime-version:references:in-reply-to:date
+         :message-id:subject:to:cc;
+        bh=2ucHJ4iwBRYERFxEi+juNoocHSyX92it0Y4JvVGqvMU=;
+        b=KgX9yQ7XsQcAOcCmswec6il0A3U2MjwyeSyURMpZUv4NjdvgIoRKnWz51FUj6tXGHt
+         NgH0HcKUAG0cixGUOv5DXAFygdHnwCNB5uQp2ldgzeRLsdOOhKWa0uijaRAWgiGRVGGz
+         kHLSwVG1XKPrmBSEWBYrh+qCnSWQx4D4PoP2hEsHwrPBVq2m1/lNG4GRni+9vqHNil0G
+         c9iqFUhqU28ZAXrlGOK8SeasATaB1BtlAoF8DqUu93rQ03gaA6V21EVXczzSlY7eWSaC
+         jxLRkR5uaiVSi3UJF70x2uEbnV49xiKhVoXyQXsJPePxMe7enLCVVoe69bqoFjBaeC6X
+         sImQ==
+X-Gm-Message-State: AD7BkJLSC3DF5bcfmolw9sLlgdYW9ef3hdZ2fpZ6Z/aJyzejcmHTTpWVNkFq1S+69LXaJ1y9jXz0WTvMyVWeuB7d
+X-Received: by 10.107.149.18 with SMTP id x18mr14633183iod.170.1458259975402;
+ Thu, 17 Mar 2016 17:12:55 -0700 (PDT)
+From: Karen Finney <kfinney@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CABvAcWdAnrv1QeEDM9oLnj=k_hpPduRq6=4aMMnQhVKJZbjdNQ@mail.gmail.com>
+ <CALr7Cn1+=TqYks7CsrfDRAmW=vifVFPSqmokTYhuD=Wi_YOkLg@mail.gmail.com>
+ <CAFjSERBp63+Y__XPkzLS+e+0b7+iTfkzQrLYKq+0V14k-fwQ5w@mail.gmail.com>
+ <CABvAcWekK2Rsj8ChFq+Wj79z+KqupeapbmbBnjhCnb+5ciNMeg@mail.gmail.com>
+ <CAOFhrdRffcohoQM_wxgG_iWRUabGGLL2zY3foQTGirRsCvjYvQ@mail.gmail.com>
+ <CAE6FiQ-Rhc40VzJrx7Q99AryTonYTLMi5VbAsnbXbrWiv8mN-A@mail.gmail.com>
+ <CAH2oiqKgOHrSui1gU5XHX97xc4+KDW_2QAa19nxz_BUXzPi2Pg@mail.gmail.com>
+ <1A484C9C32B526468802B7C2E6FD1BCEB5AB3663@mbx031-w1-co-2.exch031.domain.local>
+ <8620212799195907298@unknownmsgid>
+In-Reply-To: <8620212799195907298@unknownmsgid>
+Date: Thu, 17 Mar 2016 20:12:52 -0400
+Message-ID: <-2834268563571402075@unknownmsgid>
+Subject: Re: HRC Op-Ed on Gun Violence
+To: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+CC: Joel Benenson <jbenenson@bsgco.com>, John Podesta <john.podesta@gmail.com>, 
+ Corey Ciorciari <cciorciari@hillaryclinton.com>, 
+ Ben Krauss <bakrauss@gmail.com>, Emily Aden <eaden@hillaryclinton.com>, 
+ Harrell Kirstein <hkirstein@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a1140fee4d306d8052e479bcb
+
+--001a1140fee4d306d8052e479bcb
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+We haven't said it in NYC
+
+Sent from my iPhone
+
+On Mar 17, 2016, at 8:06 PM, Jennifer Palmieri <jpalmieri@hillaryclinton.co=
+m>
+wrote:
+
+I think we should do the oped bc NYDN really cares about it and they
+offered us the space.  So good politics on a few fronts. Point of oped is.
+It to do contrast.
+
+Sent from my iPhone
+
+On Mar 17, 2016, at 8:03 PM, Joel Benenson <jbenenson@bsgco.com> wrote:
+
+Is an op-ed the best way to do a contrast?  The contrast isn=E2=80=99t real=
+ly news,
+is it? We=E2=80=99ve said it all before about him.
+
+
+
+*From:* speechdrafts@hillaryclinton.com [
+mailto:speechdrafts@hillaryclinton.com <speechdrafts@hillaryclinton.com>] *=
+On
+Behalf Of *Jennifer Palmieri
+*Sent:* Thursday, March 17, 2016 7:04 PM
+*To:* John Podesta
+*Cc:* Corey Ciorciari; Ben Krauss; Emily Aden; Harrell Kirstein; Speech
+Drafts
+*Subject:* Re: HRC Op-Ed on Gun Violence
+
+
+
+My theory is that we do not want to be in a one on one with Trump - but
+want to hit him occasionally.  In which case, we also need to be hitting
+Sanders occasionally so we can credibly say we are not only focused on the
+general.
+
+
+For example, we were going to do a press call tomorrow in AZ with locals
+about guns (number one testing contrast issue).  So I thought good to do
+here.
+
+
+
+Maybe it is too hard here - but thought we should have some measure of
+contrast.
+
+
+
+On Thu, Mar 17, 2016 at 6:58 PM, John Podesta <john.podesta@gmail.com>
+wrote:
+
+Should we directly hit Sanders in this NYDN oped right now? I'm a bit
+skeptical
+
+
+
+On Thursday, March 17, 2016, Corey Ciorciari <cciorciari@hillaryclinton.com=
+>
+wrote:
+
+Here is 55k back-up: http://labs.time.com/story/gun-loophole/
+
+
+
+
+
+On Thu, Mar 17, 2016 at 5:12 PM, Ben Krauss <bakrauss@gmail.com> wrote:
+
+Hey everyone,
+
+
+
+This op-ed is live again, and we've made a few revisions. Would be great if
+everyone could take another quick look so we can get to HRC tonight.
+
+
+
+Thanks!
+
+
+
+On Tue, Mar 15, 2016 at 8:02 PM, Emily Aden <eaden@hillaryclinton.com>
+wrote:
+
+Research edits attached, need backup on one stat.
+
+
+
+On Tue, Mar 15, 2016 at 7:40 PM, Harrell Kirstein <
+hkirstein@hillaryclinton.com> wrote:
+
+I like it.  Since it is the NYDN I think we should add the terrorist watch
+list piece.  I defer to you on where but we could stick at the end of this
+riff as a proof point against the NRA?
+
+
+
+I=E2=80=99ve been fighting for this issue for years.  So have families acro=
+ss the
+country.  Still, the NRA and their allies in Congress have managed to block
+even the most commonsense reforms.
+
+
+
+
+
+
+
+
+---
+Harrell Kirstein
+
+hkirstein@hillaryclinton.com
+609 915-5662 | @harrellkirstein
+
+
+
+On Tue, Mar 15, 2016 at 7:17 PM, Ben Krauss <bakrauss@gmail.com> wrote:
+
+Hey everyone,
+
+
+
+Attaching a draft op-ed from HRC on gun violence for placement in the New
+York Daily News.
+
+
+
+Please let me know any edits or comments in the next hour or so.
+
+
+
+Thanks!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--=20
+
+Benjamin A. Krauss
++1 (914) 299-6480
+bakrauss@gmail.com
+
+
+
+
+
+--=20
+
+Corey Ciorciari
+
+Policy Department
+
+Hillary for America
+
+@CoreyCiorciari
+
+--001a1140fee4d306d8052e479bcb
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=
+=3Dutf-8"></head><body dir=3D"auto"><div>We haven&#39;t said it in NYC=C2=
+=A0<br><br>Sent from my iPhone</div><div><br>On Mar 17, 2016, at 8:06 PM, J=
+ennifer Palmieri &lt;<a href=3D"mailto:jpalmieri@hillaryclinton.com">jpalmi=
+eri@hillaryclinton.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite=
+"><div><meta http-equiv=3D"content-type" content=3D"text/html; charset=3Dut=
+f-8"><div>I think we should do the oped bc NYDN really cares about it and t=
+hey offered us the space.=C2=A0 So good politics on a few fronts. Point of =
+oped is. It to do contrast.=C2=A0<br><br>Sent from my iPhone</div><div><br>=
+On Mar 17, 2016, at 8:03 PM, Joel Benenson &lt;<a href=3D"mailto:jbenenson@=
+bsgco.com">jbenenson@bsgco.com</a>&gt; wrote:<br><br></div><blockquote type=
+=3D"cite"><div>
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+
+
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Is an op-ed the best way =
+to do a contrast?=C2=A0 The contrast isn=E2=80=99t really news, is it? We=
+=E2=80=99ve said it all before about him.
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> <a href=
+=3D"mailto:speechdrafts@hillaryclinton.com">speechdrafts@hillaryclinton.com=
+</a> [<a href=3D"mailto:speechdrafts@hillaryclinton.com">mailto:speechdraft=
+s@hillaryclinton.com</a>]
+<b>On Behalf Of </b>Jennifer Palmieri<br>
+<b>Sent:</b> Thursday, March 17, 2016 7:04 PM<br>
+<b>To:</b> John Podesta<br>
+<b>Cc:</b> Corey Ciorciari; Ben Krauss; Emily Aden; Harrell Kirstein; Speec=
+h Drafts<br>
+<b>Subject:</b> Re: HRC Op-Ed on Gun Violence</span></p>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">My theory is that we do not want to be in a one on o=
+ne with Trump - but want to hit him occasionally.=C2=A0 In which case, we a=
+lso need to be hitting Sanders occasionally so we can credibly say we are n=
+ot only focused on the general.=C2=A0</p>
+<div>
+<p class=3D"MsoNormal"><br>
+For example, we were going to do a press call tomorrow in AZ with locals ab=
+out guns (number one testing contrast issue).=C2=A0 So I thought good to do=
+ here.=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Maybe it is too hard here - but thought we should ha=
+ve some measure of contrast.=C2=A0</p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Thu, Mar 17, 2016 at 6:58 PM, John Podesta &lt;<a=
+ href=3D"mailto:john.podesta@gmail.com" target=3D"_blank">john.podesta@gmai=
+l.com</a>&gt; wrote:</p>
+<p class=3D"MsoNormal">Should we directly hit Sanders in this NYDN=C2=A0ope=
+d right now? I&#39;m a bit skeptical</p>
+<div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+On Thursday, March 17, 2016, Corey Ciorciari &lt;<a href=3D"mailto:cciorcia=
+ri@hillaryclinton.com" target=3D"_blank">cciorciari@hillaryclinton.com</a>&=
+gt; wrote:</p>
+<div>
+<p class=3D"MsoNormal">Here is 55k back-up:=C2=A0<a href=3D"http://labs.tim=
+e.com/story/gun-loophole/" target=3D"_blank">http://labs.time.com/story/gun=
+-loophole/</a></p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Thu, Mar 17, 2016 at 5:12 PM, Ben Krauss &lt;<a h=
+ref=3D"mailto:bakrauss@gmail.com">bakrauss@gmail.com</a>&gt; wrote:</p>
+<div>
+<p class=3D"MsoNormal">Hey everyone,</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">This op-ed is live again, and we&#39;ve made a few r=
+evisions. Would be great if everyone could take another quick look so we ca=
+n get to HRC tonight.</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thanks!</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Tue, Mar 15, 2016 at 8:02 PM, Emily Aden &lt;<a h=
+ref=3D"mailto:eaden@hillaryclinton.com">eaden@hillaryclinton.com</a>&gt; wr=
+ote:</p>
+<div>
+<div>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">Research edits attached, need backup on one stat.=C2=
+=A0</p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Tue, Mar 15, 2016 at 7:40 PM, Harrell Kirstein &l=
+t;<a href=3D"mailto:hkirstein@hillaryclinton.com">hkirstein@hillaryclinton.=
+com</a>&gt; wrote:</p>
+<div>
+<p class=3D"MsoNormal">I like it.=C2=A0 Since it is the NYDN I think we sho=
+uld add the terrorist watch list piece.=C2=A0 I defer to you on where but w=
+e could stick at the end of this riff as a proof point against the NRA?=C2=
+=A0</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p style=3D"margin:0in;margin-bottom:.0001pt"><span style=3D"color:black">I=
+=E2=80=99ve been fighting for this issue for years.=C2=A0 So have families =
+across the country.=C2=A0 Still, the NRA and their allies in Congress have =
+managed to block even the most commonsense reforms.
+</span></p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><br clear=3D"all">
+</p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">---<br>
+Harrell Kirstein</p>
+</div>
+</div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><a href=3D"mailto:hki=
+rstein@hillaryclinton.com">hkirstein@hillaryclinton.com</a><br>
+<a href=3D"tel:609%20915-5662" target=3D"_blank">609 915-5662</a> | @harrel=
+lkirstein</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Tue, Mar 15, 2016 at 7:17 PM, Ben Krauss &lt;<a h=
+ref=3D"mailto:bakrauss@gmail.com">bakrauss@gmail.com</a>&gt; wrote:</p>
+<div>
+<div>
+<p class=3D"MsoNormal">Hey everyone,</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Attaching a draft op-ed from HRC on gun violence for=
+ placement in the New York Daily News.=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Please let me know any edits or comments in the next=
+ hour or so.=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thanks!</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><br>
+<br clear=3D"all">
+</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<p class=3D"MsoNormal">-- </p>
+<div>
+<p class=3D"MsoNormal">Benjamin A. Krauss<br>
+<a href=3D"tel:%2B1%20%28914%29%20299-6480" target=3D"_blank">+1 (914) 299-=
+6480</a><br>
+<a href=3D"mailto:bakrauss@gmail.com">bakrauss@gmail.com</a></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><br>
+<br clear=3D"all">
+</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<p class=3D"MsoNormal">-- </p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;color:#212121">Corey=
+ Ciorciari</span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;color:#212121">Polic=
+y Department</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;color:#212121">Hilla=
+ry for America</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;color:#212121">@Core=
+yCiorciari</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+</div>
+
+
+</div></blockquote>
+</div></blockquote></body></html>
+
+--001a1140fee4d306d8052e479bcb--

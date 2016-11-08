@@ -1,0 +1,982 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.101 with SMTP id o98csp159450lfi;
+        Tue, 30 Jun 2015 14:09:42 -0700 (PDT)
+X-Received: by 10.180.83.6 with SMTP id m6mr38255006wiy.72.1435698582781;
+        Tue, 30 Jun 2015 14:09:42 -0700 (PDT)
+Return-Path: <dschwerin@hillaryclinton.com>
+Received: from mail-wi0-x22b.google.com (mail-wi0-x22b.google.com. [2a00:1450:400c:c05::22b])
+        by mx.google.com with ESMTPS id mn10si81765638wjc.72.2015.06.30.14.09.42
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 30 Jun 2015 14:09:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of dschwerin@hillaryclinton.com designates 2a00:1450:400c:c05::22b as permitted sender) client-ip=2a00:1450:400c:c05::22b;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of dschwerin@hillaryclinton.com designates 2a00:1450:400c:c05::22b as permitted sender) smtp.mail=dschwerin@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-x22b.google.com with SMTP id jy10so40306944wid.1
+        for <john.podesta@gmail.com>; Tue, 30 Jun 2015 14:09:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        bh=NLvXe9SjkkfOjleQjdtnC47wxiSMvenwpHV+z/FU0T0=;
+        b=KKSWqzJeLIpRu/OPpCRq3pYdGfIhbptI9o3hozecIN+iaho/28P/eiuAhnWumrrkAy
+         Hvhz9VxMi/zQyVAdKTkkbilLSQNHrpD7rsfze+/++RXQgz5PLkbbFre39ez9e8aAtCsv
+         HhJQeZ/As8pFBT6HyUqSzcgmjzYZWQuKpdUJo=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=NLvXe9SjkkfOjleQjdtnC47wxiSMvenwpHV+z/FU0T0=;
+        b=HkFbJ5T//G+pwMqcI7gceM4Qzq7QtzNH/04slvwPDMFVG4ZZV2KfQiBDd7i2UwLh3c
+         sPC5808MEaObe3VMVLV8O821EssYLB38ntClRh4VdEpv4N13H8r51WPBtLLX0z7UspNg
+         XgFadBIqVuR+or0HQBNBuP8mjmbiqaTNxIpW0e3rJqiFZ6j9Yo0+4fzM3qfVlQEmytRI
+         PGzs2rMhyzZrsgRPzHnJrnulzAhn6VKOFd0e2H8LnnQqSZQkl61e7xJZGs5xrmd2M8gd
+         iyEs4epos+Zn1mlBk3fDoc4XOUF93OE5zCJl8PlJFGGm9kihP6LK+1agPtLeQ2H1NnrY
+         j/5A==
+X-Gm-Message-State: ALoCoQnzY3UnjSVe9cHKuLL/apx6wURqHqYAV3Gn8ZlrRSOtCQIHQGmXJJ0o+nX4Xow1H2cmWYbg
+MIME-Version: 1.0
+X-Received: by 10.180.88.196 with SMTP id bi4mr37988194wib.70.1435698582392;
+ Tue, 30 Jun 2015 14:09:42 -0700 (PDT)
+Received: by 10.194.20.65 with HTTP; Tue, 30 Jun 2015 14:09:42 -0700 (PDT)
+In-Reply-To: <-7879449444053141811@unknownmsgid>
+References: <6DA0630BA9DFA547A8F148FEE8305427EAA76435@NS1-HQ-XM01.neahq.nearoot.org>
+	<SN1PR05MB19993B293D5657254541F476D9A90@SN1PR05MB1999.namprd05.prod.outlook.com>
+	<DM2PR05MB559D4B87205845A70A1FC25BCA90@DM2PR05MB559.namprd05.prod.outlook.com>
+	<CA+Z3wa1DU8JMPT-BqRzSLNUdi7RiPfxttzc4DYryzMDnpL58wg@mail.gmail.com>
+	<CAMayD+7VcGd9uRApijhghDJd0BWGxbduhzyRi-N4SxVrvckMGA@mail.gmail.com>
+	<CA+Z3wa0B5hdow6WMOP0HK_LOJ+G4x2iXzHRC-igjjy+EdFQwCQ@mail.gmail.com>
+	<CAMayD+6Piq7kZc+C4ZUA6NvO3rJwVgu9sfpLDoGEJc9eYf8Yhg@mail.gmail.com>
+	<b299fe5846ad850c2e3a5821ba11b262@mail.gmail.com>
+	<-1496539766187523961@unknownmsgid>
+	<CACWw=rRg-8-au4whoACZBZ1mTRFPbe3rdyT_Y7febJ5GK7gN=g@mail.gmail.com>
+	<5365705271505792460@unknownmsgid>
+	<7025345317302619834@unknownmsgid>
+	<CAAEwKfxp0m7SHVf5UNtvYJmj1QaYsL4KYk9pFEYOeAE+Y=dKFg@mail.gmail.com>
+	<-7879449444053141811@unknownmsgid>
+Date: Tue, 30 Jun 2015 17:09:42 -0400
+Message-ID: <CAAEwKfyvfxgMZ=drFkJ2Yx57_o-uiQC_-0aCL9rNK2N-atGcUg@mail.gmail.com>
+Subject: Re: Union Leaders, Members on SCOTUS Grant of Cert in Friedrichs v. CTA
+From: Dan Schwerin <dschwerin@hillaryclinton.com>
+To: Nikki Budzinski <nbudzinski@hillaryclinton.com>, 
+ Lauren Peterson <lpeterson@hillaryclinton.com>, 
+ Katie Dowd <kdowd@hillaryclinton.com>, 
+ Teddy Goff <tgoff@hillaryclinton.com>
+CC: Amanda Renteria <arenteria@hillaryclinton.com>, 
+ Jake Sullivan <jsullivan@hillaryclinton.com>, 
+ "Ann O'Leary" <aoleary@hillaryclinton.com>, 
+ Maya Harris <mharris@hillaryclinton.com>, 
+ Christina Reynolds <creynolds@hillaryclinton.com>, 
+ John Podesta <john.podesta@gmail.com>, Robby Mook <re47@hillaryclinton.com>, 
+ Brynne Craig <bcraig@hillaryclinton.com>, 
+ Marlon Marshall <mmarshall@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=f46d04430692022ada0519c2a041
+
+--f46d04430692022ada0519c2a041
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Adding Lauren, Katie & Teddy
+
+On Tue, Jun 30, 2015 at 5:08 PM, Nikki Budzinski <
+nbudzinski@hillaryclinton.com> wrote:
+
+> I think a tweet could work.  It would be very helpful to do today.  For
+> the sake of time, I'd take the tweet.
+>
+> Sent from my iPhone
+>
+> On Jun 30, 2015, at 5:02 PM, Dan Schwerin <dschwerin@hillaryclinton.com>
+> wrote:
+>
+> Would a tweet not do the trick here?
+>
+> On Tue, Jun 30, 2015 at 2:04 PM, Amanda Renteria <
+> arenteria@hillaryclinton.com> wrote:
+>
+>> I worry about being talking "fees".
+>> I like staying more at platitudes about what unions have done for
+>> workers.
+>>
+>> Sent from my iPhone
+>>
+>> On Jun 30, 2015, at 1:50 PM, Jake Sullivan <jsullivan@hillaryclinton.com=
+>
+>> wrote:
+>>
+>> Adding Dan.
+>>
+>>
+>>
+>> On Jun 30, 2015, at 1:44 PM, Ann O'Leary <aoleary@hillaryclinton.com>
+>> wrote:
+>>
+>> I took a stab at a first draft.  COMMS - Can you play with this and send
+>> it back around?
+>>
+>> Today, the United State Supreme Court announced that next term it will
+>> hear the case of *Friedrichs v. California Teachers Association*, which
+>> calls into question the right of public sector to collect a =E2=80=9Cfai=
+r share=E2=80=9D
+>> fee when it bargains for non-union members.  These fees ensure that our
+>> public sector unions can continue their fight for fair wages and benefit=
+s
+>> that teachers, nurses, child care workers, EMTs, and so many others dese=
+rve
+>> who serve our children and our communities day in and day out.  These
+>> workers deserve to be part of the strong middle class in America and the=
+ir
+>> unions help to make it so.  I will be watching this case closely and wil=
+l
+>> be standing firmly united behind our unions in their fight for their rig=
+ht
+>> to bargain collectively for the higher wages that reflect the value of
+>> their work.
+>>
+>> On Tue, Jun 30, 2015 at 9:59 AM, Maya Harris <mharris@hillaryclinton.com=
+>
+>> wrote:
+>>
+>>> We support crafting a statement. Key is to stay at high level
+>>> reaffirming her support for protecting workers' right to organize and
+>>> perhaps stating hope Court will do the same (think she expressed hope
+>>> SCOTUS would rule in favor of marriage equality while the case was stil=
+l
+>>> pending). But we don't want it to look like she's getting ahead of them
+>>> (e.g., predicting a bad outcome) since they've just taken the case and =
+we
+>>> don't know the result.
+>>>
+>>> On Jun 30, 2015, at 11:07 AM, Christina Reynolds <
+>>> creynolds@hillaryclinton.com> wrote:
+>>>
+>>> Defer to policy on this=E2=80=94Ann/Maya?
+>>>
+>>>
+>>>
+>>> *From:* Amanda Renteria [mailto:arenteria@hillaryclinton.com]
+>>> *Sent:* Tuesday, June 30, 2015 11:06 AM
+>>> *To:* Nikki Budzinski
+>>> *Cc:* Maya Harris; Ann O'Leary; Christina Reynolds; John Podesta; Robby
+>>> Mook; Brynne Craig; Marlon Marshall
+>>> *Subject:* Re: FW: Union Leaders, Members on SCOTUS Grant of Cert in
+>>> Friedrichs v. CTA
+>>>
+>>>
+>>>
+>>> comms/policy - thoughts?
+>>>
+>>>
+>>>
+>>> On Tue, Jun 30, 2015 at 11:04 AM, Nikki Budzinski <
+>>> nbudzinski@hillaryclinton.com> wrote:
+>>>
+>>> Would it be possible to get a statement today?  We can use it to bring
+>>> with us to policy and political meetings with the labor movement we hav=
+e in
+>>> DC tomorrow and Thursday.  This would be very helpful.
+>>>
+>>>
+>>>
+>>> On Tue, Jun 30, 2015 at 10:29 AM, Amanda Renteria <
+>>> arenteria@hillaryclinton.com> wrote:
+>>>
+>>> Agree. This would go along way if she said something about this.  She
+>>> knows this issue well from her briefings, etc.  +Policy +Reynolds
+>>>
+>>>
+>>>
+>>> On Tue, Jun 30, 2015 at 10:10 AM, Nikki Budzinski <
+>>> nbudzinski@hillaryclinton.com> wrote:
+>>>
+>>> Below is the statement that public sector unions jointly put out in
+>>> response to Friedrichs.  I'm talking to them about their next steps lat=
+er
+>>> today.  Nikki
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> *From:* Maiers, Staci [NEA] [mailto:SMaiers@nea.org <SMaiers@nea.org>]
+>>> *Sent:* Tuesday, June 30, 2015 9:40 AM
+>>> *Subject:* Union Leaders, Members on SCOTUS Grant of Cert in Friedrichs
+>>> v. CTA
+>>> *Importance:* High
+>>>
+>>>
+>>>
+>>> <image001.jpg>       <image002.png>  *<image003.jpg>*
+>>>    <image004.jpg>   <image005.jpg>
+>>>
+>>>
+>>>
+>>> For Immediate Release
+>>> Contact:   NEA:         Staci Maiers, 202-270-5333
+>>>
+>>> June 30,
+>>> 2015
+>>> AFT:          Kate Childs Graham, 202-393-6354
+>>>
+>>>
+>>> CTA:         Frank Wells, 562-708-5425
+>>>
+>>>    AFSCME:  Marianne von Nordeck, 202-429-4309
+>>>
+>>>
+>>> SEIU:        Beau Boughamer, 202-730-7158
+>>>
+>>>
+>>>
+>>> *PUBLIC SERVICE WORKERS ON SUPREME COURT GRANT*
+>>>
+>>> *OF CERT IN FRIEDRICHS V. CTA*
+>>>
+>>>
+>>>
+>>> *Lawsuit Seeks to Curtail Freedom of Firefighters, Teachers, Nurses,
+>>> First-Responders to Stick Together and Advocate for Better Public Servi=
+ces,
+>>> Better Communities*
+>>>
+>>>
+>>>
+>>> *Jeopardizes American Promise that Hard Work Leads Families to a Decent
+>>> Life*
+>>>
+>>>
+>>>
+>>> WASHINGTON=E2=80=94NEA President Lily Eskelsen Garc=C3=ADa, AFT Preside=
+nt Randi
+>>> Weingarten, CTA President Eric C. Heins, AFSCME President Lee Saunders,=
+ and
+>>> SEIU President Mary Kay Henry issued the following joint statement toda=
+y in
+>>> response to U.S. Supreme Court granting cert to *Friedrichs v.
+>>> California Teachers Association*:
+>>>
+>>>
+>>>
+>>> =E2=80=9CWe are disappointed that at a time when big corporations and t=
+he
+>>> wealthy few are rewriting the rules in their favor, knocking American
+>>> families and our entire economy off-balance, the Supreme Court has chos=
+en
+>>> to take a case that threatens the fundamental promise of America=E2=80=
+=94that if
+>>> you work hard and play by the rules you should be able to provide for y=
+our
+>>> family and live a decent life.
+>>>
+>>>
+>>>
+>>> =E2=80=9CThe Supreme Court is revisiting decisions that have made it po=
+ssible
+>>> for people to stick together for a voice at work and in their
+>>> communities=E2=80=94decisions that have stood for more than 35 years=E2=
+=80=94and that have
+>>> allowed people to work together for better public services and vibrant
+>>> communities.
+>>>
+>>>
+>>>
+>>> =E2=80=9CWhen people come together in a union, they can help make sure =
+that our
+>>> communities have jobs that support our families. It means teachers can
+>>> stand up for their students. First responders can push for critical
+>>> equipment to protect us. And social workers can advocate effectively fo=
+r
+>>> children=E2=80=99s safety.
+>>>
+>>>
+>>>
+>>> =E2=80=9CAmerica can=E2=80=99t build a strong future if people can=E2=
+=80=99t come together to
+>>> improve their work and their families=E2=80=99 futures. Moms and dads a=
+cross the
+>>> country have been standing up in the thousands to call for higher wages=
+ and
+>>> unions. We hope the Supreme Court heeds their voices.=E2=80=9D
+>>>
+>>>
+>>>
+>>> And public servants are speaking out, too, about how *Friedrichs v. CTA=
+*
+>>> would undermine their ability to provide vital services the public depe=
+nds
+>>> on. In their own words:
+>>>
+>>>
+>>>
+>>> =E2=80=9CAs a school campus monitor, my job is to be on the front lines=
+ to make
+>>> sure our students are safe. Both parents and students count on me=E2=80=
+=94it=E2=80=99s a
+>>> responsibility that I take very seriously. It=E2=80=99s important for m=
+e to have
+>>> the right to voice concerns over anything that might impede the safety =
+of
+>>> my students, and jeopardizing my ability to speak up for them is a risk=
+ for
+>>> everyone.=E2=80=9D
+>>>
+>>> *=E2=80=94Carol Peek, a school campus security guard from Ventura, Cali=
+f.*
+>>>
+>>>
+>>>
+>>> =E2=80=9CI love my students, and I want them to have everything they ne=
+ed to get
+>>> a high-quality public education. When educators come together, we can s=
+peak
+>>> with the district about class size, about adequate staffing, about the =
+need
+>>> for counselors, nurses, media specialists and librarians in schools. An=
+d we
+>>> can advocate for better practices that serve our kids. With that collec=
+tive
+>>> voice, we can have conversations with the district that we probably
+>>> wouldn=E2=80=99t be able to have otherwise=E2=80=95and do it while enga=
+ging our
+>>> communities, our parents and our students.=E2=80=9D
+>>>
+>>> *=E2=80=94Kimberly Colbert, a classroom teacher from St. Paul, Minn.*
+>>>
+>>>
+>>>
+>>> =E2=80=9CAs a mental health worker, my colleagues and I see clients who=
+ are
+>>> getting younger and more physical. Every day we do our best work to ser=
+ve
+>>> them and keep them safe, but the risk of injury and attack is a sad, sc=
+ary
+>>> reality of the job. But if my coworkers and I come together and have a
+>>> collective voice on the job, we can advocate for better patient care,
+>>> better training and equipment, and safe staffing levels. This is about =
+all
+>>> of us. We all deserve safety and dignity on the job, because we work
+>>> incredibly hard every day and it=E2=80=99s certainly not glamorous.=E2=
+=80=9D
+>>>
+>>> *=E2=80=94Kelly Druskis-Abreu, a mental health worker from Worcester, M=
+ass.*
+>>>
+>>>
+>>>
+>>> =E2=80=9COur number one job is to protect at-risk children. Working tog=
+ether,
+>>> front-line social workers and investigators have raised standards and
+>>> improved policies that keep kids safe from abuse and neglect. I can't
+>>> understand why the Supreme Court would consider a case that could make =
+it
+>>> harder for us to advocate for the children and families we serve=E2=80=
+=94this work
+>>> is just too important.=E2=80=9D
+>>>
+>>> *=E2=80=94Ethel Everett, a child protection worker from Springfield, Ma=
+ss. *
+>>>
+>>>
+>>>
+>>> ###
+>>>
+>>>
+>>>
+>>> *About the National Education Association*
+>>>
+>>> *The National Education Association is the nation=E2=80=99s largest pro=
+fessional
+>>> employee organization, representing nearly 3 million elementary and
+>>> secondary teachers, higher education faculty, education support
+>>> professionals, school administrators, retired educators and students
+>>> preparing to become teachers. Learn more at **www.nea.org*
+>>> <http://www.nea.org/>* and follow on Twitter at @NEAmedia.*
+>>>
+>>>
+>>>
+>>> *About the American Federation of Teachers (AFT)*
+>>>
+>>> *The American Federation of Teachers, an affiliate of the AFL-CIO, was
+>>> founded in 1916 and today represents 1.6 million members in more than 3=
+,000
+>>> local affiliates nationwide. AFT represents pre-K through 12th-grade
+>>> teachers; paraprofessionals and other school-related personnel; higher
+>>> education faculty and professional staff; federal, state and local
+>>> government employees; and nurses and other healthcare professionals. Go
+>>> online to **www.aft.org* <http://www.aft.org/>* or @AFTunion to find
+>>> out more.*
+>>>
+>>>
+>>>
+>>> *About the California Teachers Association (CTA)*
+>>>
+>>> *The 325,000-member California Teachers Association is affiliated with
+>>> the 3 million-member National Education Association. Find out more at *
+>>> *www.cta.org* <http://www.cta.org/>* and follow CTA on Twitter at
+>>> @CATeachersAssoc.*
+>>>
+>>>
+>>>
+>>>
+>>> *About the American Federation of State, County, and Municipal Employee=
+s
+>>> (AFSCME)**AFSCME is the nation=E2=80=99s largest and fastest growing pu=
+blic
+>>> service employees union with more than 1.6 million working and retired
+>>> members. AFSCME=E2=80=99s members provide the vital services that make =
+America
+>>> happen. We are nurses, corrections officers, child care providers, EMTs=
+,
+>>> sanitation workers and more. Read more online at **www.afscme.org*
+>>> <http://www.afscme.org/>* and @AFSCME.*
+>>>
+>>>
+>>>
+>>> *About the Service Employees International Union (SEIU)*
+>>>
+>>> *The Service Employees International Union (SEIU) unites 2 million
+>>> diverse members in the United States, Canada and Puerto Rico. The natio=
+n=E2=80=99s
+>>> largest health care union, SEIU represents nurses, LPNs, doctors, lab
+>>> technicians, nursing home workers, and home care workers in addition to
+>>> building cleaning and security industries, including janitors, security
+>>> officers, superintendents, maintenance workers, window cleaners, and
+>>> doormen and women. SEIU also represents public workers including local =
+and
+>>> state government workers, public school employees, bus drivers, and chi=
+ld
+>>> care providers. Learn more at **www.seiu.org* <http://www.seiu.org/>* a=
+nd
+>>> @SEIU.  *
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> *******************************************************************
+>>> Only the individual sender is responsible for the content of the
+>>> message, and the message does not necessarily reflect the position
+>>> or policy of the National Education Association or its affiliates.
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>> Nikki Budzinski
+>>>
+>>> Labor Outreach Director
+>>>
+>>> Hillary for America
+>>>
+>>> 646-854-1442 (direct)
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>> Amanda Renteria
+>>>
+>>> National Political Director
+>>>
+>>> Hillary for America #Hillary2016
+>>>
+>>> 559-426-5756 (o)
+>>>
+>>> 650-868-1188 (c)
+>>>
+>>> Facebook <https://www.facebook.com/renteriaforcongress> or Twitter
+>>> <https://twitter.com/AmandaRenteria>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>> Nikki Budzinski
+>>>
+>>> Labor Outreach Director
+>>>
+>>> Hillary for America
+>>>
+>>> 646-854-1442 (direct)
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>> Amanda Renteria
+>>>
+>>> National Political Director
+>>>
+>>> Hillary for America #Hillary2016
+>>>
+>>> 559-426-5756 (o)
+>>>
+>>> 650-868-1188 (c)
+>>>
+>>> Facebook <https://www.facebook.com/renteriaforcongress> or Twitter
+>>> <https://twitter.com/AmandaRenteria>
+>>>
+>>>
+>>
+>>
+>> --
+>> Ann O'Leary
+>> Senior Policy Advisor
+>> Hillary for America
+>> Cell: 510-717-5518
+>>
+>>
+>
+
+--f46d04430692022ada0519c2a041
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Adding Lauren, Katie &amp; Teddy</div><div class=3D"gmail_=
+extra"><br><div class=3D"gmail_quote">On Tue, Jun 30, 2015 at 5:08 PM, Nikk=
+i Budzinski <span dir=3D"ltr">&lt;<a href=3D"mailto:nbudzinski@hillaryclint=
+on.com" target=3D"_blank">nbudzinski@hillaryclinton.com</a>&gt;</span> wrot=
+e:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-l=
+eft:1px #ccc solid;padding-left:1ex"><div dir=3D"auto"><div>I think a tweet=
+ could work.=C2=A0 It would be very helpful to do today.=C2=A0 For the sake=
+ of time, I&#39;d take the tweet.<br><br>Sent from my iPhone</div><div><div=
+ class=3D"h5"><div><br>On Jun 30, 2015, at 5:02 PM, Dan Schwerin &lt;<a hre=
+f=3D"mailto:dschwerin@hillaryclinton.com" target=3D"_blank">dschwerin@hilla=
+ryclinton.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div><d=
+iv dir=3D"ltr">Would a tweet not do the trick here?</div><div class=3D"gmai=
+l_extra"><br><div class=3D"gmail_quote">On Tue, Jun 30, 2015 at 2:04 PM, Am=
+anda Renteria <span dir=3D"ltr">&lt;<a href=3D"mailto:arenteria@hillaryclin=
+ton.com" target=3D"_blank">arenteria@hillaryclinton.com</a>&gt;</span> wrot=
+e:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-l=
+eft:1px #ccc solid;padding-left:1ex"><div dir=3D"auto"><div>I worry about b=
+eing talking &quot;fees&quot;. =C2=A0</div><div>I like staying more at plat=
+itudes about what unions have done for workers. =C2=A0</div><div><br>Sent f=
+rom my iPhone</div><div><div><div><br>On Jun 30, 2015, at 1:50 PM, Jake Sul=
+livan &lt;<a href=3D"mailto:jsullivan@hillaryclinton.com" target=3D"_blank"=
+>jsullivan@hillaryclinton.com</a>&gt; wrote:<br><br></div><blockquote type=
+=3D"cite"><div><div>Adding Dan.=C2=A0<br><br><br></div><div><br>On Jun 30, =
+2015, at 1:44 PM, Ann O&#39;Leary &lt;<a href=3D"mailto:aoleary@hillaryclin=
+ton.com" target=3D"_blank">aoleary@hillaryclinton.com</a>&gt; wrote:<br><br=
+></div><blockquote type=3D"cite"><div><div dir=3D"ltr">I took a stab at a f=
+irst draft.=C2=A0 COMMS - Can you play with this and send it back around?<d=
+iv><br></div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=3D"MsoNormal"><span style=3D"font-size:14pt;font-family:&#39;Times=
+ New Roman&#39;">Today, the United State Supreme Court announced that next =
+term
+it will hear the case of <i>Friedrichs v. California
+Teachers Association</i>, which calls into question the right of public sec=
+tor
+to collect a =E2=80=9Cfair share=E2=80=9D fee when it bargains for non-unio=
+n members.=C2=A0 These fees ensure that our public sector
+unions can continue their fight for fair wages and benefits that teachers,
+nurses, child care workers, EMTs, and so many others deserve who serve our
+children and our communities day in and day out.=C2=A0 These workers deserv=
+e to be part of the
+strong middle class in America and their unions help to make it so.=C2=A0 I=
+ will be watching this case closely and will
+be standing firmly united behind our unions in their fight for their right =
+to
+bargain collectively for the higher wages that reflect the value of their w=
+ork.</span><span style=3D"font-size:14pt;font-family:&#39;Times New Roman&#=
+39;"></span></p>
+
+</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Tu=
+e, Jun 30, 2015 at 9:59 AM, Maya Harris <span dir=3D"ltr">&lt;<a href=3D"ma=
+ilto:mharris@hillaryclinton.com" target=3D"_blank">mharris@hillaryclinton.c=
+om</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"marg=
+in:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"auto=
+"><div>We support crafting a statement. Key is to stay at high level reaffi=
+rming her support for protecting workers&#39; right to organize and perhaps=
+ stating hope Court will do the same (think she expressed hope SCOTUS would=
+ rule in favor of marriage equality while the case was still pending). But =
+we don&#39;t want it to look like she&#39;s getting ahead of them (e.g., pr=
+edicting a bad outcome) since they&#39;ve just taken the case and we don&#3=
+9;t know the result.=C2=A0<br></div><span><div><br>On Jun 30, 2015, at 11:0=
+7 AM, Christina Reynolds &lt;<a href=3D"mailto:creynolds@hillaryclinton.com=
+" target=3D"_blank">creynolds@hillaryclinton.com</a>&gt; wrote:<br><br></di=
+v></span><blockquote type=3D"cite"><div><div><span><p class=3D"MsoNormal"><=
+span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;c=
+olor:#1f497d">Defer to policy on this=E2=80=94Ann/Maya?</span></p><p class=
+=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;color:#1f497d">=C2=A0</span></p><p class=3D"MsoNormal"><b><s=
+pan style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">F=
+rom:</span></b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif"> Amanda Renteria [mailto:<a href=3D"mailto:arenteria@hillar=
+yclinton.com" target=3D"_blank">arenteria@hillaryclinton.com</a>] <br><b>Se=
+nt:</b> Tuesday, June 30, 2015 11:06 AM<br><b>To:</b> Nikki Budzinski<br><b=
+>Cc:</b> Maya Harris; Ann O&#39;Leary; Christina Reynolds; John Podesta; Ro=
+bby Mook; Brynne Craig; Marlon Marshall<br><b>Subject:</b> Re: FW: Union Le=
+aders, Members on SCOTUS Grant of Cert in Friedrichs v. CTA</span></p><p cl=
+ass=3D"MsoNormal">=C2=A0</p><div><p class=3D"MsoNormal">comms/policy - thou=
+ghts?</p></div></span><div><p class=3D"MsoNormal">=C2=A0</p><div><span><p c=
+lass=3D"MsoNormal">On Tue, Jun 30, 2015 at 11:04 AM, Nikki Budzinski &lt;<a=
+ href=3D"mailto:nbudzinski@hillaryclinton.com" target=3D"_blank">nbudzinski=
+@hillaryclinton.com</a>&gt; wrote:</p></span><blockquote style=3D"border:no=
+ne;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.=
+8pt;margin-right:0in"><span><div><p class=3D"MsoNormal">Would it be possibl=
+e to get a statement today?=C2=A0 We can use it to bring with us to policy =
+and political meetings with the labor movement we have in DC tomorrow and T=
+hursday.=C2=A0 This would be very helpful.</p></div></span><div><div><div><=
+p class=3D"MsoNormal">=C2=A0</p><div><span><p class=3D"MsoNormal">On Tue, J=
+un 30, 2015 at 10:29 AM, Amanda Renteria &lt;<a href=3D"mailto:arenteria@hi=
+llaryclinton.com" target=3D"_blank">arenteria@hillaryclinton.com</a>&gt; wr=
+ote:</p></span><blockquote style=3D"border:none;border-left:solid #cccccc 1=
+.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in"><span><d=
+iv><p class=3D"MsoNormal">Agree. This would go along way if she said someth=
+ing about this.=C2=A0 She knows this issue well from her briefings, etc. =
+=C2=A0+Policy +Reynolds</p></div></span><div><div><div><p class=3D"MsoNorma=
+l">=C2=A0</p><div><span><p class=3D"MsoNormal">On Tue, Jun 30, 2015 at 10:1=
+0 AM, Nikki Budzinski &lt;<a href=3D"mailto:nbudzinski@hillaryclinton.com" =
+target=3D"_blank">nbudzinski@hillaryclinton.com</a>&gt; wrote:</p></span><b=
+lockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0in =
+0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in"><div><div><span><p class=
+=3D"MsoNormal">Below is the statement that public sector unions jointly put=
+ out in response to Friedrichs.=C2=A0 I&#39;m talking to them about their n=
+ext steps later today.=C2=A0 Nikki=C2=A0</p></span><div><div><span><p class=
+=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal"><span style=3D"color:#1f497=
+d">=C2=A0</span></p><div><div style=3D"border:none;border-top:solid #e1e1e1=
+ 1.0pt;padding:3.0pt 0in 0in 0in"><p class=3D"MsoNormal"><b>From:</b> Maier=
+s, Staci [NEA] [<a href=3D"mailto:SMaiers@nea.org" target=3D"_blank">mailto=
+:SMaiers@nea.org</a>] <br><b>Sent:</b> Tuesday, June 30, 2015 9:40 AM<br><b=
+>Subject:</b> Union Leaders, Members on SCOTUS Grant of Cert in Friedrichs =
+v. CTA<br><b>Importance:</b> High</p></div></div><p class=3D"MsoNormal">=C2=
+=A0</p></span><p class=3D"MsoNormal" align=3D"center" style=3D"text-align:c=
+enter"><span style=3D"font-family:&quot;Cambria&quot;,serif">&lt;image001.j=
+pg&gt;=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 &lt;image002.png&gt;=C2=A0=C2=A0=
+</span><b><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:bla=
+ck">&lt;image003.jpg&gt;</span></b><span style=3D"font-family:&quot;Cambria=
+&quot;,serif">=C2=A0=C2=A0=C2=A0&lt;image004.jpg&gt;=C2=A0=C2=A0=C2=A0&lt;i=
+mage005.jpg&gt;=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0</span></p><div><d=
+iv><p style=3D"margin-bottom:24.0pt"><span style=3D"font-size:10.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif">=C2=A0</span></p><p style=3D"margin-bot=
+tom:24.0pt"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,s=
+ans-serif">For Immediate Release=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0 Contact:=C2=A0=C2=A0 NEA: =C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0 Staci Maiers, <a href=3D"tel:202-270-5333" target=3D"=
+_blank">202-270-5333</a></span></p><p style=3D"margin-bottom:24.0pt"><span =
+style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">June 30=
+, 2015=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0 AFT: =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0 Kate Childs Graham, <a href=3D"tel:202-393-6354" target=3D"_blank">202-=
+393-6354</a></span></p><p style=3D"margin-bottom:24.0pt"><span style=3D"fon=
+t-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 CTA: =C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 Frank Wells, <a href=3D"tel:562-708-5425" target=3D"_bla=
+nk">562-708-5425</a></span></p><p style=3D"margin-right:0in;margin-bottom:2=
+4.0pt;margin-left:4.0in"><span style=3D"font-size:10.0pt;font-family:&quot;=
+Arial&quot;,sans-serif">=C2=A0=C2=A0 AFSCME:=C2=A0 Marianne von Nordeck, <a=
+ href=3D"tel:202-429-4309" target=3D"_blank">202-429-4309</a></span></p><p =
+style=3D"margin-bottom:24.0pt"><span style=3D"font-size:10.0pt;font-family:=
+&quot;Arial&quot;,sans-serif">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0 SEIU: =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Beau Boughame=
+r, <a href=3D"tel:202-730-7158" target=3D"_blank">202-730-7158</a></span></=
+p><p style=3D"margin-bottom:24.0pt"><span style=3D"font-family:&quot;Arial&=
+quot;,sans-serif">=C2=A0</span></p><p class=3D"MsoNormal" align=3D"center" =
+style=3D"text-align:center"><b><span style=3D"font-family:&quot;Arial&quot;=
+,sans-serif;color:black">PUBLIC SERVICE WORKERS ON SUPREME COURT GRANT</spa=
+n></b></p><p class=3D"MsoNormal" align=3D"center" style=3D"text-align:cente=
+r"><b><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">=
+OF CERT IN <i>FRIEDRICHS V. CTA</i></span></b></p><p class=3D"MsoNormal"><s=
+pan style=3D"font-size:10.0pt;font-family:Times">=C2=A0</span></p><p class=
+=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><span style=
+=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">Lawsuit Seeks to =
+Curtail Freedom of Firefighters, Teachers, Nurses, First-Responders to Stic=
+k Together and Advocate for Better Public Services, Better Communities</spa=
+n></b></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-famil=
+y:Times">=C2=A0</span></p><p class=3D"MsoNormal" align=3D"center" style=3D"=
+text-align:center"><b><span style=3D"font-family:&quot;Arial&quot;,sans-ser=
+if;color:black">Jeopardizes American Promise that Hard Work Leads Families =
+to a Decent Life</span></b></p><p class=3D"MsoNormal"><span style=3D"font-s=
+ize:10.0pt;font-family:Times">=C2=A0</span></p><p class=3D"MsoNormal"><span=
+ style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">WASHINGTON=
+=E2=80=94NEA President Lily Eskelsen Garc=C3=ADa, AFT President Randi Weing=
+arten, CTA President Eric C. Heins, AFSCME President Lee Saunders, and SEIU=
+ President Mary Kay Henry issued the following joint statement today in res=
+ponse to U.S. Supreme Court granting cert to <i>Friedrichs v. California Te=
+achers Association</i>: </span></p><p class=3D"MsoNormal"><span style=3D"fo=
+nt-size:10.0pt;font-family:Times">=C2=A0</span></p><p class=3D"MsoNormal"><=
+span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">=E2=80=
+=9CWe are disappointed that at a time when big corporations and the wealthy=
+ few are rewriting the rules in their favor, knocking American families and=
+ our entire economy off-balance, the Supreme Court has chosen to take a cas=
+e that threatens the fundamental promise of America=E2=80=94that if you wor=
+k hard and play by the rules you should be able to provide for your family =
+and live a decent life. =C2=A0</span></p><p class=3D"MsoNormal"><span style=
+=3D"font-size:10.0pt;font-family:Times">=C2=A0</span></p><p class=3D"MsoNor=
+mal"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">=
+=E2=80=9CThe Supreme Court is revisiting decisions that have made it possib=
+le for people to stick together for a voice at work and in their communitie=
+s=E2=80=94decisions that have stood for more than 35 years=E2=80=94and that=
+ have allowed people to work together for better public services and vibran=
+t communities.=C2=A0 </span></p><p class=3D"MsoNormal"><span style=3D"font-=
+size:10.0pt;font-family:Times">=C2=A0</span></p><p class=3D"MsoNormal"><spa=
+n style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">=E2=80=9CW=
+hen people come together in a union, they can help make sure that our commu=
+nities have jobs that support our families. It means teachers can stand up =
+for their students. First responders can push for critical equipment to pro=
+tect us. And social workers can advocate effectively for children=E2=80=99s=
+ safety. </span></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;=
+font-family:Times">=C2=A0</span></p><p class=3D"MsoNormal"><span style=3D"f=
+ont-family:&quot;Arial&quot;,sans-serif;color:black">=E2=80=9CAmerica can=
+=E2=80=99t build a strong future if people can=E2=80=99t come together to i=
+mprove their work and their families=E2=80=99 futures. Moms and dads across=
+ the country have been standing up in the thousands to call for higher wage=
+s and unions. We hope the Supreme Court heeds their voices.=E2=80=9D</span>=
+</p><p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,san=
+s-serif;color:black">=C2=A0</span></p><p class=3D"MsoNormal"><span style=3D=
+"font-family:&quot;Arial&quot;,sans-serif;color:black">And public servants =
+are speaking out, too, about how <i>Friedrichs v. CTA</i> would undermine t=
+heir ability to provide vital services the public depends on. In their own =
+words:</span></p><p class=3D"MsoNormal"><span style=3D"font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black">=C2=A0</span></p><p class=3D"MsoNormal"><=
+span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">=E2=80=
+=9CAs a school campus monitor, my job is to be on the front lines to make s=
+ure our students are safe. Both parents and students count on me=E2=80=94it=
+=E2=80=99s a responsibility that I take very seriously. It=E2=80=99s import=
+ant for me to have the right to voice concerns over anything that might imp=
+ede the safety of my students, and jeopardizing my ability to speak up for =
+them is a risk for everyone.=E2=80=9D </span></p><p class=3D"MsoNormal" ali=
+gn=3D"right" style=3D"text-align:right"><i><span style=3D"font-family:&quot=
+;Arial&quot;,sans-serif;color:black">=E2=80=94Carol Peek, a school campus s=
+ecurity guard from Ventura, Calif.</span></i></p><p class=3D"MsoNormal" ali=
+gn=3D"right" style=3D"text-align:right"><span style=3D"font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black">=C2=A0</span></p><p class=3D"MsoNormal"><=
+span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:black">=E2=80=
+=9CI love my students, and I want them to have everything they need to get =
+a high-quality public education. When educators come together, we can speak=
+ with the district about class size, about adequate staffing, about the nee=
+d for counselors, nurses, media specialists and librarians in schools. And =
+we can advocate for better practices that serve our kids. With that collect=
+ive voice, we can have conversations with the district that we probably wou=
+ldn=E2=80=99t be able to have otherwise=E2=80=95and do it while engaging ou=
+r communities, our parents and our students.=E2=80=9D </span></p><p class=
+=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><i><span style=3D=
+"font-family:&quot;Arial&quot;,sans-serif;color:black">=E2=80=94Kimberly Co=
+lbert, a classroom teacher from St. Paul, Minn.</span></i></p><p class=3D"M=
+soNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color:bla=
+ck">=C2=A0</span></p><p class=3D"MsoNormal"><span style=3D"font-family:&quo=
+t;Arial&quot;,sans-serif;color:black">=E2=80=9CAs a mental health worker, m=
+y colleagues and I see clients who are getting younger and more physical. E=
+very day we do our best work to serve them and keep them safe, but the risk=
+ of injury and attack is a sad, scary reality of the job. But if my coworke=
+rs and I come together and have a collective voice on the job, we can advoc=
+ate for better patient care, better training and equipment, and safe staffi=
+ng levels. This is about all of us. We all deserve safety and dignity on th=
+e job, because we work incredibly hard every day and it=E2=80=99s certainly=
+ not glamorous.=E2=80=9D</span></p><p class=3D"MsoNormal" align=3D"right" s=
+tyle=3D"text-align:right"><i><span style=3D"font-family:&quot;Arial&quot;,s=
+ans-serif;color:black">=E2=80=94Kelly Druskis-Abreu, a mental health worker=
+ from Worcester, Mass.</span></i></p><p class=3D"MsoNormal"><span style=3D"=
+font-family:&quot;Arial&quot;,sans-serif;color:black">=C2=A0</span></p><p c=
+lass=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-serif;=
+color:black">=E2=80=9COur number one job is to protect at-risk children. Wo=
+rking together, front-line social workers and investigators have raised sta=
+ndards and improved policies that keep kids safe from abuse and neglect. I =
+can&#39;t understand why the Supreme Court would consider a case that could=
+ make it harder for us to advocate for the children and families we serve=
+=E2=80=94this work is just too important.=E2=80=9D</span></p><p class=3D"Ms=
+oNormal" align=3D"right" style=3D"text-align:right"><i><span style=3D"font-=
+family:&quot;Arial&quot;,sans-serif;color:black">=E2=80=94Ethel Everett, a =
+child protection worker from Springfield, Mass.<span style=3D"background:ye=
+llow"> </span></span></i></p><p class=3D"MsoNormal" align=3D"right" style=
+=3D"text-align:right"><span style=3D"font-family:&quot;Arial&quot;,sans-ser=
+if;color:black">=C2=A0</span></p><p class=3D"MsoNormal" align=3D"center" st=
+yle=3D"text-align:center;background:white"><span style=3D"font-size:11.5pt;=
+font-family:&quot;Segoe UI&quot;,sans-serif;color:#212121">###</span></p><p=
+ class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:10=
+.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#212121">=C2=A0</spa=
+n></p><p class=3D"MsoNormal" style=3D"background:white"><b><i><span style=
+=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#2121=
+21">About the National Education Association</span></i></b></p><p class=3D"=
+MsoNormal" style=3D"background:white"><i><span style=3D"font-size:9.0pt;fon=
+t-family:&quot;Segoe UI&quot;,sans-serif;color:#212121">The National Educat=
+ion Association is the nation=E2=80=99s largest professional employee organ=
+ization, representing nearly 3 million elementary and secondary teachers, h=
+igher education faculty, education support professionals, school administra=
+tors, retired educators and students preparing to become teachers. Learn mo=
+re at=C2=A0</span></i><a href=3D"http://www.nea.org/" target=3D"_blank"><i>=
+<span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif"=
+>www.nea.org</span></i></a><i><span style=3D"font-size:9.0pt;font-family:&q=
+uot;Segoe UI&quot;,sans-serif;color:#212121">=C2=A0and follow on Twitter at=
+ @NEAmedia.</span></i></p><p class=3D"MsoNormal" style=3D"background:white"=
+><b><i><span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans=
+-serif;color:#212121">=C2=A0</span></i></b></p><p class=3D"MsoNormal" style=
+=3D"background:white"><b><i><span style=3D"font-size:9.0pt;font-family:&quo=
+t;Segoe UI&quot;,sans-serif;color:#212121">About the American Federation of=
+ Teachers (AFT)</span></i></b></p><p class=3D"MsoNormal" style=3D"backgroun=
+d:white"><i><span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;=
+,sans-serif;color:#212121">The American Federation of Teachers, an affiliat=
+e of the AFL-CIO, was founded in 1916 and today represents 1.6 million memb=
+ers in more than 3,000 local affiliates nationwide. AFT represents pre-K th=
+rough 12th-grade teachers; paraprofessionals and other school-related perso=
+nnel; higher education faculty and professional staff; federal, state and l=
+ocal government employees; and nurses and other healthcare professionals. G=
+o online to=C2=A0</span></i><a href=3D"http://www.aft.org/" target=3D"_blan=
+k"><i><span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans-=
+serif">www.aft.org</span></i></a><i><span style=3D"font-size:9.0pt;font-fam=
+ily:&quot;Segoe UI&quot;,sans-serif;color:#212121">=C2=A0or @AFTunion to fi=
+nd out more.</span></i></p><p class=3D"MsoNormal" style=3D"background:white=
+"><b><i><span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,san=
+s-serif;color:#212121">=C2=A0</span></i></b></p><p class=3D"MsoNormal" styl=
+e=3D"background:white"><b><i><span style=3D"font-size:9.0pt;font-family:&qu=
+ot;Segoe UI&quot;,sans-serif;color:#212121">About the California Teachers A=
+ssociation (CTA)</span></i></b></p><p class=3D"MsoNormal" style=3D"backgrou=
+nd:white"><i><span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot=
+;,sans-serif;color:#212121">The 325,000-member California Teachers Associat=
+ion is affiliated with the 3 million-member National Education Association.=
+ Find out more at=C2=A0</span></i><a href=3D"http://www.cta.org/" target=3D=
+"_blank"><i><span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;=
+,sans-serif">www.cta.org</span></i></a><i><span style=3D"font-size:9.0pt;fo=
+nt-family:&quot;Segoe UI&quot;,sans-serif;color:#212121">=C2=A0and follow C=
+TA on Twitter at @CATeachersAssoc.</span></i></p><p class=3D"MsoNormal" sty=
+le=3D"background:white"><b><i><span style=3D"font-size:9.0pt;font-family:&q=
+uot;Segoe UI&quot;,sans-serif;color:#212121">=C2=A0</span></i></b></p><p cl=
+ass=3D"MsoNormal" style=3D"background:white"><b><i><span style=3D"font-size=
+:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#212121">About the=
+ American Federation of State, County, and Municipal Employees (AFSCME)<br>=
+</span></i></b><i><span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI=
+&quot;,sans-serif;color:#212121">AFSCME is the nation=E2=80=99s largest and=
+ fastest growing public service employees union with more than 1.6 million =
+working and retired members. AFSCME=E2=80=99s members provide the vital ser=
+vices that make America happen. We are nurses, corrections officers, child =
+care providers, EMTs, sanitation workers and more. Read more online at=C2=
+=A0</span></i><a href=3D"http://www.afscme.org/" target=3D"_blank"><i><span=
+ style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif">www.=
+afscme.org</span></i></a><i><span style=3D"font-size:9.0pt;font-family:&quo=
+t;Segoe UI&quot;,sans-serif;color:#212121">=C2=A0and @AFSCME.</span></i></p=
+><p class=3D"MsoNormal" style=3D"background:white"><i><span style=3D"font-s=
+ize:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#212121">=C2=A0=
+</span></i></p><p class=3D"MsoNormal" style=3D"background:white"><b><i><spa=
+n style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;colo=
+r:#212121">About the Service Employees International Union (SEIU)</span></i=
+></b></p><p class=3D"MsoNormal" style=3D"background:white"><i><span style=
+=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#2121=
+21">The Service Employees International Union (SEIU) unites 2 million diver=
+se members in the United States, Canada and Puerto Rico. The nation=E2=80=
+=99s largest health care union, SEIU represents nurses, LPNs, doctors, lab =
+technicians, nursing home workers, and home care workers in addition to bui=
+lding cleaning and security industries, including janitors, security office=
+rs, superintendents, maintenance workers, window cleaners, and doormen and =
+women. SEIU also represents public workers including local and state govern=
+ment workers, public school employees, bus drivers, and child care provider=
+s. Learn more at=C2=A0</span></i><a href=3D"http://www.seiu.org/" target=3D=
+"_blank"><i><span style=3D"font-size:9.0pt;font-family:&quot;Segoe UI&quot;=
+,sans-serif">www.seiu.org</span></i></a><i><span style=3D"font-size:9.0pt;f=
+ont-family:&quot;Segoe UI&quot;,sans-serif;color:#212121">=C2=A0and @SEIU.=
+=C2=A0=C2=A0</span></i></p><p class=3D"MsoNormal" style=3D"background:white=
+"><span style=3D"font-size:10.0pt;font-family:&quot;Segoe UI&quot;,sans-ser=
+if;color:#212121">=C2=A0</span></p><p class=3D"MsoNormal">=C2=A0</p><p clas=
+s=3D"MsoNormal"><span style=3D"font-family:SimSun">************************=
+*******************************************<br>Only the individual sender i=
+s responsible for the content of the<br>message, and the message does not n=
+ecessarily reflect the position<br>or policy of the National Education Asso=
+ciation or its affiliates. </span></p></div></div></div></div></div><div><d=
+iv><p class=3D"MsoNormal"><span style=3D"color:#888888"><br><br clear=3D"al=
+l"></span></p><div><p class=3D"MsoNormal"><span style=3D"color:#888888">=C2=
+=A0</span></p></div><p class=3D"MsoNormal"><span style=3D"color:#888888">--=
+ </span></p><div><div><div><div><div><p class=3D"MsoNormal"><span style=3D"=
+color:#888888">Nikki Budzinski</span></p></div><div><p class=3D"MsoNormal">=
+<span style=3D"color:#888888">Labor Outreach Director</span></p></div><div>=
+<p class=3D"MsoNormal"><span style=3D"color:#888888">Hillary for America</s=
+pan></p></div><div><p class=3D"MsoNormal"><span style=3D"color:#888888"><a =
+href=3D"tel:646-854-1442" target=3D"_blank">646-854-1442</a> (direct)</span=
+></p></div></div></div></div></div></div></div></div></blockquote></div><p =
+class=3D"MsoNormal"><br><br clear=3D"all"></p><div><p class=3D"MsoNormal">=
+=C2=A0</p></div></div></div><div><div><p class=3D"MsoNormal"><span style=3D=
+"color:#888888">-- </span></p><div><div><p class=3D"MsoNormal"><span style=
+=3D"font-size:9.5pt;color:#888888">Amanda Renteria</span><span style=3D"col=
+or:#888888"></span></p><div><p class=3D"MsoNormal"><span style=3D"font-size=
+:9.5pt;color:#888888">National Political Director=C2=A0</span></p></div><di=
+v><p class=3D"MsoNormal"><span style=3D"font-size:9.5pt;color:#888888">Hill=
+ary for America #Hillary2016</span></p></div><div><p class=3D"MsoNormal"><s=
+pan style=3D"font-size:9.5pt;color:#888888"><a href=3D"tel:559-426-5756" ta=
+rget=3D"_blank">559-426-5756</a> (o)</span></p></div><div><p class=3D"MsoNo=
+rmal"><span style=3D"font-size:9.5pt;color:#888888"><a href=3D"tel:650-868-=
+1188" target=3D"_blank">650-868-1188</a> (c)</span></p></div><div><p class=
+=3D"MsoNormal"><span style=3D"font-size:9.5pt;color:#888888"><a href=3D"htt=
+ps://www.facebook.com/renteriaforcongress" target=3D"_blank">Facebook</a>=
+=C2=A0or=C2=A0<a href=3D"https://twitter.com/AmandaRenteria" target=3D"_bla=
+nk">Twitter</a></span></p></div></div></div></div></div></div></blockquote>=
+</div><div><div><p class=3D"MsoNormal"><br><br clear=3D"all"></p><div><p cl=
+ass=3D"MsoNormal">=C2=A0</p></div><p class=3D"MsoNormal">-- </p><div><div><=
+div><div><div><p class=3D"MsoNormal">Nikki Budzinski</p></div><div><p class=
+=3D"MsoNormal">Labor Outreach Director</p></div><div><p class=3D"MsoNormal"=
+>Hillary for America</p></div><div><p class=3D"MsoNormal"><a href=3D"tel:64=
+6-854-1442" target=3D"_blank">646-854-1442</a> (direct)</p></div></div></di=
+v></div></div></div></div></div></div></div></blockquote></div><div><div><p=
+ class=3D"MsoNormal"><br><br clear=3D"all"></p><div><p class=3D"MsoNormal">=
+=C2=A0</p></div><p class=3D"MsoNormal">-- </p><div><div><p class=3D"MsoNorm=
+al"><span style=3D"font-size:9.5pt">Amanda Renteria</span></p><div><p class=
+=3D"MsoNormal"><span style=3D"font-size:9.5pt">National Political Director=
+=C2=A0</span></p></div><div><p class=3D"MsoNormal"><span style=3D"font-size=
+:9.5pt">Hillary for America #Hillary2016</span></p></div><div><p class=3D"M=
+soNormal"><span style=3D"font-size:9.5pt"><a href=3D"tel:559-426-5756" valu=
+e=3D"+15594265756" target=3D"_blank">559-426-5756</a> (o)</span></p></div><=
+div><p class=3D"MsoNormal"><span style=3D"font-size:9.5pt"><a href=3D"tel:6=
+50-868-1188" value=3D"+16508681188" target=3D"_blank">650-868-1188</a> (c)<=
+/span></p></div><div><p class=3D"MsoNormal"><span style=3D"font-size:9.5pt"=
+><a href=3D"https://www.facebook.com/renteriaforcongress" target=3D"_blank"=
+>Facebook</a>=C2=A0or=C2=A0<a href=3D"https://twitter.com/AmandaRenteria" t=
+arget=3D"_blank">Twitter</a></span></p></div></div></div></div></div></div>=
+</div>
+</div></blockquote></div>
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br><div><div di=
+r=3D"ltr">Ann O&#39;Leary<div>Senior Policy Advisor</div><div>Hillary for A=
+merica</div><div>Cell: <a href=3D"tel:510-717-5518" value=3D"+15107175518" =
+target=3D"_blank">510-717-5518</a></div></div></div>
+</div>
+</div></blockquote>
+</div></blockquote></div></div></div>
+</blockquote></div><br></div>
+</div></blockquote></div></div></div>
+</blockquote></div><br></div>
+
+--f46d04430692022ada0519c2a041--

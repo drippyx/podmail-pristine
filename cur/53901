@@ -1,0 +1,460 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp170043lfb;
+        Fri, 4 Mar 2016 09:24:32 -0800 (PST)
+X-Received: by 10.107.149.18 with SMTP id x18mr10850641iod.170.1457112272033;
+        Fri, 04 Mar 2016 09:24:32 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bon0098.outbound.protection.outlook.com. [157.56.111.98])
+        by mx.google.com with ESMTPS id qo10si27508igb.70.2016.03.04.09.24.31
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 04 Mar 2016 09:24:31 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.98 as permitted sender) client-ip=157.56.111.98;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.98 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=pass header.i=@gulaw.onmicrosoft.com;
+       dkim=neutral (body hash did not verify) header.i=@backbonecampaign.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gulaw.onmicrosoft.com;
+ s=selector1-law-georgetown-edu;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=gOmLQd/yhhMcBxqyhS1dfWlJYcBzzZrI8Fx4GCbxI1A=;
+ b=Dy7xqx7T4gGvEI0wQ0Lkz4B8CoAlmcLGiTSqjXsALH1318ulWgnnwRfKi6zpC/TvevlCHAkYBcmSEFNAV2v/vtRk2kx//2g+yMp42Rao8RPbVcybxGrh4Bazcqiv/G30iayGHMHI9TNYNx6M9X8H/w3lmWXSueEHW0UcebBQRM8=
+Received: from BLUPR07CA093.namprd07.prod.outlook.com (10.160.24.48) by
+ CO1PR07MB363.namprd07.prod.outlook.com (10.141.75.22) with Microsoft SMTP
+ Server (TLS) id 15.1.427.16; Fri, 4 Mar 2016 17:24:30 +0000
+Received: from BN1AFFO11FD025.protection.gbl (2a01:111:f400:7c10::152) by
+ BLUPR07CA093.outlook.office365.com (2a01:111:e400:8ae::48) with Microsoft
+ SMTP Server (TLS) id 15.1.415.20 via Frontend Transport; Fri, 4 Mar 2016
+ 17:24:29 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=backbonecampaign.org;gmail.com; dmarc=none action=none
+ header.from=backbonecampaign.org;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BN1AFFO11FD025.mail.protection.outlook.com (10.58.52.85) with Microsoft SMTP
+ Server (TLS) id 15.1.427.7 via Frontend Transport; Fri, 4 Mar 2016 17:24:29
+ +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-by2-obe.outbound.protection.outlook.com (141.161.191.13)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Fri, 4 Mar 2016 12:24:28 -0500
+Received: from SN1PR0701CA0082.namprd07.prod.outlook.com (10.163.126.50) by
+ CO2PR07MB634.namprd07.prod.outlook.com (10.141.228.17) with Microsoft SMTP
+ Server (TLS) id 15.1.409.15; Fri, 4 Mar 2016 17:24:25 +0000
+Received: from BL2FFO11FD010.protection.gbl (2a01:111:f400:7c09::178) by
+ SN1PR0701CA0082.outlook.office365.com (2a01:111:e400:52fd::50) with Microsoft
+ SMTP Server (TLS) id 15.1.427.16 via Frontend Transport; Fri, 4 Mar 2016
+ 17:24:25 +0000
+Authentication-Results: spf=pass (sender IP is 198.37.148.253)
+ smtp.mailfrom=email.shellnoalaska.org; law.georgetown.edu; dkim=pass
+ (signature was verified) header.d=backbonecampaign.org;law.georgetown.edu;
+ dmarc=bestguesspass action=none header.from=backbonecampaign.org;
+Received-SPF: Pass (protection.outlook.com: domain of email.shellnoalaska.org
+ designates 198.37.148.253 as permitted sender)
+ receiver=protection.outlook.com; client-ip=198.37.148.253;
+ helo=o14.email.nationbuilder.com;
+Received: from o14.email.nationbuilder.com (198.37.148.253) by
+ BL2FFO11FD010.mail.protection.outlook.com (10.173.161.16) with Microsoft SMTP
+ Server (TLS) id 15.1.427.7 via Frontend Transport; Fri, 4 Mar 2016 17:24:24
+ +0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=backbonecampaign.org; 
+	h=from:to:subject:mime-version:content-type:content-transfer-encoding:list-unsubscribe; 
+	s=smtpapi; bh=UXbdUy8PQcx9wZcWgdrVQMI20vw=; b=qePpGvv/fHbBrBHz6J
+	P92Vp0DMP7Ft4qY4vrBC9HIWmuGD6qWAwdzv3qPGU2UiAdJLaNwQKjrdJ7u+ZXQc
+	Wg0eAz1E1m3rL6tsEig0oDIupcsFc4/MMuuED8GzNlJU6OnPAkBgoz0G2sQFyz9N
+	rihITe+XM+k7E0BTBmsv4TA/8=
+Received: by filter0419p1mdw1.sendgrid.net with SMTP id
+ filter0419p1mdw1.30008.56D9C4C552        2016-03-04 17:24:21.564074682 +0000
+ UTC
+Received: from nationbuilder.com (ip-162-219-220-2.rdns.3dna.io
+ [162.219.220.2])	by ismtpd0001p1iad1.sendgrid.net (SG) with ESMTP id
+ 2YF2sLRESESn9eqGMc2lvg	for <sendingthrough@nationbuilder.com>; Fri, 04 Mar
+ 2016 17:24:21.382 +0000 (UTC)
+Date: Fri, 4 Mar 2016 17:24:20 +0000
+From: Backbone Campaign <info@backbonecampaign.org>
+To: podesta@law.georgetown.edu
+Message-ID: <56d9c4c4a6362_42edc2a78c4107945@worker5.mail>
+Subject: Announcing 2016 ACTION CAMP June 21 - 27, Will YOU Join the Team?
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--==_mimepart_56d9c4c31a5fb_42ed333308103567"; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+List-Unsubscribe: <http://www.backbonecampaign.org/unsubscribe>
+X-SG-EID: zDgaTeTzrvevqaPg9TMHVUocbQkXZLhjAm2GZyvPC1vM00ZpGaU1qE8XmrJRVBf2qoAjqw02xjfZXe
+ CdONEaqHy6tIJld/jrb4imLH3N/va3NsKuN/3Q4cTZvnMuKoQyYzlFRx0tqBuwIk2lZTO+KBAi0LN1
+ r0MUjtCxc11f/Yqq9YO8AbHrQKLKE4QAo+sbSdz58E3QSIDKUpxRoVQEf/FT03jUsPf8sGhgyyyfSF
+ R6Zt/+QbrCVwaOHMsT4cxq
+X-SG-ID: SolyLoj4M+6t0KZQOavh+N1DzOiEs1a97qy77KQ5+ke25QbOpLvWBuGz7hUJoh2Jkqs1muNzK0rfNj
+ ClzrOsJC6s1LUO5FRczuxPXewoGePyoa+mKWotupoH5tkYAyw4z70e6IGIeW0OPavavLVD+g36zkxY
+ Z/AAu16CmcIAhi8=
+Return-Path: podesta@law.georgetown.edu
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CIP:198.37.148.253;IPV:NLI;CTRY:US;EFV:NLI;SFV:SPM;SFS:(31580200002)(31610200002)(31620200002)(2980300002)(1060300003)(438002)(359002)(596005)(286005)(349900001)(16313002)(189002)(349012);DIR:INB;SFP:;SCL:9;SRVR:CO2PR07MB634;H:o14.email.nationbuilder.com;FPR:;SPF:Pass;MLV:ovrnspm;MX:1;A:1;PTR:o14.email.nationbuilder.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD010;1:XvvEDYqMkP8VKBtTNTX2HqLSsQdBuBUCv+E4SL9YuPsddLUV0oKtmO9xK4DxRNOpPrf0O4cLtd9YJkUZv7Qh7mKkFGnGyHaYzLLDy67Wh/TjOvISLBfoLACknxZg+NONbs3vAs/tFOZElDmIo0JzR5Ef6MTpMGT/uWkZG8wdRUHLZIS8TePtEPDJ9WKq9KOOEUcKTXSrf9qfVeLhLQ1eGTn7uZVPEzgaFhR2eodUDJldSLLDjejkgctgN+4lLNe+xE+HFBSCZ8jMRGLquos89CNpH7Vueo9BUXaShWcE1jVTsDEj95L3qkoWKdaoPUEG6u0GkRr0Tz8jnlIyUEBOe5RLYDEU+ruTPqCaAXORiQ5+zeKYYiEdR2YMHwMDGNJr2bTHggj0qbDR08eYUANwZFv1qd1q5ANS7VSpw5zJXaJS/y7vBXVunsGtAyXbUZWG4pwkokIUVvctkq4iSa8700rBnLbRwf4uJ6ULuxT9ZENFPkHoQeObXJqGM6uJV6Wu
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB634;2:Q5LjfL4eFHdHJRI/cvQw8O4e9Gnafl0gfG5YmW/5apk3fJBxC2t/D79MXSTWdY8oxXvQzCUVYvSux+kdQbLkDGUojOPC3C5FG50zXulJvDDXuafB5iX0PC9DJSN9+lAjo3vRdKQ2I1Df/XE7k2+U6g==;3:zgOMLw7AIDhozwYJ7slDEe8HVSGHyU+QXJf7+O+98teBwegZhJ6vkkFa/W622jaHe+caBkwe1REKkZzCUZiQgQBIrdIDzpbxzWg8g77LKaJ2K6VFo8VU7yBldx2wXC5Cr2M3s6ri7VYYxqvxriZoQwVSR2GvABgep6W0aVfVctF1+gWrJVZlXKo6tVhUhgA5XRdfuIbi8arBldI5NyvFJmXLzIFqm8Ew8ft9GhhBlQKolgq/KelQ/FXla0jbglVwG9IEAFyLKAUh3UWD3HyZPqSd7A1O4g7UfyIQQVEdNcEk6bjZfSeX3Hprw8fMqDKQHK8ZibNgBO3KRU6lVY2d3iBvUdRXe6/mz/IMpVXv47gNdGWluOX80JTgHABVLwix/q6ZHAF2FojQRWxi/rgJ7A==;25:s2TL3eVx1lJFvG4HaPA0eO2D0Fl6FQYMSmWj9eNvHAhXwndxBboZKx7SiaqY9rMVB2p8dEmVkN21s85jjhz8RFtY2lVOBNq7FTPcBkwQYeNc81127zRTuEQ6a7hUOY0A7Ae8R/bmaN3odb04njdxyWMf06ENXlDZnQc+Qsp6oUtyJLoOlXaYy6Ult1R5FzHcz/zUOuGzXQPQz2S67qnpRP76VmGGgB+2IIOYfkpPRhEtYJIlW8H9J4t0pPs/GRsHz61+3ps9Z4veeAxOa22QIBdgV12fKDoE4UZqGP0Da+a2sLKorFL9IYlFTFIscMVca2C9s8WZa65iH5fTB0FcpQ0/wovOzYAwR8lVbDC7QCw=
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(421252001)(42134001)(42138001)(42139001)(8251501001)(3001015)(71701003)(71702001);SRVR:CO2PR07MB634;
+X-MS-Office365-Filtering-Correlation-Id: c6d2f1cf-e057-4e7c-a5d3-08d34451d80b
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB634;20:o7hXNDUe5JZyXkg0HSOrbD4S55mKQlkbo09Vm0Fcdsym/OHTdevG7b3cvxhSAwFLVZ8Xn8OwjufRiejpeWilLSE6bdlYygbWcu+oQfmC5ILYrl5y/ZcDJ7W50G1nY8NlFRiEVn4A/fouYTM9cfAYLx0tjpiZCVxWyiRqF87jfzgJf0thgdcqOSvOzQoCCJag67tu9wViwgCr4fBTxJmtCIot96RnAjt18zApr7epD6YgqFmaaSE0EErxjP+9YfCf1XM54NmTy8R/RnUUdQPVmQECU2tahxbxF6YKwsgq8E9jCnRhYo57RjX3VegrH9cltYB5EjhVvICKn4MRZDux1jIlNc+0FEJE9mVdipufuiMRESVF4kF3LmAEKKwVSypKKNwxgE2RokToDXEQ9QYhH+FaKjS8lcTzJHWR3Jhunnk=;4:AD267yP/n1QqiRTuBAfQnzC4ZHTfx4IR0u2hzcX2+4VAwTHKkMAYTlhkpoFSzH2I2nN+UZxf8LPbW+6oDx9GbLAZ+WJzftw0HfAo7trGvNxEFSGI5PWuXAGDWlBtpp4ijqkW+riNX5jZ9RkzUv9sUYPRcJXgxFfRHPaBk1gLLwK6ix6I//6HOsh8xBhoo2x9uM2RzSRpiSR98mmHLs1l9FjjoNKiYF3ApjCz35Hlcg9hAjcGWn2BX3AaheuxPCLGUtKfFC9dafcH/McAnx08xOw3wuwedeo8B5q/uFmfWfEbGlmh8fgEPEM8bk1nh+9ZlmAA7voGzg7RBrsp8e+fuLqcwd5ylKp/LDxnQODRbPTLDXVIRxgAo5+HSvNNJoxfgqFhx20poThFRvOx9FWO6g==
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(1201001)(8121501046)(13016025)(13018025)(3002001)(10201501046);SRVR:CO2PR07MB634;BCL:6;PCL:0;RULEID:;SRVR:CO2PR07MB634;BCL:1;PCL:0;RULEID:(601004)(2401047)(5005006)(1201001)(8121501046)(13016025)(13018025)(3002001)(10201501046);SRVR:CO1PR07MB363;BCL:1;PCL:0;RULEID:;SRVR:CO1PR07MB363;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB634;23:X179jgbc60ZAwxeZg22qAaUxkQy2juWKSnEma8ZDuHG1Uh9AFhMblu8a8u5uh93tneBdP8Hl71RDbIiw2uxQE90DMWIpAWVglx6iI9dM7h7j8amjWog6k1BI8uSBrWrHkVk5ukO5lMI0M6nTHqBC5gcEGow/RF0Ds1fSl+H2Q2KFI1w9/xz1Crpd0s7EJ/wK/8KCi/iuVXu7UqFviBsD4/LgWEWS5TMOCQzFF1y+tyWghuFxswriVfC4U2f233xfziLZcoF55JnuM0o35u75IiXT6KZqqp2JQxYkIeEoC8laHZt0Ur2vba/chg8v6yCnfBoDqfklA6kqH2oDCVj8+B71wTNwhzZXO714f9JRYRtkP8tHPxGejximxfso0FQU2JCw9t49cxkBEo10T1idA1YPNEjzJocfZgCht/y8HTeN1XE+zdZ3ThrLR4v7BACDL/2Wmu26UFX5gfNsVf4vNMDCR6FLFbvryPxbzBf2vas=;5:fPZGyR7jlYCMugdUgzwsDdpmhUBSV2Vj2kOf80vidFui+ZgHfeLMvzF1ajY3uYGJfYsNc8Dlf3aetlHlUDd42mXl54mcCv3tA221HDXXKWElSkxziKfyw+BjaTRtFbPc0tL4dQeSFIM6dKYy9TsnOg==;24:6UjnQkhNG5L8dkEygHJ764qsBldDEb23S0D+PqxY0xQftqrJZ8Byi8QCejYaMfjEVkBiA9u0wcZkz38AXoOCMg==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB634
+X-OrganizationHeadersPreserved: CO2PR07MB634.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD025.protection.gbl
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.75;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1060300003)(1109001)(1110001)(339900001)(596005)(189002)(199003)(16313002)(92566002)(75432002)(512874002)(4290100001)(2171001)(36756003)(81166005)(87936001)(960300001)(19618635001)(23676002)(4001450100002)(15395725005)(110436001)(16236675004)(1720100001)(19617315012)(33646002)(106466001)(105606002)(5002220100002)(18926415007)(15975445007)(2351001)(229853001)(110136002)(107886002)(5008740100001)(345774005)(84326002)(6806005)(980100002)(104016004)(71816002)(450100001)(146001)(88552002)(85426001)(956001)(230700001)(19625215002)(54356999)(2906002)(50986999)(1096002)(1220700001)(15974865002)(11100500001)(606003)(47976999)(18206015028)(19580395003)(19580405001)(7099028)(87552003)(42882005)(217873001)(2657375003);DIR:OUT;SFP:1101;SCL:1;SRVR:CO1PR07MB363;H:mail.law.georgetown.edu;FPR:;SPF:Fail;MLV:sfv;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD025;1:fP3xMr4NgW/o5Lbv4qf5BIR9nCVN++wtU/YVUizMzpnOjaOJnMOA/+pyKaKNxuAxgn4/ol/+Z/khe4L3JHTRxBtjofyB9szpUoIGu9aYFDxO+If02LQpSK6Hf85/t6jlvmuMJf+lb6Jnk85G4qTK52ZMfeXd1dEyuOr1HEVRtt4pp4yLKbpum/Me3cm2SZBehWhlgrp5sr85e0S0R1c1m/DRl1Yg6GBs1IrS+VOsQ/7bcSbTnExdqEhvn/vHi4Y5kUKVY78HlqlqU4g57+vy10wcnsMW33Y/byy9H1ylu0nH4LAmbLM3o5d3C/PHEMRsYvgjZQboC1FXo4wEiZtTLv8Z1lO8EfpPMmc8e12cS7zgMhU1OpQMNRED20klnCkJs5PdeiL15+6lTsEn0iEtx2vInBRQzNKB/lLEgMUnxwAnSYlFQj4yj54K9SijKRDJ
+X-Microsoft-Exchange-Diagnostics:
+	1;CO1PR07MB363;2:dmswcbEx/L8YFk2szIGze6X5fm4lgfVj1odn7kA91no9X72cgGBCwnRJz1y1gkJiioQ2uEfp2vyr31AMs+Bj572CytMJhF2JYTZjxxYQLS23eZKQcuOLy6YOQ8KHixo53uIHMz4zLxjjeBVylXj6bg3ApkjSudEl8cnHLB/PuwmrN6yrtj5q5dRtZPEjpQtc;3:byAK47Mf4JSvavTLDAFnEO08y3r/kPhTHHr3TwH7IP28z3Jc0xUZvDV4uHdfzww8Bn38noxmWMZ5Osk5SmusBcWZJfbkFIc+jt3L7bn4SjlPPN/0MV9fZrJl17Iwx5bDFMv7bDTrOlpSuAIx6YVoNZnDwFDbAHVwWvnVQDeiF0OxD72EtymBov0lrXAS83HjtQRC3beNduw5WLeF13RK8Q4aaibDdGONxc6C2PWLpJHpHjFTBdKxCwgIiw3lEgf8j8UhIuuMxwDaeMmlf4IikQ==;25:eHayzpIljU2lSp9ClDj5D3Azbp/FIgSdHX+HKNNVPisEIDJjoIOVYnyijb0uF3FYqWSG9VI9ZYf46yPlgL8JEjhHowtzR3w2lfYjVptp1bj2R3qFfYW4ug7zUcrkbUwkINnYHRFEv+ziocSpL6uL3L5eAMrqLWITve1lqeI0+7zi2aOd+g2bu6J6FQqnCDu6NPrWsjwHNDXNCEOcMswjkkIfS7ADoDKksDKRvigr+ivfaYfHZksQTsL9TCuFg0dM7ibjDwYcJBH1XBp1e4e2MZ24sZ8zmG8iPsSAOnf84ROibHuWYMEU7OsngIHCGP3gv1SvdwgDueXs6Zyty6hSoQ==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:1;PCL:0;RULEID:(421252002)(3002016);SRVR:CO1PR07MB363;
+X-Microsoft-Exchange-Diagnostics:
+	1;CO1PR07MB363;20:PsVi/pR/2wTsR4FJ/DhXRhsWq/w7m8W/6Cim7Co00yfll3BezzHMx2brPCev55h/FJSMnL2OGFE9DfgfUYWMwGvcKGUUkcwExC8HQJsI5oAUF/zGmiSJfFXMFC+L6OZ288zk6R1IDHhhbijJEde9IgOtjTowD2zw/SXnUk7R9p2kbqRjNdpUG9JM9BxyCSMrsMf9JZ/8wzSHBCSq0FEP8YzLhsndoHa0Ksj0+h/R6onY43EP6XYWBxzrieWN35i58notUqgNIquzEl1GJrCizolpvnzWsS3HF2HiBjk6SgITbhPq711nOpmEAdZjBb6zVsdc8IdXCVziKXYxNmck65RmdN38mtDuzmOTwe/AWeXhD4r5hDklEpnfLjCRhJXrSV+qDF4bkxuG6wcAiJjSmShtQgTjCxJ4HqunV31LPdQ=;4:ercyalqobzfTKh5oP/AOugYf+HHL+NVV8vW31qFBfqAz2RiNFto53gHVIFM3BPP0ZsT2xHHOwfmDbOP9ktFTaIyRkL10CmxGrR8zt2fefcIvURF3q36lL4fgVlFsc7PuKs2l2upIZ82KP8ki66/oAmeVR69bvm6wCxGIFdIXLKxKj0KghqAXgJYUWdzZf1I5YHJUZr9pkpg4hftsAmim5r9VgRI72KN4RxMThlt3M207KjRMTpNp2pmiqcbBpkcD94uqbdjcVksjktljYZbxJsGdbc25N39PBeOl4muZnHWhjiqkRXQ6px8MnSPOTjkurBRp2pZU3jpoa14+Ln4PeLji0GWmqdUJRlvR1kU7+v61z4B1tLv9JbGymt4vN7ki8X4cBPYHzSVzSbGBQu9QUNU8E78gkZv8ApEQXaPyOO0=
+X-Microsoft-Antispam-PRVS:
+	<CO1PR07MB3633DBA054B698A1764CF7793BE0@CO1PR07MB363.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 0871917CDA
+X-Microsoft-Exchange-Diagnostics:
+	=?utf-8?B?MTtDTzFQUjA3TUIzNjM7MjM6ekM3N3FMQkpsUDExR09PQmI0SFBMMDN2empQ?=
+ =?utf-8?B?QWZ3eTdUWmV3Q0ZXUkg1bkxpQ3NaOEM5WnRBcWJCc3VrNURJc0k2ZjNwSmE3?=
+ =?utf-8?B?L1JTQmd5ZFhBOTdlam5XRG1lUmtYenZRMFZpdEhONXZFcGx5NUxoRkwrWUl3?=
+ =?utf-8?B?SGlINjRlL2V2YXAwRldHaXhBSXJJdmxIVnQzNVJXUlAvZXNPK3lRQ1VlYVBu?=
+ =?utf-8?B?RkYybkN3MVV4aVFkSTI4MTRmTXNOOEhDTDNBVWhyOVpkYkYwdkJrMlBldjhx?=
+ =?utf-8?B?Z1FqdjVpd201Q21LOER5UGh1c1huVmxSZE40dmk1TkhlWmRWalMyNnR0anho?=
+ =?utf-8?B?RCs3Rnc1L3E2L1UrVjN1T3pnRUJOWlpicjFGY2pRek52UTBiTnZwZUtLTE1n?=
+ =?utf-8?B?cHBUaVRDVmtkWnoyd3lvZXdrRnVScm9jSEpyWUVtQk5nMmNxWXZIb015L0xN?=
+ =?utf-8?B?SGg1VEpHUDczc1BVdFN1NkQzVXJGYjFoUmdZQ0MxNTh3SDhjOU1ZWkszc1pq?=
+ =?utf-8?B?NWRQWHRwSjV3R2xseXpqS214cXBGL05XY1pGTmdncURTM0N0S0QrdWFIZVRy?=
+ =?utf-8?B?Yy9jRnhUZWRiREpVSjl1dHM5NlBZK3N1cTJkR1VMcjZkemk1NjBwdi93V1FI?=
+ =?utf-8?B?a1U1T1BsY21zK0h1SnYwdVRRWUxoMUdqanAyUmNaeW10bnc5NzRvZFNiRGFT?=
+ =?utf-8?B?NGd4WFMyalI5SEpucTRzWHlwYmVYSFI2MlRDb2pBZ1haaldWdHpQTFVocTNk?=
+ =?utf-8?B?RlhUb2ZqajdIa3NhMVZ4MjZQMHdBMEtDV3cxQlBQaGJYTVdOWFo4b0FDYlRU?=
+ =?utf-8?B?RWx0SkhlblVtckhTZ3QyWlFKTVp5NkloYklKbUp4OVM0WG9KWkZ4OVdac1J4?=
+ =?utf-8?B?dGxOWTZ0eHdrOXNvVjlDQi9rTUVzWkdpQ3pwNG14MmRuL1JRcG4wbUdTZnhs?=
+ =?utf-8?B?KzZ0YlZIeUZnR09KTUVEMXVoNk81Qm9LRVRmZFBpd3JiZytCS1BKZlJLU0tM?=
+ =?utf-8?B?WUljVDV1cXkyUUdKSklFeG04WU81c25OOEFwcTNDWDE2MkphMDhGOU92ZVVy?=
+ =?utf-8?B?YWpCVjU4dzZ5Y3VPa3pnaGs3VXhwTmRnVzB1bW4zQlF0WHBtTVZnUThtdVE0?=
+ =?utf-8?B?d3JIMS9JVUZrRDM1dy9ha3FPOXVzYWkxdDgxSk9xN0dWSUJkT1h1SktQSDBF?=
+ =?utf-8?B?VkV5MVhJM0RQYXVrZjg5WWdNakNmSVB4K09FOEhzOG9oUXNaNStiUnVnZUYw?=
+ =?utf-8?B?NFc4Kzd6ZjNsNXQwSWJKM0thSDBVd1RQSUcvdVlRTnFpbjVuVlpFT2VxQkJG?=
+ =?utf-8?B?QlBkUlFjUFNVVTZIcFViU3JDYTc1bkFGVFliZm0wWEk2ZDdIRUFvNm5GMk1p?=
+ =?utf-8?B?NDJDa2dWNGpFZkhNeHJHN3lwSlkyd2xKMVZPVHJvc2I4bFpjUVF0VkJrd2VC?=
+ =?utf-8?B?LzJHYXdnNTZsR2sxVnJrOGEwRWxYUVd6aC9YcG1NUDEzelRvWTV2ZlRiRndq?=
+ =?utf-8?B?b0gxV1VIbE5OYlBkQUxhb0ppKzhQYlZITjMzcnIweUdKNmdpSVJydHdhQ0FU?=
+ =?utf-8?B?aHRvamRVNTRPRDlkOE5DdXN4a3A2Z2dhMmx5UmM5VGxNMHBCbjVEbkcvV3lL?=
+ =?utf-8?B?ZlFXSENPMFcvakIzWkREMm42R2EzbFlKbTdXWFdCMWgvQi9YVWFEQ0w3b2ND?=
+ =?utf-8?B?TWhJNVlLNXBPYWJ3dmN4RGpOZzcwc0hUM1gzUFRPRzR4ejNPN1VBWXR5ZWYr?=
+ =?utf-8?B?SC9xSDhBNWU1OXFCb1Jtb0hSL1NPdk5LcmV2ZmZvWE42SVF3VGRNM2JzSzV6?=
+ =?utf-8?B?Z0JrUEMvK1dyZ1Z0NUdxby8vbm9uV2k1Q1lZNXoxNXVTRlY3Y20veEU5bGxO?=
+ =?utf-8?B?cFhuV1VuMVdNbEw2d2htYjhFWDdiSmNCYjlzVXdOWWp4cVEzRzZRNlRreGQx?=
+ =?utf-8?B?WUNscTdUV1hTT1FZUkV1dndvamIzQ3oxUEdrQWNocTU3TDJhQkswWmltQVpV?=
+ =?utf-8?B?RCtXZExWUFpRSGRqSWpYVEVyTGV0REZsS1dBK3hKcUxzMEo3bUxpRHBNTmhF?=
+ =?utf-8?B?SVJkcG1ZWlNCMmxQYTlvbWhuc29lTnYzUllOazEza2xEYzc0NGRKeUkyWUZq?=
+ =?utf-8?B?OWphc0s3bXpjdlVySlcyWFUzdTVXZHlBbmliTmlkcmVFTWZ4OUNQWEtabzZS?=
+ =?utf-8?B?cUpsUjl1ZExENUtyRm1FSlM0MzY4dE1KRW9vMTVrSzgxQWhZYTNHL2ZsdzBk?=
+ =?utf-8?B?VklHWEMrdi80alprSS81OHhGQndKeWM0T2EyVmpzWUp3VDllV3dnPT0=?=
+X-Microsoft-Exchange-Diagnostics:
+	1;CO1PR07MB363;5:gwJxACdf5pYXdG8oOHogDZMlIH+dtWzHGO435hlgdGiNK/cuiIsxdJIgJ6GwrQqAAQknVFEQM6ADGAYVYMiJMMIZy5b3Zwcelh7Tec2uNgtBpeSapIkzUP5XvnynVcxXuze4TNRFC5xWCtaVfGTbDg==;24:EOS0wzGZsSbGHZkMbC/UQqQVn1HoC9ktoug3k/FzdD4Zg3vximQTFk5MvSRaHwH8MNnNqsK7BVwWItUCtfQlmzUu4Vo8YumpY5eTPZ1dVmI=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 1
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Mar 2016 17:24:29.4713
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR07MB363
+
+----==_mimepart_56d9c4c31a5fb_42ed333308103567
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Friend --=20
+
+Get excited.
+
+2016 Localize This! Action Camp is coming early this year, in time for a su=
+mmer full of raucous and creative action.=20
+
+Let us know you are interested in coming to camp by clicking HERE <http://w=
+ww.backbonecampaign.org/localize_this_info_form>. We'll let you know when c=
+amp applications are available and keep you up to date on exciting developm=
+ents!
+
+
+  - 2016 Localize This! Action Camp (8th annual)
+  - Tuesday June 21st through Monday June 27th (help with setup and cleanup=
+ the day before and after)
+  - Vashon Island, WA
+
+Volunteer - Join the team helping to make camp as awesome a resource to as =
+many people as possible.=20
+
+Click HERE to let us know how you'd like to help.=C2=A0 <http://www.backbon=
+ecampaign.org/helpwithcamp>
+
+Whether it's being part of the promotion team, doing some food prep with th=
+e kitchen crew, or welcoming an out of town activist, it takes a village an=
+d we hope you'll join ours!=20
+
+Make Action Camp a reality,=C2=A0VOLUNTEER by clicking HERE! <http://www.ba=
+ckbonecampaign.org/helpwithcamp>
+
+Backbone Campaign
+http://www.backbonecampaign.org/
+
+-=3D-=3D-
+Backbone Campaign - PO Box 278, Vashon, WA 98070, United States=20
+This email was sent to podesta@law.georgetown.edu.  To stop receiving email=
+s: http://www.backbonecampaign.org/unsubscribe
+-=3D-=3D-
+
+Created with NationBuilder - http://nationbuilder.com/=
+
+----==_mimepart_56d9c4c31a5fb_42ed333308103567
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang=3D"en">
+  <head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;
+charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0">    <!-- So that
+mobile webkit will display zoomed in -->
+<meta name=3D"format-detection" content=3D"telephone=3Dno"> <!-- disable
+auto telephone linking in iOS -->
+    <title>Backbone Campaign</title>
+    <style type=3D"text/css">
+=20=20=20=20=20=20
+      /* Resets:see reset.css for details */
+body{background-color:#ffffff;-webkit-text-size-adjust:none;-ms-text-size-a=
+djust:none;}
+body{color:#505054;font-family:Helvetica,Arial,sans-serif;margin:0;padding:=
+0;}
+table{border-spacing:0;border-collapse:collapse;border-spacing:0;}
+      table td{border-collapse:collapse;}
+      p{margin-bottom:1em;}
+      h1.site-title { font-size: 30px;}
+      .body-content img{max-width:100%;}
+=20=20=20=20=20=20
+      /* Constrain email width for small screens */
+      @media screen and (max-width:100%) {
+        table[class=3D"container"] { width:100%!important; }
+      }
+=20=20=20=20=20=20
+      /* Give content more room on mobile */
+      @media screen and (max-width:100%) {
+        table[class=3D"container"] { width:100%!important; }
+        div[class=3D"body-content"]img { width:100%; }
+        h1[class=3D"site-title"] { font-size:25px!important; }
+      }
+=20=20=20=20=20=20
+      /* Styles for forcing columns to rows */
+      @media only screen and (max-width:100%) {
+=20=20=20=20=20=20=20=20
+        /* force container columns to (horizontal) blocks */
+        table[class=3D"container"] { width:100%!important; }
+        h1[class=3D"site-title"] { font-size:22px!important; }
+      }
+=20=20=20=20=20=20
+    </style>
+  </head>
+<body style=3D"margin:0; padding:0;background-color:#ffffff;"
+bgcolor=3D"#ffffff" leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0"
+marginheight=3D"0">
+=20=20=20=20
+    <!-- 100% wrapper -->
+<table style=3D"background-color:#ffffff;" border=3D"0" width=3D"100%"
+height=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff">
+      <tr>
+        <td align=3D"center" valign=3D"top">
+=20=20=20=20=20=20=20=20=20=20
+          <!-- ### CONTAINER ### -->
+<table class=3D"container" cellpadding=3D"0" cellspacing=3D"0"
+border=3D"0" width=3D"100%" style=3D"background-color:#f3f3f3;"
+bgcolor=3D"#f3f3f3;">
+            <tr>
+<td width=3D"20%"
+style=3D"font-family:Helvetica,Arial,sans-serif;text-align:left;background-=
+color:#ff2838;border-top:5px
+solid #ff2838;" valign=3D"top" height=3D"20">
+<a
+style=3D"color:#ffffff;font-weight:bold;text-decoration:none;"
+href=3D"http://www.backbonecampaign.org/?e=3Dcef95cf2b7de0809c2c83f2a261fd8=
+43&amp;utm_source=3Dbackbonecampaign&amp;utm_medium=3Demail&amp;utm_campaig=
+n=3Dhelp_with_camp&amp;n=3D1">
+<h1 class=3D"site-title"
+style=3D"margin:0;font-size:12px;padding: 0px 0px 0px
+10px;color:#ffffff;">
+                    Backbone Campaign</h1></a>
+</td>
+<td width=3D"40%" align=3D"left" valign=3D"top"
+style=3D"background-color:#f3f3f3;border-top:5px solid #ff2838;"
+bgcolor=3D"#ff2838">=C2=A0</td>
+<td align=3D"left" valign=3D"top"
+style=3D"background-color:#f3f3f3;border-top:5px solid #323232;"
+bgcolor=3D"#ff2838">
+=20=20=20=20=20=20=20=20=20=20=20=20=20
+            </td>
+</tr>
+            <tr>
+<td colspan=3D"40%"
+style=3D"font-family:Helvetica,Arial,sans-serif;padding:10px;font-size:14px=
+;background-color:#f3f3f3;"
+bgcolor=3D"#f6f6f6" class=3D"body-content">
+                <span style=3D"color:black"><!-- set font to black -->
+Friend -- <br><br>Get excited.<br><br><img
+style=3D"float: right; margin-left: 10px; margin-right: 10px;"
+title=3D"Lend a Hand, Join the Team, Make 2016 Action Camp HAPPEN!"
+src=3D"http://d3n8a8pro7vhmx.cloudfront.net/backbonecampaign/mailings/58/at=
+tachments/original/TripodTeamLift1_14252434896_o.jpg?1457062403"
+alt=3D"Lend a Hand, Join the Team, Make 2016 Action Camp HAPPEN!"
+width=3D"400" height=3D"267">2016 <em>Localize This! Action Camp</em> is
+coming early this year, in time for a summer full of raucous and
+creative action. <br><br><a title=3D"Click HERE - Learn more and let us
+know you're interested in camp!"
+href=3D"http://www.backbonecampaign.org/localize_this_info_form?e=3Dcef95cf=
+2b7de0809c2c83f2a261fd843&amp;utm_source=3Dbackbonecampaign&amp;utm_medium=
+=3Demail&amp;utm_campaign=3Dhelp_with_camp&amp;n=3D2"
+target=3D"_blank"><strong>Let us know you are interested in coming to
+camp by clicking HERE</strong></a>. We'll let you know when camp
+applications are available and keep you up to date on exciting
+developments!<br>
+<ul>
+<li>2016 Localize This! Action Camp (8th annual)</li>
+<li>Tuesday June 21st through Monday June 27th (help with setup and
+cleanup the day before and after)</li>
+<li>Vashon Island, WA</li>
+</ul>
+<strong>Volunteer</strong> - Join the team helping to make camp as
+awesome a resource to as many people as possible. <br><br><a
+title=3D"Lend a hand with 2016 Action Camp"
+href=3D"http://www.backbonecampaign.org/helpwithcamp?e=3Dcef95cf2b7de0809c2=
+c83f2a261fd843&amp;utm_source=3Dbackbonecampaign&amp;utm_medium=3Demail&amp=
+;utm_campaign=3Dhelp_with_camp&amp;n=3D3"
+target=3D"_blank"><strong>Click HERE to let us know how you'd like to
+help.=C2=A0</strong></a><br><br>Whether it's being part of the promotion
+team, doing some food prep with the kitchen crew, or welcoming an out
+of town activist, it takes a village and we hope you'll join ours!
+<br><br><a title=3D"Volunteer with 2016 Action Camp"
+href=3D"http://www.backbonecampaign.org/helpwithcamp?e=3Dcef95cf2b7de0809c2=
+c83f2a261fd843&amp;utm_source=3Dbackbonecampaign&amp;utm_medium=3Demail&amp=
+;utm_campaign=3Dhelp_with_camp&amp;n=3D4"
+target=3D"_blank"><strong>Make Action Camp a reality,=C2=A0VOLUNTEER by
+clicking HERE!</strong></a><br><br>Backbone Campaign<br><a
+href=3D"http://www.backbonecampaign.org/?e=3Dcef95cf2b7de0809c2c83f2a261fd8=
+43&amp;utm_source=3Dbackbonecampaign&amp;utm_medium=3Demail&amp;utm_campaig=
+n=3Dhelp_with_camp&amp;n=3D5">http://www.backbonecampaign.org/</a>
+</span>                         <!-- done with black
+-->
+                </td>
+            </tr>
+           <tr>
+<td colspan=3D"2" width=3D"100%" height=3D"5"
+style=3D"background: #ff2838;"></td>
+              <td height=3D"5" style=3D"background: #323232;"></td>
+            </tr>
+            <tr>
+<td colspan=3D"3"
+style=3D"font-family:Helvetica,Arial,sans-serif;padding:20px;line-height:1.=
+5;font-size:
+13px;background-color:#323232;color:#ffffff;">
+Backbone Campaign  =C2=B7 <span style=3D"color:#ff2838;
+font-weight: bold">http://www.backbonecampaign.org/</span>
+           </td>
+</tr>
+             <tr>
+<td colspan=3D"2" width=3D"100%" height=3D"5"
+style=3D"background: #ff2838;"></td>
+              <td height=3D"5" style=3D"background: #323232;"></td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+            </tr>
+            <tr>
+<td colspan=3D"3"
+style=3D"font-family:Helvetica,Arial,sans-serif;padding:20px;line-height:1.=
+5;font-size:
+13px;background-color:#323232;color:#ffffff;">
+                <p>
+<a
+href=3D"http://www.backbonecampaign.org/?e=3Dcef95cf2b7de0809c2c83f2a261fd8=
+43&amp;utm_source=3Dbackbonecampaign&amp;utm_medium=3Demail&amp;utm_campaig=
+n=3Dhelp_with_camp&amp;n=3D6">
+<img
+src=3D"http://d3n8a8pro7vhmx.cloudfront.net/themes/561e9a91f92ea164ba000001=
+/attachments/original/1444849403/RoundLogo-NoTextEmboss.png?1444849403"
+alt=3D"Backbone Campaign Logo" align=3D"right" height=3D"100" width=3D"100">
+                  </a>
+                  PO Box 278, Vashon, WA 98070, United States=20
+<br>This email was sent to <a style=3D"color:#ffffff;"
+href=3D"podesta@law.georgetown.edu">podesta@law.georgetown.edu</a>.
+<br>To stop receiving emails, <a style=3D"color:#ffffff;"
+href=3D"http://www.backbonecampaign.org/unsubscribe?e=3Dcef95cf2b7de0809c2c=
+83f2a261fd843&amp;utm_source=3Dbackbonecampaign&amp;utm_medium=3Demail&amp;=
+utm_campaign=3Dhelp_with_camp&amp;n=3D7">click
+here</a>.
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <br>You can also keep up with Backbone Campaign
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+on <a style=3D"color:#ffffff;"
+href=3D"http://www.backbonecampaign.org/r?u=3Dhttp%3A%2F%2Ftwitter.com%2Fba=
+ckboneprog&amp;e=3Dcef95cf2b7de0809c2c83f2a261fd843&amp;utm_source=3Dbackbo=
+necampaign&amp;utm_medium=3Demail&amp;utm_campaign=3Dhelp_with_camp&amp;n=
+=3D8">Twitter</a>
+or <a style=3D"color:#ffffff;"
+href=3D"http://www.backbonecampaign.org/r?u=3Dhttps%3A%2F%2Fwww.facebook.co=
+m%2FBackboneCampaign%2F&amp;e=3Dcef95cf2b7de0809c2c83f2a261fd843&amp;utm_so=
+urce=3Dbackbonecampaign&amp;utm_medium=3Demail&amp;utm_campaign=3Dhelp_with=
+_camp&amp;n=3D9">Facebook</a>.
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<br>Support the Backbone Campaign: <a
+style=3D"color:#ff2838; font-weight: bold"
+href=3D"http://www.backbonecampaign.org//donate?e=3Dcef95cf2b7de0809c2c83f2=
+a261fd843&amp;utm_source=3Dbackbonecampaign&amp;utm_medium=3Demail&amp;utm_=
+campaign=3Dhelp_with_camp&amp;n=3D10">Donate</a>
+                  </p>
+<p>* Thank YOU for supporting the <b>Backbone
+Campaign</b> located in Vashon, WA. <b>Backbone Campaign</b>  is
+registered with Washington State's Charities Program as required by
+law and additional information is available by calling 800-332-4483 or
+visiting www.sos.wa.gov/charities.</p>
+                </td>
+            </tr>
+          </table>
+=20=20=20=20=20=20=20=20=20=20
+        </td>
+      </tr>
+    </table>
+    <!--/100% wrapper-->
+<p style=3D"text-align:center;margin:20px 40px; font-size:
+0.5em;font-family:Helvetica,Arial,sans-serif;">
+Created with <a
+href=3D"http://www.backbonecampaign.org/r?u=3Dhttp%3A%2F%2Fnationbuilder.co=
+m&amp;e=3Dcef95cf2b7de0809c2c83f2a261fd843&amp;utm_source=3Dbackbonecampaig=
+n&amp;utm_medium=3Demail&amp;utm_campaign=3Dhelp_with_camp&amp;n=3D11"
+style=3D"color:#3ba8cc;">NationBuilder</a>, software for leaders.</p>
+=20=20=20=20
+<img
+src=3D"http://www.backbonecampaign.org/r/o?e=3Dcef95cf2b7de0809c2c83f2a261f=
+d843&amp;utm_source=3Dbackbonecampaign&amp;utm_medium=3Demail&amp;utm_campa=
+ign=3Dhelp_with_camp"
+height=3D"1" width=3D"1" border=3D"0" alt=3D"">
+</body>
+</html>=
+
+----==_mimepart_56d9c4c31a5fb_42ed333308103567--

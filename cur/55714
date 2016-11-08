@@ -1,0 +1,918 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.68 with SMTP id r65csp801730lfr;
+        Thu, 15 Oct 2015 13:04:07 -0700 (PDT)
+X-Received: by 10.60.150.243 with SMTP id ul19mr6883115oeb.64.1444939447436;
+        Thu, 15 Oct 2015 13:04:07 -0700 (PDT)
+Return-Path: <speechdrafts+bncBDJ25CFNZIIRBN4NQCYQKGQEMZTEHWI@hillaryclinton.com>
+Received: from mail-ob0-x245.google.com (mail-ob0-x245.google.com. [2607:f8b0:4003:c01::245])
+        by mx.google.com with ESMTPS id oh10si3052121obb.52.2015.10.15.13.04.07
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 15 Oct 2015 13:04:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBDJ25CFNZIIRBN4NQCYQKGQEMZTEHWI@hillaryclinton.com designates 2607:f8b0:4003:c01::245 as permitted sender) client-ip=2607:f8b0:4003:c01::245;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBDJ25CFNZIIRBN4NQCYQKGQEMZTEHWI@hillaryclinton.com designates 2607:f8b0:4003:c01::245 as permitted sender) smtp.mailfrom=speechdrafts+bncBDJ25CFNZIIRBN4NQCYQKGQEMZTEHWI@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ob0-x245.google.com with SMTP id da8sf30717451obb.1
+        for <john.podesta@gmail.com>; Thu, 15 Oct 2015 13:04:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:from:mime-version:references:in-reply-to:date:message-id
+         :subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=JmQz4zoBeAQ8VAWwuP92i/jGwjQzk2O7yO4BmCxG+e8=;
+        b=FE7pzbuxWHyWtJMjsaLIFim0g6I0z4GHxCHUWeql23UN2s6d3xSFmbPmBOY2wdP0GF
+         095jqmnLdn30U2HVm7dCEtgspSAnWqLo0odLyyHhuGYXFUtGhE7a8y+50q8LORTh+vPt
+         IZhor4OPDcC5EadAv7bQNKF/29gOFCUrPcJeM=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:from:mime-version:references:in-reply-to
+         :date:message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=JmQz4zoBeAQ8VAWwuP92i/jGwjQzk2O7yO4BmCxG+e8=;
+        b=MrJLDWnP66wFg4YOCymTae6h3oTD4xxAgMFahghGwgfNSqrJrQlVVzGeypFkxmcbya
+         QB+dxf4zaJMueKmIEAkqsQA+6tWcuH4oJ590LyFD8r998Kf2En+1ZBKoi1z2LLYVEZnO
+         Hp4Zr8zYgtNRD7q/q9fZINkq/NO7bnQ6x81BX3ImHSLFpnFPSqhwjAdioROpQkq1UyGU
+         eCZ63nRdmalMUay9LAuQ1pwkGxmnIhXcZPJFroYDfvWYaz+ZZvwypYeCAsyM+MPskRwb
+         OtnUvRgm3PMdwKlW1w47eFQ103kB0TWgtFxVs0eK96OQntYEESGkmMDbpOD0HxNvyl0a
+         NGsw==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQlenrqoer3vq7LjlEBI4l9CtEREhpGIx10tAKX6pP7TDy8G6I/q5q9jziqvZ8ksIsaKaqlk
+X-Received: by 10.107.150.66 with SMTP id y63mr9776532iod.11.1444939447028;
+        Thu, 15 Oct 2015 13:04:07 -0700 (PDT)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.50.61.100 with SMTP id o4ls5288igr.26.canary; Thu, 15 Oct 2015
+ 13:04:06 -0700 (PDT)
+X-Received: by 10.107.19.106 with SMTP id b103mr12196954ioj.144.1444939446346;
+        Thu, 15 Oct 2015 13:04:06 -0700 (PDT)
+Received: from mail-io0-x22a.google.com (mail-io0-x22a.google.com. [2607:f8b0:4001:c06::22a])
+        by mx.google.com with ESMTPS id om6si575778igb.48.2015.10.15.13.04.06
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 15 Oct 2015 13:04:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kfinney@hillaryclinton.com designates 2607:f8b0:4001:c06::22a as permitted sender) client-ip=2607:f8b0:4001:c06::22a;
+Received: by ioii196 with SMTP id i196so101791572ioi.3
+        for <speechdrafts@hillaryclinton.com>; Thu, 15 Oct 2015 13:04:06 -0700 (PDT)
+X-Received: by 10.107.8.89 with SMTP id 86mr11925173ioi.125.1444939446021;
+ Thu, 15 Oct 2015 13:04:06 -0700 (PDT)
+From: Karen Finney <kfinney@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CA+C_h81UL+nRK3Gc0mznT-dfbGv5JK-cNVTCfzN=G9XZ52Cv3g@mail.gmail.com>
+ <76406b3f793a54e98dd0470db5bdbb41@mail.gmail.com> <D2452ADC.4B57C%john@algpolling.com>
+ <CAFjSERDYCUz3hvizeq5GO7D9xyyT4UCZtoT9PojMoXVaxu6Uww@mail.gmail.com>
+ <D2456C1B.4B926%john@algpolling.com> <7580548677959827400@unknownmsgid> <D2456F8B.4B985%john@algpolling.com>
+In-Reply-To: <D2456F8B.4B985%john@algpolling.com>
+Date: Thu, 15 Oct 2015 15:04:04 -0500
+Message-ID: <1948424666571053510@unknownmsgid>
+Subject: Re: DRAFT: Birmingham News Op-Ed
+To: John Anzalone <john@algpolling.com>
+CC: Emily Aden <eaden@hillaryclinton.com>, 
+ Tyrone Gayle <tgayle@hillaryclinton.com>, 
+ Lauren Peterson <lpeterson@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ LaDavia Drane <ldrane@hillaryclinton.com>, 
+ Ian Sams <isams@hillaryclinton.com>, 
+ Brynne Craig <bcraig@hillaryclinton.com>, 
+ Christina Reynolds <creynolds@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a113f3cd467034c05222a2ea3
+X-Original-Sender: kfinney@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of kfinney@hillaryclinton.com designates 2607:f8b0:4001:c06::22a as
+ permitted sender) smtp.mailfrom=kfinney@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--001a113f3cd467034c05222a2ea3
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+It's disgusting what they are doing
+
+Sent from my iPhone
+
+On Oct 15, 2015, at 2:59 PM, John Anzalone <john@algpolling.com> wrote:
+
+Well that is a new spin.  But glad you have talked to them to get the real
+scoop.
+
+*John Anzalone*
+
+*Partner *
+
+Anzalone Liszt Grove Research
+
+(o) 334.387.3121
+
+Website <http://algpolling.com/>*| *Twitter
+<http://twitter.com/anzaloneliszt>*|* LinkedIn
+<https://www.linkedin.com/pub/john-anzalone/5/aa2/563>*|* Facebook
+<http://facebook.com/anzaloneresearch>
+
+From: Karen Finney <kfinney@hillaryclinton.com>
+Date: Thursday, October 15, 2015 at 2:53 PM
+To: John Anzalone <john@algpolling.com>
+Cc: Emily Aden <eaden@hillaryclinton.com>, Tyrone Gayle <
+tgayle@hillaryclinton.com>, Lauren Peterson <lpeterson@hillaryclinton.com>,
+Speech Drafts <speechdrafts@hillaryclinton.com>, LaDavia Drane <
+ldrane@hillaryclinton.com>, Ian Sams <isams@hillaryclinton.com>, Brynne
+Craig <Bcraig@hillaryclinton.com>, Christina Reynolds <
+creynolds@hillaryclinton.com>
+Subject: Re: DRAFT: Birmingham News Op-Ed
+
+In Alabama today and just met with state legislators and political folks; I
+would not put it on the legislature - essentially the Gov is now saying he
+"found" the money but holding it hostage to force black rural democrats to
+agree to raise taxes on some of the state's poorest people
+So its promise to raise taxes on poor people in order to get your offices
+back.
+
+Sent from my iPhone
+
+On Oct 15, 2015, at 2:46 PM, John Anzalone <john@algpolling.com> wrote:
+
+I would consider running this by Senator Hank Sanders from Selma but yes I
+think we should change it and move the focus onto the legislature to make
+it happen.  It was after all the super-majority in the legislature who made
+these cuts.  While the Gov signed the budget after the special session,
+Bentley actually had a funding plan that included big tax increases to fill
+the hole in the budget that the legislature would not go along with.  So to
+make the legislature the focus I think would be the right place.
+
+*John Anzalone*
+
+*Partner *
+
+Anzalone Liszt Grove Research
+
+(o) 334.387.3121
+
+Website <http://algpolling.com/>*| *Twitter
+<http://twitter.com/anzaloneliszt>*|* LinkedIn
+<https://www.linkedin.com/pub/john-anzalone/5/aa2/563>*|* Facebook
+<http://facebook.com/anzaloneresearch>
+
+From: Emily Aden <eaden@hillaryclinton.com>
+Date: Thursday, October 15, 2015 at 11:07 AM
+To: John Anzalone <john@algpolling.com>
+Cc: Tyrone Gayle <tgayle@hillaryclinton.com>, Lauren Peterson <
+lpeterson@hillaryclinton.com>, Speech Drafts <
+speechdrafts@hillaryclinton.com>, Karen Finney <kfinney@hillaryclinton.com>=
+,
+LaDavia Drane <ldrane@hillaryclinton.com>, Ian Sams <
+isams@hillaryclinton.com>, Brynne Craig <Bcraig@hillaryclinton.com>,
+Christina Reynolds <creynolds@hillaryclinton.com>
+Subject: Re: DRAFT: Birmingham News Op-Ed
+
+Flagging that Gov. Bentley announced a plan to reopen the 31 offices,
+should this be changed to call on him/legislature to do that? Given his new
+plan, is the 'excuses' language too strong?
+http://www.al.com/news/index.ssf/2015/10/bentley_plan_would_reopen_clos.htm=
+l
+
+change  including those in eight of the 10 counties with the highest
+percentage of African Americans to:  including  in 8 out of 12 total
+majority-minority counties or including in 7 counties where the African
+American population is more than two-thirds.
+
+Alabama is one of 17 states with no early voting, would adjust "handful"
+language
+http://www.ncsl.org/research/elections-and-campaigns/absentee-and-early-vot=
+ing.aspx
+
+Change Rubio hit to Marco Rubio asked "what's the big deal" about voter id
+laws.
+
+Change Kasich hit to: ...a state where 77 percent of early voters in 2008
+were African American in the most populated county
+
+
+
+
+
+
+On Thu, Oct 15, 2015 at 11:11 AM, John Anzalone <john@algpolling.com> wrote=
+:
+
+> One thing I would consider up front is helping readers understand the lin=
+k
+> between closing these offices and voting, meaning that people get persona=
+l
+> identification cards here.  We assume people get it but I actually don=E2=
+=80=99t
+> think people do.  So I would add as second line to help them out, somethi=
+ng
+> like:
+>
+> This means that getting drivers licenses and personal identification card=
+s
+> required by law to vote is  doubly hard for these mostly rural voters.
+>
+>
+>
+>
+> *John Anzalone*
+>
+> *Partner *
+>
+> Anzalone Liszt Grove Research
+>
+> (o) 334.387.3121
+>
+> Website <http://algpolling.com/>*| *Twitter
+> <http://twitter.com/anzaloneliszt>*|* LinkedIn
+> <https://www.linkedin.com/pub/john-anzalone/5/aa2/563>*|* Facebook
+> <http://facebook.com/anzaloneresearch>
+>
+> From: <speechdrafts@hillaryclinton.com> on behalf of Tyrone Gayle <
+> tgayle@hillaryclinton.com>
+> Date: Thursday, October 15, 2015 at 10:04 AM
+> To: Lauren Peterson <lpeterson@hillaryclinton.com>, Speech Drafts <
+> speechdrafts@hillaryclinton.com>
+> Cc: Karen Finney <kfinney@hillaryclinton.com>, LaDavia Drane <
+> ldrane@hillaryclinton.com>, Ian Sams <isams@hillaryclinton.com>, Emily
+> Aden <eaden@hillaryclinton.com>, Brynne Craig <Bcraig@hillaryclinton.com>=
+,
+> Christina Reynolds <creynolds@hillaryclinton.com>
+> Subject: RE: DRAFT: Birmingham News Op-Ed
+>
+> This is great Lauren. Just a reminder, we have to submit by *COB today*
+> to have this run on Sunday. If folks could take a look and make edits so =
+we
+> can get HRC approval, thatd be great
+>
+>
+>
+> *From:* Lauren Peterson [mailto:lpeterson@hillaryclinton.com]
+> *Sent:* Thursday, October 15, 2015 12:49 AM
+> *To:* Speech Drafts <speechdrafts@hillaryclinton.com>
+> *Cc:* Karen Finney <kfinney@hillaryclinton.com>; LaDavia Drane <
+> ldrane@hillaryclinton.com>; Ian Sams <isams@hillaryclinton.com>; Tyrone
+> Gayle <tgayle@hillaryclinton.com>; Emily Aden <eaden@hillaryclinton.com>;
+> Brynne Craig <bcraig@hillaryclinton.com>; Christina Reynolds <
+> creynolds@hillaryclinton.com>
+> *Subject:* DRAFT: Birmingham News Op-Ed
+>
+>
+>
+> Hi everyone,
+>
+>
+>
+> Sending around this Birmingham News op-ed to coincide with Hillary's trip
+> to Alabama. The op-ed will run this weekend.
+>
+>
+>
+> Please take a look and let me know your thoughts - this reflects
+> preliminary input from many of you, which has been much appreciated! I
+> could definitely use research's eyes on the statistics and the GOP contra=
+st.
+>
+>
+>
+> Thanks!
+>
+> Lauren
+>
+>
+>
+> ###
+>
+>
+>
+> This month, Alabama announced the closing of 31 driver=E2=80=99s license =
+offices
+> in counties across the state, including those in eight of the 10 counties
+> with the highest percentage of African Americans.  Despite Governor
+> Bentley=E2=80=99s insistence that the decision=E2=80=94which came a year =
+after the state=E2=80=99s
+> voter ID law took effect=E2=80=94has nothing to do with race, the paralle=
+ls are
+> inescapable: Alabama is living through a blast from the Jim Crow past.
+>
+>
+>
+> It=E2=80=99s hard to believe that 50 years after Dr. Martin Luther King, =
+Jr.
+> marched and Rosa Parks sat and John Lewis bled, Americans are still
+> fighting to exercise the most fundamental right in our democracy.
+> Meanwhile, Governor Bentley is offering the same excuses we=E2=80=99ve he=
+ard for
+> half a century to justify laws that disproportionately affect people of
+> color, low-income people, women, young people, and seniors.  It reminds m=
+e
+> of a saying from Arkansas: =E2=80=9CYou find a turtle on a fence post, it=
+ did not
+> get there on its own.=E2=80=9D
+>
+>
+>
+> But for every Republican governor working to dismantle voting rights,
+> there are Americans determined to keep marching forward.  I=E2=80=99m pro=
+ud of the
+> outcry in Alabama from people who have come together to demand better.
+> It=E2=80=99s time for Governor Bentley to listen to your voices and rever=
+se the
+> decision to close DMV offices in the Black Belt and other rural counties.
+> But the reforms shouldn=E2=80=99t stop there.  Alabama is one of a handfu=
+l of
+> states with no early voting=E2=80=94that needs to change.  Alabama should=
+ also
+> eliminate the discriminatory and demeaning state requirement that people
+> provide proof of citizenship along with their voter registration forms=E2=
+=80=94a
+> law modeled on one that has stopped more than 30,000 would-be voters from
+> registering in Kansas.  And they should make sure that Americans who have
+> served time should have their voting rights restored once they=E2=80=99re=
+ released.
+>
+>
+>
+>
+> Unfortunately (but not surprisingly), Alabama isn=E2=80=99t an outlier.  =
+Over the
+> past few years, many states have passed laws that make it harder to vote.
+> Since the Supreme Court gutted a key provision of the Voting Rights Act, =
+a
+> dire situation has gotten even worse.  And there are those=E2=80=94includ=
+ing many
+> of the Republican candidates for president=E2=80=94who would continue to =
+push our
+> country in this shameful direction.
+>
+>
+>
+> Jeb Bush says he wouldn=E2=80=99t reauthorize the Voting Rights Act=E2=80=
+=94because it=E2=80=99s
+> gotten easier to vote since it was passed.  As Justice Ginsburg has said,
+> that=E2=80=99s like throwing away your umbrella in a rainstorm because yo=
+u=E2=80=99re not
+> getting wet.  Marco Rubio has supported harsh voter ID laws.  John Kasich
+> restricted early voting in Ohio=E2=80=94a state where 77 percent of early=
+ voters in
+> 2008 were African American.  What part of democracy are they so afraid of=
+?
+>
+>
+>
+> Many of the people who fought and sacrificed for the right to vote are no
+> longer alive to witness these abuses.  But we are.  And we have an
+> obligation to stop the systematic and deliberate effort to disenfranchise
+> voters.
+>
+>
+>
+> First, Congress should put principle ahead of politics and pass the Votin=
+g
+> Rights Advancement Act=E2=80=94a bipartisan bill that would restore the f=
+ull
+> protections of the Voting Rights Act.
+>
+>
+>
+> Second, we should set a standard across this country of at least 20 days
+> of early, in-person voting=E2=80=94including opportunities for weekend an=
+d evening
+> voting.
+>
+>
+>
+> Third, we should go even further.  We need universal, automatic voter
+> registration=E2=80=94so that every young person in every state is automat=
+ically
+> registered to vote when they turn 18, unless they choose to opt out.  I
+> applaud California for implementing this measure last week=E2=80=94an inc=
+redible
+> victory in our most populous state.
+>
+>
+>
+> These steps alone won=E2=80=99t solve all of the challenges we face.  But=
+ we owe
+> it to future generations to fight back against attacks on voting, and to
+> meet this moment with the bravery and determination of those who have com=
+e
+> before us.  It=E2=80=99s time for leaders in every party, at every level =
+of
+> government, to be on the right side of history.
+>
+>
+>
+
+--001a113f3cd467034c05222a2ea3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=
+=3Dutf-8"></head><body dir=3D"auto"><div>It&#39;s disgusting what they are =
+doing=C2=A0<br><br>Sent from my iPhone</div><div><br>On Oct 15, 2015, at 2:=
+59 PM, John Anzalone &lt;<a href=3D"mailto:john@algpolling.com">john@algpol=
+ling.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div>
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+
+
+<div>
+<div>
+<div>Well that is a new spin.=C2=A0 But glad you have talked to them to get=
+ the real scoop.</div>
+<div><br>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+<b style=3D"font-size:11pt">John Anzalone</b></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+</p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+<i>Partner=C2=A0</i></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+Anzalone Liszt Grove Research</p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+(o)=C2=A0<span style=3D"color:green">334.387.3121</span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+<a href=3D"http://algpolling.com/" style=3D"color:rgb(149,79,114)"><span st=
+yle=3D"color:blue">Website</span></a><b>|=C2=A0</b><a href=3D"http://twitte=
+r.com/anzaloneliszt" style=3D"color:rgb(149,79,114)"><span style=3D"color:b=
+lue">Twitter</span></a><b>|</b>=C2=A0<a href=3D"https://www.linkedin.com/pu=
+b/john-anzalone/5/aa2/563" style=3D"color:rgb(149,79,114)"><span style=3D"c=
+olor:blue">LinkedIn</span></a><b>|</b>=C2=A0<a href=3D"http://facebook.com/=
+anzaloneresearch" style=3D"color:rgb(149,79,114)"><span style=3D"color:blue=
+">Facebook</span></a></p>
+</div>
+</div>
+</div>
+<div><br>
+</div>
+<span id=3D"OLK_SRC_BODY_SECTION">
+<div style=3D"font-family:Calibri;font-size:11pt;text-align:left;color:blac=
+k;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none;PADDING-BOTTOM:0in;PADD=
+ING-LEFT:0in;PADDING-RIGHT:0in;BORDER-TOP:#b5c4df 1pt solid;BORDER-RIGHT:me=
+dium none;PADDING-TOP:3pt">
+<span style=3D"font-weight:bold">From: </span>Karen Finney &lt;<a href=3D"m=
+ailto:kfinney@hillaryclinton.com">kfinney@hillaryclinton.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Date: </span>Thursday, October 15, 2015 at=
+ 2:53 PM<br>
+<span style=3D"font-weight:bold">To: </span>John Anzalone &lt;<a href=3D"ma=
+ilto:john@algpolling.com">john@algpolling.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Cc: </span>Emily Aden &lt;<a href=3D"mailt=
+o:eaden@hillaryclinton.com">eaden@hillaryclinton.com</a>&gt;, Tyrone Gayle =
+&lt;<a href=3D"mailto:tgayle@hillaryclinton.com">tgayle@hillaryclinton.com<=
+/a>&gt;, Lauren Peterson &lt;<a href=3D"mailto:lpeterson@hillaryclinton.com=
+">lpeterson@hillaryclinton.com</a>&gt;,
+ Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hillaryclinton.com">speec=
+hdrafts@hillaryclinton.com</a>&gt;, LaDavia Drane &lt;<a href=3D"mailto:ldr=
+ane@hillaryclinton.com">ldrane@hillaryclinton.com</a>&gt;, Ian Sams &lt;<a =
+href=3D"mailto:isams@hillaryclinton.com">isams@hillaryclinton.com</a>&gt;,
+ Brynne Craig &lt;<a href=3D"mailto:Bcraig@hillaryclinton.com">Bcraig@hilla=
+ryclinton.com</a>&gt;, Christina Reynolds &lt;<a href=3D"mailto:creynolds@h=
+illaryclinton.com">creynolds@hillaryclinton.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Subject: </span>Re: DRAFT: Birmingham News=
+ Op-Ed<br>
+</div>
+<div><br>
+</div>
+<div>
+<div dir=3D"auto">
+<div>In Alabama today and just met with state legislators and political fol=
+ks; I would not put it on the legislature - essentially the Gov is now sayi=
+ng he &quot;found&quot; the money but holding it hostage to force black rur=
+al democrats to agree to raise taxes on some
+ of the state&#39;s poorest people=C2=A0</div>
+<div>So its promise to raise taxes on poor people in order to get your offi=
+ces back.</div>
+<div><br>
+Sent from my iPhone</div>
+<div><br>
+On Oct 15, 2015, at 2:46 PM, John Anzalone &lt;<a href=3D"mailto:john@algpo=
+lling.com">john@algpolling.com</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div>
+<div>
+<div>I would consider running this by Senator Hank Sanders from Selma but y=
+es I think we should change it and move the focus onto the legislature to m=
+ake it happen.=C2=A0 It was after all the super-majority in the legislature=
+ who made these cuts.=C2=A0 While the Gov
+ signed the budget after the special session, Bentley actually had a fundin=
+g plan that included big tax increases to fill the hole in the budget that =
+the legislature would not go along with.=C2=A0 So to make the legislature t=
+he focus I think would be the right place.</div>
+<div><br>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+<b style=3D"font-size:11pt">John Anzalone</b></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+</p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+<i>Partner=C2=A0</i></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+Anzalone Liszt Grove Research</p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+(o)=C2=A0<span style=3D"color:green">334.387.3121</span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri,sans-serif">
+<a href=3D"http://algpolling.com/" style=3D"color:rgb(149,79,114)"><span st=
+yle=3D"color:blue">Website</span></a><b>|=C2=A0</b><a href=3D"http://twitte=
+r.com/anzaloneliszt" style=3D"color:rgb(149,79,114)"><span style=3D"color:b=
+lue">Twitter</span></a><b>|</b>=C2=A0<a href=3D"https://www.linkedin.com/pu=
+b/john-anzalone/5/aa2/563" style=3D"color:rgb(149,79,114)"><span style=3D"c=
+olor:blue">LinkedIn</span></a><b>|</b>=C2=A0<a href=3D"http://facebook.com/=
+anzaloneresearch" style=3D"color:rgb(149,79,114)"><span style=3D"color:blue=
+">Facebook</span></a></p>
+</div>
+</div>
+</div>
+<div><br>
+</div>
+<span id=3D"OLK_SRC_BODY_SECTION">
+<div style=3D"font-family:Calibri;font-size:11pt;text-align:left;color:blac=
+k;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none;PADDING-BOTTOM:0in;PADD=
+ING-LEFT:0in;PADDING-RIGHT:0in;BORDER-TOP:#b5c4df 1pt solid;BORDER-RIGHT:me=
+dium none;PADDING-TOP:3pt">
+<span style=3D"font-weight:bold">From: </span>Emily Aden &lt;<a href=3D"mai=
+lto:eaden@hillaryclinton.com">eaden@hillaryclinton.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Date: </span>Thursday, October 15, 2015 at=
+ 11:07 AM<br>
+<span style=3D"font-weight:bold">To: </span>John Anzalone &lt;<a href=3D"ma=
+ilto:john@algpolling.com">john@algpolling.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Cc: </span>Tyrone Gayle &lt;<a href=3D"mai=
+lto:tgayle@hillaryclinton.com">tgayle@hillaryclinton.com</a>&gt;, Lauren Pe=
+terson &lt;<a href=3D"mailto:lpeterson@hillaryclinton.com">lpeterson@hillar=
+yclinton.com</a>&gt;, Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hill=
+aryclinton.com">speechdrafts@hillaryclinton.com</a>&gt;,
+ Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com">kfinney@hil=
+laryclinton.com</a>&gt;, LaDavia Drane &lt;<a href=3D"mailto:ldrane@hillary=
+clinton.com">ldrane@hillaryclinton.com</a>&gt;, Ian Sams &lt;<a href=3D"mai=
+lto:isams@hillaryclinton.com">isams@hillaryclinton.com</a>&gt;,
+ Brynne Craig &lt;<a href=3D"mailto:Bcraig@hillaryclinton.com">Bcraig@hilla=
+ryclinton.com</a>&gt;, Christina Reynolds &lt;<a href=3D"mailto:creynolds@h=
+illaryclinton.com">creynolds@hillaryclinton.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Subject: </span>Re: DRAFT: Birmingham News=
+ Op-Ed<br>
+</div>
+<div><br>
+</div>
+<div>
+<div>
+<div dir=3D"ltr">Flagging that Gov. Bentley announced a plan to reopen the =
+31 offices, should this be changed to call on him/legislature to do that? G=
+iven his new plan, is the &#39;excuses&#39; language too strong?=C2=A0<a hr=
+ef=3D"http://www.al.com/news/index.ssf/2015/10/bentley_plan_would_reopen_cl=
+os.html" target=3D"_blank">http://www.al.com/news/index.ssf/2015/10/bentley=
+_plan_would_reopen_clos.html</a>
+<div><br>
+</div>
+<div><span style=3D"background-color:rgb(255,255,255)"><font face=3D"arial,=
+helvetica,sans-serif">change=C2=A0<span style=3D"line-height:26px">=C2=A0</=
+span><span style=3D"line-height:26px">including those in eight of the 10 co=
+unties with the highest percentage of African Americans=C2=A0</span>to:=C2=
+=A0=C2=A0<span style=3D"background-image:initial;background-repeat:initial"=
+>including
+ =C2=A0in 8 out of 12 total majority-minority counties or including in 7 co=
+unties where the African American population is more than two-thirds.=C2=A0=
+</span>=C2=A0</font></span></div>
+<div><span style=3D"background-color:rgb(255,255,255)"><font face=3D"arial,=
+helvetica,sans-serif"><br>
+</font></span></div>
+<div><font face=3D"arial,helvetica,sans-serif">Alabama is one of 17 states =
+with no early voting, would adjust &quot;handful&quot; language=C2=A0<a hre=
+f=3D"http://www.ncsl.org/research/elections-and-campaigns/absentee-and-earl=
+y-voting.aspx">http://www.ncsl.org/research/elections-and-campaigns/absente=
+e-and-early-voting.aspx</a></font></div>
+<div><font face=3D"arial,helvetica,sans-serif"><br>
+</font></div>
+<div><font face=3D"arial,helvetica,sans-serif">Change Rubio hit to Marco Ru=
+bio asked &quot;what&#39;s the big deal&quot; about voter id laws.=C2=A0</f=
+ont></div>
+<div><font face=3D"arial,helvetica,sans-serif"><br>
+</font></div>
+<div><font face=3D"arial,helvetica,sans-serif">Change Kasich hit to: ...a s=
+tate where 77 percent of early voters in 2008 were African American in the =
+most populated county=C2=A0</font></div>
+<div><font face=3D"arial,helvetica,sans-serif"><br>
+</font></div>
+<div><font face=3D"arial,helvetica,sans-serif"><br>
+</font></div>
+<div><font face=3D"arial,helvetica,sans-serif"><br>
+</font></div>
+<div><font face=3D"arial,helvetica,sans-serif"><br>
+</font></div>
+<div>
+<div><br>
+</div>
+</div>
+</div>
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_quote">On Thu, Oct 15, 2015 at 11:11 AM, John Anzalone =
+<span dir=3D"ltr">
+&lt;<a href=3D"mailto:john@algpolling.com" target=3D"_blank">john@algpollin=
+g.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div style=3D"word-wrap:break-word;color:rgb(0,0,0);font-size:14px;font-fam=
+ily:Georgia,sans-serif">
+<div>
+<div>One thing I would consider up front is helping readers understand the =
+link between closing these offices and voting, meaning that people get pers=
+onal identification cards here.=C2=A0 We assume people get it but I actuall=
+y don=E2=80=99t think people do.=C2=A0 So I would
+ add as second line to help them out, something like:</div>
+<div><br>
+</div>
+<div>This means that getting drivers licenses and personal identification c=
+ards required by law to vote is =C2=A0doubly hard for these mostly rural vo=
+ters.</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"font-size:11pt;font-family:Calibri,sans-ser=
+if"><b style=3D"font-size:11pt">John Anzalone</b></p>
+<p class=3D"MsoNormal" style=3D"font-size:11pt;font-family:Calibri,sans-ser=
+if"><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"font-size:11pt;font-family:Calibri,sans-ser=
+if"><i>Partner=C2=A0</i><u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"font-size:11pt;font-family:Calibri,sans-ser=
+if">Anzalone Liszt Grove Research<u></u><u></u></p>
+<p class=3D"MsoNormal" style=3D"font-size:11pt;font-family:Calibri,sans-ser=
+if">(o)=C2=A0<span style=3D"color:green"><a href=3D"tel:334.387.3121" value=
+=3D"+13343873121" target=3D"_blank">334.387.3121</a></span><u></u><u></u></=
+p>
+<p class=3D"MsoNormal" style=3D"font-size:11pt;font-family:Calibri,sans-ser=
+if"><a href=3D"http://algpolling.com/" target=3D"_blank"><span style=3D"col=
+or:blue">Website</span></a><b>|=C2=A0</b><a href=3D"http://twitter.com/anza=
+loneliszt" target=3D"_blank"><span style=3D"color:blue">Twitter</span></a><=
+b>|</b>=C2=A0<a href=3D"https://www.linkedin.com/pub/john-anzalone/5/aa2/56=
+3" target=3D"_blank"><span style=3D"color:blue">LinkedIn</span></a><b>|</b>=
+=C2=A0<a href=3D"http://facebook.com/anzaloneresearch" target=3D"_blank"><s=
+pan style=3D"color:blue">Facebook</span></a></p>
+</div>
+</div>
+<div><br>
+</div>
+<span>
+<div style=3D"font-family:Calibri;font-size:11pt;text-align:left;color:blac=
+k;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none;PADDING-BOTTOM:0in;PADD=
+ING-LEFT:0in;PADDING-RIGHT:0in;BORDER-TOP:#b5c4df 1pt solid;BORDER-RIGHT:me=
+dium none;PADDING-TOP:3pt">
+<span style=3D"font-weight:bold">From: </span>&lt;<a href=3D"mailto:speechd=
+rafts@hillaryclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.com=
+</a>&gt; on behalf of Tyrone Gayle &lt;<a href=3D"mailto:tgayle@hillaryclin=
+ton.com" target=3D"_blank">tgayle@hillaryclinton.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Date: </span>Thursday, October 15, 2015 at=
+ 10:04 AM<br>
+<span style=3D"font-weight:bold">To: </span>Lauren Peterson &lt;<a href=3D"=
+mailto:lpeterson@hillaryclinton.com" target=3D"_blank">lpeterson@hillarycli=
+nton.com</a>&gt;, Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hillaryc=
+linton.com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Cc: </span>Karen Finney &lt;<a href=3D"mai=
+lto:kfinney@hillaryclinton.com" target=3D"_blank">kfinney@hillaryclinton.co=
+m</a>&gt;, LaDavia Drane &lt;<a href=3D"mailto:ldrane@hillaryclinton.com" t=
+arget=3D"_blank">ldrane@hillaryclinton.com</a>&gt;, Ian
+ Sams &lt;<a href=3D"mailto:isams@hillaryclinton.com" target=3D"_blank">isa=
+ms@hillaryclinton.com</a>&gt;, Emily Aden &lt;<a href=3D"mailto:eaden@hilla=
+ryclinton.com" target=3D"_blank">eaden@hillaryclinton.com</a>&gt;, Brynne C=
+raig &lt;<a href=3D"mailto:Bcraig@hillaryclinton.com" target=3D"_blank">Bcr=
+aig@hillaryclinton.com</a>&gt;,
+ Christina Reynolds &lt;<a href=3D"mailto:creynolds@hillaryclinton.com" tar=
+get=3D"_blank">creynolds@hillaryclinton.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Subject: </span>RE: DRAFT: Birmingham News=
+ Op-Ed<br>
+</div>
+<div>
+<div class=3D"h5">
+<div><br>
+</div>
+<div>
+<div lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;font-family:Calibri,sa=
+ns-serif;color:rgb(31,73,125)">This is great Lauren. Just a reminder, we ha=
+ve to submit by
+<b>COB today</b> to have this run on Sunday. If folks could take a look and=
+ make edits so we can get HRC approval, thatd be great</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;font-family:Calibri,sa=
+ns-serif;color:rgb(31,73,125)">=C2=A0</span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11pt;font-family:Calibri=
+,sans-serif">From:</span></b><span style=3D"font-size:11pt;font-family:Cali=
+bri,sans-serif"> Lauren Peterson [mailto:<a href=3D"mailto:lpeterson@hillar=
+yclinton.com" target=3D"_blank">lpeterson@hillaryclinton.com</a>]
+<br>
+<b>Sent:</b> Thursday, October 15, 2015 12:49 AM<br>
+<b>To:</b> Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hillaryclinton.=
+com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>&gt;<br>
+<b>Cc:</b> Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" t=
+arget=3D"_blank">kfinney@hillaryclinton.com</a>&gt;; LaDavia Drane &lt;<a h=
+ref=3D"mailto:ldrane@hillaryclinton.com" target=3D"_blank">ldrane@hillarycl=
+inton.com</a>&gt;; Ian Sams &lt;<a href=3D"mailto:isams@hillaryclinton.com"=
+ target=3D"_blank">isams@hillaryclinton.com</a>&gt;;
+ Tyrone Gayle &lt;<a href=3D"mailto:tgayle@hillaryclinton.com" target=3D"_b=
+lank">tgayle@hillaryclinton.com</a>&gt;; Emily Aden &lt;<a href=3D"mailto:e=
+aden@hillaryclinton.com" target=3D"_blank">eaden@hillaryclinton.com</a>&gt;=
+; Brynne Craig &lt;<a href=3D"mailto:bcraig@hillaryclinton.com" target=3D"_=
+blank">bcraig@hillaryclinton.com</a>&gt;;
+ Christina Reynolds &lt;<a href=3D"mailto:creynolds@hillaryclinton.com" tar=
+get=3D"_blank">creynolds@hillaryclinton.com</a>&gt;<br>
+<b>Subject:</b> DRAFT: Birmingham News Op-Ed</span></p>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">Hi everyone,</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Sending around this Birmingham News op-ed to coincid=
+e with Hillary&#39;s trip to Alabama. The op-ed will run this weekend.</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Please take a look and let me know your thoughts - t=
+his reflects preliminary input from many of you, which has been much apprec=
+iated! I could definitely use research&#39;s eyes on the statistics and the=
+ GOP contrast.</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thanks!</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Lauren</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">###</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">This month, Alabama announced the closing of 31 dr=
+iver=E2=80=99s license offices in counties across the state, including thos=
+e in eight of the 10 counties with the highest
+ percentage of African Americans.=C2=A0 Despite Governor Bentley=E2=80=99s =
+insistence that the decision=E2=80=94which came a year after the state=E2=
+=80=99s voter ID law took effect=E2=80=94has nothing to do with race, the p=
+arallels are inescapable: Alabama is living through a blast from the Jim
+ Crow past.</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">It=E2=80=99s hard to believe that 50 years after D=
+r. Martin Luther King, Jr. marched and Rosa Parks sat and John Lewis bled, =
+Americans are still fighting to exercise the most
+ fundamental right in our democracy.=C2=A0 Meanwhile, Governor Bentley is o=
+ffering the same excuses we=E2=80=99ve heard for half a century to justify =
+laws that disproportionately affect people of color, low-income people, wom=
+en, young people, and seniors.=C2=A0 It reminds me
+ of a saying from Arkansas: =E2=80=9CYou find a turtle on a fence post, it =
+did not get there on its own.=E2=80=9D</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">But for every Republican governor working to disma=
+ntle voting rights, there are Americans determined to keep marching forward=
+.=C2=A0 I=E2=80=99m proud of the outcry in Alabama
+ from people who have come together to demand better.=C2=A0 It=E2=80=99s ti=
+me for Governor Bentley to listen to your voices and reverse the decision t=
+o close DMV offices in the Black Belt and other rural counties.=C2=A0 But t=
+he reforms shouldn=E2=80=99t stop there.=C2=A0 Alabama is one of
+ a handful of states with no early voting=E2=80=94that needs to change.=C2=
+=A0 Alabama should also eliminate the discriminatory and demeaning state re=
+quirement that people provide proof of citizenship along with their voter r=
+egistration forms=E2=80=94a law modeled on one that has
+ stopped more than 30,000 would-be voters from registering in Kansas.=C2=A0=
+ And they should make sure that Americans who have served time should have =
+their voting rights restored once they=E2=80=99re released. =C2=A0</span></=
+p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">Unfortunately (but not surprisingly), Alabama isn=
+=E2=80=99t an outlier.=C2=A0 Over the past few years, many states have pass=
+ed laws that make it harder to vote.=C2=A0 Since the Supreme
+ Court gutted a key provision of the Voting Rights Act, a dire situation ha=
+s gotten even worse.=C2=A0 And there are those=E2=80=94including many of th=
+e Republican candidates for president=E2=80=94who would continue to push ou=
+r country in this shameful direction.</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">Jeb Bush says he wouldn=E2=80=99t reauthorize the =
+Voting Rights Act=E2=80=94because it=E2=80=99s gotten easier to vote since =
+it was passed.=C2=A0 As Justice Ginsburg has said, that=E2=80=99s like thro=
+wing
+ away your umbrella in a rainstorm because you=E2=80=99re not getting wet.=
+=C2=A0 Marco Rubio has supported harsh voter ID laws.=C2=A0 John Kasich res=
+tricted early voting in Ohio=E2=80=94a state where 77 percent of early vote=
+rs in 2008 were African American.=C2=A0 What part of democracy are
+ they so afraid of?</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">Many of the people who fought and sacrificed for t=
+he right to vote are no longer alive to witness these abuses.=C2=A0 But we =
+are.=C2=A0 And we have an obligation to stop the
+ systematic and deliberate effort to disenfranchise voters.=C2=A0 </span></=
+p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">First, Congress should put principle ahead of poli=
+tics and pass the Voting Rights Advancement Act=E2=80=94a bipartisan bill t=
+hat would restore the full protections of the
+ Voting Rights Act.</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">Second, we should set a standard across this count=
+ry of at least 20 days of early, in-person voting=E2=80=94including opportu=
+nities for weekend and evening voting.
+</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">Third, we should go even further.=C2=A0 We need un=
+iversal, automatic voter registration=E2=80=94so that every young person in=
+ every state is automatically registered to vote when
+ they turn 18, unless they choose to opt out.=C2=A0 I applaud California fo=
+r implementing this measure last week=E2=80=94an incredible victory in our =
+most populous state.
+</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">These steps alone won=E2=80=99t solve all of the c=
+hallenges we face.=C2=A0 But we owe it to future generations to fight back =
+against attacks on voting, and to meet this moment
+ with the bravery and determination of those who have come before us.=C2=A0=
+ It=E2=80=99s time for leaders in every party, at every level of government=
+, to be on the right side of history.</span></p>
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13.0pt;line-height:150%">=C2=A0</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</span></div>
+</blockquote>
+</div>
+<br>
+</div>
+</div>
+</div>
+</span></div>
+</blockquote>
+</div>
+</div>
+</span>
+
+
+</div></blockquote></body></html>
+
+--001a113f3cd467034c05222a2ea3--

@@ -1,0 +1,552 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.94 with SMTP id o91csp2884967lfi;
+        Wed, 15 Apr 2015 14:41:04 -0700 (PDT)
+X-Received: by 10.170.233.11 with SMTP id z11mr24918272ykf.102.1429134064288;
+        Wed, 15 Apr 2015 14:41:04 -0700 (PDT)
+Return-Path: <hrcrapid+bncBCH23XWCW4PBB35VXOUQKGQEKKC6E4Y@googlegroups.com>
+Received: from mail-yk0-x23c.google.com (mail-yk0-x23c.google.com. [2607:f8b0:4002:c07::23c])
+        by mx.google.com with ESMTPS id u67si1909462yku.173.2015.04.15.14.41.03
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 15 Apr 2015 14:41:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of hrcrapid+bncBCH23XWCW4PBB35VXOUQKGQEKKC6E4Y@googlegroups.com designates 2607:f8b0:4002:c07::23c as permitted sender) client-ip=2607:f8b0:4002:c07::23c;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hrcrapid+bncBCH23XWCW4PBB35VXOUQKGQEKKC6E4Y@googlegroups.com designates 2607:f8b0:4002:c07::23c as permitted sender) smtp.mail=hrcrapid+bncBCH23XWCW4PBB35VXOUQKGQEKKC6E4Y@googlegroups.com;
+       dkim=pass header.i=@googlegroups.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-x23c.google.com with SMTP id 19sf4978217ykq.0;
+        Wed, 15 Apr 2015 14:41:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20120806;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe;
+        bh=5k8S9mFYw0xB6MFkMM0q3rHh3imEOEYRT5HHeqQYtIc=;
+        b=v5T28WkuRnP38N6bXpcFwuMo8+sB5BKCptWhwoxizY6JYBgeDx6S7QXMpc+QrCpqK0
+         CTZKzZ3UyM2GUjb5ty1qICSBc4LcAEDusSz4XoQvE1+adDD27UT3saXOPpb2L664oHXK
+         jtbfF3GvQ2EF0O+QasF7CmjM2kf9AFqOlABitbt5sBwokJFEj5osJE48pYLQaLDNlj9n
+         8njMrYgRiL7EPSv6F4/d36LNLl9pmVnhyOr5ppXbsNhnZmXTfOa/iUimQ9zEmj7bghsZ
+         +Pm5X0zilM0f1AaPpu1jSyoo0irU1fWShrWScixLocClY5kAWINer48uGdZJjAEbJqrd
+         22VQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe;
+        bh=5k8S9mFYw0xB6MFkMM0q3rHh3imEOEYRT5HHeqQYtIc=;
+        b=SzTcQk0oq0DOqZ7EhxFS10GU/d53Eus0EhZAMsdZ2OCpwaykpLrZHmaB3tQ7UNs4Xh
+         LMpWVc4fpIeLXtBFiwkzjAnpxbHWrpkzRHkXm+qkKce9pFe5+ZcFSVVvpgaIFgYEabvE
+         J/gPVbdK0ZfiZExl+cPnJdKUhpzQRGxD5i1e+RhPFnxBfjYjE+vHarA8uFj+NpXg3lWi
+         groE3t8wWu98hZxKO1LFCVfTQmMRaUXc6awdYTzGnQpmtIUDywEKXg1npTebKmiu8wsH
+         qpSOUpBt1U+SCqBkW9p0DThD6ObYFJ7C+lun6z/lNcnjmJUmZJZDTesMejHLabdiVmHC
+         qZrw==
+X-Received: by 10.50.7.101 with SMTP id i5mr30282iga.15.1429134063086;
+        Wed, 15 Apr 2015 14:41:03 -0700 (PDT)
+X-BeenThere: hrcrapid@googlegroups.com
+Received: by 10.50.142.69 with SMTP id ru5ls1490420igb.2.canary; Wed, 15 Apr
+ 2015 14:41:02 -0700 (PDT)
+X-Received: by 10.42.26.137 with SMTP id f9mr32310304icc.17.1429134062526;
+        Wed, 15 Apr 2015 14:41:02 -0700 (PDT)
+Received: from mail-qk0-f177.google.com (mail-qk0-f177.google.com. [209.85.220.177])
+        by gmr-mx.google.com with ESMTPS id y1si896582qcq.1.2015.04.15.14.41.02
+        for <hrcrapid@googlegroups.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 15 Apr 2015 14:41:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of ha16@hillaryclinton.com designates 209.85.220.177 as permitted sender) client-ip=209.85.220.177;
+Received: by mail-qk0-f177.google.com with SMTP id g7so105925523qkh.2
+        for <hrcrapid@googlegroups.com>; Wed, 15 Apr 2015 14:41:02 -0700 (PDT)
+X-Gm-Message-State: ALoCoQkZRReWG7m/xEfhyLK+tRsbXV6DNzLhEXxLqaOHL0hAAZTu6WviMAjZKzanc6ZGjIgVN/DH
+MIME-Version: 1.0
+X-Received: by 10.182.216.135 with SMTP id oq7mr23381952obc.66.1429134034556;
+ Wed, 15 Apr 2015 14:40:34 -0700 (PDT)
+Received: by 10.202.197.66 with HTTP; Wed, 15 Apr 2015 14:40:34 -0700 (PDT)
+In-Reply-To: <CALbF9hU_GNJ_Adyro9QAbpVSYXAcv8cU+d-R51WmCgUHL1c9=w@mail.gmail.com>
+References: <CAAhtoQiN23US00ATqOF+4SorN3Q49u-yKmLTD+UWx_-90ppRhQ@mail.gmail.com>
+	<CAEj1YxqrCrAXP8AhCkLeB-XLN9pin4ZzBJtBRngXt-m-28z=YQ@mail.gmail.com>
+	<CAAbo-gCKbRg9D9eLsvEahV7-7VZk_0x8ivV0W8Y5BqhUCWYeWg@mail.gmail.com>
+	<CALbF9hU_GNJ_Adyro9QAbpVSYXAcv8cU+d-R51WmCgUHL1c9=w@mail.gmail.com>
+Date: Wed, 15 Apr 2015 17:40:34 -0400
+Message-ID: <CAOpGB0J_Rs8vj7G67DaRbsn2mfysK8Hc5E3rP=MMJOUvz4PyGQ@mail.gmail.com>
+Subject: Re: BuzzFeed | Questioning whether HRC's grandmother was an immigrant
+From: Huma Abedin <ha16@hillaryclinton.com>
+To: Tyrone Gayle <tgayle@hillaryclinton.com>
+CC: Monica Huegel <mhuegel@hillaryclinton.com>, 
+ Matt Ortega <mortega@hillaryclinton.com>, 
+ Jesse Lehrich <jlehrich@hillaryclinton.com>, 
+ hrcrapid <hrcrapid@googlegroups.com>
+Content-Type: multipart/alternative; boundary=001a113485c8776fde0513ca324c
+X-Original-Sender: ha16@hillaryclinton.com
+X-Original-Authentication-Results: gmr-mx.google.com;       spf=pass
+ (google.com: domain of ha16@hillaryclinton.com designates 209.85.220.177 as
+ permitted sender) smtp.mail=ha16@hillaryclinton.com;       dmarc=pass (p=NONE
+ dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list hrcrapid@googlegroups.com; contact hrcrapid+owners@googlegroups.com
+List-ID: <hrcrapid.googlegroups.com>
+X-Google-Group-Id: 612515467801
+List-Post: <http://groups.google.com/group/hrcrapid/post>, <mailto:hrcrapid@googlegroups.com>
+List-Help: <http://groups.google.com/support/>, <mailto:hrcrapid+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/hrcrapid
+Sender: hrcrapid@googlegroups.com
+List-Unsubscribe: <mailto:googlegroups-manage+612515467801+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/group/hrcrapid/subscribe>
+
+--001a113485c8776fde0513ca324c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+i think i have some documentation with full background that someone did for
+us
+can pull it but may take me an hour or so
+
+On Wed, Apr 15, 2015 at 5:37 PM, Tyrone Gayle <tgayle@hillaryclinton.com>
+wrote:
+
+> he just replied to the Press account:
+>
+> "Adding that the 1900 census also shows Hannah Jones as born in PA:
+> http://search.ancestry.com/cgi-bin/sse.dll?db=3D1900usfedcen&h=3D52325628=
+&indiv=3Dtry&o_vc=3DRecord:OtherRecord&rhSource=3D7884
+>
+> Let me know if you have any comment:"
+> - Andrew
+>
+> On Wed, Apr 15, 2015 at 5:33 PM, Monica Huegel <mhuegel@hillaryclinton.co=
+m
+> > wrote:
+>
+>> From Irish America's April/May 2015 issue:
+>> http://irishamerica.com/2015/03/hillary-clintons-celtic-roots/
+>>
+>> *Hillary=E2=80=99s Welsh Grandmother Was Linked By Genealogists To The W=
+rong
+>> Parents Of Another Girl In Scranton, PA.* =E2=80=9CMeandering back anoth=
+er
+>> generation, I came to realize that other genealogists who had researched
+>> Hillary Clinton=E2=80=99s ancestry had attached her Welsh grandmother, H=
+annah
+>> Jones, to the wrong parents (two girls named Hannah Jones were born in
+>> Scranton, PA circa 1882-1883 and they latched on to the wrong one). I al=
+so
+>> discovered that Hugh E. Rodham=E2=80=99s parents had eloped. This revela=
+tion
+>> emerged gradually beginning with an oddly worded wedding announcement in=
+ a
+>> local paper. When I couldn=E2=80=99t find a marriage record in Scranton =
+as
+>> anticipated, I scoured newspapers instead and found a snippet in an Augu=
+st
+>> 1902 issue stating that the couple had wed in Binghamton, New York a cou=
+ple
+>> of months earlier on Memorial Day. Now I understood why I hadn=E2=80=99t=
+ found the
+>> record, but the choice of Binghamton revealed even more.=E2=80=9D [Irish=
+ America, April-May
+>> 2015 <http://irishamerica.com/2015/03/hillary-clintons-celtic-roots/>]
+>>
+>> On Wed, Apr 15, 2015 at 5:27 PM, Matt Ortega <mortega@hillaryclinton.com=
+>
+>> wrote:
+>>
+>>> I have an Ancestry login if you need it.
+>>>
+>>> On Wed, Apr 15, 2015 at 5:22 PM, Jesse Lehrich <
+>>> jlehrich@hillaryclinton.com> wrote:
+>>>
+>>>> ---------- Forwarded message ----------
+>>>> From: Andrew Kaczynski <andrew.kaczynski@buzzfeed.com>
+>>>> Date: Wed, Apr 15, 2015 at 5:09 PM
+>>>> Subject: Question on Clinton comments on her grandparents immigrating
+>>>> here
+>>>> To: jferguson@hillaryclinton.com, press@hillaryclinton.com
+>>>>
+>>>>
+>>>> Hey,
+>>>>
+>>>> I saw Sec. Clinton's comments on immigration at the Capital City Fruit
+>>>> on immigration where she said, "ya know if we go around this room ther=
+e's a
+>>>> lot of immigrant stories. You know, all my grandparents, ya know, came=
+ over
+>>>> here. My grandfather went to work in a mill in Scranton, Pennsylvania.=
+.."
+>>>> (video attached on that).
+>>>>
+>>>> One of my hobbies is doing the ancestry of presidential candidates and
+>>>> from what I can tell only one of her grandparents were born overseas. =
+Her
+>>>> fraternal grandfather Hugh Rodham Sr.
+>>>>
+>>>> I know she's talked about her grandmother immigrating before at an an
+>>>> event last year (17:50).
+>>>>
+>>>>
+>>>> https://www.youtube.com/watch?v=3DgtBePkrEr3w&list=3DUUSQoxOTCUydTyTAj=
+cLbmVAQ
+>>>>
+>>>> "She immigrated with her family as a young girl to Scranton and went
+>>>> to work =E2=80=94 very young=E2=80=95in a silk mill, and then she met =
+and married my
+>>>> grandfather, who had also come to this country as a young man from the
+>>>> coalmining area in Newcastle, in England."
+>>>>
+>>>> Looking at census records it seems only her grandfather was an
+>>>> immigrant. Coming as a two-year-old boy:
+>>>>
+>>>> You need an ancestry log in for this (I can give you mine if you need
+>>>> it).
+>>>>
+>>>>
+>>>> http://search.ancestry.com/cgi-bin/sse.dll?new=3D1&gsfn=3DHugh&gsln=3D=
+Rodham&rank=3D1&gss=3Dangs-g&mswpn__ftp=3DEngland&mswpn=3D3251&mswpn_PInfo=
+=3D3-%7c0%7c0%7c3257%7c3251%7c0%7c0%7c0%7c0%7c0%7c0%7c&msbdy=3D1879&pcat=3D=
+ROOT_CATEGORY&h=3D12259921&recoff=3D8+9&db=3Dnypl&indiv=3D1&ml_rp
+>>>>
+>>>> While Hannah Rodham is listed as PA born on the 1910, 1920, and 1930
+>>>> census records:
+>>>>
+>>>>
+>>>> http://search.ancestry.com/cgi-bin/sse.dll?db=3D1910USCenIndex&indiv=
+=3Dtry&h=3D118913101&requr=3D2533274790690816&ur=3D0
+>>>>
+>>>>
+>>>> http://search.ancestry.com/cgi-bin/sse.dll?db=3D1920usfedcen&h=3D33928=
+489&indiv=3Dtry&o_vc=3DRecord:OtherRecord&rhSource=3D7884
+>>>>
+>>>>
+>>>> http://search.ancestry.com/cgi-bin/sse.dll?db=3D1930usfedcen&h=3D52162=
+077&indiv=3Dtry&o_vc=3DRecord:OtherRecord&rhSource=3D6061
+>>>>
+>>>>
+>>>> Her fraternal grandparents are also both listed as born in Illinois on
+>>>> the 1920 and 1930 census:
+>>>>
+>>>>
+>>>> http://search.ancestry.com/cgi-bin/sse.dll?MS_AdvCB=3D1&rank=3D1&new=
+=3D1&MSAV=3D-1&msT=3D1&gss=3Dangs-g&gsfn=3DEdwin&gsfn_x=3DXO&gsln=3DHowell&=
+gsln_x=3DXO&mswpn__ftp=3DIllinois%2c+USA&mswpn=3D16&mswpn_PInfo=3D5-%7c0%7c=
+1652393%7c0%7c2%7c3247%7c16%7c0%7c0%7c0%7c0%7c&mswpn_x=3DXO&pcat=3DROOT_CAT=
+EGORY&h=3D14812479&db=3D1920usfedcen&indiv=3D1&ml_rpos=3D10
+>>>>
+>>>>
+>>>> http://search.ancestry.com/cgi-bin/sse.dll?db=3D1930usfedcen&h=3D83783=
+432&indiv=3Dtry&o_vc=3DRecord:OtherRecord&rhSource=3D6061
+>>>>
+>>>> Her fraternal grandfather's drat card also lists him as born in the US=
+A.
+>>>>
+>>>>
+>>>> http://interactive.ancestry.com/6482/005247384_03254/9562743?backurl=
+=3Dhttp%3a%2f%2fsearch.ancestry.com%2f%2fcgi-bin%2fsse.dll%3fdb%3dWW1draft%=
+26h%3d9562743%26indiv%3dtry%26o_vc%3dRecord%3aOtherRecord%26rhSource%3d6061=
+&ssrc=3D&backlabel=3DReturnRecord
+>>>>
+>>>> Any comment? I was going to do a small item on this.
+>>>>
+>>>> --
+>>>> Jesse Lehrich
+>>>> Rapid Response Associate
+>>>> Hillary For America
+>>>> 781-307-2254
+>>>> @JesseLehrich
+>>>>
+>>>> --
+>>>> You received this message because you are subscribed to the Google
+>>>> Groups "HRCRapid" group.
+>>>> To unsubscribe from this group and stop receiving emails from it, send
+>>>> an email to hrcrapid+unsubscribe@googlegroups.com.
+>>>> To post to this group, send email to hrcrapid@googlegroups.com.
+>>>> For more options, visit https://groups.google.com/d/optout.
+>>>>
+>>>
+>>>  --
+>>> You received this message because you are subscribed to the Google
+>>> Groups "HRCRapid" group.
+>>> To unsubscribe from this group and stop receiving emails from it, send
+>>> an email to hrcrapid+unsubscribe@googlegroups.com.
+>>> To post to this group, send email to hrcrapid@googlegroups.com.
+>>> For more options, visit https://groups.google.com/d/optout.
+>>>
+>>
+>>  --
+>> You received this message because you are subscribed to the Google Group=
+s
+>> "HRCRapid" group.
+>> To unsubscribe from this group and stop receiving emails from it, send a=
+n
+>> email to hrcrapid+unsubscribe@googlegroups.com.
+>> To post to this group, send email to hrcrapid@googlegroups.com.
+>> For more options, visit https://groups.google.com/d/optout.
+>>
+>
+>
+>
+> --
+> Tyrone Gayle
+> Regional Communications Desk
+> Hillary For America
+> 904.612.3495
+> @TyroneGayle
+>
+> --
+> You received this message because you are subscribed to the Google Groups
+> "HRCRapid" group.
+> To unsubscribe from this group and stop receiving emails from it, send an
+> email to hrcrapid+unsubscribe@googlegroups.com.
+> To post to this group, send email to hrcrapid@googlegroups.com.
+> For more options, visit https://groups.google.com/d/optout.
+>
+
+--=20
+You received this message because you are subscribed to the Google Groups "=
+HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to hrcrapid+unsubscribe@googlegroups.com.
+To post to this group, send email to hrcrapid@googlegroups.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--001a113485c8776fde0513ca324c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">i think i have some documentation with full background tha=
+t someone did for us<div>can pull it but may take me an hour or so</div></d=
+iv><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Wed, Apr 15=
+, 2015 at 5:37 PM, Tyrone Gayle <span dir=3D"ltr">&lt;<a href=3D"mailto:tga=
+yle@hillaryclinton.com" target=3D"_blank">tgayle@hillaryclinton.com</a>&gt;=
+</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .=
+8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">he just r=
+eplied to the Press account:<div><br></div><div><span style=3D"font-size:12=
+.8000001907349px">&quot;Adding that the 1900 census also shows Hannah Jones=
+ as born in PA:=C2=A0</span><a href=3D"http://search.ancestry.com/cgi-bin/s=
+se.dll?db=3D1900usfedcen&amp;h=3D52325628&amp;indiv=3Dtry&amp;o_vc=3DRecord=
+:OtherRecord&amp;rhSource=3D7884" style=3D"font-size:12.8000001907349px" ta=
+rget=3D"_blank">http://search.ancestry.com/cgi-bin/sse.dll?db=3D1900usfedce=
+n&amp;h=3D52325628&amp;indiv=3Dtry&amp;o_vc=3DRecord:OtherRecord&amp;rhSour=
+ce=3D7884</a><div style=3D"font-size:12.8000001907349px"><br></div><div sty=
+le=3D"font-size:12.8000001907349px">Let me know if you have any comment:&qu=
+ot;</div><div style=3D"font-size:12.8000001907349px">- Andrew</div></div></=
+div><div class=3D"gmail_extra"><div><div class=3D"h5"><br><div class=3D"gma=
+il_quote">On Wed, Apr 15, 2015 at 5:33 PM, Monica Huegel <span dir=3D"ltr">=
+&lt;<a href=3D"mailto:mhuegel@hillaryclinton.com" target=3D"_blank">mhuegel=
+@hillaryclinton.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quo=
+te" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"=
+><div dir=3D"ltr">From Irish America&#39;s April/May 2015 issue: <a href=3D=
+"http://irishamerica.com/2015/03/hillary-clintons-celtic-roots/" target=3D"=
+_blank">http://irishamerica.com/2015/03/hillary-clintons-celtic-roots/</a><=
+div><br></div><div><p class=3D"MsoNormal"><b>Hillary=E2=80=99s Welsh Grandm=
+other Was Linked By Genealogists To The Wrong Parents Of Another Girl In Sc=
+ranton, PA.</b>=C2=A0=E2=80=9CMeandering back another generation,=C2=A0<spa=
+n style=3D"background-color:rgb(255,255,0)">I came to realize that other ge=
+nealogists who had researched Hillary Clinton=E2=80=99s ancestry had attach=
+ed her Welsh grandmother, Hannah Jones, to the wrong parents</span>=C2=A0(t=
+wo girls named Hannah Jones were born in Scranton, PA circa 1882-1883 and t=
+hey latched on to the wrong one). I also discovered that Hugh E. Rodham=E2=
+=80=99s parents had eloped. This revelation emerged gradually beginning wit=
+h an oddly worded wedding announcement in a local paper. When I couldn=E2=
+=80=99t find a marriage record in Scranton as anticipated, I scoured newspa=
+pers instead and found a snippet in an August 1902 issue stating that the c=
+ouple had wed in Binghamton, New York a couple of months earlier on Memoria=
+l Day. Now I understood why I hadn=E2=80=99t found the record, but the choi=
+ce of Binghamton revealed even more.=E2=80=9D [Irish America,<a href=3D"htt=
+p://irishamerica.com/2015/03/hillary-clintons-celtic-roots/" target=3D"_bla=
+nk">=C2=A0April-May 2015</a>]</p></div></div><div><div><div class=3D"gmail_=
+extra"><br><div class=3D"gmail_quote">On Wed, Apr 15, 2015 at 5:27 PM, Matt=
+ Ortega <span dir=3D"ltr">&lt;<a href=3D"mailto:mortega@hillaryclinton.com"=
+ target=3D"_blank">mortega@hillaryclinton.com</a>&gt;</span> wrote:<br><blo=
+ckquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #c=
+cc solid;padding-left:1ex"><div dir=3D"ltr">I have an Ancestry login if you=
+ need it.</div><div><div><div class=3D"gmail_extra"><br><div class=3D"gmail=
+_quote">On Wed, Apr 15, 2015 at 5:22 PM, Jesse Lehrich <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:jlehrich@hillaryclinton.com" target=3D"_blank">jlehrich=
+@hillaryclinton.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quo=
+te" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"=
+><div dir=3D"ltr"><span style=3D"color:rgb(80,0,80);font-size:12.8000001907=
+349px">---------- Forwarded message ----------</span><br style=3D"color:rgb=
+(80,0,80);font-size:12.8000001907349px"><span style=3D"color:rgb(80,0,80);f=
+ont-size:12.8000001907349px">From:=C2=A0</span><b class=3D"gmail_sendername=
+" style=3D"color:rgb(80,0,80);font-size:12.8000001907349px">Andrew Kaczynsk=
+i</b><span style=3D"color:rgb(80,0,80);font-size:12.8000001907349px">=C2=A0=
+</span><span dir=3D"ltr" style=3D"color:rgb(80,0,80);font-size:12.800000190=
+7349px">&lt;<a href=3D"mailto:andrew.kaczynski@buzzfeed.com" target=3D"_bla=
+nk">andrew.kaczynski@buzzfeed.com</a>&gt;</span><br style=3D"color:rgb(80,0=
+,80);font-size:12.8000001907349px"><span style=3D"color:rgb(80,0,80);font-s=
+ize:12.8000001907349px">Date: Wed, Apr 15, 2015 at 5:09 PM</span><br style=
+=3D"color:rgb(80,0,80);font-size:12.8000001907349px"><span style=3D"color:r=
+gb(80,0,80);font-size:12.8000001907349px">Subject: Question on Clinton comm=
+ents on her grandparents immigrating here</span><br style=3D"color:rgb(80,0=
+,80);font-size:12.8000001907349px"><span style=3D"color:rgb(80,0,80);font-s=
+ize:12.8000001907349px">To:=C2=A0</span><a href=3D"mailto:jferguson@hillary=
+clinton.com" style=3D"font-size:12.8000001907349px" target=3D"_blank">jferg=
+uson@hillaryclinton.com</a><span style=3D"color:rgb(80,0,80);font-size:12.8=
+000001907349px">,=C2=A0</span><a href=3D"mailto:press@hillaryclinton.com" s=
+tyle=3D"font-size:12.8000001907349px" target=3D"_blank">press@hillaryclinto=
+n.com</a><br style=3D"color:rgb(80,0,80);font-size:12.8000001907349px"><br =
+style=3D"color:rgb(80,0,80);font-size:12.8000001907349px"><br style=3D"colo=
+r:rgb(80,0,80);font-size:12.8000001907349px"><div dir=3D"ltr" style=3D"colo=
+r:rgb(80,0,80);font-size:12.8000001907349px"><div>Hey,</div><div><br></div>=
+<div>I saw Sec. Clinton&#39;s comments on immigration at the Capital City F=
+ruit on immigration where she said, &quot;ya know if we go around this room=
+ there&#39;s a lot of immigrant stories. You know, all my grandparents, ya =
+know, came over here. My grandfather went to work in a mill in Scranton, Pe=
+nnsylvania...&quot; (video attached on that).</div><div><br></div><div>One =
+of my hobbies is doing the ancestry of presidential candidates and from wha=
+t I can tell only one of her grandparents were born overseas. Her fraternal=
+ grandfather Hugh Rodham Sr.=C2=A0</div><div><br></div><div>I know she&#39;=
+s talked about her grandmother immigrating before at an an event last year =
+(17:50).</div><div><br></div><div><a href=3D"https://www.youtube.com/watch?=
+v=3DgtBePkrEr3w&amp;list=3DUUSQoxOTCUydTyTAjcLbmVAQ" target=3D"_blank">http=
+s://www.youtube.com/watch?v=3DgtBePkrEr3w&amp;list=3DUUSQoxOTCUydTyTAjcLbmV=
+AQ</a><br></div><div><br></div><div>&quot;<span style=3D"font-size:12.80000=
+01907349px">She immigrated with her family as a young girl to Scranton and =
+went to work =E2=80=94 very young=E2=80=95in a silk mill, and then she met =
+and married my grandfather, who had also come to this country as a young ma=
+n from the coalmining area in Newcastle, in England.&quot;</span></div><div=
+><br></div><div>Looking at census records it seems only her grandfather was=
+ an immigrant. Coming as a two-year-old boy:</div><div><br></div><div>You n=
+eed an ancestry log in for this (I can give you mine if you need it).</div>=
+<div><br></div><div><a href=3D"http://search.ancestry.com/cgi-bin/sse.dll?n=
+ew=3D1&amp;gsfn=3DHugh&amp;gsln=3DRodham&amp;rank=3D1&amp;gss=3Dangs-g&amp;=
+mswpn__ftp=3DEngland&amp;mswpn=3D3251&amp;mswpn_PInfo=3D3-%7c0%7c0%7c3257%7=
+c3251%7c0%7c0%7c0%7c0%7c0%7c0%7c&amp;msbdy=3D1879&amp;pcat=3DROOT_CATEGORY&=
+amp;h=3D12259921&amp;recoff=3D8+9&amp;db=3Dnypl&amp;indiv=3D1&amp;ml_rp" ta=
+rget=3D"_blank">http://search.ancestry.com/cgi-bin/sse.dll?new=3D1&amp;gsfn=
+=3DHugh&amp;gsln=3DRodham&amp;rank=3D1&amp;gss=3Dangs-g&amp;mswpn__ftp=3DEn=
+gland&amp;mswpn=3D3251&amp;mswpn_PInfo=3D3-%7c0%7c0%7c3257%7c3251%7c0%7c0%7=
+c0%7c0%7c0%7c0%7c&amp;msbdy=3D1879&amp;pcat=3DROOT_CATEGORY&amp;h=3D1225992=
+1&amp;recoff=3D8+9&amp;db=3Dnypl&amp;indiv=3D1&amp;ml_rp</a><br></div><div>=
+<br></div><div>While Hannah Rodham is listed as PA born on the 1910, 1920, =
+and 1930 census records:</div><div><br></div><div><a href=3D"http://search.=
+ancestry.com/cgi-bin/sse.dll?db=3D1910USCenIndex&amp;indiv=3Dtry&amp;h=3D11=
+8913101&amp;requr=3D2533274790690816&amp;ur=3D0" target=3D"_blank">http://s=
+earch.ancestry.com/cgi-bin/sse.dll?db=3D1910USCenIndex&amp;indiv=3Dtry&amp;=
+h=3D118913101&amp;requr=3D2533274790690816&amp;ur=3D0</a><br></div><div><br=
+></div><div><a href=3D"http://search.ancestry.com/cgi-bin/sse.dll?db=3D1920=
+usfedcen&amp;h=3D33928489&amp;indiv=3Dtry&amp;o_vc=3DRecord:OtherRecord&amp=
+;rhSource=3D7884" target=3D"_blank">http://search.ancestry.com/cgi-bin/sse.=
+dll?db=3D1920usfedcen&amp;h=3D33928489&amp;indiv=3Dtry&amp;o_vc=3DRecord:Ot=
+herRecord&amp;rhSource=3D7884</a><br></div><div><br></div><div><a href=3D"h=
+ttp://search.ancestry.com/cgi-bin/sse.dll?db=3D1930usfedcen&amp;h=3D5216207=
+7&amp;indiv=3Dtry&amp;o_vc=3DRecord:OtherRecord&amp;rhSource=3D6061" target=
+=3D"_blank">http://search.ancestry.com/cgi-bin/sse.dll?db=3D1930usfedcen&am=
+p;h=3D52162077&amp;indiv=3Dtry&amp;o_vc=3DRecord:OtherRecord&amp;rhSource=
+=3D6061</a><br></div><div><br></div><div><br></div><div>Her fraternal grand=
+parents are also both listed as born in Illinois on the 1920 and 1930 censu=
+s:</div><div><br></div><div><a href=3D"http://search.ancestry.com/cgi-bin/s=
+se.dll?MS_AdvCB=3D1&amp;rank=3D1&amp;new=3D1&amp;MSAV=3D-1&amp;msT=3D1&amp;=
+gss=3Dangs-g&amp;gsfn=3DEdwin&amp;gsfn_x=3DXO&amp;gsln=3DHowell&amp;gsln_x=
+=3DXO&amp;mswpn__ftp=3DIllinois%2c+USA&amp;mswpn=3D16&amp;mswpn_PInfo=3D5-%=
+7c0%7c1652393%7c0%7c2%7c3247%7c16%7c0%7c0%7c0%7c0%7c&amp;mswpn_x=3DXO&amp;p=
+cat=3DROOT_CATEGORY&amp;h=3D14812479&amp;db=3D1920usfedcen&amp;indiv=3D1&am=
+p;ml_rpos=3D10" target=3D"_blank">http://search.ancestry.com/cgi-bin/sse.dl=
+l?MS_AdvCB=3D1&amp;rank=3D1&amp;new=3D1&amp;MSAV=3D-1&amp;msT=3D1&amp;gss=
+=3Dangs-g&amp;gsfn=3DEdwin&amp;gsfn_x=3DXO&amp;gsln=3DHowell&amp;gsln_x=3DX=
+O&amp;mswpn__ftp=3DIllinois%2c+USA&amp;mswpn=3D16&amp;mswpn_PInfo=3D5-%7c0%=
+7c1652393%7c0%7c2%7c3247%7c16%7c0%7c0%7c0%7c0%7c&amp;mswpn_x=3DXO&amp;pcat=
+=3DROOT_CATEGORY&amp;h=3D14812479&amp;db=3D1920usfedcen&amp;indiv=3D1&amp;m=
+l_rpos=3D10</a><br></div><div><br></div><div><a href=3D"http://search.ances=
+try.com/cgi-bin/sse.dll?db=3D1930usfedcen&amp;h=3D83783432&amp;indiv=3Dtry&=
+amp;o_vc=3DRecord:OtherRecord&amp;rhSource=3D6061" target=3D"_blank">http:/=
+/search.ancestry.com/cgi-bin/sse.dll?db=3D1930usfedcen&amp;h=3D83783432&amp=
+;indiv=3Dtry&amp;o_vc=3DRecord:OtherRecord&amp;rhSource=3D6061</a><br></div=
+><div><br></div><div>Her fraternal grandfather&#39;s drat card also lists h=
+im as born in the USA.</div><div><br></div><div><a href=3D"http://interacti=
+ve.ancestry.com/6482/005247384_03254/9562743?backurl=3Dhttp%3a%2f%2fsearch.=
+ancestry.com%2f%2fcgi-bin%2fsse.dll%3fdb%3dWW1draft%26h%3d9562743%26indiv%3=
+dtry%26o_vc%3dRecord%3aOtherRecord%26rhSource%3d6061&amp;ssrc=3D&amp;backla=
+bel=3DReturnRecord" target=3D"_blank">http://interactive.ancestry.com/6482/=
+005247384_03254/9562743?backurl=3Dhttp%3a%2f%2fsearch.ancestry.com%2f%2fcgi=
+-bin%2fsse.dll%3fdb%3dWW1draft%26h%3d9562743%26indiv%3dtry%26o_vc%3dRecord%=
+3aOtherRecord%26rhSource%3d6061&amp;ssrc=3D&amp;backlabel=3DReturnRecord</a=
+><br></div><div><br></div><div>Any comment? I was going to do a small item =
+on this.=C2=A0</div></div><span><font color=3D"#888888"><div><br></div>-- <=
+br><div><div dir=3D"ltr">Jesse Lehrich<div>Rapid Response Associate</div><d=
+iv>Hillary For America</div><div><a href=3D"tel:781-307-2254" value=3D"+178=
+13072254" target=3D"_blank">781-307-2254</a></div><div>@JesseLehrich</div><=
+/div></div>
+</font></span></div><span><font color=3D"#888888">
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"=
+_blank">hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">hrcrapid@googlegroups.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">https://groups.google.com/d/optout</a>.<br>
+</font></span></blockquote></div><br></div>
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"=
+_blank">hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">hrcrapid@googlegroups.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">https://groups.google.com/d/optout</a>.<br>
+</div></div></blockquote></div><br></div>
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"=
+_blank">hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">hrcrapid@googlegroups.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">https://groups.google.com/d/optout</a>.<br>
+</div></div></blockquote></div><br><br clear=3D"all"><div><br></div></div><=
+/div><span class=3D"HOEnZb"><font color=3D"#888888">-- <br><div><div dir=3D=
+"ltr"><span style=3D"font-size:12.8000001907349px"><font color=3D"#0000ff">=
+Tyrone Gayle</font></span><div style=3D"font-size:12.8000001907349px"><span=
+ style=3D"font-size:12.8000001907349px"><font color=3D"#0000ff">Regional Co=
+mmunications Desk</font></span></div><div style=3D"font-size:12.80000019073=
+49px"><font color=3D"#0000ff"><span style=3D"font-size:12.8000001907349px">=
+Hillary For America</span><br></font></div><div style=3D"font-size:12.80000=
+01907349px"><span style=3D"font-size:12.8000001907349px"><font color=3D"#00=
+00ff"><a href=3D"tel:904.612.3495" value=3D"+19046123495" target=3D"_blank"=
+>904.612.3495</a></font></span></div><div style=3D"font-size:12.80000019073=
+49px"><span style=3D"font-size:12.8000001907349px"><font color=3D"#0000ff">=
+@TyroneGayle</font></span><br></div></div></div>
+</font></span></div><div class=3D"HOEnZb"><div class=3D"h5">
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"=
+_blank">hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">hrcrapid@googlegroups.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">https://groups.google.com/d/optout</a>.<br>
+</div></div></blockquote></div><br></div>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com">hrcrapid+u=
+nsubscribe@googlegroups.com</a>.<br />
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com">hrcrapid@googlegroups.com</a>.<br />
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br />
+
+--001a113485c8776fde0513ca324c--

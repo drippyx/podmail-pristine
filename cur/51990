@@ -1,0 +1,953 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp564612lfb;
+        Sat, 19 Mar 2016 15:27:47 -0700 (PDT)
+X-Received: by 10.66.248.198 with SMTP id yo6mr33629746pac.54.1458426466918;
+        Sat, 19 Mar 2016 15:27:46 -0700 (PDT)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bon0093.outbound.protection.outlook.com. [157.56.111.93])
+        by mx.google.com with ESMTPS id b8si9282624pfd.34.2016.03.19.15.27.46
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sat, 19 Mar 2016 15:27:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.93 as permitted sender) client-ip=157.56.111.93;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.93 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=pass header.i=@gulaw.onmicrosoft.com;
+       dkim=neutral (body hash did not verify) header.i=@endcitizensunited.org
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gulaw.onmicrosoft.com;
+ s=selector1-law-georgetown-edu;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=YfgG+1Krj09FGVzUp+3wmXDRwrHWcyNLgCTwnTOLBW4=;
+ b=wGFS8g/E/0uk7nfxraE3W3rmAnYBrawF/+mVycnpj8wiU2wOwQJ6dekUjbliP0IuHSu1BH7O0BTjI8ot3I24NTxeWFMvOMt1KwTSZGmQqGzwwcFmsJ1DIWgigBTTKNiaHlJ2o1HNnmFxtJp6ZlHNJM6Lvw9kXH9TJHZHZdXmXKI=
+Received: from BN1PR07CA0066.namprd07.prod.outlook.com (10.255.193.41) by
+ BLUPR07MB659.namprd07.prod.outlook.com (10.141.208.147) with Microsoft SMTP
+ Server (TLS) id 15.1.434.16; Sat, 19 Mar 2016 22:27:43 +0000
+Received: from BN1AFFO11FD019.protection.gbl (2a01:111:f400:7c10::154) by
+ BN1PR07CA0066.outlook.office365.com (2a01:111:e400:45::41) with Microsoft
+ SMTP Server (TLS) id 15.1.443.12 via Frontend Transport; Sat, 19 Mar 2016
+ 22:27:43 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=endcitizensunited.org;gmail.com; dmarc=none action=none
+ header.from=endcitizensunited.org;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.74;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ BN1AFFO11FD019.mail.protection.outlook.com (10.58.52.79) with Microsoft SMTP
+ Server (TLS) id 15.1.443.6 via Frontend Transport; Sat, 19 Mar 2016 22:27:42
+ +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (141.161.191.14)
+ by LAW-CAS1.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.279.2; Sat, 19 Mar 2016 18:24:41 -0400
+Received: from BLUPR07CA073.namprd07.prod.outlook.com (10.160.24.28) by
+ SN1PR0701MB1792.namprd07.prod.outlook.com (10.162.100.146) with Microsoft
+ SMTP Server (TLS) id 15.1.434.16; Sat, 19 Mar 2016 22:24:35 +0000
+Received: from BN1AFFO11FD036.protection.gbl (2a01:111:f400:7c10::155) by
+ BLUPR07CA073.outlook.office365.com (2a01:111:e400:8ae::28) with Microsoft
+ SMTP Server (TLS) id 15.1.443.12 via Frontend Transport; Sat, 19 Mar 2016
+ 22:24:35 +0000
+Authentication-Results: spf=pass (sender IP is 69.25.74.172)
+ smtp.mailfrom=bounce.bluestatedigital.com; law.georgetown.edu; dkim=pass
+ (signature was verified) header.d=endcitizensunited.org;law.georgetown.edu;
+ dmarc=bestguesspass action=none header.from=endcitizensunited.org;
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.bluestatedigital.com designates 69.25.74.172 as permitted sender)
+ receiver=protection.outlook.com; client-ip=69.25.74.172;
+ helo=mta-dock-front-1.bluestatedigital.com;
+Received: from mta-dock-front-1.bluestatedigital.com (69.25.74.172) by
+ BN1AFFO11FD036.mail.protection.outlook.com (10.58.52.240) with Microsoft SMTP
+ Server (TLS) id 15.1.443.6 via Frontend Transport; Sat, 19 Mar 2016 22:24:35
+ +0000
+Received: from bounce.bluestatedigital.com (unknown [10.0.200.60])	by
+ mta-dock-front-1.bluestatedigital.com (Postfix) with ESMTP id 3qSGq65xsVzyP3
+	for <podesta@law.georgetown.edu>; Sat, 19 Mar 2016 22:24:34 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=endcitizensunited.org; s=endcitizensunitedkey; t=1458426274;
+	bh=ZW7e/cIHa5Y1SNhOqbAbVjwFjDqkytz8m6pTA5joHhs=;
+	h=Date:To:From:Reply-to:Subject:List-Unsubscribe;
+	b=jgRQpIXooAY9nQdMZWua4dGDioII2vUTGoOJPnOLDjBhOV/cBfXBPk7c7shMgcRWD
+	 VTu9JhTZKWBO5/8WKVjT5epPv4UUc+0nMHwbScQ5lFWqDY4kHWYo63mz0iAF4DQUjq
+	 l/DHVI84+EuOwfKRYonhfuGgdMj67/Lyar/KFU8o=
+Received: from phpmailer 	by bounce.bluestatedigital.com with local
+ (PHPMailer);	Sat, 19 Mar 2016 22:24:34 +0000
+Date: Sat, 19 Mar 2016 22:24:34 +0000
+To: John Podesta <podesta@law.georgetown.edu>
+From: "MEMBER STATUS (via EndCitizensUnited.org)"
+	<admin@endcitizensunited.org>
+Reply-To: <admin@endcitizensunited.org>
+Subject: can this be right John?
+Message-ID: <ce64a590494de9f1d74af44491419dfd@bounce.bluestatedigital.com>
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 69e2ad5034b52992
+X-rpcampaign: rp_166197
+X-maillist-guid: AAtSVgoQD0FsBQlQAwRXVFMKBFABBVwKUDBCDFJRRhAEJVpUFEoBUQpBV1BFCkQPTVxURz0CVQdW
+List-Unsubscribe: <http://act.endcitizensunited.org/unsubscribe?email=podesta%40law.georgetown.edu>, <mailto:AAtSVgoQD0FsBQlQAwRXVFMKBFABBVwKUDBCDFJRRhAEJVpUFEoBUQpBV1BFCkQPTVxURz0CVQdW@bounce.bluestatedigital.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_ce64a590494de9f1d74af44491419dfd"
+Return-Path: podesta@law.georgetown.edu
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CIP:69.25.74.172;IPV:NLI;CTRY:US;EFV:NLI;SRV:BULK;SFV:SPM;SFS:(31640200002)(2980300002)(438002)(359002)(286005)(349012);DIR:INB;SFP:;SCL:9;SRVR:SN1PR0701MB1792;H:mta-dock-front-1.bluestatedigital.com;FPR:;SPF:Pass;MLV:ovr;MX:1;A:1;PTR:mta-dock-front-1.bluestatedigital.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD036;1:2g9IpcyKFYktEd9fJOMILlUAqUSTFy67SrgUBkCNKIvcrsdGUfip1pjaTRY46g/i9w8zRapSuLqPW36qYn2TI96a7dEqc51A+cDC1J2k2DE0LpMF753ka8R5Tadc3LDrsafly2g0WkX6RUjjEGbaU61LbJM5xszSu0Joowqs2MKwziiIypHoWh+p4hwroDR89OIRqTBZ+x14yHXjc847iTEt2DOo+PnzhjR7EOsKBkKnoT46mIBbz9YoWQ2Mogsig0zm6kMdv5lmhQ5/rKUTujXHTApOg6n4ME7rhBq/CZJxBlgqjsEr76WsA+oA43fjilVfUz8U/38ljbt/I2s8BwnR1D/9ycmj/QvjSwCkvk3fTjcJTjYqTsAGn/fp8N4oQRfQvOchU3WMkfj19dvbe8st+xqHHiIZenaFi8gngcsD0L87PGhB4mN/rd1CUO8AQhFfkeSldhZyqVwtnXZSfAEzWx0bE6OkMclmWsZS32Y=
+X-MS-Office365-Filtering-Correlation-Id: 0ea70973-d2ce-46c7-a685-08d35045b030
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;SN1PR0701MB1792;2:Y9noZ4GRRBxD65d0VR64e44UisBcAfFq3lMmftjQRCiOu1QMLxbG29WauY2tPa2v0X07cWBjr4jTg88lyfe9ogJ8cTe59+AhUbq4MHWEC+rcxEWirMWomRsXZbUc/GMYwt2g/sU4RlRG5F/luEu1l6Svv4njf9QJ7i65hcVil1UuxQnMwOiYyuCcwJZM9HXI;3:dWz9DuNz//dGluzai8gwnazZlod7rsdlBot8m4LuK9VFDxFkNb507vHVd4tWAxC14lcyJD3gLx5RPLlJDNTN2vhXbnWPk1fTC8/1oaW+oZ/I5buUnWRe8tJCKTnew3qujjxlPMeinFzRa/YrXn3uIsWsc3ytLPIP0E9ggduY0o+d00fuPyyvNtdRaXrhE0J+q7DgFzDx4nG/8ZJB98a5LAw+h+kbEPGbJMxC2nFCUSCtgHig/0NKfqWZvhe+3U8E4l5euT040KJYh764dT6ASUmiQif13GRvrtC8yIobmrCPVuCKpDVUSPha+1ZHTQ5ImzHlV37QvVNmKfsWKBwLpMMu9z0jlhjAs3T6Mce2xmX5aBaXflJRPFkihhlHzCtf
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(421252002)(240002)(8251501002)(3001016)(116002)(71701004)(71702002);SRVR:SN1PR0701MB1792;
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;SN1PR0701MB1792;25:VWvIJxdDU2J2J1u6LyVmCLT7gSj3BaD7o4ghVFC?=
+ =?us-ascii?Q?RgzUBx/2dWocb6cMCAH0aixrUZqnoNeRg4Ugs79+GIWjj4bUnaEXs4SJsuAh?=
+ =?us-ascii?Q?AD3U10zvML1TJZPgbQAq8rDN6wBxmOEzBCmG86QNSxDI2A+2Tso627CpZtDt?=
+ =?us-ascii?Q?wFR4BMxcO4MpsuKkNSdHOdFIMVlCf3f3wn6lxgcSmJC5EJkNbEvyR1PmkLVi?=
+ =?us-ascii?Q?W1V43xhEtyB4FTdmrDxmWDULanYJi8yExNPoIXd0K76uMcEZVV2MhKDBS3JB?=
+ =?us-ascii?Q?xDTZQfHMA3pkGeM4hwH4lnXl6PlSwl2JkC9JA0ch68LfsP3SApPxvkm7f17J?=
+ =?us-ascii?Q?V5SaDPkSSUPyXnfbGets07t39b/7fFegysWBDtnxYfI4r53VWE0IZ+Co4gft?=
+ =?us-ascii?Q?8GegHdsTP6r9oSNgGaD+1qCVbWMrj4CmqJhon9/E/VXIqBVM9o9b8Sc0bTtz?=
+ =?us-ascii?Q?HXXW8qnLl3x0ps3Q5W5GVp0DWXsZIn5tseTEfdT5qBN3FBvh1Y9eqwSkgtFO?=
+ =?us-ascii?Q?ZnrFEqzkMl0iOwehd2O07Pw065xYd88QFxJo2dKYbl1pwnngC4W1QEJg7bIG?=
+ =?us-ascii?Q?2RI2q9xCssAHABHk3HWhK5kvHeAUyJMCZshom+Q7z3zo+TkpRLLX8Db5jg+x?=
+ =?us-ascii?Q?3ZohXwb0Zg5KpWjuC9Eph3L/PhS9sr/ayDmTpMsDuLg8gZn3jz25b5EY0JGU?=
+ =?us-ascii?Q?kdLT/TojhE1kE5FR1rAaQublNPkFVpz474XY/cajh8l9Z/24qApSM8i4iuDQ?=
+ =?us-ascii?Q?AoHihMrXSAC8zAxLA1UywhB27omGCTGstvZnMn854MyAUEqKTlcd4AFzf/Ib?=
+ =?us-ascii?Q?3jVxIspuJ/aIWirqA26IKp5F2r4Ug4xM6ImYFV67dES4hikgCGBckrOBZ5hj?=
+ =?us-ascii?Q?Ffq2tJBH9J36RewoytNHSVvFrsAwNXLkE2uLe9N0sQELRvJoPcwlOOgB9Izc?=
+ =?us-ascii?Q?FjrZpnXkAXPTtehkqpwZ7FIl8/AFNdjcWLJ6DtNb8yxPEdAzM7Tr46ekUY4Q?=
+ =?us-ascii?Q?kiFbkH2wJAlY8wmT0O4R/AXEReYuCTKM7CminTAae2FQ8gw=3D=3D?=
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;SN1PR0701MB1792;20:RHVTSk6n39H/2d23ZLZXBVzybVAy7RDkH1Mg/1pcaH1/LA9sCxvtKFypcl+crHyQ5Zs3EARcX0/eybIhwK/a2P/sVkvqf7HF91PfjNs2iv/54+4PgAerkYuUIQ/nNwCau65qYFj6c4nlLITqa44Xsr6UkEsUS/qgwppyklgvFlmTAei81c/iMDVQfb3H9+SS/FtQ7J5VIHKXbkwDw0/cJdZRq8QF/EHCOCIhP7P4M2kfLCoi6NNbEYu1F1wSGdjwLWhG3dHeKFBIlcDOgzU4jjrfMIYUzYRVTRRT+OgEW0YfBxuJM4RpnlI3oAdoskESrw82ZZNqZNqCeUSWSLA4ggsMS9FCNgRnoRDFBZiK6d3KL53eQj9nFeJQRm3MtBPNXpuy0iBwazKNDuWSGO//gRMg2ZbhqfLjfzX5NOlrmQI=;4:7zrXIABc+xP5/Wyh+2WD7sPavCPNdUuqD0Wee23DZ3yFEk2mfCoHKuDGPaQQ3MrjHQe7YLa06n/02YMV+O/beEJo1q1fxdAsmcmBmmUR5ojAzWMA5C7KwIxoQvVCLsBwIv5cYkZNNOxi/b5/GVYRaYKT3AHlev2Tw1KKIcddiH896mIIPQ5a4dGdYGxyax4iip+z3fcnIeKt7X1CZXAGMDD6yhO7YytZ/UOqe6JcPu/PMWTBgvazGU9Eclbg6WYv4gdZQRHi9PJb7ybo4eo7J8SbaK/8FeFZXEm9pxWwJCRepEj3gOgunri+COO3ywNss+X9PpfpimLDGb4yGPJs3hWtUzukg2UUzvw44ZYjzEUNfYO7rxVyTo+NF0gYTfjR9DHv3PqRqB6bz4tki6srgFUGqp9z2UFv89sNjZdujZ4=
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(5010005)(5011007)(13016025)(13018025)(8121501046)(10201501046)(3002001);SRVR:SN1PR0701MB1792;BCL:8;PCL:0;RULEID:;SRVR:SN1PR0701MB1792;BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(13016025)(13018025)(8121501046)(3002001)(10201501046);SRVR:BLUPR07MB659;BCL:0;PCL:0;RULEID:;SRVR:BLUPR07MB659;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;SN1PR0701MB1792;23:aHzhUJv6s6OEH/FJVImzRKHi/L/ddu7mrn5x2gSa1rXSqUh1vlEIJrrj7Gac9LTfOGyKD+pRdjXMVnT70CylTWeohJ5OQCbwZf8YIsAzm8VHEfNbCczp83w3duPT7pq60OFWghfA7KbTueAJ1XbMG6hywoxjJii4wmj42LOyex05hfrfKyiI1bXleHqA8hYx+gs3B256KGbBY84MtMaZ3ZlyhudTKCafg7DRT8XR4NXN8ftP+tSmaGxsGkUxN8CkYuL0BGcivI1NRWIv/OEOGipL758/PVbuo9qQNF5HWxjAmJ+e4prQVqbLWv/qHXL/OXSdQ/Jt5P2FUfd/1n2ZUw==;5:qqzcsBC43pGLg14nbHWji+1aoXbJCaPUd4ffON4q4zonSNLC88gfsehst2aVMvcWWkvGgSl4tZ9wWfcUBneZ36g8UPSApINpDQHgV50K74kRSztQ0IK0+/Yfc4lKBdo0w4mI1i3BIHqaMsws5ijADw==;24:zxVEy7JHjIk6vaq6Cv18JrL5dnUMXgNzywRUaLZP2qpPq6Silx6MJ/wuCDzAa+iwekrqqEiwIJX9iYEPuQkK7g==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1PR0701MB1792
+X-OrganizationHeadersPreserved: SN1PR0701MB1792.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS1.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD019.protection.gbl
+X-Forefront-Antispam-Report:
+	=?us-ascii?Q?CIP:141.161.191.74;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(100?=
+ =?us-ascii?Q?09020)(2980300002)(1109001)(1110001)(339900001)(36882002)(19?=
+ =?us-ascii?Q?9003)(189002)(19618635001)(1720100001)(2171001)(87936001)(95?=
+ =?us-ascii?Q?6001)(11100500001)(57986006)(89996002)(4290100001)(450100001?=
+ =?us-ascii?Q?)(19617315012)(19627405001)(88552002)(229853001)(18206015028?=
+ =?us-ascii?Q?)(4001450100002)(5180700001)(19630485002)(345774005)(8116600?=
+ =?us-ascii?Q?5)(3820100002)(2906002)(105606002)(15187005004)(19580395003)?=
+ =?us-ascii?Q?(19580405001)(960300001)(50986999)(3450700001)(84326002)(106?=
+ =?us-ascii?Q?466001)(85426001)(47976999)(53806999)(108616004)(23466002)(1?=
+ =?us-ascii?Q?89998001)(75432002)(107886002)(110136002)(512874002)(1660107?=
+ =?us-ascii?Q?5003)(5002220100002)(18926415007)(46656002)(15975445007)(336?=
+ =?us-ascii?Q?46002)(50226001)(1096002)(19625215002)(6806005)(24736003)(43?=
+ =?us-ascii?Q?066003)(1220700001)(146001)(5008740100001)(19625735002)(5860?=
+ =?us-ascii?Q?03)(7029014)(7099028)(95576001)(35244002)(105616011)(1100960?=
+ =?us-ascii?Q?11)(42882005)(17308445002)(110126006)(110146012);DIR:OUT;SFP?=
+ =?us-ascii?Q?:1101;SCL:1;SRVR:BLUPR07MB659;H:mail.law.georgetown.edu;FPR:?=
+ =?us-ascii?Q?;SPF:Fail;MLV:nov;A:1;MX:1;PTR:InfoDomainNonexistent;LANG:en?=
+ =?us-ascii?Q?;?=
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD019;1:q/Y6dsEgGqMTUzwA0DUoreLgdhASSZBnGdsTCT5SnaPdGSD7zJEbF9K8++5fXLk7axS0N2cOgmyFWmdkfcD42ARyWyBBOU0epe61Q/DRodFK19Yogv3y6rNW18m0qiRWp9U130mMPdlcgFNAcIgoeK/OPMUJ/QoVH69dvvHoVSDYhlD9D6LBdKHMxOoMv+vyRWBqqla5Wn9JuZhdavezOKzESP8GwlaUiTLrSzRBNNTlIqNmnXv12Tuj4gCopH0nwSuPyikMyVtg7A/A5aKf3z9y8JnhA362ckzxt26InnG8R2VV8Z7WR2Ihz3WMSnB4bhE3oWrL19ZjlvbydN4cqV74B8ALD6hkki3k8MwYts/Ax5IBYmr1m78V3b6qyn/+eBNlye21MOQid5HhA/PqYTOT1HcP+9cTIHVbxJHqWXo0eIRnDFzwylXCpVxb/iGF
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB659;2:FqRLk6DJjKXEw/LCHGBll+y9JdRQXgz8iBiMt8h8ZXklDHAmHK3+zHHdYQ6DFboDzDZUKY7VtBN/TQ/vfNNhJxOulmQ5KWqPRA1b34SEpzxkOo8Js15G+Nwyxwg0YXWRCLrOq9yiB7Q3tKHJe6eL5f/K+ypEMx+iUb2D+OX5MgJvB4MyF5HZ35JR4qOICyyf;3:xTa/jTxlMI3zRbBdAoWNWoUSNGGgS3iW6MU0tXEXFQ6Z38W9TyKOab5liZXHWU4hPf/2urtJSaYxEIepKnrgtQakHguwOdrZQUARODELdG+xuBlEBnXDo4ERXE3X49lo7CBKcYQTXXtubeoANaQ3C5E+NzNzuWOTgAyHC6l04LLukFC1lre3fjUFwTPFnWnhNAgen8XtmvdNrsCine6IF1C43YzSrTigRTQ4n9Sax+3myeoLOMEsycwyXnkljbO7AhCZRS8dbgPSarfpRbc/Ug==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(421252002)(3002016);SRVR:BLUPR07MB659;
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BLUPR07MB659;25:qcwiQcAdLeVTumF/FUdBqZQGdJqDuVkcjrzkTgtQFm?=
+ =?us-ascii?Q?QHeLmhW6TOCRL5pyhk7txXp/WTXPbIeycumgeKFJbzeQo9Q+DQcGWucivHv5?=
+ =?us-ascii?Q?m2ptaX8kqr6tLkisf/jZuoBZ0RBhH5tzYTSTmo/f1PWIrzyvYRROZ1zwzQ0u?=
+ =?us-ascii?Q?Zkz8ZBvngAGDp8Czfj/Agdl/4H/tPLPbLWilM5WUto49fUeFI6osUQnGjEH7?=
+ =?us-ascii?Q?vRQXPuBOI6RrZhY82Emvm4G35sIQA7gsksqt1iV7LVL0OUF0+JiSwd/23jTs?=
+ =?us-ascii?Q?pxZTf28ZMJzeX4t0L96/nwoveOGE5OjpCX27r+0yQJAhE+Qkdz11gDsMkWFf?=
+ =?us-ascii?Q?K9IEkwmXubbkz5EZ40WRzrmcKHHrgMBDSsl7AqeBeOaKdfvVjECFYwPcIyMN?=
+ =?us-ascii?Q?9cJDA3kSqnQkObqyOoyymiCROR/KgvTjbXUp44OKNz7JxUyAAbSfojPtVK33?=
+ =?us-ascii?Q?ZnhwmS2IgmIhmHHLyIu6x4OTg6xzIU05RwttWqwIM3sS7MHLyi71z2cwWbpW?=
+ =?us-ascii?Q?Y4aFYRtCMOvH0q0Vc6E/VHWC1k5ylf1WXzs/pV8Y/EhWSPGTpjVg9CPip/Ok?=
+ =?us-ascii?Q?WJku9lNAOTgwWxCvZ8qZkLb2a3WoAwjASUbD7p9OOQ8+AQUnptbYjTfmyRDR?=
+ =?us-ascii?Q?MdA5tCr8LRF/URFkQelF46g+hLVeTAjX9oDf/EP/nqVdikUZ03kbmbOhQPoE?=
+ =?us-ascii?Q?dBraNY0MBfuL0cCcLKy63wlsfsi9nkZjJteESTuy+SbNma/UO3207cI5dih9?=
+ =?us-ascii?Q?a99TPw0bm95u6vmCCZMbmgRCl3pBFh7eGE1MCRhvK23KZDTG+rg5Ybhqvf0b?=
+ =?us-ascii?Q?DwtCGjZT7hBgKQ/T2y5I6B2uhFcYjwTd5O/eBJTeOooLTeyzuYvxDin574ou?=
+ =?us-ascii?Q?paoJLigwf53JnaaLF61/W1M6RJxs/9ttlGRMk57LWrH5Pv7nyKhrv9X3A5gK?=
+ =?us-ascii?Q?COLvQ8CNkfqceOh4OSDPUOFZcxadHpYFQ4ZnwoWoVuG4QzaDSKRezsu58Z8D?=
+ =?us-ascii?Q?4=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB659;20:MxEGxOx9EwwAB9NeCVbWCi34teVAwsw6vZERLcee5ig2N4Vy8G3rbsNZwXt8/aB4iR58l1hZHLwqv7zVyEkDfBUrBm9QP56D+N1znspzczSMBXyHweTLCs4pggMAoMxTDjmSL9DgnMIp2aFI2B+APlAY4njM6KlIKFdKy1OU4GffbE41u9zGawVpWJU9kGlysEjJjof87jk0FDklsy/rcvRHvgc3iWHuV2poe6R7HZ1R3ksgSAF5iBOGXAaRfg2IroFwItmdv9UiK7pWZA+ku4qS27J0YbyH6S8Nm3C6UKd8eDzUdA/fLwKYLLawRa6uJBo+uHRSSjBez+aM4+MRpyx/Sqwo14V7nlQK3rz7YTR1+PYwEHQ7iHiZDb9f/BNQC8Ti9ukALW4iOcw7n69DR0Sn9Q+oM3YXcCGnqFxR4L8=;4:DuXreLcQHzg4bqhnpVEpvAeL4UrJtl+ANK5bdAdefKDREIL0LNU+NLr5Zqy9AqmLN1cRDLYSvibkGquweW9UJrdqC4hlEYkAR9wE2PbUeIc+78d/fHrDj7Fz5/KIMcnt5PrSyM7tHqKqp9VLuXy7t2hkXHtDF2Rd4J5AqnegUplaP9oxSil/9Kcg7h5HJqp19oORgWr9lTkEto6HA11VvnFF7p6wyKTxblI2rw9iR0ipdhPK+gW0Uy2hCKX0f+5Gqvon6ps+EjIGs02MwKL5oR6ukHR9sVizZg94sRWx56bfHU3iD3c1YQUdrFYoQsp+Ac7aeORXRes/LkCxRJjIka3c7ANtuOK2KwkGfmZc+bbzbNLRK8EFTIpCLbhTztBGTW5x5lD/S50jYk42sEngzg==
+X-Microsoft-Antispam-PRVS:
+	<BLUPR07MB659F24AF6034425FB5032C4938D0@BLUPR07MB659.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 08864C38AC
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BLUPR07MB659;23:PmcH4ChnxrZR/revqiBVCdmfFS5zaSM+aHZe8IvAPg?=
+ =?us-ascii?Q?IWAyldE5AfX/J/9wjeSWJNYssFjD6QtiDs4CcqBnp67Hs+8bvZBHdHhoznEM?=
+ =?us-ascii?Q?R2evA7QIr25ptP9z8ZXC8TKTZx+GE0uo8ivJa9MN4iaf/+lCKrqDGQGSKYT8?=
+ =?us-ascii?Q?YaLhJ/XfIVL7vU5tTYx08OicC0nr1gILdjCGy1+E5HTJ/rAOGBawJOqVHl/m?=
+ =?us-ascii?Q?06gIZVBT037+78lGuVlmyjgHmqRMkwWUeLp8kzhg0tEsaAvTjfjiBImS+u7X?=
+ =?us-ascii?Q?RsmvRm2hvckTuZvFtmcNqF2HzYzQlMrqmJNuid79bx4iFkQuhUf6icr9VIfG?=
+ =?us-ascii?Q?ysS7JyzL3O3RuwsYfMeGGOxOtzZbTBuC7EVJJAVWtdiODqb9C/xwTjg/mOy0?=
+ =?us-ascii?Q?C85ydQoGppNqNgFm4IRydUhvjBpPzU/8VU39gmRbmUJR1KGF+VGqRHG2WqCj?=
+ =?us-ascii?Q?XZn0iJ23Uj8PoProry90PBZpa5jS3IFsKw3DkdhsTMOX7Rt1Arr8vYAfBUk9?=
+ =?us-ascii?Q?xDbq1qkh6nQN6dYfqfttDKs2VpdiOub6IOngE1O4rW2tvPngpuqtTjkjyI/I?=
+ =?us-ascii?Q?GLsHJj0BPQhx2q0+iFJC1A60bYbbjfVdIpOuhhJFwUMfM1TH02ZV+a2ta1Zp?=
+ =?us-ascii?Q?hG5FogXYKD0iGdtpwhgM3Ojh4BZpZrwzshlWGtp/+kxE2UDhYSHI7uOjL2sq?=
+ =?us-ascii?Q?KPh/ZxYgq5xsopJUDfhvXDBrvrjYEQaXk+r9gEMhRJQ1XzPd7Cmtq5R5VHZc?=
+ =?us-ascii?Q?NfsInr+SYW8MBCZ2GHCxyIciBlpCDw8SChN1NA0YhRzgyX4CxPynazJNWCrG?=
+ =?us-ascii?Q?Tp70l+hExk6NK+lmCclQMnsI4nzhrjaP7u3GPQ56mhsGW0m4tZNbBI1EBXy9?=
+ =?us-ascii?Q?Ikx/r4MiDJRv1GWVU7GjtNNcd2f+xlxayPo2+GagSEVMamInmLtCGjNS5jEJ?=
+ =?us-ascii?Q?H2J06xrMrTRGRYPN+XAVjaU2StdH1KoSZ5yWx8cK82smgFM6XdCTguaQ5jdU?=
+ =?us-ascii?Q?xa8eDIxRqpBEz/5BG0n5bEE+ZiskdIAewNDPYyucQ3U97qK4fKVjbQNkHy7q?=
+ =?us-ascii?Q?SyrY9ceveRdbexelQgdn0KvSYWGT+QD6m8+zdL1gasickV+0FQfWzyaHSRwN?=
+ =?us-ascii?Q?68+C/2NYU848a5Z99M/acKOlE8NdRV5tnergf+xfeDhpcqeW4YipCdYD+SwR?=
+ =?us-ascii?Q?erO0ha3xzX4syA2WUA7fUL+abFCfH8L8LjlKMNC32N7/nVg2mZi+s1r+EP0D?=
+ =?us-ascii?Q?S8yJxJt0oRR4hw65mZLsi5IUjqcMSAZj9yyYyFVaQDRYCP39L3uBSN4Mn7Pb?=
+ =?us-ascii?Q?COnCcr1mxZOfKa92rSIKEiCUinc6IY8VJH797JwJlGpUsA13DY40WrbGro6H?=
+ =?us-ascii?Q?6TeR1Vfb6bjRyiYLRZ7hF1rZRDljpVyoz1Zqc7R1/lWusSMz/ODaHbTeywj2?=
+ =?us-ascii?Q?DY7yazF3ZE4DLxJTMr1GM2rvKxpjNxSU+tcmPrkY33nJj1BiCuZiWh3w7u3E?=
+ =?us-ascii?Q?U6Px/R63f0STpeJNM8VN3EhC2MHoBVOAu1JqnneF2a2FCde7YARBAj4WkjAL?=
+ =?us-ascii?Q?tEp9g4WxDqsdzm3MFLobHNrWGUITQGNYTcYBI9WzQ3iXoisb4X7vJ9DQlFw3?=
+ =?us-ascii?Q?QzKW9f8dn58MHOUFyxPlIcOK9onNeLLX+mEKMOa32JLmSHu+zhrc4R/+dOBI?=
+ =?us-ascii?Q?P19lZe46cApyTvkpOxSce1v2BW6LK6m4V9OLz5TUDRJaqtaUxABYEyMTy9dW?=
+ =?us-ascii?Q?6Av8oRq5b9udTjVLof7iq0iwrloBB5ePLMM9k//xoSXRMwbZHvuBcT781lHS?=
+ =?us-ascii?Q?MZSg/5coMQFYapk5+IMw2DawTMlai8377SGTiuymrzZ1FyJPVSG/JD+OPTOm?=
+ =?us-ascii?Q?T2U9oyjVLE9k69bnYZbHXOERkBe6rkCZIZzqEEQXtdOfy1m8+8zNrEoIM=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB659;5:uvvboDA57NxLeqyAG4OSsSKM3AHJ9WNaQbuVHXaMrDm6qEpxrYK445/uSeUOmx3fuPtDfl5YR2jtEkcrTW5Reos+4mygRgM03wbls8ZCGPqhaCV6LHcMArt9bosVo5l/lAAMr788INj0/PQMtsqpYg==;24:LpA8A2AMvuX9fzdFbFnY5W7P9oHX5pUEe0XWbUvtMEZavCGflDZNAfU+Ia6pCFPgsUkaLqa9yqa+ucTY5RZ8C2HUHUmp7Sn0rQQBHEVQJIY=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Mar 2016 22:27:42.5975
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB659
+
+--b1_ce64a590494de9f1d74af44491419dfd
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Alert! ALERT: No donation on record for John Podesta
+John, we set a hard goal of $1O million to End Citizens United by Monday =
+night. But right now, we're way behind.
+5OO,OOO donations to stop the Koch Brothers!
+493,479 gifts. 98.69% to goal!
+Make no mistake, this is a HUGE moment for our campaign to get big money =
+out of politics.=20
+
+John, we want to be able to say you were with us from the beginning.
+
+But as of XX:XXpm, we don't see any contributions associated with your =
+record.
+
+End Citizens United Record
+JOHN PODESTA2O16 MEMBER: PENDING >>
+http://act.endcitizensunited.org/Donate
+
+We have just a few hours to make this goal.
+
+Chip in $5 or more now to help us hit the mark >>=20
+
+http://act.endcitizensunited.org/Donate
+
+GO GO GO!
+
+-EndCitizensUnited.org
+
+PAID FOR BY END CITIZENS UNITED PAC
+
+http://act.endcitizensunited.org/page/s/less-emails
+
+
+--b1_ce64a590494de9f1d74af44491419dfd
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<?xml encoding=3D"UTF-8"??>
+<html><head><meta content=3D"text/html; charset=3Dutf-8" =
+http-equiv=3D"Content-Type"><meta content=3D"width=3Ddevice-width, =
+initial-scale=3D1.0" name=3D"viewport"><title>End Citizens =
+United</title><style type=3D"text/css">
+	    p, li, ol, ul, table, tr, td {font-size:15px; =
+color:#001022;font-family:verdana,sans-serif}
+	   =20
+		/* Based on The MailChimp Reset INLINE: Yes. */ =20
+        /* Client-specific Styles */
+        #outlook a {padding:0;} /* Force Outlook to provide a "view in =
+browser" menu link. */
+        body{width:100% !important; -webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; margin:0; padding:0;}=20
+        /* Prevent Webkit and Windows Mobile platforms from changing =
+default font sizes.*/=20
+        .ExternalClass {width:100%;} /* Force Hotmail to display emails at =
+full width */ =20
+        .ExternalClass, .ExternalClass p, .ExternalClass span, =
+.ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: =
+normal;}
+        /* Forces Hotmail to display normal line spacing.  More on that: =
+http://www.emailonacid.com/forum/viewthread/43/ */=20
+        #backgroundTable {margin:0; padding:0; width:100% !important; =
+line-height: normal !important;}
+        /* End reset */
+        /* Some sensible defaults for images
+        Bring inline: Yes. */
+        img {outline:none; text-decoration:none; -ms-interpolation-mode: =
+bicubic;}=20
+        a img {border:none;}=20
+        .image_fix {display:block;}
+        /* Yahoo paragraph fix
+        Bring inline: Yes. */
+        p {margin: 1em 0;}
+        /* Hotmail header color reset
+        Bring inline: Yes. */
+        h1, h2, h3, h4, h5, h6 {color: black !important;}
+        /* Outlook 07, 10 Padding issue fix
+        Bring inline: No.*/
+        table td {border-collapse: collapse;}
+        /* Remove spacing around Outlook 07, 10 tables
+        Bring inline: Yes */
+        table { border-collapse:collapse; mso-table-lspace:0pt; =
+mso-table-rspace:0pt; }
+        /* Styling your links has become much simpler with the new Yahoo.  =
+In fact, it falls in line with the main credo of styling in email and make =
+sure to bring your styles inline.  Your link colors will be uniform across =
+clients when brought inline.
+        Bring inline: Yes. */
+        /***************************************************
+        ****************************************************
+        MOBILE TARGETING
+        ****************************************************
+        ***************************************************/
+        @media only screen and (max-device-width: 480px) {
+            /* Part one of controlling phone number linking for mobile. */
+            a[href^=3D"tel"], a[href^=3D"sms"] {
+                        text-decoration: none;
+                        color: blue; /* or whatever your want */
+                        pointer-events: none;
+                        cursor: default;
+                    }
+            .mobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {
+                        text-decoration: default;
+                        pointer-events: auto;
+                        cursor: default;
+                    }
+        }
+        /* More Specific Targeting */
+        @media only screen and (min-device-width: 768px) and =
+(max-device-width: 1024px) {
+        /* You guessed it, ipad (tablets, smaller screens, etc) */
+            /* repeating for the ipad */
+            a[href^=3D"tel"], a[href^=3D"sms"] {
+                        text-decoration: none;
+                        color: blue; /* or whatever your want */
+                        pointer-events: none;
+                        cursor: default;
+                    }
+            .mobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {
+                        text-decoration: default;
+                        pointer-events: auto;
+                        cursor: default;
+                    }
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        /* Put your iPhone 4g styles in here */=20
+        }
+        /* Android targeting */
+        @media only screen and (-webkit-device-pixel-ratio:.75){
+        /* Put CSS for low density (ldpi) Android layouts in here */
+        }
+        @media only screen and (-webkit-device-pixel-ratio:1){
+        /* Put CSS for medium density (mdpi) Android layouts in here */
+        }
+        @media only screen and (-webkit-device-pixel-ratio:1.5){
+        /* Put CSS for high density (hdpi) Android layouts in here */
+        }
+        /* end Android targeting */
+    </style><!-- Targeting Windows Mobile --><!--[if IEMobile 7]>
+    <style type=3D"text/css">
+   =20
+    </style>
+    <![endif]--><!-- ***********************************************
+    ****************************************************
+    END MOBILE TARGETING
+    ****************************************************
+    ************************************************ --><!--[if gte mso =
+9]>
+        <style>
+        /* Target Outlook 2007 and 2010 */
+        </style>
+    <![endif]--></head><body>
+    <!-- Wrapper/Container Table: Use a wrapper table to control the width =
+and the background color consistently of your email. Use this approach =
+instead of setting attributes on the body tag. -->
+    <table style=3D"width:100%;" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" id=3D"backgroundTable"><tbody><!-- START BODY --><tr><td =
+style=3D"padding:4px 10px 10px 10px; font-size:15px; =
+font-family:verdana,sans-serif; color:#001022" width=3D"90%">
+		          =20
+
+
+
+<style type=3D"text/css">
+@media only screen and (max-device-width: 480px) {
+#mobile {width:280px !important;font-size:19px !important;padding: 7px =
+20px 7px 20px !important;}
+}</style><div style=3D"font-size: 1px; color: #ffffff ; display: none =
+!important; mso-hide:all;">
+	-------------------------------------------------------------------------=
+--------------------------------------------------------------------------=
+--------------------------------------------------------------------------=
+--------------------------------------------------------------------------=
+--------------------------------------------------------------------------=
+-----------</div>
+<center>
+	<table cellspacing=3D"0" style=3D"max-width: 680px;"><tbody><tr><td =
+style=3D"max-width: 680px, width: 100%;" valign=3D"center">
+					<center>
+						<center>
+							<table cellspacing=3D"0" style=3D"max-width: 700px;"><tbody><tr><td =
+style=3D"max-width:700px, width: 100%;" valign=3D"center">
+											<center>
+												<table bgcolor=3D"#ffffff" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"background:#FFFFFF; border-collapse: collapse; width: =
+100%"><tbody><tr><td align=3D"center" id=3D"mobile-hide" =
+style=3D"background: #ffffff;padding: 5px 0px 20px 0px;border-bottom:2px =
+solid #c1c1c1">
+																<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80=
+b/6c70c428/95edd56/2eff4a17/1846039444/VEsH/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rl=
+c3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIk=
+pTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIs=
+IkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVk=
+lUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZC=
+TVQxbEZVaVVsIjoiIn0=3D/" title=3D"https://secure.actblue.com/contribute/pa=
+ge/ecu-2016card?refcode=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__n=
+d&amp;recurring=3Dauto&amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,=
+1000&amp;email=3Dpodesta@law.georgetown.edu&amp;firstname=3DJohn&amp;lastn=
+ame=3DPodesta&amp;city=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;pho=
+ne=3D&amp;occupation=3D&amp;employer=3D"><img alt=3D"Alert!" =
+id=3D"mobile-hide" src=3D"https://s.bsd.net/endcitiu/main/page/-/ECU_Blink=
+ing-%21-Circle-2.gif" =
+style=3D"max-width:100%;width:15px;min-width:15px;"></a><span =
+style=3D"font-family:verdana,arial"><strong><span =
+style=3D"font-size:22px;"><a href=3D"http://act.endcitizensunited.org/page=
+/m/62c6e80b/6c70c428/95edd56/2eff4a17/1846039444/VEsE/p/eyJKU1ZGYldGcGJDVW=
+wiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09Ijoi=
+Sm9obiIsIkpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaG=
+luZ3RvbiIsIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAw=
+NSIsIkpTVklUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLC=
+JKU1ZGVFZCTVQxbEZVaVVsIjoiIn0=3D/" style=3D"color: #da2a3f; =
+text-decoration:none" title=3D"https://secure.actblue.com/contribute/page/=
+ecu-2016card?refcode=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&a=
+mp;recurring=3Dauto&amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,100=
+0&amp;email=3Dpodesta@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=
+=3DPodesta&amp;city=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=
+=3D&amp;occupation=3D&amp;employer=3D"><strong> ALERT: No donation on =
+record for John Podesta</strong></a></span></strong></span></td>
+														</tr></tbody></table></center>
+										</td>
+									</tr></tbody></table></center>
+						<center>
+							<p style=3D"font-size:22px; font-family:Verdana, Helvetica, Arial, =
+san-serif;">
+								W<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70c=
+428/95edd56/2eff4a17/1846039444/VEsF/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3RhQGx=
+hdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk1ZW=
+E4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpTVlR=
+WRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMDFGV=
+UVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQxbEZ=
+VaVVsIjoiIn0=3D/" style=3D"color:#000000;text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">e set a hard goal of $1O million to End Citizens =
+United by Monday night. But right now, we're <em>way behind.</em></a></p>
+							<center>
+								<table cellpadding=3D"5" cellspacing=3D"1" =
+style=3D"max-width:600px; border-collapse: collapse; width: =
+100%"><tbody><tr><td align=3D"center" style=3D"background: #252525; =
+padding: 0px 0px 0px 0px;border-top:4px solid #302f2f;border-right:4px =
+solid #302f2f;border-left:4px solid #302f2f">
+												<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c=
+70c428/95edd56/2eff4a17/1846039444/VEsC/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3Rh=
+QGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk=
+1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpT=
+VlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMD=
+FGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQx=
+bEZVaVVsIjoiIn0=3D/" target=3D"_blank" title=3D"https://secure.actblue.com=
+/contribute/page/ecu-2016card?refcode=3DMS_EM_FR_2016.03.19_B3_10-million_=
+X__F1_S1_C1__nd&amp;recurring=3Dauto&amp;amount=3D25&amp;amounts=3D15,25,5=
+0,100,250,500,1000&amp;email=3Dpodesta@law.georgetown.edu&amp;firstname=3D=
+John&amp;lastname=3DPodesta&amp;city=3DWashington&amp;state=3DDC&amp;zip=
+=3D20005&amp;phone=3D&amp;occupation=3D&amp;employer=3D"><img =
+alt=3D"$10,000,000 to stop the Koch Brothers!" src=3D"https://s.bsd.net/en=
+dcitiu/main/page/-/ECU_10MIL-Koch_Counter_v3_9913_01.jpg
+" style=3D"font-family: Verdana, sans-serif; margin: 0; padding: 0; =
+max-width:100%; display: block;color: #ffffff; font-size: 18px; =
+border-style:none; " title=3D""></a></td>
+										</tr><tr><td align=3D"center" style=3D"background: #252525; =
+padding: 0px 0px 0px 0px;border-right:4px solid #302f2f;border-left:4px =
+solid #302f2f;border-bottom:4px solid #302f2f">
+												<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c=
+70c428/95edd56/2eff4a17/1846039444/VEsD/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3Rh=
+QGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk=
+1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpT=
+VlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMD=
+FGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQx=
+bEZVaVVsIjoiIn0=3D/" target=3D"_blank" title=3D"https://secure.actblue.com=
+/contribute/page/ecu-2016card?refcode=3DMS_EM_FR_2016.03.19_B3_10-million_=
+X__F1_S1_C1__nd&amp;recurring=3Dauto&amp;amount=3D25&amp;amounts=3D15,25,5=
+0,100,250,500,1000&amp;email=3Dpodesta@law.georgetown.edu&amp;firstname=3D=
+John&amp;lastname=3DPodesta&amp;city=3DWashington&amp;state=3DDC&amp;zip=
+=3D20005&amp;phone=3D&amp;occupation=3D&amp;employer=3D"><img =
+alt=3D"ALMOST THERE!" src=3D"https://s.bsd.net/endcitiu/main/page/-/ECU_10=
+MIL-Koch_Counter_v3_9913_02.gif" style=3D"font-family: Verdana, =
+sans-serif; margin: 0; padding: 0; max-width:100%; display: block;color: =
+#ffffff; font-size: 18px; border-style:none; " title=3D""></a></td>
+										</tr></tbody></table></center>
+							<p style=3D"font-size:18px; font-family:Verdana, Helvetica, Arial, =
+san-serif;">
+								<span style=3D"font-size:22px;"><strong>Make no mistake, this is a =
+HUGE moment for our campaign to get big money out of politics. =
+</strong><br><br>
+								John, we want to be able to say you were with us from the =
+beginning.<br><br>
+								But as of <a href=3D"http://act.endcitizensunited.org/page/m/62c6e=
+80b/6c70c428/95edd56/2eff4a17/1846039444/VEsA/p/eyJKU1ZGYldGcGJDVWwiOiJwb2=
+Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIs=
+IkpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3Rvbi=
+IsIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpT=
+VklUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVF=
+ZCTVQxbEZVaVVsIjoiIn0=3D/" style=3D"color:#000000; text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D"><span style=3D"color:#000000;">6:21pm</span>,</a> we =
+don&rsquo;t see any contributions associated with your record. </span></p>
+						</center>
+					</center>
+				</td>
+			</tr><tr><td align=3D"left" style=3D"padding: 0px 10px 0px 10px; =
+display: table-cell;">
+					<center>
+						<table cellspacing=3D"0" style=3D"max-width: 450px;"><tbody><tr><td =
+background=3D"https://s.bsd.net/endcitiu/main/page/-/ECU_Member-Card_Found=
+ers-BG.png" bgcolor=3D"#142459" height=3D"284" style=3D"border-radius: =
+6px;background-repeat: no-repeat;box-shadow: 0px 2px 8px 0px =
+rgba(3,21,41,1);
+-webkit-box-shadow: 0px 2px 8px 0px rgba(3,21,41,1);
+-moz-box-shadow: 0px 2px 8px 0px rgba(3,21,41,1);
+
+
+" valign=3D"top" width=3D"448">
+										<!--[if gte mso 9]>
+  <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" =
+stroke=3D"false" style=3D"width:450px;height:284px;">
+    <v:fill type=3D"tile" src=3D"https://s.bsd.net/endcitiu/main/page/-/EC=
+U_Member-Card_Founders-BG.png" color=3D"#142459" />
+    <v:textbox inset=3D"0,0,0,0">
+  <![endif]-->
+										<div style=3D"padding: 0px; text-align: center;  border-radius: =
+15px;">
+											<center>
+												<center>
+													<table cellpadding=3D"5" cellspacing=3D"1" =
+style=3D"border-collapse: collapse; width: 100%"><tbody><tr><td =
+align=3D"left" style=3D"padding: 20px 10px 0px 10px; display: =
+table-cell;">
+																	<a href=3D"http://act.endcitizensunited.org/page/m/62c6e8=
+0b/6c70c428/95edd56/2eff4a17/1846039444/VEsB/p/eyJKU1ZGYldGcGJDVWwiOiJwb2R=
+lc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsI=
+kpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiI=
+sIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTV=
+klUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZ=
+CTVQxbEZVaVVsIjoiIn0=3D/" style=3D"text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D"><img alt=3D"End Citizens United" =
+src=3D"https://s.bsd.net/endcitiu/main/page/-/ECU_Member-Card_Founders-Log=
+o_2.png" style=3D"max-width:100%;font-size:22px;color:#ffffff;font-family:=
+verdana,arial,sans-serif;border-style:none;" width=3D"429"></a></td>
+															</tr><tr><td align=3D"right" style=3D"padding: 10px 10px =
+0px 0px; display: table-cell;">
+																	<a href=3D"http://act.endcitizensunited.org/page/m/62c6e8=
+0b/6c70c428/95edd56/2eff4a17/1846039444/VEsO/p/eyJKU1ZGYldGcGJDVWwiOiJwb2R=
+lc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsI=
+kpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiI=
+sIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTV=
+klUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZ=
+CTVQxbEZVaVVsIjoiIn0=3D/" style=3D"text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D"><img alt=3D"2016 Member" src=3D"https://s.bsd.net/end=
+citiu/main/page/-/ECU_Member-Card_Founders-2016.png" style=3D"max-width:10=
+0%;font-size:18px;color:#ffffff;font-family:verdana,arial,sans-serif;borde=
+r-style:none;" width=3D"201"></a></td>
+															</tr></tbody></table><table cellpadding=3D"5" =
+cellspacing=3D"1" style=3D"border-collapse: collapse; width: =
+100%"><tbody><tr><td align=3D"right" style=3D"padding: 120px 10px 4px 0px; =
+display: table-cell;">
+																	&nbsp;</td>
+															</tr></tbody></table><table cellspacing=3D"0" =
+style=3D"width:98%;padding:0px 5px 8px 5px; =
+max-width:424px"><tbody><tr><td bgcolor=3D"#ffffff" height=3D"37" =
+style=3D"border-radius: 30px; width:424px;padding:0px 4px 0px 4px;" =
+valign=3D"top" width=3D"424">
+																	<div style=3D"padding: 0px; text-align: center;">
+																		<center>
+																			<table cellpadding=3D"5" cellspacing=3D"1" =
+style=3D"border-collapse: collapse; width: 100%"><tbody><tr><td =
+align=3D"left" style=3D"padding: 8px 20px 0px 10px; display: table-cell;">
+																							<a href=3D"http://act.endcitizensunited.org/page/m/=
+62c6e80b/6c70c428/95edd56/2eff4a17/1846039444/VEsP/p/eyJKU1ZGYldGcGJDVWwiO=
+iJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9=
+obiIsIkpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ=
+3RvbiIsIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSI=
+sIkpTVklUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU=
+1ZGVFZCTVQxbEZVaVVsIjoiIn0=3D/" style=3D"text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D"><img alt=3D"John Podesta" =
+src=3D"http://imggen.elasticbeanstalk.com/?text=3DJohn =
+Podesta&amp;font_name=3Draleway&amp;font_type=3Dmedium&amp;font_size=3D21&=
+amp;font_color=3D000000&amp;extension=3Dpng" style=3D"font-family: =
+Verdana, sans-serif; margin: 0; padding: 0; max-width: 100%; display: =
+block;color: #000000; font-size: 21px; border-style:none; " title=3D"John =
+Podesta"></a></td>
+																						<td align=3D"right" style=3D"padding: 10px 10px 0px =
+20px; display: table-cell;">
+																							<a href=3D"http://act.endcitizensunited.org/page/m/=
+62c6e80b/6c70c428/95edd56/2eff4a17/1846039444/VEsHBQ/p/eyJKU1ZGYldGcGJDVWw=
+iOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiS=
+m9obiIsIkpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGl=
+uZ3RvbiIsIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwN=
+SIsIkpTVklUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJ=
+KU1ZGVFZCTVQxbEZVaVVsIjoiIn0=3D/" style=3D"text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D"></a></td>
+																					</tr></tbody></table></center>
+																	</div>
+																</td>
+															</tr></tbody></table></center>
+											</center>
+										</div>
+										<!--[if gte mso 9]>
+    </v:textbox>
+  </v:rect>
+  <![endif]--></td>
+								</tr></tbody></table><br><strong><span =
+style=3D"font-family:courier new,arial;font-size:19px;color:#da2a3f">** =
+PENDING MEMBERSHIP **</span></strong></center>
+				</td>
+			</tr><tr><td align=3D"center" style=3D"background: #ffffff;padding: =
+20px 0px 0px 0px;">
+					<span style=3D"font-family:Verdana, Helvetica, Arial, =
+san-serif;"><span style=3D"font-size:22px;font-family:verdana,helvetica,ar=
+ial,sans-serif;line-height:140%"><a href=3D"http://act.endcitizensunited.o=
+rg/page/m/62c6e80b/6c70c428/95edd56/2eff4a17/1846039444/VEsHBA/p/eyJKU1ZGY=
+ldGcGJDVWwiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWx=
+KUT09IjoiSm9obiIsIkpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9I=
+joiV2FzaGluZ3RvbiIsIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0=
+iOiIyMDAwNSIsIkpTVklUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTV=
+T0iOiIiLCJKU1ZGVFZCTVQxbEZVaVVsIjoiIn0=3D/" =
+style=3D"color:#000000;text-decoration:none;" title=3D"https://secure.actb=
+lue.com/contribute/page/ecu-2016card?refcode=3DMS_EM_FR_2016.03.19_B3_10-m=
+illion_X__F1_S1_C1__nd&amp;recurring=3Dauto&amp;amount=3D25&amp;amounts=3D=
+15,25,50,100,250,500,1000&amp;email=3Dpodesta@law.georgetown.edu&amp;first=
+name=3DJohn&amp;lastname=3DPodesta&amp;city=3DWashington&amp;state=3DDC&am=
+p;zip=3D20005&amp;phone=3D&amp;occupation=3D&amp;employer=3D">We have just =
+two days to make this goal.</a></span><br><br><strong><span =
+style=3D"font-size:22px;font-family:verdana,helvetica,arial,sans-serif;lin=
+e-height:140%"><a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b=
+/6c70c428/95edd56/2eff4a17/1846039444/VEsHBw/p/eyJKU1ZGYldGcGJDVWwiOiJwb2R=
+lc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsI=
+kpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiI=
+sIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTV=
+klUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZ=
+CTVQxbEZVaVVsIjoiIn0=3D/" style=3D"color:#000000;text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">Chip in $5 or more to become a 2O16 Member and =
+we&rsquo;ll send you this exclusive card in the mail =
+&gt;&gt;</a></span></strong></span><br><br><center>
+						<table align=3D"center" cellpadding=3D"0" cellspacing=3D"10" =
+style=3D"border-collapse:separate;border-spacing:10px" =
+table=3D""><tbody><tr><td align=3D"center" style=3D"padding: 0px 0px 2px =
+0px">
+										<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70=
+c428/95edd56/2eff4a17/1846039444/VEsHBg/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3Rh=
+QGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk=
+1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpT=
+VlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMD=
+FGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQx=
+bEZVaVVsIjoiIn0=3D/" id=3D"mobile" =
+style=3D"background-color:#da2a3f;border-bottom: 4px solid rgb(166, 31, =
+47);border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-=
+serif;font-size:21px;font-weight:bold;line-height:35px;text-align:center;t=
+ext-decoration:none;-webkit-text-size-adjust:none;padding: 10px 20px 10px =
+20px;font-family:Avenir, =
+Arial,sans-serif;max-width:100%;width:320px;letter-spacing:.01em;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">Chip in $5 immediately &gt;&gt;</a></td>
+								</tr><tr><td align=3D"center" style=3D"padding: 0px 0px 2px 0px">
+										<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70=
+c428/95edd56/2eff4a16/1846039444/VEsHAQ/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3Rh=
+QGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk=
+1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpT=
+VlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMD=
+FGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQx=
+bEZVaVVsIjoiIn0=3D/" id=3D"mobile" =
+style=3D"background-color:#da2a3f;border-bottom: 4px solid rgb(166, 31, =
+47);border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-=
+serif;font-size:21px;font-weight:bold;line-height:35px;text-align:center;t=
+ext-decoration:none;-webkit-text-size-adjust:none;padding: 10px 20px 10px =
+20px;font-family:Avenir, =
+Arial,sans-serif;max-width:100%;width:320px;letter-spacing:.01em;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D35&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">Chip in $35 immediately &gt;&gt;</a></td>
+								</tr><tr><td align=3D"center" style=3D"padding: 0px 0px 2px 0px">
+										<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70=
+c428/95edd56/2eff4a15/1846039444/VEsHAA/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3Rh=
+QGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk=
+1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpT=
+VlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMD=
+FGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQx=
+bEZVaVVsIjoiIn0=3D/" id=3D"mobile" =
+style=3D"background-color:#da2a3f;border-bottom: 4px solid rgb(166, 31, =
+47);border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-=
+serif;font-size:21px;font-weight:bold;line-height:35px;text-align:center;t=
+ext-decoration:none;-webkit-text-size-adjust:none;padding: 10px 20px 10px =
+20px;font-family:Avenir, =
+Arial,sans-serif;max-width:100%;width:320px;letter-spacing:.01em;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D50&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">Chip in $50 immediately &gt;&gt;</a></td>
+								</tr><tr><td align=3D"center" style=3D"padding: 0px 0px 2px 0px">
+										<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70=
+c428/95edd56/2eff4a14/1846039444/VEsHAw/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3Rh=
+QGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk=
+1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpT=
+VlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMD=
+FGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQx=
+bEZVaVVsIjoiIn0=3D/" id=3D"mobile" =
+style=3D"background-color:#da2a3f;border-bottom: 4px solid rgb(166, 31, =
+47);border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-=
+serif;font-size:21px;font-weight:bold;line-height:35px;text-align:center;t=
+ext-decoration:none;-webkit-text-size-adjust:none;padding: 10px 20px 10px =
+20px;font-family:Avenir, =
+Arial,sans-serif;max-width:100%;width:320px;letter-spacing:.01em;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D100&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodes=
+ta@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">Chip in $100 immediately &gt;&gt;</a></td>
+								</tr><tr><td align=3D"center" style=3D"padding: 0px 0px 2px 0px">
+										<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70=
+c428/95edd56/2eff4a13/1846039444/VEsHAg/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3Rh=
+QGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk=
+1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpT=
+VlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMD=
+FGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQx=
+bEZVaVVsIjoiIn0=3D/" id=3D"mobile" =
+style=3D"background-color:#da2a3f;border-bottom: 4px solid rgb(166, 31, =
+47);border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-=
+serif;font-size:21px;font-weight:bold;line-height:35px;text-align:center;t=
+ext-decoration:none;-webkit-text-size-adjust:none;padding: 10px 20px 10px =
+20px;font-family:Avenir, =
+Arial,sans-serif;max-width:100%;width:320px;letter-spacing:.01em;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D250&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodes=
+ta@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">Chip in $250 immediately &gt;&gt;</a></td>
+								</tr><tr><td align=3D"center" style=3D"padding: 0px 0px 0px 0px">
+										<a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70=
+c428/95edd56/2eff4a17/1846039444/VEsHDQ/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3Rh=
+QGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk=
+1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpT=
+VlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMD=
+FGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQx=
+bEZVaVVsIjoiIn0=3D/" id=3D"mobile" =
+style=3D"background-color:#da2a3f;border-bottom: 4px solid rgb(166, 31, =
+47);border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-=
+serif;font-size:21px;font-weight:bold;line-height:35px;text-align:center;t=
+ext-decoration:none;-webkit-text-size-adjust:none;padding: 10px 20px 10px =
+20px;font-family:Avenir, =
+Arial,sans-serif;max-width:100%;width:320px;letter-spacing:.01em;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">Or donate another amount &gt;&gt;</a></td>
+								</tr></tbody></table></center>
+				</td>
+			</tr></tbody></table><p style=3D"font-size:22px; font-family:Verdana, =
+Helvetica, Arial, san-serif;">
+		<span style=3D"font-family:Verdana, Helvetica, Arial, =
+san-serif;"><strong><a href=3D"http://act.endcitizensunited.org/page/m/62c=
+6e80b/6c70c428/95edd56/2eff4a17/1846039444/VEsHDA/p/eyJKU1ZGYldGcGJDVWwiOi=
+Jwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9o=
+biIsIkpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3=
+RvbiIsIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIs=
+IkpTVklUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1=
+ZGVFZCTVQxbEZVaVVsIjoiIn0=3D/" style=3D"color:#da2a3f;" =
+title=3D"https://secure.actblue.com/contribute/page/ecu-2016card?refcode=
+=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&amp;recurring=3Dauto&=
+amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodest=
+a@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">http://act.endcitizensunited.org/2016-Member</a></str=
+ong><br><br><em>GO GO GO!<br><br><a href=3D"http://act.endcitizensunited.o=
+rg/page/m/62c6e80b/6c70c428/95edd56/2eff4a17/1846039444/VEsEBQ/p/eyJKU1ZGY=
+ldGcGJDVWwiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWx=
+KUT09IjoiSm9obiIsIkpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9I=
+joiV2FzaGluZ3RvbiIsIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0=
+iOiIyMDAwNSIsIkpTVklUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTV=
+T0iOiIiLCJKU1ZGVFZCTVQxbEZVaVVsIjoiIn0=3D/" style=3D"color:#000000; =
+text-decoration:none;" title=3D"https://secure.actblue.com/contribute/page=
+/ecu-2016card?refcode=3DMS_EM_FR_2016.03.19_B3_10-million_X__F1_S1_C1__nd&=
+amp;recurring=3Dauto&amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,10=
+00&amp;email=3Dpodesta@law.georgetown.edu&amp;firstname=3DJohn&amp;lastnam=
+e=3DPodesta&amp;city=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=
+=3D&amp;occupation=3D&amp;employer=3D">-EndCitizensUnited.org</a></em></sp=
+an></p>
+</center>                </td>
+            </tr><!-- END BODY --><!-- START SPACING --><tr><td>
+
+   <!-- PIXEL -->
+
+<img alt=3D"" height=3D"1" src=3D"https://googleads.g.doubleclick.net/page=
+ad/viewthroughconversion/951914972/?value=3D1.00&amp;currency_code=3DUSD&a=
+mp;label=3DGBPQCM6Bh1wQ3KP0xQM&amp;guid=3DON&amp;script=3D0" =
+style=3D"border-style:none;" width=3D"1">
+   <!-- END PIXEL -->
+
+                    <br><br><br><br><br><br><br><br><br><br><br><br></td>
+            </tr><!-- END SPACING --><!-- START FOOTER --><tr><td =
+valign=3D"top">
+                    <!-- START PAID FOR BY BOX -->
+   =20
+                    <table align=3D"center" border=3D"0" =
+style=3D"max-width: 550px;"><tbody><tr><td align=3D"center">
+    <span style=3D"font-size:12px;">End Citizens United PAC<br>
+    P.O. Box 66005<br>
+    Washington, D.C. 20035<br><br></span>
+</td></tr><td>
+                                    <div style=3D"border-color: #666666; =
+border-style: solid; border-width: 1px; font-family: Verdana, Helvetica =
+sans-serif; font-size: 12px; padding: 3px; text-align: center;">
+                                        <span style=3D"color: =
+#666666">PAID FOR BY END CITIZENS UNITED PAC (<a href=3D"http://act.endcit=
+izensunited.org/page/m/62c6e80b/6c70c428/95edd56/2eff4a12/1846039444/VEsEB=
+A/" style=3D"color: #666666;" =
+title=3D"http://EndCitizensUnited.org">ENDCITIZENSUNITED.ORG</a>) AND NOT =
+AUTHORIZED BY ANY CANDIDATE OR CANDIDATE'S COMMITTEE.</span>
+                                    </div>
+                                </td>
+                           =20
+                        </tbody></table><!-- END PAID FOR BY BOX =
+--><br><!-- FOUNDING MEMBER BOX -->   =20
+<!-- END FOUNDING MEMBER BOX -->
+   =20
+                    <!-- START UNSUBSCRIBE TEXT -->
+   =20
+                    <table align=3D"center" border=3D"0" =
+style=3D"max-width: 550px;"><tbody><tr><td align=3D"center">
+                                    <p style=3D"font-size:9px;line-height: =
+100%;">
+                                        <span =
+style=3D"color:#666666;">This message was sent to: <a =
+href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70c428/95edd56/=
+2eff4a10/1846039444/VEsEBg/" style=3D"color: #666666;" =
+title=3D"http://act.endcitizensunited.org/page/s/update-your-information">=
+podesta@law.georgetown.edu</a> | Change or update your email address =
+by</span> <a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70=
+c428/95edd56/2eff4a10/1846039444/VEsEAQ/" style=3D"color: #666666;" =
+title=3D"http://act.endcitizensunited.org/page/s/update-your-information">=
+<span style=3D"color:#666666;">clicking here.</span></a><br><br><span =
+style=3D"color:#666666;">Thank you for supporting End Citizens United PAC. =
+We're proud to be funded exclusively by grassroots donors. Your support is =
+critical to helping us counter the disastrous effects of <em>Citizens =
+United</em> and reform our campaign finance system.</span>
+                                        <br><br><span =
+style=3D"color:#666666;">Emails are a crucial way to stay in touch with =
+our top supporters. If we're going to pass a Constitutional Amendment to =
+overturn this decision, we need you with us every step of the way.</span>
+                                        <br><br><span =
+style=3D"color:#666666;">If you'd still like to unsubscribe from our =
+emails, <a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6c70c4=
+28/95edd56/2eff4a0f/1846039444/VEsEAA/" style=3D"color: #666666;" =
+title=3D"http://act.endcitizensunited.org/page/s/less-emails"><span =
+style=3D"color:#666666;">click here</span></a>. If you'd like to receive =
+fewer emails, you can <a href=3D"http://act.endcitizensunited.org/page/m/6=
+2c6e80b/6c70c428/95edd56/2eff4a0f/1846039444/VEsEAw/" style=3D"color: =
+#666666;" =
+title=3D"http://act.endcitizensunited.org/page/s/less-emails"><span =
+style=3D"color:#666666;">click here</span></a>. If you'd like to donate to =
+help fund our efforts to fix America's broken campaign finance system, =
+please&nbsp; <a href=3D"http://act.endcitizensunited.org/page/m/62c6e80b/6=
+c70c428/95edd56/2eff4a0e/1846039444/VEsEAg/" style=3D"color: #666666;" =
+title=3D"https://secure.actblue.com/contribute/page/ecuty2015?refcode=3Dfo=
+oter&amp;recurring=3Dauto"><span style=3D"color: color: #666666;">click =
+here</span></a>.</span>
+                                        <br><br><span =
+style=3D"color:#666666;">From the entire <em>End Citizens United</em> =
+team, thanks for your support!</span>
+                                    </p>
+                                </td>
+                            </tr></tbody></table><!-- END UNSUBSCRIBE TEXT =
+--></td>
+            </tr><!-- END FOOTER --></tbody></table><!-- End of wrapper =
+table --><!-- Litmus Tracking Code --><style>@media print{ #_t { =
+background-image: url('https://w9kobt3v.emltrk.com/w9kobt3v?p&d=3Dpodesta@=
+law.georgetown.edu');}} div.OutlookMessageHeader {background-image:url('ht=
+tps://w9kobt3v.emltrk.com/w9kobt3v?f&d=3Dpodesta@law.georgetown.edu')} =
+table.moz-email-headers-table {background-image:url('https://w9kobt3v.emlt=
+rk.com/w9kobt3v?f&d=3Dpodesta@law.georgetown.edu')} blockquote #_t =
+{background-image:url('https://w9kobt3v.emltrk.com/w9kobt3v?f&d=3Dpodesta@=
+law.georgetown.edu')} #MailContainerBody #_t {background-image:url('https:=
+//w9kobt3v.emltrk.com/w9kobt3v?f&d=3Dpodesta@law.georgetown.edu')}</style>=
+<div id=3D"_t"></div>
+<img src=3D"https://w9kobt3v.emltrk.com/w9kobt3v?d=3Dpodesta@law.georgetow=
+n.edu" width=3D"1" height=3D"1" border=3D"0"><!-- End Litmus Tracking Code =
+--><img src=3D"http://act.endcitizensunited.org/page/o/62c6e80b/6c70c428/9=
+5edd56/2eff4a0d/1846039444/open.gif" width=3D"1" =
+height=3D"1"></body></html>
+
+
+
+--b1_ce64a590494de9f1d74af44491419dfd--

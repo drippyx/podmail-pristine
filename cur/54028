@@ -1,0 +1,551 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp1682044lfb;
+        Sat, 12 Mar 2016 12:06:00 -0800 (PST)
+X-Received: by 10.140.104.242 with SMTP id a105mr20461630qgf.1.1457813160534;
+        Sat, 12 Mar 2016 12:06:00 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1hn0247.outbound.protection.outlook.com. [157.56.110.247])
+        by mx.google.com with ESMTPS id v18si14429727qka.81.2016.03.12.12.06.00
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sat, 12 Mar 2016 12:06:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.247 as permitted sender) client-ip=157.56.110.247;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.247 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=pass header.i=@gulaw.onmicrosoft.com;
+       dkim=neutral (body hash did not verify) header.i=@bounce.bluestatedigital.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gulaw.onmicrosoft.com;
+ s=selector1-law-georgetown-edu;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=cHf0Zvkdru7UBi1qnMnkjLrBomqJWr4vRSjTRuvZgWk=;
+ b=WxsTnOaerdBGO8edeGneDfZjzCxWcDDO8y89tgopXvXGZ3WPd0a/ezD5kAA7Q21fjPufAoLqWL0uSL/bOgI2X2pLR/4U4CnGwKnsB1/6yD+C4jXaycB7fyjugZwSQBBsdAkcoINXJgwFXmMR2R3fUNaYcEsz4sgdhBm3gJXN4DA=
+Received: from BY2PR07CA064.namprd07.prod.outlook.com (10.141.251.39) by
+ CY1PR0701MB1786.namprd07.prod.outlook.com (10.163.42.144) with Microsoft SMTP
+ Server (TLS) id 15.1.434.16; Sat, 12 Mar 2016 20:05:58 +0000
+Received: from BY2FFO11FD023.protection.gbl (2a01:111:f400:7c0c::140) by
+ BY2PR07CA064.outlook.office365.com (2a01:111:e400:2c61::39) with Microsoft
+ SMTP Server (TLS) id 15.1.434.16 via Frontend Transport; Sat, 12 Mar 2016
+ 20:05:58 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.bluestatedigital.com;gmail.com; dmarc=none
+ action=none header.from=joetorsella.com;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BY2FFO11FD023.mail.protection.outlook.com (10.1.15.212) with Microsoft SMTP
+ Server (TLS) id 15.1.434.11 via Frontend Transport; Sat, 12 Mar 2016 20:05:58
+ +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (141.161.191.13)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.279.2; Sat, 12 Mar 2016 15:03:45 -0500
+Received: from SN1PR07CA0014.namprd07.prod.outlook.com (10.162.170.152) by
+ DM3PR07MB2281.namprd07.prod.outlook.com (10.164.33.155) with Microsoft SMTP
+ Server (TLS) id 15.1.434.16; Sat, 12 Mar 2016 20:03:39 +0000
+Received: from BN1BFFO11FD027.protection.gbl (2a01:111:f400:7c10::1:152) by
+ SN1PR07CA0014.outlook.office365.com (2a01:111:e400:3000::24) with Microsoft
+ SMTP Server (TLS) id 15.1.434.16 via Frontend Transport; Sat, 12 Mar 2016
+ 20:03:39 +0000
+Authentication-Results: spf=pass (sender IP is 66.151.230.155)
+ smtp.mailfrom=bounce.bluestatedigital.com; law.georgetown.edu; dkim=pass
+ (signature was verified)
+ header.d=bounce.bluestatedigital.com;law.georgetown.edu; dmarc=none
+ action=none header.from=joetorsella.com;
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.bluestatedigital.com designates 66.151.230.155 as permitted sender)
+ receiver=protection.outlook.com; client-ip=66.151.230.155;
+ helo=mta-dock-front-13.bluestatedigital.com;
+Received: from mta-dock-front-13.bluestatedigital.com (66.151.230.155) by
+ BN1BFFO11FD027.mail.protection.outlook.com (10.58.144.90) with Microsoft SMTP
+ Server (TLS) id 15.1.434.11 via Frontend Transport; Sat, 12 Mar 2016 20:03:38
+ +0000
+Received: from bounce.bluestatedigital.com (unknown [10.0.200.185])	by
+ mta-dock-front-13.bluestatedigital.com (Postfix) with ESMTP id
+ 3qMw1f1qT0zRhRD	for <podesta@law.georgetown.edu>; Sat, 12 Mar 2016 20:03:34
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=bounce.bluestatedigital.com; s=bsdkey; t=1457813014;
+	bh=dYYKm+l/plG+KvJxHFSvC1vXD0DyMkMtQuqiH9KxNEU=;
+	h=Date:To:From:Reply-to:Subject:List-Unsubscribe;
+	b=Nd34wROV8UPHWhecPA7dhCcLYvQRhKvq5UsV+jR4dM8A8k2tXpzdo9JRxIY+buDiM
+	 Jg4rCEVb2znrpoKIcf4GLCZBW9wvUyJhsmVkb558QeUTxzUCh7TYVN2Bv+L3RIcK2H
+	 w8OxlY9WsuZpicWwnC+nYFAGXWuirxMRgr6rh8hA=
+Received: from phpmailer 	by bounce.bluestatedigital.com with local
+ (PHPMailer);	Sat, 12 Mar 2016 20:03:34 +0000
+Date: Sat, 12 Mar 2016 20:03:34 +0000
+To: John Podesta <podesta@law.georgetown.edu>
+From: "Response-Requested@joetorsella.com" <info@joetorsella.com>
+Reply-To: <info@joetorsella.com>
+Subject: John, what matters most to you?
+Message-ID: <61c11cf0a4172d596bdd9e9ec34d346b@bounce.bluestatedigital.com>
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 593b1a1a411c86bb
+X-rpcampaign: rp_097
+X-maillist-guid: EQpERgYIClVsBgkGU1RSUAINAQNXD1NRADBCDFJRRhAEJVpUFEoBUQpBV1BFCkQPTVxURz0F
+List-Unsubscribe: <http://go.joetorsella.com/unsubscribe?email=podesta%40law.georgetown.edu>, <mailto:EQpERgYIClVsBgkGU1RSUAINAQNXD1NRADBCDFJRRhAEJVpUFEoBUQpBV1BFCkQPTVxURz0F@bounce.bluestatedigital.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_61c11cf0a4172d596bdd9e9ec34d346b"
+Return-Path: podesta@law.georgetown.edu
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CIP:66.151.230.155;IPV:NLI;CTRY:US;EFV:NLI;SFV:SPM;SFS:(31610200002)(31580200002)(31620200002)(2980300002)(1140300003)(438002)(596005)(286005)(359002)(199003)(349012);DIR:INB;SFP:;SCL:9;SRVR:DM3PR07MB2281;H:mta-dock-front-13.bluestatedigital.com;FPR:;SPF:Pass;MLV:ovrnspm;A:1;MX:1;PTR:mta-dock-front-13.bluestatedigital.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1BFFO11FD027;1:a7Aevp1YVh8biI35JZJo0eWT2V+fMx1fedWgmIsxS9iSa5V6+uII6KV7XUcOc4T3vTTS14ZGrLXaHW8b/y3ObG8KTKbD/8gytwfwoEF9FsTGzhnQzLPbJiXUWAHoUWOoehO8aGvVcJ3YNqTKIKgbiARMPW/DfnzErcdS6fvJKgf0blY10L7G4IwfHQ1/2X1rFDj8lNU6DrbyaMHe6oVdB5ULeva0klL1G8AtCh7LoWYR0n9lpPrsE8tq7owci/OjIE5YwIP4dXWbcCFJhNdv4LjQ9RZ5/4XhYXx8HZzyvXwtiSnlsZtzjWFBZ3Kc6eWmxsVpLUleRhpKYNoQcjpfKaB/8+yWohBfBgWNiVi6iZIgkYHTUMeJIWZwVpVIRPsGSLz/KMFLP0oc+QZUGxHtcV9Dl+nxNMtOoiOfD432sKy2aBoI5uqAUDTZANX6bnRJiM17wmjD3jGEHEwvgzp7QS77k92rQQBcLZk0buSfQpPHd8iBMig5xjjoqCRGEnC9
+X-MS-Office365-Filtering-Correlation-Id: 9091ad8e-1dcd-4ccf-098e-08d34ab1ba61
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM3PR07MB2281;2:r+AwhUL4Pdub/2lqiL7Ud7tMD1CNmYavUQPvqAbbsIYwe8v9nsNXCSi8pQzDVuz6KFDCCcHX5C+3EVSzpGVDuamTRffgwReebwA467XKWtqN7AT0cH9/xuq1m8GtdvpWVmCbcI9TAQm0fPyNU5Wub1acDkwrxnWA8AVTzk6kf64FqONhlR5+2dFihlGIbLr8;3:dtv9FhZ/J4Gy7IRRvhxEvXLSDof24TiKxFDv+2Chfgwkm2RugcPbolXoG9VJrwzziCbA+9bi2wV8ZZ2GkV++cLjajrYjm+MYVuVbe/Fi4pJr35wM6Xz711sNViPUwtHnOjEml3acqrcXyGB846biok9OsNbgJwAhwHv7FEvKJY+NuT7iAIMjXK9QZ4Xj6H62J+UP+KQknee8uwvyevr60CcwbrWRkxxWpA3ZxmqKols9S8g7rCg8oYqUeSz49yylQtV8mb2dGij5WqXAObTbpA7gYszUuvMTg2DjVw+8hUCL8QXJie3OzGJw6IHKO8LP;25:Sqid6WTuhkoCWkFrLrzWO9FGBo97nrbyOhXelbIgHp+4voVZUkrEgcL+7vXFCLdpqvjXmyh8TkiT9nQ/zX50EhId86YVmV3jocjZreTQf/pvWXwh4pUwdCvmxRq4EQKeB5eQaogDdxPq9dFiuaiNRyaAg0PRhYlr3YSEYTybMPgNFxyskwL7jROsRUVwWERMK3B2WyYZav11jm/qJtt1iIafi9hIO1HRicebSL4tvdVqCko5nC72dVlQUQIX0ybAADdaaIrn4UN3Q/MhXjdXFTIcyHJPoedWCo3Gpo9rhQb/y8xoIr2rdn+rimMGChGYog7Godz6hP2xgElWbLnw/Q==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(421252002)(3001016)(71701004)(71702002);SRVR:DM3PR07MB2281;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM3PR07MB2281;20:f/DbFvlFfW5S42dS6RpqDf19AYkvHg3FEZJ23Ah0Dm2j3xn6JKlzmkzXwnH/FsNnzamQPHEvOEITQNsfkMp+o+qhMm2CZNi0CdXDQ3jHBT1+4y5AOEjUCuJkJL52XW4RPY/aKK2s2s7aqQOhyKRAMDnqoxu4qmtpXjS9PlRxhLwl8VQjRO6+ZqK7qFLAlR5vqGwWXfJopS8y1ms/wwH1L+Jhdo4kvADlXtAR57Kz7iFUvFznHwd+g2BWK/NAY7RMII41OqXkPxZeTXv5ZK/XKEmK7iiya2ujOw7Drand7XIu+WZIqFHDaVIJ5sFEi84yaYUcyOKamQjZMFv4VGC7MyPM6uI7won1O7b87/wuMoa7Jaj5oNI7KNw+gEsOcm9GXw8xK/wKz59GpvnlR1cl/DRwpJE+fsK357WhqNGUWjo=;4:3StJieqRKFiTnNOYDuGiLmzIgRGTqEhVeNMT2zY658q/DZX13JhhPUyTf7TDB1eS4r4sFb0xGV4vNvGXXwLJEmbVgY2fjrMt8jJqAluXZBWlGtEnTdQGhorfgoDKN5hKiKzMfxs1VRmnfYF0cTKLOBcutKaFN2YbQouM/YPFp0Omt7npd1ZXgYpm5KbSH3mCP+qHxOX58mS4RIuMdm0DAu1Yh37b+WL3x4RrU+4mHhgb0yAzTLpZjzKEh7lgq54usUHL/mQEPEjNyodOhAZBPgdomHDZd5NlLaOoZkbj3on7VuB1I4HBqyNk+sGUhSYINDnA/22dpHiXdSVOZXgMrcR1pESwJdiB853KMeS/pXLgCBipFcvVvHcdljiPNkVpXcqIV0snXqXOSvsaCBO89A==
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(13016025)(2000001)(8121501046)(13018025)(10201501046)(3002001);SRVR:DM3PR07MB2281;BCL:6;PCL:0;RULEID:;SRVR:DM3PR07MB2281;BCL:9;PCL:0;RULEID:(601004)(2401047)(5005006)(8121501046)(13016025)(13018025)(3002001)(10201501046);SRVR:CY1PR0701MB1786;BCL:9;PCL:0;RULEID:;SRVR:CY1PR0701MB1786;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM3PR07MB2281;23:6V1ZWTcdTwYbNpkswfr188YPzBCFQOwhzB3dY6VHtW9OqvGQC1bLkWBQ24M19HmhLV/xv1L4md20SqQ8vDbArfSxitZOQSnq+hglGFPKAP1DF6E2PZp8XvUE8h5OLsYrI64wwSZ1C4+xVdVbLSK4lrprHO1HzIjgF+CDRnuMVeX3vbInMQyqIldONXJgzMKFOkre6aFxWW18ChGhCSlVt9HRwDWgeQBBBp6vYwNv76dQ0xPWUpNhMJD8RoxDRWqt/9CLFKspz6SOJ2hRfHRczPv2f2KDTrjwaDD6IDOIk1Kn+YUA/Om4pMOE2DZgD1TvlX5+45nMd8AclUckTrUJctZD7p1KsYt9RRijna5ptmdSKmg7D20aCMW8jLrkPHWgXWwvMQ4PkG02KkIUPRuDErtrFQKpjR8OluuVG7lJwDwowAjPbGOwfwfi9prQwth/;5:sf/UDad96CnI+hmgbb4GbGaOtF+rHLig+mqVFWW7cSlTGtbg5+zlHRE8NIBRKvjT+XOfYYLMBHZf1+j3hCB6N46MFfYCYh0Rc4QrZxRdmoOV30XVVrn9QwPSint6nUmd9gKJX1rxLVrPMM/tH1dmbg==;24:LkQYZ4PiYA+6HE11mn/3Jt+DF0LA/fiqbxyYS97aqWdV7zgF2PekEe6t6WAsk1FlhHrolmJ8A03owgk1RFrq0w==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3PR07MB2281
+X-OrganizationHeadersPreserved: DM3PR07MB2281.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2FFO11FD023.protection.gbl
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.75;IPV:NLI;CTRY:US;EFV:NLI;SFV:SPM;SFS:(10009020)(2980300002)(1140300003)(1110001)(1109001)(339900001)(596005)(359002)(76104003)(199003)(189002)(52604005)(349012);DIR:OUT;SFP:1501;SCL:9;SRVR:CY1PR0701MB1786;H:mail.law.georgetown.edu;FPR:;SPF:Fail;MLV:ovr;A:1;MX:1;PTR:InfoDomainNonexistent;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BY2FFO11FD023;1:bMhl6ffmq+dCjEh/a8c2LyKVuhMvijXUWcymee296IVsiaoDiFBmm7zVkDx3Vo9fa6jqI2DBCuV65FxwTN0dP0MRXLSVbbNJHe5KE99wnlLrri4nbDDqtw+sPe7CcF09G+lTIiFwo4zg9qEXX4uufHpovfnJyIpVeoGKHR52DrWAmTCxw1IpheQwCnTU9cykCawOZcyZcOa0JtWsYbYZoTMjJt7+vm+IPpBuRN4hYkuaQzvWb0cbc5oPV+imWXgXkf/XXJ+1Cebf7ef4y6IDx8rgcKogrdNj/loO7Gj8vuBqGzgwWi9KmejFGoM9pVZcsHTCWiAlvXoI3Zs+r4ewWsEniH4Y8rTdNapfl5HzgWhMhYjeX4ljyepf1giDgkT3AuSmiyhviXuBHIK2ZFjquOXtnTIjVTIxZ3b7wipwS32XgiRM6RILA1hjMkINXJ6A
+X-Microsoft-Exchange-Diagnostics:
+	1;CY1PR0701MB1786;2:6KuHlSyBspeqdsgoaT4utV5KcBEVc1lZ4eSKGdh4oHPSVp520K0/d4wXQy5n1uifEu46y3hKZxJOvUyH784sDZBbtBPRwMNRmeYJrmIY4oPg9ieXBMa0OYpXd/Zs8hF6Jxhe7MvtHhXsUPHrK+kMmv126pvTup8jXj5k+vtRpjzSHrsiyVPOx/OT6szN3UAq;3:HP6UTmgEyTJxSMxTN0DYRXZLrTHh8tpH6J2ImS1hf588zzvm3J7mPRpMQU7RyUy4d6ucPo023Lia9uKKrexXojUdOqFmOV4vcul954mCvc/H2YULGyOpvQkEpIZRQi58pJrMgT5g3K3VERmhkIQtTCEAWrVGBVDKz4tm5SlXl0fDBafSMe+pVL8zuK/3nX8L7QU5BWrW+MhV/y6R7yCRlppBjpZT7rk63ras2DPdGruhpDqZeVT9Hs1qGb/VIXQN2xM79WwVwARgvdqztbTzYg==;25:ENNZHBDzYp+vBaX2K5j9zNeqy/54ZCMKSUVfXSr1G4wtr95CulMhjRUVEWn8b43NfDg0yaYK4BoUCa7v/0KGoibVFOf6P/PhLghDnnkDdoPan6G0upS3KrhCpFtMt9CrBfjXnGbyh7FfFEtbvPc/g5kgtfbWqMhlWKzUgD/vTqoJ4kcjFjxY1oKd4sOnJep3B19lVJ4oCHg3ZDUW2UM6KI+3TN966gedn71KcwtTjLOsSjMox/x6c1BTCNTgs+SBgSbGTDGi8USf0gLlqR2YETemNXKmF2L+DBxFt0/8gIQH4axS0kNptxNWKFXEvfnn+lq9uQUMz0Sd7e+mHJ2ffg==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:9;PCL:0;RULEID:(421252002)(3002016);SRVR:CY1PR0701MB1786;
+X-Microsoft-Exchange-Diagnostics:
+	1;CY1PR0701MB1786;20:4/gdAkUxy4M3YJQed1z/iaEIuGIEUbLCJi2g7o1jHObxOnBtlRvPa164tgOThOMZ2bI0iADXkyNDICYnUCMIMFaw9d59Xra/3w5nxAGP4ujELED7waNhDkLD9Pme805UiGpS7o9xeCjte4B9D2KiWDuoSftRDQjYpjh/B/h6WSxkrLPzT9R6nD2FJ9cD0y/TtVdVWvzOm11n8Cf57hKZh6iD2zbC9m383KM5G4ZplUbPEZEdzL9x7raLKCTICoHyAW7hTgwRc7R5KA8QCRGlVyD7nAJfKwTHD1WeiujgYlEwnFD2dMGk+A9PSUDv/KIN8ntsI88Xa3BvciqzmCyn8X6Y4SPVGICeBtlYEojoE937HsjYmMM+kKMZm3PFHZQ+oTj5+mGvCzkgJyy1DlAxSzz3Y3NSnM4U/vBpYuurKh8=;4:JcJAGDJjZD1Ah/D5nlLkCTjBv1mc8xzn1y6SK1OUKGFf48Fq2r3CvgcC06B0fUiOOyuJ1knTIVVpUala9/kqLNX3zeGWEqfT9x8Xc23cSBQ7ia4iSselDbo1Drk1dOUjOmg6q6Yhv9ABrNen2BonVzWVBJxpt0iUlplNFEhguTqeaVDtg+NYkG11Z7wVuKREbncVG0xKl1moTZZQZJamhhm4UrtlY76/GOTelI93cuoA9qbtQNwc0thglcVRnZNGrF7u/qO7RAVjrQw3teY4b8v4Z+wYAAFp+3MamkBHbi9ohS3bbBFxA2TgyASxP+EZ3vPXfPuahwbkMrGK89Rhhb4C7EWOQDPQKoa0p8By9pIZUyk15R40s8yYwkELWEuDqm9IFfn0pKeghnV8I0589w==
+X-Microsoft-Antispam-PRVS:
+	<CY1PR0701MB17866412BD7BF933D54034B393B60@CY1PR0701MB1786.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 0879599414
+X-Microsoft-Exchange-Diagnostics:
+	1;CY1PR0701MB1786;23:iuaUEUP8e6u4nbUYjxSv2drEQlyNxsKcB4j2Tv5mSxvUCjzxRvpfOqtslRQxw6kUEW13yO4jdVDtWSY/HV7LBL2hfsTU+2HxhClqdzXfwn03MfdgxZCR1Z9Xf1p4T4PcqOAEcpX4yDjwYWSFgQCeBtKb+dMtYfyWrKdKo0EiUrt+HWylsSmk0TjsrvPrLPmg/ikwGGymELbH6uE1nuubQputamu54wG7oQytegyqqz6MvBWXOZ0BcJa685KKDYysbsTtPSYuxl9gnWo3TZe2R3rHbWcmVPCkjQtFKg7FJXCQy4R/wjWHEcoeU1+BXlGhp6exVjQjIQ/8hYTJ2QgjpfdZpIQhGImYjP34kSIv8FCg+wvV+L12WYVVBa0p+AZFSo3/EAlcHRs/F09Eu1dqNg7YjbjUgVPV6mXlc3Ma+7TlvKbgrB+ZaAMwqVU7zJq4uvI+b4Xhd0nxJpOruyK8zQ==;5:XgF/oa4ElIPmcHpo7cjWtJA1s0+TPJKbH8nyFON6iLhqAUsQqKCjGwGC6GabdvMeofFN3ItoOEzjyLxPpCUUwVdicMxEXAR2JDWrsPxCbMeHOX2wN+20xpDJMS1DgBe75PeayR7BVlSS4Oy9tGjaSQ==;24:UH/eDo5GhJGCZvamJB0ZzZ6iDkNWCIaEcikk/UItkncTfEI+VuMfQaTaqu70QlI5GqdNiLmgOT7lqFHTHPsPrw==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 9
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Mar 2016 20:05:58.2372
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1PR0701MB1786
+
+--b1_61c11cf0a4172d596bdd9e9ec34d346b
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+John Podesta: Let us know what matters most to you >>
+
+Joe is committed to fighting for working families and fostering =
+accountability and transparency as Pennsylvania's State Treasurer.
+
+He already has plans for the future, but John, he wants to know what's =
+important to you.
+
+Will you take our Pennsylvania Priorities Survey and let us know what you =
+think Joe should focus on?
+
+TAKE OUR SURVEY >>
+
+A lifelong Pennsylvanian with decades of impressive experience, Joe =
+Torsella is running for Treasurer to make an impact for hardworking =
+Pennsylvania families.
+
+We know what's key in the Keystone State, and it's simple: your opinion =
+matters most of all.
+
+So we're reaching out to find out how you want to see Pennsylvania move =
+forward.
+
+John, will you take 2 minutes to complete our Pennsylvania Priorities =
+Survey today?
+
+
+Joe has been a longtime advocate for Pennsylvania families and a champion =
+of integrity and smart policy.
+
+And John, he has an enduring track record to back it up.
+
+As Philadelphia's Deputy Mayor for Policy and Planning under Ed Rendell, =
+Joe helped close a $1.25 billion deficit without raising taxes.
+
+He was a driving force behind the National Constitution Center, later =
+serving as President and CEO and bringing it to international acclaim and =
+financial stability.
+
+He brought transparency to the United Nations as the U.S. Ambassador for =
+Management and Reform -- and he's ready to bring this kind of openness and =
+accountability to Pennsylvania.
+
+But even though Joe has already won praise for his vision for our =
+Commonwealth, he knows there are many other challenges ahead and areas to =
+focus on.
+
+And John, that's why it's so crucial we hear from you.
+
+Take our survey to let us know what issues you want Joe to focus on:
+
+http://go.joetorsella.com/PA-priorities-survey
+
+Thank you for sharing your input! We look forward to reading your =
+responses.
+
+- Team Torsella
+
+
+
+--b1_61c11cf0a4172d596bdd9e9ec34d346b
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<?xml encoding=3D"UTF-8"??>
+<html><head><meta content=3D"text/html; charset=3Dutf-8" =
+http-equiv=3D"Content-Type"><meta content=3D"width=3Ddevice-width, =
+initial-scale=3D1.0" name=3D"viewport"><title>Joe Torcella for =
+Treasurer</title><style type=3D"text/css">
+        p, li, ol, ul, table, tr, td {font-size:15px; =
+color:#001022;font-family:verdana,sans-serif}
+       =20
+        /* Based on The MailChimp Reset INLINE: Yes. */ =20
+        /* Client-specific Styles */
+        #outlook a {padding:0;} /* Force Outlook to provide a "view in =
+browser" menu link. */
+        body{width:100% !important; -webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; margin:0; padding:0;}=20
+        /* Prevent Webkit and Windows Mobile platforms from changing =
+default font sizes.*/=20
+        .ExternalClass {width:100%;} /* Force Hotmail to display emails at =
+full width */ =20
+        .ExternalClass, .ExternalClass p, .ExternalClass span, =
+.ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: =
+normal;}
+        /* Forces Hotmail to display normal line spacing.  More on that: =
+http://www.emailonacid.com/forum/viewthread/43/ */=20
+        #backgroundTable {margin:0; padding:0; width:100% !important; =
+line-height: normal !important;}
+        /* End reset */
+        /* Some sensible defaults for images
+        Bring inline: Yes. */
+        img {outline:none; text-decoration:none; -ms-interpolation-mode: =
+bicubic;}=20
+        a img {border:none;}=20
+        .image_fix {display:block;}
+        /* Yahoo paragraph fix
+        Bring inline: Yes. */
+        p {margin: 1em 0;}
+        /* Hotmail header color reset
+        Bring inline: Yes. */
+        h1, h2, h3, h4, h5, h6 {color: black !important;}
+        /* Outlook 07, 10 Padding issue fix
+        Bring inline: No.*/
+        table td {border-collapse: collapse;}
+        /* Remove spacing around Outlook 07, 10 tables
+        Bring inline: Yes */
+        table { border-collapse:collapse; mso-table-lspace:0pt; =
+mso-table-rspace:0pt; }
+        /* Styling your links has become much simpler with the new Yahoo.  =
+In fact, it falls in line with the main credo of styling in email and make =
+sure to bring your styles inline.  Your link colors will be uniform across =
+clients when brought inline.
+        Bring inline: Yes. */
+        /***************************************************
+        ****************************************************
+        MOBILE TARGETING
+        ****************************************************
+        ***************************************************/
+        @media only screen and (max-device-width: 480px) {
+            /* Part one of controlling phone number linking for mobile. */
+            a[href^=3D"tel"], a[href^=3D"sms"] {
+                        text-decoration: none;
+                        color: blue; /* or whatever your want */
+                        pointer-events: none;
+                        cursor: default;
+                    }
+            .mobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {
+                        text-decoration: default;
+                        pointer-events: auto;
+                        cursor: default;
+                    }
+        }
+        /* More Specific Targeting */
+        @media only screen and (min-device-width: 768px) and =
+(max-device-width: 1024px) {
+        /* You guessed it, ipad (tablets, smaller screens, etc) */
+            /* repeating for the ipad */
+            a[href^=3D"tel"], a[href^=3D"sms"] {
+                        text-decoration: none;
+                        color: blue; /* or whatever your want */
+                        pointer-events: none;
+                        cursor: default;
+                    }
+            .mobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {
+                        text-decoration: default;
+                        pointer-events: auto;
+                        cursor: default;
+                    }
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        /* Put your iPhone 4g styles in here */=20
+        }
+        /* Android targeting */
+        @media only screen and (-webkit-device-pixel-ratio:.75){
+        /* Put CSS for low density (ldpi) Android layouts in here */
+        }
+        @media only screen and (-webkit-device-pixel-ratio:1){
+        /* Put CSS for medium density (mdpi) Android layouts in here */
+        }
+        @media only screen and (-webkit-device-pixel-ratio:1.5){
+        /* Put CSS for high density (hdpi) Android layouts in here */
+        }
+        /* end Android targeting */
+    </style><!-- Targeting Windows Mobile --><!--[if IEMobile 7]>
+    <style type=3D"text/css">
+   =20
+    </style>
+    <![endif]--><!-- ***********************************************
+    ****************************************************
+    END MOBILE TARGETING
+    ****************************************************
+    ************************************************ --><!--[if gte mso =
+9]>
+        <style>
+        /* Target Outlook 2007 and 2010 */
+        </style>
+    <![endif]--></head><body>
+    <!-- Wrapper/Container Table: Use a wrapper table to control the width =
+and the background color consistently of your email. Use this approach =
+instead of setting attributes on the body tag. -->
+    <table style=3D"width:100%;" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" id=3D"backgroundTable"><tbody><!-- START HEADER =
+--><tr><td align=3D"center">
+<center><img style=3D"padding-top:5px; padding-bottom:0px;max-width:70%; =
+width: 350px" alt=3D"Joe Torsella for Treasurer" src=3D"https://s.bsd.net/=
+torsella/main/page/-/Logo_Joe-Torsella_Final_Horiz-cropped.png"></center>
+
+            =20
+                </td>
+            </tr><!-- END HEADER --><!-- START BODY --><tr><td =
+style=3D"padding: 0px 10px 10px 10px; font-size:15px; =
+font-family:verdana,sans-serif; color:#000000" width=3D"90%">
+                  =20
+<p style=3D"font-size: 20px">
+	<strong>John Podesta: <a href=3D"http://go.joetorsella.com/page/m/261f3a4=
+b/55aec3f2/4e8d67e3/147bbab9/2748505260/VEsH/" style=3D"color: #0f75bc;" =
+title=3D"http://go.joetorsella.com/page/s/issue-survey?source=3DMS_EM_PET_=
+2016.03.12_B1_survey_X__F1_S1_C1__ALL">Let us know what matters most to =
+you &gt;&gt;</a></strong></p>
+<div style=3D"border: solid 1px #0068b2; border-bottom: solid 4px #0068b2; =
+background-color: #f8f8f8; padding: 15px; text-align: left; border-radius: =
+15px">
+	<p style=3D"font-size: 15px">
+		<span style=3D"font-size:16px;">Joe is committed to fighting for working =
+families and fostering accountability and transparency as =
+Pennsylvania&rsquo;s State Treasurer.<br><br>
+		He already has plans for the future, but John, he wants to know =
+what&rsquo;s important to you.</span><br><br><strong><a =
+href=3D"http://go.joetorsella.com/page/m/261f3a4b/55aec3f2/4e8d67e3/147bba=
+b9/2748505260/VEsE/" style=3D"color: black; " title=3D"http://go.joetorsel=
+la.com/page/s/issue-survey?source=3DMS_EM_PET_2016.03.12_B1_survey_X__F1_S=
+1_C1__ALL">Will you take our Pennsylvania Priorities Survey and let us =
+know what you think Joe should focus on?</a></strong></p>
+	<div align=3D"left">
+		<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"100%"><tbody><tr><td valign=3D"top">
+						<table align=3D"left" cellpadding=3D"0" cellspacing=3D"4" =
+table=3D""><tbody><tr><td bgcolor=3D"#0f75bc" height=3D"48" =
+style=3D"border-radius: 8px; color: #0f75bc; display: block; =
+border-bottom: 4px solid #0b5b93; text-align: center;" width=3D"280">
+										<strong><strong><a href=3D"http://go.joetorsella.com/page/m/261f=
+3a4b/55aec3f2/4e8d67e3/147bbab9/2748505260/VEsF/" style=3D"color: #ffffff; =
+font-size: 18px; font-weight: bold; font-family: Avenir, Arial, =
+sans-serif; line-height: 48px; width: 280px; display: inline-block; =
+text-decoration: none;" title=3D"http://go.joetorsella.com/page/s/issue-su=
+rvey?source=3DMS_EM_PET_2016.03.12_B1_survey_X__F1_S1_C1__ALL">TAKE OUR =
+SURVEY &gt;&gt;</a></strong></strong></td>
+								</tr></tbody></table></td>
+				</tr></tbody></table></div>
+</div>
+<p style=3D"font-size: 15px;">
+	A lifelong Pennsylvanian with decades of impressive experience, Joe =
+Torsella is running for Treasurer to make an impact for hardworking =
+Pennsylvania families.<br><br>
+	We know what&rsquo;s key in the Keystone State, and it&rsquo;s simple: =
+<em>your</em> opinion matters most of all.<br><br>
+	So we&rsquo;re reaching out to find out how you want to see Pennsylvania =
+move forward.</p>
+<center>
+	<p>
+		<strong><a href=3D"http://go.joetorsella.com/page/m/261f3a4b/55aec3f2/4e=
+8d67e3/147bbab9/2748505260/VEsC/" style=3D"color: #0f75bc; font-size: =
+18px; text-decoration: none;" title=3D"http://go.joetorsella.com/page/s/is=
+sue-survey?source=3DMS_EM_PET_2016.03.12_B1_survey_X__F1_S1_C1__ALL">John, =
+will you take 2 minutes to complete our Pennsylvania Priorities Survey =
+today?</a></strong></p>
+</center>
+<center>
+	<a href=3D"http://go.joetorsella.com/page/m/261f3a4b/55aec3f2/4e8d67e3/14=
+7bbab9/2748505260/VEsD/" style=3D"color: black; font-size: 15px; =
+text-decoration: none;" title=3D"http://go.joetorsella.com/page/s/issue-su=
+rvey?source=3DMS_EM_PET_2016.03.12_B1_survey_X__F1_S1_C1__ALL"><img =
+src=3D"https://s.bsd.net/torsella/main/page/-/20160309_Survey.jpg" =
+style=3D"max-width: 400px" width=3D"90%"></a></center>
+<p style=3D"font-size: 15px;">
+	Joe has been a longtime advocate for Pennsylvania families and a champion =
+of integrity and smart policy.<br><br><span style=3D"background-color: =
+#ffea00">And&nbsp;John, he has an enduring track record to back it =
+up.</span></p>
+<p style=3D"font-size: 15px; margin-left: 40px;">
+	<img src=3D"https://s.bsd.net/torsella/main/page/-/JT_checkmark.png" =
+style=3D"max-width: 15px" width=3D"90%">As Philadelphia&rsquo;s Deputy =
+Mayor for Policy and Planning under Ed Rendell, Joe helped close a $1.25 =
+billion deficit without raising taxes.</p>
+<p style=3D"font-size: 15px; margin-left: 40px;">
+	<img src=3D"https://s.bsd.net/torsella/main/page/-/JT_checkmark.png" =
+style=3D"max-width: 15px" width=3D"90%">He was a driving force behind the =
+National Constitution Center, later serving as President and CEO and =
+bringing it to international acclaim and financial stability.</p>
+<p style=3D"font-size: 15px; margin-left: 40px;">
+	<img src=3D"https://s.bsd.net/torsella/main/page/-/JT_checkmark.png" =
+style=3D"max-width: 15px" width=3D"90%">He brought transparency to the =
+United Nations as the U.S. Ambassador for Management and Reform -- and =
+he&rsquo;s ready to bring this kind of openness and accountability to =
+Pennsylvania.</p>
+<p style=3D"font-size: 15px">
+	But even though Joe has already won praise for his vision for our =
+Commonwealth, he knows there are many other challenges ahead and areas to =
+focus on.<br><br>
+	And John, that&rsquo;s why it&rsquo;s so crucial we hear from =
+you.<br><br><strong><a href=3D"http://go.joetorsella.com/page/m/261f3a4b/5=
+5aec3f2/4e8d67e3/147bbab9/2748505260/VEsA/" style=3D"color: black; =
+font-size: 15px; text-decoration: none;" title=3D"http://go.joetorsella.co=
+m/page/s/issue-survey?source=3DMS_EM_PET_2016.03.12_B1_survey_X__F1_S1_C1_=
+_ALL">Take our survey to let us know what issues you want Joe to focus =
+on:</a></strong><br><br><strong><a href=3D"http://go.joetorsella.com/page/=
+m/261f3a4b/55aec3f2/4e8d67e3/147bbab9/2748505260/VEsB/" style=3D"color: =
+#0f75bc; font-size: 18px;" title=3D"http://go.joetorsella.com/page/s/issue=
+-survey?source=3DMS_EM_PET_2016.03.12_B1_survey_X__F1_S1_C1__ALL">http://g=
+o.joetorsella.com/PA-priorities-survey</a></strong><br><br>
+	Thank you for sharing your input! We look forward to reading your =
+responses.<br><br>
+	- Team Torsella</p>
+<p>
+	&nbsp;</p><!-- END BODY --><!-- START SPACING =
+--><br><br><br><br><br><br><br><br><br><br><br><br><!-- END SPACING =
+--><!-- START FOOTER --><!-- START PAID FOR BOX --><center>
+	<center>
+		<table cellspacing=3D"0" style=3D"max-width: 600px;"><tbody><tr><td =
+bgcolor=3D"#ffffff" style=3D"border-top: 6px solid #f1f1f1;border-bottom: =
+6px solid #f1f1f1;" valign=3D"top" width=3D"100%">
+						<div style=3D"padding: 5px; text-align: center;  border-radius: =
+15px;border-bottom: #ffffff 4px solid;border: #ffffff 1px solid">
+							<center>
+								<center>
+									<table cellpadding=3D"15" cellspacing=3D"0" =
+style=3D"border-collapse: collapse; width: 100%;"><tbody><tr><td =
+style=3D"border-radius:15px;" valign=3D"top">
+													<center>
+														<a href=3D"http://go.joetorsella.com/page/m/261f3a4b/55aec3f=
+2/4e8d67e3/147bbaba/2748505260/VEsO/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3RhQGxh=
+dy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk1ZWE=
+4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpTVlRW=
+RUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwMSIsIkpTVklUMDFGVU=
+VoUFRrVWxKUT09IjoiMjAyMjQ0NTY3MyIsIkpTVlBRME5WVUVGVVNVOU9KU1U9IjoiIiwiSlNW=
+RlRWQk1UMWxGVWlVbCI6IiJ9/" title=3D"https://secure.actblue.com/contribute/=
+page/torsellafooter?refcode=3DMS_EM_FR_X_X_footer_X__X_X_X__X&amp;recurrin=
+g=3Dauto&amp;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=
+=3Dpodesta@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&=
+amp;city=3DWashington&amp;state=3DDC&amp;zip=3D20001&amp;phone=3D202244567=
+3&amp;occupation=3D&amp;employer=3D"><img alt=3D"RALPH NORTHAM FOR =
+GOVERNOR" src=3D"https://s.bsd.net/torsella/main/page/-/Logo-500.png" =
+style=3D"max-width:90%;" width=3D"259"></a><br><br><center>
+															<table cellpadding=3D"5" cellspacing=3D"1" =
+style=3D"border-collapse: collapse; max-width: 550px;"><tbody><tr><td =
+align=3D"center" style=3D"padding: 5px 10px 5px 10px;border:solid 1px =
+#3d3b6e;font-size:13px;">
+																			<span style=3D"color:#001022;font-family: Avenir, =
+Helvetica, Arial, sans-serif;">PAID FOR BY<br><strong>FRIENDS OF JOE =
+TORSELLA</strong></span></td>
+																	</tr></tbody></table></center>
+														<br><!-- END PAID FOR BOX --><!-- START UNSUBSCRIBE TEXT =
+--><span style=3D"font-size: 10px"><span style=3D"color:#696969;">This =
+message was sent to: podesta@law.georgetown.edu | Change or update your =
+email address by clicking </span><strong><a href=3D"http://go.joetorsella.=
+com/page/m/261f3a4b/55aec3f2/4e8d67e3/147bbabb/2748505260/VEsP/" =
+style=3D"color:#696969;" title=3D"http://go.joetorsella.com/page/s/update-=
+your-information?source=3DMS_EM_PET_X_X_footer_X__X__X"><span =
+style=3D"color:#696969;">here</span></a></strong><span =
+style=3D"color:#696969;"><strong>.</strong><br><br>
+        We believe that emails are a crucial way for our campaign to stay =
+in touch with supporters like you. If you'd like to receive fewer emails, =
+you can </span><strong><a href=3D"http://go.joetorsella.com/page/m/261f3a4=
+b/55aec3f2/4e8d67e3/147bbabc/2748505260/VEsHBQ/p/eyJKU1ZGVFVGSlRDVWwiOiJwb=
+2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSJ9/" style=3D"color:#696969;" =
+title=3D"http://go.joetorsella.com/page/s/Urgents?email=3Dpodesta@law.geor=
+getown.edu&amp;source=3DMS_EM_PET_X_X_footer_X__X__X"><span =
+style=3D"color:#696969;">click here</span></a></strong><span =
+style=3D"color:#696969;"><strong>.</strong><br><br>
+        Our campaign is powered by supporters like you. Your grassroots =
+support is critical to helping Joe's campaign for Pennsylvania State =
+Treasurer.</span><span style=3D"color:#696969;">&nbsp;If you&rsquo;d still =
+like to unsubscribe from our emails, </span><strong><a =
+href=3D"http://go.joetorsella.com/page/m/261f3a4b/55aec3f2/4e8d67e3/147bba=
+bd/2748505260/VEsHBA/" style=3D"color:#696969;" =
+title=3D"http://go.joetorsella.com/page/unsubscribe/"><span =
+style=3D"color:#696969;">click here</span></a><span =
+style=3D"color:#696969;">.&nbsp;</span></strong><span style=3D"color: =
+rgb(105, 105, 105);">If you'd like to donate to our campaign, =
+please&nbsp;</span><strong><a href=3D"http://go.joetorsella.com/page/m/261=
+f3a4b/55aec3f2/4e8d67e3/147bbabe/2748505260/VEsHBw/" =
+style=3D"color:#696969;" title=3D"https://secure.actblue.com/contribute/pa=
+ge/torsellafooter?refcode=3DMS_EM_FR_X_X_footer_X__X_X_X__X&amp;amounts=3D=
+15,25,100,250,500,1000,2600&amp;amount=3D25&amp;recurring=3Dtrue"><span =
+style=3D"color: rgb(105, 105, 105);">click here</span></a><span =
+style=3D"color: rgb(105, 105, 105);">.&nbsp;</span></strong><span =
+style=3D"color: rgb(105, 105, 105); font-size: 10px;">Thanks for having =
+Joe's back!</span></span><br><br><center>
+															<table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" =
+table=3D""><tbody><tr><td align=3D"center" bgcolor=3D"#0f75bc" =
+height=3D"40" style=3D"border-radius: 5px; color: rgb(255, 255, 255); =
+display: block;" width=3D"170">
+																			<span style=3D"color:#00A44F;font-family:Avenir,Helveti=
+ca,Arial,Sans-Serif;"><span style=3D"font-size: 11px;"><span =
+style=3D"color:#00A44F;"><span style=3D"font-size:18px;"><strong><a =
+href=3D"http://go.joetorsella.com/page/m/261f3a4b/55aec3f2/4e8d67e3/147bba=
+ba/2748505260/VEsHBg/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3d=
+uLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk1ZWE4wYm1GdFpTVWwiO=
+iJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpTVlRWRUZVUlY5QlFrSlN=
+KU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwMSIsIkpTVklUMDFGVUVoUFRrVWxKUT09I=
+joiMjAyMjQ0NTY3MyIsIkpTVlBRME5WVUVGVVNVOU9KU1U9IjoiIiwiSlNWRlRWQk1UMWxGVWl=
+VbCI6IiJ9/" style=3D"color: rgb(255, 255, 255); font-size: 14px; =
+font-family: Avenir, Tahoma, Arial, sans-serif; text-decoration: none; =
+line-height: 40px; width: 170px; display: inline-block;" =
+title=3D"https://secure.actblue.com/contribute/page/torsellafooter?refcode=
+=3DMS_EM_FR_X_X_footer_X__X_X_X__X&amp;recurring=3Dauto&amp;amount=3D25&am=
+p;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta@law.georgetown.e=
+du&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=3DWashington&amp;s=
+tate=3DDC&amp;zip=3D20001&amp;phone=3D2022445673&amp;occupation=3D&amp;emp=
+loyer=3D">DONATE &gt;&gt;</a></strong></span></span></span></span></td>
+																	</tr></tbody></table></center>
+													</center>
+												</td>
+											</tr></tbody></table></center>
+							</center>
+						</div>
+					</td>
+				</tr></tbody></table></center>
+	<!-- END UNSUBSCRIBE TEXT --><!-- END FOOTER --><!-- End of wrapper table =
+--></center></td></tr></tbody></table><img src=3D"http://go.joetorsella.co=
+m/page/o/261f3a4b/55aec3f2/4e8d67e3/147bbabf/2748505260/open.gif" =
+width=3D"1" height=3D"1"></body></html>
+
+
+
+--b1_61c11cf0a4172d596bdd9e9ec34d346b--

@@ -1,0 +1,724 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp1520648lfb;
+        Mon, 22 Feb 2016 19:29:55 -0800 (PST)
+X-Received: by 10.112.183.169 with SMTP id en9mr11030359lbc.4.1456198195681;
+        Mon, 22 Feb 2016 19:29:55 -0800 (PST)
+Return-Path: <speechdrafts+bncBC5L53NT4IIRBM5EV63AKGQEAIUANBQ@hillaryclinton.com>
+Received: from mail-lf0-x247.google.com (mail-lf0-x247.google.com. [2a00:1450:4010:c07::247])
+        by mx.google.com with ESMTPS id 134si743495lfa.121.2016.02.22.19.29.55
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Feb 2016 19:29:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBC5L53NT4IIRBM5EV63AKGQEAIUANBQ@hillaryclinton.com designates 2a00:1450:4010:c07::247 as permitted sender) client-ip=2a00:1450:4010:c07::247;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBC5L53NT4IIRBM5EV63AKGQEAIUANBQ@hillaryclinton.com designates 2a00:1450:4010:c07::247 as permitted sender) smtp.mailfrom=speechdrafts+bncBC5L53NT4IIRBM5EV63AKGQEAIUANBQ@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lf0-x247.google.com with SMTP id j99sf5510552lfi.1
+        for <john.podesta@gmail.com>; Mon, 22 Feb 2016 19:29:55 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:from:references:in-reply-to:mime-version:thread-index:date
+         :message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=q0XCPKHJzLKuPC5SpNZWlw4aVT47GbCBV4D5+bMDL80=;
+        b=ckZXB4dtgzKKvpEILuWjxDFUbXQofGz2TYZgb3xblK7tTbW+Vf+gUD32qaHsmFdlKo
+         dhK3mhqCZoSr7Dzhbl1K7HfoYzF4Q+6vsTjnQ25s0RQ+k97anCJr4Gj2kYeQkxEqYttO
+         tiyDVhzHUupvAm0AflrZGWSDz/zGwGGsBKHPo=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:from:references:in-reply-to:mime-version
+         :thread-index:date:message-id:subject:to:cc:content-type
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-unsubscribe;
+        bh=q0XCPKHJzLKuPC5SpNZWlw4aVT47GbCBV4D5+bMDL80=;
+        b=mfrgoXph4wvZScjBEvUNuP6CeHuvesWMPQm1Kdu1suI9P4GIyKFh5CfaQtVx0UVJKH
+         L6tNexK5HVbEIaj0WqkGin01bYM9Z8cZre35DlbZ5xQD93Zo4HRq2rYsxEaxPG9l/Klz
+         9NoGKoZGUzC1hmxakzXNuXsdMxCgfbgCein3kOJ/cPpGOb4qCDl9fZLdCILqK4ZpNqy/
+         wMOIgLxEVArBMuS4+9vJlthcrIKQrrsd73a35CtXf+MqG/nLAtawV+y+Prz1Swl4aKZH
+         j+rRHG47uBYx3YjKeacgTCoaisXzAI7ahN4OMop3Ax8UrkPLuX9xO8Q6xvlofSVMWF63
+         L4Gg==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: AG10YOT80nPYkZnRsgS9iP0K+y+XATbgAyOuuNXaEe1i83TPbOFtebVircesFWvcG4jMBTK3
+X-Received: by 10.112.151.240 with SMTP id ut16mr3846377lbb.16.1456198195528;
+        Mon, 22 Feb 2016 19:29:55 -0800 (PST)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.28.7.85 with SMTP id 82ls544319wmh.28.gmail; Mon, 22 Feb 2016
+ 19:29:55 -0800 (PST)
+X-Received: by 10.28.175.139 with SMTP id y133mr14716661wme.45.1456198195088;
+        Mon, 22 Feb 2016 19:29:55 -0800 (PST)
+Received: from mail-wm0-x22d.google.com (mail-wm0-x22d.google.com. [2a00:1450:400c:c09::22d])
+        by mx.google.com with ESMTPS id u81si36858778wmb.3.2016.02.22.19.29.55
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Feb 2016 19:29:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of kcosta@hillaryclinton.com designates 2a00:1450:400c:c09::22d as permitted sender) client-ip=2a00:1450:400c:c09::22d;
+Received: by mail-wm0-x22d.google.com with SMTP id b205so181786314wmb.1
+        for <speechdrafts@hillaryclinton.com>; Mon, 22 Feb 2016 19:29:55 -0800 (PST)
+X-Received: by 10.194.92.107 with SMTP id cl11mr36328067wjb.21.1456198194821;
+ Mon, 22 Feb 2016 19:29:54 -0800 (PST)
+From: Kristina Costa <kcosta@hillaryclinton.com>
+References: <b6882d75e6ad1b5f3586eb85d0c1b796@mail.gmail.com>
+	<CAH2oiq+WQd1T6gWZBaEzKN_bQDFjsV4-_c1eog0mPViTk+JxiA@mail.gmail.com>
+	<9025167431599475759@unknownmsgid>	<2589061814790674732@unknownmsgid>
+	<CAOFhrdQF_+-8iXDtPB9bSqfZk8bO2cdi3pBvWBo==3autP63hA@mail.gmail.com> <CAOFhrdT0HPhECe-2toLO9f37A_J34WT=iMR7sBBg-mYJej_Gew@mail.gmail.com>
+In-Reply-To: <CAOFhrdT0HPhECe-2toLO9f37A_J34WT=iMR7sBBg-mYJej_Gew@mail.gmail.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQEtmEp5N0agAmWbqUJmQ2dEdgGoCAJQ8iicAbdKUNkBaJBGcQIjNvSdAc4moWegNZLr0A==
+Date: Mon, 22 Feb 2016 22:29:57 -0500
+Message-ID: <5a1868fcca33a88639ce40a8893c8b12@mail.gmail.com>
+Subject: RE: For the book: TPs for Mothers of the Movement
+To: Corey Ciorciari <cciorciari@hillaryclinton.com>
+CC: Jennifer Palmieri <jpalmieri@hillaryclinton.com>, 
+ Speech Book <speechbook@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>
+Content-Type: multipart/mixed; boundary=047d7bf0d2d420da54052c6790ea
+X-Original-Sender: kcosta@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of kcosta@hillaryclinton.com designates 2a00:1450:400c:c09::22d as
+ permitted sender) smtp.mailfrom=kcosta@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <https://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--047d7bf0d2d420da54052c6790ea
+Content-Type: multipart/alternative; boundary=047d7bf0d2d420da4f052c6790e8
+
+
+--047d7bf0d2d420da4f052c6790e8
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Revised points, which are good with Dan, Corey, and Maya, and build on
+Jen=E2=80=99s edits, attached here for the book. Thanks all.
+
+
+
+*From:* Corey Ciorciari [mailto:cciorciari@hillaryclinton.com]
+*Sent:* Monday, February 22, 2016 9:34 PM
+*To:* Kristina Costa <kcosta@hillaryclinton.com>
+*Cc:* Jennifer Palmieri <jpalmieri@hillaryclinton.com>; Speech Book <
+speechbook@hillaryclinton.com>; Speech Drafts <
+speechdrafts@hillaryclinton.com>
+*Subject:* Re: For the book: TPs for Mothers of the Movement
+
+
+
+Sorry, reading again with Maya and I misread your edits Jen.
+
+
+
+To restate, I think it might be worth pulling the moms of gun violence into
+the gun violence section so that we don't conflate police vs. guns.
+
+
+
+
+
+
+
+On Mon, Feb 22, 2016 at 9:14 PM, Corey Ciorciari <
+cciorciari@hillaryclinton.com> wrote:
+
+Just need to sync up the first two paragraphs of the Mothers section. Not
+all those mothers had children that died in police incidents. Then we can
+pull the names of moms who lost children to guns into the guns section.
+
+
+
+On Mon, Feb 22, 2016 at 9:09 PM, Kristina Costa <kcosta@hillaryclinton.com>
+wrote:
+
+So the idea was to give her some units she can riff on. Not expecting to be
+delivered as written.
+
+/KLC
+
+
+On Feb 22, 2016, at 9:07 PM, Kristina Costa <kcosta@hillaryclinton.com>
+wrote:
+
+No podium. They will all be seated.
+
+
+/KLC
+
+
+On Feb 22, 2016, at 9:07 PM, Jennifer Palmieri <jpalmieri@hillaryclinton.co=
+m>
+wrote:
+
+Sooo...i made edits but blew it and did not track changes.
+
+
+
+I combined Mothers, systemic racism and criminal justice in one section.
+
+
+
+Anyone know if she is going to have a podium at this one?
+
+
+
+On Mon, Feb 22, 2016 at 8:30 PM, Kristina Costa <kcosta@hillaryclinton.com>
+wrote:
+
+Attaching updated TPs for HRC=E2=80=99s remarks with the Mothers of the Mov=
+ement
+tomorrow. Will send any further edits that come in overnight.
+
+
+
+<2016-02-22 mothers of the movement roundtable 8pm jmp revisions.docx>
+
+
+
+
+
+--=20
+
+Corey Ciorciari
+
+Policy Department
+
+Hillary for America
+
+@CoreyCiorciari
+
+
+
+
+
+--=20
+
+Corey Ciorciari
+
+Policy Department
+
+Hillary for America
+
+@CoreyCiorciari
+
+--047d7bf0d2d420da4f052c6790e8
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered m=
+edium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.hoenzb
+	{mso-style-name:hoenzb;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3D"EN-US" link=3D"blue" vlink=3D"purple"><div =
+class=3D"WordSection1"><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">Revised points=
+, which are good with Dan, Corey, and Maya, and build on Jen=E2=80=99s edit=
+s, attached here for the book. Thanks all. </span></p><p class=3D"MsoNormal=
+"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-seri=
+f;color:#1f497d">=C2=A0</span></p><p class=3D"MsoNormal"><b><span style=3D"=
+font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">From:</span></=
+b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-seri=
+f"> Corey Ciorciari [mailto:<a href=3D"mailto:cciorciari@hillaryclinton.com=
+">cciorciari@hillaryclinton.com</a>] <br><b>Sent:</b> Monday, February 22, =
+2016 9:34 PM<br><b>To:</b> Kristina Costa &lt;<a href=3D"mailto:kcosta@hill=
+aryclinton.com">kcosta@hillaryclinton.com</a>&gt;<br><b>Cc:</b> Jennifer Pa=
+lmieri &lt;<a href=3D"mailto:jpalmieri@hillaryclinton.com">jpalmieri@hillar=
+yclinton.com</a>&gt;; Speech Book &lt;<a href=3D"mailto:speechbook@hillaryc=
+linton.com">speechbook@hillaryclinton.com</a>&gt;; Speech Drafts &lt;<a hre=
+f=3D"mailto:speechdrafts@hillaryclinton.com">speechdrafts@hillaryclinton.co=
+m</a>&gt;<br><b>Subject:</b> Re: For the book: TPs for Mothers of the Movem=
+ent</span></p><p class=3D"MsoNormal">=C2=A0</p><div><p class=3D"MsoNormal">=
+Sorry, reading again with Maya and I misread your edits Jen.=C2=A0</p><div>=
+<p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal">To resta=
+te, I think it might be worth pulling the moms of gun violence into the gun=
+ violence section so that we don&#39;t conflate police vs. guns.</p><div><d=
+iv><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal">=C2=
+=A0</p></div></div></div></div><div><p class=3D"MsoNormal">=C2=A0</p><div><=
+p class=3D"MsoNormal">On Mon, Feb 22, 2016 at 9:14 PM, Corey Ciorciari &lt;=
+<a href=3D"mailto:cciorciari@hillaryclinton.com" target=3D"_blank">cciorcia=
+ri@hillaryclinton.com</a>&gt; wrote:</p><blockquote style=3D"border:none;bo=
+rder-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;m=
+argin-right:0in"><div><p class=3D"MsoNormal">Just need to sync up the first=
+ two paragraphs of the Mothers section. Not all those mothers had children =
+that died in police incidents. Then we can pull the names of moms who lost =
+children to guns into the guns section.</p></div><div><div><div><p class=3D=
+"MsoNormal">=C2=A0</p><div><p class=3D"MsoNormal">On Mon, Feb 22, 2016 at 9=
+:09 PM, Kristina Costa &lt;<a href=3D"mailto:kcosta@hillaryclinton.com" tar=
+get=3D"_blank">kcosta@hillaryclinton.com</a>&gt; wrote:</p><blockquote styl=
+e=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;=
+margin-left:4.8pt;margin-right:0in"><div><div><p class=3D"MsoNormal">So the=
+ idea was to give her some units she can riff on. Not expecting to be deliv=
+ered as written.<br><br>/KLC</p></div><div><div><div><p class=3D"MsoNormal"=
+ style=3D"margin-bottom:12.0pt"><br>On Feb 22, 2016, at 9:07 PM, Kristina C=
+osta &lt;<a href=3D"mailto:kcosta@hillaryclinton.com" target=3D"_blank">kco=
+sta@hillaryclinton.com</a>&gt; wrote:</p></div><blockquote style=3D"margin-=
+top:5.0pt;margin-bottom:5.0pt"><div><div><p class=3D"MsoNormal">No podium. =
+They will all be seated.</p></div><div><p class=3D"MsoNormal"><br>/KLC</p><=
+/div><div><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>On Feb =
+22, 2016, at 9:07 PM, Jennifer Palmieri &lt;<a href=3D"mailto:jpalmieri@hil=
+laryclinton.com" target=3D"_blank">jpalmieri@hillaryclinton.com</a>&gt; wro=
+te:</p></div><blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt"><di=
+v><div><p class=3D"MsoNormal">Sooo...i made edits but blew it and did not t=
+rack changes. =C2=A0</p><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p=
+ class=3D"MsoNormal">I combined Mothers, systemic racism and criminal justi=
+ce in one section. =C2=A0</p></div><div><p class=3D"MsoNormal">=C2=A0</p></=
+div><div><p class=3D"MsoNormal">Anyone know if she is going to have a podiu=
+m at this one?=C2=A0</p></div></div><div><p class=3D"MsoNormal">=C2=A0</p><=
+div><p class=3D"MsoNormal">On Mon, Feb 22, 2016 at 8:30 PM, Kristina Costa =
+&lt;<a href=3D"mailto:kcosta@hillaryclinton.com" target=3D"_blank">kcosta@h=
+illaryclinton.com</a>&gt; wrote:</p><blockquote style=3D"border:none;border=
+-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;margi=
+n-right:0in"><div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:a=
+uto;mso-margin-bottom-alt:auto">Attaching updated TPs for HRC=E2=80=99s rem=
+arks with the Mothers of the Movement tomorrow. Will send any further edits=
+ that come in overnight. </p></div></div></blockquote></div><p class=3D"Mso=
+Normal">=C2=A0</p></div></div></blockquote><blockquote style=3D"margin-top:=
+5.0pt;margin-bottom:5.0pt"><div><p class=3D"MsoNormal">&lt;2016-02-22 mothe=
+rs of the movement roundtable 8pm jmp revisions.docx&gt;</p></div></blockqu=
+ote></div></blockquote></div></div></div></blockquote></div><p class=3D"Mso=
+Normal"><br><br clear=3D"all"></p><div><p class=3D"MsoNormal">=C2=A0</p></d=
+iv></div></div><p class=3D"MsoNormal"><span class=3D"hoenzb"><span style=3D=
+"color:#888888">-- </span></span></p><div><div><p class=3D"MsoNormal"><span=
+ style=3D"font-size:11.5pt;color:#212121">Corey Ciorciari</span></p><div><p=
+ class=3D"MsoNormal"><span style=3D"font-size:11.5pt;color:#212121">Policy =
+Department</span></p></div><div><p class=3D"MsoNormal"><span style=3D"font-=
+size:11.5pt;color:#212121">Hillary for America</span></p></div><div><p clas=
+s=3D"MsoNormal"><span style=3D"font-size:11.5pt;color:#212121">@CoreyCiorci=
+ari</span></p></div></div></div></div></blockquote></div><p class=3D"MsoNor=
+mal"><br><br clear=3D"all"></p><div><p class=3D"MsoNormal">=C2=A0</p></div>=
+<p class=3D"MsoNormal">-- </p><div><div><p class=3D"MsoNormal"><span style=
+=3D"font-size:11.5pt;color:#212121">Corey Ciorciari</span></p><div><p class=
+=3D"MsoNormal"><span style=3D"font-size:11.5pt;color:#212121">Policy Depart=
+ment</span></p></div><div><p class=3D"MsoNormal"><span style=3D"font-size:1=
+1.5pt;color:#212121">Hillary for America</span></p></div><div><p class=3D"M=
+soNormal"><span style=3D"font-size:11.5pt;color:#212121">@CoreyCiorciari</s=
+pan></p></div></div></div></div></div></body></html>
+
+--047d7bf0d2d420da4f052c6790e8--
+
+--047d7bf0d2d420da54052c6790ea
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document; 
+	name="2016-02-22 mothers of the movement roundtable 940pm.docx"
+Content-Disposition: attachment; 
+	filename="2016-02-22 mothers of the movement roundtable 940pm.docx"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: 3a675e90ad064c37_0.1
+
+UEsDBBQABgAIAAAAIQB6ITA6gQEAAC0HAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0
+lctuwjAQRfeV+g+Rt1Vi6KKqKgKLPpYtUukHmHgCVv2SPbz+vhMCUVUBQYVsIjkz997jsWQPRmuj
+kyWEqJzNWT/rsQRs4aSys5x9Td7SR5ZEFFYK7SzkbAORjYa3N4PJxkNMSG1jzuaI/onzWMzBiJg5
+D5YqpQtGIC3DjHtRfIsZ8Pte74EXziJYTLHyYMPBC5RioTF5XdPvmiSAjix5rhurrJwJ77UqBFKd
+L638k5LuEjJSbnviXPl4Rw2MH0yoKscDdroPGk1QEpKxCPguDHXxlQuSS1csDCmz0zYHOF1ZqgIa
+feXmgysgRpq50VlTMULZPf9RDrswUwikvD5IY90KEXGjIV6foPZtjwdEEnQBsHNuRVjB9LMzil/m
+rSClc2gddnEajXUrBFjZEcPe+aw5QOh3MwUIZ+RTnphq6IJgZ90KgXQdQ/29fBJbm1OR1DkOzke6
+3sM/tr2/vyt1Shv2EFCdPukmkawv3h9UT4MEeSCbbx+74Q8AAAD//wMAUEsDBBQABgAIAAAAIQAe
+kRq37wAAAE4CAAALAAgCX3JlbHMvLnJlbHMgogQCKKAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArJLBasMwDEDvg/2D0b1R2sEYo04vY9Db
+GNkHCFtJTBPb2GrX/v082NgCXelhR8vS05PQenOcRnXglF3wGpZVDYq9Cdb5XsNb+7x4AJWFvKUx
+eNZw4gyb5vZm/cojSSnKg4tZFYrPGgaR+IiYzcAT5SpE9uWnC2kiKc/UYySzo55xVdf3mH4zoJkx
+1dZqSFt7B6o9Rb6GHbrOGX4KZj+xlzMtkI/C3rJdxFTqk7gyjWop9SwabDAvJZyRYqwKGvC80ep6
+o7+nxYmFLAmhCYkv+3xmXBJa/ueK5hk/Nu8hWbRf4W8bnF1B8wEAAP//AwBQSwMEFAAGAAgAAAAh
+AOUch7YpAQAAPgUAABwACAF3b3JkL19yZWxzL2RvY3VtZW50LnhtbC5yZWxzIKIEASigAAEAAAAA
+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
+--047d7bf0d2d420da54052c6790ea--

@@ -1,0 +1,846 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.170.129 with SMTP id t123csp2211072lfe;
+        Wed, 28 Oct 2015 07:56:18 -0700 (PDT)
+X-Received: by 10.194.87.65 with SMTP id v1mr19854788wjz.42.1446044178838;
+        Wed, 28 Oct 2015 07:56:18 -0700 (PDT)
+Return-Path: <speechdrafts+bncBDQJHRPZSYCBBEWEYOYQKGQEAPU7MKA@hillaryclinton.com>
+Received: from mail-wi0-f198.google.com (mail-wi0-f198.google.com. [209.85.212.198])
+        by mx.google.com with ESMTPS id x7si49885142wjq.156.2015.10.28.07.56.18
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 28 Oct 2015 07:56:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBDQJHRPZSYCBBEWEYOYQKGQEAPU7MKA@hillaryclinton.com designates 209.85.212.198 as permitted sender) client-ip=209.85.212.198;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBDQJHRPZSYCBBEWEYOYQKGQEAPU7MKA@hillaryclinton.com designates 209.85.212.198 as permitted sender) smtp.mailfrom=speechdrafts+bncBDQJHRPZSYCBBEWEYOYQKGQEAPU7MKA@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-f198.google.com with SMTP id fg8sf1wic.0
+        for <john.podesta@gmail.com>; Wed, 28 Oct 2015 07:56:18 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :from:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=tZeJsMfdRrCTsl3wYhSxTJ6jj7NvwdZbMayclQGRzzU=;
+        b=cmHTYnpTJc3Lz5kkDdj1XK/h4TB4M+EtB18OefaSuMwzP6J5KNWOQhFaeavw++lxao
+         KKvTS+Uz3g8NUcyIBINyoIYLyqnpe8GwortJhPTUc4WGq18tY+o1fxyc+wqVd2u02fvi
+         moWqjwHk7JRJFuLEiDssmSRoMErv4gjR7sfEY=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=tZeJsMfdRrCTsl3wYhSxTJ6jj7NvwdZbMayclQGRzzU=;
+        b=TLfAuc73DFdg4ZtKRMkkR9WxD4R6Hk/zILDAyIMTfG0iAL6xZEqEUU1XcAQACc5suZ
+         dQJTPwpGo4vcyhx2Fnrslt1ZmR5Nlv18+kKKbw6sDeYTuZSBZHU8oBKGYbNCfpgg8M9J
+         Oscg70kCWBB1OHWGE1Uj936q/AvMUjMVrrpIR0WSXKh96j2bnX/bmNQIJzHrKDwxj118
+         IaaQt0xUuRwUfPyO1XUxYaSAi70yr2I0nHa75fu76ppM1rnIywgvqHM5orBSbCId3vBs
+         H0QZfbkA87vlF9x+U394YnqawMf1eccvWsiY0mtCp1IGyy0/0/WzgQZQ04vxlqL2ATfc
+         Fsdg==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQkp3X45B04rmTtQpbJ0pHTqsWs7aPAEHz6RuC4P3QQDWrMYARw6++Zi2ijnk+P6J6vjHmbj
+X-Received: by 10.112.133.232 with SMTP id pf8mr1620399lbb.20.1446044178574;
+        Wed, 28 Oct 2015 07:56:18 -0700 (PDT)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.180.102.226 with SMTP id fr2ls951933wib.50.canary; Wed, 28 Oct
+ 2015 07:56:18 -0700 (PDT)
+X-Received: by 10.28.55.209 with SMTP id e200mr1596840wma.79.1446044178035;
+        Wed, 28 Oct 2015 07:56:18 -0700 (PDT)
+Received: from mail-wm0-x22c.google.com (mail-wm0-x22c.google.com. [2a00:1450:400c:c09::22c])
+        by mx.google.com with ESMTPS id j9si56638268wjy.154.2015.10.28.07.56.17
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 28 Oct 2015 07:56:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mrooney@hillaryclinton.com designates 2a00:1450:400c:c09::22c as permitted sender) client-ip=2a00:1450:400c:c09::22c;
+Received: by wmff134 with SMTP id f134so8629799wmf.0
+        for <speechdrafts@hillaryclinton.com>; Wed, 28 Oct 2015 07:56:17 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.28.9.201 with SMTP id 192mr1832438wmj.5.1446044177795; Wed,
+ 28 Oct 2015 07:56:17 -0700 (PDT)
+Received: by 10.27.30.143 with HTTP; Wed, 28 Oct 2015 07:56:17 -0700 (PDT)
+In-Reply-To: <-8067161282551689138@unknownmsgid>
+References: <150aeead1d7-67bf-4b11@webprd-a82.mail.aol.com>
+	<-8067161282551689138@unknownmsgid>
+Date: Wed, 28 Oct 2015 10:56:17 -0400
+Message-ID: <CAFcwtWDSwsWbxjB-6KFRuaAgvU2FFpZDpzvjdhrxyfLCwgwNvA@mail.gmail.com>
+Subject: Re: ADDED RIFF ON GUNS: Politics and Eggs
+From: Megan Rooney <mrooney@hillaryclinton.com>
+To: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+CC: Mandy Grunwald <gruncom@aol.com>, 
+ "re47@hillaryclinton.com" <re47@hillaryclinton.com>, 
+ "dschwerin@hillaryclinton.com" <dschwerin@hillaryclinton.com>, 
+ "eaden@hillaryclinton.com" <eaden@hillaryclinton.com>, 
+ "speechdrafts@hillaryclinton.com" <speechdrafts@hillaryclinton.com>, 
+ "mschmidt@hillaryclinton.com" <mschmidt@hillaryclinton.com>, 
+ "mshapiro@hillaryclinton.com" <mshapiro@hillaryclinton.com>, 
+ "mvlacich@hillaryclinton.com" <mvlacich@hillaryclinton.com>, 
+ "hkirstein@hillaryclinton.com" <hkirstein@hillaryclinton.com>, 
+ "speechbook@hillaryclinton.com" <speechbook@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a114437588c2d1505232b65bc
+X-Original-Sender: mrooney@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of mrooney@hillaryclinton.com designates 2a00:1450:400c:c09::22c as
+ permitted sender) smtp.mailfrom=mrooney@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--001a114437588c2d1505232b65bc
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+OK
+
+On Wed, Oct 28, 2015 at 10:48 AM, Jennifer Palmieri <
+jpalmieri@hillaryclinton.com> wrote:
+
+> Agree with that.
+>
+> Sent from my iPhone
+>
+> On Oct 28, 2015, at 10:47 AM, 'Mandy Grunwald' via Speech Drafts <
+> speechdrafts@hillaryclinton.com> wrote:
+>
+>
+> I want to push back on this.
+>
+> I think we are safer with "go after me".
+>
+> They are very explicit in the NYT piece about ads.
+>
+> =E2=80=9CNone of those ads will mention her or make contrasts, by the way=
+. Bernie
+> has and always will hate negative ads.=E2=80=9D
+>
+> *Mandy Grunwald*
+> *Grunwald Communications*
+> *202 973-9400 <202%20973-9400>*
+>
+>
+> -----Original Message-----
+> From: Megan Rooney <mrooney@hillaryclinton.com>
+> To: Robby Mook <re47@hillaryclinton.com>
+> Cc: Dan Schwerin <dschwerin@hillaryclinton.com>; Mandy Grunwald <
+> gruncom@aol.com>; Emily Aden <eaden@hillaryclinton.com>; Speech Drafts <
+> speechdrafts@hillaryclinton.com>; Mike Schmidt <
+> mschmidt@hillaryclinton.com>; Michael Shapiro <mshapiro@hillaryclinton.co=
+m>;
+> Mike Vlacich <mvlacich@hillaryclinton.com>; Harrell Kirstein <
+> hkirstein@hillaryclinton.com>; Speech Book <speechbook@hillaryclinton.com=
+>
+> Sent: Wed, Oct 28, 2015 10:40 am
+> Subject: Re: ADDED RIFF ON GUNS: Politics and Eggs
+>
+> OK I'm not changing the remarks then.
+>
+> On Wed, Oct 28, 2015 at 10:16 AM, Robby Mook <re47@hillaryclinton.com>
+> wrote:
+>
+>> I would be comfortable being explicit "people have said they will run
+>> attack ads against me".
+>> This is the quote in working from:
+>>
+>> =E2=80=9CIf they keep up these attacks on Bernie as a sexist or as anti-=
+gun
+>> control, or if they start going further down that negative road, I think
+>> we=E2=80=99re going to start looking at whether or not she can really te=
+ll the big
+>> banks to reform when so much of her money comes from Wall Street,=E2=80=
+=9D Mr.
+>> Devine said. =E2=80=9CThat would be step one. Step two would be, you go =
+to Goldman
+>> Sachs and give a speech for an hour and get $200,000 =E2=80=93 and you a=
+re going to
+>> be able to stand up to the banks?=E2=80=9D
+>>
+>>
+>>
+>>
+>> On Oct 28, 2015, at 10:14 AM, Dan Schwerin <dschwerin@hillaryclinton.com=
+>
+>> wrote:
+>>
+>> Mandy, are you saying back off or just that we need to be ready?
+>>
+>> On Wed, Oct 28, 2015 at 10:10 AM, Megan Rooney <
+>> mrooney@hillaryclinton.com> wrote:
+>>
+>>> Good point.
+>>>
+>>> This is the quote so maybe we should change the speech to read:  "I=E2=
+=80=99ve
+>>> been told to stop shouting about ending gun violence.  Some are
+>>> threatening to go after me for speaking out on this issue.  But I won=
+=E2=80=99t
+>>> be silenced, and I hope you won=E2=80=99t be either.  How many more peo=
+ple have
+>>> to die before we take action?
+>>> "We had to fire a shot across their bow, because they were going to
+>>> start to have their way with us," Devine told me. "I pushed [Sanders] h=
+ard
+>>> to do what he did to let them know, if they're going to do this stuff t=
+hat
+>>> two of the 12,000 votes he cast in Congress about guns are the definiti=
+ve
+>>> votes of the election=E2=80=94and oh, by the way, she is yelling becaus=
+e she's a
+>>> woman. If they are going to start going down that road, we are not goin=
+g to
+>>> take it. And it is going to be about a lot of issues where she's gone f=
+rom
+>>> one place to another. We did five of them [at the J-J] and we could do
+>>> 15 more."
+>>>
+>>>
+>>> On Wed, Oct 28, 2015 at 9:59 AM, Mandy Grunwald <gruncom@aol.com> wrote=
+:
+>>>
+>>>>
+>>>> Just want to be sure what quote in Bloomberg story we will attribute
+>>>> this to.
+>>>>
+>>>>
+>>>>
+>>>> *Mandy Grunwald*
+>>>> *Grunwald Communications*
+>>>> *202 973-9400 <202%20973-9400>*
+>>>>
+>>>>
+>>>> -----Original Message-----
+>>>> From: Emily Aden <eaden@hillaryclinton.com>
+>>>> To: Megan Rooney <mrooney@hillaryclinton.com>
+>>>> Cc: Speech Drafts <speechdrafts@hillaryclinton.com>; Mike Schmidt <
+>>>> mschmidt@hillaryclinton.com>; Michael Shapiro <
+>>>> mshapiro@hillaryclinton.com>; Mike Vlacich <mvlacich@hillaryclinton.co=
+m>;
+>>>> Harrell Kirstein <hkirstein@hillaryclinton.com>; Speech Book <
+>>>> speechbook@hillaryclinton.com>
+>>>> Sent: Wed, Oct 28, 2015 9:39 am
+>>>> Subject: Re: ADDED RIFF ON GUNS: Politics and Eggs
+>>>>
+>>>> Good for research
+>>>>
+>>>> Sent from my iPhone
+>>>>
+>>>> On Oct 28, 2015, at 9:25 AM, Megan Rooney <mrooney@hillaryclinton.com>
+>>>> wrote:
+>>>>
+>>>> I've added this riff to today's remarks.  Holler if you want any
+>>>> changes.
+>>>>
+>>>> **
+>>>>
+>>>> Americans want their leaders to come together on issues like these =E2=
+=80=93
+>>>> and many others =E2=80=93 from protecting our environment to improving=
+ our schools
+>>>> to protecting our kids and communities from the gun violence plaguing =
+our
+>>>> country.  And I will fight to bring people together and make progress =
+on
+>>>> all these fronts.
+>>>>
+>>>> I know the issue of gun violence is controversial.  But I don=E2=80=99=
+t care
+>>>> how hard the politics are.  You and your kids should *feel* safe and
+>>>> *be* safe when you go to the school, to the movies, to church.  That=
+=E2=80=99s
+>>>> why I=E2=80=99m proposing commonsense gun safety measures like univers=
+al background
+>>>> checks, closing the loopholes that let guns fall into the wrong hands,=
+ and
+>>>> repealing that law that shields gun makers and sellers from
+>>>> accountability.
+>>>>
+>>>> I=E2=80=99ve been told to stop shouting about ending gun violence.  So=
+me are
+>>>> even threatening to run negative ads against me for speaking out on th=
+is
+>>>> issue.  But I won=E2=80=99t be silenced, and I hope you won=E2=80=99t =
+be either.  How many
+>>>> more people have to die before we take action?
+>>>>
+>>>>
+>>>> On Tue, Oct 27, 2015 at 7:28 PM, Megan Rooney <
+>>>> mrooney@hillaryclinton.com> wrote:
+>>>>
+>>>>> This is ready for the book.  Thanks.
+>>>>>
+>>>>> (Now including more on equal pay -- thank you Team NH)
+>>>>>
+>>>>> On Tue, Oct 27, 2015 at 6:55 PM, Megan Rooney <
+>>>>> mrooney@hillaryclinton.com> wrote:
+>>>>>
+>>>>>> Hey all -- here's a revised draft for tomorrow morning's Politics an=
+d
+>>>>>> Eggs.
+>>>>>>
+>>>>>> As discussed this afternoon, this does not drive a sharp contrast
+>>>>>> with Bernie.  It does drive a contrast with the Republicans.  It's s=
+till a
+>>>>>> speech on the economy.
+>>>>>>
+>>>>>> Please send me edits asap so I can get this to the book.  Otherwise,
+>>>>>> send me edits any time tonight.
+>>>>>>
+>>>>>> Thanks!
+>>>>>>
+>>>>>
+>>>>>
+>>>>
+>>>
+>>
+>
+
+--001a114437588c2d1505232b65bc
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">OK</div><div class=3D"gmail_extra"><br><div class=3D"gmail=
+_quote">On Wed, Oct 28, 2015 at 10:48 AM, Jennifer Palmieri <span dir=3D"lt=
+r">&lt;<a href=3D"mailto:jpalmieri@hillaryclinton.com" target=3D"_blank">jp=
+almieri@hillaryclinton.com</a>&gt;</span> wrote:<br><blockquote class=3D"gm=
+ail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-le=
+ft:1ex"><div dir=3D"auto"><div>Agree with that.=C2=A0<br><br>Sent from my i=
+Phone</div><div><div class=3D"h5"><div><br>On Oct 28, 2015, at 10:47 AM, &#=
+39;Mandy Grunwald&#39; via Speech Drafts &lt;<a href=3D"mailto:speechdrafts=
+@hillaryclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>&=
+gt; wrote:<br><br></div><blockquote type=3D"cite"><div><font color=3D"black=
+" size=3D"2" face=3D"Tahoma, Arial, Helvetica, sans-serif">
+<div style=3D"font-size:13px"><br>
+</div>
+<font size=3D"2">I want to push back on this.</font>
+<div><font size=3D"2"><br>
+</font></div>
+
+<div><font size=3D"2">I think we are safer with &quot;go after me&quot;.</f=
+ont></div>
+
+<div><font size=3D"2"><br>
+</font></div>
+
+<div><font size=3D"2">They are very explicit in the NYT piece about ads.</f=
+ont></div>
+
+<div><font size=3D"2"><br>
+</font></div>
+
+<div><span style=3D"color:rgb(51,51,51);font-family:Georgia,serif;font-size=
+:16px;line-height:22px;background-color:rgb(255,255,255)">=E2=80=9C</span><=
+span style=3D"color:rgb(51,51,51);font-family:Georgia,serif;font-size:16px;=
+line-height:22px;background-color:yellow">None of those ads will mention he=
+r or make contrasts</span><span style=3D"color:rgb(51,51,51);font-family:Ge=
+orgia,serif;font-size:16px;line-height:22px;background-color:rgb(255,255,25=
+5)">, by the way. Bernie has and always will hate negative ads.=E2=80=9D</s=
+pan><font size=3D"2"><br>
+</font><br>
+
+<div style=3D"font-size:13px;clear:both"><b><font face=3D"Tahoma, Arial, He=
+lvetica, sans-serif" color=3D"#4169e1">Mandy Grunwald</font></b>
+<div><b><font face=3D"Tahoma, Arial, Helvetica, sans-serif" color=3D"#4169e=
+1">Grunwald Communications</font></b></div>
+
+<div><b><font face=3D"Tahoma, Arial, Helvetica, sans-serif" color=3D"#4169e=
+1"><a href=3D"tel:202%20973-9400" value=3D"+12029739400" target=3D"_blank">=
+202 973-9400</a></font></b></div>
+</div>
+<br>
+<br>
+
+<div style=3D"font-size:10pt;font-family:helvetica,arial;color:black">-----=
+Original Message-----<br>
+From: Megan Rooney &lt;<a href=3D"mailto:mrooney@hillaryclinton.com" target=
+=3D"_blank">mrooney@hillaryclinton.com</a>&gt;<br>
+To: Robby Mook &lt;<a href=3D"mailto:re47@hillaryclinton.com" target=3D"_bl=
+ank">re47@hillaryclinton.com</a>&gt;<br>
+Cc: Dan Schwerin &lt;<a href=3D"mailto:dschwerin@hillaryclinton.com" target=
+=3D"_blank">dschwerin@hillaryclinton.com</a>&gt;; Mandy Grunwald &lt;<a hre=
+f=3D"mailto:gruncom@aol.com" target=3D"_blank">gruncom@aol.com</a>&gt;; Emi=
+ly Aden &lt;<a href=3D"mailto:eaden@hillaryclinton.com" target=3D"_blank">e=
+aden@hillaryclinton.com</a>&gt;; Speech Drafts &lt;<a href=3D"mailto:speech=
+drafts@hillaryclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.co=
+m</a>&gt;; Mike Schmidt &lt;<a href=3D"mailto:mschmidt@hillaryclinton.com" =
+target=3D"_blank">mschmidt@hillaryclinton.com</a>&gt;; Michael Shapiro &lt;=
+<a href=3D"mailto:mshapiro@hillaryclinton.com" target=3D"_blank">mshapiro@h=
+illaryclinton.com</a>&gt;; Mike Vlacich &lt;<a href=3D"mailto:mvlacich@hill=
+aryclinton.com" target=3D"_blank">mvlacich@hillaryclinton.com</a>&gt;; Harr=
+ell Kirstein &lt;<a href=3D"mailto:hkirstein@hillaryclinton.com" target=3D"=
+_blank">hkirstein@hillaryclinton.com</a>&gt;; Speech Book &lt;<a href=3D"ma=
+ilto:speechbook@hillaryclinton.com" target=3D"_blank">speechbook@hillarycli=
+nton.com</a>&gt;<br>
+Sent: Wed, Oct 28, 2015 10:40 am<br>
+Subject: Re: ADDED RIFF ON GUNS: Politics and Eggs<br>
+<br>
+
+
+
+
+<div>
+
+<div>
+<div dir=3D"ltr">OK I&#39;m not changing the remarks then. =C2=A0</div>
+
+<div class=3D"gmail_extra"><br>
+
+<div class=3D"gmail_quote">On Wed, Oct 28, 2015 at 10:16 AM, Robby Mook <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:re47@hillaryclinton.com" target=3D"_bl=
+ank">re47@hillaryclinton.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div dir=3D"auto">
+<div><span></span></div>
+
+<div>
+<div>I would be comfortable being explicit &quot;people have said they will=
+ run attack ads against me&quot;.=C2=A0</div>
+
+<div>This is the quote in working from:</div>
+
+<div><br>
+</div>
+
+<div>
+<div><span style=3D"background-color:rgba(255,255,255,0)">=E2=80=9CIf they =
+keep up these attacks on Bernie as a sexist or as anti-gun control, or if t=
+hey start going further down that negative road, I think we=E2=80=99re goin=
+g to start looking at whether or not she can really tell the big banks to r=
+eform when so much of her money comes from Wall Street,=E2=80=9D Mr. Devine=
+ said. =E2=80=9CThat would be step one. Step two would be, you go to Goldma=
+n Sachs and give a speech for an hour and get $200,000 =E2=80=93 and you ar=
+e going to be able to stand up to the banks?=E2=80=9D</span></div>
+
+<div><br>
+</div>
+<br>
+<br>
+</div>
+
+<div>
+<div>
+<div><br>
+On Oct 28, 2015, at 10:14 AM, Dan Schwerin &lt;<a href=3D"mailto:dschwerin@=
+hillaryclinton.com" target=3D"_blank">dschwerin@hillaryclinton.com</a>&gt; =
+wrote:<br>
+<br>
+</div>
+<blockquote>
+<div>
+<div dir=3D"ltr">Mandy, are you saying back off or just that we need to be =
+ready?</div>
+
+<div class=3D"gmail_extra"><br>
+
+<div class=3D"gmail_quote">On Wed, Oct 28, 2015 at 10:10 AM, Megan Rooney <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:mrooney@hillaryclinton.com" target=
+=3D"_blank">mrooney@hillaryclinton.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div dir=3D"ltr">Good point.
+<div><br>
+</div>
+
+<div>This is the quote so maybe we should change the speech to read: =C2=A0=
+&quot;<span style=3D"font-family:&#39;Times New Roman&#39;;font-size:14pt">=
+I=E2=80=99ve
+been told to stop shouting about ending gun violence.=C2=A0 </span><span st=
+yle=3D"font-family:&#39;Times New Roman&#39;;font-size:14pt">Some are threa=
+tening to <span style=3D"background-color:rgb(255,255,0)">go after me</span=
+> for speaking out on this issue.</span><span style=3D"font-family:&#39;Tim=
+es New Roman&#39;;font-size:14pt">=C2=A0
+</span><span style=3D"font-family:&#39;Times New Roman&#39;;font-size:14pt"=
+>But I won=E2=80=99t be silenced, and I hope you won=E2=80=99t be either.</=
+span><span style=3D"font-family:&#39;Times New Roman&#39;;font-size:14pt">=
+=C2=A0 </span><span style=3D"font-family:&#39;Times New Roman&#39;;font-siz=
+e:14pt">How many more people have to die before we
+take action? =C2=A0</span></div>
+
+<div>
+<div style=3D"margin-top:1.25rem;margin-bottom:0px;color:rgb(60,60,60);font=
+-family:TiemposTextWeb-Regular,Georgia,serif;font-size:18px;line-height:29.=
+124px">&quot;We had to fire a shot across their bow, because they were goin=
+g to start to have their way with us,&quot; Devine told me. &quot;I pushed =
+[Sanders] hard to do what he did to let them know, if they&#39;re going to =
+do this stuff that two of the 12,000=C2=A0votes he cast in Congress about g=
+uns are the definitive votes of the election=E2=80=94and oh, by the way, sh=
+e is yelling because she&#39;s a woman. If they are going to start going do=
+wn that road, we are not going to take it. And it is going to be about a lo=
+t of issues where she&#39;s gone from one place to another. We did five of =
+them [at the J-J] and we could do 15=C2=A0more.&quot;</div>
+</div>
+
+<div><br>
+</div>
+</div>
+
+<div>
+<div>
+<div class=3D"gmail_extra"><br>
+
+<div class=3D"gmail_quote">On Wed, Oct 28, 2015 at 9:59 AM, Mandy Grunwald =
+<span dir=3D"ltr">&lt;<a href=3D"mailto:gruncom@aol.com" target=3D"_blank">=
+gruncom@aol.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><font color=3D"black" size=3D"2" face=3D"Tah=
+oma, Arial, Helvetica, sans-serif">
+
+<div><font size=3D"2"><br>
+
+</font></div>
+
+<font size=3D"2">Just want to be sure what quote in Bloomberg story we will=
+ attribute this to.</font><span><font color=3D"#888888">
+
+<div><font size=3D"2"><br>
+
+</font></div>
+
+
+</font></span>
+<div><span><font color=3D"#888888"><font size=3D"2"><br>
+
+</font><br>
+
+
+
+<div style=3D"font-size:13px;clear:both"><b><font face=3D"Tahoma, Arial, He=
+lvetica, sans-serif" color=3D"#4169e1">Mandy Grunwald</font></b>
+
+<div><b><font face=3D"Tahoma, Arial, Helvetica, sans-serif" color=3D"#4169e=
+1">Grunwald Communications</font></b></div>
+
+
+
+<div><b><font face=3D"Tahoma, Arial, Helvetica, sans-serif" color=3D"#4169e=
+1"><a href=3D"tel:202%20973-9400" target=3D"_blank">202 973-9400</a></font>=
+</b></div>
+
+</div>
+
+<br>
+
+<br>
+
+
+</font></span>
+<div style=3D"font-size:10pt;font-family:helvetica,arial;color:black"><span=
+>-----Original Message-----<br>
+
+From: Emily Aden &lt;<a href=3D"mailto:eaden@hillaryclinton.com" target=3D"=
+_blank">eaden@hillaryclinton.com</a>&gt;<br>
+
+To: Megan Rooney &lt;<a href=3D"mailto:mrooney@hillaryclinton.com" target=
+=3D"_blank">mrooney@hillaryclinton.com</a>&gt;<br>
+</span><span>
+Cc: Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hillaryclinton.com" ta=
+rget=3D"_blank">speechdrafts@hillaryclinton.com</a>&gt;; Mike Schmidt &lt;<=
+a href=3D"mailto:mschmidt@hillaryclinton.com" target=3D"_blank">mschmidt@hi=
+llaryclinton.com</a>&gt;; Michael Shapiro &lt;<a href=3D"mailto:mshapiro@hi=
+llaryclinton.com" target=3D"_blank">mshapiro@hillaryclinton.com</a>&gt;; Mi=
+ke Vlacich &lt;<a href=3D"mailto:mvlacich@hillaryclinton.com" target=3D"_bl=
+ank">mvlacich@hillaryclinton.com</a>&gt;; Harrell Kirstein &lt;<a href=3D"m=
+ailto:hkirstein@hillaryclinton.com" target=3D"_blank">hkirstein@hillaryclin=
+ton.com</a>&gt;; Speech Book &lt;<a href=3D"mailto:speechbook@hillaryclinto=
+n.com" target=3D"_blank">speechbook@hillaryclinton.com</a>&gt;<br>
+
+Sent: Wed, Oct 28, 2015 9:39 am<br>
+
+Subject: Re: ADDED RIFF ON GUNS: Politics and Eggs<br>
+
+<br>
+
+
+
+
+
+</span>
+<div>
+<div>
+<div>
+
+
+<div dir=3D"auto">
+
+<div>Good for research=C2=A0<br>
+
+<br>
+
+Sent from my iPhone</div>
+
+
+
+<div><br>
+
+On Oct 28, 2015, at 9:25 AM, Megan Rooney &lt;<a href=3D"mailto:mrooney@hil=
+laryclinton.com" target=3D"_blank">mrooney@hillaryclinton.com</a>&gt; wrote=
+:<br>
+
+<br>
+
+</div>
+
+<blockquote>
+
+<div>
+
+<div dir=3D"ltr">I&#39;ve added this riff to today&#39;s remarks.=C2=A0 Hol=
+ler if you want any changes.
+
+<div><br>
+
+</div>
+
+
+
+<div>**<br>
+
+
+
+<div><br>
+
+</div>
+
+
+
+<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class=3D"MsoNormal"><span style=3D"font-size:14pt;font-family:&#39;Tim=
+es New Roman&#39;">Americans
+want their leaders to come together on issues like these =E2=80=93 and many=
+ others =E2=80=93
+from protecting our environment to improving our schools to protecting our =
+kids
+and communities from the gun violence plaguing our country.=C2=A0 And I wil=
+l fight to bring people together and
+make progress on all these fronts.=C2=A0 </span></div>
+
+
+
+
+
+<div class=3D"MsoNormal"><span style=3D"font-size:14pt;font-family:&#39;Tim=
+es New Roman&#39;">=C2=A0</span></div>
+
+
+
+
+
+<div class=3D"MsoNormal"><span style=3D"font-size:14pt;font-family:&#39;Tim=
+es New Roman&#39;">I
+know the issue of gun violence is controversial.=C2=A0 But I don=E2=80=99t =
+care how hard the politics are.=C2=A0 You and your kids should <u>feel</u> =
+safe and
+<u>be</u> safe when you go to the school, to the movies, to church.=C2=A0 T=
+hat=E2=80=99s why I=E2=80=99m proposing commonsense gun
+safety measures like universal background checks, closing the loopholes tha=
+t
+let guns fall into the wrong hands, and repealing that law that shields gun
+makers and sellers from accountability.=C2=A0 </span></div>
+
+
+
+
+
+<div class=3D"MsoNormal"><span style=3D"font-size:14pt;font-family:&#39;Tim=
+es New Roman&#39;">=C2=A0</span></div>
+
+
+
+
+
+<div class=3D"MsoNormal"><span style=3D"font-size:14pt;font-family:&#39;Tim=
+es New Roman&#39;">I=E2=80=99ve
+been told to stop shouting about ending gun violence.=C2=A0 Some are even t=
+hreatening to run negative ads
+against me for speaking out on this issue.=C2=A0
+But I won=E2=80=99t be silenced, and I hope you won=E2=80=99t be either.=C2=
+=A0 How many more people have to die before we
+take action?=C2=A0=C2=A0</span></div>
+
+
+
+<div class=3D"MsoNormal"><span style=3D"font-size:14pt;font-family:&#39;Tim=
+es New Roman&#39;"><br>
+
+</span></div>
+
+
+
+</div>
+
+
+
+<div class=3D"gmail_extra"><br>
+
+
+
+<div class=3D"gmail_quote">On Tue, Oct 27, 2015 at 7:28 PM, Megan Rooney <s=
+pan dir=3D"ltr">&lt;<a href=3D"mailto:mrooney@hillaryclinton.com" target=3D=
+"_blank">mrooney@hillaryclinton.com</a>&gt;</span> wrote:<br>
+
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+
+<div dir=3D"ltr">This is ready for the book.=C2=A0 Thanks.
+
+<div><br>
+
+</div>
+
+
+
+<div>(Now including more on equal pay -- thank you Team NH)<br>
+
+
+
+<div class=3D"gmail_extra"><br>
+
+
+
+<div class=3D"gmail_quote">On Tue, Oct 27, 2015 at 6:55 PM, Megan Rooney <s=
+pan dir=3D"ltr">&lt;<a href=3D"mailto:mrooney@hillaryclinton.com" target=3D=
+"_blank">mrooney@hillaryclinton.com</a>&gt;</span> wrote:<br>
+
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+
+<div dir=3D"ltr">Hey all -- here&#39;s a revised draft for tomorrow morning=
+&#39;s Politics and Eggs.
+
+<div><br>
+
+</div>
+
+
+
+<div>As discussed this afternoon, this does not drive a sharp contrast with=
+ Bernie.=C2=A0 It does drive a contrast with the Republicans.=C2=A0 It&#39;=
+s still a speech on the economy.</div>
+
+
+
+<div><br>
+
+</div>
+
+
+
+<div>Please send me edits asap so I can get this to the book.=C2=A0 Otherwi=
+se, send me edits any time tonight.</div>
+
+
+
+<div><br>
+
+</div>
+
+
+
+<div>Thanks!</div>
+
+</div>
+
+
+</blockquote></div>
+
+<br>
+
+</div>
+
+</div>
+
+</div>
+
+
+</blockquote></div>
+
+<br>
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</blockquote>
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+</font></blockquote></div>
+<br>
+</div>
+
+</div>
+</div>
+</blockquote></div>
+<br>
+</div>
+
+</div>
+</blockquote></div>
+</div>
+</div>
+</div>
+
+</blockquote></div>
+<br>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+</div>
+</div>
+</font></div></blockquote></div></div></div>
+</blockquote></div><br></div>
+
+--001a114437588c2d1505232b65bc--

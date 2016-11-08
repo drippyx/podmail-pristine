@@ -1,0 +1,1384 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.136 with SMTP id r130csp606569lfr;
+        Fri, 28 Aug 2015 08:31:10 -0700 (PDT)
+X-Received: by 10.112.17.70 with SMTP id m6mr5091466lbd.113.1440775870354;
+        Fri, 28 Aug 2015 08:31:10 -0700 (PDT)
+Return-Path: <speechdrafts+bncBC5L53NT4IIRBPX5QGXQKGQEBEAWWKA@hillaryclinton.com>
+Received: from mail-la0-x248.google.com (mail-la0-x248.google.com. [2a00:1450:4010:c03::248])
+        by mx.google.com with ESMTPS id mr8si4805012lbb.104.2015.08.28.08.31.10
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 28 Aug 2015 08:31:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBC5L53NT4IIRBPX5QGXQKGQEBEAWWKA@hillaryclinton.com designates 2a00:1450:4010:c03::248 as permitted sender) client-ip=2a00:1450:4010:c03::248;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBC5L53NT4IIRBPX5QGXQKGQEBEAWWKA@hillaryclinton.com designates 2a00:1450:4010:c03::248 as permitted sender) smtp.mailfrom=speechdrafts+bncBC5L53NT4IIRBPX5QGXQKGQEBEAWWKA@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-la0-x248.google.com with SMTP id oe4sf60718lab.3
+        for <john.podesta@gmail.com>; Fri, 28 Aug 2015 08:31:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:from:date:message-id
+         :subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=m74SaZ/FzpG1+7NTDzGs/RuNZIYIXkcjYI0muR2vlKk=;
+        b=RKx+4r+OHqBDWemKBVBwXEJZzCsJt1a7I71zU3FehQx1vehpfnvCQXyL9RzHBMCjyL
+         Iw93SN2H7l/6AYR/rQLHhThGVnuIEWWLzmA0E6HIhpas1hU3AEf3dN3QxvoxNNnRd8Z1
+         iLUsYxAtDdYaqpuj+wFCxKCCXXmg/Bu3BwqOw=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:from
+         :date:message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=m74SaZ/FzpG1+7NTDzGs/RuNZIYIXkcjYI0muR2vlKk=;
+        b=AjQ26XVns9///+qlSmv7XdM/ZgK8TzphQC5RguaDFQFE5Du09w9bFfpARk1owrLAOm
+         dMjxu54zgPOTgxL7hW/7RBHcPxDalnfrfTQglPshC6KRXwcUNkcjv+DS0I4r5nvNN1lZ
+         NwHpECeAm0YNBzOX9Zn6nMPn2gLVIkT7lKR+ZEDbQBADy3/5MaJhFBKp/uOBa88K/0WL
+         GoBbyb1BifZkz7AZitrbKHte8go888f+EmOZDXQ1C84VtEAGuC7d/8tvlqx3YCjFDpyM
+         Jy+gS5zcg6DRny236+OFy2h1fx0bpYIR/BAMzpPg2uxCJ4QweOzcwZ3hqLpdv9ktjOts
+         pzwQ==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQnWbDyZNq/n1t0lK35xbBaltnctplDufXnW2KrCFCL84xdXvq173Q7E6ZpAUckWpNURBsup
+X-Received: by 10.194.188.104 with SMTP id fz8mr2841792wjc.1.1440775870155;
+        Fri, 28 Aug 2015 08:31:10 -0700 (PDT)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.180.206.136 with SMTP id lo8ls191115wic.52.canary; Fri, 28 Aug
+ 2015 08:31:09 -0700 (PDT)
+X-Received: by 10.194.113.170 with SMTP id iz10mr11964649wjb.58.1440775869643;
+        Fri, 28 Aug 2015 08:31:09 -0700 (PDT)
+Received: from mail-wi0-x230.google.com (mail-wi0-x230.google.com. [2a00:1450:400c:c05::230])
+        by mx.google.com with ESMTPS id og6si6059043wic.45.2015.08.28.08.31.09
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 28 Aug 2015 08:31:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kcosta@hillaryclinton.com designates 2a00:1450:400c:c05::230 as permitted sender) client-ip=2a00:1450:400c:c05::230;
+Received: by wicfv10 with SMTP id fv10so11228557wic.1
+        for <speechdrafts@hillaryclinton.com>; Fri, 28 Aug 2015 08:31:09 -0700 (PDT)
+X-Received: by 10.194.85.163 with SMTP id i3mr11936499wjz.75.1440775869357;
+ Fri, 28 Aug 2015 08:31:09 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.28.49.67 with HTTP; Fri, 28 Aug 2015 08:30:39 -0700 (PDT)
+In-Reply-To: <CALGS4wQrk7PPxnQPKGcyWH7pxmx0rSWfDNgbbS=gybt5=kvyeg@mail.gmail.com>
+References: <CAD6XBDDMATU94-Ycf88_KxduCwni73V=EZC0ay0T5DgrEFG+tA@mail.gmail.com>
+ <-1438520449105092781@unknownmsgid> <A8D932DC-F9C7-4580-A78C-EA993E07BC89@bsgco.com>
+ <-5661367573612307652@unknownmsgid> <5DE7F3B6-9DBF-4348-BB08-6919BE39AEB6@aol.com>
+ <5333775b10fbbc5e22b8e9782af582e5@mail.gmail.com> <-7664343262804611478@unknownmsgid>
+ <CAD6XBDBxhGEhV=ApQ9BPYKRKRuLt-t5SKiA8wS5Nw=Wd-GSBLQ@mail.gmail.com>
+ <CACWw=rRfPFgcAhtVbCqROjW8hRrMV4JWFD4X4eowAKbXf6UPrA@mail.gmail.com>
+ <CACWw=rQW+nwK+V4oOSjFn0fye4Spkj1-Y5hBdOf1OB48TkWMQQ@mail.gmail.com>
+ <-5524522186853540671@unknownmsgid> <-6726760415423055720@unknownmsgid>
+ <-630000061178175920@unknownmsgid> <-198813186275022882@unknownmsgid>
+ <-3509080874611742017@unknownmsgid> <CACR8c2q2NJzf4wrRcHTePTE7skSUa=Tq1PN512QsrVkNHykghA@mail.gmail.com>
+ <1A484C9C32B526468802B7C2E6FD1BCEB3BBBE15@mbx031-w1-co-6.exch031.domain.local>
+ <-3625106751638541149@unknownmsgid> <CACR8c2pE99iHtTJ_MgZJGx2M0L_dA3WcFFOuT=1qkUhb5+A3zg@mail.gmail.com>
+ <CAD6XBDBQg5kVcQ7UEmjfpLHY7O=9sV0gN+rpN4xzhnZakT3GHg@mail.gmail.com>
+ <CACWw=rTF_OVdUiqCi_i+JSh4mj5gGj8aqut3ujOKybuhwjoY5Q@mail.gmail.com>
+ <4551844b88f2c01e451256fd8a76e0a1@mail.gmail.com> <CAFjSERDQ70Zv-n0FL_CJ6FqVwbb3Mxn_Cj-LGbvmMjUgOK4V0A@mail.gmail.com>
+ <CALGS4wQrk7PPxnQPKGcyWH7pxmx0rSWfDNgbbS=gybt5=kvyeg@mail.gmail.com>
+From: Kristina Costa <kcosta@hillaryclinton.com>
+Date: Fri, 28 Aug 2015 11:30:39 -0400
+Message-ID: <CAD6XBDDk7rS7YQ4V7TqMS-GKDNz_1=WhwVd3rQd+YKPGYOm_gw@mail.gmail.com>
+Subject: Re: In review: substance abuse op-ed
+To: Sara Solow <ssolow@hillaryclinton.com>
+CC: Emily Aden <eaden@hillaryclinton.com>, 
+ Tony Carrk <tcarrk@hillaryclinton.com>, 
+ "Ann O'Leary" <aoleary@hillaryclinton.com>, 
+ Jesse Ferguson <jferguson@hillaryclinton.com>, 
+ Maya Harris <mharris@hillaryclinton.com>, 
+ Karen Finney <kfinney@hillaryclinton.com>, 
+ Joel Benenson <jbenenson@bsgco.com>, 
+ Marlon Marshall <mmarshall@hillaryclinton.com>, 
+ Amanda Renteria <arenteria@hillaryclinton.com>, 
+ Nick Merrill <nmerrill@hillaryclinton.com>, 
+ Mandy Grunwald <gruncom@aol.com>, Ian Sams <isams@hillaryclinton.com>, 
+ Dan Schwerin <dschwerin@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ Speech Writers <speechwriters@hillaryclinton.com>, 
+ Carter Hutchinson <chutchinson@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=089e010d8290e4ee92051e60c5c6
+X-Original-Sender: kcosta@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of kcosta@hillaryclinton.com designates 2a00:1450:400c:c05::230 as
+ permitted sender) smtp.mailfrom=kcosta@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--089e010d8290e4ee92051e60c5c6
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Originally, the background memo. Happy to use whatever stat you prefer
+
+On Fri, Aug 28, 2015 at 11:25 AM, Sara Solow <ssolow@hillaryclinton.com>
+wrote:
+
+> does anyone know where the 1 in 4 teenagers came from?
+>
+> On Fri, Aug 28, 2015 at 10:54 AM, Emily Aden <eaden@hillaryclinton.com>
+> wrote:
+>
+>> Looks good for research. One comment attached asking for clarification o=
+n
+>> the one in four teenagers. Thanks!
+>>
+>> On Thu, Aug 27, 2015 at 6:48 PM, Tony Carrk <tcarrk@hillaryclinton.com>
+>> wrote:
+>>
+>>> Adding Emily and Carter here too
+>>>
+>>>
+>>>
+>>> *From:* Ann O'Leary [mailto:aoleary@hillaryclinton.com]
+>>> *Sent:* Thursday, August 27, 2015 6:48 PM
+>>> *To:* Kristina Costa <kcosta@hillaryclinton.com>
+>>> *Cc:* Jesse Ferguson <jferguson@hillaryclinton.com>; Maya Harris <
+>>> mharris@hillaryclinton.com>; Karen Finney <kfinney@hillaryclinton.com>;
+>>> Joel Benenson <jbenenson@bsgco.com>; Marlon Marshall <
+>>> mmarshall@hillaryclinton.com>; Amanda Renteria <
+>>> arenteria@hillaryclinton.com>; Nick Merrill <nmerrill@hillaryclinton.co=
+m>;
+>>> Mandy Grunwald <gruncom@aol.com>; Tony Carrk <tcarrk@hillaryclinton.com=
+>;
+>>> Ian Sams <isams@hillaryclinton.com>; Dan Schwerin <
+>>> dschwerin@hillaryclinton.com>; Sara Solow <ssolow@hillaryclinton.com>;
+>>> Speech Drafts <speechdrafts@hillaryclinton.com>; Speech Writers <
+>>> speechwriters@hillaryclinton.com>
+>>> *Subject:* Re: In review: substance abuse op-ed
+>>>
+>>>
+>>>
+>>> This is good.  I just want to simplify the stat about who gets substanc=
+e
+>>> abuse treatment to the only 1 in 10 get the treatment they need stat.  =
+See
+>>> attached.
+>>>
+>>>
+>>>
+>>> Otherwise, policy additions look good.  Thanks, Kristina!
+>>>
+>>>
+>>>
+>>> On Thu, Aug 27, 2015 at 3:32 PM, Kristina Costa <
+>>> kcosta@hillaryclinton.com> wrote:
+>>>
+>>> Reviving this thread now that we're tracking a substance abuse rollout
+>>> for the first half of next week. Attaching the latest version of the op=
+ed,
+>>> which reflects new policy and references the recent White House
+>>> announcement on targeted law enforcement and public health grants. This=
+ is
+>>> identical to the oped this group cleared on 2 weeks ago, except for the
+>>> sentences that I've flagged with comments in the attached, and for some
+>>> small edits to keep the word count down.
+>>>
+>>>
+>>>
+>>> As this has already been much-discussed and edited, please respond by *=
+11am
+>>> Friday* with any further comments or edits so we can get this to HRC
+>>> for her review.
+>>>
+>>>
+>>>
+>>> Thanks everybody!
+>>>
+>>>
+>>>
+>>> Kristina
+>>>
+>>>
+>>>
+>>> On Mon, Aug 17, 2015 at 9:56 AM, Jesse Ferguson <
+>>> jferguson@hillaryclinton.com> wrote:
+>>>
+>>> Final version attached which includes everyones edits and words deleted
+>>> (down to 810) so we can move forward. Thanks everyone for their hard wo=
+rk
+>>> (especially author Kristina).
+>>>
+>>>
+>>>
+>>> *From:* Jesse Ferguson [mailto:jferguson@hillaryclinton.com]
+>>> *Sent:* Monday, August 17, 2015 9:27 AM
+>>> *To:* Maya Harris <mharris@hillaryclinton.com>; Karen Finney <
+>>> kfinney@hillaryclinton.com>
+>>> *Cc:* 'Joel Benenson' <jbenenson@bsgco.com>; Marlon Marshall <
+>>> mmarshall@hillaryclinton.com>; Ann O'Leary <aoleary@hillaryclinton.com>=
+;
+>>> Amanda Renteria <arenteria@hillaryclinton.com>; Kristina Costa <
+>>> kcosta@hillaryclinton.com>; Nick Merrill <nmerrill@hillaryclinton.com>;
+>>> 'Mandy Grunwald' <gruncom@aol.com>; Tony Carrk <
+>>> tcarrk@hillaryclinton.com>; Speech Drafts <
+>>> speechdrafts@hillaryclinton.com>; Ian Sams <isams@hillaryclinton.com>;
+>>> Dan Schwerin <dschwerin@hillaryclinton.com>
+>>> *Subject:* RE: In review: substance abuse op-ed
+>>>
+>>>
+>>>
+>>> We think we have everyone=E2=80=99s edits. We are just doing some copy =
+editing
+>>> b/c with everyone=E2=80=99s additions, the op-ed is now almost 900 word=
+s and thus
+>>> unlikely to be published. We will get this to her this morning. Thanks.
+>>>
+>>>
+>>>
+>>> *From:* Maya Harris [mailto:mharris@hillaryclinton.com
+>>> <mharris@hillaryclinton.com>]
+>>> *Sent:* Monday, August 17, 2015 12:06 AM
+>>> *To:* Karen Finney <kfinney@hillaryclinton.com>
+>>> *Cc:* Joel Benenson <jbenenson@bsgco.com>; Marlon Marshall <
+>>> mmarshall@hillaryclinton.com>; Ann O'Leary <aoleary@hillaryclinton.com>=
+;
+>>> Amanda Renteria <arenteria@hillaryclinton.com>; Kristina Costa <
+>>> kcosta@hillaryclinton.com>; Nick Merrill <nmerrill@hillaryclinton.com>;
+>>> Jesse Ferguson <jferguson@hillaryclinton.com>; Mandy Grunwald <
+>>> gruncom@aol.com>; Tony Carrk <tcarrk@hillaryclinton.com>; Speech Drafts
+>>> <speechdrafts@hillaryclinton.com>; Ian Sams <isams@hillaryclinton.com>;
+>>> Dan Schwerin <dschwerin@hillaryclinton.com>
+>>>
+>>>
+>>> *Subject:* Re: In review: substance abuse op-ed
+>>>
+>>>
+>>>
+>>> just offering alternative since concern raised. i'm good either way.
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> On Sun, Aug 16, 2015 at 11:46 PM, Karen Finney <
+>>> kfinney@hillaryclinton.com> wrote:
+>>>
+>>> But then it goes back to sounding like she discovered this epidemic in
+>>> the white community when it's been going on in AA for a long time.
+>>>
+>>> Sent from my iPhone
+>>>
+>>>
+>>> On Aug 16, 2015, at 11:34 PM, Joel Benenson <jbenenson@bsgco.com> wrote=
+:
+>>>
+>>> Seems good if we have enough space.
+>>>
+>>>
+>>>
+>>> *From:* Maya Harris [mailto:mharris@hillaryclinton.com
+>>> <mharris@hillaryclinton.com>]
+>>> *Sent:* Sunday, August 16, 2015 11:00 PM
+>>> *To:* Karen Finney
+>>> *Cc:* Marlon Marshall; Ann O'Leary; Amanda Renteria; Kristina Costa;
+>>> Nick Merrill; Jesse Ferguson; Mandy Grunwald; Joel Benenson; Tony Carrk=
+;
+>>> Speech Drafts; Ian Sams; Dan Schwerin
+>>> *Subject:* Re: In review: substance abuse op-ed
+>>>
+>>>
+>>>
+>>> If the goal is to name SC, but there's concern about calling out black
+>>> men specifically, we could revise the sentence to say something like:
+>>>
+>>>
+>>>
+>>> "In South Carolina, a lawyer spoke movingly about too many young men wh=
+o
+>>> have ended up imprisoned for non-violent drug offenses rather than gett=
+ing
+>>> the treatment they needed."
+>>>
+>>>
+>>>
+>>> Here's what the lawyer said in the transcript:
+>>>
+>>>
+>>>
+>>> "*QUESTION:*  My name is Carlyle Steele and I practice criminal law
+>>> here in Greenville, and I=E2=80=99ve been shocked over the last 40 year=
+s at the
+>>> mass incarceration of young men, particularly young African American me=
+n.
+>>> Locking everybody up for minor offenses and nonviolent offenses isn=E2=
+=80=99t
+>>> working out. "
+>>>
+>>>
+>>>
+>>> On Sun, Aug 16, 2015 at 10:20 PM, Karen Finney <
+>>> kfinney@hillaryclinton.com> wrote:
+>>>
+>>> Agree re AA; I think the mention is ok because she's talking about what
+>>> people have talked to her about.
+>>>
+>>> Sent from my iPhone
+>>>
+>>>
+>>> On Aug 16, 2015, at 9:44 PM, Marlon Marshall <
+>>> mmarshall@hillaryclinton.com> wrote:
+>>>
+>>> Defer to Maya and Karen if we keep, but can we say African American
+>>> instead of Black?
+>>>
+>>>
+>>>
+>>>
+>>> On Aug 16, 2015, at 9:04 PM, Ann O'Leary <aoleary@hillaryclinton.com>
+>>> wrote:
+>>>
+>>> Intended to be sure she was listening to votes in all 4 first states no=
+t
+>>> just IA & NH with their skewed demographics.  Think we need to keep it,=
+ but
+>>> Maya/Karen- you good? Or want to suggest alternative?
+>>>
+>>>
+>>>
+>>> Ann O=E2=80=99Leary
+>>>
+>>> Sent from my iPhone
+>>>
+>>> (510) 717-5518 (cell)
+>>>
+>>>
+>>> On Aug 16, 2015, at 6:50 PM, Amanda Renteria <
+>>> arenteria@hillaryclinton.com> wrote:
+>>>
+>>> Perhaps I'm overly sensitive but should we change calling out black men
+>>> at the beginning?  I know we don't want to ignore that this is a big de=
+al
+>>> in the AfAm community, but it feels to me like she is singling them out
+>>> which could be taken very badly. Defer to group but it stood out when I
+>>> read it.
+>>>
+>>> Sent from my iPhone
+>>>
+>>>
+>>> On Aug 16, 2015, at 8:37 PM, Karen Finney <kfinney@hillaryclinton.com>
+>>> wrote:
+>>>
+>>> Sounds good.
+>>>
+>>> Sent from my iPhone
+>>>
+>>>
+>>> On Aug 16, 2015, at 8:33 PM, Ann O'Leary <aoleary@hillaryclinton.com>
+>>> wrote:
+>>>
+>>> Hi all -
+>>>
+>>>
+>>>
+>>> I am hearing separately that even with this change that the screenings
+>>> could be misconstrued and likely more trouble than they are worth. Let'=
+s
+>>> kill it and I'll revisit it as a good policy idea on the other side of =
+this
+>>> election but not one for campaign fodder.
+>>>
+>>>
+>>>
+>>> Here is my suggestion for four full points:
+>>>
+>>>
+>>>
+>>> That=E2=80=99s why I=E2=80=99m releasing a comprehensive strategy [LINK=
+] to confront the
+>>> drug addiction crisis head-on. My plan sets four goals: first, ensuring
+>>> every American family has access to affordable and effective treatments=
+; second, ensuring
+>>> that our mental health parity laws are fully enforced so that insurance
+>>> practices are not a barrier to substance abuse treatment; third,
+>>> ensuring all first responders have access to naloxone, which stops
+>>> overdoses from becoming fatal; and fourth, requiring that all health-ca=
+re
+>>> providers receive training in recognizing substance use disorders and
+>>> consult a prescription drug monitoring program before providing opiates=
+.
+>>>
+>>>
+>>>
+>>> Does this work for everyone?
+>>>
+>>>
+>>>
+>>> Thanks,
+>>>
+>>> Ann
+>>>
+>>>
+>>>
+>>> On Sun, Aug 16, 2015 at 4:58 PM, Ann O'Leary <aoleary@hillaryclinton.co=
+m>
+>>> wrote:
+>>>
+>>> Hi all -
+>>>
+>>>
+>>>
+>>> Sorry I was out of pocket for a few hours.  On a flight now to raise $$
+>>> for all of us in Oklahoma - the things we do!!
+>>>
+>>>
+>>>
+>>> Anyhow, here is the deal:
+>>>
+>>>
+>>>
+>>> (1) The American Academy of Pediatrics came out with a strong policy
+>>> statement in 2011
+>>> <https://www.aap.org/en-us/about-the-aap/aap-press-room/pages/AAP-Recom=
+mends-Substance-Abuse-Screening-as-Part-of-Routine-Adolescent-Care.aspx>
+>>> that every child/teenager should be screened for substance abuse disord=
+ers
+>>> when they visit the doctor for their annual child check up or for an ac=
+cute
+>>> care visit in which it might be suspected.  HRC has a long history of
+>>> working with AAP and supporting their efforts to do more screenings.  W=
+hen
+>>> she was First Lady, she worked on the Newborn Hearing Screening to make
+>>> sure all babies get hearing screenings, and in the last several years s=
+he
+>>> has pushed for and supported the AAP's effort to screen young kids for
+>>> symptoms of "toxic stress."  This is not "mandatory," but it is part of
+>>> prevention and wellness and it is about supporting the AAP in making th=
+is
+>>> happen by raising awareness, making sure pediatricians get reimbursed f=
+or
+>>> their time in doing these screenings, etc.  I have tried to clarify wit=
+h
+>>> edits to the speech, pasted below and attached.
+>>>
+>>>
+>>>
+>>> (2) On Mandy's question about mental health parity, I have added a line=
+.
+>>>
+>>>
+>>>
+>>> (3) On Karen's question of whether we reached out to urban leaders, we
+>>> talked to a number of policy experts who serve urban communities. Maya =
+is
+>>> going to work with political to be sure we do political outreach to lea=
+ders
+>>> in next 48 hours.
+>>>
+>>>
+>>>
+>>> (4) On Karen's suggestion, that she alludes to problems in her own
+>>> family - I have modified accordingly.
+>>>
+>>>
+>>>
+>>> (5) On Nick's question about specialized care, we are good with it as
+>>> Kristina noted - but let me know if you have further concerns.
+>>>
+>>>
+>>>
+>>> I am also attaching our final fact sheet.  If all are good, we should
+>>> get her this draft op-ed together with the fact sheet.  Let me know if =
+you
+>>> have more questions or concerns.
+>>>
+>>>
+>>>
+>>> Thanks,
+>>>
+>>> Ann
+>>>
+>>>
+>>>
+>>> *DRAFT substance abuse op-ed*
+>>>
+>>>
+>>>
+>>> WC: 822 words
+>>>
+>>>
+>>>
+>>> I was on my first trip to New Hampshire this spring, in a Keene bakery,
+>>> when a retired doctor spoke up. I had just announced I was running for
+>>> president, and I had traveled to Iowa and New Hampshire to hear directl=
+y
+>>> from voters about their concerns, their hopes, and their vision for the
+>>> future. He said his biggest worry was the rising tide of heroin addicti=
+on
+>>> in the state, the result of a wave of prescription drug abuse. He said
+>>> hospitals were seeing more babies born addicted, that police officers w=
+ere
+>>> responding to more overdoses, that families were being torn apart.
+>>>
+>>>
+>>>
+>>> To be candid, I didn=E2=80=99t expect what came next. In several states=
+, this
+>>> issue crept up again and again =E2=80=93 from so many people, from all =
+walks of
+>>> life, in small towns and big cities.
+>>>
+>>>
+>>>
+>>> In Iowa, from Davenport to Council Bluffs, people spoke to me about met=
+h
+>>> and prescription drugs, and scores of lives upended. In South Carolina,=
+ a
+>>> lawyer spoke movingly about the holes in the community left by generati=
+ons
+>>> of black men who ended up imprisoned for non-violent drug offenses rath=
+er
+>>> than getting the treatment they needed.
+>>>
+>>>
+>>>
+>>> These stories shine light on some harrowing statistics. Nearly 23
+>>> million Americans suffer from addiction, but in 2014, only 2.5 million =
+were
+>>> able to receive treatment at a specialized facility. Fifty-two million
+>>> Americans over the age of 12 have abused prescription drugs, including =
+one
+>>> in four teenagers. In 2014, more Americans died from overdoses than car
+>>> crashes.
+>>>
+>>>
+>>>
+>>> Enough is enough. It=E2=80=99s time we recognize as a nation that we ha=
+ve a
+>>> quiet epidemic on our hands. Plain and simple, drug addiction is a dise=
+ase,
+>>> not a moral failing=E2=80=94and we must treat it as such.
+>>>
+>>>
+>>>
+>>> It=E2=80=99s time we recognize as a nation that there are gaps in our h=
+ealth
+>>> care system that allow too many sufferers to go without care=E2=80=94an=
+d invest
+>>> substantially more in prevention and treatment.
+>>>
+>>>
+>>>
+>>> It=E2=80=99s time we recognize as a nation that our state and federal p=
+risons,
+>>> where 65 percent of inmates meet the medical criteria for substance use
+>>> disorders, are no substitute for drug treatment=E2=80=94and reform our =
+criminal
+>>> justice system.
+>>>
+>>>
+>>>
+>>> That=E2=80=99s why I=E2=80=99m releasing a comprehensive strategy [LINK=
+] to confront the
+>>> drug addiction crisis head-on. My plan sets four goals: first, ensuring
+>>> every American family has access to affordable and effective treatments=
+; second,
+>>> ensuring that we work with pediatricians to be sure that every child an=
+d
+>>> teenager is educated about and screened for substance use disorders as =
+part
+>>> of their annual doctor=E2=80=99s visit, just as we do for hearing, eyes=
+ight,
+>>> developmental delays and so much more; third, ensuring all first
+>>> responders have access to naloxone, which stops overdoses from becoming
+>>> fatal; and fourth, requiring that all health-care providers receive
+>>> training in recognizing substance use disorders and consult a prescript=
+ion
+>>> drug monitoring program before providing opiates.
+>>>
+>>>
+>>>
+>>> Achieving these goals won=E2=80=99t be easy. It=E2=80=99s going to take=
+ real commitment
+>>> from all corners=E2=80=94law enforcement, doctors, insurance companies,=
+ schools,
+>>> and governments. That=E2=80=99s why my plan starts by increasing fundin=
+g for the
+>>> Substance Abuse Prevention and Treatment Block Grant by 25 percent, so
+>>> states and localities have more resources to work with, and changing ru=
+les
+>>> that arbitrarily limit how many patients can be treated with medication
+>>> assisted treatment, a proven intervention for opiate addiction. I will =
+also
+>>> direct the federal government to re-evaluate Medicare and Medicaid paym=
+ent
+>>> practices, to remove obstacles to reimbursement for patients seeking he=
+lp
+>>> and promote greater coordination of care. And I will make sure that our
+>>> mental health parity laws are fully enforced so that insurance practice=
+s
+>>> are not a barrier to substance abuse treatment.
+>>>
+>>>
+>>>
+>>> But we can't stop there. As President, I will do everything I can to
+>>> partner with states and communities across America to meet the four
+>>> goals=E2=80=94treatment, prevention, overdose intervention, and improve=
+d prescriber
+>>> practices. We=E2=80=99ll ask states to design ambitious plans for tackl=
+ing these
+>>> four goals using the programs that make most sense for their citizens=
+=E2=80=99
+>>> needs and challenges. In return for strong plans to address the substan=
+ce
+>>> abuse crisis, the federal government will draw on a new $5 billion fund=
+ to
+>>> help states meet their goals.
+>>>
+>>>
+>>>
+>>> Every town I=E2=80=99ve visited so far in this campaign has stories of =
+families
+>>> upended by drug addiction. But across the country, I=E2=80=99ve also he=
+ard about
+>>> second chances. The young mother who overcame addictions to alcohol and
+>>> heroin so her son would never see her with a drink or a drug in her han=
+d.
+>>> The man who served 11 years in prison who is now serving others through=
+ a
+>>> prison ministry.
+>>>
+>>>
+>>>
+>>> They all say the same thing: no matter how much time has passed, no
+>>> matter how different their lives are today, they=E2=80=99re all still i=
+n recovery.
+>>> It=E2=80=99s a process=E2=80=94one that began when a family member, a f=
+riend, a doctor, a
+>>> police officer extended a hand to help. As one New Hampshire woman said=
+,
+>>> =E2=80=9CWe're not bad people trying to get good, we're sick people who=
+ deserve to
+>>> get well.=E2=80=9D
+>>>
+>>>
+>>>
+>>> There are 23 million Americans suffering from addiction. There are
+>>> untold millions more. No one is untouched =E2=80=93 we all have family =
+and friends
+>>> who are affected. We can=E2=80=99t afford to stay on the sidelines any
+>>> longer=E2=80=94because when families are strong, America is strong. Thr=
+ough
+>>> improved treatment, prevention, and training, we can end this quiet
+>>> epidemic once and for all.
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> On Sun, Aug 16, 2015 at 3:57 PM, Kristina Costa <
+>>> kcosta@hillaryclinton.com> wrote:
+>>>
+>>> On the screening point, will let policy get into details, but it's the
+>>> major pillar of the 'prevention' goal. Would folks be more comfortable =
+if
+>>> it said something like [CAPS=3DADDITION]  "ensuring every child and tee=
+nager
+>>> is annually screened for substance use DISORDERS, JUST AS THEY ARE ALRE=
+ADY
+>>> SCREENED FOR OTHER ILLNESSES"?
+>>>
+>>>
+>>>
+>>> schools and doctors regularly screen for all sorts of diseases, and
+>>> substance abuse screening /=3D random drug testing.
+>>>
+>>>
+>>>
+>>> On the "specialized facilities," the stat comes from the NIH's National
+>>> Institute on Drug Abuse and includes all facilities licensed or certifi=
+ed
+>>> by state substance abuse agencies to provide treatment. So think it's e=
+asy
+>>> to answer Politifact when they try to get cute.
+>>>
+>>>
+>>>
+>>> + Ann, per Maya's add
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> On Sun, Aug 16, 2015 at 6:45 PM, Nick Merrill <
+>>> nmerrill@hillaryclinton.com> wrote:
+>>>
+>>> I'm piling on at this point, but without knowing the background or the
+>>> particulars, the mandatory testing piece is troubling to me.  Not to
+>>> mention I probably wouldn't have passed at times in my younger
+>>> years...I bet I'm not the only one.*
+>>>
+>>> And on the statistic about 2.5 million people receiving treatment at a
+>>> "specialized facility," can someone explain what that means?  Just
+>>> want to make sure we're not trying to be too cute, that there aren't
+>>> perfectly viable treatment alternatives that lie outside of the term.
+>>> Our friends from PolitiFact as always in the back of my mind.
+>>>
+>>>
+>>> *(Joel?)
+>>>
+>>> On Aug 16, 2015, at 6:13 PM, Jesse Ferguson
+>>>
+>>> <jferguson@hillaryclinton.com> wrote:
+>>>
+>>> Flagging - goal had been to get this to HRC on Saturday night but it ha=
+s
+>>> been held till tonight as the other elements of the rollout (video, etc=
+.)
+>>> are debated.
+>>>
+>>> AKA - ideally would like to send it in tonight for her review so we can
+>>> have final on Monday for Wednesday AM placement.
+>>>
+>>> -----Original Message-----
+>>> From: Mandy Grunwald [mailto:gruncom@aol.com]
+>>> Sent: Sunday, August 16, 2015 5:47 PM
+>>> To: Karen Finney <kfinney@hillaryclinton.com>
+>>> Cc: Joel Benenson <jbenenson@bsgco.com>; Kristina Costa
+>>> <kcosta@hillaryclinton.com>; Tony Carrk <tcarrk@hillaryclinton.com>;
+>>> Speech Drafts <speechdrafts@hillaryclinton.com>; Ian Sams
+>>> <isams@hillaryclinton.com>; Dan Schwerin <dschwerin@hillaryclinton.com>=
+;
+>>> Jesse Ferguson <jferguson@hillaryclinton.com>
+>>> Subject: Re: In review: substance abuse op-ed
+>>>
+>>>
+>>> And one more thing.  Should we mention the growing problem of synthetic=
+s?
+>>>
+>>> Mandy Grunwald
+>>> Grunwald Communications
+>>> 202 973-9400
+>>>
+>>>
+>>> >> On Aug 16, 2015, at 5:18 PM, Karen Finney <kfinney@hillaryclinton.co=
+m
+>>> >
+>>> > wrote:
+>>> >
+>>> > Last question/comment I promise - did we engage urban leaders in the
+>>> > development of the plan?
+>>> >
+>>> > Sent from my iPhone
+>>> >
+>>> >> On Aug 16, 2015, at 5:15 PM, Joel Benenson <jbenenson@bsgco.com>
+>>> wrote:
+>>> >>
+>>> >> Democrats are going to have a field day with it. It is also probably
+>>> unconstitutional violation of 4th amendment, isn't it?
+>>> >>
+>>> >> Sent from my iPad
+>>> >>
+>>> >>> On Aug 16, 2015, at 3:10 PM, Karen Finney <
+>>> kfinney@hillaryclinton.com>
+>>> wrote:
+>>> >>>
+>>> >>> The only thing that stood out to me was annual drug screening for
+>>> >>> children and teenagers, could see the GOP having a field day. Can w=
+e
+>>> >>> explain that one a little more?
+>>> >>>
+>>> >>> Sent from my iPhone
+>>> >>>
+>>> >>>> On Aug 15, 2015, at 6:42 PM, Kristina Costa
+>>> <kcosta@hillaryclinton.com> wrote:
+>>> >>>>
+>>> >>>> Folks --
+>>> >>>>
+>>> >>>> At Dan's request, passing along  a draft HRC op-ed to accompany th=
+e
+>>> substance abuse prevention initiative fact sheet rolling out midweek.
+>>> Maya, Ann, Sara, Zach, and Ian have all reviewed, edited, and commented=
+.
+>>> It's now with Tony/research for a fact-check before going up in the boo=
+k.
+>>> >>>>
+>>> >>>> Thanks,
+>>> >>>>
+>>> >>>> Kristina
+>>> >>>> <08.14 Substance Abuse Op-Ed ALL EDITS CLEAN.docx>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>> Ann O'Leary
+>>>
+>>> Senior Policy Advisor
+>>>
+>>> Hillary for America
+>>>
+>>> Cell: 510-717-5518
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>> Ann O'Leary
+>>>
+>>> Senior Policy Advisor
+>>>
+>>> Hillary for America
+>>>
+>>> Cell: 510-717-5518
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>> Ann O'Leary
+>>>
+>>> Senior Policy Advisor
+>>>
+>>> Hillary for America
+>>>
+>>> Cell: 510-717-5518
+>>>
+>>
+>>
+>
+
+--089e010d8290e4ee92051e60c5c6
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Originally, the background memo. Happy to use whatever sta=
+t you prefer</div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote"=
+>On Fri, Aug 28, 2015 at 11:25 AM, Sara Solow <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:ssolow@hillaryclinton.com" target=3D"_blank">ssolow@hillaryclint=
+on.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"=
+margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"=
+ltr">does anyone know where the 1 in 4 teenagers came from?<br></div><div c=
+lass=3D"gmail_extra"><br><div class=3D"gmail_quote"><span class=3D"">On Fri=
+, Aug 28, 2015 at 10:54 AM, Emily Aden <span dir=3D"ltr">&lt;<a href=3D"mai=
+lto:eaden@hillaryclinton.com" target=3D"_blank">eaden@hillaryclinton.com</a=
+>&gt;</span> wrote:<br></span><div><div class=3D"h5"><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex"><div dir=3D"ltr">Looks good for research. One comment attached ask=
+ing for clarification on the one in four teenagers. Thanks!=C2=A0</div><div=
+><div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu, Aug=
+ 27, 2015 at 6:48 PM, Tony Carrk <span dir=3D"ltr">&lt;<a href=3D"mailto:tc=
+arrk@hillaryclinton.com" target=3D"_blank">tcarrk@hillaryclinton.com</a>&gt=
+;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 =
+.8ex;border-left:1px #ccc solid;padding-left:1ex"><div link=3D"blue" vlink=
+=3D"purple" lang=3D"EN-US"><div><p class=3D"MsoNormal"><span style=3D"font-=
+size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">Addin=
+g Emily and Carter here too</span></p><p class=3D"MsoNormal"><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d"=
+>=C2=A0</span></p><p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt=
+;font-family:&quot;Calibri&quot;,sans-serif">From:</span></b><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"> Ann O&#39;Le=
+ary [mailto:<a href=3D"mailto:aoleary@hillaryclinton.com" target=3D"_blank"=
+>aoleary@hillaryclinton.com</a>] <br><b>Sent:</b> Thursday, August 27, 2015=
+ 6:48 PM<br><b>To:</b> Kristina Costa &lt;<a href=3D"mailto:kcosta@hillaryc=
+linton.com" target=3D"_blank">kcosta@hillaryclinton.com</a>&gt;<br><b>Cc:</=
+b> Jesse Ferguson &lt;<a href=3D"mailto:jferguson@hillaryclinton.com" targe=
+t=3D"_blank">jferguson@hillaryclinton.com</a>&gt;; Maya Harris &lt;<a href=
+=3D"mailto:mharris@hillaryclinton.com" target=3D"_blank">mharris@hillarycli=
+nton.com</a>&gt;; Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton=
+.com" target=3D"_blank">kfinney@hillaryclinton.com</a>&gt;; Joel Benenson &=
+lt;<a href=3D"mailto:jbenenson@bsgco.com" target=3D"_blank">jbenenson@bsgco=
+.com</a>&gt;; Marlon Marshall &lt;<a href=3D"mailto:mmarshall@hillaryclinto=
+n.com" target=3D"_blank">mmarshall@hillaryclinton.com</a>&gt;; Amanda Rente=
+ria &lt;<a href=3D"mailto:arenteria@hillaryclinton.com" target=3D"_blank">a=
+renteria@hillaryclinton.com</a>&gt;; Nick Merrill &lt;<a href=3D"mailto:nme=
+rrill@hillaryclinton.com" target=3D"_blank">nmerrill@hillaryclinton.com</a>=
+&gt;; Mandy Grunwald &lt;<a href=3D"mailto:gruncom@aol.com" target=3D"_blan=
+k">gruncom@aol.com</a>&gt;; Tony Carrk &lt;<a href=3D"mailto:tcarrk@hillary=
+clinton.com" target=3D"_blank">tcarrk@hillaryclinton.com</a>&gt;; Ian Sams =
+&lt;<a href=3D"mailto:isams@hillaryclinton.com" target=3D"_blank">isams@hil=
+laryclinton.com</a>&gt;; Dan Schwerin &lt;<a href=3D"mailto:dschwerin@hilla=
+ryclinton.com" target=3D"_blank">dschwerin@hillaryclinton.com</a>&gt;; Sara=
+ Solow &lt;<a href=3D"mailto:ssolow@hillaryclinton.com" target=3D"_blank">s=
+solow@hillaryclinton.com</a>&gt;; Speech Drafts &lt;<a href=3D"mailto:speec=
+hdrafts@hillaryclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.c=
+om</a>&gt;; Speech Writers &lt;<a href=3D"mailto:speechwriters@hillaryclint=
+on.com" target=3D"_blank">speechwriters@hillaryclinton.com</a>&gt;<br><b>Su=
+bject:</b> Re: In review: substance abuse op-ed</span></p><p class=3D"MsoNo=
+rmal">=C2=A0</p><div><p class=3D"MsoNormal">This is good.=C2=A0 I just want=
+ to simplify the stat about who gets substance abuse treatment to the only =
+1 in 10 get the treatment they need stat.=C2=A0 See attached.</p><div><p cl=
+ass=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal">Otherwise, po=
+licy additions look good.=C2=A0 Thanks, Kristina!</p></div></div><div><p cl=
+ass=3D"MsoNormal">=C2=A0</p><div><p class=3D"MsoNormal">On Thu, Aug 27, 201=
+5 at 3:32 PM, Kristina Costa &lt;<a href=3D"mailto:kcosta@hillaryclinton.co=
+m" target=3D"_blank">kcosta@hillaryclinton.com</a>&gt; wrote:</p><blockquot=
+e style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in =
+6.0pt;margin-left:4.8pt;margin-right:0in"><div><p class=3D"MsoNormal">Reviv=
+ing this thread now that we&#39;re tracking a substance abuse rollout for t=
+he first half of next week. Attaching the latest version of the oped, which=
+ reflects new policy and references the recent White House announcement on =
+targeted law enforcement and public health grants. This is identical to the=
+ oped this group cleared on 2 weeks ago, except for the sentences that I&#3=
+9;ve flagged with comments in the attached, and for some small edits to kee=
+p the word count down.=C2=A0</p><div><p class=3D"MsoNormal">=C2=A0</p></div=
+><div><p class=3D"MsoNormal">As this has already been much-discussed and ed=
+ited, please respond by <b>11am Friday</b>=C2=A0with any further comments o=
+r edits so we can get this to HRC for her review.=C2=A0</p></div><div><p cl=
+ass=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal">Thanks everyb=
+ody!</p></div><div><p class=3D"MsoNormal"><span style=3D"color:#888888">=C2=
+=A0</span></p></div><div><p class=3D"MsoNormal"><span style=3D"color:#88888=
+8">Kristina</span></p></div></div><div><div><div><p class=3D"MsoNormal">=C2=
+=A0</p><div><p class=3D"MsoNormal">On Mon, Aug 17, 2015 at 9:56 AM, Jesse F=
+erguson &lt;<a href=3D"mailto:jferguson@hillaryclinton.com" target=3D"_blan=
+k">jferguson@hillaryclinton.com</a>&gt; wrote:</p><blockquote style=3D"bord=
+er:none;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-le=
+ft:4.8pt;margin-right:0in"><div><div><p class=3D"MsoNormal"><span style=3D"=
+font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=
+Final version attached which includes everyones edits and words deleted (do=
+wn to 810) so we can move forward. Thanks everyone for their hard work (esp=
+ecially author Kristina). </span></p><p class=3D"MsoNormal"><span style=3D"=
+font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=
+=C2=A0</span></p><div><div style=3D"border:none;border-top:solid #e1e1e1 1.=
+0pt;padding:3.0pt 0in 0in 0in"><p class=3D"MsoNormal"><b><span style=3D"fon=
+t-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">From:</span></b><=
+span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">=
+ Jesse Ferguson [mailto:<a href=3D"mailto:jferguson@hillaryclinton.com" tar=
+get=3D"_blank">jferguson@hillaryclinton.com</a>] <br><b>Sent:</b> Monday, A=
+ugust 17, 2015 9:27 AM<br><b>To:</b> Maya Harris &lt;<a href=3D"mailto:mhar=
+ris@hillaryclinton.com" target=3D"_blank">mharris@hillaryclinton.com</a>&gt=
+;; Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" target=3D=
+"_blank">kfinney@hillaryclinton.com</a>&gt;<br><b>Cc:</b> &#39;Joel Benenso=
+n&#39; &lt;<a href=3D"mailto:jbenenson@bsgco.com" target=3D"_blank">jbenens=
+on@bsgco.com</a>&gt;; Marlon Marshall &lt;<a href=3D"mailto:mmarshall@hilla=
+ryclinton.com" target=3D"_blank">mmarshall@hillaryclinton.com</a>&gt;; Ann =
+O&#39;Leary &lt;<a href=3D"mailto:aoleary@hillaryclinton.com" target=3D"_bl=
+ank">aoleary@hillaryclinton.com</a>&gt;; Amanda Renteria &lt;<a href=3D"mai=
+lto:arenteria@hillaryclinton.com" target=3D"_blank">arenteria@hillaryclinto=
+n.com</a>&gt;; Kristina Costa &lt;<a href=3D"mailto:kcosta@hillaryclinton.c=
+om" target=3D"_blank">kcosta@hillaryclinton.com</a>&gt;; Nick Merrill &lt;<=
+a href=3D"mailto:nmerrill@hillaryclinton.com" target=3D"_blank">nmerrill@hi=
+llaryclinton.com</a>&gt;; &#39;Mandy Grunwald&#39; &lt;<a href=3D"mailto:gr=
+uncom@aol.com" target=3D"_blank">gruncom@aol.com</a>&gt;; Tony Carrk &lt;<a=
+ href=3D"mailto:tcarrk@hillaryclinton.com" target=3D"_blank">tcarrk@hillary=
+clinton.com</a>&gt;; Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hilla=
+ryclinton.com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>&gt;; I=
+an Sams &lt;<a href=3D"mailto:isams@hillaryclinton.com" target=3D"_blank">i=
+sams@hillaryclinton.com</a>&gt;; Dan Schwerin &lt;<a href=3D"mailto:dschwer=
+in@hillaryclinton.com" target=3D"_blank">dschwerin@hillaryclinton.com</a>&g=
+t;<br><b>Subject:</b> RE: In review: substance abuse op-ed</span></p></div>=
+</div><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal"><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f49=
+7d">We think we have everyone=E2=80=99s edits. We are just doing some copy =
+editing b/c with everyone=E2=80=99s additions, the op-ed is now almost 900 =
+words and thus unlikely to be published. We will get this to her this morni=
+ng. Thanks.</span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0p=
+t;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span></=
+p><p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0p=
+t;font-family:&quot;Calibri&quot;,sans-serif"> Maya Harris [<a href=3D"mail=
+to:mharris@hillaryclinton.com" target=3D"_blank">mailto:mharris@hillaryclin=
+ton.com</a>] <br><b>Sent:</b> Monday, August 17, 2015 12:06 AM<br><b>To:</b=
+> Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" target=3D"=
+_blank">kfinney@hillaryclinton.com</a>&gt;<br><b>Cc:</b> Joel Benenson &lt;=
+<a href=3D"mailto:jbenenson@bsgco.com" target=3D"_blank">jbenenson@bsgco.co=
+m</a>&gt;; Marlon Marshall &lt;<a href=3D"mailto:mmarshall@hillaryclinton.c=
+om" target=3D"_blank">mmarshall@hillaryclinton.com</a>&gt;; Ann O&#39;Leary=
+ &lt;<a href=3D"mailto:aoleary@hillaryclinton.com" target=3D"_blank">aolear=
+y@hillaryclinton.com</a>&gt;; Amanda Renteria &lt;<a href=3D"mailto:arenter=
+ia@hillaryclinton.com" target=3D"_blank">arenteria@hillaryclinton.com</a>&g=
+t;; Kristina Costa &lt;<a href=3D"mailto:kcosta@hillaryclinton.com" target=
+=3D"_blank">kcosta@hillaryclinton.com</a>&gt;; Nick Merrill &lt;<a href=3D"=
+mailto:nmerrill@hillaryclinton.com" target=3D"_blank">nmerrill@hillaryclint=
+on.com</a>&gt;; Jesse Ferguson &lt;<a href=3D"mailto:jferguson@hillaryclint=
+on.com" target=3D"_blank">jferguson@hillaryclinton.com</a>&gt;; Mandy Grunw=
+ald &lt;<a href=3D"mailto:gruncom@aol.com" target=3D"_blank">gruncom@aol.co=
+m</a>&gt;; Tony Carrk &lt;<a href=3D"mailto:tcarrk@hillaryclinton.com" targ=
+et=3D"_blank">tcarrk@hillaryclinton.com</a>&gt;; Speech Drafts &lt;<a href=
+=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">speechdrafts@=
+hillaryclinton.com</a>&gt;; Ian Sams &lt;<a href=3D"mailto:isams@hillarycli=
+nton.com" target=3D"_blank">isams@hillaryclinton.com</a>&gt;; Dan Schwerin =
+&lt;<a href=3D"mailto:dschwerin@hillaryclinton.com" target=3D"_blank">dschw=
+erin@hillaryclinton.com</a>&gt;</span></p><div><div><p class=3D"MsoNormal">=
+<br><b>Subject:</b> Re: In review: substance abuse op-ed</p></div></div><di=
+v><div><p class=3D"MsoNormal">=C2=A0</p><div><p class=3D"MsoNormal">just of=
+fering alternative since concern raised. i&#39;m good either way.</p><div><=
+p class=3D"MsoNormal">=C2=A0</p></div></div><div><p class=3D"MsoNormal">=C2=
+=A0</p><div><p class=3D"MsoNormal">On Sun, Aug 16, 2015 at 11:46 PM, Karen =
+Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" target=3D"_blank">=
+kfinney@hillaryclinton.com</a>&gt; wrote:</p><blockquote style=3D"border:no=
+ne;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.=
+8pt;margin-top:5.0pt;margin-right:0in;margin-bottom:5.0pt"><div><div><p cla=
+ss=3D"MsoNormal">But then it goes back to sounding like she discovered this=
+ epidemic in the white community when it&#39;s been going on in AA for a lo=
+ng time. =C2=A0<br><br>Sent from my iPhone</p></div><div><p class=3D"MsoNor=
+mal" style=3D"margin-bottom:12.0pt"><br>On Aug 16, 2015, at 11:34 PM, Joel =
+Benenson &lt;<a href=3D"mailto:jbenenson@bsgco.com" target=3D"_blank">jbene=
+nson@bsgco.com</a>&gt; wrote:</p></div><blockquote style=3D"margin-top:5.0p=
+t;margin-bottom:5.0pt"><div><div><p class=3D"MsoNormal"><span style=3D"font=
+-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">Seem=
+s good if we have enough space. </span></p><p class=3D"MsoNormal"><span sty=
+le=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f=
+497d">=C2=A0</span></p><p class=3D"MsoNormal"><b><span style=3D"font-size:1=
+0.0pt;font-family:&quot;Tahoma&quot;,sans-serif">From:</span></b><span styl=
+e=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif"> Maya Harr=
+is [<a href=3D"mailto:mharris@hillaryclinton.com" target=3D"_blank">mailto:=
+mharris@hillaryclinton.com</a>] <br><b>Sent:</b> Sunday, August 16, 2015 11=
+:00 PM<br><b>To:</b> Karen Finney<br><b>Cc:</b> Marlon Marshall; Ann O&#39;=
+Leary; Amanda Renteria; Kristina Costa; Nick Merrill; Jesse Ferguson; Mandy=
+ Grunwald; Joel Benenson; Tony Carrk; Speech Drafts; Ian Sams; Dan Schwerin=
+<br><b>Subject:</b> Re: In review: substance abuse op-ed</span></p><p class=
+=3D"MsoNormal">=C2=A0</p><div><p class=3D"MsoNormal">If the goal is to name=
+ SC, but there&#39;s concern about calling out black men specifically, we c=
+ould revise the sentence to say something like:</p><div><p class=3D"MsoNorm=
+al">=C2=A0</p></div><div><p class=3D"MsoNormal">&quot;In South Carolina, a =
+lawyer spoke movingly about too many young men who have ended up imprisoned=
+ for non-violent drug offenses rather than getting the treatment they neede=
+d.&quot;</p></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=
+=3D"MsoNormal">Here&#39;s what the lawyer said in the transcript:</p></div>=
+<div><p class=3D"MsoNormal">=C2=A0</p></div><div><blockquote style=3D"margi=
+n-top:5.0pt;margin-bottom:5.0pt"><blockquote style=3D"margin-top:5.0pt;marg=
+in-bottom:5.0pt"><div><div><blockquote style=3D"border:none;border-left:sol=
+id #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;margin-top:5.0=
+pt;margin-right:0in;margin-bottom:5.0pt"><div><div><div><blockquote style=
+=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;m=
+argin-left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-bottom:5.0pt"><di=
+v><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt">&quot;</span><b>Q=
+UESTION:</b> =C2=A0My name is Carlyle Steele and I practice criminal law he=
+re in Greenville, and I=E2=80=99ve been shocked over the last 40 years at t=
+he mass incarceration of young men, particularly young African American men=
+.=C2=A0 Locking everybody up for minor offenses and nonviolent offenses isn=
+=E2=80=99t working out. &quot;</p></div></blockquote></div></div></div></bl=
+ockquote></div></div></blockquote></blockquote></div><div><p class=3D"MsoNo=
+rmal">=C2=A0</p><div><p class=3D"MsoNormal">On Sun, Aug 16, 2015 at 10:20 P=
+M, Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" target=3D=
+"_blank">kfinney@hillaryclinton.com</a>&gt; wrote:</p><div><div><p class=3D=
+"MsoNormal">Agree re AA; I think the mention is ok because she&#39;s talkin=
+g about what people have talked to her about.=C2=A0<br><br>Sent from my iPh=
+one</p></div><div><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br=
+>On Aug 16, 2015, at 9:44 PM, Marlon Marshall &lt;<a href=3D"mailto:mmarsha=
+ll@hillaryclinton.com" target=3D"_blank">mmarshall@hillaryclinton.com</a>&g=
+t; wrote:</p></div><blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0p=
+t"><div><div><p class=3D"MsoNormal">Defer to Maya and Karen if we keep, but=
+ can we say African American instead of Black? =C2=A0<br><br>=C2=A0</p></di=
+v><div><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>On Aug 16,=
+ 2015, at 9:04 PM, Ann O&#39;Leary &lt;<a href=3D"mailto:aoleary@hillarycli=
+nton.com" target=3D"_blank">aoleary@hillaryclinton.com</a>&gt; wrote:</p></=
+div><blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt"><div><div><p=
+ class=3D"MsoNormal" style=3D"margin-bottom:12.0pt">Intended to be sure she=
+ was listening to votes in all 4 first states not just IA &amp; NH with the=
+ir skewed demographics.=C2=A0 Think we need to keep it, but Maya/Karen- you=
+ good? Or want to suggest alternative?</p><div><p class=3D"MsoNormal">=C2=
+=A0</p></div><div><p class=3D"MsoNormal">Ann O=E2=80=99Leary</p></div><div>=
+<p class=3D"MsoNormal">Sent from my iPhone</p></div><div><p class=3D"MsoNor=
+mal"><a href=3D"tel:%28510%29%20717-5518" target=3D"_blank">(510) 717-5518<=
+/a> (cell)</p></div></div><div><p class=3D"MsoNormal" style=3D"margin-botto=
+m:12.0pt"><br>On Aug 16, 2015, at 6:50 PM, Amanda Renteria &lt;<a href=3D"m=
+ailto:arenteria@hillaryclinton.com" target=3D"_blank">arenteria@hillaryclin=
+ton.com</a>&gt; wrote:</p></div><blockquote style=3D"margin-top:5.0pt;margi=
+n-bottom:5.0pt"><div><div><p class=3D"MsoNormal">Perhaps I&#39;m overly sen=
+sitive but should we change calling out black men at the beginning?=C2=A0 I=
+ know we don&#39;t want to ignore that this is a big deal in the AfAm commu=
+nity, but it feels to me like she is singling them out which could be taken=
+ very badly. Defer to group but it stood out when I read it.=C2=A0<br><br>S=
+ent from my iPhone</p></div><div><p class=3D"MsoNormal" style=3D"margin-bot=
+tom:12.0pt"><br>On Aug 16, 2015, at 8:37 PM, Karen Finney &lt;<a href=3D"ma=
+ilto:kfinney@hillaryclinton.com" target=3D"_blank">kfinney@hillaryclinton.c=
+om</a>&gt; wrote:</p></div><blockquote style=3D"margin-top:5.0pt;margin-bot=
+tom:5.0pt"><div><div><p class=3D"MsoNormal">Sounds good.<br><br>Sent from m=
+y iPhone</p></div><div><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt=
+"><br>On Aug 16, 2015, at 8:33 PM, Ann O&#39;Leary &lt;<a href=3D"mailto:ao=
+leary@hillaryclinton.com" target=3D"_blank">aoleary@hillaryclinton.com</a>&=
+gt; wrote:</p></div><blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0=
+pt"><div><div><p class=3D"MsoNormal">Hi all -=C2=A0</p><div><p class=3D"Mso=
+Normal">=C2=A0</p></div><div><p class=3D"MsoNormal">I am hearing separately=
+ that even with this change that the screenings could be misconstrued and l=
+ikely more trouble than they are worth. Let&#39;s kill it and I&#39;ll revi=
+sit it as a good policy idea on the other side of this election but not one=
+ for campaign fodder.</p></div><div><p class=3D"MsoNormal">=C2=A0</p></div>=
+<div><p class=3D"MsoNormal">Here is my suggestion for four full points:</p>=
+</div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNorma=
+l"><span style=3D"font-size:9.5pt">That=E2=80=99s why I=E2=80=99m releasing=
+ a comprehensive strategy [LINK] to confront the drug addiction crisis head=
+-on. My plan sets four goals: first, ensuring every American family has acc=
+ess to affordable and effective treatments;=C2=A0<span style=3D"background:=
+yellow">second,=C2=A0ensuring that our mental health parity laws are fully =
+enforced so that insurance practices are not a barrier to substance abuse t=
+reatment</span>; third, ensuring all first responders have access to naloxo=
+ne, which stops overdoses from becoming fatal; and fourth, requiring that a=
+ll health-care providers receive training in recognizing substance use diso=
+rders and consult a prescription drug monitoring program before providing o=
+piates.</span></p></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p=
+ class=3D"MsoNormal"><span style=3D"font-size:9.5pt">Does this work for eve=
+ryone?=C2=A0</span></p></div><div><p class=3D"MsoNormal">=C2=A0</p></div><d=
+iv><p class=3D"MsoNormal"><span style=3D"font-size:9.5pt">Thanks,</span></p=
+></div><div><p class=3D"MsoNormal"><span style=3D"font-size:9.5pt">Ann</spa=
+n></p></div></div><div><p class=3D"MsoNormal">=C2=A0</p><div><p class=3D"Ms=
+oNormal">On Sun, Aug 16, 2015 at 4:58 PM, Ann O&#39;Leary &lt;<a href=3D"ma=
+ilto:aoleary@hillaryclinton.com" target=3D"_blank">aoleary@hillaryclinton.c=
+om</a>&gt; wrote:</p><div><p class=3D"MsoNormal">Hi all -=C2=A0</p><div><p =
+class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal">Sorry I was=
+ out of pocket for a few hours.=C2=A0 On a flight now to raise $$ for all o=
+f us in Oklahoma - the things we do!!</p></div><div><p class=3D"MsoNormal">=
+=C2=A0</p></div><div><p class=3D"MsoNormal">Anyhow, here is the deal:</p></=
+div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal"=
+>(1) The American Academy of Pediatrics came out with a <a href=3D"https://=
+www.aap.org/en-us/about-the-aap/aap-press-room/pages/AAP-Recommends-Substan=
+ce-Abuse-Screening-as-Part-of-Routine-Adolescent-Care.aspx" target=3D"_blan=
+k">strong policy statement in 2011</a> that every child/teenager should be =
+screened for substance abuse disorders when they visit the doctor for their=
+ annual child check up or for an accute care visit in which it might be sus=
+pected.=C2=A0 HRC has a long history of working with AAP and supporting the=
+ir efforts to do more screenings.=C2=A0 When she was First Lady, she worked=
+ on the Newborn Hearing Screening to make sure all babies get hearing scree=
+nings, and in the last several years she has pushed for and supported the A=
+AP&#39;s effort to screen young kids for symptoms of &quot;toxic stress.&qu=
+ot; =C2=A0This is not &quot;mandatory,&quot; but it is part of prevention a=
+nd wellness and it is about supporting the AAP in making this happen by rai=
+sing awareness, making sure pediatricians get reimbursed for their time in =
+doing these screenings, etc.=C2=A0 I have tried to clarify with edits to th=
+e speech, pasted below and attached.</p></div><div><p class=3D"MsoNormal">=
+=C2=A0</p></div><div><p class=3D"MsoNormal">(2) On Mandy&#39;s question abo=
+ut mental health parity, I have added a line.</p></div><div><p class=3D"Mso=
+Normal">=C2=A0</p></div><div><p class=3D"MsoNormal">(3) On Karen&#39;s ques=
+tion of whether we reached out to urban leaders, we talked to a number of p=
+olicy experts who serve urban communities. Maya is going to work with polit=
+ical to be sure we do political outreach to leaders in next 48 hours.</p></=
+div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal"=
+>(4) On Karen&#39;s suggestion, that she alludes to problems in her own fam=
+ily - I have modified accordingly.</p></div><div><p class=3D"MsoNormal">=C2=
+=A0</p></div><div><p class=3D"MsoNormal">(5) On Nick&#39;s question about s=
+pecialized care, we are good with it as Kristina noted - but let me know if=
+ you have further concerns.</p></div><div><p class=3D"MsoNormal">=C2=A0</p>=
+</div><div><p class=3D"MsoNormal">I am also attaching our final fact sheet.=
+=C2=A0 If all are good, we should get her this draft op-ed together with th=
+e fact sheet.=C2=A0 Let me know if you have more questions or concerns.</p>=
+</div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNorma=
+l">Thanks,</p></div><div><p class=3D"MsoNormal">Ann</p></div><div><p class=
+=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal"><b>DRAFT substan=
+ce abuse op-ed</b></p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNorma=
+l">WC: 822 words</p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal"=
+>I was on my first trip to New Hampshire this spring, in a Keene bakery, wh=
+en a retired doctor spoke up. I had just announced I was running for presid=
+ent, and I had traveled to Iowa and New Hampshire to hear directly from vot=
+ers about their concerns, their hopes, and their vision for the future. He =
+said his biggest worry was the rising tide of heroin addiction in the state=
+, the result of a wave of prescription drug abuse. He said hospitals were s=
+eeing more babies born addicted, that police officers were responding to mo=
+re overdoses, that families were being torn apart. </p><p class=3D"MsoNorma=
+l">=C2=A0</p><p class=3D"MsoNormal">To be candid, I didn=E2=80=99t expect w=
+hat came next. In several states, this issue crept up again and again =E2=
+=80=93 from so many people, from all walks of life, in small towns and big =
+cities.</p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">In Iowa,=
+ from Davenport to Council Bluffs, people spoke to me about meth and prescr=
+iption drugs, and scores of lives upended. In South Carolina, a lawyer spok=
+e movingly about the holes in the community left by generations of black me=
+n who ended up imprisoned for non-violent drug offenses rather than getting=
+ the treatment they needed. =C2=A0</p><p class=3D"MsoNormal">=C2=A0</p><p c=
+lass=3D"MsoNormal">These stories shine light on some harrowing statistics. =
+Nearly 23 million Americans suffer from addiction, but in 2014, only 2.5 mi=
+llion were able to receive treatment at a specialized facility. Fifty-two m=
+illion Americans over the age of 12 have abused prescription drugs, includi=
+ng one in four teenagers. In 2014, more Americans died from overdoses than =
+car crashes. </p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">En=
+ough is enough. It=E2=80=99s time we recognize as a nation that we have a q=
+uiet epidemic on our hands. Plain and simple, drug addiction is a disease, =
+not a moral failing=E2=80=94and we must treat it as such. </p><p class=3D"M=
+soNormal">=C2=A0</p><p class=3D"MsoNormal">It=E2=80=99s time we recognize a=
+s a nation that there are gaps in our health care system that allow too man=
+y sufferers to go without care=E2=80=94and invest substantially more in pre=
+vention and treatment. </p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"Mso=
+Normal">It=E2=80=99s time we recognize as a nation that our state and feder=
+al prisons, where 65 percent of inmates meet the medical criteria for subst=
+ance use disorders, are no substitute for drug treatment=E2=80=94and reform=
+ our criminal justice system. </p><p class=3D"MsoNormal">=C2=A0</p><p class=
+=3D"MsoNormal">That=E2=80=99s why I=E2=80=99m releasing a comprehensive str=
+ategy [LINK] to confront the drug addiction crisis head-on. My plan sets fo=
+ur goals: first, ensuring every American family has access to affordable an=
+d effective treatments; <span style=3D"background:yellow">second, ensuring =
+that we work with pediatricians to be sure that every child and teenager is=
+ educated about and screened for substance use disorders as part of their a=
+nnual doctor=E2=80=99s visit, just as we do for hearing, eyesight, developm=
+ental delays and so much more</span>; third, ensuring all first responders =
+have access to naloxone, which stops overdoses from becoming fatal; and fou=
+rth, requiring that all health-care providers receive training in recognizi=
+ng substance use disorders and consult a prescription drug monitoring progr=
+am before providing opiates. </p><p class=3D"MsoNormal">=C2=A0</p><p class=
+=3D"MsoNormal">Achieving these goals won=E2=80=99t be easy. It=E2=80=99s go=
+ing to take real commitment from all corners=E2=80=94law enforcement, docto=
+rs, insurance companies, schools, and governments. That=E2=80=99s why my pl=
+an starts by increasing funding for the Substance Abuse Prevention and Trea=
+tment Block Grant by 25 percent, so states and localities have more resourc=
+es to work with, and changing rules that arbitrarily limit how many patient=
+s can be treated with medication assisted treatment, a proven intervention =
+for opiate addiction. I will also direct the federal government to re-evalu=
+ate Medicare and Medicaid payment practices, to remove obstacles to reimbur=
+sement for patients seeking help and promote greater coordination of care. =
+<span style=3D"background:yellow">And I will make sure that our mental heal=
+th parity laws are fully enforced so that insurance practices are not a bar=
+rier to substance abuse treatment.</span></p><p class=3D"MsoNormal">=C2=A0<=
+/p><p class=3D"MsoNormal">But we can&#39;t stop there. As President, I will=
+ do everything I can to partner with states and communities across America =
+to meet the four goals=E2=80=94treatment, prevention, overdose intervention=
+, and improved prescriber practices. We=E2=80=99ll ask states to design amb=
+itious plans for tackling these four goals using the programs that make mos=
+t sense for their citizens=E2=80=99 needs and challenges. In return for str=
+ong plans to address the substance abuse crisis, the federal government wil=
+l draw on a new $5 billion fund to help states meet their goals. </p><p cla=
+ss=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">Every town I=E2=80=99ve v=
+isited so far in this campaign has stories of families upended by drug addi=
+ction. But across the country, I=E2=80=99ve also heard about second chances=
+. The young mother who overcame addictions to alcohol and heroin so her son=
+ would never see her with a drink or a drug in her hand. The man who served=
+ 11 years in prison who is now serving others through a prison ministry. </=
+p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">They all say the =
+same thing: no matter how much time has passed, no matter how different the=
+ir lives are today, they=E2=80=99re all still in recovery. It=E2=80=99s a p=
+rocess=E2=80=94one that began when a family member, a friend, a doctor, a p=
+olice officer extended a hand to help. As one New Hampshire woman said, =E2=
+=80=9CWe&#39;re not bad people trying to get good, we&#39;re sick people wh=
+o deserve to get well.=E2=80=9D</p><p class=3D"MsoNormal">=C2=A0</p><p clas=
+s=3D"MsoNormal">There are 23 million Americans suffering from addiction. <s=
+pan style=3D"background:yellow">There are untold millions more. No one is u=
+ntouched =E2=80=93 we all have family and friends who are affected.</span> =
+We can=E2=80=99t afford to stay on the sidelines any longer=E2=80=94because=
+ when families are strong, America is strong. Through improved treatment, p=
+revention, and training, we can end this quiet epidemic once and for all. <=
+/p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">=C2=A0</p></div>=
+</div><div><div><div><p class=3D"MsoNormal">=C2=A0</p><div><p class=3D"MsoN=
+ormal">On Sun, Aug 16, 2015 at 3:57 PM, Kristina Costa &lt;<a href=3D"mailt=
+o:kcosta@hillaryclinton.com" target=3D"_blank">kcosta@hillaryclinton.com</a=
+>&gt; wrote:</p><div><p class=3D"MsoNormal">On the screening point, will le=
+t policy get into details, but it&#39;s the major pillar of the &#39;preven=
+tion&#39; goal. Would folks be more comfortable if it said something like [=
+CAPS=3DADDITION] =C2=A0&quot;ensuring every child and teenager is annually =
+screened for substance use DISORDERS, JUST AS THEY ARE ALREADY SCREENED FOR=
+ OTHER ILLNESSES&quot;?</p><div><p class=3D"MsoNormal">=C2=A0</p></div><div=
+><p class=3D"MsoNormal">schools and doctors regularly screen for all sorts =
+of diseases, and substance abuse screening /=3D random drug testing.=C2=A0<=
+/p></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNo=
+rmal">On the &quot;specialized facilities,&quot; the stat comes from the NI=
+H&#39;s National Institute on Drug Abuse and includes all facilities licens=
+ed or certified by state substance abuse agencies to provide treatment. So =
+think it&#39;s easy to answer Politifact when they try to get cute.=C2=A0</=
+p></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNor=
+mal">+ Ann, per Maya&#39;s add</p></div><div><p class=3D"MsoNormal">=C2=A0<=
+/p></div></div><div><p class=3D"MsoNormal">=C2=A0</p><div><p class=3D"MsoNo=
+rmal">On Sun, Aug 16, 2015 at 6:45 PM, Nick Merrill &lt;<a href=3D"mailto:n=
+merrill@hillaryclinton.com" target=3D"_blank">nmerrill@hillaryclinton.com</=
+a>&gt; wrote:</p><div><div><blockquote style=3D"border:none;border-left:sol=
+id #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;margin-top:5.0=
+pt;margin-right:0in;margin-bottom:5.0pt"><p class=3D"MsoNormal">I&#39;m pil=
+ing on at this point, but without knowing the background or the<br>particul=
+ars, the mandatory testing piece is troubling to me.=C2=A0 Not to<br>mentio=
+n I probably wouldn&#39;t have passed at times in my younger<br>years...I b=
+et I&#39;m not the only one.*<br><br>And on the statistic about 2.5 million=
+ people receiving treatment at a<br>&quot;specialized facility,&quot; can s=
+omeone explain what that means?=C2=A0 Just<br>want to make sure we&#39;re n=
+ot trying to be too cute, that there aren&#39;t<br>perfectly viable treatme=
+nt alternatives that lie outside of the term.<br>Our friends from PolitiFac=
+t as always in the back of my mind.<br><br><br>*(Joel?)<br><br>On Aug 16, 2=
+015, at 6:13 PM, Jesse Ferguson</p><div><div><p class=3D"MsoNormal">&lt;<a =
+href=3D"mailto:jferguson@hillaryclinton.com" target=3D"_blank">jferguson@hi=
+llaryclinton.com</a>&gt; wrote:<br><br>Flagging - goal had been to get this=
+ to HRC on Saturday night but it has<br>been held till tonight as the other=
+ elements of the rollout (video, etc.)<br>are debated.<br><br>AKA - ideally=
+ would like to send it in tonight for her review so we can<br>have final on=
+ Monday for Wednesday AM placement.<br><br>-----Original Message-----<br>Fr=
+om: Mandy Grunwald [mailto:<a href=3D"mailto:gruncom@aol.com" target=3D"_bl=
+ank">gruncom@aol.com</a>]<br>Sent: Sunday, August 16, 2015 5:47 PM<br>To: K=
+aren Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" target=3D"_bl=
+ank">kfinney@hillaryclinton.com</a>&gt;<br>Cc: Joel Benenson &lt;<a href=3D=
+"mailto:jbenenson@bsgco.com" target=3D"_blank">jbenenson@bsgco.com</a>&gt;;=
+ Kristina Costa<br>&lt;<a href=3D"mailto:kcosta@hillaryclinton.com" target=
+=3D"_blank">kcosta@hillaryclinton.com</a>&gt;; Tony Carrk &lt;<a href=3D"ma=
+ilto:tcarrk@hillaryclinton.com" target=3D"_blank">tcarrk@hillaryclinton.com=
+</a>&gt;;<br>Speech Drafts &lt;<a href=3D"mailto:speechdrafts@hillaryclinto=
+n.com" target=3D"_blank">speechdrafts@hillaryclinton.com</a>&gt;; Ian Sams<=
+br>&lt;<a href=3D"mailto:isams@hillaryclinton.com" target=3D"_blank">isams@=
+hillaryclinton.com</a>&gt;; Dan Schwerin &lt;<a href=3D"mailto:dschwerin@hi=
+llaryclinton.com" target=3D"_blank">dschwerin@hillaryclinton.com</a>&gt;;<b=
+r>Jesse Ferguson &lt;<a href=3D"mailto:jferguson@hillaryclinton.com" target=
+=3D"_blank">jferguson@hillaryclinton.com</a>&gt;<br>Subject: Re: In review:=
+ substance abuse op-ed<br><br><br>And one more thing.=C2=A0 Should we menti=
+on the growing problem of synthetics?<br><br>Mandy Grunwald<br>Grunwald Com=
+munications<br><a href=3D"tel:202%20973-9400" target=3D"_blank">202 973-940=
+0</a><br><br><br>&gt;&gt; On Aug 16, 2015, at 5:18 PM, Karen Finney &lt;<a =
+href=3D"mailto:kfinney@hillaryclinton.com" target=3D"_blank">kfinney@hillar=
+yclinton.com</a>&gt;<br>&gt; wrote:<br>&gt;<br>&gt; Last question/comment I=
+ promise - did we engage urban leaders in the<br>&gt; development of the pl=
+an?<br>&gt;<br>&gt; Sent from my iPhone<br>&gt;<br>&gt;&gt; On Aug 16, 2015=
+, at 5:15 PM, Joel Benenson &lt;<a href=3D"mailto:jbenenson@bsgco.com" targ=
+et=3D"_blank">jbenenson@bsgco.com</a>&gt; wrote:<br>&gt;&gt;<br>&gt;&gt; De=
+mocrats are going to have a field day with it. It is also probably<br>uncon=
+stitutional violation of 4th amendment, isn&#39;t it?<br>&gt;&gt;<br>&gt;&g=
+t; Sent from my iPad<br>&gt;&gt;<br>&gt;&gt;&gt; On Aug 16, 2015, at 3:10 P=
+M, Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" target=3D=
+"_blank">kfinney@hillaryclinton.com</a>&gt;<br>wrote:<br>&gt;&gt;&gt;<br>&g=
+t;&gt;&gt; The only thing that stood out to me was annual drug screening fo=
+r<br>&gt;&gt;&gt; children and teenagers, could see the GOP having a field =
+day. Can we<br>&gt;&gt;&gt; explain that one a little more?<br>&gt;&gt;&gt;=
+<br>&gt;&gt;&gt; Sent from my iPhone<br>&gt;&gt;&gt;<br>&gt;&gt;&gt;&gt; On=
+ Aug 15, 2015, at 6:42 PM, Kristina Costa<br>&lt;<a href=3D"mailto:kcosta@h=
+illaryclinton.com" target=3D"_blank">kcosta@hillaryclinton.com</a>&gt; wrot=
+e:<br>&gt;&gt;&gt;&gt;<br>&gt;&gt;&gt;&gt; Folks --<br>&gt;&gt;&gt;&gt;<br>=
+&gt;&gt;&gt;&gt; At Dan&#39;s request, passing along=C2=A0 a draft HRC op-e=
+d to accompany the<br>substance abuse prevention initiative fact sheet roll=
+ing out midweek.<br>Maya, Ann, Sara, Zach, and Ian have all reviewed, edite=
+d, and commented.<br>It&#39;s now with Tony/research for a fact-check befor=
+e going up in the book.<br>&gt;&gt;&gt;&gt;<br>&gt;&gt;&gt;&gt; Thanks,<br>=
+&gt;&gt;&gt;&gt;<br>&gt;&gt;&gt;&gt; Kristina<br>&gt;&gt;&gt;&gt; &lt;08.14=
+ Substance Abuse Op-Ed ALL EDITS CLEAN.docx&gt;</p></div></div></blockquote=
+></div></div></div><p class=3D"MsoNormal">=C2=A0</p></div></div><p class=3D=
+"MsoNormal"><br><br clear=3D"all"></p><div><p class=3D"MsoNormal">=C2=A0</p=
+></div></div></div><p class=3D"MsoNormal"><span style=3D"color:#888888">-- =
+</span></p><div><div><p class=3D"MsoNormal"><span style=3D"color:#888888">A=
+nn O&#39;Leary</span></p><div><p class=3D"MsoNormal"><span style=3D"color:#=
+888888">Senior Policy Advisor</span></p></div><div><p class=3D"MsoNormal"><=
+span style=3D"color:#888888">Hillary for America</span></p></div><div><p cl=
+ass=3D"MsoNormal"><span style=3D"color:#888888">Cell: <a href=3D"tel:510-71=
+7-5518" target=3D"_blank">510-717-5518</a></span></p></div></div></div></di=
+v></div><p class=3D"MsoNormal"><span style=3D"color:#888888"><br><br clear=
+=3D"all"></span></p><div><p class=3D"MsoNormal">=C2=A0</p></div><p class=3D=
+"MsoNormal"><span style=3D"color:#888888">-- </span></p><div><div><p class=
+=3D"MsoNormal"><span style=3D"color:#888888">Ann O&#39;Leary</span></p><div=
+><p class=3D"MsoNormal"><span style=3D"color:#888888">Senior Policy Advisor=
+</span></p></div><div><p class=3D"MsoNormal"><span style=3D"color:#888888">=
+Hillary for America</span></p></div><div><p class=3D"MsoNormal"><span style=
+=3D"color:#888888">Cell: <a href=3D"tel:510-717-5518" target=3D"_blank">510=
+-717-5518</a></span></p></div></div></div></div></div></blockquote></div></=
+blockquote></div></blockquote></div></blockquote></div></blockquote></div><=
+/div><p class=3D"MsoNormal"><span style=3D"color:#888888">=C2=A0</span></p>=
+</div></div></div></div></blockquote></div></blockquote></div><p class=3D"M=
+soNormal">=C2=A0</p></div></div></div></div></div></blockquote></div><p cla=
+ss=3D"MsoNormal">=C2=A0</p></div></div></div></blockquote></div><p class=3D=
+"MsoNormal"><br><br clear=3D"all"></p><div><p class=3D"MsoNormal">=C2=A0</p=
+></div><p class=3D"MsoNormal">-- </p><div><div><p class=3D"MsoNormal">Ann O=
+&#39;Leary</p><div><p class=3D"MsoNormal">Senior Policy Advisor</p></div><d=
+iv><p class=3D"MsoNormal">Hillary for America</p></div><div><p class=3D"Mso=
+Normal">Cell: <a href=3D"tel:510-717-5518" value=3D"+15107175518" target=3D=
+"_blank">510-717-5518</a></p></div></div></div></div></div></div>
+</blockquote></div><br></div>
+</div></div></blockquote></div></div></div><br></div>
+</blockquote></div><br></div>
+
+--089e010d8290e4ee92051e60c5c6--

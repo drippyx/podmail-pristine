@@ -1,0 +1,941 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.94 with SMTP id o91csp1043132lfi;
+        Sun, 12 Apr 2015 18:34:56 -0700 (PDT)
+X-Received: by 10.180.77.170 with SMTP id t10mr16846216wiw.5.1428888896152;
+        Sun, 12 Apr 2015 18:34:56 -0700 (PDT)
+Return-Path: <hrcrapid+bncBD7ZBPMEVEHBBPV2VSUQKGQEJ6XJRKY@googlegroups.com>
+Received: from mail-wi0-x23e.google.com (mail-wi0-x23e.google.com. [2a00:1450:400c:c05::23e])
+        by mx.google.com with ESMTPS id w20si14831742wjr.194.2015.04.12.18.34.54
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 12 Apr 2015 18:34:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of hrcrapid+bncBD7ZBPMEVEHBBPV2VSUQKGQEJ6XJRKY@googlegroups.com designates 2a00:1450:400c:c05::23e as permitted sender) client-ip=2a00:1450:400c:c05::23e;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hrcrapid+bncBD7ZBPMEVEHBBPV2VSUQKGQEJ6XJRKY@googlegroups.com designates 2a00:1450:400c:c05::23e as permitted sender) smtp.mail=hrcrapid+bncBD7ZBPMEVEHBBPV2VSUQKGQEJ6XJRKY@googlegroups.com;
+       dkim=pass header.i=@googlegroups.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-x23e.google.com with SMTP id r20sf12540895wiv.1;
+        Sun, 12 Apr 2015 18:34:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20120806;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe;
+        bh=cFENDhjSTyGlnuzZFxmTHKsF6Xucs8KuN/Ot5jglpW0=;
+        b=W0NVrU5lEaVdRd/mHpMQ6aLG5kXeZVJ6imWl/Qnx+JEk+a2FDNQBr5zOiTzcD0kbcf
+         bG1828RXeKldqxzH5bn1R415nRh0CRHzGj6SNHzTFK5RprZ9HFG6e20NoSbLfMJMKYsa
+         tCxImrgAWG3cfhzoQlbTauLRc3nzcQehtjcEqSp45+wvepSqsiEihD+UnyrhjUX0TCmN
+         Tuimc+8Q7YfFgZCAIHbTq5MNKk/DL62KIBzWCWAFaY0G69KJg2FBgdEn2YJg5yYhj/2t
+         8+cDCZiwwJCdYsMRgLzxSSQcvLHaPlu+Zbvz+4d93OUrle6xM82mmCbONBIcxG6bB9Aw
+         bChw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe;
+        bh=cFENDhjSTyGlnuzZFxmTHKsF6Xucs8KuN/Ot5jglpW0=;
+        b=dtMu1gNfymPrUhilQyN2LY6RSI5AaX6b8SsU4pOxYUudBhvhtATkgE04NY8Trqavxs
+         n7UhWRZNeXhIRRs1eT+UzgJcRweX2HZGhpJl4mth9BxWAbrFlSamypmYDw5NNrcC+ONq
+         LzhKt1abrYwoZ+5qKcC6kJ+Pp25hlx6at6ZqPVxLepyMEiiLAzOInTGGoxFiwOLOXyST
+         mrda1JeZzB57V9defgUtsi8W0ZaunqxGcZwY4s32Efnyu3u3f+YS1dbhCgF644dw60+x
+         hqS78kobu11LqdZiL7XeREqFVmQ4COEchQ+mbNxxp1EKN5ZxZ0owz8C9NpQ05f5UnAGA
+         kRgw==
+X-Received: by 10.152.22.198 with SMTP id g6mr123825laf.28.1428888894885;
+        Sun, 12 Apr 2015 18:34:54 -0700 (PDT)
+X-BeenThere: hrcrapid@googlegroups.com
+Received: by 10.152.181.5 with SMTP id ds5ls699850lac.20.gmail; Sun, 12 Apr
+ 2015 18:34:54 -0700 (PDT)
+X-Received: by 10.112.26.5 with SMTP id h5mr1821490lbg.4.1428888894380;
+        Sun, 12 Apr 2015 18:34:54 -0700 (PDT)
+Received: from mail-wi0-f179.google.com (mail-wi0-f179.google.com. [209.85.212.179])
+        by gmr-mx.google.com with ESMTPS id sf8si332903wic.2.2015.04.12.18.34.54
+        for <hrcrapid@googlegroups.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 12 Apr 2015 18:34:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of isams@hillaryclinton.com designates 209.85.212.179 as permitted sender) client-ip=209.85.212.179;
+Received: by widjs5 with SMTP id js5so53533449wid.1
+        for <hrcrapid@googlegroups.com>; Sun, 12 Apr 2015 18:34:54 -0700 (PDT)
+X-Gm-Message-State: ALoCoQk+pFcMWt8X5T19QA4TOtPo4Eh1CxyQYzeYLsD9YcVrU1gvR5nFpRaaTruKKvyV1LP8gbk9
+MIME-Version: 1.0
+X-Received: by 10.180.37.3 with SMTP id u3mr17022738wij.43.1428888894207; Sun,
+ 12 Apr 2015 18:34:54 -0700 (PDT)
+Received: by 10.180.86.168 with HTTP; Sun, 12 Apr 2015 18:34:54 -0700 (PDT)
+In-Reply-To: <D1509365.51922%creynolds@gpg.com>
+References: <C94054522CCD1EB5.C772CC9D-AEA3-49A0-8902-71784D835211@mail.outlook.com>
+	<c0fa0825de9991688f36c23b7d8344a7@mail.gmail.com>
+	<CAJkCx1-dE-UbUc7m+0fYj4Ucfg-iV7gnNi=5eu+-PbG0rDVyag@mail.gmail.com>
+	<CAE_=YH_Dfvgf+5H4wkuz1QpDnUhRy_NpWVt0CshYEfmcQzYq+w@mail.gmail.com>
+	<CANu9wN6YqxA_8p3XGB6N5Z4tr9vf2jvjCu20=5zycuKh-QoMdw@mail.gmail.com>
+	<5945EFCD-B39A-4A82-8197-A2928724D7D6@aol.com>
+	<6011070622957136847@unknownmsgid>
+	<1D8E6ACA-A624-4FD5-8314-DE0FCF4750F4@gmail.com>
+	<E14D5FDE08E02D4BBDA429F9E1ACB86F047E20@S2376M11.CDSmail.pvt>
+	<1957882101320655673@unknownmsgid>
+	<D1509365.51922%creynolds@gpg.com>
+Date: Sun, 12 Apr 2015 21:34:54 -0400
+Message-ID: <CABd81J+9_7sa_CJRh0Zfa-5KkerYDQNnR4ynTwmPJD9w5b6gSA@mail.gmail.com>
+Subject: Re: Question!
+From: Ian Sams <isams@hillaryclinton.com>
+To: Christina Reynolds <creynolds@gpg.com>
+CC: Tyson Brody <tbrody@hillaryclinton.com>, 
+ "Margolis, Jim" <Jim.Margolis@gmmb.com>, 
+ Jake Sullivan <jake.sullivan@gmail.com>, 
+ Adrienne Elrod <aelrod@hillaryclinton.com>, 
+ Mandy Grunwald <gruncom@aol.com>, 
+ Nick Merrill <nmerrill@hillaryclinton.com>, 
+ Jesse Ferguson <jferguson@hillaryclinton.com>, 
+ "hrcrapid@googlegroups.com" <hrcrapid@googlegroups.com>
+Content-Type: multipart/alternative; boundary=e89a8f502eeaf690270513911e04
+X-Original-Sender: isams@hillaryclinton.com
+X-Original-Authentication-Results: gmr-mx.google.com;       spf=pass
+ (google.com: domain of isams@hillaryclinton.com designates 209.85.212.179 as
+ permitted sender) smtp.mail=isams@hillaryclinton.com;       dmarc=pass
+ (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list hrcrapid@googlegroups.com; contact hrcrapid+owners@googlegroups.com
+List-ID: <hrcrapid.googlegroups.com>
+X-Google-Group-Id: 612515467801
+List-Post: <http://groups.google.com/group/hrcrapid/post>, <mailto:hrcrapid@googlegroups.com>
+List-Help: <http://groups.google.com/support/>, <mailto:hrcrapid+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/hrcrapid
+Sender: hrcrapid@googlegroups.com
+List-Unsubscribe: <mailto:googlegroups-manage+612515467801+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/group/hrcrapid/subscribe>
+
+--e89a8f502eeaf690270513911e04
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I would just suggest we use "marriage equality" versus "gay marriage."
+
+On Sun, Apr 12, 2015 at 9:30 PM, Christina Reynolds <creynolds@gpg.com>
+wrote:
+
+>  Talked to Jen and Kristina and we believe this will become news either
+> way (a non-answer or an answer), and given Jake=E2=80=99s point that we=
+=E2=80=99re going to
+> be there anyway and the moving mentions of gay marriage in the video, we
+> would like to get back to him tomorrow AM with this, ideally on backgroun=
+d,
+> but on the record if he needs it.
+>
+>  Hillary Clinton supports gay marriage and hopes the Supreme Court will
+> come down on the side of same-sex couples being able to get that
+> constitutional right.
+>
+>   From: Tyson Brody <tbrody@hillaryclinton.com>
+> Date: Sunday, April 12, 2015 at 9:09 PM
+> To: Jim Margolis <Jim.Margolis@gmmb.com>
+> Cc: Jake Sullivan <jake.sullivan@gmail.com>, Adrienne Elrod <
+> aelrod@hillaryclinton.com>, Mandy Grunwald <gruncom@aol.com>, Nick
+> Merrill <nmerrill@hillaryclinton.com>, Jesse Ferguson <
+> jferguson@hillaryclinton.com>, "hrcrapid@googlegroups.com" <
+> hrcrapid@googlegroups.com>
+> Subject: Re: Question!
+>
+>   For awareness - the idea of a constitutional amendment allowing states
+> to define marriage is one being pushed by Ted Cruz and Social Conservativ=
+es
+> group as a new way to pushback against SSM.
+>
+> Sent from my iPhone
+>
+> On Apr 12, 2015, at 9:07 PM, Margolis, Jim <Jim.Margolis@gmmb.com> wrote:
+>
+>   I totally agree w/jake.
+> Let's not start evasive.
+> Let's just say we'll respond soon. Pretty busy day.
+>  ------------------------------
+> *From:*hrcrapid@googlegroups.com [hrcrapid@googlegroups.com] on behalf of
+> Jake Sullivan [jake.sullivan@gmail.com]
+> *Sent:* Sunday, April 12, 2015 8:51 PM
+> *To:* Adrienne Elrod
+> *Cc:* Mandy Grunwald; Nick Merrill; Jesse Ferguson;
+> hrcrapid@googlegroups.com
+> *Subject:* Re: Question!
+>
+>   I'm fine deferring but I do think that on no-brainers like this we
+> shouldn't let the questions build.
+>
+>  Rather than give punt language that sounds like a dodge just say you'll
+> get back to him when you can.  We did just start.
+>
+>
+>
+> On Apr 12, 2015, at 8:47 PM, Adrienne Elrod <aelrod@hillaryclinton.com>
+> wrote:
+>
+>   If all agree I think we try to give  this reporter dan's "punt"
+> language he's devising and leave it at that.
+>
+>  Apparently this guy is the main LGBT reporter for buzzfeed so probably
+> whatever she says on this he will pick apart and agree with Mandy and
+> others that it will become news that distracts from our desired message
+> this week
+>
+> Sent from my iPhone
+>
+> On Apr 12, 2015, at 8:38 PM, Mandy Grunwald <gruncom@aol.com> wrote:
+>
+>   Doesn't it seem like the wrong moment to be making policy news?
+>
+> Mandy Grunwald
+> Grunwald Communications
+> 202 973-9400
+>
+>
+>
+> On Apr 12, 2015, at 8:34 PM, Adrienne Elrod <aelrod@hillaryclinton.com>
+> wrote:
+>
+>   Nick/Jake, how do you think we should handle? I think we all know that
+> we have to be incredibly careful here, but seems like it's a tougher one =
+to
+> put off...
+>
+> Maybe we can say something along lines of (and I can come up with
+> something much better than this), though Hillary (has said/believes?) "sh=
+e hopes
+> the Supreme Court comes down on the side of all same-sex couples being
+> allowed to marry" and just leave it at that?
+>
+>  Just feel like it would be nice to not weigh in on this immediately on
+> this but do not know if that is possible.
+>
+> On Sun, Apr 12, 2015 at 8:27 PM, Nick Merrill <nmerrill@hillaryclinton.co=
+m
+> > wrote:
+>
+>> This stems from an interpretation of part of her Terri Gross interview
+>> and we haven't touched it since. Adrienne let me know if I can help.
+>>
+>> On Sun, Apr 12, 2015 at 7:57 PM, Jesse Ferguson <
+>> jferguson@hillaryclinton.com> wrote:
+>>
+>>>  Any guidance?
+>>>
+>>>  Adrienne, can you handle?
+>>>
+>>>
+>>>  ---------- Forwarded message ----------
+>>> From: Jesse Ferguson <jesse@jesseferguson.com>
+>>> Date: Sun, Apr 12, 2015 at 7:52 PM
+>>> Subject: FW: Question!
+>>> To: jferguson@hillaryclinton.com
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> *From:* Chris Geidner [mailto:chris.geidner@buzzfeed.com]
+>>> *Sent:* Sunday, April 12, 2015 7:39 PM
+>>> *To:* Jesse@jesseferguson.com
+>>> *Subject:* Question!
+>>>
+>>>
+>>>
+>>> Jesse --
+>>>
+>>>
+>>>
+>>> Ruby told me that you are the person to reach: Previously Sec. Clinton
+>>> has been ambiguous, to my knowledge, on whether she believes same-sex
+>>> couples have a constitutional right to marriage. Does Sec. Clinton beli=
+eve
+>>> states can ban same-sex couples from marrying, or does she believe such
+>>> bans are unconstitutional?
+>>>
+>>>
+>>>
+>>> Thanks --
+>>>
+>>>
+>>>
+>>> Chris
+>>>
+>>>
+>>> Chris Geidner
+>>> Legal Editor, BuzzFeed News
+>>> http://buzzfeed.com/chrisgeidner
+>>> 614-477-2905
+>>> @chrisgeidner
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> --
+>>>
+>>>
+>>>
+>>>  ----
+>>>
+>>>  Jesse F. Ferguson
+>>> Deputy National Press Secretary and Senior Spokesman
+>>> Hillary for America
+>>> @JesseFFerguson
+>>> Gchat: Jfferg
+>>>
+>>> --
+>>> You received this message because you are subscribed to the Google
+>>> Groups "HRCRapid" group.
+>>> To unsubscribe from this group and stop receiving emails from it, send
+>>> an email to hrcrapid+unsubscribe@googlegroups.com.
+>>> To post to this group, send email to hrcrapid@googlegroups.com.
+>>> To view this discussion on the web visit
+>>> https://groups.google.com/d/msgid/hrcrapid/CAJkCx1-dE-UbUc7m%2B0fYj4Ucf=
+g-iV7gnNi%3D5eu%2B-PbG0rDVyag%40mail.gmail.com
+>>> <https://groups.google.com/d/msgid/hrcrapid/CAJkCx1-dE-UbUc7m%2B0fYj4Uc=
+fg-iV7gnNi%3D5eu%2B-PbG0rDVyag%40mail.gmail.com?utm_medium=3Demail&utm_sour=
+ce=3Dfooter>
+>>> .
+>>> For more options, visit https://groups.google.com/d/optout.
+>>>
+>>
+>>   --
+>> You received this message because you are subscribed to the Google Group=
+s
+>> "HRCRapid" group.
+>> To unsubscribe from this group and stop receiving emails from it, send a=
+n
+>> email to hrcrapid+unsubscribe@googlegroups.com.
+>> To post to this group, send email to hrcrapid@googlegroups.com.
+>>  To view this discussion on the web visit
+>> https://groups.google.com/d/msgid/hrcrapid/CAE_%3DYH_Dfvgf%2B5H4wkuz1QpD=
+nUhRy_NpWVt0CshYEfmcQzYq%2Bw%40mail.gmail.com
+>> <https://groups.google.com/d/msgid/hrcrapid/CAE_%3DYH_Dfvgf%2B5H4wkuz1Qp=
+DnUhRy_NpWVt0CshYEfmcQzYq%2Bw%40mail.gmail.com?utm_medium=3Demail&utm_sourc=
+e=3Dfooter>.
+>>
+>>
+>> For more options, visit https://groups.google.com/d/optout.
+>>
+>
+>  --
+> You received this message because you are subscribed to the Google Groups
+> "HRCRapid" group.
+> To unsubscribe from this group and stop receiving emails from it, send an
+> email to hrcrapid+unsubscribe@googlegroups.com.
+> To post to this group, send email to hrcrapid@googlegroups.com.
+> To view this discussion on the web visit
+> https://groups.google.com/d/msgid/hrcrapid/CANu9wN6YqxA_8p3XGB6N5Z4tr9vf2=
+jvjCu20%3D5zycuKh-QoMdw%40mail.gmail.com
+> <https://groups.google.com/d/msgid/hrcrapid/CANu9wN6YqxA_8p3XGB6N5Z4tr9vf=
+2jvjCu20%3D5zycuKh-QoMdw%40mail.gmail.com?utm_medium=3Demail&utm_source=3Df=
+ooter>
+> .
+> For more options, visit https://groups.google.com/d/optout.
+>
+>   --
+> You received this message because you are subscribed to the Google Groups
+> "HRCRapid" group.
+> To unsubscribe from this group and stop receiving emails from it, send an
+> email to hrcrapid+unsubscribe@googlegroups.com.
+> To post to this group, send email to hrcrapid@googlegroups.com.
+> To view this discussion on the web visit
+> https://groups.google.com/d/msgid/hrcrapid/6011070622957136847%40unknownm=
+sgid
+> <https://groups.google.com/d/msgid/hrcrapid/6011070622957136847%40unknown=
+msgid?utm_medium=3Demail&utm_source=3Dfooter>
+> .
+> For more options, visit https://groups.google.com/d/optout.
+>
+>  --
+> You received this message because you are subscribed to the Google Groups
+> "HRCRapid" group.
+> To unsubscribe from this group and stop receiving emails from it, send an
+> email to hrcrapid+unsubscribe@googlegroups.com.
+> To post to this group, send email to hrcrapid@googlegroups.com.
+> To view this discussion on the web visit
+> https://groups.google.com/d/msgid/hrcrapid/1D8E6ACA-A624-4FD5-8314-DE0FCF=
+4750F4%40gmail.com
+> <https://groups.google.com/d/msgid/hrcrapid/1D8E6ACA-A624-4FD5-8314-DE0FC=
+F4750F4%40gmail.com?utm_medium=3Demail&utm_source=3Dfooter>
+> .
+> For more options, visit https://groups.google.com/d/optout.
+>
+>
+> This email is intended only for the named addressee. It may contain
+> information that is confidential/private, legally privileged, or
+> copyright-protected, and you should handle it accordingly. If you are not
+> the intended recipient, you do not have legal rights to retain, copy, or
+> distribute this email or its contents, and should promptly delete the ema=
+il
+> and all electronic copies in your system; do not retain copies in any
+> media. If you have received this email in error, please notify the sender
+> promptly. Thank you.
+>
+> --
+> You received this message because you are subscribed to the Google Groups
+> "HRCRapid" group.
+> To unsubscribe from this group and stop receiving emails from it, send an
+> email to hrcrapid+unsubscribe@googlegroups.com.
+> To post to this group, send email to hrcrapid@googlegroups.com.
+> To view this discussion on the web visit
+> https://groups.google.com/d/msgid/hrcrapid/E14D5FDE08E02D4BBDA429F9E1ACB8=
+6F047E20%40S2376M11.CDSmail.pvt
+> <https://groups.google.com/d/msgid/hrcrapid/E14D5FDE08E02D4BBDA429F9E1ACB=
+86F047E20%40S2376M11.CDSmail.pvt?utm_medium=3Demail&utm_source=3Dfooter>
+> .
+> For more options, visit https://groups.google.com/d/optout.
+>
+>  --
+> You received this message because you are subscribed to the Google Groups
+> "HRCRapid" group.
+> To unsubscribe from this group and stop receiving emails from it, send an
+> email to hrcrapid+unsubscribe@googlegroups.com.
+> To post to this group, send email to hrcrapid@googlegroups.com.
+> To view this discussion on the web visit
+> https://groups.google.com/d/msgid/hrcrapid/1957882101320655673%40unknownm=
+sgid
+> <https://groups.google.com/d/msgid/hrcrapid/1957882101320655673%40unknown=
+msgid?utm_medium=3Demail&utm_source=3Dfooter>
+> .
+> For more options, visit https://groups.google.com/d/optout.
+>
+> --
+> You received this message because you are subscribed to the Google Groups
+> "HRCRapid" group.
+> To unsubscribe from this group and stop receiving emails from it, send an
+> email to hrcrapid+unsubscribe@googlegroups.com.
+> To post to this group, send email to hrcrapid@googlegroups.com.
+> To view this discussion on the web visit
+> https://groups.google.com/d/msgid/hrcrapid/D1509365.51922%25creynolds%40g=
+pg.com
+> <https://groups.google.com/d/msgid/hrcrapid/D1509365.51922%25creynolds%40=
+gpg.com?utm_medium=3Demail&utm_source=3Dfooter>
+> .
+>
+> For more options, visit https://groups.google.com/d/optout.
+>
+
+
+
+--=20
+*Ian Sams* | Rapid Response Associate
+Hillary for America
+(423) 915-6592 | @IanSams <https://twitter.com/iansams>
+Gchat: icsams
+
+--=20
+You received this message because you are subscribed to the Google Groups "=
+HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to hrcrapid+unsubscribe@googlegroups.com.
+To post to this group, send email to hrcrapid@googlegroups.com.
+To view this discussion on the web visit https://groups.google.com/d/msgid/=
+hrcrapid/CABd81J%2B9_7sa_CJRh0Zfa-5KkerYDQNnR4ynTwmPJD9w5b6gSA%40mail.gmail=
+.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--e89a8f502eeaf690270513911e04
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I would just suggest we use &quot;marriage equality&quot; =
+versus &quot;gay marriage.&quot;</div><div class=3D"gmail_extra"><br><div c=
+lass=3D"gmail_quote">On Sun, Apr 12, 2015 at 9:30 PM, Christina Reynolds <s=
+pan dir=3D"ltr">&lt;<a href=3D"mailto:creynolds@gpg.com" target=3D"_blank">=
+creynolds@gpg.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote=
+" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+<div style=3D"word-wrap:break-word;color:rgb(0,0,0);font-size:14px;font-fam=
+ily:Calibri,sans-serif">
+<div>Talked to Jen and Kristina and we believe this will become news either=
+ way (a non-answer or an answer), and given Jake=E2=80=99s point that we=E2=
+=80=99re going to be there anyway and the moving mentions of gay marriage i=
+n the video, we would like to get back to him tomorrow
+ AM with this, ideally on background, but on the record if he needs it.</di=
+v>
+<div><br>
+</div>
+<div>Hillary Clinton supports gay marriage and hopes the Supreme Court will=
+ come down on the side of same-sex couples being able to get that constitut=
+ional right.</div>
+<div><br>
+</div>
+<span>
+<div style=3D"font-family:Calibri;font-size:11pt;text-align:left;color:blac=
+k;BORDER-BOTTOM:medium none;BORDER-LEFT:medium none;PADDING-BOTTOM:0in;PADD=
+ING-LEFT:0in;PADDING-RIGHT:0in;BORDER-TOP:#b5c4df 1pt solid;BORDER-RIGHT:me=
+dium none;PADDING-TOP:3pt">
+<span style=3D"font-weight:bold">From: </span>Tyson Brody &lt;<a href=3D"ma=
+ilto:tbrody@hillaryclinton.com" target=3D"_blank">tbrody@hillaryclinton.com=
+</a>&gt;<br>
+<span style=3D"font-weight:bold">Date: </span>Sunday, April 12, 2015 at 9:0=
+9 PM<br>
+<span style=3D"font-weight:bold">To: </span>Jim Margolis &lt;<a href=3D"mai=
+lto:Jim.Margolis@gmmb.com" target=3D"_blank">Jim.Margolis@gmmb.com</a>&gt;<=
+br>
+<span style=3D"font-weight:bold">Cc: </span>Jake Sullivan &lt;<a href=3D"ma=
+ilto:jake.sullivan@gmail.com" target=3D"_blank">jake.sullivan@gmail.com</a>=
+&gt;, Adrienne Elrod &lt;<a href=3D"mailto:aelrod@hillaryclinton.com" targe=
+t=3D"_blank">aelrod@hillaryclinton.com</a>&gt;, Mandy Grunwald &lt;<a href=
+=3D"mailto:gruncom@aol.com" target=3D"_blank">gruncom@aol.com</a>&gt;,
+ Nick Merrill &lt;<a href=3D"mailto:nmerrill@hillaryclinton.com" target=3D"=
+_blank">nmerrill@hillaryclinton.com</a>&gt;, Jesse Ferguson &lt;<a href=3D"=
+mailto:jferguson@hillaryclinton.com" target=3D"_blank">jferguson@hillarycli=
+nton.com</a>&gt;, &quot;<a href=3D"mailto:hrcrapid@googlegroups.com" target=
+=3D"_blank">hrcrapid@googlegroups.com</a>&quot;
+ &lt;<a href=3D"mailto:hrcrapid@googlegroups.com" target=3D"_blank">hrcrapi=
+d@googlegroups.com</a>&gt;<br>
+<span style=3D"font-weight:bold">Subject: </span>Re: Question!<br>
+</div><div><div class=3D"h5">
+<div><br>
+</div>
+<div>
+<div dir=3D"auto">
+<div>For awareness - the idea of a constitutional amendment allowing states=
+ to define marriage is one being pushed by Ted Cruz and Social Conservative=
+s group as a new way to pushback against SSM.<br>
+<br>
+Sent from my iPhone</div>
+<div><br>
+On Apr 12, 2015, at 9:07 PM, Margolis, Jim &lt;<a href=3D"mailto:Jim.Margol=
+is@gmmb.com" target=3D"_blank">Jim.Margolis@gmmb.com</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div style=3D"direction:ltr;font-family:Tahoma;color:#000000;font-size:10pt=
+">I totally agree w/jake.
+<div>Let&#39;s not start evasive.</div>
+<div>Let&#39;s just say we&#39;ll respond soon. Pretty busy day.<br>
+<div style=3D"font-family:Times New Roman;color:#000000;font-size:16px">
+<hr>
+<div style=3D"direction:ltr"><font face=3D"Tahoma" size=3D"2" color=3D"#000=
+000"><b>From:</b><a href=3D"mailto:hrcrapid@googlegroups.com" target=3D"_bl=
+ank">hrcrapid@googlegroups.com</a> [<a href=3D"mailto:hrcrapid@googlegroups=
+.com" target=3D"_blank">hrcrapid@googlegroups.com</a>] on behalf
+ of Jake Sullivan [<a href=3D"mailto:jake.sullivan@gmail.com" target=3D"_bl=
+ank">jake.sullivan@gmail.com</a>]<br>
+<b>Sent:</b> Sunday, April 12, 2015 8:51 PM<br>
+<b>To:</b> Adrienne Elrod<br>
+<b>Cc:</b> Mandy Grunwald; Nick Merrill; Jesse Ferguson; <a href=3D"mailto:=
+hrcrapid@googlegroups.com" target=3D"_blank">
+hrcrapid@googlegroups.com</a><br>
+<b>Subject:</b> Re: Question!<br>
+</font><br>
+</div>
+<div></div>
+<div>
+<div>I&#39;m fine deferring but I do think that on no-brainers like this we=
+ shouldn&#39;t let the questions build.=C2=A0</div>
+<div><br>
+</div>
+<div>Rather than give punt language that sounds like a dodge just say you&#=
+39;ll get back to him when you can.=C2=A0 We did just start.=C2=A0<br>
+<br>
+<br>
+</div>
+<div><br>
+On Apr 12, 2015, at 8:47 PM, Adrienne Elrod &lt;<a href=3D"mailto:aelrod@hi=
+llaryclinton.com" target=3D"_blank">aelrod@hillaryclinton.com</a>&gt; wrote=
+:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div>If all agree I think we try to give =C2=A0this reporter dan&#39;s &quo=
+t;punt&quot; language he&#39;s devising and leave it at that.</div>
+<div><br>
+</div>
+<div>Apparently this guy is the main LGBT reporter for buzzfeed so probably=
+ whatever she says on this he will pick apart and agree with Mandy and othe=
+rs that it will become news that distracts from our desired message this we=
+ek=C2=A0<br>
+<br>
+Sent from my iPhone</div>
+<div><br>
+On Apr 12, 2015, at 8:38 PM, Mandy Grunwald &lt;<a href=3D"mailto:gruncom@a=
+ol.com" target=3D"_blank">gruncom@aol.com</a>&gt; wrote:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div>Doesn&#39;t it seem like the wrong moment to be making policy news? =
+=C2=A0<br>
+<br>
+Mandy Grunwald
+<div>Grunwald Communications</div>
+<div><a href=3D"tel:202%20973-9400" value=3D"+12029739400" target=3D"_blank=
+">202 973-9400</a></div>
+<div><br>
+</div>
+<div><br>
+</div>
+</div>
+<div><br>
+On Apr 12, 2015, at 8:34 PM, Adrienne Elrod &lt;<a href=3D"mailto:aelrod@hi=
+llaryclinton.com" target=3D"_blank">aelrod@hillaryclinton.com</a>&gt; wrote=
+:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div>
+<div dir=3D"ltr">Nick/Jake, how do you think we should handle? I think we a=
+ll know that we have to be incredibly careful here, but seems like it&#39;s=
+ a tougher one to put off...
+<div>=C2=A0
+<div>Maybe we can say something along lines of (and I can come up with some=
+thing much better than this), though Hillary (has said/believes?) &quot;she=
+=C2=A0<span style=3D"font-size:12.8000001907349px">hopes the Supreme Court =
+comes down on the side of all same-sex couples
+ being allowed to marry&quot; and just leave it at that?=C2=A0</span></div>
+</div>
+<div><span style=3D"font-size:12.8000001907349px"><br>
+</span></div>
+<div><span style=3D"font-size:12.8000001907349px">Just feel like it would b=
+e nice to not weigh in on this immediately on this but do not know if that =
+is possible.</span></div>
+</div>
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_quote">On Sun, Apr 12, 2015 at 8:27 PM, Nick Merrill <s=
+pan dir=3D"ltr">
+&lt;<a href=3D"mailto:nmerrill@hillaryclinton.com" target=3D"_blank">nmerri=
+ll@hillaryclinton.com</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div dir=3D"ltr">This stems from an interpretation of part of her Terri Gro=
+ss interview and we haven&#39;t touched it since. Adrienne let me know if I=
+ can help.</div>
+<div class=3D"gmail_extra"><br>
+<div class=3D"gmail_quote"><span>On Sun, Apr 12, 2015 at 7:57 PM, Jesse Fer=
+guson
+<span dir=3D"ltr">&lt;<a href=3D"mailto:jferguson@hillaryclinton.com" targe=
+t=3D"_blank">jferguson@hillaryclinton.com</a>&gt;</span> wrote:<br>
+</span>
+<div>
+<div>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">
+<div dir=3D"ltr">
+<div>Any guidance? </div>
+<div><br>
+</div>
+<div>Adrienne, can you handle? </div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div class=3D"gmail_quote">---------- Forwarded message ----------<br>
+From: <b class=3D"gmail_sendername">Jesse Ferguson</b> <span dir=3D"ltr">&l=
+t;<a href=3D"mailto:jesse@jesseferguson.com" target=3D"_blank">jesse@jessef=
+erguson.com</a>&gt;</span><br>
+Date: Sun, Apr 12, 2015 at 7:52 PM<br>
+Subject: FW: Question!<br>
+To: <a href=3D"mailto:jferguson@hillaryclinton.com" target=3D"_blank">jferg=
+uson@hillaryclinton.com</a><br>
+<br>
+<br>
+<div lang=3D"EN-US">
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:rgb(31,73,125);font-family:Cali=
+bri,sans-serif;font-size:11pt">=C2=A0</span></p>
+<p class=3D"MsoNormal"><span style=3D"color:rgb(31,73,125);font-family:Cali=
+bri,sans-serif;font-size:11pt">=C2=A0</span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Calibri,sans-serif;fon=
+t-size:11pt">From:</span></b><span style=3D"font-family:Calibri,sans-serif;=
+font-size:11pt"> Chris Geidner [mailto:<a href=3D"mailto:chris.geidner@buzz=
+feed.com" target=3D"_blank">chris.geidner@buzzfeed.com</a>]
+<br>
+<b>Sent:</b> Sunday, April 12, 2015 7:39 PM<br>
+<b>To:</b> <a href=3D"mailto:Jesse@jesseferguson.com" target=3D"_blank">Jes=
+se@jesseferguson.com</a><br>
+<b>Subject:</b> Question!</span></p>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">Jesse --</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Ruby told me that you are the person to reach: Previ=
+ously Sec. Clinton has been ambiguous, to my knowledge, on whether she beli=
+eves same-sex couples have a constitutional right to marriage. Does Sec. Cl=
+inton believe states can ban same-sex
+ couples from marrying, or does she believe such bans are unconstitutional?=
+=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thanks --</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Chris</p>
+<div>
+<p class=3D"MsoNormal"><br>
+Chris Geidner<br>
+Legal Editor, BuzzFeed News<br>
+<a href=3D"http://buzzfeed.com/chrisgeidner" target=3D"_blank">http://buzzf=
+eed.com/chrisgeidner</a><br>
+<a href=3D"tel:614-477-2905" target=3D"_blank">614-477-2905</a><br>
+@chrisgeidner</p>
+</div>
+<span><font color=3D"#888888">
+<p class=3D"MsoNormal">=C2=A0</p>
+</font></span></div>
+</div>
+</div>
+<span><font color=3D"#888888"></font></span></div>
+<span><font color=3D"#888888"><br>
+<br clear=3D"all">
+<br>
+-- <br>
+<div>
+<div dir=3D"ltr">
+<div><br>
+</div>
+<div><br>
+</div>
+<div><br>
+</div>
+<div>----</div>
+<div><br>
+</div>
+<div>Jesse F. Ferguson</div>
+<div>Deputy National Press Secretary and Senior Spokesman</div>
+<div>Hillary for America</div>
+<div>@JesseFFerguson</div>
+<div>Gchat: Jfferg</div>
+</div>
+</div>
+</font></span></div>
+<span><font color=3D"#888888">
+<p></p>
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to
+<a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"_blank">=
+hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">
+hrcrapid@googlegroups.com</a>.<br>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/CAJkCx1-dE-UbUc7m%2B0fYj4Ucfg-iV7gnNi%3D5eu%2B-PbG0rDVy=
+ag%40mail.gmail.com?utm_medium=3Demail&amp;utm_source=3Dfooter" target=3D"_=
+blank">
+https://groups.google.com/d/msgid/hrcrapid/CAJkCx1-dE-UbUc7m%2B0fYj4Ucfg-iV=
+7gnNi%3D5eu%2B-PbG0rDVyag%40mail.gmail.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">
+https://groups.google.com/d/optout</a>.<br>
+</font></span></blockquote>
+</div>
+</div>
+</div>
+<br>
+</div>
+<div>
+<div>
+<p></p>
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to
+<a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"_blank">=
+hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">
+hrcrapid@googlegroups.com</a>.<br>
+</div>
+</div>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/CAE_%3DYH_Dfvgf%2B5H4wkuz1QpDnUhRy_NpWVt0CshYEfmcQzYq%2=
+Bw%40mail.gmail.com?utm_medium=3Demail&amp;utm_source=3Dfooter" target=3D"_=
+blank">
+https://groups.google.com/d/msgid/hrcrapid/CAE_%3DYH_Dfvgf%2B5H4wkuz1QpDnUh=
+Ry_NpWVt0CshYEfmcQzYq%2Bw%40mail.gmail.com</a>.
+<div>
+<div><br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">
+https://groups.google.com/d/optout</a>.<br>
+</div>
+</div>
+</blockquote>
+</div>
+<br>
+</div>
+<p></p>
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to
+<a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"_blank">=
+hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">
+hrcrapid@googlegroups.com</a>.<br>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/CANu9wN6YqxA_8p3XGB6N5Z4tr9vf2jvjCu20%3D5zycuKh-QoMdw%4=
+0mail.gmail.com?utm_medium=3Demail&amp;utm_source=3Dfooter" target=3D"_blan=
+k">
+https://groups.google.com/d/msgid/hrcrapid/CANu9wN6YqxA_8p3XGB6N5Z4tr9vf2jv=
+jCu20%3D5zycuKh-QoMdw%40mail.gmail.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">
+https://groups.google.com/d/optout</a>.<br>
+</div>
+</blockquote>
+</div>
+</blockquote>
+<p></p>
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to
+<a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"_blank">=
+hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">
+hrcrapid@googlegroups.com</a>.<br>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/6011070622957136847%40unknownmsgid?utm_medium=3Demail&a=
+mp;utm_source=3Dfooter" target=3D"_blank">
+https://groups.google.com/d/msgid/hrcrapid/6011070622957136847%40unknownmsg=
+id</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">
+https://groups.google.com/d/optout</a>.<br>
+</div>
+</blockquote>
+<p></p>
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to
+<a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"_blank">=
+hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">
+hrcrapid@googlegroups.com</a>.<br>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/1D8E6ACA-A624-4FD5-8314-DE0FCF4750F4%40gmail.com?utm_me=
+dium=3Demail&amp;utm_source=3Dfooter" target=3D"_blank">
+https://groups.google.com/d/msgid/hrcrapid/1D8E6ACA-A624-4FD5-8314-DE0FCF47=
+50F4%40gmail.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">
+https://groups.google.com/d/optout</a>.<br>
+</div>
+</div>
+</div>
+</div>
+=C2=A0
+<p style=3D"FONT-SIZE:8pt;FONT-FAMILY:Arial,Helvetica,sans-serif;COLOR:#7f7=
+f7f;MARGIN-TOP:30pt">
+This email is intended only for the named addressee. It may contain informa=
+tion that is confidential/private, legally privileged, or copyright-protect=
+ed, and you should handle it accordingly. If you are not the intended recip=
+ient, you do not have legal rights
+ to retain, copy, or distribute this email or its contents, and should prom=
+ptly delete the email and all electronic copies in your system; do not reta=
+in copies in any media. If you have received this email in error, please no=
+tify the sender promptly. Thank
+ you.</p>
+<p></p>
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to
+<a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"_blank">=
+hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">hrcrapid@googlegroups.com</a>.<br>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/E14D5FDE08E02D4BBDA429F9E1ACB86F047E20%40S2376M11.CDSma=
+il.pvt?utm_medium=3Demail&amp;utm_source=3Dfooter" target=3D"_blank">
+https://groups.google.com/d/msgid/hrcrapid/E14D5FDE08E02D4BBDA429F9E1ACB86F=
+047E20%40S2376M11.CDSmail.pvt</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">https://groups.google.com/d/optout</a>.<br>
+</div>
+</blockquote>
+<p></p>
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to
+<a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"_blank">=
+hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">hrcrapid@googlegroups.com</a>.<br>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/1957882101320655673%40unknownmsgid?utm_medium=3Demail&a=
+mp;utm_source=3Dfooter" target=3D"_blank">
+https://groups.google.com/d/msgid/hrcrapid/1957882101320655673%40unknownmsg=
+id</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">https://groups.google.com/d/optout</a>.<br>
+</div>
+</div>
+</div></div></span>
+</div><div><div class=3D"h5">
+
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com" target=3D"=
+_blank">hrcrapid+unsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com" target=3D"_blank">hrcrapid@googlegroups.com</a>.<br></div></div>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/D1509365.51922%25creynolds%40gpg.com?utm_medium=3Demail=
+&amp;utm_source=3Dfooter" target=3D"_blank">https://groups.google.com/d/msg=
+id/hrcrapid/D1509365.51922%25creynolds%40gpg.com</a>.<div class=3D"HOEnZb">=
+<div class=3D"h5"><br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout" targ=
+et=3D"_blank">https://groups.google.com/d/optout</a>.<br>
+</div></div></blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>=
+<div class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div =
+dir=3D"ltr"><font face=3D"georgia, serif"><b>Ian Sams</b>=C2=A0|=C2=A0</fon=
+t><span style=3D"font-family:georgia,serif;font-size:12.8000001907349px">Ra=
+pid Response Associate</span></div><div><font face=3D"georgia, serif">Hilla=
+ry for America</font></div><div><font face=3D"georgia, serif">(423) 915-659=
+2 | <a href=3D"https://twitter.com/iansams" target=3D"_blank">@IanSams</a><=
+/font></div><div><font face=3D"georgia, serif">Gchat: icsams</font></div></=
+div></div></div></div>
+</div>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com">hrcrapid+u=
+nsubscribe@googlegroups.com</a>.<br />
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com">hrcrapid@googlegroups.com</a>.<br />
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/CABd81J%2B9_7sa_CJRh0Zfa-5KkerYDQNnR4ynTwmPJD9w5b6gSA%4=
+0mail.gmail.com?utm_medium=3Demail&utm_source=3Dfooter">https://groups.goog=
+le.com/d/msgid/hrcrapid/CABd81J%2B9_7sa_CJRh0Zfa-5KkerYDQNnR4ynTwmPJD9w5b6g=
+SA%40mail.gmail.com</a>.<br />
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br />
+
+--e89a8f502eeaf690270513911e04--

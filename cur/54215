@@ -1,0 +1,1567 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.200 with SMTP id r191csp1412916lfr;
+        Mon, 17 Aug 2015 06:56:59 -0700 (PDT)
+X-Received: by 10.50.88.8 with SMTP id bc8mr17802965igb.46.1439819818882;
+        Mon, 17 Aug 2015 06:56:58 -0700 (PDT)
+Return-Path: <speechdrafts+bncBDL5DAEHWENRBKWQY6XAKGQEYLTM4GA@hillaryclinton.com>
+Received: from mail-io0-x248.google.com (mail-io0-x248.google.com. [2607:f8b0:4001:c06::248])
+        by mx.google.com with ESMTPS id kc4si6531704igb.102.2015.08.17.06.56.58
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 17 Aug 2015 06:56:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBDL5DAEHWENRBKWQY6XAKGQEYLTM4GA@hillaryclinton.com designates 2607:f8b0:4001:c06::248 as permitted sender) client-ip=2607:f8b0:4001:c06::248;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBDL5DAEHWENRBKWQY6XAKGQEYLTM4GA@hillaryclinton.com designates 2607:f8b0:4001:c06::248 as permitted sender) smtp.mailfrom=speechdrafts+bncBDL5DAEHWENRBKWQY6XAKGQEYLTM4GA@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-io0-x248.google.com with SMTP id v127sf232372134iod.3
+        for <john.podesta@gmail.com>; Mon, 17 Aug 2015 06:56:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:from:references:in-reply-to:mime-version:thread-index:date
+         :message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=HnspPVE56syErCvGm98y7YXmjwCVVCUqN8WI64xOMVg=;
+        b=bTT+U9dT1MCU7Zr99RNcgAv6AfDwM6CSdKcsKPP0PNHnySXXdj2vecZQIAyAqfeuzt
+         w1fbpgylLq4EYbc+x3T+5xoP3Sv0r8drpb4WOzt5WhQIYoEHLsqUxW/yl+TXq4xq6fpA
+         lqYaRJjHe7hlpd+Hv/hq/58yqjO5ZaBwVCB9U=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:from:references:in-reply-to:mime-version
+         :thread-index:date:message-id:subject:to:cc:content-type
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-unsubscribe;
+        bh=HnspPVE56syErCvGm98y7YXmjwCVVCUqN8WI64xOMVg=;
+        b=YtnUZZqXYBrxIj7/JeCdPrXkWb2SBJ9WQz5CDOtjpROS6sLv6xU60mNCvd3SqwR6D2
+         0JcGOCK39eCJmQzWhwJuVRuFFomTW7PVKmd45+46fnqB6Dh2stlrGCnCl8IzDTtduUOs
+         gRavALov8wHytmjH6KQm6YpyTPyTh9wDx4vMarcIOpl2LgsH8Kni5ZAQHoNd0+DisUFW
+         lc+OBcab42sLD3dJSGx+sVCok40wg+zWt6MYWMgFI1WfKShDI2NfvL4rGJU3NzJHmcas
+         /3xPXBZs0yUrUweWTsgAFo/LBmT+wYayX9ZdWowSZUF6MsPYsrZrJZSIFB7a8HhU2yDW
+         I9bA==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQnFlEmCLRaMH3yANIoqNC5cS2EIuMc+SSnOYePD2Hq/p5tTM9X9+EDD6heeE8v15Bc8SGko
+X-Received: by 10.50.114.98 with SMTP id jf2mr16574499igb.4.1439819818038;
+        Mon, 17 Aug 2015 06:56:58 -0700 (PDT)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.107.27.66 with SMTP id b63ls824677iob.5.gmail; Mon, 17 Aug
+ 2015 06:56:57 -0700 (PDT)
+X-Received: by 10.50.6.16 with SMTP id w16mr16625459igw.74.1439819817389;
+        Mon, 17 Aug 2015 06:56:57 -0700 (PDT)
+Received: from mail-ig0-x230.google.com (mail-ig0-x230.google.com. [2607:f8b0:4001:c05::230])
+        by mx.google.com with ESMTPS id j7si6591159igx.49.2015.08.17.06.56.57
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 17 Aug 2015 06:56:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jferguson@hillaryclinton.com designates 2607:f8b0:4001:c05::230 as permitted sender) client-ip=2607:f8b0:4001:c05::230;
+Received: by igui7 with SMTP id i7so57507384igu.1
+        for <speechdrafts@hillaryclinton.com>; Mon, 17 Aug 2015 06:56:57 -0700 (PDT)
+X-Received: by 10.50.108.20 with SMTP id hg20mr17424262igb.47.1439819817082;
+ Mon, 17 Aug 2015 06:56:57 -0700 (PDT)
+From: Jesse Ferguson <jferguson@hillaryclinton.com>
+References: <CAD6XBDDMATU94-Ycf88_KxduCwni73V=EZC0ay0T5DgrEFG+tA@mail.gmail.com>
+	<-1438520449105092781@unknownmsgid>	<A8D932DC-F9C7-4580-A78C-EA993E07BC89@bsgco.com>
+	<-5661367573612307652@unknownmsgid>	<5DE7F3B6-9DBF-4348-BB08-6919BE39AEB6@aol.com>
+	<5333775b10fbbc5e22b8e9782af582e5@mail.gmail.com>	<-7664343262804611478@unknownmsgid>
+	<CAD6XBDBxhGEhV=ApQ9BPYKRKRuLt-t5SKiA8wS5Nw=Wd-GSBLQ@mail.gmail.com>
+	<CACWw=rRfPFgcAhtVbCqROjW8hRrMV4JWFD4X4eowAKbXf6UPrA@mail.gmail.com>
+	<CACWw=rQW+nwK+V4oOSjFn0fye4Spkj1-Y5hBdOf1OB48TkWMQQ@mail.gmail.com>
+	<-5524522186853540671@unknownmsgid>	<-6726760415423055720@unknownmsgid>
+	<-630000061178175920@unknownmsgid>	<-198813186275022882@unknownmsgid>
+	<-3509080874611742017@unknownmsgid>	<CACR8c2q2NJzf4wrRcHTePTE7skSUa=Tq1PN512QsrVkNHykghA@mail.gmail.com>
+	<1A484C9C32B526468802B7C2E6FD1BCEB3BBBE15@mbx031-w1-co-6.exch031.domain.local>
+	<-3625106751638541149@unknownmsgid> <CACR8c2pE99iHtTJ_MgZJGx2M0L_dA3WcFFOuT=1qkUhb5+A3zg@mail.gmail.com>
+ fbfef5cf77606a3555440740eb5e865c@mail.g mail.com
+In-Reply-To: fbfef5cf77606a3555440740eb5e865c@mail.gmail.com
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQFE1W/8XCz8bhI5EgGj8oECsm4l1AIBxV+EAokSLwwBZ3aLDAIBSwwPAhkj540B8nZk6gEhqj66Ad74vHoBtPuwvgIn23RoAZHGIq8CHuMGPwHV6mFVAQmVgUAC6SmpAQHcbIPhAnv5sAIBcE6ma54XQClggAAIGfA=
+Date: Mon, 17 Aug 2015 09:56:55 -0400
+Message-ID: <826dabbe79a4b8acb77257fd20634c14@mail.gmail.com>
+Subject: RE: In review: substance abuse op-ed
+To: Maya Harris <mharris@hillaryclinton.com>, 
+ Karen Finney <kfinney@hillaryclinton.com>
+CC: Joel Benenson <jbenenson@bsgco.com>, 
+ Marlon Marshall <mmarshall@hillaryclinton.com>, 
+ "Ann O'Leary" <aoleary@hillaryclinton.com>, 
+ Amanda Renteria <arenteria@hillaryclinton.com>, 
+ Kristina Costa <kcosta@hillaryclinton.com>, 
+ Nick Merrill <nmerrill@hillaryclinton.com>, 
+ Mandy Grunwald <gruncom@aol.com>, Tony Carrk <tcarrk@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ Ian Sams <isams@hillaryclinton.com>, 
+ Dan Schwerin <dschwerin@hillaryclinton.com>
+Content-Type: multipart/mixed; boundary=089e01493b54bd21d1051d822c8e
+X-Original-Sender: jferguson@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of jferguson@hillaryclinton.com designates 2607:f8b0:4001:c05::230 as
+ permitted sender) smtp.mailfrom=jferguson@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--089e01493b54bd21d1051d822c8e
+Content-Type: multipart/alternative; boundary=089e01493b54bd21ca051d822c8c
+
+
+--089e01493b54bd21ca051d822c8c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Final version attached which includes everyones edits and words deleted
+(down to 810) so we can move forward. Thanks everyone for their hard work
+(especially author Kristina).
+
+
+
+*From:* Jesse Ferguson [mailto:jferguson@hillaryclinton.com]
+*Sent:* Monday, August 17, 2015 9:27 AM
+*To:* Maya Harris <mharris@hillaryclinton.com>; Karen Finney <
+kfinney@hillaryclinton.com>
+*Cc:* 'Joel Benenson' <jbenenson@bsgco.com>; Marlon Marshall <
+mmarshall@hillaryclinton.com>; Ann O'Leary <aoleary@hillaryclinton.com>;
+Amanda Renteria <arenteria@hillaryclinton.com>; Kristina Costa <
+kcosta@hillaryclinton.com>; Nick Merrill <nmerrill@hillaryclinton.com>;
+'Mandy Grunwald' <gruncom@aol.com>; Tony Carrk <tcarrk@hillaryclinton.com>;
+Speech Drafts <speechdrafts@hillaryclinton.com>; Ian Sams <
+isams@hillaryclinton.com>; Dan Schwerin <dschwerin@hillaryclinton.com>
+*Subject:* RE: In review: substance abuse op-ed
+
+
+
+We think we have everyone=E2=80=99s edits. We are just doing some copy edit=
+ing b/c
+with everyone=E2=80=99s additions, the op-ed is now almost 900 words and th=
+us
+unlikely to be published. We will get this to her this morning. Thanks.
+
+
+
+*From:* Maya Harris [mailto:mharris@hillaryclinton.com
+<mharris@hillaryclinton.com>]
+*Sent:* Monday, August 17, 2015 12:06 AM
+*To:* Karen Finney <kfinney@hillaryclinton.com>
+*Cc:* Joel Benenson <jbenenson@bsgco.com>; Marlon Marshall <
+mmarshall@hillaryclinton.com>; Ann O'Leary <aoleary@hillaryclinton.com>;
+Amanda Renteria <arenteria@hillaryclinton.com>; Kristina Costa <
+kcosta@hillaryclinton.com>; Nick Merrill <nmerrill@hillaryclinton.com>;
+Jesse Ferguson <jferguson@hillaryclinton.com>; Mandy Grunwald <
+gruncom@aol.com>; Tony Carrk <tcarrk@hillaryclinton.com>; Speech Drafts <
+speechdrafts@hillaryclinton.com>; Ian Sams <isams@hillaryclinton.com>; Dan
+Schwerin <dschwerin@hillaryclinton.com>
+*Subject:* Re: In review: substance abuse op-ed
+
+
+
+just offering alternative since concern raised. i'm good either way.
+
+
+
+
+
+On Sun, Aug 16, 2015 at 11:46 PM, Karen Finney <kfinney@hillaryclinton.com>
+wrote:
+
+But then it goes back to sounding like she discovered this epidemic in the
+white community when it's been going on in AA for a long time.
+
+Sent from my iPhone
+
+
+On Aug 16, 2015, at 11:34 PM, Joel Benenson <jbenenson@bsgco.com> wrote:
+
+Seems good if we have enough space.
+
+
+
+*From:* Maya Harris [mailto:mharris@hillaryclinton.com
+<mharris@hillaryclinton.com>]
+*Sent:* Sunday, August 16, 2015 11:00 PM
+*To:* Karen Finney
+*Cc:* Marlon Marshall; Ann O'Leary; Amanda Renteria; Kristina Costa; Nick
+Merrill; Jesse Ferguson; Mandy Grunwald; Joel Benenson; Tony Carrk; Speech
+Drafts; Ian Sams; Dan Schwerin
+*Subject:* Re: In review: substance abuse op-ed
+
+
+
+If the goal is to name SC, but there's concern about calling out black men
+specifically, we could revise the sentence to say something like:
+
+
+
+"In South Carolina, a lawyer spoke movingly about too many young men who
+have ended up imprisoned for non-violent drug offenses rather than getting
+the treatment they needed."
+
+
+
+Here's what the lawyer said in the transcript:
+
+
+
+"*QUESTION:*  My name is Carlyle Steele and I practice criminal law here in
+Greenville, and I=E2=80=99ve been shocked over the last 40 years at the mas=
+s
+incarceration of young men, particularly young African American men.
+Locking everybody up for minor offenses and nonviolent offenses isn=E2=80=
+=99t
+working out. "
+
+
+
+On Sun, Aug 16, 2015 at 10:20 PM, Karen Finney <kfinney@hillaryclinton.com>
+wrote:
+
+Agree re AA; I think the mention is ok because she's talking about what
+people have talked to her about.
+
+Sent from my iPhone
+
+
+On Aug 16, 2015, at 9:44 PM, Marlon Marshall <mmarshall@hillaryclinton.com>
+wrote:
+
+Defer to Maya and Karen if we keep, but can we say African American instead
+of Black?
+
+
+
+
+On Aug 16, 2015, at 9:04 PM, Ann O'Leary <aoleary@hillaryclinton.com> wrote=
+:
+
+Intended to be sure she was listening to votes in all 4 first states not
+just IA & NH with their skewed demographics.  Think we need to keep it, but
+Maya/Karen- you good? Or want to suggest alternative?
+
+
+
+Ann O=E2=80=99Leary
+
+Sent from my iPhone
+
+(510) 717-5518 (cell)
+
+
+On Aug 16, 2015, at 6:50 PM, Amanda Renteria <arenteria@hillaryclinton.com>
+wrote:
+
+Perhaps I'm overly sensitive but should we change calling out black men at
+the beginning?  I know we don't want to ignore that this is a big deal in
+the AfAm community, but it feels to me like she is singling them out which
+could be taken very badly. Defer to group but it stood out when I read it.
+
+Sent from my iPhone
+
+
+On Aug 16, 2015, at 8:37 PM, Karen Finney <kfinney@hillaryclinton.com>
+wrote:
+
+Sounds good.
+
+Sent from my iPhone
+
+
+On Aug 16, 2015, at 8:33 PM, Ann O'Leary <aoleary@hillaryclinton.com> wrote=
+:
+
+Hi all -
+
+
+
+I am hearing separately that even with this change that the screenings
+could be misconstrued and likely more trouble than they are worth. Let's
+kill it and I'll revisit it as a good policy idea on the other side of this
+election but not one for campaign fodder.
+
+
+
+Here is my suggestion for four full points:
+
+
+
+That=E2=80=99s why I=E2=80=99m releasing a comprehensive strategy [LINK] to=
+ confront the
+drug addiction crisis head-on. My plan sets four goals: first, ensuring
+every American family has access to affordable and effective
+treatments; second, ensuring
+that our mental health parity laws are fully enforced so that insurance
+practices are not a barrier to substance abuse treatment; third, ensuring
+all first responders have access to naloxone, which stops overdoses from
+becoming fatal; and fourth, requiring that all health-care providers
+receive training in recognizing substance use disorders and consult a
+prescription drug monitoring program before providing opiates.
+
+
+
+Does this work for everyone?
+
+
+
+Thanks,
+
+Ann
+
+
+
+On Sun, Aug 16, 2015 at 4:58 PM, Ann O'Leary <aoleary@hillaryclinton.com>
+wrote:
+
+Hi all -
+
+
+
+Sorry I was out of pocket for a few hours.  On a flight now to raise $$ for
+all of us in Oklahoma - the things we do!!
+
+
+
+Anyhow, here is the deal:
+
+
+
+(1) The American Academy of Pediatrics came out with a strong policy
+statement in 2011
+<https://www.aap.org/en-us/about-the-aap/aap-press-room/pages/AAP-Recommend=
+s-Substance-Abuse-Screening-as-Part-of-Routine-Adolescent-Care.aspx>
+that every child/teenager should be screened for substance abuse disorders
+when they visit the doctor for their annual child check up or for an accute
+care visit in which it might be suspected.  HRC has a long history of
+working with AAP and supporting their efforts to do more screenings.  When
+she was First Lady, she worked on the Newborn Hearing Screening to make
+sure all babies get hearing screenings, and in the last several years she
+has pushed for and supported the AAP's effort to screen young kids for
+symptoms of "toxic stress."  This is not "mandatory," but it is part of
+prevention and wellness and it is about supporting the AAP in making this
+happen by raising awareness, making sure pediatricians get reimbursed for
+their time in doing these screenings, etc.  I have tried to clarify with
+edits to the speech, pasted below and attached.
+
+
+
+(2) On Mandy's question about mental health parity, I have added a line.
+
+
+
+(3) On Karen's question of whether we reached out to urban leaders, we
+talked to a number of policy experts who serve urban communities. Maya is
+going to work with political to be sure we do political outreach to leaders
+in next 48 hours.
+
+
+
+(4) On Karen's suggestion, that she alludes to problems in her own family -
+I have modified accordingly.
+
+
+
+(5) On Nick's question about specialized care, we are good with it as
+Kristina noted - but let me know if you have further concerns.
+
+
+
+I am also attaching our final fact sheet.  If all are good, we should get
+her this draft op-ed together with the fact sheet.  Let me know if you have
+more questions or concerns.
+
+
+
+Thanks,
+
+Ann
+
+
+
+*DRAFT substance abuse op-ed*
+
+
+
+WC: 822 words
+
+
+
+I was on my first trip to New Hampshire this spring, in a Keene bakery,
+when a retired doctor spoke up. I had just announced I was running for
+president, and I had traveled to Iowa and New Hampshire to hear directly
+from voters about their concerns, their hopes, and their vision for the
+future. He said his biggest worry was the rising tide of heroin addiction
+in the state, the result of a wave of prescription drug abuse. He said
+hospitals were seeing more babies born addicted, that police officers were
+responding to more overdoses, that families were being torn apart.
+
+
+
+To be candid, I didn=E2=80=99t expect what came next. In several states, th=
+is issue
+crept up again and again =E2=80=93 from so many people, from all walks of l=
+ife, in
+small towns and big cities.
+
+
+
+In Iowa, from Davenport to Council Bluffs, people spoke to me about meth
+and prescription drugs, and scores of lives upended. In South Carolina, a
+lawyer spoke movingly about the holes in the community left by generations
+of black men who ended up imprisoned for non-violent drug offenses rather
+than getting the treatment they needed.
+
+
+
+These stories shine light on some harrowing statistics. Nearly 23 million
+Americans suffer from addiction, but in 2014, only 2.5 million were able to
+receive treatment at a specialized facility. Fifty-two million Americans
+over the age of 12 have abused prescription drugs, including one in four
+teenagers. In 2014, more Americans died from overdoses than car crashes.
+
+
+
+Enough is enough. It=E2=80=99s time we recognize as a nation that we have a=
+ quiet
+epidemic on our hands. Plain and simple, drug addiction is a disease, not a
+moral failing=E2=80=94and we must treat it as such.
+
+
+
+It=E2=80=99s time we recognize as a nation that there are gaps in our healt=
+h care
+system that allow too many sufferers to go without care=E2=80=94and invest
+substantially more in prevention and treatment.
+
+
+
+It=E2=80=99s time we recognize as a nation that our state and federal priso=
+ns,
+where 65 percent of inmates meet the medical criteria for substance use
+disorders, are no substitute for drug treatment=E2=80=94and reform our crim=
+inal
+justice system.
+
+
+
+That=E2=80=99s why I=E2=80=99m releasing a comprehensive strategy [LINK] to=
+ confront the
+drug addiction crisis head-on. My plan sets four goals: first, ensuring
+every American family has access to affordable and effective
+treatments; second,
+ensuring that we work with pediatricians to be sure that every child and
+teenager is educated about and screened for substance use disorders as part
+of their annual doctor=E2=80=99s visit, just as we do for hearing, eyesight=
+,
+developmental delays and so much more; third, ensuring all first responders
+have access to naloxone, which stops overdoses from becoming fatal; and
+fourth, requiring that all health-care providers receive training in
+recognizing substance use disorders and consult a prescription drug
+monitoring program before providing opiates.
+
+
+
+Achieving these goals won=E2=80=99t be easy. It=E2=80=99s going to take rea=
+l commitment
+from all corners=E2=80=94law enforcement, doctors, insurance companies, sch=
+ools,
+and governments. That=E2=80=99s why my plan starts by increasing funding fo=
+r the
+Substance Abuse Prevention and Treatment Block Grant by 25 percent, so
+states and localities have more resources to work with, and changing rules
+that arbitrarily limit how many patients can be treated with medication
+assisted treatment, a proven intervention for opiate addiction. I will also
+direct the federal government to re-evaluate Medicare and Medicaid payment
+practices, to remove obstacles to reimbursement for patients seeking help
+and promote greater coordination of care. And I will make sure that our
+mental health parity laws are fully enforced so that insurance practices
+are not a barrier to substance abuse treatment.
+
+
+
+But we can't stop there. As President, I will do everything I can to
+partner with states and communities across America to meet the four
+goals=E2=80=94treatment, prevention, overdose intervention, and improved pr=
+escriber
+practices. We=E2=80=99ll ask states to design ambitious plans for tackling =
+these
+four goals using the programs that make most sense for their citizens=E2=80=
+=99
+needs and challenges. In return for strong plans to address the substance
+abuse crisis, the federal government will draw on a new $5 billion fund to
+help states meet their goals.
+
+
+
+Every town I=E2=80=99ve visited so far in this campaign has stories of fami=
+lies
+upended by drug addiction. But across the country, I=E2=80=99ve also heard =
+about
+second chances. The young mother who overcame addictions to alcohol and
+heroin so her son would never see her with a drink or a drug in her hand.
+The man who served 11 years in prison who is now serving others through a
+prison ministry.
+
+
+
+They all say the same thing: no matter how much time has passed, no matter
+how different their lives are today, they=E2=80=99re all still in recovery.=
+ It=E2=80=99s a
+process=E2=80=94one that began when a family member, a friend, a doctor, a =
+police
+officer extended a hand to help. As one New Hampshire woman said, =E2=80=9C=
+We're
+not bad people trying to get good, we're sick people who deserve to get
+well.=E2=80=9D
+
+
+
+There are 23 million Americans suffering from addiction. There are untold
+millions more. No one is untouched =E2=80=93 we all have family and friends=
+ who are
+affected. We can=E2=80=99t afford to stay on the sidelines any longer=E2=80=
+=94because when
+families are strong, America is strong. Through improved treatment,
+prevention, and training, we can end this quiet epidemic once and for all.
+
+
+
+
+
+
+
+On Sun, Aug 16, 2015 at 3:57 PM, Kristina Costa <kcosta@hillaryclinton.com>
+wrote:
+
+On the screening point, will let policy get into details, but it's the
+major pillar of the 'prevention' goal. Would folks be more comfortable if
+it said something like [CAPS=3DADDITION]  "ensuring every child and teenage=
+r
+is annually screened for substance use DISORDERS, JUST AS THEY ARE ALREADY
+SCREENED FOR OTHER ILLNESSES"?
+
+
+
+schools and doctors regularly screen for all sorts of diseases, and
+substance abuse screening /=3D random drug testing.
+
+
+
+On the "specialized facilities," the stat comes from the NIH's National
+Institute on Drug Abuse and includes all facilities licensed or certified
+by state substance abuse agencies to provide treatment. So think it's easy
+to answer Politifact when they try to get cute.
+
+
+
++ Ann, per Maya's add
+
+
+
+
+
+On Sun, Aug 16, 2015 at 6:45 PM, Nick Merrill <nmerrill@hillaryclinton.com>
+wrote:
+
+I'm piling on at this point, but without knowing the background or the
+particulars, the mandatory testing piece is troubling to me.  Not to
+mention I probably wouldn't have passed at times in my younger
+years...I bet I'm not the only one.*
+
+And on the statistic about 2.5 million people receiving treatment at a
+"specialized facility," can someone explain what that means?  Just
+want to make sure we're not trying to be too cute, that there aren't
+perfectly viable treatment alternatives that lie outside of the term.
+Our friends from PolitiFact as always in the back of my mind.
+
+
+*(Joel?)
+
+On Aug 16, 2015, at 6:13 PM, Jesse Ferguson
+
+<jferguson@hillaryclinton.com> wrote:
+
+Flagging - goal had been to get this to HRC on Saturday night but it has
+been held till tonight as the other elements of the rollout (video, etc.)
+are debated.
+
+AKA - ideally would like to send it in tonight for her review so we can
+have final on Monday for Wednesday AM placement.
+
+-----Original Message-----
+From: Mandy Grunwald [mailto:gruncom@aol.com]
+Sent: Sunday, August 16, 2015 5:47 PM
+To: Karen Finney <kfinney@hillaryclinton.com>
+Cc: Joel Benenson <jbenenson@bsgco.com>; Kristina Costa
+<kcosta@hillaryclinton.com>; Tony Carrk <tcarrk@hillaryclinton.com>;
+Speech Drafts <speechdrafts@hillaryclinton.com>; Ian Sams
+<isams@hillaryclinton.com>; Dan Schwerin <dschwerin@hillaryclinton.com>;
+Jesse Ferguson <jferguson@hillaryclinton.com>
+Subject: Re: In review: substance abuse op-ed
+
+
+And one more thing.  Should we mention the growing problem of synthetics?
+
+Mandy Grunwald
+Grunwald Communications
+202 973-9400
+
+
+>> On Aug 16, 2015, at 5:18 PM, Karen Finney <kfinney@hillaryclinton.com>
+> wrote:
+>
+> Last question/comment I promise - did we engage urban leaders in the
+> development of the plan?
+>
+> Sent from my iPhone
+>
+>> On Aug 16, 2015, at 5:15 PM, Joel Benenson <jbenenson@bsgco.com> wrote:
+>>
+>> Democrats are going to have a field day with it. It is also probably
+unconstitutional violation of 4th amendment, isn't it?
+>>
+>> Sent from my iPad
+>>
+>>> On Aug 16, 2015, at 3:10 PM, Karen Finney <kfinney@hillaryclinton.com>
+wrote:
+>>>
+>>> The only thing that stood out to me was annual drug screening for
+>>> children and teenagers, could see the GOP having a field day. Can we
+>>> explain that one a little more?
+>>>
+>>> Sent from my iPhone
+>>>
+>>>> On Aug 15, 2015, at 6:42 PM, Kristina Costa
+<kcosta@hillaryclinton.com> wrote:
+>>>>
+>>>> Folks --
+>>>>
+>>>> At Dan's request, passing along  a draft HRC op-ed to accompany the
+substance abuse prevention initiative fact sheet rolling out midweek.
+Maya, Ann, Sara, Zach, and Ian have all reviewed, edited, and commented.
+It's now with Tony/research for a fact-check before going up in the book.
+>>>>
+>>>> Thanks,
+>>>>
+>>>> Kristina
+>>>> <08.14 Substance Abuse Op-Ed ALL EDITS CLEAN.docx>
+
+
+
+
+
+
+
+--=20
+
+Ann O'Leary
+
+Senior Policy Advisor
+
+Hillary for America
+
+Cell: 510-717-5518
+
+
+
+
+
+--=20
+
+Ann O'Leary
+
+Senior Policy Advisor
+
+Hillary for America
+
+Cell: 510-717-5518
+
+--089e01493b54bd21ca051d822c8c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered m=
+edium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.hoenzb
+	{mso-style-name:hoenzb;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3D"EN-US" link=3D"blue" vlink=3D"purple"><div =
+class=3D"WordSection1"><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">Final version =
+attached which includes everyones edits and words deleted (down to 810) so =
+we can move forward. Thanks everyone for their hard work (especially author=
+ Kristina). </span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><=
+/p><div><div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.=
+0pt 0in 0in 0in"><p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif">From:</span></b><span style=3D"=
+font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"> Jesse Ferguso=
+n [mailto:<a href=3D"mailto:jferguson@hillaryclinton.com">jferguson@hillary=
+clinton.com</a>] <br><b>Sent:</b> Monday, August 17, 2015 9:27 AM<br><b>To:=
+</b> Maya Harris &lt;<a href=3D"mailto:mharris@hillaryclinton.com">mharris@=
+hillaryclinton.com</a>&gt;; Karen Finney &lt;<a href=3D"mailto:kfinney@hill=
+aryclinton.com">kfinney@hillaryclinton.com</a>&gt;<br><b>Cc:</b> &#39;Joel =
+Benenson&#39; &lt;<a href=3D"mailto:jbenenson@bsgco.com">jbenenson@bsgco.co=
+m</a>&gt;; Marlon Marshall &lt;<a href=3D"mailto:mmarshall@hillaryclinton.c=
+om">mmarshall@hillaryclinton.com</a>&gt;; Ann O&#39;Leary &lt;<a href=3D"ma=
+ilto:aoleary@hillaryclinton.com">aoleary@hillaryclinton.com</a>&gt;; Amanda=
+ Renteria &lt;<a href=3D"mailto:arenteria@hillaryclinton.com">arenteria@hil=
+laryclinton.com</a>&gt;; Kristina Costa &lt;<a href=3D"mailto:kcosta@hillar=
+yclinton.com">kcosta@hillaryclinton.com</a>&gt;; Nick Merrill &lt;<a href=
+=3D"mailto:nmerrill@hillaryclinton.com">nmerrill@hillaryclinton.com</a>&gt;=
+; &#39;Mandy Grunwald&#39; &lt;<a href=3D"mailto:gruncom@aol.com">gruncom@a=
+ol.com</a>&gt;; Tony Carrk &lt;<a href=3D"mailto:tcarrk@hillaryclinton.com"=
+>tcarrk@hillaryclinton.com</a>&gt;; Speech Drafts &lt;<a href=3D"mailto:spe=
+echdrafts@hillaryclinton.com">speechdrafts@hillaryclinton.com</a>&gt;; Ian =
+Sams &lt;<a href=3D"mailto:isams@hillaryclinton.com">isams@hillaryclinton.c=
+om</a>&gt;; Dan Schwerin &lt;<a href=3D"mailto:dschwerin@hillaryclinton.com=
+">dschwerin@hillaryclinton.com</a>&gt;<br><b>Subject:</b> RE: In review: su=
+bstance abuse op-ed</span></p></div></div><p class=3D"MsoNormal">=C2=A0</p>=
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,sans-serif;color:#1f497d">We think we have everyone=E2=80=99s e=
+dits. We are just doing some copy editing b/c with everyone=E2=80=99s addit=
+ions, the op-ed is now almost 900 words and thus unlikely to be published. =
+We will get this to her this morning. Thanks.</span></p><p class=3D"MsoNorm=
+al"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-se=
+rif;color:#1f497d">=C2=A0</span></p><p class=3D"MsoNormal"><b><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">From:</spa=
+n></b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-=
+serif"> Maya Harris [<a href=3D"mailto:mharris@hillaryclinton.com">mailto:m=
+harris@hillaryclinton.com</a>] <br><b>Sent:</b> Monday, August 17, 2015 12:=
+06 AM<br><b>To:</b> Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclint=
+on.com">kfinney@hillaryclinton.com</a>&gt;<br><b>Cc:</b> Joel Benenson &lt;=
+<a href=3D"mailto:jbenenson@bsgco.com">jbenenson@bsgco.com</a>&gt;; Marlon =
+Marshall &lt;<a href=3D"mailto:mmarshall@hillaryclinton.com">mmarshall@hill=
+aryclinton.com</a>&gt;; Ann O&#39;Leary &lt;<a href=3D"mailto:aoleary@hilla=
+ryclinton.com">aoleary@hillaryclinton.com</a>&gt;; Amanda Renteria &lt;<a h=
+ref=3D"mailto:arenteria@hillaryclinton.com">arenteria@hillaryclinton.com</a=
+>&gt;; Kristina Costa &lt;<a href=3D"mailto:kcosta@hillaryclinton.com">kcos=
+ta@hillaryclinton.com</a>&gt;; Nick Merrill &lt;<a href=3D"mailto:nmerrill@=
+hillaryclinton.com">nmerrill@hillaryclinton.com</a>&gt;; Jesse Ferguson &lt=
+;<a href=3D"mailto:jferguson@hillaryclinton.com">jferguson@hillaryclinton.c=
+om</a>&gt;; Mandy Grunwald &lt;<a href=3D"mailto:gruncom@aol.com">gruncom@a=
+ol.com</a>&gt;; Tony Carrk &lt;<a href=3D"mailto:tcarrk@hillaryclinton.com"=
+>tcarrk@hillaryclinton.com</a>&gt;; Speech Drafts &lt;<a href=3D"mailto:spe=
+echdrafts@hillaryclinton.com">speechdrafts@hillaryclinton.com</a>&gt;; Ian =
+Sams &lt;<a href=3D"mailto:isams@hillaryclinton.com">isams@hillaryclinton.c=
+om</a>&gt;; Dan Schwerin &lt;<a href=3D"mailto:dschwerin@hillaryclinton.com=
+">dschwerin@hillaryclinton.com</a>&gt;<br><b>Subject:</b> Re: In review: su=
+bstance abuse op-ed</span></p><p class=3D"MsoNormal">=C2=A0</p><div><p clas=
+s=3D"MsoNormal">just offering alternative since concern raised. i&#39;m goo=
+d either way.</p><div><p class=3D"MsoNormal">=C2=A0</p></div></div><div><p =
+class=3D"MsoNormal">=C2=A0</p><div><p class=3D"MsoNormal">On Sun, Aug 16, 2=
+015 at 11:46 PM, Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.=
+com" target=3D"_blank">kfinney@hillaryclinton.com</a>&gt; wrote:</p><blockq=
+uote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0in 0in 0=
+in 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-bottom:=
+5.0pt"><div><div><p class=3D"MsoNormal">But then it goes back to sounding l=
+ike she discovered this epidemic in the white community when it&#39;s been =
+going on in AA for a long time. =C2=A0<br><br>Sent from my iPhone</p></div>=
+<div><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>On Aug 16, 2=
+015, at 11:34 PM, Joel Benenson &lt;<a href=3D"mailto:jbenenson@bsgco.com" =
+target=3D"_blank">jbenenson@bsgco.com</a>&gt; wrote:</p></div><blockquote s=
+tyle=3D"margin-top:5.0pt;margin-bottom:5.0pt"><div><div><p class=3D"MsoNorm=
+al" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span styl=
+e=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f4=
+97d">Seems good if we have enough space. </span></p><p class=3D"MsoNormal" =
+style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d"=
+>=C2=A0</span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;m=
+so-margin-bottom-alt:auto"><b><span style=3D"font-size:10.0pt;font-family:&=
+quot;Tahoma&quot;,sans-serif">From:</span></b><span style=3D"font-size:10.0=
+pt;font-family:&quot;Tahoma&quot;,sans-serif"> Maya Harris [<a href=3D"mail=
+to:mharris@hillaryclinton.com" target=3D"_blank">mailto:mharris@hillaryclin=
+ton.com</a>] <br><b>Sent:</b> Sunday, August 16, 2015 11:00 PM<br><b>To:</b=
+> Karen Finney<br><b>Cc:</b> Marlon Marshall; Ann O&#39;Leary; Amanda Rente=
+ria; Kristina Costa; Nick Merrill; Jesse Ferguson; Mandy Grunwald; Joel Ben=
+enson; Tony Carrk; Speech Drafts; Ian Sams; Dan Schwerin<br><b>Subject:</b>=
+ Re: In review: substance abuse op-ed</span></p><p class=3D"MsoNormal" styl=
+e=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><div><p =
+class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:=
+auto">If the goal is to name SC, but there&#39;s concern about calling out =
+black men specifically, we could revise the sentence to say something like:=
+</p><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin=
+-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-=
+margin-top-alt:auto;mso-margin-bottom-alt:auto">&quot;In South Carolina, a =
+lawyer spoke movingly about too many young men who have ended up imprisoned=
+ for non-violent drug offenses rather than getting the treatment they neede=
+d.&quot;</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:a=
+uto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal"=
+ style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Here&#39;s wh=
+at the lawyer said in the transcript:</p></div><div><p class=3D"MsoNormal" =
+style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></di=
+v><div><blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt"><blockquo=
+te style=3D"margin-top:5.0pt;margin-bottom:5.0pt"><div><div><blockquote sty=
+le=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt=
+;margin-left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-bottom:5.0pt"><=
+div><div><div><blockquote style=3D"border:none;border-left:solid #cccccc 1.=
+0pt;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-rig=
+ht:0in;margin-bottom:5.0pt"><div><p class=3D"MsoNormal" style=3D"mso-margin=
+-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:10.0pt">=
+&quot;</span><b>QUESTION:</b> =C2=A0My name is Carlyle Steele and I practic=
+e criminal law here in Greenville, and I=E2=80=99ve been shocked over the l=
+ast 40 years at the mass incarceration of young men, particularly young Afr=
+ican American men.=C2=A0 Locking everybody up for minor offenses and nonvio=
+lent offenses isn=E2=80=99t working out. &quot;</p></div></blockquote></div=
+></div></div></blockquote></div></div></blockquote></blockquote></div><div>=
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">=C2=A0</p><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:=
+auto;mso-margin-bottom-alt:auto">On Sun, Aug 16, 2015 at 10:20 PM, Karen Fi=
+nney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" target=3D"_blank">kf=
+inney@hillaryclinton.com</a>&gt; wrote:</p><div><div><p class=3D"MsoNormal"=
+ style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Agree re AA; =
+I think the mention is ok because she&#39;s talking about what people have =
+talked to her about.=C2=A0<br><br>Sent from my iPhone</p></div><div><p clas=
+s=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>On Aug 16, 2015, at 9:44=
+ PM, Marlon Marshall &lt;<a href=3D"mailto:mmarshall@hillaryclinton.com" ta=
+rget=3D"_blank">mmarshall@hillaryclinton.com</a>&gt; wrote:</p></div><block=
+quote style=3D"margin-top:5.0pt;margin-bottom:5.0pt"><div><div><p class=3D"=
+MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Def=
+er to Maya and Karen if we keep, but can we say African American instead of=
+ Black? =C2=A0<br><br>=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"=
+margin-bottom:12.0pt"><br>On Aug 16, 2015, at 9:04 PM, Ann O&#39;Leary &lt;=
+<a href=3D"mailto:aoleary@hillaryclinton.com" target=3D"_blank">aoleary@hil=
+laryclinton.com</a>&gt; wrote:</p></div><blockquote style=3D"margin-top:5.0=
+pt;margin-bottom:5.0pt"><div><div><p class=3D"MsoNormal" style=3D"margin-bo=
+ttom:12.0pt">Intended to be sure she was listening to votes in all 4 first =
+states not just IA &amp; NH with their skewed demographics.=C2=A0 Think we =
+need to keep it, but Maya/Karen- you good? Or want to suggest alternative?<=
+/p><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-=
+bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-m=
+argin-top-alt:auto;mso-margin-bottom-alt:auto">Ann O=E2=80=99Leary</p></div=
+><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bo=
+ttom-alt:auto">Sent from my iPhone</p></div><div><p class=3D"MsoNormal" sty=
+le=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><a href=3D"tel:%2=
+8510%29%20717-5518" target=3D"_blank">(510) 717-5518</a> (cell)</p></div></=
+div><div><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>On Aug 1=
+6, 2015, at 6:50 PM, Amanda Renteria &lt;<a href=3D"mailto:arenteria@hillar=
+yclinton.com" target=3D"_blank">arenteria@hillaryclinton.com</a>&gt; wrote:=
+</p></div><blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt"><div><=
+div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bott=
+om-alt:auto">Perhaps I&#39;m overly sensitive but should we change calling =
+out black men at the beginning?=C2=A0 I know we don&#39;t want to ignore th=
+at this is a big deal in the AfAm community, but it feels to me like she is=
+ singling them out which could be taken very badly. Defer to group but it s=
+tood out when I read it.=C2=A0<br><br>Sent from my iPhone</p></div><div><p =
+class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>On Aug 16, 2015, at =
+8:37 PM, Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" tar=
+get=3D"_blank">kfinney@hillaryclinton.com</a>&gt; wrote:</p></div><blockquo=
+te style=3D"margin-top:5.0pt;margin-bottom:5.0pt"><div><div><p class=3D"Mso=
+Normal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Sounds=
+ good.<br><br>Sent from my iPhone</p></div><div><p class=3D"MsoNormal" styl=
+e=3D"margin-bottom:12.0pt"><br>On Aug 16, 2015, at 8:33 PM, Ann O&#39;Leary=
+ &lt;<a href=3D"mailto:aoleary@hillaryclinton.com" target=3D"_blank">aolear=
+y@hillaryclinton.com</a>&gt; wrote:</p></div><blockquote style=3D"margin-to=
+p:5.0pt;margin-bottom:5.0pt"><div><div><p class=3D"MsoNormal" style=3D"mso-=
+margin-top-alt:auto;mso-margin-bottom-alt:auto">Hi all -=C2=A0</p><div><p c=
+lass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:a=
+uto">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-al=
+t:auto;mso-margin-bottom-alt:auto">I am hearing separately that even with t=
+his change that the screenings could be misconstrued and likely more troubl=
+e than they are worth. Let&#39;s kill it and I&#39;ll revisit it as a good =
+policy idea on the other side of this election but not one for campaign fod=
+der.</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;=
+mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" sty=
+le=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Here is my sugges=
+tion for four full points:</p></div><div><p class=3D"MsoNormal" style=3D"ms=
+o-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p c=
+lass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:a=
+uto"><span style=3D"font-size:9.5pt">That=E2=80=99s why I=E2=80=99m releasi=
+ng a comprehensive strategy [LINK] to confront the drug addiction crisis he=
+ad-on. My plan sets four goals: first, ensuring every American family has a=
+ccess to affordable and effective treatments;=C2=A0<span style=3D"backgroun=
+d:yellow">second,=C2=A0ensuring that our mental health parity laws are full=
+y enforced so that insurance practices are not a barrier to substance abuse=
+ treatment</span>; third, ensuring all first responders have access to nalo=
+xone, which stops overdoses from becoming fatal; and fourth, requiring that=
+ all health-care providers receive training in recognizing substance use di=
+sorders and consult a prescription drug monitoring program before providing=
+ opiates.</span></p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-t=
+op-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"Ms=
+oNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span=
+ style=3D"font-size:9.5pt">Does this work for everyone?=C2=A0</span></p></d=
+iv><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-=
+bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-m=
+argin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:9.5=
+pt">Thanks,</span></p></div><div><p class=3D"MsoNormal" style=3D"mso-margin=
+-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:9.5pt">A=
+nn</span></p></div></div><div><p class=3D"MsoNormal" style=3D"mso-margin-to=
+p-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><div><p class=3D"MsoNormal=
+" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">On Sun, Aug =
+16, 2015 at 4:58 PM, Ann O&#39;Leary &lt;<a href=3D"mailto:aoleary@hillaryc=
+linton.com" target=3D"_blank">aoleary@hillaryclinton.com</a>&gt; wrote:</p>=
+<div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bot=
+tom-alt:auto">Hi all -=C2=A0</p><div><p class=3D"MsoNormal" style=3D"mso-ma=
+rgin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+>Sorry I was out of pocket for a few hours.=C2=A0 On a flight now to raise =
+$$ for all of us in Oklahoma - the things we do!!</p></div><div><p class=3D=
+"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=
+=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:aut=
+o;mso-margin-bottom-alt:auto">Anyhow, here is the deal:</p></div><div><p cl=
+ass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:au=
+to">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt=
+:auto;mso-margin-bottom-alt:auto">(1) The American Academy of Pediatrics ca=
+me out with a <a href=3D"https://www.aap.org/en-us/about-the-aap/aap-press-=
+room/pages/AAP-Recommends-Substance-Abuse-Screening-as-Part-of-Routine-Adol=
+escent-Care.aspx" target=3D"_blank">strong policy statement in 2011</a> tha=
+t every child/teenager should be screened for substance abuse disorders whe=
+n they visit the doctor for their annual child check up or for an accute ca=
+re visit in which it might be suspected.=C2=A0 HRC has a long history of wo=
+rking with AAP and supporting their efforts to do more screenings.=C2=A0 Wh=
+en she was First Lady, she worked on the Newborn Hearing Screening to make =
+sure all babies get hearing screenings, and in the last several years she h=
+as pushed for and supported the AAP&#39;s effort to screen young kids for s=
+ymptoms of &quot;toxic stress.&quot; =C2=A0This is not &quot;mandatory,&quo=
+t; but it is part of prevention and wellness and it is about supporting the=
+ AAP in making this happen by raising awareness, making sure pediatricians =
+get reimbursed for their time in doing these screenings, etc.=C2=A0 I have =
+tried to clarify with edits to the speech, pasted below and attached.</p></=
+div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin=
+-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-=
+margin-top-alt:auto;mso-margin-bottom-alt:auto">(2) On Mandy&#39;s question=
+ about mental health parity, I have added a line.</p></div><div><p class=3D=
+"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=
+=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:aut=
+o;mso-margin-bottom-alt:auto">(3) On Karen&#39;s question of whether we rea=
+ched out to urban leaders, we talked to a number of policy experts who serv=
+e urban communities. Maya is going to work with political to be sure we do =
+political outreach to leaders in next 48 hours.</p></div><div><p class=3D"M=
+soNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=
+=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;m=
+so-margin-bottom-alt:auto">(4) On Karen&#39;s suggestion, that she alludes =
+to problems in her own family - I have modified accordingly.</p></div><div>=
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-to=
+p-alt:auto;mso-margin-bottom-alt:auto">(5) On Nick&#39;s question about spe=
+cialized care, we are good with it as Kristina noted - but let me know if y=
+ou have further concerns.</p></div><div><p class=3D"MsoNormal" style=3D"mso=
+-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p cl=
+ass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:au=
+to">I am also attaching our final fact sheet.=C2=A0 If all are good, we sho=
+uld get her this draft op-ed together with the fact sheet.=C2=A0 Let me kno=
+w if you have more questions or concerns.</p></div><div><p class=3D"MsoNorm=
+al" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p>=
+</div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-marg=
+in-bottom-alt:auto">Thanks,</p></div><div><p class=3D"MsoNormal" style=3D"m=
+so-margin-top-alt:auto;mso-margin-bottom-alt:auto">Ann</p></div><div><p cla=
+ss=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:aut=
+o">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:=
+auto;mso-margin-bottom-alt:auto"><b>DRAFT substance abuse op-ed</b></p><p c=
+lass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:a=
+uto">=C2=A0</p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-=
+margin-bottom-alt:auto">WC: 822 words</p><p class=3D"MsoNormal" style=3D"ms=
+o-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p class=3D"Mso=
+Normal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">I was =
+on my first trip to New Hampshire this spring, in a Keene bakery, when a re=
+tired doctor spoke up. I had just announced I was running for president, an=
+d I had traveled to Iowa and New Hampshire to hear directly from voters abo=
+ut their concerns, their hopes, and their vision for the future. He said hi=
+s biggest worry was the rising tide of heroin addiction in the state, the r=
+esult of a wave of prescription drug abuse. He said hospitals were seeing m=
+ore babies born addicted, that police officers were responding to more over=
+doses, that families were being torn apart. </p><p class=3D"MsoNormal" styl=
+e=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+>To be candid, I didn=E2=80=99t expect what came next. In several states, t=
+his issue crept up again and again =E2=80=93 from so many people, from all =
+walks of life, in small towns and big cities.</p><p class=3D"MsoNormal" sty=
+le=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p clas=
+s=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto=
+">In Iowa, from Davenport to Council Bluffs, people spoke to me about meth =
+and prescription drugs, and scores of lives upended. In South Carolina, a l=
+awyer spoke movingly about the holes in the community left by generations o=
+f black men who ended up imprisoned for non-violent drug offenses rather th=
+an getting the treatment they needed. =C2=A0</p><p class=3D"MsoNormal" styl=
+e=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+>These stories shine light on some harrowing statistics. Nearly 23 million =
+Americans suffer from addiction, but in 2014, only 2.5 million were able to=
+ receive treatment at a specialized facility. Fifty-two million Americans o=
+ver the age of 12 have abused prescription drugs, including one in four tee=
+nagers. In 2014, more Americans died from overdoses than car crashes. </p><=
+p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-al=
+t:auto">=C2=A0</p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;m=
+so-margin-bottom-alt:auto">Enough is enough. It=E2=80=99s time we recognize=
+ as a nation that we have a quiet epidemic on our hands. Plain and simple, =
+drug addiction is a disease, not a moral failing=E2=80=94and we must treat =
+it as such. </p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso=
+-margin-bottom-alt:auto">=C2=A0</p><p class=3D"MsoNormal" style=3D"mso-marg=
+in-top-alt:auto;mso-margin-bottom-alt:auto">It=E2=80=99s time we recognize =
+as a nation that there are gaps in our health care system that allow too ma=
+ny sufferers to go without care=E2=80=94and invest substantially more in pr=
+evention and treatment. </p><p class=3D"MsoNormal" style=3D"mso-margin-top-=
+alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">It=E2=80=99s time w=
+e recognize as a nation that our state and federal prisons, where 65 percen=
+t of inmates meet the medical criteria for substance use disorders, are no =
+substitute for drug treatment=E2=80=94and reform our criminal justice syste=
+m. </p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-b=
+ottom-alt:auto">=C2=A0</p><p class=3D"MsoNormal" style=3D"mso-margin-top-al=
+t:auto;mso-margin-bottom-alt:auto">That=E2=80=99s why I=E2=80=99m releasing=
+ a comprehensive strategy [LINK] to confront the drug addiction crisis head=
+-on. My plan sets four goals: first, ensuring every American family has acc=
+ess to affordable and effective treatments; <span style=3D"background:yello=
+w">second, ensuring that we work with pediatricians to be sure that every c=
+hild and teenager is educated about and screened for substance use disorder=
+s as part of their annual doctor=E2=80=99s visit, just as we do for hearing=
+, eyesight, developmental delays and so much more</span>; third, ensuring a=
+ll first responders have access to naloxone, which stops overdoses from bec=
+oming fatal; and fourth, requiring that all health-care providers receive t=
+raining in recognizing substance use disorders and consult a prescription d=
+rug monitoring program before providing opiates. </p><p class=3D"MsoNormal"=
+ style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p =
+class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:=
+auto">Achieving these goals won=E2=80=99t be easy. It=E2=80=99s going to ta=
+ke real commitment from all corners=E2=80=94law enforcement, doctors, insur=
+ance companies, schools, and governments. That=E2=80=99s why my plan starts=
+ by increasing funding for the Substance Abuse Prevention and Treatment Blo=
+ck Grant by 25 percent, so states and localities have more resources to wor=
+k with, and changing rules that arbitrarily limit how many patients can be =
+treated with medication assisted treatment, a proven intervention for opiat=
+e addiction. I will also direct the federal government to re-evaluate Medic=
+are and Medicaid payment practices, to remove obstacles to reimbursement fo=
+r patients seeking help and promote greater coordination of care. <span sty=
+le=3D"background:yellow">And I will make sure that our mental health parity=
+ laws are fully enforced so that insurance practices are not a barrier to s=
+ubstance abuse treatment.</span></p><p class=3D"MsoNormal" style=3D"mso-mar=
+gin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p class=3D"MsoNorma=
+l" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">But we can&=
+#39;t stop there. As President, I will do everything I can to partner with =
+states and communities across America to meet the four goals=E2=80=94treatm=
+ent, prevention, overdose intervention, and improved prescriber practices. =
+We=E2=80=99ll ask states to design ambitious plans for tackling these four =
+goals using the programs that make most sense for their citizens=E2=80=99 n=
+eeds and challenges. In return for strong plans to address the substance ab=
+use crisis, the federal government will draw on a new $5 billion fund to he=
+lp states meet their goals. </p><p class=3D"MsoNormal" style=3D"mso-margin-=
+top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p class=3D"MsoNormal" s=
+tyle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Every town I=E2=
+=80=99ve visited so far in this campaign has stories of families upended by=
+ drug addiction. But across the country, I=E2=80=99ve also heard about seco=
+nd chances. The young mother who overcame addictions to alcohol and heroin =
+so her son would never see her with a drink or a drug in her hand. The man =
+who served 11 years in prison who is now serving others through a prison mi=
+nistry. </p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-mar=
+gin-bottom-alt:auto">=C2=A0</p><p class=3D"MsoNormal" style=3D"mso-margin-t=
+op-alt:auto;mso-margin-bottom-alt:auto">They all say the same thing: no mat=
+ter how much time has passed, no matter how different their lives are today=
+, they=E2=80=99re all still in recovery. It=E2=80=99s a process=E2=80=94one=
+ that began when a family member, a friend, a doctor, a police officer exte=
+nded a hand to help. As one New Hampshire woman said, =E2=80=9CWe&#39;re no=
+t bad people trying to get good, we&#39;re sick people who deserve to get w=
+ell.=E2=80=9D</p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;ms=
+o-margin-bottom-alt:auto">=C2=A0</p><p class=3D"MsoNormal" style=3D"mso-mar=
+gin-top-alt:auto;mso-margin-bottom-alt:auto">There are 23 million Americans=
+ suffering from addiction. <span style=3D"background:yellow">There are unto=
+ld millions more. No one is untouched =E2=80=93 we all have family and frie=
+nds who are affected.</span> We can=E2=80=99t afford to stay on the sidelin=
+es any longer=E2=80=94because when families are strong, America is strong. =
+Through improved treatment, prevention, and training, we can end this quiet=
+ epidemic once and for all. </p><p class=3D"MsoNormal" style=3D"mso-margin-=
+top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p class=3D"MsoNormal" s=
+tyle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div=
+></div><div><div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:au=
+to;mso-margin-bottom-alt:auto">=C2=A0</p><div><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">On Sun, Aug 16, 201=
+5 at 3:57 PM, Kristina Costa &lt;<a href=3D"mailto:kcosta@hillaryclinton.co=
+m" target=3D"_blank">kcosta@hillaryclinton.com</a>&gt; wrote:</p><div><p cl=
+ass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:au=
+to">On the screening point, will let policy get into details, but it&#39;s =
+the major pillar of the &#39;prevention&#39; goal. Would folks be more comf=
+ortable if it said something like [CAPS=3DADDITION] =C2=A0&quot;ensuring ev=
+ery child and teenager is annually screened for substance use DISORDERS, JU=
+ST AS THEY ARE ALREADY SCREENED FOR OTHER ILLNESSES&quot;?</p><div><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+>=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:au=
+to;mso-margin-bottom-alt:auto">schools and doctors regularly screen for all=
+ sorts of diseases, and substance abuse screening /=3D random drug testing.=
+=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:aut=
+o;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" s=
+tyle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">On the &quot;sp=
+ecialized facilities,&quot; the stat comes from the NIH&#39;s National Inst=
+itute on Drug Abuse and includes all facilities licensed or certified by st=
+ate substance abuse agencies to provide treatment. So think it&#39;s easy t=
+o answer Politifact when they try to get cute.=C2=A0</p></div><div><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+>=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:au=
+to;mso-margin-bottom-alt:auto">+ Ann, per Maya&#39;s add</p></div><div><p c=
+lass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:a=
+uto">=C2=A0</p></div></div><div><p class=3D"MsoNormal" style=3D"mso-margin-=
+top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><div><p class=3D"MsoNorm=
+al" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">On Sun, Au=
+g 16, 2015 at 6:45 PM, Nick Merrill &lt;<a href=3D"mailto:nmerrill@hillaryc=
+linton.com" target=3D"_blank">nmerrill@hillaryclinton.com</a>&gt; wrote:</p=
+><div><div><blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt=
+;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:=
+0in;margin-bottom:5.0pt"><p class=3D"MsoNormal" style=3D"mso-margin-top-alt=
+:auto;mso-margin-bottom-alt:auto">I&#39;m piling on at this point, but with=
+out knowing the background or the<br>particulars, the mandatory testing pie=
+ce is troubling to me.=C2=A0 Not to<br>mention I probably wouldn&#39;t have=
+ passed at times in my younger<br>years...I bet I&#39;m not the only one.*<=
+br><br>And on the statistic about 2.5 million people receiving treatment at=
+ a<br>&quot;specialized facility,&quot; can someone explain what that means=
+?=C2=A0 Just<br>want to make sure we&#39;re not trying to be too cute, that=
+ there aren&#39;t<br>perfectly viable treatment alternatives that lie outsi=
+de of the term.<br>Our friends from PolitiFact as always in the back of my =
+mind.<br><br><br>*(Joel?)<br><br>On Aug 16, 2015, at 6:13 PM, Jesse Ferguso=
+n</p><div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-=
+margin-bottom-alt:auto">&lt;<a href=3D"mailto:jferguson@hillaryclinton.com"=
+ target=3D"_blank">jferguson@hillaryclinton.com</a>&gt; wrote:<br><br>Flagg=
+ing - goal had been to get this to HRC on Saturday night but it has<br>been=
+ held till tonight as the other elements of the rollout (video, etc.)<br>ar=
+e debated.<br><br>AKA - ideally would like to send it in tonight for her re=
+view so we can<br>have final on Monday for Wednesday AM placement.<br><br>-=
+----Original Message-----<br>From: Mandy Grunwald [mailto:<a href=3D"mailto=
+:gruncom@aol.com" target=3D"_blank">gruncom@aol.com</a>]<br>Sent: Sunday, A=
+ugust 16, 2015 5:47 PM<br>To: Karen Finney &lt;<a href=3D"mailto:kfinney@hi=
+llaryclinton.com" target=3D"_blank">kfinney@hillaryclinton.com</a>&gt;<br>C=
+c: Joel Benenson &lt;<a href=3D"mailto:jbenenson@bsgco.com" target=3D"_blan=
+k">jbenenson@bsgco.com</a>&gt;; Kristina Costa<br>&lt;<a href=3D"mailto:kco=
+sta@hillaryclinton.com" target=3D"_blank">kcosta@hillaryclinton.com</a>&gt;=
+; Tony Carrk &lt;<a href=3D"mailto:tcarrk@hillaryclinton.com" target=3D"_bl=
+ank">tcarrk@hillaryclinton.com</a>&gt;;<br>Speech Drafts &lt;<a href=3D"mai=
+lto:speechdrafts@hillaryclinton.com" target=3D"_blank">speechdrafts@hillary=
+clinton.com</a>&gt;; Ian Sams<br>&lt;<a href=3D"mailto:isams@hillaryclinton=
+.com" target=3D"_blank">isams@hillaryclinton.com</a>&gt;; Dan Schwerin &lt;=
+<a href=3D"mailto:dschwerin@hillaryclinton.com" target=3D"_blank">dschwerin=
+@hillaryclinton.com</a>&gt;;<br>Jesse Ferguson &lt;<a href=3D"mailto:jfergu=
+son@hillaryclinton.com" target=3D"_blank">jferguson@hillaryclinton.com</a>&=
+gt;<br>Subject: Re: In review: substance abuse op-ed<br><br><br>And one mor=
+e thing.=C2=A0 Should we mention the growing problem of synthetics?<br><br>=
+Mandy Grunwald<br>Grunwald Communications<br><a href=3D"tel:202%20973-9400"=
+ target=3D"_blank">202 973-9400</a><br><br><br>&gt;&gt; On Aug 16, 2015, at=
+ 5:18 PM, Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" ta=
+rget=3D"_blank">kfinney@hillaryclinton.com</a>&gt;<br>&gt; wrote:<br>&gt;<b=
+r>&gt; Last question/comment I promise - did we engage urban leaders in the=
+<br>&gt; development of the plan?<br>&gt;<br>&gt; Sent from my iPhone<br>&g=
+t;<br>&gt;&gt; On Aug 16, 2015, at 5:15 PM, Joel Benenson &lt;<a href=3D"ma=
+ilto:jbenenson@bsgco.com" target=3D"_blank">jbenenson@bsgco.com</a>&gt; wro=
+te:<br>&gt;&gt;<br>&gt;&gt; Democrats are going to have a field day with it=
+. It is also probably<br>unconstitutional violation of 4th amendment, isn&#=
+39;t it?<br>&gt;&gt;<br>&gt;&gt; Sent from my iPad<br>&gt;&gt;<br>&gt;&gt;&=
+gt; On Aug 16, 2015, at 3:10 PM, Karen Finney &lt;<a href=3D"mailto:kfinney=
+@hillaryclinton.com" target=3D"_blank">kfinney@hillaryclinton.com</a>&gt;<b=
+r>wrote:<br>&gt;&gt;&gt;<br>&gt;&gt;&gt; The only thing that stood out to m=
+e was annual drug screening for<br>&gt;&gt;&gt; children and teenagers, cou=
+ld see the GOP having a field day. Can we<br>&gt;&gt;&gt; explain that one =
+a little more?<br>&gt;&gt;&gt;<br>&gt;&gt;&gt; Sent from my iPhone<br>&gt;&=
+gt;&gt;<br>&gt;&gt;&gt;&gt; On Aug 15, 2015, at 6:42 PM, Kristina Costa<br>=
+&lt;<a href=3D"mailto:kcosta@hillaryclinton.com" target=3D"_blank">kcosta@h=
+illaryclinton.com</a>&gt; wrote:<br>&gt;&gt;&gt;&gt;<br>&gt;&gt;&gt;&gt; Fo=
+lks --<br>&gt;&gt;&gt;&gt;<br>&gt;&gt;&gt;&gt; At Dan&#39;s request, passin=
+g along=C2=A0 a draft HRC op-ed to accompany the<br>substance abuse prevent=
+ion initiative fact sheet rolling out midweek.<br>Maya, Ann, Sara, Zach, an=
+d Ian have all reviewed, edited, and commented.<br>It&#39;s now with Tony/r=
+esearch for a fact-check before going up in the book.<br>&gt;&gt;&gt;&gt;<b=
+r>&gt;&gt;&gt;&gt; Thanks,<br>&gt;&gt;&gt;&gt;<br>&gt;&gt;&gt;&gt; Kristina=
+<br>&gt;&gt;&gt;&gt; &lt;08.14 Substance Abuse Op-Ed ALL EDITS CLEAN.docx&g=
+t;</p></div></div></blockquote></div></div></div><p class=3D"MsoNormal" sty=
+le=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><=
+/div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bot=
+tom-alt:auto"><br><br clear=3D"all"></p><div><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div></d=
+iv></div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin=
+-bottom-alt:auto"><span style=3D"color:#888888">-- </span></p><div><div><p =
+class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:=
+auto"><span style=3D"color:#888888">Ann O&#39;Leary</span></p><div><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+><span style=3D"color:#888888">Senior Policy Advisor</span></p></div><div><=
+p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-al=
+t:auto"><span style=3D"color:#888888">Hillary for America</span></p></div><=
+div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bott=
+om-alt:auto"><span style=3D"color:#888888">Cell: <a href=3D"tel:510-717-551=
+8" target=3D"_blank">510-717-5518</a></span></p></div></div></div></div></d=
+iv><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-botto=
+m-alt:auto"><span style=3D"color:#888888"><br><br clear=3D"all"></span></p>=
+<div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bot=
+tom-alt:auto">=C2=A0</p></div><p class=3D"MsoNormal" style=3D"mso-margin-to=
+p-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"color:#888888">-- </s=
+pan></p><div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;m=
+so-margin-bottom-alt:auto"><span style=3D"color:#888888">Ann O&#39;Leary</s=
+pan></p><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-ma=
+rgin-bottom-alt:auto"><span style=3D"color:#888888">Senior Policy Advisor</=
+span></p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto=
+;mso-margin-bottom-alt:auto"><span style=3D"color:#888888">Hillary for Amer=
+ica</span></p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt=
+:auto;mso-margin-bottom-alt:auto"><span style=3D"color:#888888">Cell: <a hr=
+ef=3D"tel:510-717-5518" target=3D"_blank">510-717-5518</a></span></p></div>=
+</div></div></div></div></blockquote></div></blockquote></div></blockquote>=
+</div></blockquote></div></blockquote></div></div><p class=3D"MsoNormal" st=
+yle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"c=
+olor:#888888">=C2=A0</span></p></div></div></div></div></blockquote></div><=
+/blockquote></div><p class=3D"MsoNormal">=C2=A0</p></div></div></body></htm=
+l>
+
+--089e01493b54bd21ca051d822c8c--
+
+--089e01493b54bd21d1051d822c8e
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document; 
+	name="08.17 substance abuse oped ALL EDITS.DOCX"
+Content-Disposition: attachment; 
+	filename="08.17 substance abuse oped ALL EDITS.DOCX"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: 4a2f743bd9dab399_0.1
+
+UEsDBBQABgAIAAAAIQCsi21mYwEAAJ8FAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0
+lMtqwzAQRfeF/oPRtthKuiilxMmij2UbaPoBijRORPVCo7z+vuM4MaUkMTTJxiDP3HvPCDGD0dqa
+bAkRtXcl6xc9loGTXmk3K9nX5C1/ZBkm4ZQw3kHJNoBsNLy9GUw2ATAjtcOSzVMKT5yjnIMVWPgA
+jiqVj1YkOsYZD0J+ixnw+17vgUvvEriUp9qDDQcvUImFSdnrmn43JBEMsuy5aayzSiZCMFqKRHW+
+dOpPSr5LKEi57cG5DnhHDYwfTKgrxwN2ug+6mqgVZGMR07uw1MVXPiquvFxYUhanbQ5w+qrSElp9
+7Rail4BId25N0Vas0G7Pf5QD08YAXp6i8e2Oh5RIcA2AnXMnwgqmn1ej+GXeCVJR7kRMDVweo7Xu
+hAjgwzUIGt/O+EQLAJpv/2yIrc2pSOocRx+QFkr8x8z7jVGrc5o2QEz69KNvE8n67PmgXkYK1IFs
+vl2vwx8AAAD//wMAUEsDBBQABgAIAAAAIQAekRq37wAAAE4CAAALAAgCX3JlbHMvLnJlbHMgogQC
+KKAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAArJLBasMwDEDvg/2D0b1R2sEYo04vY9DbGNkHCFtJTBPb2GrX/v082NgCXelhR8vS05PQenOc
+RnXglF3wGpZVDYq9Cdb5XsNb+7x4AJWFvKUxeNZw4gyb5vZm/cojSSnKg4tZFYrPGgaR+IiYzcAT
+5SpE9uWnC2kiKc/UYySzo55xVdf3mH4zoJkx1dZqSFt7B6o9Rb6GHbrOGX4KZj+xlzMtkI/C3rJd
+xFTqk7gyjWop9SwabDAvJZyRYqwKGvC80ep6o7+nxYmFLAmhCYkv+3xmXBJa/ueK5hk/Nu8hWbRf
+4W8bnF1B8wEAAP//AwBQSwMEFAAGAAgAAAAhAPmolZ0PAQAAowMAABwACAF3b3JkL19yZWxzL2Rv
+Y3VtZW50LnhtbC5yZWxzIKIEASigAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+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
+DAAMAP4CAACrQgAAAAA=
+--089e01493b54bd21d1051d822c8e--

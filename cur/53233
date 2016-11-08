@@ -1,0 +1,395 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp90361lfb;
+        Fri, 18 Mar 2016 12:09:32 -0700 (PDT)
+X-Received: by 10.98.72.141 with SMTP id q13mr26140111pfi.152.1458328171929;
+        Fri, 18 Mar 2016 12:09:31 -0700 (PDT)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1hn0246.outbound.protection.outlook.com. [157.56.110.246])
+        by mx.google.com with ESMTPS id wt1si1677432pab.238.2016.03.18.12.09.31
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 18 Mar 2016 12:09:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.246 as permitted sender) client-ip=157.56.110.246;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.246 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=pass header.i=@gulaw.onmicrosoft.com;
+       dkim=neutral (body hash did not verify) header.i=@bounce.bluestatedigital.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gulaw.onmicrosoft.com;
+ s=selector1-law-georgetown-edu;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=8RujWqG+RE+5+ZFv48Z0xKRDRvNRgBKSI5tPy5rM9kc=;
+ b=cWq5xDAkiLWEMdQzqHnvfq86SOkxrBLrlrozyqMexgzrKQPaSBr2PNyjjv6c0P+PEGlAMjErTsIOzrlx1VsovklkxIe3CREg2wJDnXfigspSV7n0KIHhuZvcB4UIXwNz/9OZjf7to+NAp6GiBV3ihpMcbaUo4NrJXr6+IYSQxTY=
+Received: from BLUPR07CA0026.namprd07.prod.outlook.com (10.255.223.139) by
+ BY1PR0701MB1783.namprd07.prod.outlook.com (10.162.141.21) with Microsoft SMTP
+ Server (TLS) id 15.1.434.16; Fri, 18 Mar 2016 19:09:29 +0000
+Received: from BN1BFFO11FD043.protection.gbl (2a01:111:f400:7c10::1:172) by
+ BLUPR07CA0026.outlook.office365.com (2a01:111:e400:841::11) with Microsoft
+ SMTP Server (TLS) id 15.1.443.12 via Frontend Transport; Fri, 18 Mar 2016
+ 19:09:28 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.bluestatedigital.com;gmail.com; dmarc=none
+ action=none header.from=joshshapiro.org;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BN1BFFO11FD043.mail.protection.outlook.com (10.58.144.106) with Microsoft
+ SMTP Server (TLS) id 15.1.443.6 via Frontend Transport; Fri, 18 Mar 2016
+ 19:09:28 +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (141.161.191.13)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.279.2; Fri, 18 Mar 2016 15:07:57 -0400
+Received: from BLUPR07CA093.namprd07.prod.outlook.com (10.160.24.48) by
+ BY1PR0701MB1783.namprd07.prod.outlook.com (10.162.141.21) with Microsoft SMTP
+ Server (TLS) id 15.1.434.16; Fri, 18 Mar 2016 19:07:55 +0000
+Received: from BY2FFO11FD005.protection.gbl (2a01:111:f400:7c0c::177) by
+ BLUPR07CA093.outlook.office365.com (2a01:111:e400:8ae::48) with Microsoft
+ SMTP Server (TLS) id 15.1.434.16 via Frontend Transport; Fri, 18 Mar 2016
+ 19:07:55 +0000
+Authentication-Results: spf=pass (sender IP is 66.151.230.135)
+ smtp.mailfrom=bounce.bluestatedigital.com; law.georgetown.edu; dkim=pass
+ (signature was verified)
+ header.d=bounce.bluestatedigital.com;law.georgetown.edu; dmarc=none
+ action=none header.from=joshshapiro.org;
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.bluestatedigital.com designates 66.151.230.135 as permitted sender)
+ receiver=protection.outlook.com; client-ip=66.151.230.135;
+ helo=mta-dock-front-24.bluestatedigital.com;
+Received: from mta-dock-front-24.bluestatedigital.com (66.151.230.135) by
+ BY2FFO11FD005.mail.protection.outlook.com (10.1.14.126) with Microsoft SMTP
+ Server (TLS) id 15.1.443.6 via Frontend Transport; Fri, 18 Mar 2016 19:07:54
+ +0000
+Received: from bounce.bluestatedigital.com (unknown [10.0.200.178])	by
+ mta-dock-front-24.bluestatedigital.com (Postfix) with ESMTP id
+ 3qRZVf0PcpzjWxW	for <podesta@law.georgetown.edu>; Fri, 18 Mar 2016 19:07:54
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=bounce.bluestatedigital.com; s=bsdkey; t=1458328074;
+	bh=5n0HMQHvTPMVO6CiG4dnhrqDFKn9Qe0mBbenDmVYZdY=;
+	h=Date:To:From:Reply-to:Subject:List-Unsubscribe;
+	b=lhehx+PZ3ic/f/NdwUSUlOQcqcxjEIyBo9U9UdRKqUuOG9ve20U6moGQzvSmH71Sj
+	 VchyASmcdHCWd54ahzmUOlDVFhaEoGI2nwBWdZGmwx4kXnJHuXFRmmnD73DbfooIpJ
+	 ZJdYDhUK3XRpVm+ZvK0MXyU6NWCG48Iep9XstwQg=
+Received: from phpmailer 	by bounce.bluestatedigital.com with local
+ (PHPMailer);	Fri, 18 Mar 2016 19:07:54 +0000
+Date: Fri, 18 Mar 2016 19:07:54 +0000
+To: John Podesta <podesta@law.georgetown.edu>
+From: John Adams <info@joshshapiro.org>
+Reply-To: <info@joshshapiro.org>
+Subject: John, I'm with Josh
+Message-ID: <64de24122850aa141ddde8997cc3be8c@bounce.bluestatedigital.com>
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 6f0290365a41deb8
+X-rpcampaign: rp_2796
+X-maillist-guid: Fg1XRQoWCT1TVQAHCFUAV1ZYBANQUgcLa0ldB1NHQQUlCVdCTQMDWxdUVUFeEl1PBl1FOwUGUg
+List-Unsubscribe: <http://act.joshshapiro.org/unsubscribe?email=podesta%40law.georgetown.edu>, <mailto:Fg1XRQoWCT1TVQAHCFUAV1ZYBANQUgcLa0ldB1NHQQUlCVdCTQMDWxdUVUFeEl1PBl1FOwUGUg@bounce.bluestatedigital.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_64de24122850aa141ddde8997cc3be8c"
+Return-Path: podesta@law.georgetown.edu
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CIP:66.151.230.135;IPV:NLI;CTRY:US;EFV:NLI;SRV:BULK;SFV:SPM;SFS:(31640200002)(1130300003)(2980300002)(438002)(286005)(359002)(596005)(199003)(189002)(349012);DIR:INB;SFP:;SCL:9;SRVR:BY1PR0701MB1783;H:mta-dock-front-24.bluestatedigital.com;FPR:;SPF:Pass;MLV:ovrnspm;A:1;MX:1;PTR:mta-dock-front-24.bluestatedigital.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2FFO11FD005;1:aVBJ/SuLUUNX7b96HQkhDhNVR/SJLDfxCjepTnq8yXRxuWqhh9D+iFl6onWZBhGxMC4UQJeqlyChclJ3RMDJ5SqsfYieEtlTNNGEAWJ/J/LnWaBTlVCx0gEbgVGKdZ1zKxp/KWX3hzQDFqCOp7pcqjZoa1Hc7nL0tZ8hWo/rn7BiKsV14PJMJGqrOQreuTjnh7FmCcLAso9osRAXol8VPZ9KQgza09d+59pORGLQzARUD0Ywf+WmYaLpVGv9meBaPDxgqYWTMmjJtLFfI2wf8RBzjScapkZHwOpLEqy47EJ7rlbXMp9LZVxFTFDWXVwbf8OBtpW2k+wD6JcjN7FNI0ELmL60ijxfsLbMnuzFT2HT9veWQVTLgXMnf9wxwxnPdpSJm4kDQ3G2TjiIpyxWhAjPhaxaOXdEXgY27NA1ewCuYNBQJJY9RjWIXQAmmKkLOaD04C4vIBc/5Lshw1y3MEpCsF4gOxyhM0Um7SqtjBn+g5q5W6PZ+/Ah+o4daMzM
+X-MS-Office365-Filtering-Correlation-Id: 65aeab96-540e-432e-0d98-08d34f60d423
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY1PR0701MB1783;2:yRxddSRCYXlbzKd2p/na48mcTCY2fB5IHVxH9ySrq4GIfA1qCc1F74BULVlEWeXaQfNQMAjWwBaEiFpFONv47L0n56/50O23iFoz08KtStRbleySvUiY/Z79pGNzvVK0SQ70l08PEaU1FY63GRiQPah/9oEQxrOTNC+Lt/xBLUrnmBTfgibHA9qve9OPNCMY;3:98Os4DUUCqWdGUuzBgDYw92WB7sSF60bPdfd2bKUtGtnzARmMdbMsc2F6/njQvDxjBFDC+vGri5n36E4p1u3OMwB2CDGaRGJpWDhaUdu33dtux0P56ZHwq9Ycej1idxSOhPtnf7CRp3X2XmLatn2/kbbrjK4Y53jp3pkR3e/CXI8EgEWvpnsR7Spzc87o5UHkF8wowXajl0YZjLpqxdwVOlNhfmrPkdp9/uLltpGsvaNRwlUdzUp5L6wN4gua/8zKEmdiyUP5m+Sttp04LqgChDXLdJd/ranT55d5PJAc/myQYv8Oxk+n6mOOJSymuIpyDYeHkgfQ5vsjr6eDNFr3wsfioGdFp1+K+Jrc/OlKDw=
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(421252002)(240002)(3001016)(116002)(71701004)(71702002);SRVR:BY1PR0701MB1783;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY1PR0701MB1783;25:qCmw7N+sVZjBe5rFUKtLKS+GO4YcH13vX70vAc4h6FWlE78Es7LAS3WoDFWTPOktozrRvuPqirMkl3AbqEMfrkYfJP0TIcN2Ry58s3zFdFnjOjYkr9MhXWTAVUN/S6Ev1t0MDf9S2mT6zk5hOB/OIFvf2Pf6sr3nq8Wv+0oGBdeq1ixJ4Pt/ypWdgBOaNjsa8gbtecW1pt2rv85rmt3+re5EH954d4607NsC1HICCNEge/HGeUW/iAgm0VMzbX9qDYVylPzjIljYmrs67qM2HqWMI0JvECXs/OWbq2JgUyJtntvey4Ihib9LSMnGKSqguX0IwAVH1CZIZqeI/k43QSdUQIodqhhLP8H3EY7zZsHXlmIyOVE06rrCeLVxg06yJPmelnI9BeXPRPudfDkX4BwJryr3CUqOpH/L+J8UHob5dcokCJ/1JiG5BDo6Jeyurq3VNwFg2+u0AHejwFT1PdTcyMnjyz6otol0DJdt+XoxDMiybLC+bXRLruFuc8ZwpfXHMsXGyU/aX3h2ppseYzUpqYULG39kSwvtEH9zfzTaJf+oMNWP6xDahpE9p8DDOLwihgxH5fv0u1NYi7jZnQOaxIe8S/M9DbaRd0BQsAnVhV3RcsqOcVQPoX12Cm5jdEjRxEW83F4spiXA7rvg4v9uB+6zSRXsMdHPbYPgjKt6d0KFud6WEDnQK9LnZnyCMGuEhzztk71xL+Isa+OM+c544JKBTMeE7feCStuK5ulhIvDOQ6qJFPhnDh8QkkMrKK2vxUMpYzmbScE75irzuNRlAG6lVbJ47CMeb2xp5zNlOij404k9LhAGiyysG5HHYLAu1il06myjz2OttG5PEvZ1QFojcP0kZgKEKdbFRo8=
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY1PR0701MB1783;20:04mz5RrE7iFYG2S5Y+G6qmkRdQSC+UY8O+zFtmPsWSkduD7o7qPJ7TBC9MGJstgwHmoT+QkVtwaAUgKo+r33IunyPRV6Dh/4gY1aFHfNaHs0xJk0tFGhlGCvjQ6aY9g44wyYoe1mz8UZJ+x2sOnv0tirJS6woUNDfa6hC9FbOs7fQwj9OGAYwY7uE1+kZp9G2x9JB5p4ebC/pyNJNWi4eysHOJxEAjL7EpQr+k/dFgcwuwv+AoTsDw4o5GUsRNiNHim5hhiCg8xzFEAiZu3kbMF2nSQUtRjlDc0Lp61I+sLjvPjqARC+Argo26P5GeANIvSRkwt+HhG5aNU/QnxdO47bl4iShr+vf/UDoQb/OhvR/BUpdglwFj0wQKEM9fCtwVU+Q6cPoM5Q7K61l07SkeIi/+Qxf6dtWiIMAJ2SkVY=;4:RFXgnf75f2MhD0Q6hujyHOXod0CEe3s3EmJhq0CSt3C+PBME9kEMrKHw/Bcxl1356LPZWgjBWN4ipAbWIm/1fK9f/ECDYhl94179ycTAWW1j3GuSFdPZO9Qb9IlcpO3YllHJ29wrFHOeIcmvj4OdtmIcekkf5AHkEjM2ssQlRKBSK3YbMkD+QiE1xFsBaWypkKvnaGeyya5ulha5AE2tUPOtbmJyIidVJzOr+fgCViaBD/FBzM/de5C/3MtQhu5mhVR85ZdzgvBYBiG+muEnqkvxHSB9wY8DtWK9Qg8RE6rwJrrSB3vW2etMteJdUWkhjdA1Wl3tExc4hY74w12ty+FhxAVq49xDvVsEnwS936YT/mStW+4n/GXmrnLTscf5npZrePNUsNdtedCNZSIvMfE+lu/IrjUEWeoe0+Tzvds=
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(5010005)(5011007)(13016025)(13018025)(8121501046)(3002001)(10201501046);SRVR:BY1PR0701MB1783;BCL:8;PCL:0;RULEID:;SRVR:BY1PR0701MB1783;BCL:9;PCL:0;RULEID:(601004)(2401047)(5005006)(13016025)(13018025)(8121501046)(3002001)(10201501046);SRVR:BY1PR0701MB1783;BCL:9;PCL:0;RULEID:;SRVR:BY1PR0701MB1783;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY1PR0701MB1783;23:w5y86p40PNZHeTz9DKNX1cJNxggNSs6ie5MKtd6ZpzxT3q2EWtYOkq8AisrtEWZzwmGmrssfc7xiOlk6lyGxfkKDKdKesiuVPlDuxf0g5qNowvId7QFOAFx3Hza/kNinqJMXmPrCbrrrJNzmxK6hxafA+jAvIW252jWB34LkWSdVzbu3AOqWbyxQU+lukWd4vTF8umMEXm83EDnNXI+4U71wl8zvTvEDcuRzVRMxEfykdfjIcArYzrWUCoOE6hvSvaKpdVQtSZCVl4LJxo5EucxFrJAaHdumzbiG6Hu8+Brr/cMCnAu4KazSmVTSF//7qbinAsCw/JPs8JkjuIKKNmTjDq7Ndx0HShA10qNQDsi4pocJFJd25bmUIPKr5myLYTFEdawoIH3EJPXPjx2jew==;5:SCs/WTWxjamnfyyIdGWLHODlJvrgPHnY0h8MFvfggcCIq2aisZ4SOK7sUnOlSbiobtm7TiVteWXLbuAGtq45ISt44fHZAfjhqhIb6HqMT1ve5RkeauVIEEbjHSTozf+CZhU7uYsOsw+XyjF7WWRfKA==;24:eO5nVX6/tgmn7zdcN6AWShq3PBvbPuWAIZpFs3r5qOS18ZCNsxiFuOqm1NDSzVSyS54zX6P+DotrIxguYW5Xcg==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY1PR0701MB1783
+X-OrganizationHeadersPreserved: BY1PR0701MB1783.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1BFFO11FD043.protection.gbl
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.75;IPV:NLI;CTRY:US;EFV:NLI;SFV:SPM;SFS:(10009020)(1130300003)(2980300002)(1109001)(1110001)(339900001)(359002)(596005)(199003)(189002)(349012);DIR:OUT;SFP:1501;SCL:9;SRVR:BY1PR0701MB1783;H:mail.law.georgetown.edu;FPR:;SPF:Fail;MLV:ovr;A:1;MX:1;PTR:InfoDomainNonexistent;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD043;1:EbvMf4cKkSr1xOQ+VrraZNCtF3cplSIJP+OcanWzC6yLMDbRH+DTM+n1xIsfVqMRxl7A8t9xzouSJGB0zh89NNS2uo1pfJ/t90dXvxuxLHqayst2yEYt8zvktsMY19Y9MKUf8QqsnxdCTwUxBHYCHGoIUWZjGL4ogAUQRtIBPWuJpojsoZ3rRKiCU1dpjAd3Az/OvHQDInjb/Ij2yQ7f5AYqf9fhgv93gJ6gTWSIngow0+gGM7RRIuk08K8bxCZXXzYG9DkElgua6rcu338hTJloKxKumALVJOUiH8WczeBt7UtocJSRrIkSWyk6tI0WReqUy3B+TWA/ZGpQM7lL7ULnxpK8z1bJMx51HiEZyBcAg1alLpgVpwMaNYviIewGmvtwhRVodFn7kR2ByuXYwcouerJO7y0STjrOmIt2uppQgq+WdOw7JhIQGW6DHqSD4uk6z2p5Et8M0fnCKk4R1Q==
+X-Microsoft-Exchange-Diagnostics:
+	1;BY1PR0701MB1783;2:kBAmFZNemretnz6UuUf+Lag98wxiGETF54LfRwSgjJZQHfqrIrg4zuFUOV2mOCJR4p8Otm33HFgoVPJy25dzXx/+FHQUC4CLeFQgqRf0TZs17nlZNlu6ieb4wYhhETboncRUdAXaZ6t4ATnDaYh9hHpYkGAze3t4AR2ef9dz8pLPJPw6FKsurJcXiN1hAQcG;3:zh0uAjbYnIW1mz6OFq0cIALJIQOMxYDTK+kZ/f3SjBYqz5njpJL1xihKV6BArJO++jcfBjr7pIoVNv6A+9hXRQtUaMk4X7WNeHi9nm804DvsrNRnvA17envtGit9DcDrGfXqYu8WMeYpNVSsiexWoLTzUcahAYSMcY2gxFx6GVFsuHJ/eyJTvJQumozy7bqYRmtHNaGJlf/lCmJI0w3TP4ZI19UcXiHyAQsbOOMaLjbjQmJytLQj7c/fPenCAXPmTauNSe2WqHMktxkHigas5A==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:9;PCL:0;RULEID:(421252002)(3002016);SRVR:BY1PR0701MB1783;
+X-Microsoft-Exchange-Diagnostics:
+	1;BY1PR0701MB1783;25:Nr372ZpBmkANXC4v8AViFkCMxJ8iVc0cfAABQxd6Dh2TRm9OxFZD4/evvTo9c2xBOmq7ycjb6QWnAEd7WOMIs52/XtPZIPGv0Ptgad4ojah4py4R2t7n7o6EC6Ez6WmnZHDrsl+VRQ5S9FpMu0Vk+tt0pST9oGAto/b+ktrNKJ4nqdplw2NVlI7Zq2vqyt6oGgosbVYO67hQfD79ow7skbp+xXO0y0olP0c28w47PnMTHX3LyVJzZ1Y//9RJNhaiztfhV/O6mFOajCH82CCVdFkMWZXsIlDednsjhAdBAVxdV9tDCwuiy1qyQPxdNSFJwnDVzipBCdjNdbhTa8i2m3yG61Ejq/NtUtz1CXjQn5yv1n32RIFic/0/rn5rKckANPYrejVQNRnwRjgMjMYcgjSMVBT7WErLTS9tM6AyXMopfdrx7fceoMdQQJTimxtWVIy/Ec9dAsKlo7tR6RmB7B0CpmsypJ87UkIj38eodkx+4hP5GOLw1WLnZtHswxC3RJWkFS2kOAfxHT+mttzGmBOAdAB3luh6Z4MknlZRfmQkRWbWWSAq+xM+ytR3zt0sAbPRU5kRmANw0qlMepl1UQhppcHggdVxNqU4euwuH4Fxuz69Z8wsenbkDC5yuLZ0WnekN8JOxSi8Z83/VXOM6cuzTKVmytjpYqW9ZgXp9h720Kx5CSupbAuLom7PTL9JoqSwusqUHtUDm1ZS1YAkPyAtDoUtXQABIWAbbg/5jw+LO3iZLS0mzFbtBTwksT5dpZgS/b754tT3xcE0m5U/6by+Dv6gUZSq3U24Qm5sTZrKVOZ0o0JaIkPjF85TYr9soHLLieaeRAV7EtuZPuQ27kSmHCdLhdBv6t0I1D7rzT8=
+X-Microsoft-Exchange-Diagnostics:
+	1;BY1PR0701MB1783;20:wVIcHJ4RZY9TtkncAAol8RoHyyjdM4RqzmzanT5Iz26YGn1l9NXP0ofcjiryO3wOHwDtqyyzrGPG+vKUbhMsqp30efk2lM/lO+F6n/eqx7+lvcF5taDEwdKqYcLsLKWmO3GCbo0MQDS/qQavurCpJNA0lF0VsgAN5dDzcBDt/Pt/DIWk+7s1mFDk6lD9mNViWG0XHSp0uflTLZrqHuMfugsf4wzISRnRqavnXUifZS7SGnsE/ipKOgm7nOgxk73v3kovZrpxdLhv+1aDRR0sSAk4gBoy9Pi9o+QweWdd1iabdvMMgQNj8e01P7YEH5j4EsPoe7i09SblCxog/y6f9dCGLmIwoBtvM22sA2Jk+/MwSgh1KuvRwsrrIh6Yf1atIaqiSTcm/6f/b6ADQGg1ZXeSl1V+ksAJw087nW7Y3uA=;4:boH4t3Cm6syolXoVIohdqLn/7Yw5yYpzvLCwOG4yjUHUzTJobA3HzWxtLSjrkO8fz49bWFIU6/1vM3f+RtM9sh0kyuDGTx0OAhEl3uP50MPFGZEQCmkz66/vr4nfTai18xSYjazcQ8VOBg43wNlT8X/301K6t8COMCT91/HEQcvB/3qAuHK7R8i9ofdBxEkGXNiQRXdXRy9t1rzQu0nDlJrPL0X8W0KJw9TWqzFKD8J8SLmG2ILA3nEePzkNgx6fvGTNBf5jiBufJ0xvQamYUlodgrIozp1I3OG6/J9B5li+2tvnRnVxgVvOF9IpvFBKdVyZbYfSWfugx9s1ntsFfnfh4Ck4aBpErT6u9D+ctnHGkxrdFtzKsb4C0ZywCWtZEw5/G1Sh/gQzYma3FGI8Cg==
+X-Microsoft-Antispam-PRVS:
+	<BY1PR0701MB17836649BD712621F3B9C9CA938C0@BY1PR0701MB1783.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 088552DE73
+X-Microsoft-Exchange-Diagnostics:
+	1;BY1PR0701MB1783;23:zf0Wjygf8tV015VqeTw6AYUtYULGaj0D5a4UArmS3hd0h7b8uOzlsp/pYHtciou38nMadvOGfWBLgdV6xYt3peLxPtZgK7tttnFsNH7FaQvdzq1nwa/lmhKhNQ7OzvNBO5eNOg4/PpSg+8G2NDOqXe1CvqJa/K6UUf3bMi40jkWXLW8Bld5oQ5jWaf1vvqg9WmZF5Ec+RmBRkzypFsCSQL/YAZanLlV5pDJuHiRSQHikJliCUckirXYBFn5YmuCGjQ52pYUFPvHBBq3tRubqk/q2DfPX8t57GNdwxiKJnAeQ2WobzSOr+6WkoItQwXzmOpS5eDYKAroduIjFECq2+smvbyixIb9vRNZyDrW//YFxSk6zbmFsT5I4vfDTRwfhhBv10V4VmjLsGlA+AAfmCsTAOZZRXbKS6Ctm9qZ8RIE=;5:KV/nAwOOoCV5ayEw7FODfxnAllJyJ83VGR4gu8AYM3UNwmvCxPIYG16Xon6Dq7htKHrxwKtr+Oq3x1D6AhrmbgeDYNb2Kga/e7YPbWZDYmQw5hnHQwvJWMo5FfpvtyY3qgIdk35Jx8P0lOdQ6YI9XA==;24:e0OjnP3+llpd7P5Lxe15Xfbh93wnuH1Xk2BXNpOruZFZuqYwthXAoLAzKAmK9nDZ+i4YHrWAkA4GsghXLkYb2A==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 9
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Mar 2016 19:09:28.1553
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY1PR0701MB1783
+
+--b1_64de24122850aa141ddde8997cc3be8c
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+John --
+
+Yesterday, I joined five of my fellow Democratic District Attorneys from =
+across our commonwealth in endorsing Josh Shapiro for Attorney General. I =
+wanted to tell you why I'm backing Josh and why he is uniquely qualified =
+for this important office.
+
+Attorney General is a big job.=20
+
+It's about management and setting priorities across all three divisions of =
+the Office of Attorney General: Criminal, Civil and Public Protection. The =
+Attorney General is Pennsylvania's Chief Law Enforcement Officer and its =
+chief protector of consumers. Josh has shown he best understands the true =
+purpose and potential of the office.=20
+
+Josh has the experience to lead, set priorities, and stand up for all =
+Pennsylvanians, but he needs us to help spread the word -- share this on =
+Facebook:=20
+
+http://act.JoshShapiro.org/Democratic-District-Attorneys-FB
+
+In Montgomery County, Josh leads an entity four times as large as the =
+Office of Attorney General -- and he does so with integrity. Josh stood up =
+to Republican attempts to implement a Voter ID law that would have =
+disenfranchised tens of thousands of Pennsylvanians. He led the fight for =
+marriage equality. And Josh took on the Wall Street money managers to =
+protect taxpayers and retirees. He's proven time and time again that he's =
+tough enough to take on the powerful interests.=20
+
+As the Chairman of the Pennsylvania Commission on Crime and Delinquency, =
+Josh is standing up for victims and leading the effort to restore fairness =
+to our criminal justice system. Those are the same values he'll bring to =
+the Office of Attorney General.
+
+We need an Attorney General who will work with District Attorneys across =
+Pennsylvania to go after drug traffickers and illegal guns as well as =
+frackers who pollute our water and the con artists who scam seniors and =
+consumers. That's the kind of Attorney General Josh will be.=20
+
+I'm proud to join my fellow district attorneys, the largest local police =
+union in the state, and those working to reform our criminal justice =
+system in supporting Josh Shapiro for Attorney General.=20
+
+If you're excited to be standing with Josh Shapiro, then please take a =
+moment to share this news on Facebook and Twitter:
+
+Share on Facebook:
+
+http://act.JoshShapiro.org/Democratic-District-Attorneys-FB
+
+Tweet on Twitter:
+
+http://act.JoshShapiro.org/Democratic-District-Attorneys-TW
+
+Sincerely,
+
+John
+
+John Adams
+Berks County District Attorney
+
+----
+Paid for by Shapiro for Pennsylvania
+
+Contributions or gifts to Shapiro for Pennsylvania are not tax deductible.
+
+This email was sent to podesta@law.georgetown.edu.
+
+To unsubscribe, go to:=20
+  http://act.joshshapiro.org/unsubscribe
+
+
+--b1_64de24122850aa141ddde8997cc3be8c
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" =
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<?xml encoding=3D"UTF-8"??>
+<html xmlns=3D"http://www.w3.org/1999/xhtml"><head><title>Josh Shapiro for =
+Attorney General</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3DUTF-8"><meta name=3D"viewport" =
+content=3D"width=3Ddevice-width"><style type=3D"text/css">
+        @media only screen and (max-width:600px){body[yahoo=3Dfix] =
+.wrapper-inner{width:100%!important;margin:0!important;padding:0!important=
+;-webkit-text-size-adjust:none}body[yahoo=3Dfix] =
+img{max-width:100%;height:auto!important}body[yahoo=3Dfix] =
+.content{font-size:15px;padding-top:1em;padding-bottom:1em;margin:0 =
+20px}body[yahoo=3Dfix] =
+.footer{width:100%!important;padding:0!important}body[yahoo=3Dfix] .footer =
+.unsub{width:70%!important}body[yahoo=3Dfix] .footer =
+.social{width:15%!important}body[yahoo=3Dfix] .footer .social =
+a{padding:.5em;display:block}body[yahoo=3Dfix] .footer .social a =
+img{display:block;margin:0 auto}body[yahoo=3Dfix] .footer =
+p{font-size:12px!important;line-height:1.4!important;padding-left:3%}body[=
+yahoo=3Dfix] .spacer{display:none}}@media only screen and =
+(max-width:480px){table[class=3Dfooter] =
+p{padding-left:0;text-align:center}table[class=3Dfooter] =
+td{display:block!important}table[class=3Dfooter] =
+.unsub{width:100%!important}table[class=3Dfooter] =
+.gutter{display:none!important}table[class=3Dfooter] .social{width:50%!imp=
+ortant;float:left;text-align:center}table[class=3Dcontent] =
+.half-width-button{display:none!important;height:0!important;width:0!impor=
+tant}}.ExternalClass{width:100%}.ExternalClass,.ExternalClass =
+p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass =
+div{line-height:100%}p{margin:1em 0};
+    </style></head><body yahoo=3D"fix" style=3D"min-width: 100%; margin: =
+0; padding: 0; font-family: sans-serif; line-height: 1.4; font-size: 15px; =
+background: #ffffff">
+<div style=3D"max-width: 600px; margin: auto; font-family: Helvetica, =
+Arial, sans-serif; font-size: 11pt; color: #222222; padding: 5px 5px 5px =
+5px;">
+<p style=3D"text-align: center"><img =
+src=3D"https://s.bsd.net/shapiro/main/page/-/AG2016/email-logo2.png" =
+alt=3D"Josh Shapiro for Attorney General" style=3D"border: 0; width: =
+240px;"></p>
+John --<br><br>
+Yesterday, I joined five of my fellow Democratic District Attorneys from =
+across our commonwealth in endorsing Josh Shapiro for Attorney General. I =
+wanted to tell you why I'm backing Josh and why he is uniquely qualified =
+for this important office.<br><br>
+
+Attorney General is a big job. <br><br>
+
+It's about management and setting priorities across all three divisions of =
+the Office of Attorney General: Criminal, Civil and Public Protection. The =
+Attorney General is Pennsylvania's Chief Law Enforcement Officer and its =
+chief protector of consumers. Josh has shown he best understands the true =
+purpose and potential of the office. <br><br><strong><a =
+href=3D"http://act.joshshapiro.org/page/m/a988f05/6221f07f/1b4ca029/51ae6e=
+3e/2191402668/VEsH/" title=3D"http://act.JoshShapiro.org/Democratic-Distri=
+ct-Attorneys-FB?&amp;utm_medium=3Demail&amp;utm_source=3Dshapiro&amp;utm_c=
+ontent=3D1+-+Josh+has+the+experience+to+lead+set+prio&amp;utm_campaign=3De=
+m16_160318_ja_das-endorse&amp;source=3Dem16_160318_ja_das-endorse">Josh =
+has the experience to lead, set priorities, and stand up for all =
+Pennsylvanians, but he needs us to help spread the word  -- share this on =
+Facebook:</a></strong> <br><br><center>
+<a href=3D"http://act.joshshapiro.org/page/m/a988f05/6221f07f/1b4ca029/51a=
+e6e21/2191402668/VEsE/" title=3D"http://act.JoshShapiro.org/Democratic-Dis=
+trict-Attorneys-FB?&amp;utm_medium=3Demail&amp;utm_source=3Dshapiro&amp;ut=
+m_content=3D2&amp;utm_campaign=3Dem16_160318_ja_das-endorse&amp;source=3De=
+m16_160318_ja_das-endorse"><img src=3D"https://s.bsd.net/shapiro/main/page=
+/-/AG2016/Email/das-endorse-shapiro-v3.png" style=3D"max-width:550px; =
+width:98%;"></a></center><br>
+
+
+In Montgomery County, Josh leads an entity four times as large as the =
+Office of Attorney General -- and he does so with integrity. Josh stood up =
+to Republican attempts to implement a Voter ID law that would have =
+disenfranchised tens of thousands of Pennsylvanians. He led the fight for =
+marriage equality. And Josh took on the Wall Street money managers to =
+protect taxpayers and retirees. He's proven time and time again that he's =
+tough enough to take on the powerful interests. <br><br>
+
+
+
+As the Chairman of the Pennsylvania Commission on Crime and Delinquency, =
+Josh is standing up for victims and leading the effort to restore fairness =
+to our criminal justice system. Those are the same values he'll bring to =
+the Office of Attorney General.<br><br>
+
+We need an Attorney General who will work with District Attorneys across =
+Pennsylvania to go after drug traffickers and illegal guns as well as =
+frackers who pollute our water and the con artists who scam seniors and =
+consumers. That's the kind of Attorney General Josh will be. <br><br>
+
+I'm proud to join my fellow district attorneys, the largest local police =
+union in the state, and those working to reform our criminal justice =
+system in supporting Josh Shapiro for Attorney General. <br><br><strong>If =
+you're excited to be standing with Josh Shapiro, then please take a moment =
+to share this news on Facebook and Twitter.</strong><br><br><strong>Share =
+on Facebook:</strong><br><br><strong><a href=3D"http://act.joshshapiro.org=
+/page/m/a988f05/6221f07f/1b4ca029/51ae6e20/2191402668/VEsF/" =
+title=3D"http://act.JoshShapiro.org/Democratic-District-Attorneys-FB?&amp;=
+utm_medium=3Demail&amp;utm_source=3Dshapiro&amp;utm_content=3D3+-+httpactJ=
+oshShapiroorgDemocraticDistrictA&amp;utm_campaign=3Dem16_160318_ja_das-end=
+orse&amp;source=3Dem16_160318_ja_das-endorse">http://act.JoshShapiro.org/D=
+emocratic-District-Attorneys-FB</a></strong><br><br><strong>Tweet on =
+Twitter:</strong><br><br><strong><a href=3D"http://act.joshshapiro.org/pag=
+e/m/a988f05/6221f07f/1b4ca029/51ae6e23/2191402668/VEsC/" =
+title=3D"http://act.JoshShapiro.org/Democratic-District-Attorneys-TW?&amp;=
+utm_medium=3Demail&amp;utm_source=3Dshapiro&amp;utm_content=3D4+-+httpactJ=
+oshShapiroorgDemocraticDistrictA&amp;utm_campaign=3Dem16_160318_ja_das-end=
+orse&amp;source=3Dem16_160318_ja_das-endorse">http://act.JoshShapiro.org/D=
+emocratic-District-Attorneys-TW</a></strong><br><br>
+
+
+Sincerely,<br><br>
+
+John<br><br>
+
+John Adams<br>
+Berks County District Attorney<br><br><center>
+	<u><a href=3D"http://act.joshshapiro.org/page/m/a988f05/6221f07f/1b4ca029=
+/51ae6e22/2191402668/VEsD/" title=3D"https://secure.actblue.com/contribute=
+/page/josh-shapiro-march-7-deadline?refcode=3Dem16_160318_ja_das-endorse&a=
+mp;recurring=3D12&amp;utm_medium=3Demail&amp;utm_source=3Dshapiro&amp;utm_=
+content=3D5&amp;utm_campaign=3Dem16_160318_ja_das-endorse&amp;source=3Dem1=
+6_160318_ja_das-endorse"><img alt=3D"donate" =
+src=3D"https://s.bsd.net/shapiro/main/page/-/AG2016/donate.png" =
+style=3D"max-width:220px; width: 100%;"></a></u></center>
+<br><br><br><br><br><br><center><p style=3D"font-size:10pt; color: =
+#444444;"><br>Paid for by Shapiro for Pennsylvania</p><p =
+style=3D"font-size:8pt; color: #444444;">Contributions or gifts to Shapiro =
+for Pennsylvania are not tax deductible.</p></center><br><center><p =
+style=3D"font-size:8pt; color: #444444;">
+
+This email was sent to: <strong>podesta@law.georgetown.edu</strong><br>
+
+If that is not your preferred email address, you can update your =
+information <a href=3D"http://act.joshshapiro.org/page/m/a988f05/6221f07f/=
+1b4ca029/51ae6e25/2191402668/VEsA/p/eyJKU1ZGVFVGSlRDVWwiOiJwb2Rlc3RhQGxhdy=
+5nZW9yZ2V0b3duLmVkdSJ9/" style=3D"color: #555555; text-decoration: =
+underline; font-weight: normal" title=3D"http://act.JoshShapiro.org/page/s=
+/update-email?email=3Dpodesta@law.georgetown.edu&amp;utm_medium=3Demail&am=
+p;utm_source=3Dshapiro&amp;utm_content=3D6+-+here&amp;utm_campaign=3Dem16_=
+160318_ja_das-endorse&amp;source=3Dem16_160318_ja_das-endorse">here</a><br=
+>
+
+We believe that emails are an important way for the campaign to stay in =
+contact with supporters like you, but you can let us know if you'd like to =
+<a href=3D"http://act.joshshapiro.org/page/m/a988f05/6221f07f/1b4ca029/51a=
+e6e24/2191402668/VEsB/p/eyJKU1ZGVFVGSlRDVWwiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3=
+duLmVkdSJ9/" style=3D"color: #555555; text-decoration: underline; =
+font-weight: normal" title=3D"http://act.JoshShapiro.org/page/s/less-email=
+?email=3Dpodesta@law.georgetown.edu&amp;utm_medium=3Demail&amp;utm_source=
+=3Dshapiro&amp;utm_content=3D7+-+receive+fewer+emails&amp;utm_campaign=3De=
+m16_160318_ja_das-endorse&amp;source=3Dem16_160318_ja_das-endorse">receive =
+fewer emails.</a> This campaign appreciates any feedback you might have -- =
+positive or negative. <a =
+href=3D"mailto:info@JoshShapiro.org?Subject=3DFeedback" style=3D"color: =
+#555555; text-decoration: underline; font-weight: normal">Click here</a> =
+to contact the campaign with any questions, concerns, or ideas. We'd hate =
+to see you go, but but if you need to do so, click here to <a =
+href=3D"http://act.joshshapiro.org/page/m/a988f05/6221f07f/1b4ca029/51ae6e=
+27/2191402668/VEsO/p/eyJKU1ZGVFVGSlRDVWwiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duL=
+mVkdSJ9/" style=3D"color: #555555; text-decoration: underline; =
+font-weight: normal" title=3D"http://act.joshshapiro.org/unsubscribe?email=
+=3Dpodesta@law.georgetown.edu&amp;utm_medium=3Demail&amp;utm_source=3Dshap=
+iro&amp;utm_content=3D8+-+unsubscribe&amp;utm_campaign=3Dem16_160318_ja_da=
+s-endorse&amp;source=3Dem16_160318_ja_das-endorse">unsubscribe.</a></p></c=
+enter>
+</div>
+<img src=3D"http://act.joshshapiro.org/page/o/a988f05/6221f07f/1b4ca029/51=
+ae6e3f/2191402668/open.gif" width=3D"1" height=3D"1"></body></html>
+
+
+
+--b1_64de24122850aa141ddde8997cc3be8c--

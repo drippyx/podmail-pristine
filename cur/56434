@@ -1,0 +1,856 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.94 with SMTP id o91csp2243809lfi;
+        Tue, 14 Apr 2015 14:24:24 -0700 (PDT)
+X-Received: by 10.194.9.161 with SMTP id a1mr43567748wjb.39.1429046664556;
+        Tue, 14 Apr 2015 14:24:24 -0700 (PDT)
+Return-Path: <hrcrapid+bncBCZIR3NHW4GBBB4LW2UQKGQECBRP5WQ@googlegroups.com>
+Received: from mail-wi0-x240.google.com (mail-wi0-x240.google.com. [2a00:1450:400c:c05::240])
+        by mx.google.com with ESMTPS id f8si20822355wiy.57.2015.04.14.14.24.23
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Apr 2015 14:24:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of hrcrapid+bncBCZIR3NHW4GBBB4LW2UQKGQECBRP5WQ@googlegroups.com designates 2a00:1450:400c:c05::240 as permitted sender) client-ip=2a00:1450:400c:c05::240;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hrcrapid+bncBCZIR3NHW4GBBB4LW2UQKGQECBRP5WQ@googlegroups.com designates 2a00:1450:400c:c05::240 as permitted sender) smtp.mail=hrcrapid+bncBCZIR3NHW4GBBB4LW2UQKGQECBRP5WQ@googlegroups.com;
+       dkim=pass header.i=@googlegroups.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-x240.google.com with SMTP id h11sf6816891wiw.0;
+        Tue, 14 Apr 2015 14:24:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20120806;
+        h=from:mime-version:references:in-reply-to:date:message-id:subject:to
+         :cc:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe;
+        bh=giNxTQ96dZi3kzNrK6JpjJ3HcEJy6/VUILmldlN5PPU=;
+        b=P9d5HTxNnnjHSQ+qwt/VTOkIrhLPunnttyYl0eYytssklC5n1QRlR3t9BgcS1tA33q
+         37SeJSShcXomckDsp3h/Iyx0JykWSZDCnW6PXrfQbVkSOWc25NkR5IZBAXGWMcwzrOa6
+         7WYeX5NASsRcxIz1Gvd3OX7ydvTggnynZZnljN/PzJvFzWLEWML+lTmq+NI7wg+PXcUA
+         uKLmtsCiaOzPEAXPAlLo8tBDEQJPa7iVcCdSzTYMHNbuDaIH8qEgBWY2D5Hjk6u0gtUp
+         TWV0ijADY7CDMnkjtSNc0/cDqShDHFUoDgjHuGst9c6S6wBH22oA5lUCRAfBPwQz7BdS
+         zk7w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:mime-version:references:in-reply-to:date
+         :message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe;
+        bh=giNxTQ96dZi3kzNrK6JpjJ3HcEJy6/VUILmldlN5PPU=;
+        b=W+drOqGU+PguySI9xCxMQWK9PLb59Wi1rSZqPI5T1Ua7fyQZcAv4AfIEvKFXHqm/N1
+         2fAs3M+KVcDDvsBqaxiC4GTLSX5dT3S7jjdsEbDtn+WoqpA/dJthT7zwl690/GAsdvXL
+         aqLwi+bOLY+Br+IKB0/R0beRaN7+suk2Te1l4knffOsvzxFqMH8lV8DvPt7nf2L77u+P
+         DU/2LLRuRw9qkgeGwvGQdbt9QAjTN8ROEkSE7mt9/WCztcXtJ7mrdVCnz5uwit3Y1vRl
+         Jz4+h+ezIoOcPPAc2Q3wTTMiBsu6q2i+OHsIud7Zsi/p8iJNlGZVmEK5X/sjaz0HHFg1
+         PCaQ==
+X-Received: by 10.152.45.7 with SMTP id i7mr250442lam.15.1429046663507;
+        Tue, 14 Apr 2015 14:24:23 -0700 (PDT)
+X-BeenThere: hrcrapid@googlegroups.com
+Received: by 10.152.224.165 with SMTP id rd5ls102280lac.77.gmail; Tue, 14 Apr
+ 2015 14:24:22 -0700 (PDT)
+X-Received: by 10.152.184.73 with SMTP id es9mr3728274lac.4.1429046662939;
+        Tue, 14 Apr 2015 14:24:22 -0700 (PDT)
+Received: from mail-wi0-f169.google.com (mail-wi0-f169.google.com. [209.85.212.169])
+        by gmr-mx.google.com with ESMTPS id p9si531095wiz.3.2015.04.14.14.24.22
+        for <hrcrapid@googlegroups.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Apr 2015 14:24:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jpalmieri@hillaryclinton.com designates 209.85.212.169 as permitted sender) client-ip=209.85.212.169;
+Received: by wiax7 with SMTP id x7so98076700wia.0
+        for <hrcrapid@googlegroups.com>; Tue, 14 Apr 2015 14:24:22 -0700 (PDT)
+X-Gm-Message-State: ALoCoQmhFyYz2b3Ck6TgZLWG1nvQvOjmlQNIGcYpfXh2G+ETic3qsUgZNhbeXRS9nIq8e7xvnIgz
+X-Received: by 10.180.86.137 with SMTP id p9mr30515837wiz.47.1429046662744;
+ Tue, 14 Apr 2015 14:24:22 -0700 (PDT)
+From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <24f6160350d7505132ad6a4ab6a18a0b@mail.gmail.com>
+In-Reply-To: <24f6160350d7505132ad6a4ab6a18a0b@mail.gmail.com>
+Date: Tue, 14 Apr 2015 16:24:17 -0500
+Message-ID: <6030095404794307316@unknownmsgid>
+Subject: Re: DRAFT - Reviews Are In: Hillary Clinton Well Received Making Her
+ Case In Iowa
+To: Jesse Ferguson <jferguson@hillaryclinton.com>
+CC: Jesse Lehrich <jlehrich@hillaryclinton.com>, 
+ hrcrapid <hrcrapid@googlegroups.com>
+Content-Type: multipart/alternative; boundary=f46d041825beb35db90513b5da6b
+X-Original-Sender: jpalmieri@hillaryclinton.com
+X-Original-Authentication-Results: gmr-mx.google.com;       spf=pass
+ (google.com: domain of jpalmieri@hillaryclinton.com designates 209.85.212.169
+ as permitted sender) smtp.mail=jpalmieri@hillaryclinton.com;       dmarc=pass
+ (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list hrcrapid@googlegroups.com; contact hrcrapid+owners@googlegroups.com
+List-ID: <hrcrapid.googlegroups.com>
+X-Google-Group-Id: 612515467801
+List-Post: <http://groups.google.com/group/hrcrapid/post>, <mailto:hrcrapid@googlegroups.com>
+List-Help: <http://groups.google.com/support/>, <mailto:hrcrapid+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/hrcrapid
+Sender: hrcrapid@googlegroups.com
+List-Unsubscribe: <mailto:googlegroups-manage+612515467801+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/group/hrcrapid/subscribe>
+
+--f46d041825beb35db90513b5da6b
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Great. This is one we should send to press.
+
+Sent from my iPhone
+
+On Apr 14, 2015, at 3:52 PM, Jesse Ferguson <jferguson@hillaryclinton.com>
+wrote:
+
+<image002.png>
+=E2=80=8B
+
+For Immediate Release
+
+April 14, 2015
+
+Contact: press@hillaryclinton.com
+
+=E2=80=8B
+
+*Reviews Are In: Hillary Clinton Well Received Making Her Case In Iowa*
+
+
+
+Hillary Clinton hit the trail for the first time in this campaign, making
+stops in small venues across Iowa, including at a coffee shop in Le Claire
+and a community college in Monticello. The events gave her an opportunity
+to listen to the concerns of everyday Iowans, share ideas to tackle today=
+=E2=80=99s
+problems and demonstrate her commitment to earning their votes. Even Iowa
+Governor Terry Branstad (R) endorsed the campaign strategy for Iowa.
+
+
+
+In her opening remarks at the Kirkwood Community College roundtable,
+Hillary Clinton identified four fights that will be at the center of her
+campaign -- building the economy of tomorrow, strengthening families and
+communities, fixing our dysfunctional political system, and protecting
+America from threats.
+
+
+
+Below is a sampling of the overwhelmingly positive reaction to today's
+events and a transcript of those remarks:
+
+
+
+
+
+*Quad City Times
+<http://qctimes.com/news/local/government-and-politics/elections/clinton-ch=
+ooses-small-iowa-events-to-open-campaign/article_d3c34830-1581-5e23-a71d-63=
+22a59a27c7.html>:*
+
+"The visit to Monticello demonstrates to Jones County Democratic Party
+Chairwoman Arlie Willems that Clinton is serious when she says her 2016
+presidential campaign will be focused on real people and their concerns.
+
+'I think she wants to start with the grass roots, and by starting in a
+rural area, it accentuates her concerns about people who sometimes think
+they are ignored,' Willems said. [...] =E2=80=9CEvery election is different=
+. I
+happen to think that the strategy of being accessible to people and going
+all over the state is a good strategy,' [Gov. Terry Branstad] said."
+
+
+
+*Des Moines Register
+<http://www.desmoinesregister.com/story/news/2015/04/14/in-iowa-hillary-cli=
+nton-lays-out-big-vision-for-her-campaign/25776015/>:*
+
+"Democrat Hillary Clinton, at the first official event of her presidential
+campaign, spelled out the ideas that she said will be at the heart of her
+campaign. 'I want to be the champion who goes to bat for Americans in four
+big areas,' she told four students and two educators at a roundtable staged
+in an automotive technology classroom at a branch campus of Kirkwood
+Community College."
+
+
+
+*Associated Press
+<http://bigstory.ap.org/article/b2d4783a8af4404db5d555e9f500a5ab/clinton-st=
+arts-iowa-campaign-small-town-meetings>:*
+
+"Hillary Rodham Clinton began laying out her Democratic presidential
+campaign message in Iowa on Tuesday, casting herself as a 'champion' for
+struggling Americans and calling for a purging of 'unaccountable money'
+from the campaign finance system. [...] In Iowa, she outlined four tenets
+of her early campaign: improving the economy, strengthening families,
+fixing 'dysfunctional government,' and protecting national security."
+
+
+
+*Bloomberg
+<http://www.bloomberg.com/politics/articles/2015-04-14/hillary-clinton-begi=
+ns-iowa-meet-and-greet>:*
+
+"Clinton's focus as she launches her candidacy is on reaching out to voters
+in intimate settings, and the Jones Street Java House certainly was one, as
+about a half dozen people waited to speak with her. [...] "It's a pleasant
+surprise," said Jeff Williams of American Fire and Safety, a local business
+owner and husband of the cafe's co-owner, Jen Williams.
+
+
+
+*Los Angeles Times
+<http://www.latimes.com/nation/politics/politicsnow/la-pn-hillary-clinton-i=
+owa-populist-20150414-story.html>:*
+
+Clinton adopted a populist air at her first public event, which was held in
+an auto shop at Kirkwood Community College=E2=80=99s Jones County Regional =
+Center.
+She toured the facility and then sat at a table with teachers and students,
+under two vertical car lifts. [...] Clinton=E2=80=99s first appeal was deep=
+ly
+focused on Iowa =E2=80=94 besides the interstate reference, she touted the =
+college
+debt levels of the state at one point. But she also used the visit to
+remind voters of the biography of one of the world=E2=80=99s best-known wom=
+en.
+
+
+
+*CNN
+<http://www.cnn.com/2015/04/14/politics/hillary-clinton-2016-elections-iowa=
+-trip/index.html>:*
+
+"'The fact that she is coming to Monticello first, a small town in Iowa,
+she could have went to Iowa City, Cedar Rapids, Waterloo,' said Kaela
+Weber, a Monticello High School junior whole will be 18 on Election Day. 'I
+think it just means she is downhearted and just likes to care about the
+community and small town.'"
+
+
+
+*Washington Post
+<http://www.washingtonpost.com/blogs/post-politics/wp/2015/04/14/hillary-cl=
+inton-says-she-would-support-a-constitutional-amendment-on-campaign-finance=
+-reform/>:*
+
+"Hillary Rodham Clinton is calling for changes to the nation's campaign
+finance system, saying here Tuesday that she would support a constitutional
+amendment if that's what it takes to fix what she called a 'dysfunctional'
+system.
+
+Holding her first official campaign event at Kirkwood Community College in
+rural Monticello, Clinton identified campaign finance reform as one of
+several pillars of her 2016 presidential campaign."
+
+
+
+*KCCI
+<http://www.kcci.com/news/clinton-holding-first-campaign-event-in-iowa-toda=
+y/32359568>:*
+
+"She said she has four main goals: Building the economy of tomorrow,
+strengthening families and communities, fixing the political system and
+getting money out of it even if it takes a Constitutional amendment and to
+protect our country."
+
+
+
+*Ruby Cramer @rubycramer
+<https://twitter.com/rubycramer/status/588057379469688832>*
+
+This is probably as close to a genuine give-&-take as you can get in the
+presence of a few dozen reporters, TV cams, shutter clicks etc.
+
+
+
+*John Harwood, CNBC/New York Times @JohnJHarwood
+<https://twitter.com/JohnJHarwood/status/588050913870422018>*
+
+early minutes, obviously, but this is pretty good Hillary. more at ease
+that she often appears.
+
+
+
+*Iowa Starting Line, @IAStartingLine
+<https://twitter.com/IAStartingLine/status/588038522868760577>*
+
+Hillary Clinton was "very in-tune to what we all care about. It was really
+cool" - Sedlacek "Definitely an experience I will not forget"
+
+
+
+*Jennifer Jacobs, Des Moines Register @JenniferJJacobs
+<https://twitter.com/JenniferJJacobs/status/588051362958696449>*
+
+In Iowa, Hillary Clinton lays out her campaign message: Be a champion for
+economy & families, fix government, protect country from threats.
+
+
+
+*Dan Merica, CNN @danmericaCNN
+<https://twitter.com/danmericaCNN/status/588037898584383489/photo/1>*
+
+Java Joe's, the coffee shop Clinton visited in Iowa, posts photos of her
+visit.
+https://www.facebook.com/media/set/?set=3Da.775343755906725.1073741831.6688=
+43846556717&type=3D1
+ pic.twitter.com/Pm5Jx4kbcH
+
+
+
+*Ruby Cramer, BuzzFeed @rubycramer
+<https://twitter.com/rubycramer/status/588038460071669760>*
+
+Waiting for @HillaryClinton 1st event... Small & intimate in an auto tech
+lab. pic.twitter.com/TEpDUeLJpI
+
+
+
+*Katie Obradovich @KObradovich
+<https://twitter.com/KObradovich/status/588054535085674496>*
+
+.@HillaryClinton says =E2=80=9Cwe=E2=80=99ve got to rebuild that connection=
+=E2=80=9D between
+business community and higher education.  #iacaucus
+
+
+
+*Peter Nicholas, Wall Street Journal @PeterNicholas3
+<https://twitter.com/PeterNicholas3/status/588048863627358208>*
+
+And we're off!  Hillary Clinton arrives for her first 2016 campaign stop,
+at community college in rural Iowa. pic.twitter.com/95uVOyKipC
+
+
+
+*Iowa Starting Line @IAStartingLine
+<https://twitter.com/IAStartingLine/status/588025989176885250>*
+
+GOP student at Kirkwood says Clinton's visit "gives her the edge that she
+cares about the future generation" #IACaucus
+
+
+
+*David Chalian, CNN @DavidChalian
+<https://twitter.com/DavidChalian/status/588050518490140672>*
+
+.@HillaryClinton cites three major influences on her desire to run and
+fight for families: Her mother, her father, and her church.
+
+
+
+*Luke Russert, NBC @LukeRussert
+<https://twitter.com/LukeRussert/status/588050912922439680>*
+
+HRC's 4 points--more robust economy, strengthen families, fix political
+system--get money out, protect our country
+
+
+
+--
+
+
+
+*Transcript Of Hillary Clinton Remarks At Kirkwood Community College:*
+
+HILLARY CLINTON: I just want to tell you a little bit about why I=E2=80=99m=
+ here
+today. I think we all know that Americans have come back from some pretty
+tough economic times. And, our economy and our country are much better off
+because American families have basically done whatever it took to make it
+work. But, I think it=E2=80=99s fair to say that as you look across the cou=
+ntry,
+the deck is still stacked in favor of those already at the top. And,
+there=E2=80=99s something wrong with that.
+
+There=E2=80=99s something wrong when CEOs make 300 times more than the typi=
+cal
+worker. There=E2=80=99s something wrong when American workers keep getting =
+more
+productive, as they have, and as I just saw a few minutes ago is very
+possible because of education and skills training, but that productivity is
+not matched in their paychecks.
+
+And there=E2=80=99s something wrong when hedge fund managers pay lower tax =
+rates
+than nurses or the truckers that I saw on I-80 as I was driving here over
+the last two days. And there=E2=80=99s something wrong when students and th=
+eir
+families have to go deeply into debt to be able to get the education and
+skills they need in order to make the best of their own lives. And I looked
+at the figures. The average Iowa graduate, from a four-year college, comes
+out with nearly $30,000 in debt and that=E2=80=99s I think the ninth highes=
+t debt
+load in the country and people are struggling. I met earlier today with a
+young student who is piecing together work and loans, knowing full well
+he=E2=80=99s going to come out owing a lot of money.
+
+So, we=E2=80=99ve got to figure out in our country how to get back on the r=
+ight
+track and I=E2=80=99m running for president because I think that Americans =
+and
+their families need a champion =E2=80=93 and I want to be that champion. I =
+want to
+stand up and fight for people so that they can not just get by, but they
+can get ahead, and they can stay ahead. And a lot of people in the last few
+days have asked me, =E2=80=9CWell, you know, why do you want do this? What
+motivates you?=E2=80=9D And I=E2=80=99ve thought a lot about it and I guess=
+ the short
+answer is: I=E2=80=99ve been fighting for children and families my entire a=
+dult
+life, probably because of my mother=E2=80=99s example.
+
+She had a really difficult childhood =E2=80=93 was mistreated, neglected, b=
+ut she
+never gave up. She had to basically be on her own at the time she was
+fourteen and she just kept going. And my father who was a small businessman
+and just believed that you had to work hard to make your way and do
+whatever you had to do to be successful and provided a good living for our
+family. And then I was thinking too about, you know, the lessons I learned
+from my church. You know, you=E2=80=99re supposed to give back. You=E2=80=
+=99re supposed to
+do what you can to help others and that=E2=80=99s what I=E2=80=99ve tried t=
+o do and we=E2=80=99ll
+have more time to talk about that as we go forward.
+
+When I got out of law school I worked for the Children=E2=80=99s Defense Fu=
+nd and
+one of the projects there was literally going door-to-door. This was back
+in the =E2=80=9870=E2=80=99s when kids with disabilities were basically shu=
+t out of our
+schools, and thanks to your great former Senator, Tom Harkin, that=E2=80=99=
+s no
+longer the case. But I was knocking on doors saying, =E2=80=9Cis there anyb=
+ody
+school-aged not in school?=E2=80=9D And finding blind kids and deaf kids an=
+d kids
+in wheelchairs who were just left out and I was able in Arkansas to work to
+try and improve education there and give more kids chances who really
+deserved them. And then as First Lady to fight for healthcare reform and
+keep fighting until we got health care insurance for kids. And then as
+Senator, dealing with the problems that faced New York after 9/11 and
+trying to help people get whatever they needed - the victims=E2=80=99 famil=
+ies, the
+first responders. It was an incredible honor to do that. And then, as
+Secretary of State, standing up for our country.
+
+So when I look at where we are as a country, I am just so absolutely
+convinced that there isn=E2=80=99t anybody, anywhere, who can outcompete us=
+ =E2=80=93 who
+has better values, who can do more to provide more people the chance to
+live up to their own God given potential. But we can=E2=80=99t take that fo=
+r
+granted, and so I want to be the champion who goes to bat for Americans in
+four big areas =E2=80=93 four big fights =E2=80=93 that I think we have to =
+take on because
+there are those don=E2=80=99t agree with what I think we should be doing, a=
+nd
+they=E2=80=99re pretty powerful forces.
+
+We need to build the economy of tomorrow, not yesterday. We need to
+strengthen families and communities, because that=E2=80=99s where it all st=
+arts. We
+need to fix our dysfunctional political system and get unaccountable money
+out of it once and for all, even if that takes a constitutional amendment.
+And we need to protect our country from the threats that we see, and the
+ones that are on the horizon.
+
+So, I=E2=80=99m here in Iowa to begin a conversation about how we do that a=
+nd to
+hear from people about what=E2=80=99s on your minds =E2=80=93 what the chal=
+lenges that you
+see are. And I=E2=80=99m going to work hard to meet as many people. I=E2=80=
+=99ll be rolling
+out ideas and policies about what I think will work. But, I want it to be
+informed by what=E2=80=99s actually working, and to build on what works goi=
+ng
+forward. And to stand up against those who have a different vision of our
+country. A different one than I grew up with, and a different one than what
+I think is best for everybody.
+
+So, with that, what I=E2=80=99d love to do is just, you know, ask a few que=
+stions
+and hear from folks about what their experiences have been and, you know,
+try to learn what you think would be ways of helping more young people get
+the kind of education they need without having the personal bank be broken
+and put you and your family at financial risk.
+
+
+
+#####
+
+
+
+--=20
+You received this message because you are subscribed to the Google Groups
+"HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an
+email to hrcrapid+unsubscribe@googlegroups.com.
+To post to this group, send email to hrcrapid@googlegroups.com.
+To view this discussion on the web visit
+https://groups.google.com/d/msgid/hrcrapid/24f6160350d7505132ad6a4ab6a18a0b=
+%40mail.gmail.com
+<https://groups.google.com/d/msgid/hrcrapid/24f6160350d7505132ad6a4ab6a18a0=
+b%40mail.gmail.com?utm_medium=3Demail&utm_source=3Dfooter>
+.
+For more options, visit https://groups.google.com/d/optout.
+
+--=20
+You received this message because you are subscribed to the Google Groups "=
+HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to hrcrapid+unsubscribe@googlegroups.com.
+To post to this group, send email to hrcrapid@googlegroups.com.
+To view this discussion on the web visit https://groups.google.com/d/msgid/=
+hrcrapid/6030095404794307316%40unknownmsgid.
+For more options, visit https://groups.google.com/d/optout.
+
+--f46d041825beb35db90513b5da6b
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=
+=3Dutf-8"></head><body dir=3D"auto"><div>Great. This is one we should send =
+to press.</div><div><br>Sent from my iPhone</div><div><br>On Apr 14, 2015, =
+at 3:52 PM, Jesse Ferguson &lt;<a href=3D"mailto:jferguson@hillaryclinton.c=
+om">jferguson@hillaryclinton.com</a>&gt; wrote:<br><br></div><blockquote ty=
+pe=3D"cite"><div><meta http-equiv=3D"Content-Type" content=3D"text/html; ch=
+arset=3Dutf-8"><meta name=3D"Generator" content=3D"Microsoft Word 15 (filte=
+red medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><div class=3D"WordSection1"><div><div><p class=3D"MsoNormal" ali=
+gn=3D"center" style=3D"text-align:center">&lt;image002.png&gt;<br>=E2=80=8B=
+</p><div><p class=3D"MsoNormal">For Immediate Release</p></div><div><p clas=
+s=3D"MsoNormal">April 14, 2015</p></div><div><p class=3D"MsoNormal">Contact=
+:=C2=A0<a href=3D"mailto:press@hillaryclinton.com" target=3D"_blank">press@=
+hillaryclinton.com</a></p></div><div><p class=3D"MsoNormal">=E2=80=8B</p></=
+div><div><p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center=
+"><b><span style=3D"font-size:16.0pt;color:black">Reviews Are In: Hillary C=
+linton Well Received Making Her Case In Iowa</span></b><span style=3D"font-=
+size:16.0pt"></span></p></div><div><p class=3D"MsoNormal" align=3D"center" =
+style=3D"text-align:center">=C2=A0</p></div><div><p class=3D"MsoNormal">Hil=
+lary Clinton hit the trail for the first time in this campaign, making stop=
+s in small venues across Iowa, including at a coffee shop in Le Claire and =
+a community college in Monticello. The events gave her an opportunity to li=
+sten to the concerns of everyday Iowans, share ideas to tackle today=E2=80=
+=99s problems and demonstrate her commitment to earning their votes. Even I=
+owa Governor Terry Branstad (R) endorsed the campaign strategy for Iowa.</p=
+></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNorm=
+al">In her opening remarks at the Kirkwood Community College roundtable, Hi=
+llary Clinton identified four fights that will be at the center of her camp=
+aign -- building the economy of tomorrow, strengthening families and commun=
+ities, fixing our dysfunctional political system, and protecting America fr=
+om threats.</p></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p cl=
+ass=3D"MsoNormal">Below is a sampling of the overwhelmingly positive reacti=
+on to today&#39;s events and a transcript of those remarks:</p></div><div><=
+p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal">=C2=A0</p=
+></div><div><p class=3D"MsoNormal"><b><span style=3D"color:black"><a href=
+=3D"http://qctimes.com/news/local/government-and-politics/elections/clinton=
+-chooses-small-iowa-events-to-open-campaign/article_d3c34830-1581-5e23-a71d=
+-6322a59a27c7.html" target=3D"_blank">Quad City Times</a>:</span></b></p></=
+div><div><p class=3D"MsoNormal"><span style=3D"color:black">&quot;The visit=
+ to Monticello demonstrates to Jones County Democratic Party Chairwoman Arl=
+ie Willems that Clinton is serious when she says her 2016 presidential camp=
+aign will be focused on real people and their concerns.</span></p></div><di=
+v><p class=3D"MsoNormal"><span style=3D"color:black">&#39;I think she wants=
+ to start with the grass roots, and by starting in a rural area, it accentu=
+ates her concerns about people who sometimes think they are ignored,&#39; W=
+illems said. [...] =E2=80=9CEvery election is different. I happen to think =
+that the strategy of being accessible to people and going all over the stat=
+e is a good strategy,&#39; [Gov. Terry Branstad] said.&quot;</span></p></di=
+v><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal"><=
+b><span style=3D"color:black"><a href=3D"http://www.desmoinesregister.com/s=
+tory/news/2015/04/14/in-iowa-hillary-clinton-lays-out-big-vision-for-her-ca=
+mpaign/25776015/" target=3D"_blank">Des Moines Register</a>:</span></b></p>=
+</div><div><p class=3D"MsoNormal"><span style=3D"color:black">&quot;Democra=
+t Hillary Clinton, at the first official event of her presidential campaign=
+, spelled out the ideas that she said will be at the heart of her campaign.=
+ &#39;I want to be the champion who goes to bat for Americans in four big a=
+reas,&#39; she told four students and two educators at a roundtable staged =
+in an automotive technology classroom at a branch campus of Kirkwood Commun=
+ity College.&quot;</span></p></div><div><p class=3D"MsoNormal">=C2=A0</p></=
+div><div><p class=3D"MsoNormal"><b><span style=3D"color:black"><a href=3D"h=
+ttp://bigstory.ap.org/article/b2d4783a8af4404db5d555e9f500a5ab/clinton-star=
+ts-iowa-campaign-small-town-meetings" target=3D"_blank">Associated Press</a=
+>:</span></b></p></div><div><p class=3D"MsoNormal"><span style=3D"color:bla=
+ck">&quot;Hillary Rodham Clinton began laying out her Democratic presidenti=
+al campaign message in Iowa on Tuesday, casting herself as a &#39;champion&=
+#39; for struggling Americans and calling for a purging of &#39;unaccountab=
+le money&#39; from the campaign finance system. [...] I</span>n Iowa, she o=
+utlined four tenets of her early campaign: improving the economy, strengthe=
+ning families, fixing &#39;dysfunctional government,&#39; and protecting na=
+tional security.&quot;</p></div><div><p class=3D"MsoNormal">=C2=A0</p></div=
+><div><div><p class=3D"MsoNormal"><b><a href=3D"http://www.bloomberg.com/po=
+litics/articles/2015-04-14/hillary-clinton-begins-iowa-meet-and-greet" targ=
+et=3D"_blank">Bloomberg</a>:</b></p></div><div><p class=3D"MsoNormal">&quot=
+;Clinton&#39;s focus as she launches her candidacy is on reaching out to vo=
+ters in intimate settings, and the Jones Street Java House certainly was on=
+e, as about a half dozen people waited to speak with her. [...]=C2=A0<span =
+style=3D"color:black">&quot;It&#39;s a pleasant surprise,&quot; said Jeff W=
+illiams of American Fire and Safety, a local business owner and husband of =
+the cafe&#39;s co-owner, Jen Williams.</span></p></div><div><p class=3D"Mso=
+Normal">=C2=A0</p></div><div><p class=3D"MsoNormal"><b><span style=3D"color=
+:black"><a href=3D"http://www.latimes.com/nation/politics/politicsnow/la-pn=
+-hillary-clinton-iowa-populist-20150414-story.html" target=3D"_blank">Los A=
+ngeles Times</a>:</span></b></p></div><div><p class=3D"MsoNormal"><span sty=
+le=3D"color:black">Clinton adopted a populist air at her first public event=
+, which was held in an auto shop at Kirkwood Community College=E2=80=99s Jo=
+nes County Regional Center. She toured the facility and then sat at a table=
+ with teachers and students, under two vertical car lifts. [...] </span>Cli=
+nton=E2=80=99s first appeal was deeply focused on Iowa =E2=80=94 besides th=
+e interstate reference, she touted the college debt levels of the state at =
+one point. But she also used the visit to remind voters of the biography of=
+ one of the world=E2=80=99s best-known women.</p></div><div><p class=3D"Mso=
+Normal">=C2=A0</p></div><div><p class=3D"MsoNormal"><b><span style=3D"color=
+:black"><a href=3D"http://www.cnn.com/2015/04/14/politics/hillary-clinton-2=
+016-elections-iowa-trip/index.html" target=3D"_blank">CNN</a>:</span></b></=
+p></div><div><p class=3D"MsoNormal">&quot;&#39;The fact that she is coming =
+to Monticello first, a small town in Iowa, she could have went to Iowa City=
+, Cedar Rapids, Waterloo,&#39; said Kaela Weber, a Monticello High School j=
+unior whole will be 18 on Election Day. &#39;I think it just means she is d=
+ownhearted and just likes to care about the community and small town.&#39;&=
+quot;</p></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D=
+"MsoNormal"><b><a href=3D"http://www.washingtonpost.com/blogs/post-politics=
+/wp/2015/04/14/hillary-clinton-says-she-would-support-a-constitutional-amen=
+dment-on-campaign-finance-reform/" target=3D"_blank">Washington Post</a>:</=
+b></p></div><div><div><p class=3D"MsoNormal">&quot;Hillary Rodham Clinton i=
+s calling for changes to the nation&#39;s campaign finance system, saying h=
+ere Tuesday that she would support a constitutional amendment if that&#39;s=
+ what it takes to fix what she called a &#39;dysfunctional&#39; system.</p>=
+</div><div><p class=3D"MsoNormal">Holding her first official campaign event=
+ at Kirkwood Community College in rural Monticello, Clinton identified camp=
+aign finance reform as one of several pillars of her 2016 presidential camp=
+aign.&quot;</p></div></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div=
+><p class=3D"MsoNormal"><b><a href=3D"http://www.kcci.com/news/clinton-hold=
+ing-first-campaign-event-in-iowa-today/32359568" target=3D"_blank">KCCI</a>=
+:</b></p></div><div><p class=3D"MsoNormal">&quot;She said she has four main=
+ goals: Building the economy of tomorrow, strengthening families and commun=
+ities, fixing the political system and getting money out of it even if it t=
+akes a Constitutional amendment and to protect our country.&quot;</p></div>=
+</div><div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><div><p class=
+=3D"MsoNormal"><b>Ruby Cramer=C2=A0<a href=3D"https://twitter.com/rubycrame=
+r/status/588057379469688832" target=3D"_blank">@rubycramer</a></b></p></div=
+><div><p class=3D"MsoNormal">This is probably as close to a genuine give-&a=
+mp;-take as you can get in the presence of a few dozen reporters, TV cams, =
+shutter clicks etc.</p></div></div><div><p class=3D"MsoNormal">=C2=A0</p></=
+div><div><div><p class=3D"MsoNormal"><b>John Harwood, CNBC/New York Times=
+=C2=A0<a href=3D"https://twitter.com/JohnJHarwood/status/588050913870422018=
+" target=3D"_blank">@JohnJHarwood</a></b></p></div><div><p class=3D"MsoNorm=
+al">early minutes, obviously, but this is pretty good Hillary. more at ease=
+ that she often appears.</p></div></div><div><p class=3D"MsoNormal">=C2=A0<=
+/p></div><div><div><p class=3D"MsoNormal"><b>Iowa Starting Line,=C2=A0<a hr=
+ef=3D"https://twitter.com/IAStartingLine/status/588038522868760577" target=
+=3D"_blank">@IAStartingLine</a></b></p></div><div><p class=3D"MsoNormal">Hi=
+llary Clinton was &quot;very in-tune to what we all care about. It was real=
+ly cool&quot; - Sedlacek &quot;Definitely an experience I will not forget&q=
+uot;</p></div></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p cla=
+ss=3D"MsoNormal"><b>Jennifer Jacobs, Des Moines Register=C2=A0<a href=3D"ht=
+tps://twitter.com/JenniferJJacobs/status/588051362958696449" target=3D"_bla=
+nk">@JenniferJJacobs</a></b></p></div><div><p class=3D"MsoNormal">In Iowa, =
+Hillary Clinton lays out her campaign message: Be a champion for economy &a=
+mp; families, fix government, protect country from threats.</p></div><div><=
+p class=3D"MsoNormal">=C2=A0</p></div><div><div><p class=3D"MsoNormal"><b>D=
+an Merica, CNN=C2=A0<a href=3D"https://twitter.com/danmericaCNN/status/5880=
+37898584383489/photo/1" target=3D"_blank">@danmericaCNN</a></b></p></div><d=
+iv><p class=3D"MsoNormal">Java Joe&#39;s, the coffee shop Clinton visited i=
+n Iowa, posts photos of her visit.=C2=A0<a href=3D"https://www.facebook.com=
+/media/set/?set=3Da.775343755906725.1073741831.668843846556717&amp;type=3D1=
+" target=3D"_blank">https://www.facebook.com/media/set/?set=3Da.77534375590=
+6725.1073741831.668843846556717&amp;type=3D1</a>=C2=A0<a href=3D"http://pic=
+.twitter.com/Pm5Jx4kbcH" target=3D"_blank">pic.twitter.com/Pm5Jx4kbcH</a></=
+p></div></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"=
+MsoNormal"><b>Ruby Cramer, BuzzFeed=C2=A0<a href=3D"https://twitter.com/rub=
+ycramer/status/588038460071669760" target=3D"_blank">@rubycramer</a></b></p=
+></div><div><p class=3D"MsoNormal">Waiting for @HillaryClinton 1st event...=
+ Small &amp; intimate in an auto tech lab.=C2=A0<a href=3D"http://pic.twitt=
+er.com/TEpDUeLJpI" target=3D"_blank">pic.twitter.com/TEpDUeLJpI</a></p></di=
+v><div><p class=3D"MsoNormal">=C2=A0</p></div><div><div><p class=3D"MsoNorm=
+al"><b>Katie Obradovich=C2=A0<a href=3D"https://twitter.com/KObradovich/sta=
+tus/588054535085674496" target=3D"_blank">@KObradovich</a></b></p></div><di=
+v><p class=3D"MsoNormal"><a href=3D"mailto:.@HillaryClinton">.@HillaryClint=
+on</a> says =E2=80=9Cwe=E2=80=99ve got to rebuild that connection=E2=80=9D =
+between business community and higher education. =C2=A0#iacaucus</p></div><=
+/div><div><p class=3D"MsoNormal">=C2=A0</p></div></div><div><div><p class=
+=3D"MsoNormal"><b>Peter Nicholas, Wall Street Journal=C2=A0<a href=3D"https=
+://twitter.com/PeterNicholas3/status/588048863627358208" target=3D"_blank">=
+@PeterNicholas3</a></b></p></div><div><p class=3D"MsoNormal">And we&#39;re =
+off!=C2=A0 Hillary Clinton arrives for her first 2016 campaign stop, at com=
+munity college in rural Iowa.=C2=A0<a href=3D"http://pic.twitter.com/95uVOy=
+KipC" target=3D"_blank">pic.twitter.com/95uVOyKipC</a></p></div></div><div>=
+<p class=3D"MsoNormal">=C2=A0</p></div><div><div><p class=3D"MsoNormal"><b>=
+Iowa Starting Line=C2=A0<a href=3D"https://twitter.com/IAStartingLine/statu=
+s/588025989176885250" target=3D"_blank">@IAStartingLine</a></b></p></div><d=
+iv><p class=3D"MsoNormal">GOP student at Kirkwood says Clinton&#39;s visit =
+&quot;gives her the edge that she cares about the future generation&quot; #=
+IACaucus</p></div></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><d=
+iv><div><p class=3D"MsoNormal"><b>David Chalian, CNN=C2=A0<a href=3D"https:=
+//twitter.com/DavidChalian/status/588050518490140672" target=3D"_blank">@Da=
+vidChalian</a></b></p></div><div><p class=3D"MsoNormal"><a href=3D"mailto:.=
+@HillaryClinton">.@HillaryClinton</a> cites three major influences on her d=
+esire to run and fight for families: Her mother, her father, and her church=
+.</p></div></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><div><p c=
+lass=3D"MsoNormal"><b>Luke Russert, NBC=C2=A0<a href=3D"https://twitter.com=
+/LukeRussert/status/588050912922439680" target=3D"_blank">@LukeRussert</a><=
+/b></p></div><div><p class=3D"MsoNormal">HRC&#39;s 4 points--more robust ec=
+onomy, strengthen families, fix political system--get money out, protect ou=
+r country</p></div><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p clas=
+s=3D"MsoNormal">--</p></div><div><p class=3D"MsoNormal">=C2=A0</p></div><di=
+v><p class=3D"MsoNormal"><b>Transcript Of Hillary Clinton Remarks At Kirkwo=
+od Community College:</b></p></div><div><p class=3D"MsoNormal" style><span =
+style=3D"color:#1a1a1a">HILLARY CLINTON: I just want to tell you a little b=
+it about why I=E2=80=99m here today. I think we all know that Americans hav=
+e come back from some pretty tough economic times. And, our economy and our=
+ country are much better off because American families have basically done =
+whatever it took to make it work. But, I think it=E2=80=99s fair to say tha=
+t as you look across the country, the deck is still stacked in favor of tho=
+se already at the top. And, there=E2=80=99s something wrong with that.</spa=
+n></p><p class=3D"MsoNormal" style><span style=3D"color:#1a1a1a">There=E2=
+=80=99s something wrong when CEOs make 300 times more than the typical work=
+er. There=E2=80=99s something wrong when American workers keep getting more=
+ productive, as they have, and as I just saw a few minutes ago is very poss=
+ible because of education and skills training, but that productivity is not=
+ matched in their paychecks.</span></p><p class=3D"MsoNormal" style><span s=
+tyle=3D"color:#1a1a1a">And there=E2=80=99s something wrong when hedge fund =
+managers pay lower tax rates than nurses or the truckers that I saw on I-80=
+ as I was driving here over the last two days. And there=E2=80=99s somethin=
+g wrong when students and their families have to go deeply into debt to be =
+able to get the education and skills they need in order to make the best of=
+ their own lives. And I looked at the figures. The average Iowa graduate, f=
+rom a four-year college, comes out with nearly $30,000 in debt and that=E2=
+=80=99s I think the ninth highest debt load in the country and people are s=
+truggling. I met earlier today with a young student who is piecing together=
+ work and loans, knowing full well he=E2=80=99s going to come out owing a l=
+ot of money.</span></p><p class=3D"MsoNormal" style><span style=3D"color:#1=
+a1a1a">So, we=E2=80=99ve got to figure out in our country how to get back o=
+n the right track and I=E2=80=99m running for president because I think tha=
+t Americans and their families need a champion =E2=80=93 and I want to be t=
+hat champion. I want to stand up and fight for people so that they can not =
+just get by, but they can get ahead, and they can stay ahead. And a lot of =
+people in the last few days have asked me, =E2=80=9CWell, you know, why do =
+you want do this? What motivates you?=E2=80=9D And I=E2=80=99ve thought a l=
+ot about it and I guess the short answer is: I=E2=80=99ve been fighting for=
+ children and families my entire adult life, probably because of my mother=
+=E2=80=99s example.</span></p><p class=3D"MsoNormal" style><span style=3D"c=
+olor:#1a1a1a">She had a really difficult childhood =E2=80=93 was mistreated=
+, neglected, but she never gave up. She had to basically be on her own at t=
+he time she was fourteen and she just kept going. And my father who was a s=
+mall businessman and just believed that you had to work hard to make your w=
+ay and do whatever you had to do to be successful and provided a good livin=
+g for our family. And then I was thinking too about, you know, the lessons =
+I learned from my church. You know, you=E2=80=99re supposed to give back. Y=
+ou=E2=80=99re supposed to do what you can to help others and that=E2=80=99s=
+ what I=E2=80=99ve tried to do and we=E2=80=99ll have more time to talk abo=
+ut that as we go forward.</span></p><p class=3D"MsoNormal" style><span styl=
+e=3D"color:#1a1a1a">When I got out of law school I worked for the Children=
+=E2=80=99s Defense Fund and one of the projects there was literally going d=
+oor-to-door. This was back in the =E2=80=9870=E2=80=99s when kids with disa=
+bilities were basically shut out of our schools, and thanks to your great f=
+ormer Senator, Tom Harkin, that=E2=80=99s no longer the case. But I was kno=
+cking on doors saying, =E2=80=9Cis there anybody school-aged not in school?=
+=E2=80=9D And finding blind kids and deaf kids and kids in wheelchairs who =
+were just left out and I was able in Arkansas to work to try and improve ed=
+ucation there and give more kids chances who really deserved them. And then=
+ as First Lady to fight for healthcare reform and keep fighting until we go=
+t health care insurance for kids. And then as Senator, dealing with the pro=
+blems that faced New York after 9/11 and trying to help people get whatever=
+ they needed - the victims=E2=80=99 families, the first responders. It was =
+an incredible honor to do that. And then, as Secretary of State, standing u=
+p for our country.</span></p><p class=3D"MsoNormal" style><span style=3D"co=
+lor:#1a1a1a">So when I look at where we are as a country, I am just so abso=
+lutely convinced that there isn=E2=80=99t anybody, anywhere, who can outcom=
+pete us =E2=80=93 who has better values, who can do more to provide more pe=
+ople the chance to live up to their own God given potential. But we can=E2=
+=80=99t take that for granted, and so I want to be the champion who goes to=
+ bat for Americans in four big areas =E2=80=93 four big fights =E2=80=93 th=
+at I think we have to take on because there are those don=E2=80=99t agree w=
+ith what I think we should be doing, and they=E2=80=99re pretty powerful fo=
+rces.</span></p><p class=3D"MsoNormal" style><span style=3D"color:#1a1a1a">=
+We need to build the economy of=C2=A0tomorrow, not yesterday. We need to st=
+rengthen families and communities, because that=E2=80=99s where it all star=
+ts. We need to fix our dysfunctional political system and get unaccountable=
+ money out of it once and for all, even if that takes a constitutional amen=
+dment. And we need to protect our country from the threats that we see, and=
+ the ones that are on the horizon.</span></p><p class=3D"MsoNormal" style><=
+span style=3D"color:#1a1a1a">So, I=E2=80=99m here in Iowa to begin a conver=
+sation about how we do that and to hear from people about what=E2=80=99s on=
+ your minds =E2=80=93 what the challenges that you see are. And I=E2=80=99m=
+ going to work hard to meet as many people. I=E2=80=99ll be rolling out ide=
+as and policies about what I think will work. But, I want it to be informed=
+ by what=E2=80=99s actually working, and to build on what works going forwa=
+rd. And to stand up against those who have a different vision of our countr=
+y. A different one than I grew up with, and a different one than what I thi=
+nk is best for everybody.</span></p><p class=3D"MsoNormal" style><span styl=
+e=3D"color:#1a1a1a">So, with that, what I=E2=80=99d love to do is just, you=
+ know, ask a few questions and hear from folks about what their experiences=
+ have been and, you know, try to learn what you think would be ways of help=
+ing more young people get the kind of education they need without having th=
+e personal bank be broken and put you and your family at financial risk.</s=
+pan></p><p class=3D"MsoNormal" style>=C2=A0</p><p class=3D"MsoNormal" align=
+=3D"center" style=3D"text-align:center"><span style=3D"color:#1a1a1a">#####=
+</span></p></div></div></div></div></div><div><div><div><div><p class=3D"Ms=
+oNormal">=C2=A0</p></div></div></div></div></div>
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com">hrcrapid+u=
+nsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com">hrcrapid@googlegroups.com</a>.<br>
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/24f6160350d7505132ad6a4ab6a18a0b%40mail.gmail.com?utm_m=
+edium=3Demail&amp;utm_source=3Dfooter">https://groups.google.com/d/msgid/hr=
+crapid/24f6160350d7505132ad6a4ab6a18a0b%40mail.gmail.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br>
+</div></blockquote></body></html>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com">hrcrapid+u=
+nsubscribe@googlegroups.com</a>.<br />
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com">hrcrapid@googlegroups.com</a>.<br />
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/6030095404794307316%40unknownmsgid?utm_medium=3Demail&u=
+tm_source=3Dfooter">https://groups.google.com/d/msgid/hrcrapid/603009540479=
+4307316%40unknownmsgid</a>.<br />
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br />
+
+--f46d041825beb35db90513b5da6b--

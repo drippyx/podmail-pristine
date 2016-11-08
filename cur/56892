@@ -1,0 +1,2156 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp905323lfb;
+        Tue, 15 Mar 2016 16:42:24 -0700 (PDT)
+X-Received: by 10.98.9.219 with SMTP id 88mr1225843pfj.0.1458085344487;
+        Tue, 15 Mar 2016 16:42:24 -0700 (PDT)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1on0642.outbound.protection.outlook.com. [2a01:111:f400:fc10::642])
+        by mx.google.com with ESMTPS id fd9si804080pad.134.2016.03.15.16.42.23
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 15 Mar 2016 16:42:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 2a01:111:f400:fc10::642 as permitted sender) client-ip=2a01:111:f400:fc10::642;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 2a01:111:f400:fc10::642 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=pass header.i=@gulaw.onmicrosoft.com;
+       dkim=fail header.i=@mail.salsalabs.net
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gulaw.onmicrosoft.com;
+ s=selector1-law-georgetown-edu;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=Po1L6AxF2XrPg+nj7GWGCU5VlnBhEegmk43CXlvqOns=;
+ b=vUtuECa4iQGndTYYKmjojR5MHrJP/xIlB8qf9sj2YM2zKHW7kMJFZ5CGXkbv5C91YdGGckvdEWknSrRcnN6kE5ooo1ak6i4dkyQHUAKb8mD/Vpv55fJ9yE80o/YWel2qoTH/iWjJ8E6LEo0NuMUz11zWc6mo21K31CryDLPCU+Q=
+Received: from BN1PR07CA0070.namprd07.prod.outlook.com (10.255.193.45) by
+ SN1PR0701MB1790.namprd07.prod.outlook.com (10.162.100.144) with Microsoft
+ SMTP Server (TLS) id 15.1.434.16; Tue, 15 Mar 2016 23:42:19 +0000
+Received: from BY2FFO11FD017.protection.gbl (2a01:111:f400:7c0c::151) by
+ BN1PR07CA0070.outlook.office365.com (2a01:111:e400:45::45) with Microsoft
+ SMTP Server (TLS) id 15.1.434.16 via Frontend Transport; Tue, 15 Mar 2016
+ 23:42:19 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=Law.Georgetown.Edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=mail.salsalabs.net;gmail.com; dmarc=none action=none
+ header.from=tikkun.org;
+Received-SPF: Fail (protection.outlook.com: domain of Law.Georgetown.Edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BY2FFO11FD017.mail.protection.outlook.com (10.1.14.105) with Microsoft SMTP
+ Server (TLS) id 15.1.434.11 via Frontend Transport; Tue, 15 Mar 2016 23:42:18
+ +0000
+Resent-From: <Podesta@Law.Georgetown.Edu>
+Received: from na01-bl2-obe.outbound.protection.outlook.com (141.161.191.13)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.279.2; Tue, 15 Mar 2016 19:40:15 -0400
+Received: from BY2PR07CA073.namprd07.prod.outlook.com (10.141.251.48) by
+ CY1PR0701MB1788.namprd07.prod.outlook.com (10.163.42.146) with Microsoft SMTP
+ Server (TLS) id 15.1.434.16; Tue, 15 Mar 2016 23:40:08 +0000
+Received: from BL2FFO11FD050.protection.gbl (2a01:111:f400:7c09::154) by
+ BY2PR07CA073.outlook.office365.com (2a01:111:e400:2c61::48) with Microsoft
+ SMTP Server (TLS) id 15.1.434.16 via Frontend Transport; Tue, 15 Mar 2016
+ 23:40:08 +0000
+Authentication-Results: spf=pass (sender IP is 69.174.83.188)
+ smtp.mailfrom=bounces.salsalabs.net; Law.Georgetown.Edu; dkim=pass (signature
+ was verified) header.d=mail.salsalabs.net;Law.Georgetown.Edu; dmarc=none
+ action=none header.from=tikkun.org;
+Received-SPF: Pass (protection.outlook.com: domain of bounces.salsalabs.net
+ designates 69.174.83.188 as permitted sender)
+ receiver=protection.outlook.com; client-ip=69.174.83.188;
+ helo=m188.salsalabs.net;
+Received: from m188.salsalabs.net (69.174.83.188) by
+ BL2FFO11FD050.mail.protection.outlook.com (10.173.161.212) with Microsoft
+ SMTP Server (TLS) id 15.1.434.11 via Frontend Transport; Tue, 15 Mar 2016
+ 23:40:07 +0000
+Return-Path: Podesta@Law.Georgetown.Edu
+DKIM-Signature: v=1; a=rsa-sha1; d=mail.salsalabs.net; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; i=@mail.salsalabs.net; t=1458085207;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=aKYO4WrvsdAHvc/9YRWfuMf1i54=;
+	b=TaftX5Y0QrWc2ulkZ3uoSC1t9fmYgLUn968iWlz5WM4PM/d0SxSc2pC/DqSTmmLz
+	IeOfo9kucNrr9+uMUkFDlizE6EKzWKGBWRpgZs8PoKzuEtHn85/YWRZDZ4Djcjsm
+	1mB5C5zLezmAs3aUiyoUvmrbWeJrAkerzKrFy/+qW1c=;
+Received: from [10.174.83.206] ([10.174.83.206:35563] helo=10.174.83.206)	by
+ mailer2.salsalabs.net (envelope-from
+ <3522304968-1340731-org-orgDB@bounces.salsalabs.net>)	(ecelerity 3.5.10.45038
+ r(Core:3.5.10.0)) with ESMTP	id B2/B2-08628-65D98E65; Tue, 15 Mar 2016
+ 19:40:06 -0400
+Date: Tue, 15 Mar 2016 19:40:06 -0400
+From: Tikkun Magazine <miriam@tikkun.org>
+Sender: <miriam=tikkun.org@mail.salsalabs.net>
+Reply-To: <miriam@tikkun.org>
+To: Podesta@Law.Georgetown.Edu
+Message-ID: <3522304968.1898266289@org.orgDB.reply.salsalabs.com>
+Subject: Tikkun Throwback: A Prophetic Article About 1990s Fascism Still
+ Applies Today
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_34861737_1423446169.1458085206944"
+Envelope-From: <3522304968-1340731-org-orgDB@bounces.salsalabs.net>
+List-Unsubscribe: <http://org.salsalabs.com/o/525/p/salsa/supporter/unsubscribe/public/index.sjs?Email=Podesta@Law.Georgetown.Edu&email_blast_KEY=1340731>
+X_email_KEY: 3522304968
+X-campaignid: salsaorg525-1340731
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CIP:69.174.83.188;IPV:NLI;CTRY:US;EFV:NLI;SFV:SPM;SFS:(31620200002)(3000300001)(438002)(286005)(359002)(199003)(349900001)(189002)(23363002)(65554003)(349012);DIR:INB;SFP:;SCL:9;SRVR:CY1PR0701MB1788;H:m188.salsalabs.net;FPR:;SPF:Pass;MLV:ovrnspm;A:1;MX:1;PTR:m188.salsalabs.net;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD050;1:ikUAFaTNdNoA6SCl0h3rmaptF72/SFNOvV4jOsoCkyMSpshEet+BBWw/YAWFLscMvqpSDulYQGiDOLSkcz4tf3ohI5hrVHg/o0rEhLh1DBSQLZL1s8kxBWQEqYczAGr9ipI3CcVRmMY1MQAINIJyv/3thlGxOEY8lJkfLUUZz/cQcGyFiwW00gFaevbHOX/BU4ouWERQHvucexGC/U+bp28x8nIAOK9o8rFy2spg/LfYhb0KdJT4nXCzmiDr9YCN1OfXjFVBqYV0mqH1sYd212yi+gUVinvT1qCRxETiP/CsvnDjbwB43aNuDd2zlo68l9Do+L2AtMrGTnhe3mEP3xPtgZZegfLvbUX34Ix46/r3+ZSZwW/ic5BdsmXpAccg7d1fmDoe/RQz7BaT/sBewYkatqsAsn1F9nE0ZhxDjdQ=
+X-MS-Office365-Filtering-Correlation-Id: 14a5427a-2a36-470d-e74f-08d34d2b72bf
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CY1PR0701MB1788;2:XL2hp+4VQeKuY2C3Er3STD9izmjydkpeNDtlo/pfH6hXqgOORORl1W7DE11iV765cJnEeYyZde2CB0l9WJbrqtE3PXRoYlFCRx1I7GAJ5xLPggVgFM7hlNbIaXniB6fVckVTAtZfBxNiQ66Hbh2opMvWxEadbuH1TigQyN+uDlARyV3WUuU8NUWtaWfn3PHV;3:77XSL7BJ0Nfu6NpmHeIKaTZwkpA+qdbByPBEW3vOHZ7puKgkaYMx7i3s31eJqEgujcHwLgLWNLIk58y5+ytv2OEpG7nh+Oonx67vv3PfaJE4rk8bMXZ9yCOrUO65xQWRQR+dcjUnImernxAq7tR9ZWXMapTSOhM8sbPU0CY26tMgyKAIBOk2Pap+HUUGnYOVCVRNdl+1yLLdgp4sEbLodStnUf9BPH5owr7NYfpO9G4K7eCjWou117sQD/cAf6KbMIIizfKBfjLRSaMMX1q4c1zaHurdLdVfCFaFnyRvJoTGS3M8VY8dHoifDiXbIRZk;25:TehbYNphszN29ZW54W2K1se4METRTFkDeLj8s03txXQpz2bm9IJsPBufc6zcy6AavKouSGAdNhJbSh1QUL/SzSzsOwjJLwnmKlxxDYK68HpQUB1bLISGdG4zcqebgLJ0J8CIImDBPLOQe4IjZBvU0/TitI7Vr4vy0FtuZ2Dq3sMOJVku9ZAIRaHQJfGs2GVugYWnyJgn9QxTGjgcXaxfer+rhojfkUJwc/sBsDNxNyER303LP6zDe5e7IbxQ+vDqrs8FtQwI9iUyVUhj3gt6DgprFLSevkeARZ/PsfS11rYwfs1TBZG3sHdjUGsvQmhP+l4gfdZUrfzKxlxPzuiSqA==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(421252002)(3001016)(71701004)(71702002);SRVR:CY1PR0701MB1788;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CY1PR0701MB1788;20:c+DIvL2/Y/0p+OlrtCOuILGJ1rb1tL6wZrPGFH1xtZ6FnvxhwHfuw7zgoTSgmAJ29qVR05p5/GLAXKDaU1wb7xRjZjNleBJrJnfHZ9NieBoXlpJCUVEqAnHX10kJtfLcEdLTJtH2uQgpAuBX1fC0/m2tTHsdAO3zlu0H5nKcN7I34qMu6aTyowVtf2mIlYfi77H0GULwJylXvc9kIcHHzJIm3q395vO3nhfw9GjfAts7RqmAKBS9mqwEOUI2iDT8X77XchceXcs47bkjfcAPK1Gtqtw7vXg5KBf6kesx6o2NuySx5hmj7xgi84D6mHAxExeaSDHgvqW+RSQuYBwE2kjo6TWTU4EIImYu6ruKWpPRW91DI8lVMBCeV4EafKMZX8Ld8Ct+JnpTa1OyZifygT8uvhkAkuOBGMvKa+tZwqM=;4:TFHdBEgpv/h4nwGm7yYPM3rcwRRlf+hodRT6zDhTS7eWq5QcC5wwFENOUPFXYMdPBuYgKcqhm3tltJG5zJf3zr4wFrXGmSfJj9f3jgjWNPuYabxAElbi6VQz02633XR8nU8FrXGYwmaKbSMYmRngFMbNlblXJE28I5qrSlYhgyz2jlUoIiXAh4lfCN5httmvoHmecPRdozbLLGAEWKd6mTuUM2Tnd4RDfSg2bfprvnKefdX1FKB7wlWTbSYFA1vFKPeheYtydc6VosPRSloHdW18Nu52fqNXmSeshSW6I/14NQJwIuTwnh/Vb7/57+PlHYMZzf9ksaB7kqqNyDY6bSbSNVyl1x2sgtWj/vjtP2oED758ImuJ2VFvWCaG2GYyq1IK9rMTSHqBsjflBd+6lQ==
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(13018025)(13016025)(8121501046)(3002001)(10201501046);SRVR:CY1PR0701MB1788;BCL:6;PCL:0;RULEID:;SRVR:CY1PR0701MB1788;BCL:0;PCL:0;RULEID:(601004)(2401047)(13016025)(5005006)(13018025)(8121501046)(10201501046)(3002001);SRVR:SN1PR0701MB1790;BCL:0;PCL:0;RULEID:;SRVR:SN1PR0701MB1790;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CY1PR0701MB1788;23:qjv4qxOA6MyxbnnTng7lvJ2ygaEh078z4S/jlMzh2u49vdKIjqTxiMsUp00t2kk8fA+7bk2a6wq/KWJphKtJ+bUhna8AYE7ptHMSdqvs/qJxkGPKIvixxQNLbF83nG0+0WY9qGwO/FjHxxoQpRFwKHceHS6Yy7DfDq3mbbF3OflKKTJQ6U1HV8i6Y0b8KzYx58dzjdalSlY7nwtAy83ZS00lShzT4q4BBtw7C9djgqqWUbb7SjhSsv+RYhiSglSQCK6sZv9uvxPcW4dlTGOuU6kkyotpXSsUIt8eA3/d6i6Uo5o3GrjAioabHBnrsJ0BVCM9SvUIHzEwd5vKh4f/RT+HsosYGvoKJ1oaDtCIJMgK/2o+wiA3CwMo1UHVMWbTHla/E3dBCKW8eYpB5QTWYCsk9jjCuBfnUhiM0SGro4/dTBgjp+zH+Zdno++9zc85;5:ECD7aplC1zSr/rQd4GtW2CcCouzDu0cqS6a06vjMM1/V/tMZk7S693PWwRqaDY4qs5MH0b5KxUUY9GzFhvSrhmR83N7w7n9pix/IMjy5RnhQfBN7o7V/2qQzkSpW7JxdAOGGspA1k0KR6xzLUmMH8w==;24:C3BEC3mASQJfEP8j39ldEpIioSdeboVHYfeU7lhvsU35VKxQSS+BBskjPGhPaiCeewjwQ4WgkKkVYnFpBhFcdQ==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1PR0701MB1788
+X-OrganizationHeadersPreserved: CY1PR0701MB1788.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2FFO11FD017.protection.gbl
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.75;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1110001)(1109001)(339900001)(199003)(189002)(23363002)(65554003)(110136002)(85426001)(19617315012)(84326002)(105606002)(84236003)(84246003)(18926415007)(229853001)(956001)(4001450100002)(5002220100002)(117636001)(43066003)(960300001)(15975445007)(77096005)(87936001)(189998001)(106466001)(18926405002)(19618635001)(19580395003)(2351001)(450100001)(15187005004)(1220700001)(85226003)(2171001)(1096002)(4290100001)(19580405001)(47976999)(586003)(53806999)(107886002)(75432002)(512874002)(54356999)(50986999)(146001)(6806005)(18206015028)(19300405004)(11100500001)(104016004)(81166005)(15974865002)(2906002)(3450700001)(88552002)(7099028)(7029014)(105616011)(42882005)(62816006)(94166001)(569005);DIR:OUT;SFP:1101;SCL:1;SRVR:SN1PR0701MB1790;H:mail.law.georgetown.edu;FPR:;SPF:Fail;MLV:nov;A:1;MX:1;PTR:InfoDomainNonexistent;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BY2FFO11FD017;1:+uT43Bzr9QVafxn3VVPLRCzHUX8o0EJ3xTzFeNfygjveCEokZKzOEO8ztY7c1uo1UYTK6MfoALBEhQsr+ZegTJU2rTNvkbikS4KijL3d0y2pd4KTy9Z+5feG8KT0REeQSeXfWMXa11l4Ir7PEFZggVjvNCLLWvhRWW/SSbw1TNn1aQstMW9AKrhQ4iwJfUIn83wuWHQzZhn4IKiBABblim6HbQoPvM6EGIknJJfREvSYCLmFWYSkxd/SVVqxTRPiHB9bc0H6wGaV/IZUtcnM8hQWIDgqq5pyf1MkBQIHWxtfuD6RgCPokUNpjTyONlju8CeT6axsyGFSbCKTlOXlekZ+asfkg4yusXS1jdJRnErO3OriCABfKONkAz5jn0odMZp/dn+aUb81Ia88neeIoo6uHX1S71Flx8ugJ+i2xmk=
+X-Microsoft-Exchange-Diagnostics:
+	1;SN1PR0701MB1790;2:c+uaVm8KOimGhQ7xIHuJf9bDEoIvt7SzyBbBXZPdnBvdKmI5gmBX/VwpP3l69sR3eov6ROg9k1nruhrnofrj2lTHqqV/nmuFGlC8ZheRJxj4sRYjCuHANe6e2SKPfwg6GiVdgkVWI2/JrIG1RqK9mrCJedKBjDjpp3Qt2+b/jb/016nfEUJmNRoupsAX9dtg;3:uSIzbDCNYI1DAtewyRWToMieXzKzysKm+n9ayr89Q8iPSbVJRGahiXGejacw5PY3N5vihXZ69pOou+6lnEJ7IllPuGAwsm+5Yn5C7gMuv63W0NlEzUNaleNVAZ4SckojAUSF9r5IaB294ArVsGdS+a0vZ4+PuPXASUgkvhfKYjLdsYEyNlts+uwFf51PyO40XWIVFHu65+9YWNrYeU1wHxI04O6BfJtEpfVa91SlBqMJEhAUlJNVnuCHr3Shbtv0OZkF+RRlOexGzBaE2TpwHw==;25:wU2V6+tNYtfZELgedQr+oWGq0qxCLBnuZzwZWgdiITSRDVZqA9/qTcn0YyoltJIpf5YzqzJIpDyExRDHMAjL/7BQubEIcEKe3zX6HEDY/+jkk9b2ML5e8Q+tIPLFaGAxtl1RWjxCrV0r9LrYuvtJMbChm5MAwi7h9pUZZMysq3ptQAr9bx3woWK5++hPgHm/n1yn2dvXC502dkgAwm/I6Z5pcHtXJH/c2pMZ3U7XxTfAxBFv7Rk88x14i4nEg2RRYWdQwmvFAFATOvsxvPIwrPT/UkCD2m828LvKWixB8wC71hXtOmXXE+ZLSZA3VC73VyRLFuonUiG4OZ2j+NEIqw==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(421252002)(3002016);SRVR:SN1PR0701MB1790;
+X-Microsoft-Exchange-Diagnostics:
+	1;SN1PR0701MB1790;20:g8Lc4Aj4veJQHnKUxNfk1aWsIJmMPa/iBvsFfljDoWqhTblsXbxeFXkvHOTRJ2RdxSf8C6w+27Rx1uMX+hRQ1MvxnX3kAkj4fYzeB/R1mrRgqa869vF4pu4crTYFOX4c/QCFjl3A9It5qdT3zkC4MunKN2rgjwGdqZCs26DKdqU2/CtTIf7Nj/GyS3K2cJerPvzdpSFxc9x8chx3uWt+ZpBsoAQyRa46kixuqc9tnKket+EugzFRTc0SPDS3hpmo+9STy5AKe0N0HudRN+Lx00So97bf0NtHrnTtO7vWfokcQxPSMPWpHbRvWwiPNQvLL4BLSRKW8SJFJqq+kBe5l7OFZItB35cyaVzrE5aSMpbXEDwkREuHwrzzgp4yVALlMl4Hq94/tSeOta5nQufHFv14oLj12aEdjAAvSv0Wsrw=;4:pJnReBEqmsTWNLh2dMwAB4tuK8urf4ZrKaXFyeSUhldY7ZxWCVpSU9iigrJgq6wD2pj18dCNgWp/2PPR2tGkMUaUr9sJzTpF3qAE5FXk7BTh6sXeqAvfJU203eogNCfmdVwnTISHKpo6GX4WcPuJIs8ZrejOy+XPqo0BS89+bUyLAUIU+1xkMNT+RLgsA8IB01jT5tAEvKSRCX8HyVXFxx1x7DnAi7mn2fJfhku9+/WE5drz1R275SLwd7aMOTsnfwFJJJQstkaMnv87yfLKoGptjqU8ZQGkL/JdfZbHMcW6eDFEdTo80xHCy6t/2yDOZQrqGs5LuEWKEQ8zSfE0zoiBw6giwig3Z3I0UuNTZqYDW3jL64uKCr6GuHqBFh3sIGM9ReesIZBaEGIUEl04+6b9MIUDV7yCa659qg5l3Zw=
+X-Microsoft-Antispam-PRVS:
+	<SN1PR0701MB179048917A78657C9F7A01E193890@SN1PR0701MB1790.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 08828D20BC
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;SN1PR0701MB1790;23:di3qefY4hYe+2EY9Efso/jLk5uKnO/GVvg6pQfO?=
+ =?us-ascii?Q?2q5/n42l8ddJ+BoRfBoxOwTOPrEMhB5AvatRYS5/SCaAr6tJIaO4t9RBWl+Q?=
+ =?us-ascii?Q?1dvogsUFfCY+YApM0ldcTOryKJ59mxPALa6KIijFKxo3KgzF+xJ2Q1JdZe5e?=
+ =?us-ascii?Q?aOlVA1pxGtuDSn2aE7K5M6jYFGrMHW7KMOYkfMDhlehF9BpuHTNbXzPqEt3X?=
+ =?us-ascii?Q?rEci4L5QUsjPhu+goWbt+44/AfXifoUGhlamAB9P/NRzuT8FfS2S0sZn+3Ko?=
+ =?us-ascii?Q?obX6tI1AasF+X5m60qkn485O+Ov0bpHIuTkfeRD/JzzcPSWPHX86ewwEjWDl?=
+ =?us-ascii?Q?aJtiaKxF+oycVIbG4lPUPJInJGEPUDmAZoY8OMYsWtbrmmgzyktgox0HO1PM?=
+ =?us-ascii?Q?N4b+obmqZps5qlMfdKDN6WVA+yM5DaMOUjey5TOVT5mEbfTEpPfXm98aTpyv?=
+ =?us-ascii?Q?lNbfOK5GLVxUYOmS54YXxpIfa1Irf9xhAtFUcUiDiLwhq+++A5tzkpGXUHep?=
+ =?us-ascii?Q?fY+fpRLdJXk+zPgZ8i1XSStQYL/LRbzC37IcmeshH9nXQnUyVixKQTn4vhdM?=
+ =?us-ascii?Q?sccAi4rhjG1CbRYCjlLuEKcJYIaprm9uB4RT9KH4nSpo7qVjNNZYtnPCzAYO?=
+ =?us-ascii?Q?/RnVtkqSX+qw2dk3EI08TXbV9/7QxtQVpSRFu6qEvjhb+t8eNDoIQDi5eNQy?=
+ =?us-ascii?Q?9AYHRE+s5uoABRyIx9YyDKK50LeHzXpG150YNGRJ4JgSF3IY6t4PvCWKvntz?=
+ =?us-ascii?Q?coWXaDjlTYlAhR3opwi/I5+Ec1ri98aUiLvGbtf/XJzaHxtboWc84bOJfO3O?=
+ =?us-ascii?Q?cBbtjfv+XStRwU8tSpKrOnGlM/uzqO7pwrwi07M6Dz4Wv3CJKyPFAGpiUrQn?=
+ =?us-ascii?Q?KIc8O0d+H0p6F5n9VhRwPYhMcY6hlFHUXHoaNO/lZ7XNUJUS9sOodzZ/Hu7/?=
+ =?us-ascii?Q?+sVZrf15jrJZe7XZUOZnbKKTqDtqZAdkDtRYOtZXq/swTU7L5SWXFBiZ2cBa?=
+ =?us-ascii?Q?h3xvwatn/yF4LyFfKV1mpRVQSy9QrjlvmUMgQKeVPas+JUmt5qGWYwNoBoSt?=
+ =?us-ascii?Q?fOUg7VqKoMj6yVVTCChzCzn9T1oUk/F5o05NGDXYUbzxagyZH71S3xaTZzYV?=
+ =?us-ascii?Q?2XV958qROo6QBSe5BApxSuxp368UisNPhKrPLMwVN5lyddtHd3Ti3sX3TLri?=
+ =?us-ascii?Q?zUzXxfVs2JH99Y8Rz2fDX2d4xNq1ZHP78PsSkVYwAzbG5OMXmh1//+Xd9NTr?=
+ =?us-ascii?Q?jHFAggEvidz7uNesZGNZvLgqqC9F8oCaIpVjBIg+urDhI5rSEYi+clZpqwMo?=
+ =?us-ascii?Q?73cskO7+4KYShGbVgIuOGB4dWJkz0AZLosjCn01rtI0Gy/JGnwmKiR0eIY4h?=
+ =?us-ascii?Q?4dfaXq/HUGB8i4vuswuYMCD4ljro6D+k64Nctv5TcDdNIKEFWx8bN2cV+Epl?=
+ =?us-ascii?Q?kCz/nI/ewRyU2XNuSLHX3NzBPB3PV3POZY+3lee+M2GZtLpd/N5N45nfLdkz?=
+ =?us-ascii?Q?vKwW4G8nFl4W6neMyXs2c+hFTv2F8blyTe8BcZaxLCmixVVPxZN6SELLUaDO?=
+ =?us-ascii?Q?fsTNx4JGaJPsax9jzy0RahqU3bsW/2xI77JPHrNc14BUxVLY4Mc67rPz8+q5?=
+ =?us-ascii?Q?7oVlMeDXvNxUL0uR8YaokpRhuOY5lpswqM/6cshW3sXHuBzElg0Zfr5kBSSU?=
+ =?us-ascii?Q?CRHSL?=
+X-Microsoft-Exchange-Diagnostics:
+	1;SN1PR0701MB1790;5:tIf7zWKMw8tFuuep5Z1gHkITEV9i8zymNnaD5xDQPTy5reaU4tMPQc3uXhavQaIBXgtz+7hf17vDBmut20UTIzXv3SCMF92Yp51i/LmSaeU8e7TLQMNaFZKRphvhoaMSl7QR7gc1nkfGzgCuwXz0qg==;24:kBP/izzMEfUBNe07KGNU7lx7e32Q3C9xqfOa2p1rS6B4FbFVDh95Qbnrbdqsgg0n0YudfkU2ZwQi+WiiHIb/tTNFUbJccqgAivv6sfY9XQA=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Mar 2016 23:42:18.9895
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN1PR0701MB1790
+
+------=_Part_34861737_1423446169.1458085206944
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+A Tikkun Throwback:=20
+Stopping David Duke and Patrick Buchanan: A Strategy for the 1990s by Micha=
+el Lerner
+Published in Volume 7, Number 1 in 1992
+
+
+EDITOR'S NOTE:=20
+
+In some ways, it's understandable that many Americans are still reeling in =
+disbelief about the rise of racism, sexism, and xenophobia during this pres=
+idential campaign.
+
+Recently, David Duke, who has been a major figure in the Klu Klux Klan, wor=
+e a Nazi uniform and spouts anti-Semitic ideas, embraced a leading candidat=
+e. Far-right ideology is more prevalent in today's mainstream politics than=
+ in the 1990s, and some candidates today, like Duke and presidential candid=
+ate Pat Buchanan two decades ago, have tapped into the deep anger and humil=
+iation felt by many White Americans.
+
+In the 30th anniversary issue of Tikkun magazine, which subscribers will re=
+ceive in late summer of 2016, we are reprinting some of our most enduringly=
+ valuable articles from the first decade of our 30 years of existence. I ca=
+me across editor Michael Lerner's article on the psychodynamics that underl=
+ie the appeal that Duke and Buchanan had 25 years ago and thought "wow, thi=
+s was prophetic in its time, and is extremely relevant to understanding the=
+ current realities of American politics."
+
+For example, Lerner wrote "the problem is that liberals and progressives ra=
+rely understand this issue, rarely ask what legitimate needs are being spok=
+en to when the fascists start to gain a mass audience, and hence are often =
+unable to develop an effective strategy to prevent the David Dukes and Patr=
+ick Buchanans of this world from reaching power."
+
+So instead of waiting to put the article in the magazine for late summer, I=
+ thought you might want to read it right now, on the day of major primaries=
+ in Ohio and Florida for both Democrats and Republicans - it is amazingly a=
+s relevant to this moment as it was when it was first published in Tikkun s=
+o many years ago!
+=E2=80=93Ari Bloomekatz, Managing Editor, Tikkun Magazine
+
+An important note: Tikkun does not endorse or oppose any candidate running =
+for political office.=20
+
+-------=20
+
+It would be silly to imagine that neo-Nazism or fascism is about to sweep t=
+hrough the U.S. in the 1990s. But the candidacies of David Duke and Patrick=
+ Buchanan for the Republican presidential nomination are likely to give new=
+ publicity and respectability to only barely disguised racist, anti-Semitic=
+, and xenophobic ideas in American politics. Right-wing extremists are crea=
+ting a poisonous tendency in American political discourse, as they seek to =
+establish a pseudo-community among the white middle class by mobilizing ang=
+er against the poor, the homeless, welfare recipients, immigrants, Blacks, =
+gays, Jews, or the Japanese, and by rallying around talk about "America fir=
+st" (the slogan of the pro-Nazi isolationists in the 1930s). The social con=
+ditions that allowed David Duke to capture 55 percent of Louisiana's white =
+vote are likely to be more rather than less prevalent in the US. over the n=
+ext generation, and the type of politics Duke and Buchanan represent will l=
+ikely command a large audience nationwide. So this article is not particula=
+rly concerned with this year's election-we think it unlikely that either Du=
+ke or Buchanan will win the nomination-but with the social movements that t=
+hey will be mobilizing in the years ahead.=20
+
+The Dukes and Buchanans get some of their support from hard-core right-wing=
+ers, racists, and fascists whose character structures and ideological commi=
+tments attract them to racism, hatred, and violence. But to move beyond the=
+ir hard core to the much larger constituency that voted forDuke or that is =
+listening to Buchanan, the ultrarightists have learned how to appeal to man=
+y decent Americans by speaking to real and legitimate needs, to acknowledge=
+ the pain in their lives, and to give them the sense that they are being re=
+cognized and respected. Because our goal is to find ways to dislodge this s=
+ector of the population from the Right, we need to understand what these le=
+gitimate needs are and to speak to them in a way that separates the legitim=
+ate recognition of their pain from the illegitimate expression of that pain=
+ in racist or xenophobic directions.=20
+
+The problem is that liberals and progressives rarely understand this issue,=
+ rarely ask what legitimate needs are being spoken to when the fascists sta=
+rt to gain a mass audience, and hence are often unable to develop an effect=
+ive strategy to prevent the David Dukes and Patrick Buchanans of this world=
+ from reaching power. Similarly, if we turn to the way that most people hav=
+e been taught to think about the triumph of fascism in Europe in the 1920s =
+and 1930s, we find that few of the analyses of this critical episode in his=
+tory provide us with serious answers to the question we are raising.=20
+
+Instead, conventional answers to this question tended to fit the agendas of=
+ those seeking to justify various post-World War II political alignments. W=
+estern countries were anxious to rehabilitate former Nazis and to gain popu=
+lar support in Germany. A West German state, they reasoned, could face down=
+ the ideological appeal of communism and withstand the potential military t=
+hreat of the Red Army. But to secure German loyalty, Nazism could not be po=
+rtrayed as arising out of something deep and abiding in the situation of th=
+e German people or its culture. Instead, it became popular in the West to a=
+bsolve most Germans of any responsibility for what had happened by thinking=
+ of Nazism as some kind of collective that had magically descended on the G=
+erman people in 1933, and magically disappeared in 1945. This consciousness=
+ reached its fullest expression in President Reagan's visit to the Bitburg =
+cemetery in which former SS officers were buried along with other former so=
+ldiers of the Nazi army, and in the West's celebration of the reunification=
+ of Germany. We need only witness neo-Nazi skinhead attacks on immigrants t=
+o see how premature this reunification really was.=20
+
+Soviet explanations of the Holocaust, meanwhile, were equally tailored to t=
+he Soviets' need to mobilize the East German population into the cold war. =
+What caused Nazism, the communists argued, was capitalist imperialism itsel=
+f. The industrialists, preoccupied with the imminent threat of communist ru=
+le as the worldwide depression deepened, used the Nazis to keep the workers=
+ in line. In the version popularized by Bertolt Brecht in his play "The Rem=
+arkable Rise of Arturo Ui" the industrialists hired a gangster, but the gan=
+gster eventually turned on his employers and took on a life of his own, bec=
+oming in the process something far more ugly and sinister than the hired th=
+ug he was at the play's outset. The solution, then, was simple: Eliminate t=
+he gangsters first; then uproot the capitalist system that had created them=
+. The Soviets went even further than the West in ignoring the complicity of=
+ the German population in all this. Soviet propagandists were desperate to =
+recruit a German population that had long been warned of the horrors of Sov=
+iet rule-and that had shown a great deal of enthusiasm for the Nazis.=20
+
+Both of these accounts were remarkably superficial. Both denied the importa=
+nt role of anti-Semitism and of the deep needs that Nazi ideology was able =
+to exploit. And both conscientiously avoided dealing with the growing numbe=
+rs of Germans who voluntarily and eagerly joined the Nazi party in the late=
+ 19205 and early 19305, and who formed an electoral majority for the Nazis =
+in 1932.=20
+
+Unlike these cold war interpretations, the typical Zionist account had the =
+advantage of acknowledging the popular support for fascism in Germany, even=
+ though it then conjured up another magical concept: the supposed inevitabi=
+lity of gentile hatred of the Jews. Zionists quite correctly drew upon the =
+long history of anti-Semitism in the West to show that Nazism was not an ab=
+erration, solely the product of its social background or historical moment.=
+ Rather, it was a full expression of the Jew-hating in which Western politi=
+cs and culture had been steeped for centuries.=20
+
+But many Zionists tended to essentialize anti-Semitism as a permanent fact =
+in the consciousness of the goyim. Jews could deal with this ugly fact eith=
+er by making clever deals with ruling elites who might control and suppress=
+ it among the masses, or by assuming that it might reemerge at any moment, =
+leaving nothing to be done but secure a strong military for the Jewish Stat=
+e. By essentializing anti-Semitism as the perennial irrational hatred of Je=
+ws, the Zionists avoided the question of what could be done to combat its r=
+ise. Rather, the only relevant question became: What do we do to give stren=
+gth to the State of Israel, a place to which the victims can escape?=20
+
+If escape is one extreme, based on a pessimistic assessment of the fundamen=
+tal stupidity or evil of those attracted to the Right, the other extreme wa=
+s taken up in the twenties and thirties by the communist Left in Germany. T=
+he CP correctly noted that German capital- ism required imperialism. Since =
+the world's markets were already dominated by the U.S., England, and France=
+, German capitalists had only two choices: either allow the current depress=
+ion to continue, with the inevitable radicalization of the population in wa=
+ys that might lead to socialist revolution; or resist the ruinous program o=
+f reparations and trade restrictions the victorious powers imposed on Germa=
+ny after World War I, in which case an aggressive German nationalism would =
+have to be re, stored to its former prestige. The CP concluded that since t=
+he aggressive nationalism was the inevitable outcome of capitalist rule, th=
+e only solution was to preach immediate revolution. And since Germany's lar=
+ge Social Democratic party did not favor such a revolution, the Social Demo=
+crats, and not the Nazis, were deemed the real enemy: In blocking a revolut=
+ion they were condemning Germany to a capitalist regime that would necessar=
+ily lead the country into fascism.=20
+
+However, both the Social Democrats and the Communists failed to understand =
+that Hitler was growing in popularity not only because of Germany's despera=
+te economic situation, but also because he spoke to a set of "other" needs =
+that the socialists could not begin to understand. After all, if it were so=
+lely economic issues that motivated Hitler's supporters, the Communist prog=
+ram had as much to offer as the fascist one did. In fact, the fascists put =
+themselves forward as national socialists-that is, as a force that, like th=
+e Left, would combat the power of the capitalist class. Once they took powe=
+r and consolidated their hold on government and society, the Nazis also bec=
+ame reconciled with Germany's industrialists. Nonetheless, the Nazis drew s=
+ome of their mass appeal from their image as enemies of Germany's business =
+elite.=20
+
+But the fascists added to the economic picture an understanding of the deep=
+ humiliation and sense of powerlessness that most people were feeling as th=
+ey faced the unemployment and inflation of the post-World War I years. Thes=
+e economic humiliations were coupled with a deep spiritual and ethical cris=
+is that characterized German society under the Weimar Republic. The values =
+of the feudal past had collapsed rapidly, but what seemed to be replacing t=
+hem was an ethos of extreme self-interest, profligate sexuality, moral rela=
+tivism, and family collapse. The older communities that formerly gave moori=
+ng and direction to life were rapidly disintegrating, or perceived themselv=
+es to be under un- relenting attack. To be sure, some of the resistance to =
+the cultural revolution of the 1920s was based on a reactionary longing for=
+ a past that was oppressive to most or for the security that patriarchy off=
+ered. But not all of this resistance was simply reactionary. Some of it was=
+ based on a correct assessment that the new society emerging in Germany was=
+ oppressive in a different way. Those who still felt some allegiance to pre=
+capitalist values sensed that Weimar society provided little opportunity fo=
+r many people to feel good about themselves, or to feel confident that what=
+ they bad managed to achieve for themselves in their work, family life, and=
+ community was likely to survive the winds of change.=20
+
+In these circumstances, the fascist Right has developed a formula that wins=
+ it considerable mass appeal, and that, under some conditions, allows it to=
+ gain power. First, it validates these concerns. Second, it proposes that p=
+eople can overcome the alienation they experience in daily life by becoming=
+ part of a fantasized community-the powerful Nation. But in fact, the exper=
+ience of being part of the Nation doesn't work for very long, because after=
+ the parades and the song-fests and spectacles, people return to the aliena=
+ting workplaces and oppressive family relations that shape their daily live=
+s. The Nation, in other words, is a fantasized community-provided as an "al=
+ternative" to changing the oppressive institutions of daily life. So, when =
+people's pain and alienation returns, we go to part three of the fascist pr=
+ogram: the identification of an Enemy, who has somehow insinuated itself in=
+to the daily life of the nation and undermined the experience of solidarity=
+ and mutual caring that supposedly would have been there otherwise. This En=
+emy is typically the Jew or the Communist, but also, in the case of David D=
+uke's American brand of protofascism, the Blacks (now carefully identified =
+in speeches with such coded references as "welfare cheats" or "beneficiarie=
+s of wasteful government pro- grams"). Whichever identity this Enemy assume=
+s, it must be rooted out if the people of the nation are to achieve the hum=
+an satisfactions and community that they seek.=20
+
+An intelligent Left in Germany would have started by acknowledging that the=
+ experiences of pain and powerlessness and under-confirmation of people's b=
+eing was real. And instead of simply talking about economic solutions and p=
+olitical revolution, leaders of this Left would have tried to create progra=
+ms that immediately spoke to the pain, frustration, alienation, and under-c=
+onfirmation that people were experiencing.=20
+
+George Mosse, the renowned historian of fascism, suggests in his book Masse=
+s and Man (Wayne State University Press, 1987) that the Left may also need =
+to consider ways to develop a progressive and humane nationalism. Certainly=
+ one might argue that progressive forces could have legitimately affirmed s=
+ome elements of German national culture. Certainly the communist internatio=
+nalism that the Left envisioned as the only alternative to German nationali=
+sm was itself already dominated by Stalinist totalitarianism and thus prese=
+nted, at best, a dubious substitute for a progressive version of a usable G=
+erman past.=20
+
+But this analysis raises a host of more basic, theoretical questions. What,=
+ first of all, would a progressive nationalism look like? It would, of cour=
+se, have to move beyond the fantasy nature of reactionary nationalisms. By =
+validating the humane, life-affirming, and morally sensitive aspects of the=
+ tradition and culture in which it is rooted, it would also directly challe=
+nge racist and national chauvinist accounts of the pain and powerlesness in=
+ people's lives by providing alternative explanations. Progressive national=
+ists would identify the current structures of the competitive marketplace a=
+nd of patriarchal society most responsible for making daily life unfulfilli=
+ng and alienating.=20
+
+There are real risks in identifying with "any" nationalism-and you can see =
+grim testimony to those risks in the other pieces in this special section o=
+f the magazine. Thus we might consider addressing some of the same concerns=
+ in another form. For example, I've suggested that the American Left adopt =
+a progressive profamily program that would substantially address the same i=
+ssues of alienation, powerlessness, and self-blame that a progressive natio=
+nalism would seek to address-and yet avoid some of the problematic features=
+ of nationalism (though I acknowledge that much of my argument could also b=
+e used to support an attempt to develop a progressive appropriation of nati=
+onal symbols of history). Once again, we start by acknowledging that people=
+ are correct to feel that there is a real problem in family life and that p=
+eople's desire for long-term loving and committed relationships is a legiti=
+mate desire. We then try to separate these legitimate concerns from the rea=
+ctionary elements of family life that the Right has appealed to-the oppress=
+ive patriarchal order, the insistence on only one "correct" form of family =
+life, the attempt to stigmatize gays and feminists.=20
+
+A progressive profamily program would include gay families and single-paren=
+t families. And rather than idealize the pathologies that afflict many exis=
+ting families, it would acknowledge the pain and stress that often distorts=
+ family life, and would then help people understand this pain as part of a =
+larger set of competitive, market-dominated social relations. People are re=
+warded in the marketplace precisely because they succeed in manipulating an=
+d controlling others. Yet these very qualities, embodied in the "smooth ope=
+rators" and "cool people" who "make it" in the competitive marketplace crea=
+te narcissistic personalities: precisely the character types that are unabl=
+e to make long-term loving commitments in family life, or even in friendshi=
+ps. Even when they genuinely wish to achieve intimacy, they don't know how =
+to stop manipulating and attempting to control the very people they wish to=
+ have as lovers or friends. And the stress that people experience in the wo=
+rld of work-a direct function of the way that work gives people little oppo=
+rtunity to fulfill their capacities for creativity, intelligence, cooperati=
+on, and self-determination-is brought home into family life. There it often=
+ erupts in irritability, depression, insensitivity, or a general lack of en=
+ergy and awareness, each of which works to undermine loving relationships. =
+This is just one realm-albeit an extremely important one-in which the Left =
+could develop what I call a politics of meaning. This isn't a question mere=
+ly of providing a set of economic benefits to families or to provide family=
+ rights (though I think we should "also" develop a Bill of Rights for worke=
+rs and for families). Rather, it's a question of helping people understand =
+why it's so hard to build loving relationships, acknowledging their pain, h=
+elping them to stop blaming themselves, and allowing them to see that some =
+personal problems are rooted in societal pathologies. Once the Left begins =
+to address the pains of daily life, it can provide many deeper and ultimate=
+ly more fulfilling ways for people to understand what is actually bothering=
+ them.=20
+
+The exact way the Left might have applied this kind of thinking to the Euro=
+pe of the late twenties and early thirties might be debated. But what I hav=
+e been arguing is that this whole way of thinking-this entire confrontation=
+ with the question of what was hurting people's daily lives and how that pa=
+in was transformed into rage at "the Other"-was absent and as a result, the=
+ Left had no plausible way to fight the ascent of fascism.=20
+
+That same error has emerged in the Left's response to the growth of the rad=
+ical Right in the seventies and eighties in the U.S., and to the growth of =
+Duke-style fascism in the nineties. If current trends continue, many of thi=
+s country's leading industrial corporations will move manufacturing jobs ou=
+t of the US. The huge debts generated by the reckless military Spending of =
+the Reagan and Bush years will thwart the development of an economic and ed=
+ucational infrastructure that could give the U.S. a competitive advantage i=
+n the emerging scientific and technological revolutions in production. As a=
+ result, the standing of the U.S. in the international capitalist market wi=
+ll continue to slip. Growing unemployment and inflation will produce a sens=
+e of general despair about the future. One plausible Left response to such =
+conditions would be to push for a worldwide system of rational planning-bot=
+h to deal with the ecological crisis that threatens to destroy the entire w=
+orld, and to prevent a new clash between rival nationalisms. A progressive =
+approach to international planning would require both a refined ecological =
+sensitivity and a fair allocation of the world's resources and productive c=
+apacities, advantaging countries equally, taking into account the needs of =
+the Third World as well as of the advanced industrial societies. Without su=
+ch an international plan, we are likely to face a twenty-first century plag=
+ued by ecological disasters and competing economic nationalisms. And it is =
+not unthinkable that the U.S., unable to rely on its waning superiority in =
+science, engineering, and productive technology, would be tempted to turn t=
+o the one arena where it "has" committed its resources: military superiorit=
+y. Justifying a new aggressive nationalism would require some kind of popul=
+ar movement-and here the Duke-type forces, perhaps shielded by the Republic=
+an party's right wing, would play an important role.=20
+
+An alternative economic solution that required international planning and r=
+ational use of the world's resources would benefit everyone, and might save=
+ the world from ecological disaster. But such a solution will be impossible=
+ to implement as long as the U.S. government is dominated by a corporate el=
+ite more interested in its own freedom to maximize profits than in the long=
+-term well-being of the society as a whole. For some corporate leaders, the=
+ possibility of moving their capital to more productive countries is an ade=
+quate solution; for others, the possibility of using American military powe=
+r to back their corporate interests provides the necessary insurance. But f=
+ew corporate leaders are willing to use America's current strength to push =
+the other capitalist countries into any plan of long-term cooperation.=20
+
+If we want the U.S. government to use its power to help mold an internation=
+al plan, we need to found a popular social movement to challenge the entren=
+ched powers that serve the interests of the corporations. The promise of th=
+is kind of movement has always been what lies behind the appeal of the popu=
+lists, those who tried to articulate popular resentments against the entren=
+ched interests.=20
+
+Our task in the U.S. is to create a populism that does not appeal to the ra=
+cism, sexism, and national chauvinism that have disfigured right-wing and f=
+ascistic forms of populism. To do this, we need to address the "crisis" "in=
+ meaning": the forces that cause people to feel alienated, devoid of meanin=
+g and purpose, lacking in community, and unrecognized. Listening to some of=
+ the in-depth interviews that Were done with people who voted for David Duk=
+e in 1991, we hear over and over again variations of one theme: "I am here,=
+ I count, and David Duke made me feel that he was the only one who noticed =
+that." Underlying this assertion is the pain of people who feel that their =
+cares and concerns are receiving little validation or attention.=20
+
+Of course, liberals, progressives, and many of the community-relations prof=
+essionals of the Jewish world respond to this critique by saying something =
+like this: "Sure, there is underlying pain, but that pain is deeply embedde=
+d in racism and anti-Semitism, and we can't make any compromises with those=
+ kinds of feelings." But this misses the point. To validate the pain is "no=
+t" to validate the racism, but to try instead to drive a wedge between the =
+legitimate pains and illegitimate racist and fascist solutions, precisely i=
+n order to "defeat" racism and anti-Semitism.=20
+
+The liberal and progressive responses typically lead to one of two strategi=
+es: eliminate the economic problems and we will eliminate the potential for=
+ fascism; or outlaw racism and coerce those who practice it with economic o=
+r political pressure. But both strategies are unlikely to work. America's e=
+conomic problems cannot be solved in the long run unless we talk about limi=
+ting the freedom of the marketplace and creating real international coopera=
+tion and planning. Yet at the same time, liberal Democrats and corporate le=
+aders will be represented prominently in any antifascist coalition. They wi=
+ll totally oppose this direction, and can be expected to use their consider=
+able power to prevent anyone from making it part of the antifascist strateg=
+y. So instead we will be treated to a variety of stop-gap economic spending=
+ programs that may temporarily reduce unemployment, but will not work to re=
+verse the larger trend of American economic decline. And ironically, conser=
+vatives will cite the failure of these measures as further proof that any g=
+overnmental program will necessarily fail, and hence convince people that w=
+hat we need is less planning rather than more.=20
+
+On the other hand, the second set of liberal remedies-legal constraints to =
+punish racist and discriminatory practices-won't work. We live in a democra=
+cy; and the more racist ideas are able to win popular support, the more we =
+will have right-wing judges and legislators dismantling the programs that h=
+ad served previously as constraints on both racism and fascism.=20
+
+Given this dead end in traditional liberal politics, there's no real altern=
+ative but to win popular support for a progressive populist program. To do =
+so, progressive populism must go far beyond visionary plans for an internat=
+ional planned economy, and directly address the pain of daily life. A progr=
+essive profamily program, a progressive approach to the world of work, and =
+a progressive nationalism may all be elements in such a populism. And a ser=
+ious antifascist program must show people that we care about their lives, n=
+ot just that we believe in some abstract sense in their "rights" or "equal =
+opportunity." We must speak concretely to what is actually happening in the=
+ir family lives, and to the sense of loss that afflicts the communities the=
+y inhabit. We will be successful when we can help people understand the pai=
+n they experience in their daily lives. This pain takes many forms: the sen=
+se of abandonment the elderly feel when they are denied respect, caring, an=
+d gratitude from their children or when they sense their children have reje=
+cted wholesome values and have become selfish and insensitive. Or it surfac=
+es again in the feelings that haunt many of our personal relations: the sen=
+se that we have fewer friendships that we can count on, or that our marriag=
+es and families are likely to collapse. Or it could be the painful realizat=
+ion that work has proved to be a "dead end" and feels dull and alienating. =
+We must begin to acknowledge the central importance of all these pains in o=
+ur political life. And we must clearly convey that we understand and care a=
+bout such pain, and have ideas about how it can be alleviated.=20
+
+Ultimately, the struggle against fascism is a struggle for the minds and he=
+arts of the American people. To win, we need to acknowledge that the moral =
+relativism and spiritual deadness of the contemporary world is indeed somet=
+hing that needs to be fought-and that these ills are products of the reduct=
+ionist logic of capitalist materialism. Similarly, we must work to create t=
+housands of consciousness-raising groups in workplaces and communities that=
+ will encourage people to understand their personal pain in its full social=
+ context. The Left must also redesign and adopt the technologies of individ=
+ual transformation, so well utilized both by the twelve-step programs of th=
+e therapeutic recovery movement, and by many organizations on the Right to =
+empower and mobilize people to a different kind of politics. The Left can a=
+lso appropriate national symbols and national mythology in public events th=
+at reflect a progressive program of social change. Imagine, for example, pu=
+blic events in every community in the U.S. to celebrate the Bill of Rights,=
+ and to encourage communities to develop their conceptions of a fuller sens=
+e of human rights applicable to the twenty-first century. In the 1980s, we =
+at the Institute for Labor and Mental Health developed a Family Day for the=
+ city of Oakland, which thousands of people attended. Imagine a similar yea=
+rly event in every major U.S. city aimed at helping people recognize that m=
+any of the problems they face in family life are actually rooted in larger =
+social ills that a progressive program was designed to change.=20
+
+These consciousness-raising aspects of a politics of meaning would find con=
+crete applications in a set of programs aimed at reshaping our society so t=
+hat daily life would enhance our abilities to be loving, creative, and cari=
+ng human beings. These changes would include democratization of the world o=
+f work, a government re- structured to emphasize person-to-person caring ac=
+tivities over the workings of an impersonal bureaucracy, and schools that t=
+each values and nurture spiritual and ethical sensitivities. The economy, m=
+eanwhile, should be restructured toward cooperative and caring behavior. Th=
+at such a society would be more likely to be productive and competitive in =
+the international market of the twenty-first century is an important by-pro=
+duct, but not the major goal, of a transformative and compassionate politic=
+s of meaning. And a progressive politics that showed this kind of caring fo=
+r the American people would "win". The Left could then be in a position to =
+push for international economic planning that could reverse the steady decl=
+ine of the economic wellbeing into the next century. Unlike the right-wing =
+and fascist programs that can only provide a fantasized community, the demo=
+cratic restructuring that our program calls for would actually create a les=
+s alienated and more fulfilling daily life. Yet only our willingness to rec=
+ognize people's pain, and to help them overcome self-blaming, could possibl=
+y put us in a position where we would have the power to restructure the soc=
+iety in a humane way.=20
+
+Call this approach a mass of compassion. But it is "not" the liberal compas=
+sion that merely doles out to the most economically oppressed a set of econ=
+omic entitlements. On the contrary, this kind of compassion starts from a r=
+ecognition that the same kind of pain that afflicts those attracted to the =
+Right also afflicts the rest of us. Indeed, those on the Left are often in =
+as much trouble and pain as those on the Right. Liberals and progressives h=
+ave developed their own ways of dealing with that pain, e.g. psychotherapy,=
+ recreational drugs, sexual "acting out." Such solutions may be, on the who=
+le, less socially destructive than the fascist counterparts that emerge on =
+the Right, but the fact is that we are "not" on a different planet or in a =
+different universe than those who ended up voting for David Duke. Recognizi=
+ng this fact would be the first step toward a politics of compassion: If we=
+ could allow ourselves to really understand this, we would not project the =
+elitist image that so infuriates the people whom we allegedly wish to reach=
+. Yet this may be the hardest point of all for liberals and leftists to acc=
+ept: They are so addicted to their sense of moral superiority that they oft=
+en prefer it to political victory. Yet in fighting the potential fascisms o=
+f the coming decades, we cannot afford this self-indulgence. Morality yes, =
+superiority no. The best way to avoid this temptation is to confront our ow=
+n lives deeply, acknowledge our own pain, frustration, and vulnerability, a=
+nd begin to understand the ways that these feelings are similar to the pain=
+s of many who describe their experiences in right-wing language.=20
+
+A united front against fascism, then, must be based on a real alternative t=
+o fascism-not just an analysis of why fascism is bad or what it has led to =
+in the past, but a substantive view of how to reorder our society in ways t=
+hat relieve the pain that leads people to embrace fascism in the first plac=
+e. It was not inevitable that the fascists would win in 1928 in Europe. The=
+ir ascent could have been blocked, had people developed a compassionate str=
+ategy that addressed the kinds of concerns I've outlined here. And while th=
+e Dukes of the world are inevitably going to be part of the political disco=
+urse of the 1990s, their victories are by no means inevitable. Establishmen=
+t rightists such as Bush will not be able to fight off the threat of a resu=
+rgent domestic fascism, since they appeal to the same dynamics but only dra=
+w the line at more external enemies. That's why it's not unfair to link Bus=
+h and Duke-the entire American Right uses the same basic strategy that has =
+paved the way for the legitimation of a fascist and anti-Semitic character =
+like David Duke. And liberals and progressives who refuse to take seriously=
+ the psychological and spiritual crisis of contemporary society will prove =
+no more effective in the antifascist struggle. They will hold assemblies, p=
+erhaps mobilize mass demonstrations, certainly sign petitions. But they won=
+'t look at the pain, anger, and frustration that this society has engendere=
+d-because doing this would force them to ask questions about the need for a=
+ radical restructuring and to see how much they have in common with the peo=
+ple they love to disdain-the people who are drawn to racist, anti-Semitic, =
+and aggressive nationalist ideologies. It is urgent, then, for a united fro=
+nt against fascism to concentrate on a politics of meaning and a mass of co=
+mpassion in order to resist the destructive possibilities of the coming dec=
+ades.
+
+--
+
+Rabbi Michael Lerner is editor of Tikkun magazine, chair of the interfaith =
+and secular-humanist-welcoming Network of Spiritual Progressives, and autho=
+r of 11 books including the 2006 national best seller The Left Hand of God:=
+ Taking Back Our Country from the Religious Right, Embracing Israel/Palesti=
+ne: A Strategy for Middle East Peace, and Spirit Matters.
+
+
+-----------------------------------------------------
+
+2342 Shattuck Avenue, Suite 1200, Berkeley, CA 94704
+Phone: 510-644-1200 | Fax: 510-644-1255 | www.tikkun.org
+
+Unsubscribe [ http://org.salsalabs.com/o/525/p/salsa/supporter/unsubscribe/=
+public/?Email=3DPodesta@Law.Georgetown.Edu&email_blast_KEY=3D1340731
+------=_Part_34861737_1423446169.1458085206944
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr">
+    <head>
+    </head>
+    <body>
+        <table width=3D"100%" border=3D"0" align=3D"center" cellspacing=3D"=
+0" cellpadding=3D"0">
+            <tbody>
+                <tr>
+                    <td valign=3D"top" bgcolor=3D"#133460" align=3D"center"=
+ scope=3D"row">
+                    <table border=3D"0" align=3D"center" cellspacing=3D"0" =
+cellpadding=3D"0" class=3D"container">
+                        <tbody>
+                            <tr>
+                                <th scope=3D"row"><a href=3D"http://org.sal=
+salabs.com/dia/track.jsp?v=3D2&c=3DuQqJivBZ%2FTWAzs8vy9moi5PyMjPyC4wj"><img=
+ width=3D"571" height=3D"130" class=3D"banner" alt=3D"Tikkun" src=3D"http:/=
+/org.salsalabs.com/o/525/images/banner.png" /></a></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table width=3D"100%" border=3D"0" align=3D"center" cellspacing=3D"=
+0" cellpadding=3D"0">
+            <tbody>
+                <tr>
+                    <td valign=3D"top" bgcolor=3D"#006699" align=3D"center"=
+ scope=3D"row">
+                    <table border=3D"0" align=3D"center" cellspacing=3D"0" =
+cellpadding=3D"0" class=3D"container">
+                        <tbody>
+                            <tr>
+                                <td bgcolor=3D"#006699" class=3D"nav_item" =
+style=3D"font-family: Arial,Helvetica,sans-serif; font-size: 12px; padding:=
+ 5px 0pt;" scope=3D"row"><a style=3D"color: rgb(255, 255, 255); text-decora=
+tion: none; padding: 0pt 15px;" href=3D"http://org.salsalabs.com/dia/track.=
+jsp?v=3D2&c=3DJVg1f9FNPPxc7yU5g%2BCD9JPyMjPyC4wj"><strong>SUPPORT TIKKUN</s=
+trong></a> <a style=3D"color: rgb(255, 255, 255); text-decoration: none; pa=
+dding: 0pt 15px;" href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3D=
+3CEF8m%2BYxtOULLOQD2solZPyMjPyC4wj"><strong>GET THE MAGAZINE</strong></a>&#=
+160;<a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3D%2FirGRS%2F=
+wse5S3C0HQ5bg%2BpPyMjPyC4wj" style=3D"color: rgb(255, 255, 255); text-decor=
+ation: none; padding: 0pt 15px;"><strong>JOIN THE MOVEMENT</strong></a>&#16=
+0;<a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3DpGGXy%2BDLveY=
+hhM5BNl9tSZPyMjPyC4wj" style=3D"color: rgb(255, 255, 255); text-decoration:=
+ none; padding: 0pt 15px;"><strong>SHARE ON FACEBOOK</strong></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- TemplateBeginEditable name=3D"content" -->
+        <table border=3D"0" align=3D"center" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"font-family: Arial,Helvetica,sans-serif;" class=3D"containe=
+r">
+            <tbody>
+                <tr>
+                    <td>
+                    <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"font-family: Arial,Helvetica,sans-serif; border-right: 10px solid=
+ rgb(255, 255, 255);">
+                        <tbody>
+                            <tr>
+                                <td valign=3D"top" align=3D"left">
+                                <table border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" style=3D"border-bottom: 1px solid rgb(153, 204, 204);">
+                                    <tbody>
+                                        <tr>
+                                            <td style=3D"color: rgb(0, 51, =
+102); font-size: 26px; line-height: 30px; font-weight: bold; padding-bottom=
+: 5px; padding-top: 20px;">Tikkun Throwback: <br />
+                                            Stopping David Duke and Patrick=
+ Buchanan: A Strategy for the 1990s<br />
+                                            <span style=3D"font-size: large=
+;">by Rabbi Michael Lerner || Published in Volume 7, Number 1 in 1992&#160;=
+</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td style=3D"font-size: 14px; l=
+ine-height: 17px; padding-bottom: 20px;"><!--[if gte mso 9]><xml>
+                                            0
+                                            0
+                                            1
+                                            267
+                                            1524
+                                            Tikkun Magazine
+                                            12
+                                            3
+                                            1788
+                                            14.0
+                                            </xml><![endif]-->  <!--[if gte=
+ mso 9]><xml>
+                                            Normal
+                                            0
+                                            false
+                                            false
+                                            false
+                                            EN-US
+                                            JA
+                                            X-NONE
+                                            </xml><![endif]--><!--[if gte m=
+so 9]><![endif]-->  <!--[if gte mso 10]>
+                                            <style>
+                                            /* Style Definitions */
+                                            table.MsoNormalTable
+                                            {mso-style-name:"Table Normal";
+                                            mso-style-parent:"";
+                                            font-size:12.0pt;}
+                                            </style>
+                                            <![endif]-->
+                                            <p style=3D"background:white"><=
+span style=3D"font-size:9.5pt;Times New Roman" new=3D""><br />
+                                            </span><span style=3D"font-size=
+: small;"><span style=3D"font-family: Arial;"><b><span new=3D"">MANAGING ED=
+ITOR'S NOTE: </span></b><br />
+                                            </span></span></p>
+                                            <address style=3D"line-height: =
+15.86px; font-style: normal; color: rgb(51, 51, 51); font-family: Helvetica=
+, Arial, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);=
+">
+                                            <p><span style=3D"font-family: =
+Arial;">In some ways, it&rsquo;s understandable that many Americans are sti=
+ll reeling in disbelief about the rise of racism, sexism, and xenophobia du=
+ring this presidential campaign.</span><br />
+                                            <span style=3D"font-family: Ari=
+al;"><br />
+                                            Recently, David Duke, who has b=
+een a major figure in the Klu Klux Klan, wore a Nazi uniform and spouts ant=
+i-Semitic ideas, embraced a leading candidate. Far-right ideology is more p=
+revalent in today&rsquo;s mainstream politics than in the 1990s, and some c=
+andidates today, like Duke and presidential candidate Pat Buchanan two deca=
+des ago, have tapped into the deep anger and humiliation felt by many White=
+ Americans.</span><br />
+                                            <span style=3D"font-family: Ari=
+al;"><br />
+                                            In the 30th anniversary issue o=
+f&#160;<em style=3D"line-height: 1.22em;">Tikkun</em>&#160;magazine, which =
+subscribers will receive in late summer of 2016, we are reprinting some of =
+our most enduringly valuable articles from the first decade of our 30 years=
+ of existence. I came across editor Michael Lerner&rsquo;s article on the p=
+sychodynamics that underlie the appeal that Duke and Buchanan had 25 years =
+ago and thought &ldquo;wow, this was prophetic in its time, and is extremel=
+y relevant to understanding the current realities of American politics.&rdq=
+uo;</span><br />
+                                            <span style=3D"font-family: Ari=
+al;"><br />
+                                            For example, Lerner wrote &ldqu=
+o;the problem is that liberals and progressives rarely understand this issu=
+e, rarely ask what legitimate needs are being spoken to when the fascists s=
+tart to gain a mass audience, and hence are often unable to develop an effe=
+ctive strategy to prevent the David Dukes and Patrick Buchanans of this wor=
+ld from reaching power.&rdquo;</span><br />
+                                            <span style=3D"font-family: Ari=
+al;"><br />
+                                            So instead of waiting to put th=
+e article in the magazine for late summer, I thought you might want to read=
+ it right now, on the day of major primaries in Ohio and Florida for both D=
+emocrats and Republicans &mdash; it is amazingly as relevant to this moment=
+ as it was when it was first published in&#160;<em style=3D"line-height: 1.=
+22em;">Tikkun</em>&#160;so many years ago!<br />
+                                            </span><span style=3D"font-fami=
+ly: Arial; font-size: small; line-height: 15.86px;">&#160; &#160; &#160; &#=
+160; &#160; &ndash;Ari Bloomekatz, Managing Editor,&#160;</span><em style=
+=3D"font-family: Arial; font-size: small; line-height: 1.22em;">Tikkun</em>=
+<span style=3D"font-family: Arial; font-size: small; line-height: 15.86px;"=
+>&#160;Magazine<br />
+                                            </span><span style=3D"font-fami=
+ly: Arial, Helvetica, sans-serif; font-size: small; line-height: 17px;"><sp=
+an style=3D"font-family: Arial;"><span style=3D"color: rgb(0, 0, 0);"><i>&#=
+160; &#160; &#160; &#160; &#160; &#160;&#160;<a href=3D"http://org.salsalab=
+s.com/dia/track.jsp?v=3D2&c=3DCHMmnMGuXj5z2SvRFtLuhJPyMjPyC4wj" style=3D"fo=
+nt-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 17px=
+;">Click here</a></i></span></span></span><a href=3D"http://org.salsalabs.c=
+om/dia/track.jsp?v=3D2&c=3DBZOguCYNFADb5Q7VfWnZupPyMjPyC4wj" style=3D"font-=
+family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 17px;">=
+</a><span style=3D"font-size: small; color: rgb(0, 0, 0); font-family: Aria=
+l, Helvetica, sans-serif; line-height: 17px;"><span style=3D"font-family: A=
+rial;"><i>&#160;to read this article on the web and/or&#160;</i></span></sp=
+an><a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3D0ySX1PBfvw%2=
+FJmxJRqSA8YJPyMjPyC4wj" style=3D"font-family: Arial, Helvetica, sans-serif;=
+ font-size: 14px; line-height: 17px;"></a><span style=3D"font-size: small; =
+color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; line-height=
+: 17px;"><span style=3D"font-family: Arial;"><a href=3D"http://org.salsalab=
+s.com/dia/track.jsp?v=3D2&c=3Dbw%2BU9w%2Fdeh5BuxhJCBUSMJPyMjPyC4wj"><span s=
+tyle=3D"color: rgb(0, 0, 0);"><i>click here</i></span></a><i>&#160;to share=
+ it on your Facebook.</i></span></span></p>
+                                            </address>
+                                            <p style=3D"background:white"><=
+span style=3D"font-size: small;"><span style=3D"font-family: Arial;"><stron=
+g style=3D"color: rgb(51, 51, 51); font-family: Helvetica, Arial, sans-seri=
+f; font-size: 13px; line-height: 1.22em;">An important note:&#160;<em style=
+=3D"line-height: 1.22em; font-weight: normal;">Tikkun</em>&#160;does not en=
+dorse or oppose any candidate running for political office. </strong></span=
+></span></p>
+                                            <!--[if gte mso 9]><xml>
+                                            0
+                                            0
+                                            1
+                                            4658
+                                            26554
+                                            Tikkun Magazine
+                                            221
+                                            62
+                                            31150
+                                            14.0
+                                            </xml><![endif]-->  <!--[if gte=
+ mso 9]><xml>
+                                            Normal
+                                            0
+                                            false
+                                            false
+                                            false
+                                            EN-US
+                                            JA
+                                            X-NONE
+                                            </xml><![endif]--><!--[if gte m=
+so 9]><![endif]-->  <!--[if gte mso 10]>
+                                            <style>
+                                            /* Style Definitions */
+                                            table.MsoNormalTable
+                                            {mso-style-name:"Table Normal";
+                                            mso-style-parent:"";
+                                            font-size:12.0pt;}
+                                            </style>
+                                            <![endif]-->                   =
+                                 <!--[if gte mso 9]><xml>
+                                            <o:DocumentProperties>
+                                            <o:Revision>0</o:Revision>
+                                            <o:TotalTime>0</o:TotalTime>
+                                            <o:Pages>1</o:Pages>
+                                            <o:Words>1</o:Words>
+                                            <o:Characters>8</o:Characters>
+                                            <o:Company>Tikkun Magazine</o:C=
+ompany>
+                                            <o:Lines>1</o:Lines>
+                                            <o:Paragraphs>1</o:Paragraphs>
+                                            <o:CharactersWithSpaces>8</o:Ch=
+aractersWithSpaces>
+                                            <o:Version>14.0</o:Version>
+                                            </o:DocumentProperties>
+                                            <o:OfficeDocumentSettings>
+                                            <o:AllowPNG ></o:AllowPNG>
+                                            </o:OfficeDocumentSettings>
+                                            </xml><![endif]-->  <!--[if gte=
+ mso 9]><xml>
+                                            <w:WordDocument>
+                                            <w:View>Normal</w:View>
+                                            <w:Zoom>0</w:Zoom>
+                                            <w:TrackMoves ></w:TrackMoves>
+                                            <w:TrackFormatting ></w:TrackFo=
+rmatting>
+                                            <w:PunctuationKerning ></w:Punc=
+tuationKerning>
+                                            <w:ValidateAgainstSchemas ></w:=
+ValidateAgainstSchemas>
+                                            <w:SaveIfXMLInvalid>false</w:Sa=
+veIfXMLInvalid>
+                                            <w:IgnoreMixedContent>false</w:=
+IgnoreMixedContent>
+                                            <w:AlwaysShowPlaceholderText>fa=
+lse</w:AlwaysShowPlaceholderText>
+                                            <w:DoNotPromoteQF ></w:DoNotPro=
+moteQF>
+                                            <w:LidThemeOther>EN-US</w:LidTh=
+emeOther>
+                                            <w:LidThemeAsian>JA</w:LidTheme=
+Asian>
+                                            <w:LidThemeComplexScript>X-NONE=
+</w:LidThemeComplexScript>
+                                            <w:Compatibility>
+                                            <w:BreakWrappedTables ></w:Brea=
+kWrappedTables>
+                                            <w:SnapToGridInCell ></w:SnapTo=
+GridInCell>
+                                            <w:WrapTextWithPunct ></w:WrapT=
+extWithPunct>
+                                            <w:UseAsianBreakRules ></w:UseA=
+sianBreakRules>
+                                            <w:DontGrowAutofit ></w:DontGro=
+wAutofit>
+                                            <w:SplitPgBreakAndParaMark ></w=
+:SplitPgBreakAndParaMark>
+                                            <w:EnableOpenTypeKerning ></w:E=
+nableOpenTypeKerning>
+                                            <w:DontFlipMirrorIndents ></w:D=
+ontFlipMirrorIndents>
+                                            <w:OverrideTableStyleHps ></w:O=
+verrideTableStyleHps>
+                                            <w:UseFELayout ></w:UseFELayout=
+>
+                                            </w:Compatibility>
+                                            <m:mathPr>
+                                            <m:mathFont m:val=3D"Cambria Ma=
+th" ></m:mathFont>
+                                            <m:brkBin m:val=3D"before" ></m=
+:brkBin>
+                                            <m:brkBinSub m:val=3D"--" ></m:=
+brkBinSub>
+                                            <m:smallFrac m:val=3D"off" ></m=
+:smallFrac>
+                                            <m:dispDef ></m:dispDef>
+                                            <m:lMargin m:val=3D"0" ></m:lMa=
+rgin>
+                                            <m:rMargin m:val=3D"0" ></m:rMa=
+rgin>
+                                            <m:defJc m:val=3D"centerGroup" =
+></m:defJc>
+                                            <m:wrapIndent m:val=3D"1440" ><=
+/m:wrapIndent>
+                                            <m:intLim m:val=3D"subSup" ></m=
+:intLim>
+                                            <m:naryLim m:val=3D"undOvr" ></=
+m:naryLim>
+                                            </m:mathPr></w:WordDocument>
+                                            </xml><![endif]--><!--[if gte m=
+so 9]><xml>
+                                            <w:LatentStyles DefLockedState=
+=3D"false" DefUnhideWhenUsed=3D"true"
+                                            DefSemiHidden=3D"true" DefQForm=
+at=3D"false" DefPriority=3D"99"
+                                            LatentStyleCount=3D"276">
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"0" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Normal" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"9" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"heading 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"9" QFormat=3D"true" Name=3D"heading 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"9" QFormat=3D"true" Name=3D"heading 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"9" QFormat=3D"true" Name=3D"heading 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"9" QFormat=3D"true" Name=3D"heading 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"9" QFormat=3D"true" Name=3D"heading 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"9" QFormat=3D"true" Name=3D"heading 7" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"9" QFormat=3D"true" Name=3D"heading 8" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"9" QFormat=3D"true" Name=3D"heading 9" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" Name=3D"toc 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" Name=3D"toc 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" Name=3D"toc 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" Name=3D"toc 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" Name=3D"toc 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" Name=3D"toc 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" Name=3D"toc 7" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" Name=3D"toc 8" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" Name=3D"toc 9" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"35" QFormat=3D"true" Name=3D"caption" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"10" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Title" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"1" Name=3D"Default Paragraph Font" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"11" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Subtitle" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"22" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Strong" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"20" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Emphasis" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"59" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Table Grid" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" UnhideWhenUsed=3D"false" Name=3D"Placeholder Text" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"1" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"No Spacing" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"60" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Shading" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"61" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light List" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"62" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Grid" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"63" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"64" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"65" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"66" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"67" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"68" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"69" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"70" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Dark List" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"71" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Shading" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"72" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful List" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"73" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Grid" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"60" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Shading Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"61" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light List Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"62" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Grid Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"63" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 1 Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"64" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 2 Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"65" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 1 Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" UnhideWhenUsed=3D"false" Name=3D"Revision" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"34" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"List Paragraph" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"29" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Quote" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"30" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Intense Quote" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"66" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 2 Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"67" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 1 Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"68" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 2 Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"69" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 3 Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"70" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Dark List Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"71" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Shading Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"72" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful List Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"73" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Grid Accent 1" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"60" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Shading Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"61" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light List Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"62" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Grid Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"63" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 1 Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"64" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 2 Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"65" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 1 Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"66" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 2 Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"67" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 1 Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"68" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 2 Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"69" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 3 Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"70" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Dark List Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"71" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Shading Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"72" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful List Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"73" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Grid Accent 2" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"60" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Shading Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"61" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light List Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"62" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Grid Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"63" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 1 Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"64" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 2 Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"65" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 1 Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"66" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 2 Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"67" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 1 Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"68" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 2 Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"69" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 3 Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"70" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Dark List Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"71" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Shading Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"72" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful List Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"73" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Grid Accent 3" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"60" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Shading Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"61" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light List Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"62" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Grid Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"63" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 1 Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"64" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 2 Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"65" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 1 Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"66" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 2 Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"67" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 1 Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"68" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 2 Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"69" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 3 Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"70" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Dark List Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"71" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Shading Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"72" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful List Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"73" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Grid Accent 4" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"60" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Shading Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"61" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light List Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"62" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Grid Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"63" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 1 Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"64" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 2 Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"65" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 1 Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"66" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 2 Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"67" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 1 Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"68" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 2 Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"69" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 3 Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"70" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Dark List Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"71" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Shading Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"72" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful List Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"73" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Grid Accent 5" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"60" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Shading Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"61" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light List Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"62" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Light Grid Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"63" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 1 Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"64" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 2 Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"65" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 1 Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"66" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium List 2 Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"67" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 1 Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"68" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 2 Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"69" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 3 Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"70" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Dark List Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"71" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Shading Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"72" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful List Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"73" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" Name=
+=3D"Colorful Grid Accent 6" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"19" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Subtle Emphasis" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"21" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Intense Emphasis" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"31" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Subtle Reference" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"32" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Intense Reference" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"33" SemiHidden=3D"false"
+                                            UnhideWhenUsed=3D"false" QForma=
+t=3D"true" Name=3D"Book Title" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"37" Name=3D"Bibliography" ></w:LsdException>
+                                            <w:LsdException Locked=3D"false=
+" Priority=3D"39" QFormat=3D"true" Name=3D"TOC Heading" ></w:LsdException>
+                                            </w:LatentStyles>
+                                            </xml><![endif]-->  <!--[if gte=
+ mso 10]>
+                                            <style>
+                                            /* Style Definitions */
+                                            table.MsoNormalTable
+                                            {mso-style-name:"Table Normal";
+                                            mso-tstyle-rowband-size:0;
+                                            mso-tstyle-colband-size:0;
+                                            mso-style-noshow:yes;
+                                            mso-style-priority:99;
+                                            mso-style-parent:"";
+                                            mso-padding-alt:0in 5.4pt 0in 5=
+.4pt;
+                                            mso-para-margin:0in;
+                                            mso-para-margin-bottom:.0001pt;
+                                            mso-pagination:widow-orphan;
+                                            font-size:12.0pt;
+                                            font-family:Cambria;
+                                            mso-ascii-font-family:Cambria;
+                                            mso-ascii-theme-font:minor-lati=
+n;
+                                            mso-hansi-font-family:Cambria;
+                                            mso-hansi-theme-font:minor-lati=
+n;}
+                                            </style>
+                                            <![endif]-->    <!--StartFragme=
+nt-->
+                                            <p class=3D"MsoNormal" style=3D=
+"background:white"><span style=3D"font-size:9.5pt;
+                                            font-family:Verdana;mso-fareast=
+-font-family:" times=3D"" new=3D"">-------<o:p></o:p></span></p>
+                                            <!--EndFragment-->
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman"><img s=
+rc=3D"http://org.salsalabs.com/o/525/images/1992article.jpeg" hspace=3D"4" =
+align=3D"right" alt=3D"" />It would be silly to imagine that neo-Nazism or =
+fascism is about to sweep through the U.S. in the 1990s. But the candidacie=
+s of&#160;David&#160;Duke&#160;and Patrick Buchanan for the Republican pres=
+idential nomination are likely to give new publicity and respectability to =
+only barely disguised racist, anti-Semitic, and xenophobic ideas in America=
+n politics. Right-wing extremists are creating a poisonous tendency in Amer=
+ican political discourse, as they seek to establish a pseudo-community amon=
+g the white middle class by mobilizing anger against the poor, the homeless=
+, welfare recipients, immigrants, Blacks, gays, Jews, or the Japanese, and =
+by rallying around talk about &ldquo;America first&rdquo; (the slogan of th=
+e pro-Nazi isolationists in the 1930s). The social conditions that allowed&=
+#160;David&#160;Duke&#160;to capture 55 percent of Louisiana&rsquo;s white =
+vote are likely to be more rather than less prevalent in the US. over the n=
+ext generation, and the type of politics&#160;Duke&#160;and Buchanan repres=
+ent will likely command a large audience nationwide. So this article is not=
+ particularly concerned with this year&rsquo;s election&mdash;we think it u=
+nlikely that either&#160;Duke&#160;or Buchanan will win the nomination&mdas=
+h;but with the social movements that they will be mobilizing in the years a=
+head.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">The Du=
+kes and Buchanans get some of their support from hard-core right-wingers, r=
+acists, and fascists whose character structures and ideological commitments=
+ attract them to racism, hatred, and violence. But to move beyond their har=
+d core to the much larger constituency that voted forDuke&#160;or that is l=
+istening to Buchanan, the ultrarightists have learned how to appeal to many=
+ decent Americans by speaking to real and legitimate needs, to acknowledge =
+the pain in their lives, and to give them the sense that they are being rec=
+ognized and respected. Because our goal is to find ways to dislodge this se=
+ctor of the population from the Right, we need to understand what these leg=
+itimate needs are and to speak to them in a way that separates the legitima=
+te recognition of their pain from the illegitimate expression of that pain =
+in racist or xenophobic directions.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">The pr=
+oblem is that liberals and progressives rarely understand this issue, rarel=
+y ask what legitimate needs are being spoken to when the fascists start to =
+gain a mass audience, and hence are often unable to develop an effective st=
+rategy to prevent the&#160;David&#160;Dukes and Patrick Buchanans of this w=
+orld from reaching power. Similarly, if we turn to the way that most people=
+ have been taught to think about the triumph of fascism in Europe in the 19=
+20s and 1930s, we find that few of the analyses of this critical episode in=
+ history provide us with serious answers to the question we are raising.</s=
+pan></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Instea=
+d, conventional answers to this question tended to fit the agendas of those=
+ seeking to justify various post-World War II political alignments. Western=
+ countries were anxious to rehabilitate former Nazis and to gain popular su=
+pport in Germany. A West German state, they reasoned, could face down the i=
+deological appeal of communism and withstand the potential military threat =
+of the Red Army. But to secure German loyalty, Nazism could not be portraye=
+d as arising out of something deep and abiding in the situation of the Germ=
+an people or its culture. Instead, it became popular in the West to absolve=
+ most Germans of any responsibility for what had happened by thinking of Na=
+zism as some kind of collective that had magically descended on the German =
+people in 1933, and magically disappeared in 1945. This consciousness reach=
+ed its fullest expression in President Reagan&rsquo;s visit to the Bitburg =
+cemetery in which former SS officers were buried along with other former so=
+ldiers of the Nazi army, and in the West&rsquo;s celebration of the reunifi=
+cation of Germany. We need only witness neo-Nazi skinhead attacks on immigr=
+ants to see how premature this reunification really was.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Soviet=
+ explanations of the Holocaust, meanwhile, were equally tailored to the Sov=
+iets&rsquo; need to mobilize the East German population into the cold war. =
+What caused Nazism, the communists argued, was capitalist imperialism itsel=
+f. The industrialists, preoccupied with the imminent threat of communist ru=
+le as the worldwide depression deepened, used the Nazis to keep the workers=
+ in line. In the version popularized by Bertolt Brecht in his play&#160;<i>=
+The Remarkable Rise of Arturo Ui</i>&#160;the industrialists hired a gangst=
+er, but the gangster eventually turned on his employers and took on a life =
+of his own, becoming in the process something far more ugly and sinister th=
+an the hired thug he was at the play&rsquo;s outset. The solution, then, wa=
+s simple: Eliminate the gangsters first; then uproot the capitalist system =
+that had created them. The Soviets went even further than the West in ignor=
+ing the complicity of the German population in all this. Soviet propagandis=
+ts were desperate to recruit a German population that had long been warned =
+of the horrors of Soviet rule&mdash;and that had shown a great deal of enth=
+usiasm for the Nazis.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Both o=
+f these accounts were remarkably superficial. Both denied the important rol=
+e of anti-Semitism and of the deep needs that Nazi ideology was able to exp=
+loit. And both conscientiously avoided dealing with the growing numbers of =
+Germans who voluntarily and eagerly joined the Nazi party in the late 19205=
+ and early 19305, and who formed an electoral majority for the Nazis in 193=
+2.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Unlike=
+ these cold war interpretations, the typical Zionist account had the advant=
+age of acknowledging the popular support for fascism in Germany, even thoug=
+h it then conjured up another magical concept: the supposed inevitability o=
+f gentile hatred of the Jews. Zionists quite correctly drew upon the long h=
+istory of anti-Semitism in the West to show that Nazism was not an aberrati=
+on, solely the product of its social background or historical moment. Rathe=
+r, it was a full expression of the Jew-hating in which Western politics and=
+ culture had been steeped for centuries.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">But ma=
+ny Zionists tended to essentialize anti-Semitism as a permanent fact in the=
+ consciousness of the goyim. Jews could deal with this ugly fact either by =
+making clever deals with ruling elites who might control and suppress it am=
+ong the masses, or by assuming that it might reemerge at any moment, leavin=
+g nothing to be done but secure a strong military for the Jewish State. By =
+essentializing anti-Semitism as the perennial irrational hatred of Jews, th=
+e Zionists avoided the question of what could be done to combat its rise. R=
+ather, the only relevant question became: What do we do to give strength to=
+ the State of Israel, a place to which the victims can escape?</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">If esc=
+ape is one extreme, based on a pessimistic assessment of the fundamental st=
+upidity or evil of those attracted to the Right, the other extreme was take=
+n up in the twenties and thirties by the communist Left in Germany. The CP =
+correctly noted that German capital- ism required imperialism. Since the wo=
+rld&rsquo;s markets were already dominated by the U.S., England, and France=
+, German capitalists had only two choices: either allow the current depress=
+ion to continue, with the inevitable radicalization of the population in wa=
+ys that might lead to socialist revolution; or resist the ruinous program o=
+f reparations and trade restrictions the victorious powers imposed on Germa=
+ny after World War I, in which case an aggressive German nationalism would =
+have to be re, stored to its former prestige. The CP concluded that since t=
+he aggressive nationalism was the inevitable outcome of capitalist rule, th=
+e only solution was to preach immediate revolution. And since Germany&rsquo=
+;s large Social Democratic party did not favor such a revolution, the Socia=
+l Democrats, and not the Nazis, were deemed the real enemy: In blocking a r=
+evolution they were condemning Germany to a capitalist regime that would ne=
+cessarily lead the country into fascism.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Howeve=
+r, both the Social Democrats and the Communists failed to understand that H=
+itler was growing in popularity not only because of Germany&rsquo;s despera=
+te economic situation, but also because he spoke to a set of&#160;<i>other<=
+/i>&#160;needs that the socialists could not begin to understand. After all=
+, if it were solely economic issues that motivated Hitler&rsquo;s supporter=
+s, the Communist program had as much to offer as the fascist one did. In fa=
+ct, the fascists put themselves forward as national socialists&mdash;that i=
+s, as a force that, like the Left, would combat the power of the capitalist=
+ class. Once they took power and consolidated their hold on government and =
+society, the Nazis also became reconciled with Germany&rsquo;s industrialis=
+ts. Nonetheless, the Nazis drew some of their mass appeal from their image =
+as enemies of Germany&rsquo;s business elite.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">But th=
+e fascists added to the economic picture an understanding of the deep humil=
+iation and sense of powerlessness that most people were feeling as they fac=
+ed the unemployment and inflation of the post-World War I years. These econ=
+omic humiliations were coupled with a deep spiritual and ethical crisis tha=
+t characterized German society under the Weimar Republic. The values of the=
+ feudal past had collapsed rapidly, but what seemed to be replacing them wa=
+s an ethos of extreme self-interest, profligate sexuality, moral relativism=
+, and family collapse. The older communities that formerly gave mooring and=
+ direction to life were rapidly disintegrating, or perceived themselves to =
+be under un- relenting attack. To be sure, some of the resistance to the cu=
+ltural revolution of the 1920s was based on a reactionary longing for a pas=
+t that was oppressive to most or for the security that patriarchy offered. =
+But not all of this resistance was simply reactionary. Some of it was based=
+ on a correct assessment that the new society emerging in Germany was oppre=
+ssive in a different way. Those who still felt some allegiance to precapita=
+list values sensed that Weimar society provided little opportunity for many=
+ people to feel good about themselves, or to feel confident that what they =
+bad managed to achieve for themselves in their work, family life, and commu=
+nity was likely to survive the winds of change.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">In the=
+se circumstances, the fascist Right has developed a formula that wins it co=
+nsiderable mass appeal, and that, under some conditions, allows it to gain =
+power. First, it validates these concerns. Second, it proposes that people =
+can overcome the alienation they experience in daily life by becoming part =
+of a fantasized community&mdash;the powerful Nation. But in fact, the exper=
+ience of being part of the Nation doesn&rsquo;t work for very long, because=
+ after the parades and the song-fests and spectacles, people return to the =
+alienating workplaces and oppressive family relations that shape their dail=
+y lives. The Nation, in other words, is a fantasized community&mdash;provid=
+ed as an&#160;<i>alternative</i>&#160;to changing the oppressive institutio=
+ns of daily life. So, when people&rsquo;s pain and alienation returns, we g=
+o to part three of the fascist program: the identification of an Enemy, who=
+ has somehow insinuated itself into the daily life of the nation and underm=
+ined the experience of solidarity and mutual caring that supposedly would h=
+ave been there otherwise. This Enemy is typically the Jew or the Communist,=
+ but also, in the case of&#160;David&#160;Duke&rsquo;s American brand of pr=
+otofascism, the Blacks (now carefully identified in speeches with such code=
+d references as &ldquo;welfare cheats&rdquo; or &ldquo;beneficiaries of was=
+teful government pro- grams&rdquo;). Whichever identity this Enemy assumes,=
+ it must be rooted out if the people of the nation are to achieve the human=
+ satisfactions and community that they seek.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">An int=
+elligent Left in Germany would have started by acknowledging that the exper=
+iences of pain and powerlessness and under-confirmation of people&rsquo;s b=
+eing was real. And instead of simply talking about economic solutions and p=
+olitical revolution, leaders of this Left would have tried to create progra=
+ms that immediately spoke to the pain, frustration, alienation, and under-c=
+onfirmation that people were experiencing.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">George=
+ Mosse, the renowned historian of fascism, suggests in his book Masses and =
+Man (Wayne State University Press, 1987) that the Left may also need to con=
+sider ways to develop a progressive and humane nationalism. Certainly one m=
+ight argue that progressive forces could have legitimately affirmed some el=
+ements of German national culture. Certainly the communist internationalism=
+ that the Left envisioned as the only alternative to German nationalism was=
+ itself already dominated by Stalinist totalitarianism and thus presented, =
+at best, a dubious substitute for a progressive version of a usable German =
+past.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">But th=
+is analysis raises a host of more basic, theoretical questions. What, first=
+ of all, would a progressive nationalism look like? It would, of course, ha=
+ve to move beyond the fantasy nature of reactionary nationalisms. By valida=
+ting the humane, life-affirming, and morally sensitive aspects of the tradi=
+tion and culture in which it is rooted, it would also directly challenge ra=
+cist and national chauvinist accounts of the pain and powerlesness in peopl=
+e&rsquo;s lives by providing alternative explanations. Progressive national=
+ists would identify the current structures of the competitive marketplace a=
+nd of patriarchal society most responsible for making daily life unfulfilli=
+ng and alienating.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">There =
+are real risks in identifying with&#160;<i>any</i>&#160;nationalism&mdash;a=
+nd you can see grim testimony to those risks in the other pieces in this sp=
+ecial section of the magazine. Thus we might consider addressing some of th=
+e same concerns in another form. For example, I&rsquo;ve suggested that the=
+ American Left adopt a progressive profamily program that would substantial=
+ly address the same issues of alienation, powerlessness, and self-blame tha=
+t a progressive nationalism would seek to address&mdash;and yet avoid some =
+of the problematic features of nationalism (though I acknowledge that much =
+of my argument could also be used to support an attempt to develop a progre=
+ssive appropriation of national symbols of history). Once again, we start b=
+y acknowledging that people are correct to feel that there is a real proble=
+m in family life and that people&rsquo;s desire for long-term loving and co=
+mmitted relationships is a legitimate desire. We then try to separate these=
+ legitimate concerns from the reactionary elements of family life that the =
+Right has appealed to&mdash;the oppressive patriarchal order, the insistenc=
+e on only one &ldquo;correct&rdquo; form of family life, the attempt to sti=
+gmatize gays and feminists.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">A prog=
+ressive profamily program would include gay families and single-parent fami=
+lies. And rather than idealize the pathologies that afflict many existing f=
+amilies, it would acknowledge the pain and stress that often distorts famil=
+y life, and would then help people understand this pain as part of a larger=
+ set of competitive, market-dominated social relations. People are rewarded=
+ in the marketplace precisely because they succeed in manipulating and cont=
+rolling others. Yet these very qualities, embodied in the &ldquo;smooth ope=
+rators&rdquo; and &ldquo;cool people&rdquo; who &ldquo;make it&rdquo; in th=
+e competitive marketplace create narcissistic personalities: precisely the =
+character types that are unable to make long-term loving commitments in fam=
+ily life, or even in friendships. Even when they genuinely wish to achieve =
+intimacy, they don&rsquo;t know how to stop manipulating and attempting to =
+control the very people they wish to have as lovers or friends. And the str=
+ess that people experience in the world of work&mdash;a direct function of =
+the way that work gives people little opportunity to fulfill their capaciti=
+es for creativity, intelligence, cooperation, and self-determination&mdash;=
+is brought home into family life. There it often erupts in irritability, de=
+pression, insensitivity, or a general lack of energy and awareness, each of=
+ which works to undermine loving relationships. This is just one realm&mdas=
+h;albeit an extremely important one&mdash;in which the Left could develop w=
+hat I call a politics of meaning. This isn&rsquo;t a question merely of pro=
+viding a set of economic benefits to families or to provide family rights (=
+though I think we should&#160;<i>also</i>&#160;develop a Bill of Rights for=
+ workers and for families). Rather, it&rsquo;s a question of helping people=
+ understand why it&rsquo;s so hard to build loving relationships, acknowled=
+ging their pain, helping them to stop blaming themselves, and allowing them=
+ to see that some personal problems are rooted in societal pathologies. Onc=
+e the Left begins to address the pains of daily life, it can provide many d=
+eeper and ultimately more fulfilling ways for people to understand what is =
+actually bothering them.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">The ex=
+act way the Left might have applied this kind of thinking to the Europe of =
+the late twenties and early thirties might be debated. But what I have been=
+ arguing is that this whole way of thinking&mdash;this entire confrontation=
+ with the question of what was hurting people&rsquo;s daily lives and how t=
+hat pain was transformed into rage at &ldquo;the Other&rdquo;&mdash;was abs=
+ent and as a result, the Left had no plausible way to fight the ascent of f=
+ascism.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">That s=
+ame error has emerged in the Left&rsquo;s response to the growth of the rad=
+ical Right in the seventies and eighties in the U.S., and to the growth of&=
+#160;Duke-style fascism in the nineties. If current trends continue, many o=
+f this country&rsquo;s leading industrial corporations will move manufactur=
+ing jobs out of the US. The huge debts generated by the reckless military S=
+pending of the Reagan and Bush years will thwart the development of an econ=
+omic and educational infrastructure that could give the U.S. a competitive =
+advantage in the emerging scientific and technological revolutions in produ=
+ction. As a result, the standing of the U.S. in the international capitalis=
+t market will continue to slip. Growing unemployment and inflation will pro=
+duce a sense of general despair about the future. One plausible Left respon=
+se to such conditions would be to push for a worldwide system of rational p=
+lanning&mdash;both to deal with the ecological crisis that threatens to des=
+troy the entire world, and to prevent a new clash between rival nationalism=
+s. A progressive approach to international planning would require both a re=
+fined ecological sensitivity and a fair allocation of the world&rsquo;s res=
+ources and productive capacities, advantaging countries equally, taking int=
+o account the needs of the Third World as well as of the advanced industria=
+l societies. Without such an international plan, we are likely to face a tw=
+enty-first century plagued by ecological disasters and competing economic n=
+ationalisms. And it is not unthinkable that the U.S., unable to rely on its=
+ waning superiority in science, engineering, and productive technology, wou=
+ld be tempted to turn to the one arena where it&#160;<i>has</i>&#160;commit=
+ted its resources: military superiority. Justifying a new aggressive nation=
+alism would require some kind of popular movement&mdash;and here the&#160;D=
+uke-type forces, perhaps shielded by the Republican party&rsquo;s right win=
+g, would play an important role.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">An alt=
+ernative economic solution that required&#160; international planning and r=
+ational use of the world&rsquo;s resources would benefit everyone, and migh=
+t save the world from ecological disaster. But such a solution will be impo=
+ssible to implement as long as the U.S. government is dominated by a corpor=
+ate elite more interested in its own freedom to maximize profits than in th=
+e long-term well-being of the society as a whole. For some corporate leader=
+s, the possibility of moving their capital to more productive countries is =
+an adequate solution; for others, the possibility of using American militar=
+y power to back their corporate interests provides the necessary insurance.=
+ But few corporate leaders are willing to use America&rsquo;s current stren=
+gth to push the other capitalist countries into any plan of long-term coope=
+ration.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">If we =
+want the U.S. government to use its power to help mold an international pla=
+n, we need to found a popular social movement to challenge the entrenched p=
+owers that serve the interests of the corporations. The promise of this kin=
+d of movement has always been what lies behind the appeal of the populists,=
+ those who tried to articulate popular resentments against the entrenched i=
+nterests.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Our ta=
+sk in the U.S. is to create a populism that does not appeal to the racism, =
+sexism, and national chauvinism that have disfigured right-wing and fascist=
+ic forms of populism. To do this, we need to address the&#160;<i>crisis</i>=
+&#160;<i>in meaning</i>: the forces that cause people to feel alienated, de=
+void of meaning and purpose, lacking in community, and unrecognized. Listen=
+ing to some of the in-depth interviews that Were done with people who voted=
+ for&#160;David&#160;Duke&#160;in 1991, we hear over and over again variati=
+ons of one theme: &ldquo;I am here, I count, and&#160;David&#160;Duke&#160;=
+made me feel that he was the only one who noticed that.&rdquo; Underlying t=
+his assertion is the pain of people who feel that their cares and concerns =
+are receiving little validation or attention.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Of cou=
+rse, liberals, progressives, and many of the community-relations profession=
+als of the Jewish world respond to this critique by saying something like t=
+his: &ldquo;Sure, there is underlying pain, but that pain is deeply embedde=
+d in racism and anti-Semitism, and we can&rsquo;t make any compromises with=
+ those kinds of feelings.&rdquo; But this misses the point. To validate the=
+ pain is&#160;<i>not</i>&#160;to validate the racism, but to try instead to=
+ drive a wedge between the legitimate pains and illegitimate racist and fas=
+cist solutions, precisely in order to&#160;<i>defeat</i>&#160;racism and an=
+ti-Semitism.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">The li=
+beral and progressive responses typically lead to one of two strategies: el=
+iminate the economic problems and we will eliminate the potential for fasci=
+sm; or outlaw racism and coerce those who practice it with economic or poli=
+tical pressure. But both strategies are unlikely to work. America&rsquo;s e=
+conomic problems cannot be solved in the long run unless we talk about limi=
+ting the freedom of the marketplace and creating real international coopera=
+tion and planning. Yet at the same time, liberal Democrats and corporate le=
+aders will be represented prominently in any antifascist coalition. They wi=
+ll totally oppose this direction, and can be expected to use their consider=
+able power to prevent anyone from making it part of the antifascist strateg=
+y. So instead we will be treated to a variety of stop-gap economic spending=
+ programs that may temporarily reduce unemployment, but will not work to re=
+verse the larger trend of American economic decline. And ironically, conser=
+vatives will cite the failure of these measures as further proof that any g=
+overnmental program will necessarily fail, and hence convince people that w=
+hat we need is less planning rather than more.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">On the=
+ other hand, the second set of liberal remedies&mdash;legal constraints to =
+punish racist and discriminatory practices&mdash;won&rsquo;t work. We live =
+in a democracy; and the more racist ideas are able to win popular support, =
+the more we will have right-wing judges and legislators dismantling the pro=
+grams that had served previously as constraints on both racism and fascism.=
+</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Given =
+this dead end in traditional liberal politics, there&rsquo;s no real altern=
+ative but to win popular support for a progressive populist program. To do =
+so, progressive populism must go far beyond visionary plans for an internat=
+ional planned economy, and directly address the pain of daily life. A progr=
+essive profamily program, a progressive approach to the world of work, and =
+a progressive nationalism may all be elements in such a populism. And a ser=
+ious antifascist program must show people that we care about their lives, n=
+ot just that we believe in some abstract sense in their &ldquo;rights&rdquo=
+; or &ldquo;equal opportunity.&rdquo; We must speak concretely to what is a=
+ctually happening in their family lives, and to the sense of loss that affl=
+icts the communities they inhabit. We will be successful when we can help p=
+eople understand the pain they experience in their daily lives. This pain t=
+akes many forms: the sense of abandonment the elderly feel when they are de=
+nied respect, caring, and gratitude from their children or when they sense =
+their children have rejected wholesome values and have become selfish and i=
+nsensitive. Or it surfaces again in the feelings that haunt many of our per=
+sonal relations: the sense that we have fewer friendships that we can count=
+ on, or that our marriages and families are likely to collapse. Or it could=
+ be the painful realization that work has proved to be a &ldquo;dead end&rd=
+quo; and feels dull and alienating. We must begin to acknowledge the centra=
+l importance of all these pains in our political life. And we must clearly =
+convey that we understand and care about such pain, and have ideas about ho=
+w it can be alleviated.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Ultima=
+tely, the struggle against fascism is a struggle for the minds and hearts o=
+f the American people. To win, we need to acknowledge that the moral relati=
+vism and spiritual deadness of the contemporary world is indeed something t=
+hat needs to be fought&mdash;and that these ills are products of the reduct=
+ionist logic of capitalist materialism. Similarly, we must work to create t=
+housands of consciousness-raising groups in workplaces and communities that=
+ will encourage people to understand their personal pain in its full social=
+ context. The Left must also redesign and adopt the technologies of individ=
+ual transformation, so well utilized both by the twelve-step programs of th=
+e therapeutic recovery movement, and by many organizations on the Right to =
+empower and mobilize people to a different kind of politics. The Left can a=
+lso appropriate national symbols and national mythology in public events th=
+at reflect a progressive program of social change. Imagine, for example, pu=
+blic events in every community in the U.S. to celebrate the Bill of Rights,=
+ and to encourage communities to develop their conceptions of a fuller sens=
+e of human rights applicable to the twenty-first century. In the 1980s, we =
+at the Institute for Labor and Mental Health developed a Family Day for the=
+ city of Oakland, which thousands of people attended. Imagine a similar yea=
+rly event in every major U.S. city aimed at helping people recognize that m=
+any of the problems they face in family life are actually rooted in larger =
+social ills that a progressive program was designed to change.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">These =
+consciousness-raising aspects of a politics of meaning would find concrete =
+applications in a set of programs aimed at reshaping our society so that da=
+ily life would enhance our abilities to be loving, creative, and caring hum=
+an beings. These changes would include democratization of the world of work=
+, a government re- structured to emphasize person-to-person caring activiti=
+es over the workings of an impersonal bureaucracy, and schools that teach v=
+alues and nurture spiritual and ethical sensitivities. The economy, meanwhi=
+le, should be restructured toward cooperative and caring behavior. That suc=
+h a society would be more likely to be productive and competitive in the in=
+ternational market of the twenty-first century is an important by-product, =
+but not the major goal, of a transformative and compassionate politics of m=
+eaning. And a progressive politics that showed this kind of caring for the =
+American people would&#160;<i>win</i>. The Left could then be in a position=
+ to push for international economic planning that could reverse the steady =
+decline of the economic wellbeing into the next century. Unlike the right-w=
+ing and fascist programs that can only provide a fantasized community, the =
+democratic restructuring that our program calls for would actually create a=
+ less alienated and more fulfilling daily life. Yet only our willingness to=
+ recognize people&rsquo;s pain, and to help them overcome self-blaming, cou=
+ld possibly put us in a position where we would have the power to restructu=
+re the society in a humane way.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">Call t=
+his approach a mass of compassion. But it is&#160;<i>not</i>&#160;the liber=
+al compassion that merely doles out to the most economically oppressed a se=
+t of economic entitlements. On the contrary, this kind of compassion starts=
+ from a recognition that the same kind of pain that afflicts those attracte=
+d to the Right also afflicts the rest of us. Indeed, those on the Left are =
+often in as much trouble and pain as those on the Right. Liberals and progr=
+essives have developed their own ways of dealing with that pain, e.g. psych=
+otherapy, recreational drugs, sexual &ldquo;acting out.&rdquo; Such solutio=
+ns may be, on the whole, less socially destructive than the fascist counter=
+parts that emerge on the Right, but the fact is that we are&#160;<i>not</i>=
+&#160;on a different planet or in a different universe than those who ended=
+ up voting for&#160;David&#160;Duke. Recognizing this fact would be the fir=
+st step toward a politics of compassion: If we could allow ourselves to rea=
+lly understand this, we would not project the elitist image that so infuria=
+tes the people whom we allegedly wish to reach. Yet this may be the hardest=
+ point of all for liberals and leftists to accept: They are so addicted to =
+their sense of moral superiority that they often prefer it to political vic=
+tory. Yet in fighting the potential fascisms of the coming decades, we cann=
+ot afford this self-indulgence. Morality yes, superiority no. The best way =
+to avoid this temptation is to confront our own lives deeply, acknowledge o=
+ur own pain, frustration, and vulnerability, and begin to understand the wa=
+ys that these feelings are similar to the pains of many who describe their =
+experiences in right-wing language.</span></p>
+                                            <p style=3D"margin-bottom:15.0p=
+t;background:white"><span style=3D"font-size:10.0pt;Times New Roman">A unit=
+ed front against fascism, then, must be based on a real alternative to fasc=
+ism&mdash;not just an analysis of why fascism is bad or what it has led to =
+in the past, but a substantive view of how to reorder our society in ways t=
+hat relieve the pain that leads people to embrace fascism in the first plac=
+e. It was not inevitable that the fascists would win in 1928 in Europe. The=
+ir ascent could have been blocked, had people developed a compassionate str=
+ategy that addressed the kinds of concerns I&rsquo;ve outlined here. And wh=
+ile the Dukes of the world are inevitably going to be part of the political=
+ discourse of the 1990s, their victories are by no means inevitable. Establ=
+ishment rightists such as Bush will not be able to fight off the threat of =
+a resurgent domestic fascism, since they appeal to the same dynamics but on=
+ly draw the line at more external enemies. That&rsquo;s why it&rsquo;s not =
+unfair to link Bush and&#160;Duke&mdash;the entire American Right uses the =
+same basic strategy that has paved the way for the legitimation of a fascis=
+t and anti-Semitic character like&#160;David&#160;Duke. And liberals and pr=
+ogressives who refuse to take seriously the psychological and spiritual cri=
+sis of contemporary society will prove no more effective in the antifascist=
+ struggle. They will hold assemblies, perhaps mobilize mass demonstrations,=
+ certainly sign petitions. But they won&rsquo;t look at the pain, anger, an=
+d frustration that this society has engendered&mdash;because doing this wou=
+ld force them to ask questions about the need for a radical restructuring a=
+nd to see how much they have in common with the people they love to disdain=
+&mdash;the people who are drawn to racist, anti-Semitic, and aggressive nat=
+ionalist ideologies. It is urgent, then, for a united front against fascism=
+ to concentrate on a politics of meaning and a mass of compassion in order =
+to resist the destructive possibilities of the coming decades.</span><br />
+                                            <span style=3D"font-size:10.0pt=
+;Times New Roman">--<br />
+                                            </span><span style=3D"font-size=
+: small;"><span style=3D"font-family: Arial;"><b>Rabbi Michael Lerner</b> i=
+s editor of&#160;<i>Tikkun</i>&#160;magazine, chair of the interfaith and s=
+ecular-humanist-welcoming Network of Spiritual Progressives, and author of =
+11 books including the 2006 national best seller&#160;T<i>he Left Hand of G=
+od: Taking Back Our Country from the Religious Right</i>,&#160;<i>Embracing=
+ Israel/Palestine: A Strategy for Middle East Peace</i>, and&#160;<i>Spirit=
+ Matters</i>.<br type=3D"_moz" />
+                                            </span></span></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- TemplateEndEditable -->
+        <table width=3D"100%" border=3D"0" align=3D"center" cellspacing=3D"=
+0" cellpadding=3D"0">
+            <tbody>
+                <tr>
+                    <td valign=3D"top" bgcolor=3D"#006699" align=3D"center"=
+ scope=3D"row">
+                    <table border=3D"0" align=3D"center" cellspacing=3D"0" =
+cellpadding=3D"0" class=3D"container">
+                        <tbody>
+                            <tr>
+                                <td bgcolor=3D"#006699" class=3D"nav_item" =
+style=3D"font-family: Arial,Helvetica,sans-serif; font-size: 12px; padding:=
+ 5px 0pt;" scope=3D"row"><a href=3D"http://org.salsalabs.com/dia/track.jsp?=
+v=3D2&c=3DRmFjojx1m70WTliy%2FCQL%2BZPyMjPyC4wj" style=3D"color: rgb(255, 25=
+5, 255); text-decoration: none; padding: 0pt 15px;"><strong>SUPPORT TIKKUN<=
+/strong></a>&#160;<a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=
+=3DvDyjmQFD5ueoW7MVbSPJepPyMjPyC4wj" style=3D"color: rgb(255, 255, 255); te=
+xt-decoration: none; padding: 0pt 15px;"><strong>GET THE MAGAZINE</strong><=
+/a>&#160;<a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3DjHjnoN=
+NOLXelgjJDuH6Uh5PyMjPyC4wj" style=3D"color: rgb(255, 255, 255); text-decora=
+tion: none; padding: 0pt 15px;"><strong>JOIN THE MOVEMENT</strong></a>&#160=
+;<a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3DxM8XAYe4V6sKSA=
+5jJkakIf1DXNEgtfot" style=3D"color: rgb(255, 255, 255); text-decoration: no=
+ne; padding: 0pt 15px;"><strong>SHARE ON FACEBOOK</strong></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table width=3D"100%" border=3D"0" align=3D"center" cellspacing=3D"=
+0" cellpadding=3D"0">
+            <tbody>
+                <tr>
+                    <td valign=3D"top" bgcolor=3D"#133460" align=3D"center"=
+ scope=3D"row">
+                    <table border=3D"0" align=3D"center" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"font-family: Arial,Helvetica,sans-serif; color: =
+rgb(255, 255, 255); font-size: 12px; line-height: 16px;" class=3D"container=
+">
+                        <tbody>
+                            <tr>
+                                <td align=3D"center" scope=3D"row" style=3D=
+"padding-top: 10px; padding-bottom: 10px;"><strong>2342 Shattuck Avenue, Su=
+ite 1200, Berkeley, CA 94704<br />
+                                Phone: 510-644-1200 | Fax: 510-644-1255 | <=
+a style=3D"color: rgb(255, 255, 255);" href=3D"http://org.salsalabs.com/dia=
+/track.jsp?v=3D2&c=3DU61bvn7xadssERsSrXVi9JPyMjPyC4wj">www.tikkun.org</a><b=
+r />
+                                <a href=3D"http://org.salsalabs.com/dia/tra=
+ck.jsp?v=3D2&c=3DEld89bRHXdBDIADzPmjmepPyMjPyC4wj" style=3D"color: rgb(255,=
+ 255, 255);">Unsubscribe</a> | <a href=3D"http://org.salsalabs.com/dia/trac=
+k.jsp?v=3D2&c=3DdB1s1AQMp9EXKCJjOfwD5ZPyMjPyC4wj" style=3D"color: rgb(255, =
+255, 255);">Contact Us</a> |   <a href=3D"http://org.salsalabs.com/dia/trac=
+k.jsp?v=3D2&c=3DphKvQQBU2nGXheAjeH%2FZe5PyMjPyC4wj" style=3D"color: rgb(255=
+, 255, 255);">Intern or Volunteer</a></strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <div style=3D'text-align:center;'><a href=3D'http://www.salsalabs.com/?=
+email'><img alt=3D'empowered by Salsa' src=3D'https://hq.salsalabs.com/sals=
+a/images/SALSA_empowered_180x50_2.png' border=3D'0'/></a></div></body>
+</html><img width=3D1 height=3D1 src=3D"http://org.salsalabs.com/dia/TrackI=
+mage?key=3D3522304968"><diaEmailID=3D'3522304968' thread=3D11397 />
+------=_Part_34861737_1423446169.1458085206944--

@@ -1,0 +1,1275 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp1716635lfb;
+        Mon, 7 Mar 2016 12:53:00 -0800 (PST)
+X-Received: by 10.50.59.212 with SMTP id b20mr13021032igr.30.1457383980875;
+        Mon, 07 Mar 2016 12:53:00 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bl2-obe.outbound.protection.outlook.com (mail-bl2on0060.outbound.protection.outlook.com. [65.55.169.60])
+        by mx.google.com with ESMTPS id n6si14681837igk.95.2016.03.07.12.53.00
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 07 Mar 2016 12:53:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 65.55.169.60 as permitted sender) client-ip=65.55.169.60;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 65.55.169.60 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=pass header.i=@gulaw.onmicrosoft.com;
+       dkim=fail header.i=@mail.salsalabs.net
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gulaw.onmicrosoft.com;
+ s=selector1-law-georgetown-edu;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=8UWUvaFAg6ZgXz5MjCOTA/TSvzFOIeTzCR2x9P2VXpU=;
+ b=uSuSJf8A+vjmoGc6vBTG+KJKyXUzelyEpa91jqYqpoj+x37YEm/5BFKNyNOJRduJghMfnCMcXnm7zLoEnFjJMJK1drBgbaliLZh+SMt5Ui2M9N/jxzeWwKzaUApXLunPd86EiaiBal5VWcfWG97ZiNMM9sR32R4AFva0HX3uHCo=
+Received: from DM2PR07CA0023.namprd07.prod.outlook.com (10.141.52.151) by
+ BLUPR07MB625.namprd07.prod.outlook.com (10.141.207.139) with Microsoft SMTP
+ Server (TLS) id 15.1.415.20; Mon, 7 Mar 2016 20:52:58 +0000
+Received: from BY2FFO11FD051.protection.gbl (2a01:111:f400:7c0c::162) by
+ DM2PR07CA0023.outlook.office365.com (2a01:111:e400:2414::23) with Microsoft
+ SMTP Server (TLS) id 15.1.427.16 via Frontend Transport; Mon, 7 Mar 2016
+ 20:52:57 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=mail.salsalabs.net;gmail.com; dmarc=none action=none
+ header.from=earthday.org;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.74;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ BY2FFO11FD051.mail.protection.outlook.com (10.1.15.188) with Microsoft SMTP
+ Server (TLS) id 15.1.427.7 via Frontend Transport; Mon, 7 Mar 2016 20:52:57
+ +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-by2-obe.outbound.protection.outlook.com (141.161.191.14)
+ by LAW-CAS1.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Mon, 7 Mar 2016 15:51:16 -0500
+Received: from BLUPR07CA078.namprd07.prod.outlook.com (10.160.24.33) by
+ CO2PR07MB635.namprd07.prod.outlook.com (10.141.228.18) with Microsoft SMTP
+ Server (TLS) id 15.1.409.15; Mon, 7 Mar 2016 20:51:09 +0000
+Received: from BN1AFFO11FD029.protection.gbl (2a01:111:f400:7c10::164) by
+ BLUPR07CA078.outlook.office365.com (2a01:111:e400:8ae::33) with Microsoft
+ SMTP Server (TLS) id 15.1.427.16 via Frontend Transport; Mon, 7 Mar 2016
+ 20:51:08 +0000
+Authentication-Results: spf=pass (sender IP is 69.174.83.197)
+ smtp.mailfrom=bounces.salsalabs.net; law.georgetown.edu; dkim=pass (signature
+ was verified) header.d=mail.salsalabs.net;law.georgetown.edu; dmarc=none
+ action=none header.from=earthday.org;
+Received-SPF: Pass (protection.outlook.com: domain of bounces.salsalabs.net
+ designates 69.174.83.197 as permitted sender)
+ receiver=protection.outlook.com; client-ip=69.174.83.197;
+ helo=m197.salsalabs.net;
+Received: from m197.salsalabs.net (69.174.83.197) by
+ BN1AFFO11FD029.mail.protection.outlook.com (10.58.52.184) with Microsoft SMTP
+ Server (TLS) id 15.1.427.7 via Frontend Transport; Mon, 7 Mar 2016 20:51:08
+ +0000
+Return-Path: podesta@law.georgetown.edu
+DKIM-Signature: v=1; a=rsa-sha1; d=mail.salsalabs.net; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; i=@mail.salsalabs.net; t=1457383868;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=h4NjPwhhVZ0r31JMF9FjGUP/4fs=;
+	b=0ngEuMlLYFfZSLoXDJCL9dlpyMUkVuA1degbCwdivDjzKUoWi78xOJ6bXcKI/Ijr
+	TI5f/hnJhSsZ595FSgAAKn0NhykpKm8W6X5LHRYFiEFsNZOHz6fTUSHMna1DIfSo
+	e5XZ2uj02byhckAxkY+T0RL865CwfYJEAvnyS9AEf8I=;
+Received: from [10.174.83.201] ([10.174.83.201:59141]
+ helo=dispatch10.salsalabs.net)	by mailer2.salsalabs.net (envelope-from
+ <3513814706-1340116-org-orgDB@bounces.salsalabs.net>)	(ecelerity 3.5.10.45038
+ r(Core:3.5.10.0)) with ESMTP	id 0E/3F-08628-CB9EDD65; Mon, 07 Mar 2016
+ 15:51:08 -0500
+Date: Mon, 7 Mar 2016 15:51:08 -0500
+From: Earth Day Network <earthinfo@earthday.org>
+Sender: <earthinfo=earthday.org@mail.salsalabs.net>
+Reply-To: <earthinfo@earthday.org>
+To: podesta@law.georgetown.edu
+Message-ID: <3513814706.2123987681@org.orgDB.reply.salsalabs.com>
+Subject: =?UTF-8?Q?EDN's_March_Updates_=E2=80=93_46_Days_Until_#EarthDay2016!?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_38738529_1202783058.1457383868188"
+Envelope-From: <3513814706-1340116-org-orgDB@bounces.salsalabs.net>
+List-Unsubscribe: <http://org.salsalabs.com/o/1807/p/salsa/supporter/unsubscribe/public/index.sjs?Email=podesta@law.georgetown.edu&email_blast_KEY=1340116>
+X_email_KEY: 3513814706
+X-campaignid: salsaorg1807-1340116
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CIP:69.174.83.197;IPV:NLI;CTRY:US;EFV:NLI;SFV:SPM;SFS:(31580200002)(31610200002)(3000300001)(1060300003)(438002)(359002)(596005)(286005)(199003)(349900001)(349012);DIR:INB;SFP:;SCL:9;SRVR:CO2PR07MB635;H:m197.salsalabs.net;FPR:;SPF:Pass;MLV:ovr;A:1;MX:1;PTR:m197.salsalabs.net;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD029;1:Tqe1ifTXrsp/3C8KsItfpo/ZIj32A33W0bcNUiHYbDIfIej++L9BdC6cgZ9pkGtVQZoS7Qz4nbWRWalli3fIZi2DWcnGwpVT81uwoh1VpzjAA6XoaFEE5A1QOH1UO/+LBYUEs2hzQW1NzVK8PfTFV65ZUI56vBKA2Vqgff0pA+lLJJ64ZYZDdR7HFNBEz9lFFwnJFxwSxoxQQw0xxuaX3tEJ6VPwItZBifXXWWtJQIa2lY0fwvT8XNGxw1bFa57SLVJuztW8DUf4WTOoX3amkINlGa9aB3M+p0c8xevs4ZPHHKnAsdDNq6YmXePE2b2zzLrn7Q1IMSuJEUyzIrPPN0tayx3aFgYRItbApaS2Oh3jJvy9c+jbhqw+iz1WG8weSXrQOt7uto6m+WARuJBRwItHUsqEHSvI6j9AVFv+RoBeH1PjXfuKDIVfohs4jAKik570rmBpy0x2IEuR4RIOv45P328pClsOsKWTP53VKPk=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB635;2:sQSTaNJPB2mrLpC2xCFNgyaIuK2iSUoGDYYBPauPJpy6wI6SUdbTsIFKxk7eWLS10ZTXjDLfGz8YLASl0y5DEW+V9SM+udeIVtSq+Fny9biwuJSZyhJB3jlAmV8S1dN8bItdQ3KcKSkBNq5JAEgJpg==;3:ySdPNy8hAhQpMuZ0QuKeLDqkHGJtm4z/ob/9/lfiQBJKixCXsI26tZYPTV9tlFGht3lsy3IRocYQueruobdYgIhFPHwISd0y5bXDQ9GLZPNwz7NNmBrk2r3hnz2zzWQwpUCxTw9FgNt9ppZVYH/f58I7a4xyoiG53zJIUlgjwiNUQpsbYKEFhhE6A/TSuKTz1/Oyr06dG5M6o/Q5hVhPXlAu5RpNEounwRPXTnuqSYe9lBQ8UtAbcYQyQKkvSV3UCeQfzL0g4UEPQ5qqX/ispNDSAi2Nr4N+hXIPORsABNxfZfmkao2hnm9J20ETN55Dy/p/znecKPXGCi4p/UaFR/RPrcQdzIPWsWjm7i/HoKA=;25:owQmVfMW/dHeHO9TucTK+dgY9WJ8cizOdqwhqaGTTBI+ouvjkOnXlvyCZGohziZXRiRcc/T4MJICObN8IJqBIZ1aN5U9xfGKC50ZJteTmzt5zSYhFrDm7vnC0wA6+0WLymucGJlZtroLLyLBvb47TBp2WNKJjsm0PKu0m4rGn2nBtwINkFuN9JfdAhd19jOFY0GnyFaztlcnWlVIfcdLJgviYL/hng+m/p4dS6vYoDcDMl9Y3SMjVwv2jg7BslX5O3xP1SMDshvyDqqLIppz7JxBbpVwSvQXkgoSC6h7mS/8z2PQkQuEJgRBRtOG5awBfjooqBnyGARNQDFy/Mnzfg==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:5;PCL:0;RULEID:(421252001)(42134001)(42139001)(3001015)(71701003)(71702001);SRVR:CO2PR07MB635;
+X-MS-Office365-Filtering-Correlation-Id: acd9fd8b-0407-458b-628d-08d346ca76a0
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB635;20:yNj5g4WzecWTgIZuG0+KD/OU8GPPaFn+plfhrf7J8iyfgmwz1GX6qbzQA9cX85Hgta865gVQbghOuS+Pbi46KBfHcpOka0k5p4PpLe8edmHr416ia8dMpOgy2ZFNEKiWxnlXgsI7sy2fwfT88PVf1xVI9FT428Cn6Az/SYQ5pcQL3s5KY/ba+NIbOUXbP6OO5w/5PubCJd5DRvAQgNy1oUAiiQKsdBc5xhOj1OCn5OgZZbRtWKaPwJoUc9/C1my4n1eyueb7+hxhuYDlKCRjumSppXEo3BwFAisqSqta9Q3g2aVLWeh3SGgi/vqlQ181c/FexLAHK70Bz65qeetLVffAjIhAVoqB4V1NjEEd5JDoDuxTK/OuKHfFDlDRABytb1QDiZKcUelHjqCqJeQBK/dhpOgULKmeAZ76Y0ZRsa0=;4:dbmUgNCteonlf6HZuRl+8S/Vdx8Aa7gWgCIBld4F1Vse3LBiz/V8f1HMoN3YMK8vwlXyRVoUxUNfEOnZyE6BiwVtwCKT8+zenFxiu+BDBXDvMuLSWXGbhrWWR1ttnixYbTwYktsAL3vScgkFijA5CtVEXk8WgAHqvtUqbO8IDWF53R9sUKZr2032Xn52leXZJugn9LRpJFNgevp9Oun/MzM7mQpFFXFDOm584JM1UeUn70KyqX7hMJ5qJNy4SYl7MW5sZkyaIa/+KkcdfG+97Cc65/sXxSa9ddA9sBdzMDU3feRU3vdtnh7N3BYFU3PeLT1Frk1DUnJPWXRTvfmvSYdWl9xjDNH48o88bPrY4PXnwsG3C97weGrEWjH9oca0yqHa6l0w8okFl92qC9d2+Q==
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:5;PCL:0;RULEID:(601004)(2401047)(1201001)(8121501046)(13016025)(13018025)(3002001)(10201501046);SRVR:CO2PR07MB635;BCL:5;PCL:0;RULEID:;SRVR:CO2PR07MB635;BCL:1;PCL:0;RULEID:(601004)(2401047)(5005006)(13018025)(13016025)(1201001)(8121501046)(3002001)(10201501046);SRVR:BLUPR07MB625;BCL:1;PCL:0;RULEID:;SRVR:BLUPR07MB625;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB635;23:zIwnnariXC73uFAHNEkuspyIKuZQzLtd0Pmo73WK0T2dVJKlvkJNB+LiZ8xlSUNObAceOUerIp0fnQNMP9Z3iUCC+GvuiVpVc2EalqNkGm6YL/k9BnZWUSf6Fmy0KBjtO9kJzdoDKj/1aoBwzUl70gM+vpBInLrkvblMu0BDxQjOL6DG2GKyTRDQvzfBWEXGvWoSpRpXEgRBzJI2cYDwgzPXBN99964KHwSo257UqYjnT+eKkESqz5BGlE/Xq6pXmzd1x1cCxOXvDxyOmRV/JhH3ehf3/nkQbhg2YMEBx4OwAwgU80CXPmBFYiyynajFUj7dIPen9leArFlCmHPnpZRW5s9HzILYxNMM4bax4osdDfunDYliL+GIwAbQBtVvEbGTQvN35f0DtSI7apWxyp9bRFYWI08E72u/+PvwXEmn3eLvO/9RyKnDf2uuAGff;5:+O7TPetB91mYwYvaBExCNZ0S9Wd4JZyDHql4XD61nv+nNj4y1Bq/yN1QjsIGH1EmJg41aMvf4MKd52ldwGwIGMq+gZC2YT1a1qSWlBn1/ezVNTecJJtQe0I26V094AF1tEk0/FD37bTzskN4GULebQ==;24:FZPznHkoor0hEyigSUOnmoxe4IXZUuJ6Ruo4q8PiCLQ5CqofsxxDrkzyTH0wtu3J4Kdsn8+PU+miHAlsAVFruw==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 5
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB635
+X-OrganizationHeadersPreserved: CO2PR07MB635.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS1.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2FFO11FD051.protection.gbl
+X-Forefront-Antispam-Report:
+	=?us-ascii?Q?CIP:141.161.191.74;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(100?=
+ =?us-ascii?Q?09020)(2980300002)(1060300003)(1110001)(1109001)(339900001)(?=
+ =?us-ascii?Q?596005)(189002)(199003)(19580405001)(19580395003)(512874002)?=
+ =?us-ascii?Q?(85426001)(84326002)(19627405001)(43066003)(146001)(19625215?=
+ =?us-ascii?Q?002)(18206015028)(226693001)(117636001)(50986999)(1961731501?=
+ =?us-ascii?Q?2)(47976999)(54356999)(110136002)(18926405002)(53806999)(110?=
+ =?us-ascii?Q?436001)(107886002)(551964002)(106466001)(105606002)(97736004?=
+ =?us-ascii?Q?)(4001450100002)(5002220100002)(1220700001)(3450700001)(4290?=
+ =?us-ascii?Q?100001)(2906002)(75432002)(88552002)(11100500001)(229853001)?=
+ =?us-ascii?Q?(606003)(2351001)(84246003)(19273905006)(956001)(84236003)(9?=
+ =?us-ascii?Q?60300001)(77096005)(104016004)(450100001)(372974003)(6806005?=
+ =?us-ascii?Q?)(15975445007)(15650500001)(16601075003)(87936001)(196186350?=
+ =?us-ascii?Q?01)(2171001)(85226003)(18926415007)(81166005)(2420400007)(10?=
+ =?us-ascii?Q?96002)(7099028)(105616011)(110096011)(42882005)(62816006)(94?=
+ =?us-ascii?Q?166001)(559001)(579004)(110126006)(110146012)(563064011);DIR?=
+ =?us-ascii?Q?:OUT;SFP:1101;SCL:1;SRVR:BLUPR07MB625;H:mail.law.georgetown.?=
+ =?us-ascii?Q?edu;FPR:;SPF:Fail;MLV:nov;MX:1;A:1;PTR:InfoDomainNonexistent?=
+ =?us-ascii?Q?;LANG:en;?=
+X-Microsoft-Exchange-Diagnostics: 1;BY2FFO11FD051;1:YpfawUTNbn5MqT4OHkcRfjy4G3TH1Fye3xEFs75B8XF0H32OiuWIYCvgrmiK+gT6aHogcWrqspJtqC57ntoIVg73oAyMeA4BggqjxX5QpwV5/TTP7g4/Bwl4MEjwTEo/leCNeWpFZs42jyLdZJtgTCIA1fIT1ZjSb5CrA+7hGVYAsLaGTkkyCgubi1AdhVlUsMFEOtkKHW+PcAeZkEFo29h3eF+r0ErPdZn8VcjCFl/t76UjhcYJVNzO2VHH5XlTINGtDKD29a/nsf+/D0QF07mt41FHiWqWwkBTp+/YmMzDzvRzJAyvX1UMRoIrCTrD++LaJBaFbga4vY66K+senZTfj9tizwVQIr5OBN/ie5iLp/+iAAjf1eQiDoS6B37iubtKEnvlwyBJlNO/ksom/DYdm59JtxSkUx1ws7tN1QAXyt5B5DV22KJ7r4Swd+kY
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB625;2:emkdLIX74TSv6JbwNu3106xeEpt2ur3q8FVpIOfCwGS0ut7qNYpIi3PJiIUE9SgxMXoVr2BtxZ7N2dzStNDY+dZqZJFEnXCX2i7rMj9C7MtThD47sk5QOyfweexO4CXiaWm19rpjUMx7bqGdBexSRQ==;3:Vn0qfSqmW5qFEH8c0h5epH2pY+LRkJoSV1ZyYWOKGXCB1Zr91D2hCD09X8pvLey9FCNz+0lfCQ+0ZibFdR09uMZUySCK4ijwiReIuaVMZtnC+0EgwZp0rkD2N/eoHYFL6/zB0L2oqEYg3gbYeUDdqek3cmCIWWoJij0FH7miVqf+ZCTM4nVbHc+ppsM4gcpTaob2BwvEeSTYa+bpLmEobFaE0tcJb3rnVfHmdTVjCLCVL76IVbWiwZMxK1a+7REZ2WCW9mG6nWwJ3iHqEbojWdfxPR03nEEc7BprQwi7b7nHng9dG/r9pHHeuBj7bhtR;25:riWhCo+aTKVKZYHe0q7M3wE0UZosbMGNLLrfmZQk1SJou04m+rkASu/VfnedaQNFba7lJ7U2qr56WJgH19ERxmHJMiSCeNVFb6SiZjZkeZ5n/xTJGkoIzGL1c3aM4s2e9bF1tTJoMxN6jEpvlynx+w/HNVbXd6xd63Foq0+UoxmxaPyIRdiT7G+QSll6XHo5wXuKLwmN3gGo5kSRZ87K8Zm80xe5ofwipGnoxj9da7azUlnEUNMhRAIT6YYAoRjwTd3iVXGEh5D/qi5G438ziQ7GA+QiqTKbhTylNUM0gc3FN7qQQiNTdsmSIM6QDA0y/sUirS21bZ1cbwIOzLuu/A==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:1;PCL:0;RULEID:(421252001)(42134001)(42139001)(3002015);SRVR:BLUPR07MB625;
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB625;20:2PAEGLdRRUjluvwv67HEjN0sOijLc6V1NinqeD2iyoQusaaqL7uaIWmFTPV0Omrfrxab7RRTWaScn69qiLnJKiG6jtWUI0IG6NblWamQQFc/ZHFdV12bpHo45pii2+okLQt8+PXpJJXZ9e3v4ocn6q0Zpg7ETLWlGROFAUzsvJ1OaYh5URMLrBHrchV/hHZffXJy54fYIZJuRnp+kydjXR6GLLluDK17eCj+u2ujLmiTkXs2WCS2r4QoqQZEwotFpJ38foGORzd3Y2YQ/2GSXpM5Ao9UZMGCn1ErJZY6+nqznWmYoHewY8SqLJRPSU0gj8cj+hE0ZTvWcnxcdlCwbBDO7AoFY/Hdcsp3IIhph1RuCuzl95ceLieBwRQfmM0rNor6/rzy+KK990EmfYBwwerUztx2MiUWk20NHubQnZU=;4:GqHWyQz6676CQb9BPyJ/LbditP+vQk+KDmWV1HDYtL6xFXQeDMDTMTsv/yrPSF5L+t6O4oG9Gy1AVgfHonhFGU4AD1sh+V67S2DKd7t9mzZgW4OT4P6tmdhupzf1QSQmQWuSE9byKRs/yLMZnM6LWWFwT5n1dDRteAtBLMToW/roeVtvv30lfV+5j7rrfweDAT+IxD9ARiSsgdqmD38k+Ld+XgL4nJzMsrT1ZMh0oCdgKQdrPcTWwsa45+ffSuh9dBNA7XqSCo2LczU2dlnQkDqhOUbvNNZPZr8EAdWwE0KNuxzBSVECbt0/hSNVJS5xda88/sw/PO8Mg/3F5FfcdofaS/ZAQ85XgUUDE55GysH9dHDK+cBRLZUFbwEIj4lmE2kRKfnwx+Da4d2x2lM3c+8hVi+9neVHvlPnCtiG0wk=
+X-Microsoft-Antispam-PRVS:
+	<BLUPR07MB625B6AA593FE8C5586D3D8493B10@BLUPR07MB625.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 087474FBFA
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BLUPR07MB625;23:2hpAvGmEtZApN7P6djSOBD3FLzOpPAPflMUJRRugv+?=
+ =?us-ascii?Q?2+mnhuXcdhNk8K2Zm7kJ1HIR3etTnzNgLqpNJRtqvLZs/XLij8p4vZlNVtNv?=
+ =?us-ascii?Q?T2M1NCqOF8nMwBHXvTX3gsF1jxpAIQCtCUPmpsOemE5OUGNmDDzvNYksvXI1?=
+ =?us-ascii?Q?17FUwDIbABib+pjG7SRfgD3ra6SCVwfLvss8oNvs7CXyjCRsQkWDZTrS71kD?=
+ =?us-ascii?Q?9RFT1GOutBkEZ/r1BcRHzv4Eit2JnG68gbdrbQJ39sEvV7w+lVAQuo56boKr?=
+ =?us-ascii?Q?5fmMJYTgg0p5UPDhQkw1r+bIz3GvgzZ1lQrELT0ynR8ejDeLKdnsBf76S2sV?=
+ =?us-ascii?Q?2ECv861VacF8/LQ0Z9HgiAoE2EWjPq7QMAIKE2A57fkKzd5dIzCe5z96d0sx?=
+ =?us-ascii?Q?QV2mzqtrIEt9oxWtMwXFwkXY66KpUrVlYmAt55IB9akHQVXetoQ1PGdamhfn?=
+ =?us-ascii?Q?tItDQKwPiuCm80yQjAzBM6O+D7jDOgxKvS8SYyO31tH2oyf6/LQolit4G4nm?=
+ =?us-ascii?Q?zh3TSWsaBLwnp+rkrC0O2jTSN0nYSSZQC+Ynf5B9kGWMuuOFM2QVta93ceve?=
+ =?us-ascii?Q?mz+vnfWB1I5/wn6YmLn2KvVse8wMqQfWWaK8vfgfC6wIYZj0FlQbT3f6rbWP?=
+ =?us-ascii?Q?b39Ygg/XlYyH7sTKowkL2iVVz7NdEWY4aNNOef4skeGPtRLFpCuLx8kUei58?=
+ =?us-ascii?Q?Dyi7CYIr4lsDb6dXYQpXsOZlg/NwkDGjxsoE4cBgiT2qxXX+OCSrSocZZPtL?=
+ =?us-ascii?Q?yh6l+9SxtTs/huBJh5mVaqLoQhrkB4tb2yCs/3rLhrJg8FuSc6Mw/FKxkd9j?=
+ =?us-ascii?Q?31S8nqKyPAFi3HywtzTe41yl8OYuCgruwiKK5U916kaO964DzUPgVCK4Ecrr?=
+ =?us-ascii?Q?fQ6CLlpEc7+PTFmDBwfDOnfGSfkdrEYCNyN6FSWzGQIFVWQf/EDql0AvzqdI?=
+ =?us-ascii?Q?noskAKzIIhCIMI/IZZrcazOIUjMSPah0t4NLJyfUcuoWx4tkGWPL/n+my/b3?=
+ =?us-ascii?Q?jLjJc9ATBPSE5Kma19GLG4KjrccpvGtSsJsbT6Ah212JYBAGL7KkITP0xpQH?=
+ =?us-ascii?Q?ZtmIrMdqaGhOnLekwhKrVXelMnD9sKtswNri/4egoCCk+P5ceDnJFhfzDz9B?=
+ =?us-ascii?Q?tv0QWgcPKq2L23CAiJCOSEtdGa/Cqa6TDKpgcRLJLw/EnvmGTOXlHX8lsXoa?=
+ =?us-ascii?Q?2sGdv6uG7XkJGO+D410PL1hUCJU542msGjXzS2d2YJEHDwOAZYi9JiR78nCN?=
+ =?us-ascii?Q?muY0wtqjCgWQwBTxP4Z1ktRjVwtVMla2jDtQSUh2aZekpDK9qr0xH60ZQAmr?=
+ =?us-ascii?Q?VYxGnBB1ZU0U/PruB4bqATNN367b/IF+Zo8xcTjD6NccllEcILhKC0vkUQqt?=
+ =?us-ascii?Q?Lva8D3nXr7heuyHWz+rFR9Mqb+iI8iF6aNXLkkAklFrB2uNKqt/oW7Fx8GKZ?=
+ =?us-ascii?Q?G+ln5Nosj14FDg34C1od5L8AdYCSG81VYKDguYjUiovhffNoe5vJImMpJyUW?=
+ =?us-ascii?Q?g5mJIJPIAu8dfl25/MiPu1meKyzbroW3llMMu2mX1RdXsnzPeGgWHSeZhpsr?=
+ =?us-ascii?Q?ZhJwLX3MxNSK1MYvnkL84edcEd2IWt73BqzkJ/466KldImgfIdNZpvN0xUgR?=
+ =?us-ascii?Q?v740+hWg224JjxdRlhDHQusJBq43/FKoSFII3+rbFVOkj3J4vOpFTiPcF9Zx?=
+ =?us-ascii?Q?ytUSwvdSvheqDY7549en61Jw+Ih75QGQ34uyfI6mXDIOsoVa0MFczQC5WOa6?=
+ =?us-ascii?Q?5+qoabwbusPZXNMdzGxwYvt0qlRXfqbF1APwv72HrgJD9JSSxjN2Np9As8Sw?=
+ =?us-ascii?Q?2c1UvlJQ6QKEVkaJMD3v1GunmgXAQCYu9Z9tNYGkcCi/O15YOyhiM5wciBgX?=
+ =?us-ascii?Q?frBUpJUbTvfIrhNkRs4Hz7Za1AOcLlHIpEzLWbQH+loYtb/5AWJfg/Pos=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB625;5:k0bckcnHrIswP4vIrhT9tKQ3xvX9xDOwUl+Yn7FRQNiL0Cur9/JaeSsTiasY/U8UNpjU3VYIyd5EBDARdzF+0sE/IRvhOFfGH9u+LBK/5p0IdWJoUmOkjkntevH9SPwJjk4HWxpb9U/FMOraq+DImg==;24:hMV/GJu/n1mYVL3qO1hS2bEjDnSjAk56TdKoX4zr0uTZ+9BSflvdC74KaIGtVrOwv4Gi42FIXs51O9oAc6rPAUFpl4/CmasUynMrUIhyr2o=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 1
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Mar 2016 20:52:57.2876
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB625
+
+------=_Part_38738529_1202783058.1457383868188
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+March is here and we at Earth Day Network are as busy as ever. Earth Day 20=
+16 is beginning to take hold in earnest and our theme =E2=80=93 Trees for t=
+he Earth =E2=80=93 has become a big hit across our social media networks. I=
+n fact, several global tree plantings have already taken place. But we have=
+ not forgotten our main #EarthDay2016 goal: getting world leaders to sign t=
+he Paris Climate Agreement at United Nations Headquarters this Earth Day! P=
+lease enjoy the highlights below and, as always, check in at EarthDay.org [=
+ http://www.earthday.org ] anytime.=20
+
+Sign The Paris Petition [ https://www.change.org/p/keep-the-heat-on-obama-a=
+sk-him-to-help-ratify-the-paris-climate-agreement-2 ]=20
+
+Sign The Paris Petition! [ https://www.change.org/p/keep-the-heat-on-obama-=
+ask-him-to-help-ratify-the-paris-climate-agreement-2 ] The Paris Climate Ag=
+reement was finalized in December. But it does not go into effect until wor=
+ld leaders officially sign. UN Secretary General Ban Ki-moon has invited al=
+l leaders to UN Headquarters to sign this Earth Day =E2=80=93 April 22nd. S=
+o now we need your help. Join us by signing our petition [ https://www.chan=
+ge.org/p/keep-the-heat-on-obama-ask-him-to-help-ratify-the-paris-climate-ag=
+reement-2 ] calling on leaders from across the globe to send a clear messag=
+e by signing the Paris Agreement this Earth Day! The world is watching!=20
+
+It's Not Just The USA That Must Step Up [ http://www.earthday.org/2016/03/0=
+4/3190/ ]=20
+
+It's Not Just The USA That Must Step Up [ http://www.earthday.org/2016/03/0=
+4/3190/ ] With less than two months to go until the Paris Agreement officia=
+lly opens for signing, several countries [ http://www.earthday.org/campaign=
+s/climate-change/paris-agreement/ ] have already pledged that they will ind=
+eed sign it this upcoming Earth Day. But what about those that have not? Wh=
+y is this so important? And what can you do to help [ https://www.change.or=
+g/p/keep-the-heat-on-obama-ask-him-to-help-ratify-the-paris-climate-agreeme=
+nt-2 ]? We have an important new blog post [ http://www.earthday.org/2016/0=
+3/04/3190/ ] that answers all of those questions and more. Check it out!=20
+
+Earth Day Events [ http://www.earthday.org/earth-day/ ]=20
+
+What are you doing this #EarthDay2016? [ http://www.earthday.org/earth-day/=
+ ] We have a great online tool [ http://www.earthday.org/earth-day/ ] that =
+tracks hundreds if not thousands of some of the global Earth Day events we =
+know about. Register yours now [ http://www.earthday.org/earth-day/ ] to sp=
+read word of mouth and grow interest. We may even tweet about your event or=
+ post it on Facebook to our networks of followers. Let us help you spread t=
+he word!=20
+
+And don't forget to follow us on Twitter [ https://twitter.com/EarthDayNetw=
+ork ] and Facebook [ https://www.facebook.com/EarthDayNetwork/ ]!
+
+Thank you,
+Earth Day Network=20
+
+
+Earth Day Network
+1616 P Street NW STE 340
+Washington, DC 20036
+202-518-0044
+info@earthday.net [ mailto:info@earthday.net ]
+
+Unsubscribe [ http://action.earthday.net/p/salsa/supporter/unsubscribe/publ=
+ic/index.sjs ]
+icon-facebook [ https://www.facebook.com/EarthDayNetwork ] icon-twitter [ h=
+ttps://twitter.com/EarthDayNetwork ]
+------=_Part_38738529_1202783058.1457383868188
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<meta name=3D"viewport" content=3D"initial-scale=3D1.0"/>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"/>
+<meta name=3D"format-detection" content=3D"telephone=3Dno"/>
+<title>EDN's March Updates &ndash; 46 Days Until #EarthDay2016!</title>
+<link href=3D"http://fonts.googleapis.com/css?family=3DRoboto:400,300,700&s=
+ubset=3Dlatin,cyrillic,greek" rel=3D"stylesheet" type=3D"text/css">
+<!--[if mso]>
+<style type=3D"text/css">
+td,span,a{font-family: Arial, sans-serif !important;}
+a{text-decoration: none !important;}
+</style>
+<![endif]-->
+<style type=3D"text/css">
+
+ =20
+    /* Resets: see reset.css for details */
+    .ReadMsgBody { width: 100%; background-color: #ffffff;}
+    .ExternalClass {width: 100%; background-color: #ffffff;}
+    .ExternalClass, .ExternalClass p, .ExternalClass span,
+    .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height=
+:100%;}
+    #outlook a{ padding:0;}
+    html{width: 100%; }
+    body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
+    html,body {background-color: #ffffff; margin: 0; padding: 0; }
+    table {border-spacing:0;}
+    table td {border-collapse:collapse;}
+    br, strong br, b br, em br, i br { line-height:100%; }
+    h1, h2, h3, h4, h5, h6 { line-height: 100% !important; -webkit-font-smo=
+othing: antialiased; }
+    img{height: auto !important; line-height: 100%; outline: none; text-dec=
+oration: none; display:block !important; }
+    span a { text-decoration: none !important;}
+    a{ text-decoration: none !important; }
+    table p{margin:0;}
+    .yshortcuts, .yshortcuts a, .yshortcuts a:link,.yshortcuts a:visited,
+    .yshortcuts a:hover, .yshortcuts a span { text-decoration: none !import=
+ant; border-bottom: none !important;}
+    table{ mso-table-lspace:0pt; mso-table-rspace:0pt; }
+    img{ -ms-interpolation-mode:bicubic; }
+    ul{list-style: initial; margin:0; padding-left:20px;}
+    /*mailChimp class*/
+    .default-edit-image{
+    height:20px;
+    }
+    .tpl-repeatblock {
+    padding: 0px !important;
+    border: 1px dotted rgba(0,0,0,0.2);
+    }
+    img{height:auto !important;}
+    td[class=3D"image-270px"] img{
+    width:270px;
+    height:auto !important;
+    max-width:270px !important;
+    }
+    td[class=3D"image-170px"] img{
+    width:170px;
+    height:auto !important;
+    max-width:170px !important;
+    }
+    td[class=3D"image-185px"] img{
+    width:185px;
+    height:auto !important;
+    max-width:185px !important;
+    }
+    td[class=3D"image-124px"] img{
+    width:124px;
+    height:auto !important;
+    max-width:124px !important;
+    }
+    @media only screen and (max-width: 640px){
+    body{
+    width:auto!important;
+    }
+    table[class=3D"container"]{
+    width: 100%!important;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    min-width:100% !important;
+    }
+    td[class=3D"image-270px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    }
+    td[class=3D"image-170px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    }
+    td[class=3D"image-185px"] img{
+    width:185px !important;
+    height:auto !important;
+    max-width:185px !important;
+    }
+    td[class=3D"image-124px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    }
+    td[class=3D"image-100-percent"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    }
+    td[class=3D"small-image-100-percent"] img{
+    width:100% !important;
+    height:auto !important;
+    }
+    table[class=3D"full-width"]{
+    width:100% !important;
+    min-width:100% !important;
+    }
+    table[class=3D"full-width-text"]{
+    width:100% !important;
+    background-color:#ffffff;
+    padding-left:20px !important;
+    padding-right:20px !important;
+    }
+    table[class=3D"full-width-text2"]{
+    width:100% !important;
+    background-color:#ffffff;
+    padding-left:20px !important;
+    padding-right:20px !important;
+    }
+    table[class=3D"col-2-3img"]{
+    width:50% !important;
+    margin-right: 20px !important;
+    }
+    table[class=3D"col-2-3img-last"]{
+    width:50% !important;
+    }
+    table[class=3D"col-2-footer"]{
+    width:55% !important;
+    margin-right:20px !important;
+    }
+    table[class=3D"col-2-footer-last"]{
+    width:40% !important;
+    }
+    table[class=3D"col-2"]{
+    width:47% !important;
+    margin-right:20px !important;
+    }
+    table[class=3D"col-2-last"]{
+    width:47% !important;
+    }
+    table[class=3D"col-3"]{
+    width:29% !important;
+    margin-right:20px !important;
+    }
+    table[class=3D"col-3-last"]{
+    width:29% !important;
+    }
+    table[class=3D"row-2"]{
+    width:50% !important;
+    }
+    td[class=3D"text-center"]{
+    text-align: center !important;
+    }
+    /* start clear and remove*/
+    table[class=3D"remove"]{
+    display:none !important;
+    }
+    td[class=3D"remove"]{
+    display:none !important;
+    }
+    /* end clear and remove*/
+    table[class=3D"fix-box"]{
+    padding-left:20px !important;
+    padding-right:20px !important;
+    }
+    td[class=3D"fix-box"]{
+    padding-left:20px !important;
+    padding-right:20px !important;
+    }
+    td[class=3D"font-resize"]{
+    font-size: 18px !important;
+    line-height: 22px !important;
+    }
+    table[class=3D"space-scale"]{
+    width:100% !important;
+    float:none !important;
+    }
+    table[class=3D"clear-align-640"]{
+    float:none !important;
+    }
+     table[class=3D"show-full-mobile"]{
+        display:none !important;
+        width:100% !important;
+        min-width:100% !important;
+    }
+    }
+    @media only screen and (max-width: 479px){
+    body{
+    font-size:10px !important;
+    }
+    table[class=3D"container"]{
+    width: 100%!important;
+    padding-left: 10px!important;
+    padding-right:10px!important;
+    min-width:100% !important;
+    }
+    table[class=3D"container2"]{
+    width: 100%!important;
+    float:none !important;
+    min-width:100% !important;
+    }
+    td[class=3D"full-width"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+    min-width:100% !important;
+    }
+    td[class=3D"image-270px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+    }
+    td[class=3D"image-170px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+    }
+    td[class=3D"image-185px"] img{
+    width:185px !important;
+    height:auto !important;
+    max-width:185px !important;
+    min-width:124px !important;
+    }
+    td[class=3D"image-124px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+    }
+    td[class=3D"image-100-percent"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+    }
+    td[class=3D"small-image-100-percent"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+    }
+    table[class=3D"full-width"]{
+    width:100% !important;
+    }
+    table[class=3D"full-width-text"]{
+    width:100% !important;
+    background-color:#ffffff;
+    padding-left:20px !important;
+    padding-right:20px !important;
+    }
+    table[class=3D"full-width-text2"]{
+    width:100% !important;
+    background-color:#ffffff;
+    padding-left:20px !important;
+    padding-right:20px !important;
+    }
+    table[class=3D"col-2-footer"]{
+    width:100% !important;
+    margin-right:0px !important;
+    }
+    table[class=3D"col-2-footer-last"]{
+    width:100% !important;
+    }
+    table[class=3D"col-2"]{
+    width:100% !important;
+    margin-right:0px !important;
+    }
+    table[class=3D"col-2-last"]{
+    width:100% !important;
+    }
+    table[class=3D"col-3"]{
+    width:100% !important;
+    margin-right:0px !important;
+    }
+    table[class=3D"col-3-last"]{
+    width:100% !important;
+    }
+    table[class=3D"row-2"]{
+    width:100% !important;
+    }
+    table[id=3D"col-underline"]{
+    float: none !important;
+    width: 100% !important;
+    border-bottom: 1px solid #eee;
+    }
+    td[id=3D"col-underline"]{
+    float: none !important;
+    width: 100% !important;
+    border-bottom: 1px solid #eee;
+    }
+    td[class=3D"col-underline"]{
+    float: none !important;
+    width: 100% !important;
+    border-bottom: 1px solid #eee;
+    }
+    /*start text center*/
+    td[class=3D"text-center"]{
+    text-align: center !important;
+    }
+    div[class=3D"text-center"]{
+    text-align: center !important;
+    }
+    /*end text center*/
+    /* start  clear and remove */
+    table[id=3D"clear-padding"]{
+    padding:0 !important;
+    }
+    td[id=3D"clear-padding"]{
+    padding:0 !important;
+    }
+    td[class=3D"clear-padding"]{
+    padding:0 !important;
+    }
+    table[class=3D"remove-479"]{
+    display:none !important;
+    }
+    td[class=3D"remove-479"]{
+    display:none !important;
+    }
+    table[class=3D"clear-align"]{
+    float:none !important;
+    }
+    /* end  clear and remove */
+    table[class=3D"width-small"]{
+    width:100% !important;
+    }
+    table[class=3D"fix-box"]{
+    padding-left:15px !important;
+    padding-right:15px !important;
+    }
+    td[class=3D"fix-box"]{
+    padding-left:15px !important;
+    padding-right:15px !important;
+    }
+    td[class=3D"font-resize"]{
+    font-size: 14px !important;
+    }
+    td[class=3D"increase-Height"]{
+    height:10px !important;
+    }
+    td[class=3D"increase-Height-20"]{
+    height:20px !important;
+    }
+    table[width=3D"595"]{
+        width:100% !important;
+      }
+
+      table[class=3D"show-full-mobile"]{
+        display:table !important;
+        width:100% !important;
+        min-width:100% !important;
+      }
+    }
+    @media only screen and (max-width: 320px){
+    table[class=3D"width-small"]{
+    width:125px !important;
+    }
+    img[class=3D"image-100-percent"]{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+    }
+    }
+    td ul{list-style: initial; margin:0; padding-left:20px;}
+
+=09@media only screen and (max-width: 640px){ .image-100-percent{ width:100=
+%!important; height: auto !important; max-width: 100% !important; min-width=
+: 124px !important;}}body{background-color:#efefef;} .default-edit-image{he=
+ight:20px;} tr.tpl-repeatblock , tr.tpl-repeatblock > td{ display:block !im=
+portant;} .tpl-repeatblock {padding: 0px !important;border: 1px dotted rgba=
+(0,0,0,0.2);} table[width=3D"595"]{width:100% !important;}</style>
+<!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPer=
+Inch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+</head>
+<body  style=3D"font-size:12px; width:100%; height:100%;">
+<table id=3D"mainStructure" width=3D"800" class=3D"full-width" align=3D"cen=
+ter" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"background-c=
+olor:#efefef; width:800px; max-width: 800px; margin: 0 auto; border: 1px so=
+lid #efefef;"><!--START IMAGE HEADER LAYOUT--><tbody><tr><td align=3D"cente=
+r" valign=3D"top" style=3D"background-color: #ffffff;">
+            <!-- start HEADER LAYOUT-container width 600px -->
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"full-width" syle=3D"background-color:#fff=
+fff min-width:600px;" style=3D"width: 600px; background-color: #ffffff;mso-=
+table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"top" clas=
+s=3D"image-100-percent" width=3D"600" style=3D"width: 600px;">
+                  <a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=
+=3D4Hwh5UxNTyavHi8VpVACHfCE4V%2BuaIXM" style=3D"font-size: inherit; border-=
+style: none; text-decoration: none !important;" border=3D"0"><img src=3D"ht=
+tp://mailbuild.rookiewebstudio.com/customers/vPR765fX/user_upload/201603080=
+14456_header.jpg" width=3D"600" alt=3D"Earth Day Network" style=3D"max-widt=
+h: 600px; width: 600px; height: auto; display: block !important;" height=3D=
+"auto"></a></td>
+              </tr></tbody></table><!-- end HEADER LAYOUT-container width 6=
+00px --></td>
+        </tr><!--END IMAGE HEADER LAYOUT--></tbody><!-- START LAYOUT-1/2 --=
+><tbody><tr><td align=3D"center" valign=3D"top" style=3D"background-color: =
+#ffffff;">
+            <!-- start  container width 600px -->
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"container" style=3D"padding-left: 20px; p=
+adding-right: 20px; min-width: 600px; width: 600px; background-color: #ffff=
+ff;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"to=
+p">
+                  <!-- start container width 560px -->
+                  <table width=3D"560" align=3D"center" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"full-width" style=3D"width: 560px;ms=
+o-table-lspace:0pt; mso-table-rspace:0pt;"><!-- start text content --><tbod=
+y><tr><td valign=3D"top">
+                        <table width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" align=3D"center" style=3D"mso-table-lspace:0pt; mso-tab=
+le-rspace:0pt;"><!-- start text content --><tbody><tr dup=3D"0"><td valign=
+=3D"top">
+                              <table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" align=3D"center" style=3D"mso-table-lspace:0pt; m=
+so-table-rspace:0pt;"><!--start space height --><tbody><tr><td height=3D"1"=
+ style=3D"border-collapse: collapse; height: 1px; line-height: 1px; font-si=
+ze: 1px;"></td>
+                                </tr><!--end space height --><tr><td style=
+=3D"font-size: 13px; font-family: Roboto, Arial, Helvetica, Arial; color: r=
+gb(163, 162, 162); font-weight: 300; text-align: left; word-break: break-wo=
+rd; line-height: 21px;"><span style=3D"font-family: arial, helvetica, sans-=
+serif; color: rgb(68, 68, 68); font-size: 14px; font-weight: 300; word-brea=
+k: break-word; line-height: 22px;">March is here and we at Earth Day Networ=
+k are as busy as ever. Earth Day 2016 is beginning to take hold in earnest =
+and our theme &ndash; Trees for the Earth &ndash; has become a big hit acro=
+ss our social media networks. In fact, several global tree plantings have a=
+lready taken place. But we have not forgotten our main #EarthDay2016 goal: =
+getting world leaders to sign the Paris Climate Agreement at United Nations=
+ Headquarters this Earth Day! Please enjoy the highlights below and, as alw=
+ays, check in at <a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=
+=3DnaFZ%2FD26IJ3eOlf1mc9MYvCE4V%2BuaIXM" style=3D"font-size: inherit; borde=
+r-style: none; text-decoration: none !important; line-height: 22px;" data-m=
+ce-href=3D"http://www.earthday.org" border=3D"0">EarthDay.org</a> anytime.<=
+/span></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"1" style=3D"border-collapse: collapse; height: 1px; line-height: 1px;=
+ font-size: 1px;"></td>
+                                </tr><!--end space height --></tbody></tabl=
+e></td>
+                          </tr><!-- end text content --><tr><td valign=3D"t=
+op" width=3D"100%" align=3D"center">
+                              <!-- start button -->
+                              <table width=3D"auto" border=3D"0" align=3D"c=
+enter" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0 auto;mso-table=
+-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"top">
+                                    </td>
+                                </tr></tbody></table><!-- end button --></t=
+d>
+                          </tr></tbody></table></td>
+                    </tr><!-- end text content --><!--start space height --=
+><tr><td height=3D"14" style=3D"border-collapse: collapse; height: 14px; li=
+ne-height: 14px; font-size: 14px;"></td>
+                    </tr><!--end space height --></tbody></table><!-- end  =
+container width 560px --></td>
+              </tr></tbody></table><!-- end  container width 600px --></td>
+        </tr><!-- END LAYOUT-1/2 --></tbody><!-- START LAYOUT-6 --><tbody><=
+tr><td align=3D"center" valign=3D"top" style=3D"background-color: #fff;">
+            <!-- start LAYOUT-6 container width 600px -->
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"container" style=3D"border-bottom-width: =
+1px; border-bottom-style: solid; border-bottom-color: rgb(199, 199, 199); p=
+adding-left: 20px; padding-right: 20px; min-width: 600px; width: 600px; bac=
+kground-color: #ffffff;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody>=
+<tr><td valign=3D"top">
+                  <!-- start LAYOUT-6 container width 560px -->
+                  <table width=3D"560" align=3D"center" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"full-width" style=3D"width: 560px;ms=
+o-table-lspace:0pt; mso-table-rspace:0pt;"><!--start space height --><tbody=
+><tr><td height=3D"20" style=3D"border-collapse: collapse; height: 20px; li=
+ne-height: 20px; font-size: 20px;"></td>
+                    </tr><!--end space height --><!-- start image content -=
+-><tr><td valign=3D"top" width=3D"100%">
+                       =20
+                        <table width=3D"270" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" align=3D"left" class=3D"full-width" style=3D"width: 270p=
+x;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"top=
+">
+                              <table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" align=3D"left" style=3D"mso-table-lspace:0pt; mso=
+-table-rspace:0pt;"><tbody><tr><td valign=3D"top" align=3D"left" class=3D"i=
+mage-270px" width=3D"270" style=3D"width: 270px;">
+                                    <a href=3D"http://org.salsalabs.com/dia=
+/track.jsp?v=3D2&c=3DYwSJx0NSDm9o1rzLzvhFHPCE4V%2BuaIXM" style=3D"font-size=
+: inherit; border-style: none; text-decoration: none !important;" border=3D=
+"0">
+                                      <img src=3D"http://mailbuild.rookiewe=
+bstudio.com/customers/vPR765fX/user_upload/20160308020016_president-petitio=
+n-circle.png" width=3D"270" alt=3D"Sign The Paris Petition" style=3D"max-wi=
+dth: 270px; height: auto; display: block;" border=3D"0" hspace=3D"0" vspace=
+=3D"0" height=3D"auto"></a>
+                                  </td>
+                                </tr></tbody></table></td>
+                          </tr><!--start space height --><tr><td height=3D"=
+20" style=3D"border-collapse: collapse; height: 20px; line-height: 20px; fo=
+nt-size: 20px;"></td>
+                          </tr><!--end space height --></tbody></table><!--=
+[if (gte mso 9)|(IE)]></td><td valign=3D"top" ><![endif]--><table class=3D"=
+remove" width=3D"1" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"left" style=3D"font-size: 0px; line-height: 0; border-collapse: collaps=
+e; width: 1px;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td w=
+idth=3D"0" height=3D"2" style=3D"border-collapse: collapse; width: 0px; hei=
+ght: 2px; line-height: 2px; font-size: 2px;">
+                              <p style=3D"padding-left: 20px;">&nbsp;</p>
+                            </td>
+                          </tr></tbody></table><!--[if (gte mso 9)|(IE)]></=
+td><td valign=3D"top" ><![endif]--><table width=3D"270" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" align=3D"right" class=3D"full-width" style=3D=
+"width: 270px;mso-table-lspace:0pt; mso-table-rspace:0pt;"><!-- start text =
+content --><tbody><tr><td valign=3D"top">
+                              <table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" align=3D"left" style=3D"mso-table-lspace:0pt; mso=
+-table-rspace:0pt;"><tbody><tr><td style=3D"font-size: 18px; font-family: R=
+oboto, Arial, Helvetica, sans-serif; color: rgb(85, 85, 85); font-weight: 3=
+00; text-align: left; word-break: break-word; line-height: 26px;"><span sty=
+le=3D"font-family: arial, helvetica, sans-serif; color: rgb(0, 0, 0); font-=
+size: 18px; font-weight: bold; word-break: break-word; line-height: 26px;">=
+ <a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3DhtaxIFXMIUrHOM=
+Mlw4WtZfCE4V%2BuaIXM" style=3D"color: rgb(85, 85, 85); font-size: inherit; =
+border-style: none; text-decoration: none !important; line-height: 26px;" d=
+ata-mce-href=3D"https://www.change.org/p/keep-the-heat-on-obama-ask-him-to-=
+help-ratify-the-paris-climate-agreement-2" border=3D"0">Sign The Paris Peti=
+tion!</a></span></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"15" style=3D"border-collapse: collapse; height: 15px; line-height: 15=
+px; font-size: 15px;"></td>
+                                </tr><!--end space height --><tr><td style=
+=3D"font-size: 13px; font-family: Roboto, Arial, Helvetica, sans-serif; col=
+or: rgb(163, 162, 162); font-weight: 300; text-align: left; word-break: bre=
+ak-word; line-height: 21px;"><span style=3D"font-family: arial, helvetica, =
+sans-serif; color: rgb(68, 68, 68); font-size: 14px; word-break: break-word=
+; line-height: 22px;"> The Paris Climate Agreement was finalized in Decembe=
+r. But it does not go into effect until world leaders officially sign. UN S=
+ecretary General Ban Ki-moon has invited all leaders to UN Headquarters to =
+sign this Earth Day &ndash; April 22nd. So now we need your help. <a href=
+=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3DOE6066hjP%2FtG1SBmHono=
+wvCE4V%2BuaIXM" data-mce-href=3D"https://www.change.org/p/keep-the-heat-on-=
+obama-ask-him-to-help-ratify-the-paris-climate-agreement-2" style=3D"font-s=
+ize: inherit; border-style: none; text-decoration: none !important; line-he=
+ight: 22px;" border=3D"0">Join us by signing our petition</a> calling on le=
+aders from across the globe to send a clear message by signing the Paris Ag=
+reement this Earth Day! The world is watching!</span></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"15" style=3D"border-collapse: collapse; height: 15px; line-height: 15=
+px; font-size: 15px;"></td>
+                                </tr><!--end space height --><tr><td valign=
+=3D"top" width=3D"auto">
+                                    <!-- start button -->
+                                    <table border=3D"0" align=3D"left" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"auto" style=3D"mso-table-lspace:0p=
+t; mso-table-rspace:0pt;"><tbody><tr>
+                                      </tr></tbody></table><!-- end button =
+--></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"20" style=3D"border-collapse: collapse; height: 20px; line-height: 20=
+px; font-size: 20px;"></td>
+                                </tr><!--end space height --></tbody></tabl=
+e></td>
+                          </tr><!-- end text content --></tbody></table></t=
+d>
+                    </tr><!-- end image content --></tbody></table><!-- end=
+ LAYOUT-6 container width 560px --></td>
+              </tr></tbody></table><!-- end LAYOUT-6 container width 600px =
+--></td>
+        </tr><!-- END LAYOUT-6  --></tbody><!-- START LAYOUT-6 --><tbody><t=
+r><td align=3D"center" valign=3D"top" style=3D"background-color: #fff;">
+            <!-- start LAYOUT-6 container width 600px -->
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"container" style=3D"border-bottom-width: =
+1px; border-bottom-style: solid; border-bottom-color: rgb(199, 199, 199); p=
+adding-left: 20px; padding-right: 20px; min-width: 600px; width: 600px; bac=
+kground-color: #ffffff;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody>=
+<tr><td valign=3D"top">
+                  <!-- start LAYOUT-6 container width 560px -->
+                  <table width=3D"560" align=3D"center" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"full-width" style=3D"width: 560px;ms=
+o-table-lspace:0pt; mso-table-rspace:0pt;"><!--start space height --><tbody=
+><tr><td height=3D"20" style=3D"border-collapse: collapse; height: 20px; li=
+ne-height: 20px; font-size: 20px;"></td>
+                    </tr><!--end space height --><!-- start image content -=
+-><tr><td valign=3D"top" width=3D"100%">
+                       =20
+                        <table width=3D"270" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" align=3D"left" class=3D"full-width" style=3D"width: 270p=
+x;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"top=
+">
+                              <table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" align=3D"left" style=3D"mso-table-lspace:0pt; mso=
+-table-rspace:0pt;"><tbody><tr><td valign=3D"top" align=3D"left" class=3D"i=
+mage-270px" width=3D"270" style=3D"width: 270px;">
+                                    <a href=3D"http://org.salsalabs.com/dia=
+/track.jsp?v=3D2&c=3DYwSJx0NSDm%2FdTarJrfMYgfCE4V%2BuaIXM" style=3D"font-si=
+ze: inherit; border-style: none; text-decoration: none !important;" border=
+=3D"0">
+                                      <img src=3D"http://mailbuild.rookiewe=
+bstudio.com/customers/vPR765fX/user_upload/20160308015424_petition-circle.p=
+ng" width=3D"270" alt=3D"It's Not Just The USA That Must Step Up" style=3D"=
+max-width: 270px; width: 270px; height: auto; display: block !important;" b=
+order=3D"0" hspace=3D"0" vspace=3D"0" height=3D"auto"></a>
+                                  </td>
+                                </tr></tbody></table></td>
+                          </tr><!--start space height --><tr><td height=3D"=
+20" style=3D"border-collapse: collapse; height: 20px; line-height: 20px; fo=
+nt-size: 20px;"></td>
+                          </tr><!--end space height --></tbody></table><!--=
+[if (gte mso 9)|(IE)]></td><td valign=3D"top" ><![endif]--><table class=3D"=
+remove" width=3D"1" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"left" style=3D"font-size: 0px; line-height: 0; border-collapse: collaps=
+e; width: 1px;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td w=
+idth=3D"0" height=3D"2" style=3D"border-collapse: collapse; width: 0px; hei=
+ght: 2px; line-height: 2px; font-size: 2px;">
+                              <p style=3D"padding-left: 20px;">&nbsp;</p>
+                            </td>
+                          </tr></tbody></table><!--[if (gte mso 9)|(IE)]></=
+td><td valign=3D"top" ><![endif]--><table width=3D"270" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" align=3D"right" class=3D"full-width" style=3D=
+"width: 270px;mso-table-lspace:0pt; mso-table-rspace:0pt;"><!-- start text =
+content --><tbody><tr><td valign=3D"top">
+                              <table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" align=3D"left" style=3D"mso-table-lspace:0pt; mso=
+-table-rspace:0pt;"><tbody><tr><td style=3D"font-size: 18px; font-family: R=
+oboto, Arial, Helvetica, sans-serif; color: rgb(85, 85, 85); font-weight: 3=
+00; text-align: left; word-break: break-word; line-height: 26px;"><span sty=
+le=3D"font-family: arial, helvetica, sans-serif; color: rgb(0, 0, 0); font-=
+size: 18px; font-weight: bold; word-break: break-word; line-height: 26px;">=
+ <a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3D5UveU%2F%2FU%2=
+B%2FyhTO7Ty42p1fCE4V%2BuaIXM" style=3D"color: rgb(85, 85, 85); font-size: i=
+nherit; border-style: none; text-decoration: none !important; line-height: =
+26px;" data-mce-href=3D"http://www.earthday.org/2016/03/04/3190/" border=3D=
+"0">It&rsquo;s Not Just The USA That Must Step Up</a></span></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"15" style=3D"border-collapse: collapse; height: 15px; line-height: 15=
+px; font-size: 15px;"></td>
+                                </tr><!--end space height --><tr><td style=
+=3D"font-size: 13px; font-family: Roboto, Arial, Helvetica, sans-serif; col=
+or: rgb(163, 162, 162); font-weight: 300; text-align: left; word-break: bre=
+ak-word; line-height: 21px;"><span style=3D"font-family: arial, helvetica, =
+sans-serif; color: rgb(68, 68, 68); font-size: 14px; word-break: break-word=
+; line-height: 22px;">With less than two months to go until the Paris Agree=
+ment officially opens for signing, <a href=3D"http://org.salsalabs.com/dia/=
+track.jsp?v=3D2&c=3DzI3FK4K6nmUoTu57tOdMe%2FCE4V%2BuaIXM" data-mce-href=3D"=
+http://www.earthday.org/campaigns/climate-change/paris-agreement/" style=3D=
+"font-size: inherit; border-style: none; text-decoration: none !important; =
+line-height: 22px;" border=3D"0">several countries</a> have already pledged=
+ that they will indeed sign it this upcoming Earth Day. But what about thos=
+e that have not? Why is this so important? And what can <a href=3D"http://o=
+rg.salsalabs.com/dia/track.jsp?v=3D2&c=3DyoiuIxFHGmhiMGGRxr60VPCE4V%2BuaIXM=
+" data-mce-href=3D"https://www.change.org/p/keep-the-heat-on-obama-ask-him-=
+to-help-ratify-the-paris-climate-agreement-2" style=3D"font-size: inherit; =
+border-style: none; text-decoration: none !important; line-height: 22px;" b=
+order=3D"0">you do to help</a>? We have an important <a href=3D"http://org.=
+salsalabs.com/dia/track.jsp?v=3D2&c=3Dj57z%2FJr0idqZ4mz2svW%2BOfCE4V%2BuaIX=
+M" data-mce-href=3D"http://www.earthday.org/2016/03/04/3190/" style=3D"font=
+-size: inherit; border-style: none; text-decoration: none !important; line-=
+height: 22px;" border=3D"0">new blog post</a> that answers all of those que=
+stions and more. Check it out! </span></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"15" style=3D"border-collapse: collapse; height: 15px; line-height: 15=
+px; font-size: 15px;"></td>
+                                </tr><!--end space height --><tr><td valign=
+=3D"top" width=3D"auto">
+                                    <!-- start button -->
+                                    <table border=3D"0" align=3D"left" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"auto" style=3D"mso-table-lspace:0p=
+t; mso-table-rspace:0pt;"><tbody><tr>
+                                      </tr></tbody></table><!-- end button =
+--></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"20" style=3D"border-collapse: collapse; height: 20px; line-height: 20=
+px; font-size: 20px;"></td>
+                                </tr><!--end space height --></tbody></tabl=
+e></td>
+                          </tr><!-- end text content --></tbody></table></t=
+d>
+                    </tr><!-- end image content --></tbody></table><!-- end=
+ LAYOUT-6 container width 560px --></td>
+              </tr></tbody></table><!-- end LAYOUT-6 container width 600px =
+--></td>
+        </tr><!-- END LAYOUT-6  --></tbody><!-- START LAYOUT-6 --><tbody><t=
+r><td align=3D"center" valign=3D"top" style=3D"background-color: #fff;">
+            <!-- start LAYOUT-6 container width 600px -->
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"container" style=3D"border-bottom-width: =
+1px; border-bottom-style: solid; border-bottom-color: rgb(199, 199, 199); p=
+adding-left: 20px; padding-right: 20px; min-width: 600px; width: 600px; bac=
+kground-color: #ffffff;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody>=
+<tr><td valign=3D"top">
+                  <!-- start LAYOUT-6 container width 560px -->
+                  <table width=3D"560" align=3D"center" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"full-width" style=3D"width: 560px;ms=
+o-table-lspace:0pt; mso-table-rspace:0pt;"><!--start space height --><tbody=
+><tr><td height=3D"20" style=3D"border-collapse: collapse; height: 20px; li=
+ne-height: 20px; font-size: 20px;"></td>
+                    </tr><!--end space height --><!-- start image content -=
+-><tr><td valign=3D"top" width=3D"100%">
+                       =20
+                        <table width=3D"270" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" align=3D"left" class=3D"full-width" style=3D"width: 270p=
+x;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"top=
+">
+                              <table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" align=3D"left" style=3D"mso-table-lspace:0pt; mso=
+-table-rspace:0pt;"><tbody><tr><td valign=3D"top" align=3D"left" class=3D"i=
+mage-270px" width=3D"270" style=3D"width: 270px;">
+                                   =20
+                                      <a href=3D"http://org.salsalabs.com/d=
+ia/track.jsp?v=3D2&c=3DngqcIc%2FaHqvp0ch0qQJf6%2FCE4V%2BuaIXM" style=3D"fon=
+t-size: inherit; border-style: none; text-decoration: none !important;" bor=
+der=3D"0"><img src=3D"http://mailbuild.rookiewebstudio.com/customers/vPR765=
+fX/user_upload/20160308015008_eventsmap.png" width=3D"270" alt=3D"Earth Day=
+ Events" style=3D"max-width: 270px; width: 270px; height: auto; display: bl=
+ock !important;" border=3D"0" hspace=3D"0" vspace=3D"0" height=3D"auto"></a=
+>
+                                  </td>
+                                </tr></tbody></table></td>
+                          </tr><!--start space height --><tr><td height=3D"=
+20" style=3D"border-collapse: collapse; height: 20px; line-height: 20px; fo=
+nt-size: 20px;"></td>
+                          </tr><!--end space height --></tbody></table><!--=
+[if (gte mso 9)|(IE)]></td><td valign=3D"top" ><![endif]--><table class=3D"=
+remove" width=3D"1" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"left" style=3D"font-size: 0px; line-height: 0; border-collapse: collaps=
+e; width: 1px;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td w=
+idth=3D"0" height=3D"2" style=3D"border-collapse: collapse; width: 0px; hei=
+ght: 2px; line-height: 2px; font-size: 2px;">
+                              <p style=3D"padding-left: 20px;">&nbsp;</p>
+                            </td>
+                          </tr></tbody></table><!--[if (gte mso 9)|(IE)]></=
+td><td valign=3D"top" ><![endif]--><table width=3D"270" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" align=3D"right" class=3D"full-width" style=3D=
+"width: 270px;mso-table-lspace:0pt; mso-table-rspace:0pt;"><!-- start text =
+content --><tbody><tr><td valign=3D"top">
+                              <table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" align=3D"left" style=3D"mso-table-lspace:0pt; mso=
+-table-rspace:0pt;"><tbody><tr><td style=3D"font-size: 18px; font-family: R=
+oboto, Arial, Helvetica, sans-serif; color: rgb(85, 85, 85); font-weight: 3=
+00; text-align: left; word-break: break-word; line-height: 26px;"><span sty=
+le=3D"font-family: arial, helvetica, sans-serif; color: rgb(0, 0, 0); font-=
+size: 18px; font-weight: bold; word-break: break-word; line-height: 26px;">=
+ <a href=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3DDphaSQ2kU9%2FC=
+%2FkAwSiokZPCE4V%2BuaIXM" style=3D"color: rgb(85, 85, 85); font-size: inher=
+it; border-style: none; text-decoration: none !important; line-height: 26px=
+;" support=3D"" mailchimp=3D"" span=3D"" data-mce-href=3D"http://www.earthd=
+ay.org/earth-day/" border=3D"0">What are you doing this #EarthDay2016?</a><=
+/span></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"15" style=3D"border-collapse: collapse; height: 15px; line-height: 15=
+px; font-size: 15px;"></td>
+                                </tr><!--end space height --><tr><td style=
+=3D"font-size: 13px; font-family: Roboto, Arial, Helvetica, sans-serif; col=
+or: rgb(163, 162, 162); font-weight: 300; text-align: left; word-break: bre=
+ak-word; line-height: 21px;"><span style=3D"font-family: arial, helvetica, =
+sans-serif; color: rgb(68, 68, 68); font-size: 14px; word-break: break-word=
+; line-height: 22px;">We have a <a href=3D"http://org.salsalabs.com/dia/tra=
+ck.jsp?v=3D2&c=3DHtp6%2BkKIxB7yLXNKWY0TovCE4V%2BuaIXM" data-mce-href=3D"htt=
+p://www.earthday.org/earth-day/" style=3D"font-size: inherit; border-style:=
+ none; text-decoration: none !important; line-height: 22px;" border=3D"0">g=
+reat online tool</a> that tracks hundreds if not thousands of some of the g=
+lobal Earth Day events we know about. <a href=3D"http://org.salsalabs.com/d=
+ia/track.jsp?v=3D2&c=3DmsbnDowuFVB%2FLbxvWl1oEfCE4V%2BuaIXM" data-mce-href=
+=3D"http://www.earthday.org/earth-day/" style=3D"font-size: inherit; border=
+-style: none; text-decoration: none !important; line-height: 22px;" border=
+=3D"0">Register yours now</a> to spread word of mouth and grow interest. We=
+ may even tweet about your event or post it on Facebook to our networks of =
+followers. Let us help you spread the word! </span></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"15" style=3D"border-collapse: collapse; height: 15px; line-height: 15=
+px; font-size: 15px;"></td>
+                                </tr><!--end space height --><tr><td valign=
+=3D"top" width=3D"auto">
+                                    <!-- start button -->
+                                    <table border=3D"0" align=3D"left" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"auto" style=3D"mso-table-lspace:0p=
+t; mso-table-rspace:0pt;"><tbody><tr>
+                                      </tr></tbody></table><!-- end button =
+--></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"20" style=3D"border-collapse: collapse; height: 20px; line-height: 20=
+px; font-size: 20px;"></td>
+                                </tr><!--end space height --></tbody></tabl=
+e></td>
+                          </tr><!-- end text content --></tbody></table></t=
+d>
+                    </tr><!-- end image content --></tbody></table><!-- end=
+ LAYOUT-6 container width 560px --></td>
+              </tr></tbody></table><!-- end LAYOUT-6 container width 600px =
+--></td>
+        </tr><!-- END LAYOUT-6  --></tbody><!-- START LAYOUT-1/2 --><tbody>=
+<tr><td align=3D"center" valign=3D"top" style=3D"background-color: #ffffff;=
+">
+            <!-- start  container width 600px -->
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"container" style=3D"padding-left: 20px; p=
+adding-right: 20px; min-width: 600px; width: 600px; background-color: #ffff=
+ff;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"to=
+p">
+                  <!-- start container width 560px -->
+                  <table width=3D"560" align=3D"center" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"full-width" style=3D"width: 560px;ms=
+o-table-lspace:0pt; mso-table-rspace:0pt;"><!-- start text content --><tbod=
+y><tr><td valign=3D"top">
+                        <table width=3D"100%" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" align=3D"center" style=3D"mso-table-lspace:0pt; mso-tab=
+le-rspace:0pt;"><!-- start text content --><tbody><tr dup=3D"0"><td valign=
+=3D"top">
+                              <table width=3D"100%" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" align=3D"center" style=3D"mso-table-lspace:0pt; m=
+so-table-rspace:0pt;"><!--start space height --><tbody><tr><td height=3D"1"=
+ style=3D"border-collapse: collapse; height: 1px; line-height: 1px; font-si=
+ze: 1px;"></td>
+                                </tr><!--end space height --><tr><td style=
+=3D"font-size: 13px; font-family: Roboto, Arial, Helvetica, Arial; color: r=
+gb(163, 162, 162); font-weight: 300; text-align: left; word-break: break-wo=
+rd; line-height: 21px;"><span style=3D"font-family: arial, helvetica, sans-=
+serif; color: rgb(68, 68, 68); font-weight: 300; font-size: 14px; word-brea=
+k: break-word; line-height: 22px;">And don't forget to follow us on <a href=
+=3D"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3D82tpBBpDV5PBLWWhkgbqUP=
+CE4V%2BuaIXM" data-mce-href=3D"https://twitter.com/EarthDayNetwork" style=
+=3D"font-size: inherit; border-style: none; text-decoration: none !importan=
+t; line-height: 22px;" border=3D"0">Twitter</a>&nbsp;and <a href=3D"http://=
+org.salsalabs.com/dia/track.jsp?v=3D2&c=3DPeeetnvQH5qzltKUmg1vuPCE4V%2BuaIX=
+M" data-mce-href=3D"https://www.facebook.com/EarthDayNetwork/" style=3D"fon=
+t-size: inherit; border-style: none; text-decoration: none !important; line=
+-height: 22px;" border=3D"0">Facebook</a>!<br><br>Thank you,<br>Earth Day N=
+etwork</span></td>
+                                </tr><!--start space height --><tr><td heig=
+ht=3D"1" style=3D"border-collapse: collapse; height: 1px; line-height: 1px;=
+ font-size: 1px;"></td>
+                                </tr><!--end space height --></tbody></tabl=
+e></td>
+                          </tr><!-- end text content --><tr><td valign=3D"t=
+op" width=3D"100%" align=3D"center">
+                              <!-- start button -->
+                              <table width=3D"auto" border=3D"0" align=3D"c=
+enter" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0 auto;mso-table=
+-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"top">
+                                    </td>
+                                </tr></tbody></table><!-- end button --></t=
+d>
+                          </tr></tbody></table></td>
+                    </tr><!-- end text content --><!--start space height --=
+><tr><td height=3D"14" style=3D"border-collapse: collapse; height: 14px; li=
+ne-height: 14px; font-size: 14px;"></td>
+                    </tr><!--end space height --></tbody></table><!-- end  =
+container width 560px --></td>
+              </tr></tbody></table><!-- end  container width 600px --></td>
+        </tr><!-- END LAYOUT-1/2 --></tbody><!--START FOOTER LAYOUT--><tbod=
+y><tr><td valign=3D"top" style=3D"background-color:#ecebeb;">
+            <!-- start footer container -->
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"container" style=3D"padding-left: 20px; p=
+adding-right: 20px; min-width: 600px; width: 600px; background-color: #eceb=
+eb;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"to=
+p">
+                  <!-- start footer -->
+                  <table width=3D"560" align=3D"center" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"full-width" style=3D"width: 560px;ms=
+o-table-lspace:0pt; mso-table-rspace:0pt;"><!-- start space --><tbody><tr><=
+td valign=3D"top" height=3D"20" style=3D"border-collapse: collapse; height:=
+ 20px; line-height: 20px; font-size: 20px;">
+                      </td>
+                    </tr><!-- end space --><tr><td valign=3D"middle">
+                        <table align=3D"left" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" class=3D"container2" width=3D"auto" style=3D"mso-table-=
+lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td align=3D"center" valign=
+=3D"top" width=3D"150" style=3D"width: 150px;">
+                              <a href=3D"http://org.salsalabs.com/dia/track=
+.jsp?v=3D2&c=3DSF%2BklqTySy%2BM0QgvX5eL7PCE4V%2BuaIXM" style=3D"font-size: =
+inherit; border-style: none; text-decoration: none !important;" border=3D"0=
+"><img src=3D"http://mailbuild.rookiewebstudio.com/customers/vPR765fX/user_=
+upload/20160116042930_logo-footer.png" width=3D"150" style=3D"max-width: 15=
+0px; display: block !important;" alt=3D"Earth Day Network Logo" border=3D"0=
+" hspace=3D"0" vspace=3D"0"></a>
+                            </td>
+                          </tr><!-- start space --><tr><td valign=3D"top" c=
+lass=3D"increase-Height-20">
+                            </td>
+                          </tr><!-- end space --></tbody></table><!--[if (g=
+te mso 9)|(IE)]></td><td valign=3D"top" ><![endif]--><table border=3D"0" al=
+ign=3D"right" cellpadding=3D"0" cellspacing=3D"0" class=3D"container2" widt=
+h=3D"auto" style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;"><!--start =
+call us --><tbody><tr><td valign=3D"middle" align=3D"center">
+                              <table align=3D"right" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" class=3D"clear-align" style=3D"height:100%;mso-t=
+able-lspace:0pt; mso-table-rspace:0pt;" width=3D"auto"><tbody><tr><td style=
+=3D"font-size: 13px; color: rgb(208, 93, 104); font-weight: 300; font-famil=
+y: Roboto, Arial, Helvetica, Roboto, Arial, sans-serif; text-align: left; w=
+ord-break: break-word; line-height: 21px;"><span style=3D"color: rgb(0, 65,=
+ 119); font-family: arial, helvetica, sans-serif; font-weight: 300; font-si=
+ze: 12px; word-break: break-word; line-height: 20px;">Earth Day Network<br>=
+</span><span style=3D"color: rgb(0, 65, 119); font-family: arial, helvetica=
+, sans-serif; font-weight: 300; font-size: 12px; word-break: break-word; li=
+ne-height: 20px;">1616 P Street NW STE 340<br></span><span style=3D"color: =
+rgb(0, 65, 119); font-family: arial, helvetica, sans-serif; font-weight: 30=
+0; font-size: 12px; word-break: break-word; line-height: 20px;">Washington,=
+ DC 20036<br></span><span style=3D"color: rgb(0, 65, 119); font-family: ari=
+al, helvetica, sans-serif; font-weight: 300; font-size: 12px; word-break: b=
+reak-word; line-height: 20px;">202-518-0044<br></span><span style=3D"color:=
+ rgb(0, 65, 119); font-family: arial, helvetica, sans-serif; font-weight: 3=
+00; font-size: 12px; word-break: break-word; line-height: 20px;"><a href=3D=
+"mailto:info@earthday.net" data-mce-href=3D"mailto:info@earthday.net" style=
+=3D"font-size: inherit; border-style: none; text-decoration: none !importan=
+t; line-height: 20px;" border=3D"0">info@earthday.net</a><br><br><a href=3D=
+"http://org.salsalabs.com/dia/track.jsp?v=3D2&c=3D%2BxZ2ECfBPd5VWfwlQMz90vC=
+E4V%2BuaIXM" data-mce-href=3D"http://action.earthday.net/p/salsa/supporter/=
+unsubscribe/public/index.sjs" style=3D"font-size: inherit; border-style: no=
+ne; text-decoration: none !important; line-height: 20px;" border=3D"0">Unsu=
+bscribe</a><br></span><span style=3D"color: rgb(208, 93, 104); font-weight:=
+ 300; text-decoration: none; font-size: 13px; line-height: 21px;"></span></=
+td>
+                                </tr></tbody></table></td>
+                          </tr><!--end call us --></tbody></table></td>
+                    </tr><!-- start space --><tr><td valign=3D"top" height=
+=3D"20" style=3D"border-collapse: collapse; height: 20px; line-height: 20px=
+; font-size: 20px;">
+                      </td>
+                    </tr><!-- end space --></tbody></table><!-- end footer =
+--></td>
+              </tr></tbody></table><!-- end footer container --></td>
+        </tr><!--END FOOTER &#x200b;LAYOUT--></tbody><!--START VIEW ONLINE =
+AND ICON SOCAIL --><tbody><tr><td align=3D"center" valign=3D"top" style=3D"=
+background-color: #004177;">
+            <!-- start container 600 -->
+            <table width=3D"600" align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" class=3D"container" style=3D"padding-left: 20px; p=
+adding-right: 20px; min-width: 600px; width: 600px; background-color: #0041=
+77;mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td valign=3D"to=
+p">
+                  <table width=3D"560" align=3D"center" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" class=3D"full-width" style=3D"width: 560px; b=
+ackground-color: #004177;mso-table-lspace:0pt; mso-table-rspace:0pt;"><!-- =
+start space --><tbody><tr><td valign=3D"top" height=3D"10" style=3D"border-=
+collapse: collapse; height: 10px; line-height: 10px; font-size: 10px;">
+                      </td>
+                    </tr><!-- end space --><tr><td valign=3D"top">
+                        <!-- start container -->
+                        <table width=3D"100%" align=3D"center" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"mso-table-lspace:0pt; mso-tab=
+le-rspace:0pt;"><tbody><tr><td valign=3D"top">
+                             =20
+                              <table align=3D"left" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" class=3D"container2" width=3D"auto" style=3D"mso-=
+table-lspace:0pt; mso-table-rspace:0pt;"><tbody><tr><td>
+                                    <table align=3D"center" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" width=3D"auto" style=3D"mso-table-lspace:=
+0pt; mso-table-rspace:0pt;"><tbody><tr><td style=3D"font-size: 12px; font-f=
+amily: Roboto, Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); fon=
+t-weight: 300; text-align: center; word-break: break-word; line-height: 20p=
+x;"><br></td>
+                                       =20
+                                      </tr></tbody></table></td>
+                                </tr><!-- start space --><tr><td valign=3D"=
+top" class=3D"increase-Height">
+                                  </td>
+                                </tr><!-- end space --></tbody></table><!--=
+[if (gte mso 9)|(IE)]></td><td valign=3D"top" ><![endif]--><table border=3D=
+"0" align=3D"right" cellpadding=3D"0" cellspacing=3D"0" class=3D"container2=
+" width=3D"auto" style=3D"mso-table-lspace:0pt; mso-table-rspace:0pt;"><tbo=
+dy><tr><td valign=3D"top" align=3D"center">
+                                    <table border=3D"0" align=3D"center" ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"auto" style=3D"mso-table-lspace:=
+0pt; mso-table-rspace:0pt;"><tbody><tr><td align=3D"center" valign=3D"middl=
+e" id=3D"clear-padding" width=3D"30" style=3D"width: 30px;">
+                                          <a href=3D"http://org.salsalabs.c=
+om/dia/track.jsp?v=3D2&c=3D7elBfpGUCqf3eWsNvWxxjvCE4V%2BuaIXM" style=3D"fon=
+t-size: inherit; border-style: none; text-decoration: none !important;" bor=
+der=3D"0"><img src=3D"http://mailbuild.rookiewebstudio.com/item/bxToVZR3/im=
+ages/icon-facebook.png" width=3D"30" alt=3D"icon-facebook" style=3D"max-wid=
+th: 30px; display: block;" border=3D"0" hspace=3D"0" vspace=3D"0"></a>
+                                        </td>
+                                        <td s=3D"" align=3D"center" valign=
+=3D"middle" id=3D"clear-padding" width=3D"30" style=3D"width: 30px;">
+                                          <a href=3D"http://org.salsalabs.c=
+om/dia/track.jsp?v=3D2&c=3D5%2FRMrLPpucSh9Mee6J9y3fCE4V%2BuaIXM" style=3D"f=
+ont-size: inherit; border-style: none; text-decoration: none !important;" b=
+order=3D"0"><img src=3D"http://mailbuild.rookiewebstudio.com/item/bxToVZR3/=
+images/icon-twitter.png" width=3D"30" alt=3D"icon-twitter" style=3D"max-wid=
+th: 30px; display: block;" border=3D"0" hspace=3D"0" vspace=3D"0"></a>
+                                        </td>
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                       =20
+                                      </tr></tbody></table></td>
+                                </tr></tbody></table></td>
+                          </tr></tbody></table><!-- end container  --></td>
+                    </tr><!-- start space --><tr><td valign=3D"top" height=
+=3D"10" style=3D"border-collapse: collapse; height: 10px; line-height: 10px=
+; font-size: 10px;">
+                      </td>
+                    </tr><!-- end space --><!-- start space --><tr><td vali=
+gn=3D"top" class=3D"increase-Height">
+                      </td>
+                    </tr><!-- end space --></tbody></table><!-- end contain=
+er 600--></td>
+              </tr></tbody></table></td>
+        </tr><!--END VIEW ONLINE AND ICON SOCAIL--></tbody></table></body>
+</html><img width=3D1 height=3D1 src=3D"http://org.salsalabs.com/dia/TrackI=
+mage?key=3D3513814706"><diaEmailID=3D'3513814706' thread=3D11390 />
+------=_Part_38738529_1202783058.1457383868188--

@@ -1,0 +1,291 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp1874800lfb;
+        Tue, 23 Feb 2016 10:13:48 -0800 (PST)
+X-Received: by 10.194.95.73 with SMTP id di9mr39351733wjb.152.1456251228020;
+        Tue, 23 Feb 2016 10:13:48 -0800 (PST)
+Return-Path: <hannon@hillaryclinton.com>
+Received: from mail-wm0-x236.google.com (mail-wm0-x236.google.com. [2a00:1450:400c:c09::236])
+        by mx.google.com with ESMTPS id y133si40766979wme.72.2016.02.23.10.13.47
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Feb 2016 10:13:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of hannon@hillaryclinton.com designates 2a00:1450:400c:c09::236 as permitted sender) client-ip=2a00:1450:400c:c09::236;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hannon@hillaryclinton.com designates 2a00:1450:400c:c09::236 as permitted sender) smtp.mailfrom=hannon@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wm0-x236.google.com with SMTP id g62so210585405wme.0
+        for <john.podesta@gmail.com>; Tue, 23 Feb 2016 10:13:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:date:message-id:subject:from:to:cc:content-type;
+        bh=v89Hg5ML4U3XtS3wiimR9bx55g66C/mYIyZQDXkLx8A=;
+        b=DgdxDToGBV3I2TxZclklUzb/Rgipd30e8+29nSTK6U6xRgBpnbE03bOQY794uLywbL
+         1p+hMW9pQgcH6bVysI5/gY43rsWVfI8NbOPUB44LiqSHXiO4zIg2/CstXhyn8B3ahMVf
+         wEP8Zeli7o2tUZbzQwEIfTGlDtzwI8cd3wiuU=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:message-id:subject:from:to:cc
+         :content-type;
+        bh=v89Hg5ML4U3XtS3wiimR9bx55g66C/mYIyZQDXkLx8A=;
+        b=TXvRDTy4vR2Fh99mOLHMNiaPeF+wO6bcPx6o+9c41fmuWR5J0j+3/E6obRXEmQxTHp
+         HRsjUHkuJFbsF2X8s2ANbH3/VvIDqr7JuSLQVbRzYBdmd4AG6BtJ4IkQwfJhvwiHEoo+
+         uzRYmn3vyplKlT2YlBWe9c8tGZbpSJfPR6D8fA45StIbgcpRbxCdMpz1ho7tcqPusl6q
+         KLbYs18A6x1G7Y9AjvNF++9mABFX9uIfjxzKRplaLH5wMA5Kmpg5qhiniMfWfvasByGB
+         FXCELsvayVR7jqJ07slvTAOvFDL8bmZulC6qgecR3y0DpwrZ1uyOkLMSqSCg9Deq0kZa
+         Akzg==
+X-Gm-Message-State: AG10YOQkqkaU9JxENL8DQlx3ayHZ6/EHgiTD33czZgZK4tn96f6Aw1Z6D5U7C6xgjCvtlBK6XImuFg/1xPZjTSwp
+MIME-Version: 1.0
+X-Received: by 10.194.59.233 with SMTP id c9mr33410422wjr.88.1456251227730;
+ Tue, 23 Feb 2016 10:13:47 -0800 (PST)
+Received: by 10.27.16.23 with HTTP; Tue, 23 Feb 2016 10:13:47 -0800 (PST)
+Date: Tue, 23 Feb 2016 10:13:47 -0800
+Message-ID: <CAMaQOZLaRjD3R2bsdNPBOn-nDB0NLLbUU6=ytAdLu9U3gr8=3w@mail.gmail.com>
+Subject: Tech Weekly Report (Feb 15th to Feb 22nd)
+From: Stephanie Hannon <hannon@hillaryclinton.com>
+To: Teddy Goff <tgoff@hillaryclinton.com>, 
+ Elan Kriegel <ekriegel@hillaryclinton.com>, 
+ Jenna Lowenstein <jlowenstein@hillaryclinton.com>, 
+ Katie Dowd <kdowd@hillaryclinton.com>, 
+ Marlon Marshall <mmarshall@hillaryclinton.com>, 
+ Brynne Craig <bcraig@hillaryclinton.com>, 
+ Rebecca Leal <rleal@hillaryclinton.com>, 
+ Dennis Cheng <dcheng@hillaryclinton.com>, 
+ Beth Jones <bjones@hillaryclinton.com>, 
+ Robby Mook <re47@hillaryclinton.com>, 
+ Heather Stone <hstone@hillaryclinton.com>, 
+ Kimberly Panicek Trueblood <kptrueblood@hillaryclinton.com>, 
+ Tracey Lewis <tlewis@hillaryclinton.com>, 
+ John Podesta <john.podesta@gmail.com>, 
+ Huma Abedin <ha16@hillaryclinton.com>, 
+ Nell Thomas <nthomas@hillaryclinton.com>, 
+ Kit Rodolfa <krodolfa@hillaryclinton.com>, 
+ Kristina Schake <kschake@hillaryclinton.com>, 
+ Christina Reynolds <creynolds@hillaryclinton.com>, 
+ Brian Fallon <bfallon@hillaryclinton.com>, 
+ Jesse Ferguson <jferguson@hillaryclinton.com>, 
+ Michael Halle <mhalle@hillaryclinton.com>, 
+ Michelle Kleppe <mkleppe@hillaryclinton.com>
+CC: Tech Managers <tech-managers@hillaryclinton.com>, 
+ The Product Team <product@hillaryclinton.com>, 
+ Ahna Rao <arao@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=047d7ba979d62239e0052c73e9f3
+
+--047d7ba979d62239e0052c73e9f3
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Reference links:
+* Q1 project current status
+<https://docs.google.com/spreadsheets/d/1tAi6O0ap-2JrJ_SBTufzSA1fT_jVA-Dp_L=
+5kdM6oyUQ/edit#gid=3D1065016584>
+* Archive of previous Weekly Reports
+<https://docs.google.com/document/d/1QfJQgg1QImpPVyDPwCTsFGVIOK8ZkA1lntkRqs=
+n3dJc/edit#>
+
+
+Week starting February 15
+
+Wins:
+
+   -
+
+   Nevada Megaphone usage: The team sent over 30,000 text messages on
+   caucus day in Nevada! We were able to quickly change templates when it
+   became clear that lines were very long and we=E2=80=99d want to remind p=
+eople to
+   stay where they are so that their votes would count.
+   -
+
+   Caucus night tech in Nevada: 586 precinct captains submitted caucus
+   results through Reporter on caucus day in Nevada. We had attorneys at
+   caucus sites using Reporter to submit issues to the boiler room, and the
+   call center at Nevada HQ in Las Vegas was using Aurora, our dashboard, t=
+o
+   submit issues to the boiler room for follow up. Both Reporter and Aurora
+   were stable all day and helped support team Nevada on their way to victo=
+ry!
+   -
+
+   Presenting =E2=80=9CSave my payment=E2=80=9D upsell to HVF donors: We no=
+w ask donors who
+   come in through HVF Digital Donate pages (mostly Ads-driven traffic) to
+   save their card information in order to grow the number of HFA Quick
+   Donors. In the 5 days since this change shipped we have seen 1,976 new H=
+FA
+   Quick Donors which is a rapid increase in-line with the increase in
+   Ads-based traffic seen in the past few weeks.
+   -
+
+   =E2=80=9CDonate in Failover=E2=80=9D mini-project complete: We hit our g=
+oal of
+   completing all of the work items to ensure the Donate experience is
+   optimized to not leave money on the table when we are in failover mode (=
+e.g
+   when Stripe is unhealthy and we are running in backup payment
+   processor-mode). This means that user actions that are not supported in
+   failover mode are now smartly hidden and we queue Quick Donate donations=
+ so
+   they can be processed when the system is healthy.
+   -
+
+   Shop Infinite Scroll: Team Donate shipped one of the most highly
+   anticipated feature improvements for The Shop in Q1 which was to add
+   infinite scroll to homepage and other collections as well as search
+   results. See it live here
+   <https://shop.hillaryclinton.com/collections/apparel>!
+   -
+
+   Ads Core A/B Test:We are A/B testing a new layout of the Ads Core
+   landing page, 50% of visitors will see this new experience
+   <https://www.hillaryclinton.com/forms/om-hvf-join-split/>. This new
+   design is inspired by the direction of the website re-design. Results wi=
+ll
+   likely be reported this week.
+
+
+Updates:
+
+   -
+
+   HFA cloud Vertica migration: Due to a higher workload on the analytics
+   team and the fact that the DNC cluster has been reasonably stable recent=
+ly
+   we have postponed the migration to HFA Vertica until the March states ar=
+e
+   done. The HFA cluster is ready incase there are issues on the DNC side.
+   -
+
+   Call tool update: The voter engineering team is grinding away at getting
+   the call tool up and running. The team is going to be doing some
+   stress-testing of the system and is working to make the tool available f=
+or
+   a live beta as soon as possible.
+
+
+Hiring:
+
+
+   - Welcome Riley! Riley is joining the data infrastructure team and is
+   turning Stork into a first class supported tool. He is adding
+   functionality, security updates and speed improvements that will help th=
+e
+   analytics team. He comes to us with many years of experience and most
+   recently was consulting for Bloomberg.
+
+--047d7ba979d62239e0052c73e9f3
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span id=3D"docs-internal-guid-390a30c1-0f52-51eb-8d65-4a3=
+22019f908"><div>Reference links:</div><div><div>*=C2=A0<a href=3D"https://d=
+ocs.google.com/spreadsheets/d/1tAi6O0ap-2JrJ_SBTufzSA1fT_jVA-Dp_L5kdM6oyUQ/=
+edit#gid=3D1065016584" target=3D"_blank">Q1 project current status</a></div=
+><div><span style=3D"font-size:12.8px">* Archive of previous=C2=A0</span><a=
+ href=3D"https://docs.google.com/document/d/1QfJQgg1QImpPVyDPwCTsFGVIOK8ZkA=
+1lntkRqsn3dJc/edit#" target=3D"_blank" style=3D"font-size:12.8px">Weekly=C2=
+=A0Reports</a></div></div><div><br></div><div dir=3D"ltr" style=3D"margin-l=
+eft:0pt"><table style=3D"border:none;border-collapse:collapse"><colgroup><c=
+ol width=3D"24"><col width=3D"600"></colgroup><tbody><tr style=3D"height:40=
+px"><td style=3D"border:1px solid rgb(11,83,148);vertical-align:top;padding=
+:7px;background-color:rgb(11,83,148)"><br></td><td style=3D"border:1px soli=
+d rgb(11,83,148);vertical-align:middle;padding:7px"><h1 dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+family:Arial;color:rgb(0,0,0);vertical-align:baseline;white-space:pre-wrap;=
+background-color:transparent"><font size=3D"4">Week starting February 15</f=
+ont></span></h1></td></tr></tbody></table></div><br><p dir=3D"ltr" style=3D=
+"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-fam=
+ily:Arial;color:rgb(0,0,0);font-weight:700;vertical-align:baseline;white-sp=
+ace:pre-wrap;background-color:transparent">Wins:</span></p><ul style=3D"mar=
+gin-top:0pt;margin-bottom:0pt"><li dir=3D"ltr" style=3D"list-style-type:dis=
+c;vertical-align:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bo=
+ttom:0pt"><span style=3D"font-family:Arial;font-weight:700;line-height:1.38=
+;vertical-align:baseline;white-space:pre-wrap">Nevada Megaphone usage: </sp=
+an>The team sent over 30,000 text messages on caucus day in Nevada! We were=
+ able to quickly change templates when it became clear that lines were very=
+ long and we=E2=80=99d want to remind people to stay where they are so that=
+ their votes would count.</p></li><li dir=3D"ltr" style=3D"list-style-type:=
+disc;vertical-align:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;margin=
+-bottom:0pt"><span style=3D"font-family:Arial;font-weight:700;line-height:1=
+.38;vertical-align:baseline;white-space:pre-wrap">Caucus night tech in Neva=
+da: </span>586 precinct captains submitted caucus results through Reporter =
+on caucus day in Nevada. We had attorneys at caucus sites using Reporter to=
+ submit issues to the boiler room, and the call center at Nevada HQ in Las =
+Vegas was using Aurora, our dashboard, to submit issues to the boiler room =
+for follow up. Both Reporter and Aurora were stable all day and helped supp=
+ort team Nevada on their way to victory!</p></li><li dir=3D"ltr" style=3D"l=
+ist-style-type:disc;vertical-align:baseline"><p dir=3D"ltr" style=3D"margin=
+-top:0pt;margin-bottom:0pt"><span style=3D"font-family:Arial;font-weight:70=
+0;line-height:1.38;vertical-align:baseline;white-space:pre-wrap">Presenting=
+ =E2=80=9CSave my payment=E2=80=9D upsell to HVF donors: </span>We now ask =
+donors who come in through HVF Digital Donate pages (mostly Ads-driven traf=
+fic) to save their card information in order to grow the number of HFA Quic=
+k Donors. In the 5 days since this change shipped we have seen 1,976 new HF=
+A Quick Donors which is a rapid increase in-line with the increase in Ads-b=
+ased traffic seen in the past few weeks.</p></li><li dir=3D"ltr" style=3D"l=
+ist-style-type:disc;vertical-align:baseline"><p dir=3D"ltr" style=3D"margin=
+-top:0pt;margin-bottom:0pt"><span style=3D"font-family:Arial;font-weight:70=
+0;line-height:1.38;vertical-align:baseline;white-space:pre-wrap">=E2=80=9CD=
+onate in Failover=E2=80=9D mini-project complete: </span>We hit our goal of=
+ completing all of the work items to ensure the Donate experience is optimi=
+zed to not leave money on the table when we are in failover mode (e.g when =
+Stripe is unhealthy and we are running in backup payment processor-mode). T=
+his means that user actions that are not supported in failover mode are now=
+ smartly hidden and we queue Quick Donate donations so they can be processe=
+d when the system is healthy.</p></li><li dir=3D"ltr" style=3D"list-style-t=
+ype:disc;vertical-align:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;ma=
+rgin-bottom:0pt"><span style=3D"font-family:Arial;font-weight:700;line-heig=
+ht:1.38;vertical-align:baseline;white-space:pre-wrap">Shop Infinite Scroll:=
+ </span>Team Donate shipped one of the most highly anticipated feature impr=
+ovements for The Shop in Q1 which was to add infinite scroll to homepage an=
+d other collections as well as search results. See it live<span style=3D"fo=
+nt-family:Arial;font-weight:400;line-height:1.38;vertical-align:baseline;wh=
+ite-space:pre-wrap"> </span><a href=3D"https://shop.hillaryclinton.com/coll=
+ections/apparel" style=3D"font-family:Arial;font-weight:700;line-height:1.3=
+8;text-decoration:none"><span style=3D"font-weight:400;text-decoration:unde=
+rline;vertical-align:baseline;white-space:pre-wrap">here</span></a><span st=
+yle=3D"font-family:Arial;font-weight:400;line-height:1.38;vertical-align:ba=
+seline;white-space:pre-wrap">!</span></p></li><li dir=3D"ltr" style=3D"list=
+-style-type:disc;vertical-align:baseline"><p dir=3D"ltr" style=3D"margin-to=
+p:0pt;margin-bottom:0pt"><span style=3D"font-family:Arial;font-weight:700;l=
+ine-height:1.38;vertical-align:baseline;white-space:pre-wrap">Ads Core A/B =
+Test:</span>We are A/B testing a new layout of the Ads Core landing page, 5=
+0% of visitors will see this=C2=A0<a href=3D"https://www.hillaryclinton.com=
+/forms/om-hvf-join-split/" style=3D"font-family:Arial;font-weight:700;line-=
+height:1.38;text-decoration:none"><span style=3D"font-weight:400;text-decor=
+ation:underline;vertical-align:baseline;white-space:pre-wrap">new experienc=
+e</span></a><span style=3D"font-family:Arial;font-weight:400;line-height:1.=
+38;vertical-align:baseline;white-space:pre-wrap">. </span>This new design i=
+s inspired by the direction of the website re-design. Results will likely b=
+e reported this week.</p></li></ul><br><p dir=3D"ltr" style=3D"line-height:=
+1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-family:Arial;fon=
+t-weight:700;vertical-align:baseline;white-space:pre-wrap">Updates:</span><=
+/p><ul style=3D"margin-top:0pt;margin-bottom:0pt"><li dir=3D"ltr" style=3D"=
+list-style-type:disc;vertical-align:baseline"><p dir=3D"ltr" style=3D"margi=
+n-top:0pt;margin-bottom:0pt"><span style=3D"font-family:Arial;font-weight:7=
+00;line-height:1.38;vertical-align:baseline;white-space:pre-wrap">HFA cloud=
+ Vertica migration: </span>Due to a higher workload on the analytics team a=
+nd the fact that the DNC cluster has been reasonably stable recently we hav=
+e postponed the migration to HFA Vertica until the March states are done. T=
+he HFA cluster is ready incase there are issues on the DNC side.</p></li><l=
+i dir=3D"ltr" style=3D"list-style-type:disc;vertical-align:baseline"><p dir=
+=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0pt"><span style=3D"font-fam=
+ily:Arial;font-weight:700;line-height:1.38;vertical-align:baseline;white-sp=
+ace:pre-wrap">Call tool update: </span>The voter engineering team is grindi=
+ng away at getting the call tool up and running. The team is going to be do=
+ing some stress-testing of the system and is working to make the tool avail=
+able for a live beta as soon as possible.</p></li></ul><br><p dir=3D"ltr" s=
+tyle=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"f=
+ont-family:Arial;color:rgb(0,0,0);font-weight:700;vertical-align:baseline;w=
+hite-space:pre-wrap;background-color:transparent">Hiring:</span></p><p dir=
+=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"></p><u=
+l><li><span style=3D"line-height:normal;color:rgb(0,0,0);font-family:Arial;=
+font-weight:700;white-space:pre-wrap;vertical-align:baseline;background-col=
+or:transparent">Welcome Riley! </span><span style=3D"line-height:normal">Ri=
+ley is joining the data infrastructure team and is turning Stork into a fir=
+st class supported tool. He is adding functionality, security updates and s=
+peed improvements that will help the analytics team. He comes to us with ma=
+ny years of experience and most recently was consulting for Bloomberg.</spa=
+n><br></li></ul><p></p></span></div>
+
+--047d7ba979d62239e0052c73e9f3--

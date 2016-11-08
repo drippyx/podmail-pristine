@@ -1,0 +1,579 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.207 with SMTP id r198csp506498lfr;
+        Fri, 18 Sep 2015 16:35:26 -0700 (PDT)
+X-Received: by 10.140.202.210 with SMTP id x201mr10222153qha.0.1442619326068;
+        Fri, 18 Sep 2015 16:35:26 -0700 (PDT)
+Return-Path: <podesta+caf_=podesta=law.georgetown.edu@georgetown.edu>
+Received: from na01-bl2-obe.outbound.protection.outlook.com (mail-bl2on0098.outbound.protection.outlook.com. [65.55.169.98])
+        by mx.google.com with ESMTPS id d133si10432338qhc.92.2015.09.18.16.35.25
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 18 Sep 2015 16:35:26 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning podesta+caf_=podesta=law.georgetown.edu@georgetown.edu does not designate 65.55.169.98 as permitted sender) client-ip=65.55.169.98;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning podesta+caf_=podesta=law.georgetown.edu@georgetown.edu does not designate 65.55.169.98 as permitted sender) smtp.mailfrom=podesta+caf_=podesta=law.georgetown.edu@georgetown.edu
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=law.georgetown.edu; georgetown.edu; dkim=none (message not
+ signed) header.d=none;georgetown.edu; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Authentication-Results: spf=pass (sender IP is 209.85.223.175)
+ smtp.mailfrom=georgetown.edu; law.georgetown.edu; dkim=none (message not
+ signed) header.d=none;law.georgetown.edu; dmarc=bestguesspass action=none
+ header.from=law.georgetown.edu;
+Authentication-Results: spf=permerror (sender IP is 141.161.191.75)
+ smtp.mailfrom=georgetown.edu; gmail.com; dkim=none (message not signed)
+ header.d=none;gmail.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received: from SN2PR07MB032.namprd07.prod.outlook.com (10.255.174.42) by
+ SN2PR07MB077.namprd07.prod.outlook.com (10.255.174.153) with Microsoft SMTP
+ Server (TLS) id 15.1.262.15; Fri, 18 Sep 2015 23:35:25 +0000
+Received: from BY2PR07CA051.namprd07.prod.outlook.com (10.141.251.26) by
+ SN2PR07MB032.namprd07.prod.outlook.com (10.255.174.42) with Microsoft SMTP
+ Server (TLS) id 15.1.274.16; Fri, 18 Sep 2015 23:35:23 +0000
+Received: from BN1AFFO11FD041.protection.gbl (2a01:111:f400:7c10::168) by
+ BY2PR07CA051.outlook.office365.com (2a01:111:e400:2c61::26) with Microsoft
+ SMTP Server (TLS) id 15.1.274.16 via Frontend Transport; Fri, 18 Sep 2015
+ 23:35:23 +0000
+Received-SPF: PermError (protection.outlook.com: domain of georgetown.edu used
+ an invalid SPF mechanism)
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BN1AFFO11FD041.mail.protection.outlook.com (10.58.52.252) with Microsoft SMTP
+ Server (TLS) id 15.1.274.4 via Frontend Transport; Fri, 18 Sep 2015 23:35:23
+ +0000
+Received: from na01-bl2-obe.outbound.protection.outlook.com (141.161.191.14)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.210.2; Fri, 18 Sep 2015 19:35:10 -0400
+Received: from BLUPR07MB017.namprd07.prod.outlook.com (10.255.209.39) by
+ BLUPR07MB289.namprd07.prod.outlook.com (10.141.24.17) with Microsoft SMTP
+ Server (TLS) id 15.1.268.17; Fri, 18 Sep 2015 23:35:09 +0000
+Received: from SN1PR07CA0017.namprd07.prod.outlook.com (10.162.170.155) by
+ BLUPR07MB017.namprd07.prod.outlook.com (10.255.209.39) with Microsoft SMTP
+ Server (TLS) id 15.1.268.17; Fri, 18 Sep 2015 23:35:08 +0000
+Received: from BN1AFFO11FD036.protection.gbl (2a01:111:f400:7c10::170) by
+ SN1PR07CA0017.outlook.office365.com (2a01:111:e400:3000::27) with Microsoft
+ SMTP Server (TLS) id 15.1.274.16 via Frontend Transport; Fri, 18 Sep 2015
+ 23:35:08 +0000
+Received-SPF: Pass (protection.outlook.com: domain of georgetown.edu
+ designates 209.85.223.175 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.85.223.175;
+ helo=mail-io0-f175.google.com;
+Received: from mail-io0-f175.google.com (209.85.223.175) by
+ BN1AFFO11FD036.mail.protection.outlook.com (10.58.52.240) with Microsoft SMTP
+ Server (TLS) id 15.1.274.4 via Frontend Transport; Fri, 18 Sep 2015 23:35:08
+ +0000
+Received: by iofh134 with SMTP id h134so72237384iof.0        for
+ <podesta@law.georgetown.edu>; Fri, 18 Sep 2015 16:35:07 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :from:to:subject:thread-topic:thread-index:date:message-id
+         :accept-language:content-language:user-agent:content-type
+         :mime-version:spamdiagnosticoutput:spamdiagnosticmetadata;
+        bh=b6LOOz50EFpgkRL2lWus71prw5tZPShTnkwTSLz7zW0=;
+        b=lXchP6zqV3pgPFzIy+RmHV0nGDt0kvBZ74qm2t/U+HBpB1GVYIeEF6bP2kzcR0UBUk
+         BnSC3eBRQ96Q/4mdP0XHFSrLOcGOwjLMcgWessOOZQz6eGW7RQJJR75msVM6k/BxvbaM
+         /MZXDFZYojo/ZSKyJy7Q1A4aJe4hk69Htlk/q/qXlo0zNoAu6sEndIE+qCDGCOSnjLeU
+         xJGzXSNQ03B1K9gBgnRTL6/sKolbGjcAdoyMsCtrFPJreHptuHWYTDhndlEhqdNLFIKO
+         peoUsjj4vrsUjDFBM6jkLwicCUFpiEJrHQSBVl0EtbObk7Gkbp8BD4Oi0bCQAuLwLvXl
+         7e/Q==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of treanorwm@law.georgetown.edu designates 65.55.169.81 as permitted sender) smtp.mailfrom=treanorwm@law.georgetown.edu
+X-Gm-Message-State: ALoCoQlyMdwEC4h3RLHZqZPLncZ5+cezpal8O9H2n5h/2ya4k9rN06RioNTB15OK0C9fR2a8cowW
+X-Received: by 10.107.15.159 with SMTP id 31mr18616388iop.159.1442619307724;
+        Fri, 18 Sep 2015 16:35:07 -0700 (PDT)
+X-Forwarded-To: podesta@law.georgetown.edu
+X-Forwarded-For: podesta@georgetown.edu podesta@law.georgetown.edu
+Delivered-To: podesta@georgetown.edu
+Received: by 10.64.123.161 with SMTP id mb1csp536264ieb;        Fri, 18 Sep
+ 2015 16:35:06 -0700 (PDT)
+X-Received: by 10.55.40.18 with SMTP id o18mr9567336qkh.41.1442619306550;
+        Fri, 18 Sep 2015 16:35:06 -0700 (PDT)
+Received: from na01-bl2-obe.outbound.protection.outlook.com
+ (mail-bl2on0081.outbound.protection.outlook.com. [65.55.169.81])        by
+ mx.google.com with ESMTPS id 184si10437477qha.66.2015.09.18.16.35.06
+        for <podesta@georgetown.edu>        (version=TLSv1.2
+ cipher=ECDHE-RSA-AES128-SHA bits=128/128);        Fri, 18 Sep 2015 16:35:06
+ -0700 (PDT)
+Received-SPF: pass (google.com: domain of treanorwm@law.georgetown.edu designates 65.55.169.81 as permitted sender) client-ip=65.55.169.81;
+Received: from DM2PR07CA0027.namprd07.prod.outlook.com (10.141.52.155) by
+ BY2PR07MB485.namprd07.prod.outlook.com (10.141.219.140) with Microsoft SMTP
+ Server (TLS) id 15.1.268.17; Fri, 18 Sep 2015 23:35:05 +0000
+Received: from BL2FFO11FD039.protection.gbl (2a01:111:f400:7c09::187) by
+ DM2PR07CA0027.outlook.office365.com (2a01:111:e400:2414::27) with Microsoft
+ SMTP Server (TLS) id 15.1.274.16 via Frontend Transport; Fri, 18 Sep 2015
+ 23:35:04 +0000
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BL2FFO11FD039.mail.protection.outlook.com (10.173.161.135) with Microsoft
+ SMTP Server (TLS) id 15.1.274.4 via Frontend Transport; Fri, 18 Sep 2015
+ 23:35:04 +0000
+Received: from LAW-MBX02.law.georgetown.edu ([169.254.2.126]) by
+ LAW-CAS2.law.georgetown.edu ([141.161.191.75]) with mapi id 14.03.0210.002;
+ Fri, 18 Sep 2015 19:34:51 -0400
+From: "Dean William M. Treanor" <treanorwm@law.georgetown.edu>
+To: "podesta@georgetown.edu" <podesta@georgetown.edu>
+Subject: Important Law Center Campaign News
+Thread-Topic: Important Law Center Campaign News
+Thread-Index: AQHQ8mqc6C/Dtr/QekaqCteOMPRrrw==
+Date: Fri, 18 Sep 2015 23:34:50 +0000
+Message-ID: <D2221449.5CB73%treanorwm@law.georgetown.edu>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+user-agent: Microsoft-MacOutlook/14.5.5.150821
+x-originating-ip: [141.161.191.14]
+Content-Type: multipart/related;
+	boundary="_005_D22214495CB73treanorwmlawgeorgetownedu_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+Return-Path: podesta+caf_=podesta=law.georgetown.edu@georgetown.edu
+X-EOPAttributedMessage: 2
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD039;1:ubbJq8Lgsqeq+oqck3yfk+Vdyr84aI77P+Y7u/BNe9X2K7UWGxLg+q/0QpOtyvFSqgD4XBofDLQzz4DUv3QgvHnh5SBLX6fiQnOOWOq3WGge4BfnHOAqkVEH1tKIRu1jD/xF9LCnMDyeAjH5dzx0vFzo7I1CgKnzZvo0Uhqv0fwCdS7vuVXaParaTQfEqHE/dYHUVj4K/zdIk8ifoPc24QbFEy00jKH7b9UjwKuiaZKvtDxnG1XWDhNhOF6DfP6uO6i0hh9x6uGhb+ZIlq49oylUydw5/098tRv7THnwMmGR2WkWnWmlAcCw8McKQcbEnpcO6u+5+HmYhzXOOHliKrqF2a3EY2XSy+ByqFJHOnI=
+X-Forefront-Antispam-Report-Untrusted: CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1109001)(1110001)(339900001)(55674003)(189002)(199003)(5004730100002)(104016003)(512944002)(77156002)(2900100001)(66926002)(81156007)(66066001)(64706001)(5001830100001)(85426001)(5001960100002)(84326002)(105606002)(2501003)(2351001)(87936001)(62966003)(4001350100001)(4001540100001)(106116001)(107886002)(88552001)(92566002)(97736004)(86362001)(83506001)(102836002)(189998001)(575784001)(2171001)(5003600100002)(19617315012)(5001860100001)(74826001)(110136002)(17760045003)(19580405001)(450100001)(106466001)(15975445007)(68736005)(18206015028)(19613025002)(19625215002)(19627595001)(11100500001)(5007970100001)(16236675004)(67866002)(54356999)(6806004)(19580395003)(89122001)(99936001)(46102003)(50986999)(229853001)(75432002)(7099028);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR07MB485;H:mail.law.georgetown.edu;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB485;2:4Jz/a17gur3KBOL3RGVRS9xYhZrNA4sjh9rtc6hLqdgraFzO5WJkOkh8p+WL8FcvrwHAzX6vRcrz3dSEUFa9tjH8Mw8/RIlYZlzJtRgIEr/VAO2ha/HbA0wKJm1nyMxIbDTjMt4ZoydffAyUjO3xMSFlopckBjeOglQgg3irIy0=;3:5Z/udFAON5zuufjVJXQoH6DkyO9cWnZU2TFkLU5PhwKmNNaKPjR5heyTzlNI9U551qNx1nU80eQpn80zelO4YDvK49VvIquKbpaYvPLNrSdWTEdWJjVErAOlR2cWxk53A1xQIXLZpN68ZVlRQyGxTV0tbofaG1NjbXW6MTmVmFjoWtz/BnuaTI1483I1BClQWcYxapPqJN5wSgFmJWoRwIt5iaSS29YOPG8ksbewCp2CRiS8LTxoziBUMY+vbZHm;25:B64ouwSaLUkMT7NiO8Xuo09FHPb7madr1W+jQlzAh7qECiY9ztjVeGD5h9mClZthXnQw8nvjzF0Ki0Y5Ev9ht3Z+Pv4UVd/IJPCW1/+BX7Ees4vm4gsqPo4JYtj9PJIbiP4aFB2/Q6yhhUaaUq3aD75GaDwIrW1Q9bT7CGwvLiLa4FY7ZvDU/thJAZvYLvxbRqGcdoC60YA3KXaDJvK4CywQDPlM/4BYARM56XOO57k34NVOXT4D7nWlhMKX7qne2mKHjLM2mNf91COtIlxggA==
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB485;UriScan:;BCL:0;PCL:0;RULEID:(8251501001)(71701003)(71702001);SRVR:BLUPR07MB017;UriScan:;BCL:0;PCL:0;RULEID:;SRVR:SN2PR07MB032;
+X-Microsoft-Antispam-PRVS: <SN2PR07MB032A3AD1671C9DEA35B3C73BE590@SN2PR07MB032.namprd07.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(601004)(520075)(520078)(5005006)(8121501046)(3002001);SRVR:BY2PR07MB485;BCL:0;PCL:0;RULEID:;SRVR:BY2PR07MB485;BCL:0;PCL:0;RULEID:(601004)(8121501046)(520078)(3002001);SRVR:BLUPR07MB017;BCL:0;PCL:0;RULEID:;SRVR:BLUPR07MB017;BCL:0;PCL:0;RULEID:(601004)(520078)(5005006)(8121501046)(3002001);SRVR:SN2PR07MB032;BCL:0;PCL:0;RULEID:;SRVR:SN2PR07MB032;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB485;4:ohgewYEvHPATyrlZVsuTSOM3Z15Zd+KUivGzWqbOmMaB78qeSe7ggo8axBGgJKdwvkSOW0XPAo1CrGut0V9riE0Fb35Yk4Ielww9nWZ547J5cXKKgcvPoSC4pb9rxErqq5sOh9mv36BOO9Rs1XtKBW3gn0jFHbDtMeKjxJlNZKKudrHXuC7PpQpTf2JH7ip1nShIaPBXqoaa9ZqLADZijwIpybzbd6jWdH/KxTgJkbqIEKTL/yREr86lJDS1hdYLZtzRCNxyRJf149fO5K3E/ARy/cRZuld+Sx6FGbQyYswwGUh330oRuey9eZP4Mg3+7R6xNFHIcx75uD0SXDEqepdqGQ1D9o7RvmfMmCbyZjQ=
+X-Forefront-PRVS: 0703B549E4
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;BY2PR07MB485;23:VVx3cMI7XUcSViJdI4ZUxg6i10UY8ZmGM556F36XMa?=
+ =?us-ascii?Q?1ov6+1e9GG1zS1sQE8CgDfQ5pfz2qIDUlxq96aZPV0aXc1H32W83FjLa46yz?=
+ =?us-ascii?Q?tFJbHRvMWMRfeU17lvppVWczDmZShfQ00INMUW0UYm0UlCp+cgg3lS5Vnv2e?=
+ =?us-ascii?Q?lNqJhKVWKYWqzK88Bq8OidaqobrsgtU0by3m0jkx9RRYo6fzcYq6AxzA7FdN?=
+ =?us-ascii?Q?l6/YSDXTbdL99jbzYJswsazDeM/VnnlqG/PU7CzyRIGXlkJBaahvBy5v2mbe?=
+ =?us-ascii?Q?drcMXqfD6zoY+RLIkn7h9xXjNARXU0qiHbnDInB/+nsyx47O3VwP8x3jPHJB?=
+ =?us-ascii?Q?TIjjczUpSxw/OHXShjZFzgSjbErr+e+Z6Bdd9CcjMp5g+sFp7UB7YbOUOTeE?=
+ =?us-ascii?Q?NXMbotZRO/z2SCg/LyYu6GtX5FHSIlsNyWJmoI6Dp8mc/Q+rzJKAJEv2RQp5?=
+ =?us-ascii?Q?PkcArrTqQsDj3JI3229SLcd5Fv7hQujyX7mSPJZVsF7XmR4od9KouQIpJ+fn?=
+ =?us-ascii?Q?Lt+fOmnYQ60oclOqqK8rl7cheVYxQUX/8vQ8+i9VABIdNbr+4BlaW2ZA3nDa?=
+ =?us-ascii?Q?8g11GefJs1fagbm3mkq6bGU0nkBqUzB6BkKT3UcXY4PDboNGjWqBV4kVbix/?=
+ =?us-ascii?Q?9GI7c5TCBkfIwWf7tidF3y912wD4lQ0XaS4HDRMz8hrKGZW0o50Hf2Bzg2qA?=
+ =?us-ascii?Q?gV1EsYZbWWP/bBMX0i53Bxc5OrcnbPhAsMW+mMQVa0VLua8CKqqt9ZRKiipe?=
+ =?us-ascii?Q?l2PvCbKksN/92vERBEKHJo4R+UNj0f7HWkvwPy5Md0ZqiSmVuZc6v1/mTF2y?=
+ =?us-ascii?Q?bJLAjEXbHs0qeXWc4Edf9Wq/32/II9ExZh1H91Ef4ojh5vFfwuGTnV+WBPtf?=
+ =?us-ascii?Q?OPD6bStd0xOkTicTrCVdauj5ZVMGGDFePLN3rHqXpmZIm7PpxaQZ7gbI2zey?=
+ =?us-ascii?Q?zFyraQDFYZt7Hm9V7sx/9saMzLs/fr9hQXlznGycetbDIRmb4tAbFs2y+4Zz?=
+ =?us-ascii?Q?LH8V76JO1omI8JmedLc6eBHCNsg5ec+axppsvFUXcbxKHywBtKhz3mr/2vmn?=
+ =?us-ascii?Q?9dWvxbPcWpRRM8w0bwaRr2L5Tl4QgElpO6gSdCeauFu02MYbdojMDPtG7h6U?=
+ =?us-ascii?Q?Ui2W082htsmZWRxOiBsn/ETFRoQ3NAKjxNy12KKZrMlZc7PcujGGvUfv1XBw?=
+ =?us-ascii?Q?9mM/IzzLU9wBiyJG8g0sFrd6VSaf0yBtIxicYH2aemPlqQY+PMrrLtjpEODn?=
+ =?us-ascii?Q?lRwK2bePX9IWhgbIlzOj+23cgPTPGs1KvTJD8O9EewKZz1i9IRCMyf6R9ANn?=
+ =?us-ascii?Q?nwKEPoYKKSaipCY1DdDBjafAGzTBwB3ULz3AbAR54FrQaW3ULsoWnbTw17yc?=
+ =?us-ascii?Q?+MkZ/Y1ZoSLDJkpZUBeMMSlbCi3q4DuY/y4kKkiYGXq+jCJMc5VoP9LLqnSo?=
+ =?us-ascii?Q?ep0cME4iCZJ5yC+rx9ryhBN0AqFcW2NWya1RmQYwHBooPFsZskgovLl29y1e?=
+ =?us-ascii?Q?8wLcVRRVRN0U+0EPMlZ1gJiLfqA+tPoDlyXWQ3hsokCpJCEpquTnRWXgpaoZ?=
+ =?us-ascii?Q?pog6roQRCmwbn4FE6thufmZkC1etCIJpbjTKZhQGr+Wa5iVnU/Iz0donyrGM?=
+ =?us-ascii?Q?HDxrhQjgpwcVxeHBAq3AO0rhMPQyAW56jJX8Av7iKa5wLrBuKxuxhXk0xZMq?=
+ =?us-ascii?Q?ZHJ/fdroLp4druPrizF9bgzCj+Eg2tkNNQpaJ+/vOmx2n2288cjCu46MKuzK?=
+ =?us-ascii?Q?8vpufS1n9n/FVT9n2pQKJyHb0/8g=3D=3D?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB485;5:kVtrsq388nkflleYWzsp2Vt5hqyn1Bfe80LLUU1LrU+Ulg7gE1TvkqlreAGXzkvKFlGFIpkyctcTfQsmcu+IzB5KRdbDRj5vTP6V/oCdvkjtRyES7Ha9PoZLGa3FuHZoF0KCmmRjrkE7fbawUXW3iA==;24:ik2SIpI72hUSYK89YSl/6QNLZU4VJh0T7S1TfSYcHwZEjm1rxkKq9IxTyyAm2O9NQuaXlp0OTwAaGxDNdrlEEMTdHWBaSbdItmmP6UaFVDI=;20:D4Z1xRfpHF2kAU8veMTCpua9Qb1MjloA9Pujo0g3HWB4kBIKjR8ZjtxJ+dhIa1VzcPcTBaM0kKAUPnzKuR6BiQ==
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB485
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD036.protection.gbl
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD036;1:ts9kXMHSWzxHQJAthBKAjydMXqx/1KtWD18QuOE9qnYoBm0PrdlEfi9HWVEbjBoE3yIfHmWDRSOBNXJLwbKPxVBQ295I+j4Bp+iHpHjlw83Y5SyMdjytlobHqUivyeXBYbI3V2PRrUIBxMCb0jAK44gWKpqkfb0dUxSxNSOA16Y0+t38dga3JjW3rlT+03Te6hET2oAdx4AFrO4CIMIL5eUbryGC8lzbb+Vqks28M6+534fAmV7kJxW1z0pk+BRFx7qFwLixgvgej0DzjkUGYATeHASBEdH3AI6oP2snbiFgljxJivyVMmI5mVU0xw0evRREC8JS+HKco+fk4ufuo5+B0Y/zfWi6niggob4mIpRnraIma58KPp3TixPwL6zs5fG/Aq6c2pxTKBypheTDTns2WKKjuYwwGCKB0b1ZEaI=
+X-Forefront-Antispam-Report-Untrusted: CIP:209.85.223.175;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(2980300002)(438002)(199003)(189002)(55674003)(63696999)(18206015028)(19613025002)(75432002)(83506001)(5001830100001)(67866002)(5001860100001)(2171001)(19627595001)(450100001)(62966003)(66926002)(512944002)(110136002)(88552001)(11100500001)(15975445007)(16236675004)(22756005)(4001540100001)(19617315012)(74826001)(189998001)(5003600100002)(17760045003)(59536001)(66066001)(59656003)(104016003)(4001350100001)(64706001)(5001970100001)(59286002)(92566002)(84326002)(50986999)(87836001)(99936001)(89122001)(5004730100002)(19625215002)(107886002)(54356999)(77156002)(102836002)(6806004)(575784001)(19580395003)(2900100001)(85426001)(106466001)(19580405001)(2501003)(2351001)(59646003)(46102003)(229853001)(106116001);DIR:INB;SFP:;SCL:1;SRVR:BLUPR07MB017;H:mail-io0-f175.google.com;FPR:;SPF:Pass;PTR:mail-io0-f175.google.com;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB017;2:QHGzpqTASlzVfGhugxyBZNvxkiU2Ppj32sm+8IS7AROqY6pjpN49rXujMlYEiXblNN1159TBldFDU8DT1rrDXjpvlcpKY1Cj478jfvOYpRbNgNboO2UTCLGMw5yWXlrmeJQopPEeDXjBGuwQK+RQpi2O6Y7j2a34LqGqtbRK9TA=;3:eUQ36Qvgc/thkEth4HXLmct2HppNQksT5iDkGnB7zJpNrMttDWrKIbw16QwgUHBUqOSRYazVWcKws1UE5xqNH+d5oWvcsZgAPEmfzFJM2TklciJQWG3wQ+xB0COnntmPk94tsaYpZH9pVQmbeuau5t4dY3CeiXh4XGc62GIJb3Xl3uoWWPqDcItHrL/80hZy0DK2oM/V40O7W4XJw2BhA+2NjVFA3aNxcoDEKCwkPhn1zbyzLE0W+XnAJYZHOsStVriWQd9Hsb2QaH+jtt6JBWkl88OdlINB27/bFYfzpC4NLK8qrW9mtF9dT/stiTSH;25:P8cbC7Ps6a8FYr+2lkYaYlRT4Mo6BF4xhDVsRepeDQ7XylRqxUCBSzvEoKwt10xGCvAonIX/Put8gpY7SPL7T+BH21r6GvFnU+gikclD7/GsDTwmJZtZWnthrvCMEKIp6YcBLi8VA1yES4b2IqVyRwiMf1tVrGG91Yg9sZoZJUK+zU9TK7Qq+d6TDk1AElq5JvAfI2FzoIJgtpbx+Nta7DX+r0ooZIHKWw2n0BCG1IH7hmrk37av7OcdSv22IjqlQ9IUxhGHVo6M6hs9twHUOg==
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB017;4:gU2ho2Cqulbgz+hH+Vky2NWnRCq8DMwNgNX5D/j4ktudQqy1E63ng1mExTlhthngDnnGCC3EeCn0ZIs0j7uGrlK5hgNXkuxqBPvfK9yv6rdmUKYJQz2LNH+DNRyAxCA3J/A1f41x0ubzDWuS2LrUUbBBFgnASa+rP1LaMy+5U2Qt5z1bE7bmhxhI83rjsCzVBzdYvTtWXLBQc3SEgJa3fBDFLH0JDJC506+PQF2ixGs0oR1CFGdJpgpDuABX8EFtImSSdqJTXkb5Uv/JaTR2LpAUj4qai07+p7HnDcW2SqHZOXa0rBf8MeJL1vI87ktZ
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;BLUPR07MB017;23:37li4SJ4HiK5kMVgr/vYmeOeW+jK8v9FSCnIQuYV7c?=
+ =?us-ascii?Q?qLbZNpN1FWbM8lvN9CCn48WHSxJ0xcXjdspX/uyKd0OhJ3nsn/AV8uSiSP6J?=
+ =?us-ascii?Q?YSaqgffxPDAmyVNbuRZLW6DheN9zrwfKfpTtWcTeIH2xIMySL7hGjDnJYOJf?=
+ =?us-ascii?Q?1dATsMl3ekeORsWg3ZNFritVT131eU+QbmSwYI+SVtQeDT5ioReQhQXxfpN9?=
+ =?us-ascii?Q?e2Bep7Gv/Di23T2olTWAYbDjZCTjtDkceYL5IPYDRqQJG0ZBVht7S6HoFHbf?=
+ =?us-ascii?Q?5dDHoaOHsUB6gA2k4GquGm3hpNwj5C8CM4U5QTRtxx0Llt2uNNVZJiMx9ODS?=
+ =?us-ascii?Q?8hs2Wm6iy0vvCejibo/AP+LiZTcnRPr+H6bc8lZVnMF+z4CAnXe4ayXE7/h9?=
+ =?us-ascii?Q?UPPQN8F3JCJjNKkA+BevPBgRG8aMvjoWWg4Bjm0JvPF88u5IX71HAgYuEd9Q?=
+ =?us-ascii?Q?E2Hf7dls2dE9fM4GZ1dquZ9UkkDi7QTQ7YV8mmjRMfYUfr5DasuJ0iLqw4S5?=
+ =?us-ascii?Q?T+j4ZSO8HJoS7GzooPNPB7CazJKKBovWoJh9ohJXPdmh5pGP0DsS/brg88af?=
+ =?us-ascii?Q?x86fjP1BisnWZW0GRHoTK50RsoafuCZGvl5rdxEWaNA8JA/AiRqNrwg0+V6r?=
+ =?us-ascii?Q?QMRTZ4nH67VUm2njdOjnbABpoJfEO955BEa/0kIRaL6GJuL3/0pfSiEhF96P?=
+ =?us-ascii?Q?VEZ2UNbjsFLWc+GasfOVp6GpKR4aARW6gKzo0jbe5vW6tcG8Csd1KxhfdksT?=
+ =?us-ascii?Q?2fQxvjhSfjeKluzjfM6gMF+kxUjU9EsuDMTpW9qEXPOKVPNnkJpJYcJXJ9xJ?=
+ =?us-ascii?Q?1+ycIda5R36aaDxJq+m2+W0qF4yjJ2m7C3y9MxHED0YYUHxv3gHQ064Fxgm0?=
+ =?us-ascii?Q?KZ73hlUkPgwfFrs+NgVysbGLAnceTQzPbAaEObfaIRePCsWiex8xC/Ryr10G?=
+ =?us-ascii?Q?OIpCjXs32zI1pOjoCiwYeTLxfP8F1ZziNbkEvmrD8ILVILHFetCeZQj/asIk?=
+ =?us-ascii?Q?XhXI3IAbqyMj5kKDEEP12OOnkfCiGHynhzhvMEnyI3ETSP3xxO0hiLT7eiKd?=
+ =?us-ascii?Q?M+mx0lggugM5Cob4u38Bz1p2E3UyaCaHgQD3YMNwK6VrlN3hSSVtd0gJhwR8?=
+ =?us-ascii?Q?HXWLhZgwy9ImqfRvvaoNxx+vPKF8RM0bLgWJ44+h/7cIZRPGLE3+B4T4ZfbY?=
+ =?us-ascii?Q?92cIQWxMCwfla3zRVSJxKqNqH4jDH9etQU7joo1lV5Qj83ymfJmpii+yOrGT?=
+ =?us-ascii?Q?UgiQEDM8KM1f3EJvITghQo7DqTgrIxnT47AS3ponfodg163l/CG0c/g9GHMZ?=
+ =?us-ascii?Q?hqw0yc471YRNK/LtTCiZPoRApZpZiMXhyY/6ba0nATHnYwcHrTuLdL7bkU+t?=
+ =?us-ascii?Q?X0XSskZTUoYwma6BKbeaRAM8oSQiZdW0flwvVcjqLUupr8wwAPNyh2sGEfaE?=
+ =?us-ascii?Q?cvqKwJ/g0UxzBk2ffQoqZv0eW7Oi8RUrDGaGI3h4ZkQlN1tpbDu3lIM0t9g+?=
+ =?us-ascii?Q?fdnArfSf2WKL4uy35dlvVaFXmMwSwg0eHG8sAI+Y1CxYsVMMSY1RfGDXzk8e?=
+ =?us-ascii?Q?Wtvae54WRsDJ43ClRYW5AJ/EUfJji9pKYl86PjAgtvk5rs7lVJ6TlWqbqqKp?=
+ =?us-ascii?Q?PHKaMgqmlgFPMYy3DPbhjQcIjn8t0nGxCztF5H8rBr5JfI0kMz1Uraxy30D0?=
+ =?us-ascii?Q?fygItECFQTRlOJIWv0MQBBIQ=3D=3D?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB017;5:FVLTlloZps5ohiHb8nLozkJK/U4vH0/tHDhGr+Al9G0xCHqZXsA5aq+yjYMK8v/muG4WH7r+9RPsvwPgN09vR6TZf0D5Fu8UGn3BfsnIdDOf2yOvFJGKj4XBQbPr0AB2bDpUkc+kfnTK9U/hGYCvZg==;24:/Swt+z10EWmkLOUX7VkYmLcfkuD/x0kVLwFYR3UsJRTN2aKeQ3EuXUgO3zkmidslMWHEyFo7ZMCZdj30d7v/NOAQMiIqgBv1TmDDqd1dBQs=;20:mQ6jayN8xMlNd3CjD69QtKbANz3FEASdjA0WpMFBlcam7RBDxP6J5F+x01oy0qFZOCBEncDl/nCBJtqXpug5Tw==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB017
+X-OrganizationHeadersPreserved: BLUPR07MB017.namprd07.prod.outlook.com
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB289;2:xvGxgpdxTkSuv6jGED5qEisjmvi710gG2kz9+ikqhpP9ckAITSUBufYo3DyFAEncQAiiqovFghAueblobqC2S2pH9DCuYQoPFDE0Y1h+j4GA3tFdXlbqiX1pAbgIPmYTLuQCk8Z/nMs7q/W7zZUHy+XnSw2DoJGSDYZ9la8abLk=;23:M+rHJ3BdNWcOsxqUofrx+ZO9e+XiFm4kM922+t1O2+xBelyn7tauXtNLC4prPeG9rPd9PZ6sb1bsKnhSQ0mpbINWMccWZ9wiI4IZViNVAJjU2u7Q7+0VbXACLPyMqoufqkM7hDYp3zEEK5YtlDFv33A+PE+T22MwtB4Q5FKL+2PxHZjsIZWBRryXbJGREFxM
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD041.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD041;1:+NTN00cRUfhyo+0Lem5gyVYTYqb37eiMddseev61CmFyvPoVb4/JLzxDuyEnugf4vqWFAQsiNxkQiSa2N+09N1Ds4R3HwnUcj+qQ1hdSBIdXsB50wgNjInMDpOWJyiJb/0ZkU0faGDvzzRKtkIqJsh3b14zbZwD1BlB9K13mRa5QJtPDXs00+n7UrUt9YAPcTnfXaUMNi9+w8y/Gey0ujUuq32IxZylsgIqsjyP03OTZLs6NcDxVQpklgt1SGkP2zczhdFHuKsFKJJv8OD4WXHHu5/iaUf5BfmawT8N4KTXWYIEmCo3OntzBWIXygd3oZZ2jDPHjYg06p3zJHZTwmHyya+ESxCAVeKRBRN07JyFKuA4+3nCFihxUoWzdACJ4
+X-Forefront-Antispam-Report: =?us-ascii?Q?CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(100?=
+ =?us-ascii?Q?09020)(2980300002)(448002)(189002)(55674003)(199003)(9993600?=
+ =?us-ascii?Q?1)(19613025002)(2900100001)(2501003)(46102003)(16236675004)(?=
+ =?us-ascii?Q?106466001)(104016003)(512944002)(75432002)(63696999)(1820601?=
+ =?us-ascii?Q?5028)(54356999)(50986999)(84326002)(88552001)(5004730100002)?=
+ =?us-ascii?Q?(59536001)(5007970100001)(85326001)(17760045003)(59656003)(4?=
+ =?us-ascii?Q?001450100002)(5003600100002)(19627595001)(67866002)(19617315?=
+ =?us-ascii?Q?012)(15975445007)(87936001)(68736005)(102836002)(62966003)(7?=
+ =?us-ascii?Q?7156002)(450100001)(6806004)(59646003)(575784001)(1958040500?=
+ =?us-ascii?Q?1)(22756005)(2171001)(189998001)(83506001)(19580395003)(1078?=
+ =?us-ascii?Q?86002)(5001960100002)(4001540100001)(85426001)(59286002)(235?=
+ =?us-ascii?Q?1001)(5001920100001)(110136002)(19625215002)(960300001)(7482?=
+ =?us-ascii?Q?6001)(92566002)(64706001)(11100500001)(97736004)(66066001)(4?=
+ =?us-ascii?Q?001350100001)(89122001)(106116001)(5001860100001)(66926002)(?=
+ =?us-ascii?Q?5001830100001)(81156007)(229853001)(7099028);DIR:OUT;SFP:110?=
+ =?us-ascii?Q?1;SCL:1;SRVR:SN2PR07MB032;H:mail.law.georgetown.edu;FPR:;SPF?=
+ =?us-ascii?Q?:PermError;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;?=
+X-Microsoft-Exchange-Diagnostics: 1;SN2PR07MB032;2:8pcXHzoPi+sepHXyoYG7j/tBL/YbdlEfDb8BmSTwmwVpeafZSfQWNu70TVZCKTAmswCnZapFVG9f4XXi4ALNZsSs6PZDZ1a+9HRDcBIX7516MqRz3I2YH48wyCLEpufzQCVH5PgJxXBK6dbwDTg2rBBvEA35W4VX18CzZ80TQQ8=;3:zJHuqiQ43eyOauL4d2O15AOwmilJpEMriNOM0hzfc40RbFtGcoaLx5yHsauAWODWTZFh/Nna7WdkXwuP2Qh3Dma3VoexpKQkVCkUL3w74cV9w+VybxnWNQhaqqttAA83LPShO9nCWD2jGfCWSxIqgZRr4rfckeh5fOrUdaOLIwfonj3hisOr23w7pGqOuOLin/BEh4N2yzPs1JYNzpcWhHY2jA6S1Zd+8mru9+BFEpTzrNPTucXabDmScbrxqax6;25:eS/lUYimb1z9XvJtHpVZROuy5M3Ew4n4BrIixvAlVPaFon2Hbi1SvjbKenOfbo9yYcvzx1kdFaWLFRsPdBHwgHB8/aERN2euVV94YoKSLn4B6PTTLrroM3TQoT4OtLr/eB9kvCuQjXVZj0blt200/P0k0DaAeIBbZadiyAPkF6QEnSjknAMLSWOXEOK1BrNQCQ9BNbguqjDlmkNDeiu1xGrNsA/nUF7Kc5Xgz2oSuKNeuLO+besb9Y6YXDlUmtY0xn87Xu0FOzSaEj9CHB8dQA==
+X-Microsoft-Exchange-Diagnostics: 1;SN2PR07MB032;4:D+OgaYp+ckkIBmYs2e872VMp1Qr8GGTmSgHmxNtk0bDLle3ODKGrCQ92kcvJmlbYtOGqzdJhGoTANhCgvYVQzEuk2KBEwremzmnhOSPk0WxOvXx46Z7KF4oWV8hTiTFw6WCRQ7qvpVTDncX9rALFskveNJHR5zklfM1jjBAOieMwhf/YCXp7wiGQME+Hpw4YxBLJNKUJr0shdkyet6lmag2s1eHi21gDcZ98uiym7OnIu2QdJFXjJyZSkMZTHtGCeYewSDW6Ii7a6fixSdzRRF8zmh0I0smOc3YVPDN3lB/ZrQoDlTqkQkX5dTGcJneTgP2MMivXaHSOpc8nRMmdPA==
+X-Forefront-PRVS: 0703B549E4
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;SN2PR07MB032;23:WnF2N88A2BhDm1A3+3TgZLOYI2DDZbwmEVG+V9XiFf?=
+ =?us-ascii?Q?YT3JpobPouOVD1NW73MEn7xKFAZFXB3fD7egaceUiPkL3e9QwwLZRCwdIjje?=
+ =?us-ascii?Q?B/kLxR0zPoIuU+3lQ/Hu/AumyFuiR2aMf6xL/m2LIJ9+aiBVnr4Zfl6wVW4P?=
+ =?us-ascii?Q?ZpzULihPIe5ExeDsDiTwAxuy5kVBeGNV1TrtE9g/Wya+4fuzerXNI0w1VThY?=
+ =?us-ascii?Q?yR/F5C5ZkkT8mDSX4mpjdHWZPgWQckqXMYle4GCQOSBtUbux2icmpHe4azqv?=
+ =?us-ascii?Q?u1CYXkm6UAgTlIIUOzQecnz7fxDfx5AvCUwRv5SDx8Y9e4t9yp1HydDcZzag?=
+ =?us-ascii?Q?mcMa4AVQ8mldYlO6+BKC/f1Bfu72XwCmDKT8ZcmnsFI4M35jnOcVQN9EXPkc?=
+ =?us-ascii?Q?3dUH6B5sG8QpAnhZA1Q+ZZFNlrMrGv343zcYp2lsmmNQWBQR05jgBI/wWvNm?=
+ =?us-ascii?Q?t12V/yeUAY/cLS41iA7j05zNbywJxXbS+pBg5QTyK5VpXVmJ/z43riBCTBRR?=
+ =?us-ascii?Q?yvnyiRXAIeJOycnLjTiGUuZCIqjhp7QjLQoAxGQM3bFtXPWiQjXxs3ND6Xaq?=
+ =?us-ascii?Q?lr2yNYvdicIKYCQCeLnALGfGgXxpHhNJVWiP37XDSkK0IhW/bjip1z8YcyLI?=
+ =?us-ascii?Q?D1lsRj2B13KW58cQN813ExQE0DbjGJ1hISJTwx1e94IaTIGAAZfEB60Ny38r?=
+ =?us-ascii?Q?zjEdS2UPP39cXZcRf/30tYw5/1xgVlMrAgaO/SA7y9Qi6y5U+uKl+DBIsWeA?=
+ =?us-ascii?Q?d4DGbN1UgUMkUaePhGk36eodkDgqSQTlQPn260fqL62o91IQH+s1Migyy6MM?=
+ =?us-ascii?Q?ElG52/5jv1hCPH6D3oo2zKLLDGGSdfAOVIb6T0smwhGbiDcxjLMnZLXpn7KF?=
+ =?us-ascii?Q?T3TUUqAPqTS39mGa8YzIKBvrTG1TUgYFqQcGYQonwdAH343esDtmFwwC2+3g?=
+ =?us-ascii?Q?xCtFbRCVGjZ2h7yeJG9KvSxsUiPvPtIX9iaXK8PZOyi3HAKixjd1rsDomiU0?=
+ =?us-ascii?Q?39TXzp3nJ90B5eQ2zhpT79xwMeHrPZD7D3nCxfEvZ9muR9buBnrkPNiLuvkG?=
+ =?us-ascii?Q?JDGjM2pDHYySDnnaaU3fPJZGeRyo/El+a5LRiUVvdoFFGAwg30ojxarxzqw8?=
+ =?us-ascii?Q?/y+X9E2WavpCd45MI7ewlnFJ5gPqksG6QUTVw82GMFxGps/cIBdNkQAJoNe7?=
+ =?us-ascii?Q?x+yuZ4+lOQFjxCT4aHp2naFWgToMhFwr/yFv6wuTKAc4g3mvXh+vLQthYAcb?=
+ =?us-ascii?Q?6ZWlidsbcQV+ynbMRsJdjKQdb3LpHNM85bRWfsxKxHmt2jjXFycx7VqWAysG?=
+ =?us-ascii?Q?FoZ7DsEd3MnnOwsryCWQdexOIkFkV9HwL9y6eIysximINGNbOA6NI7uonuJe?=
+ =?us-ascii?Q?lNGGu62pHs7EeLZGKySoj6NWnSTh2yT2XE6KCdEiNdmLXqD6DPGBYEgqsbGz?=
+ =?us-ascii?Q?ulygVcNo8Os6vRxnTFp7mdKqQEbXMEJE9XVd/wtLVhJeFtTnRyLhyPHUOqmF?=
+ =?us-ascii?Q?eikBXbwgiAlhfJAPR1vKRT+zhjq5xLNelPPx6xptVgyxucgIN9g4eSwUuDvp?=
+ =?us-ascii?Q?5KcDTe6UVy0HSjAdfZ42uGkYwAyQRHsXtYwnHyIuUSH33TAXbXDTZ5JHQ2rC?=
+ =?us-ascii?Q?Yg+SeHy/lYgoZgAq2G1Sx96wmjNCMU+Rxvjt4LuB/a1ZydrK8YaMalmXIbrB?=
+ =?us-ascii?Q?RWZ3oZvVx91KnuB2dJvL86qt//1QCo/bfOloQdG1qn5SHuSJUYA64LdAdw0r?=
+ =?us-ascii?Q?uxSPyFz1SJ52jzsalkV3IAOdRr3T8WYg7hhPzv5NreT7CmBA+UeFPYYleR5+?=
+ =?us-ascii?Q?Eq+4x9Zs9Y8ND3VyAlX3aKyND2HMpZly7lWoux58pgwIk+FSXRZrmmsdIx8P?=
+ =?us-ascii?Q?yDNO6l8Xhicqxrk99DZ+AQuk1CRa0k4+6TykSu8Gfyo5PWngQJWDxIQBU=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;SN2PR07MB032;5:+ZfdaAsbUig27JVZI5JZLdr1ZeuD9EfhM4lt00hsekCrsdpEJS7bRkThbBXxxpt2KU6utUhh+QWpnXOBa0EH+eNFBZZ7HDHi90lPUOtYcyjZeySZaPjD0Th6VeY+7DR6IZtAezwk3+0YI+Hu7g0mGw==;24:iGhrOq2+l8UCQnW9H2pymQlVG2kGeuxgMGQHAhFW43jEdrmqoQB1XCp8LezJ7pLkAH+AWsFVkBtEVrWRqbrvT/ZcmVSVI8d+8iSC1KeAu78=;20:ejazqKHQrtdQD9WgLEYo/GWlo9JAhyOSRbeJy1Z9jiyn1uv2HTY9h3tCFKICyAm617tPsxENYM3vw4p0nTwkdA==
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Sep 2015 23:35:23.2876
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN2PR07MB032
+X-Microsoft-Exchange-Diagnostics:
+	1;SN2PR07MB077;2:BjkgZm3RzlR55eIeO7zyHTSrQ58T/u7ZlkGq6ZFTCWRltvrzVO+vNh3P6keOd158ZB+cN5cR07IK8Ftj+dVvbSddFDR5Qo7pXKQcUJl4oXGnks+xJkqaSAP4O8WyTcUpfUkU5ULMJOyjOsQKHfRHYFzLrfUF+YLovLyFoCbGQv0=;23:vB93XAp2nridlJO0lEej//nkcr/BzDF0lXz2G71WNx0E+DYE7qGZRDvzWAUXj3bDf7q9VLfIkbGqGLdYzWXOmn0Syh9osrjt+c2/m/dHMZNAmFnBGToW/3itD/UlStJFu1/NOLbOBIrVU66J+m1vKbeVYd+8dRj/8cdx+Cnnw6KoKqVYmzjPSPHD6Q8deAmo
+X-OriginatorOrg: law.georgetown.edu
+
+--_005_D22214495CB73treanorwmlawgeorgetownedu_
+Content-Type: multipart/alternative;
+	boundary="_000_D22214495CB73treanorwmlawgeorgetownedu_"
+
+
+--_000_D22214495CB73treanorwmlawgeorgetownedu_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+[cid:image001.gif@01D0F246.F578C6B0]
+Georgetown University Law Center
+Office of the Dean
+
+September 18, 2015
+
+Dear John:
+
+You may have recently heard about the success of the Georgetown University=
+=B9s multiyear fundraising campaign For Generations to Come=8A. With classe=
+s now underway at Georgetown University Law Center, I want to take the oppo=
+rtunity to share with you the Law Center=B9s own exciting news =8B which yo=
+u are among the first to know. I am very pleased to announce that GULC has =
+met its campaign goal of $150 million, a full nine months ahead of schedule=
+. This single accomplishment is due to the unflagging support of alumni, pa=
+rents, friends =8B and most certainly, members of the Strategic Planning Co=
+uncil, including yourself. We are deeply grateful.
+
+While our overall financial goal has been reached, we are still actively pu=
+rsuing goals around a number of crucial areas, before our campaign<https://=
+www.law.georgetown.edu/alumni/support-georgetown-law/campaign/index.cfm> co=
+mes to a formal close next June. Top priorities include funding endowed sch=
+olarships and financial aid in general, with a special focus on Opportunity=
+ Scholarships for talented students in need.
+
+For the moment, however, my colleagues and I would like to pause and expres=
+s our appreciation, for your extraordinary dedication, volunteer leadership=
+, and generous financial support. We succeed in our momentous work at the L=
+aw Center because of you. I look very much forward to celebrating our campa=
+ign success together in the near future. In the meantime, on behalf of the =
+Georgetown Law community and its students, I send my most sincere thanks fo=
+r your involvement and commitment.
+
+Sincerely,
+
+[cid:image002.png@01D0F246.F578C6B0]
+
+Bill
+
+William M. Treanor
+Dean and Professor of Law
+
+--_000_D22214495CB73treanorwmlawgeorgetownedu_
+Content-Type: text/html; charset="Windows-1252"
+Content-ID: <D22B86019D732547B9A3ED8D4E7EAB99@law.georgetown.edu>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Title" content=3D"">
+<meta name=3D"Keywords" content=3D"">
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"?? ??";}
+@font-face
+	{font-family:"?? ??";}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Lucida Grande";
+	panose-1:2 11 6 0 4 5 2 2 2 4;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Cambria;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Lucida Grande";}
+span.BalloonTextChar
+	{font-family:"Lucida Grande";}
+.MsoChpDefault
+	{font-family:Cambria;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;text-aut=
+ospace:none">
+<span style=3D"font-family:&quot;Times New Roman&quot;"><img width=3D"70" h=
+eight=3D"82" id=3D"Picture 1" src=3D"cid:image001.gif@01D0F246.F578C6B0"></=
+span></p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;text-aut=
+ospace:none">
+<span style=3D"font-family:Calibri">Georgetown University Law Center</span>=
+</p>
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;text-aut=
+ospace:none">
+<span style=3D"font-family:Calibri">Office of the Dean</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">&nbsp;</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">September 18, 2015</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">&nbsp;</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">Dear
+<span>John</span>:</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">&nbsp;</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">You may have recently heard about the success of the Georgeto=
+wn University=B9s multiyear fundraising campaign
+<i>For Generations to Come</i>=8A. With classes now underway at Georgetown =
+University Law Center, I want to take the opportunity to share with you the=
+ Law Center=B9s own exciting news =8B which you are among the first to know=
+. I am very pleased to announce that GULC
+ has met its campaign goal of $150 million, a full nine months ahead of sch=
+edule.&nbsp;This single accomplishment is due to the unflagging support of =
+alumni, parents, friends =8B and most certainly, members of the
+<span>Strategic Planning Council</span>, including yourself. We are deeply =
+grateful.</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">&nbsp;</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">While our overall financial goal has been reached, we are sti=
+ll actively pursuing goals around a number of crucial areas, before
+</span><a href=3D"https://www.law.georgetown.edu/alumni/support-georgetown-=
+law/campaign/index.cfm"><span style=3D"font-family:Calibri">our campaign</s=
+pan></a><span style=3D"font-family:
+Calibri"> comes to a formal close next June. Top priorities include funding
+ endowed scholarships and financial aid in general, with a special focus on=
+ Opportunity Scholarships for talented students in need.</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">&nbsp;</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">For the moment, however, my colleagues and I would like to pa=
+use and express our appreciation, for your extraordinary dedication, volunt=
+eer leadership, and generous financial
+ support.&nbsp;We succeed in our momentous work at the Law Center because o=
+f you. I look very much forward to celebrating our campaign success togethe=
+r in the near future. In the meantime, on behalf of the Georgetown Law comm=
+unity and its students, I send my most
+ sincere thanks for your involvement and commitment.</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">&nbsp;</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">Sincerely,</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">&nbsp;</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri"><img border=3D"0" width=3D"54" height=3D"32" id=3D"Picture 2"=
+ src=3D"cid:image002.png@01D0F246.F578C6B0"></span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">&nbsp;</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">Bill</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">&nbsp;</span></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-fa=
+mily:Calibri">William M. Treanor</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:Calibri">Dean and Profess=
+or of Law</span></p>
+</div>
+</body>
+</html>
+
+--_000_D22214495CB73treanorwmlawgeorgetownedu_--
+
+--_005_D22214495CB73treanorwmlawgeorgetownedu_
+Content-Type: image/gif; name="image001.gif@01D0F246.F578C6B0"
+Content-Description: image001.gif@01D0F246.F578C6B0
+Content-Disposition: inline; filename="image001.gif@01D0F246.F578C6B0";
+	size=2163; creation-date="Fri, 18 Sep 2015 23:34:50 GMT";
+	modification-date="Fri, 18 Sep 2015 23:34:50 GMT"
+Content-ID: <image001.gif@01D0F246.F578C6B0>
+Content-Transfer-Encoding: base64
+
+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
+
+--_005_D22214495CB73treanorwmlawgeorgetownedu_
+Content-Type: image/png; name="image002.png@01D0F246.F578C6B0"
+Content-Description: image002.png@01D0F246.F578C6B0
+Content-Disposition: inline; filename="image002.png@01D0F246.F578C6B0";
+	size=2668; creation-date="Fri, 18 Sep 2015 23:34:50 GMT";
+	modification-date="Fri, 18 Sep 2015 23:34:50 GMT"
+Content-ID: <image002.png@01D0F246.F578C6B0>
+Content-Transfer-Encoding: base64
+
+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
+
+--_005_D22214495CB73treanorwmlawgeorgetownedu_--

@@ -1,0 +1,821 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.68 with SMTP id r65csp1847817lfr;
+        Tue, 6 Oct 2015 18:18:05 -0700 (PDT)
+X-Received: by 10.180.103.199 with SMTP id fy7mr19562898wib.85.1444180685207;
+        Tue, 06 Oct 2015 18:18:05 -0700 (PDT)
+Return-Path: <speechdrafts+bncBCWO7RVRZIGBBTPF2GYAKGQE7KQEYCY@hillaryclinton.com>
+Received: from mail-wi0-x248.google.com (mail-wi0-x248.google.com. [2a00:1450:400c:c05::248])
+        by mx.google.com with ESMTPS id sa20si41522043wjb.117.2015.10.06.18.18.05
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 06 Oct 2015 18:18:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBCWO7RVRZIGBBTPF2GYAKGQE7KQEYCY@hillaryclinton.com designates 2a00:1450:400c:c05::248 as permitted sender) client-ip=2a00:1450:400c:c05::248;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBCWO7RVRZIGBBTPF2GYAKGQE7KQEYCY@hillaryclinton.com designates 2a00:1450:400c:c05::248 as permitted sender) smtp.mailfrom=speechdrafts+bncBCWO7RVRZIGBBTPF2GYAKGQE7KQEYCY@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-x248.google.com with SMTP id uu12sf1262829wic.2
+        for <john.podesta@gmail.com>; Tue, 06 Oct 2015 18:18:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :from:to:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=UZU7cNcSlvrzfXxfOryvJESH9AWt3RT/4ksOP/ukz8g=;
+        b=KGmoinZm5mUI8k/A7rg61MOI6OciOI9R+fOa8OqnsBcqTVcGYTCJTvfPXl6gMs7DAI
+         ZhSYcsQ2gyq5GR6yDxgHQhAHnNs8F993KC8qI+eXmec56fcT/Rm9EXLv9+hyjorIzOoO
+         Xp5GTzPYGJ5RU2dpVIMbXyvLqfSRAA5QQI+Zg=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=UZU7cNcSlvrzfXxfOryvJESH9AWt3RT/4ksOP/ukz8g=;
+        b=A5SzsJ0DbGJKntg0XcBnbz6rWBvuUXAJBkTsNnjuNjGvXNNcjjzTItuHXAh26xsOs2
+         HF1cbNWLLzNn5hz+nh+yGnnIWsbx+pYq7ZYmLCe0gLNrq4An6vQanCdcNo1isQBYPdVO
+         Wrj41JtBYr7SSFTduVejS7uM0WDuKZAu3aBUiiQcYUdNqma6eZO4eUJAIC4oDjgOKfAE
+         VmAtnI8cleSBBq3GVsDi9QHjSrcE8NKaQCP8i5j7+kPtJhe0fLSSDZG8f6r8A2nZfT08
+         QyedPKSBl8+KzaYaznjjkxzi3DU2yRlPYDUpHNeH01i2W7WWySTU0kSQk68xBs0DzhUP
+         p4hQ==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQntbX0s68+fZrz9M+2xahVPsTrDTKrCgdvpsPqQjzgxLpxqCKJ3FcLZvg6hQKN92Bw3GDpV
+X-Received: by 10.180.91.233 with SMTP id ch9mr1807387wib.4.1444180685060;
+        Tue, 06 Oct 2015 18:18:05 -0700 (PDT)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.180.126.5 with SMTP id mu5ls33906wib.17.gmail; Tue, 06 Oct
+ 2015 18:18:04 -0700 (PDT)
+X-Received: by 10.180.82.74 with SMTP id g10mr5020090wiy.2.1444180684621;
+        Tue, 06 Oct 2015 18:18:04 -0700 (PDT)
+Received: from mail-wi0-x230.google.com (mail-wi0-x230.google.com. [2a00:1450:400c:c05::230])
+        by mx.google.com with ESMTPS id h6si466797wib.97.2015.10.06.18.18.04
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 06 Oct 2015 18:18:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of dschwerin@hillaryclinton.com designates 2a00:1450:400c:c05::230 as permitted sender) client-ip=2a00:1450:400c:c05::230;
+Received: by wiclk2 with SMTP id lk2so6543888wic.1
+        for <speechdrafts@hillaryclinton.com>; Tue, 06 Oct 2015 18:18:04 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.194.202.137 with SMTP id ki9mr37247461wjc.16.1444180684380;
+ Tue, 06 Oct 2015 18:18:04 -0700 (PDT)
+Received: by 10.194.94.230 with HTTP; Tue, 6 Oct 2015 18:18:04 -0700 (PDT)
+In-Reply-To: <CAAEwKfzCNDwqGEuqQGq6PybB_CQ7hkGeX6MC6Qv4aRnPA-hR0w@mail.gmail.com>
+References: <CAAEwKfzCNDwqGEuqQGq6PybB_CQ7hkGeX6MC6Qv4aRnPA-hR0w@mail.gmail.com>
+Date: Tue, 6 Oct 2015 21:18:04 -0400
+Message-ID: <CAAEwKfyyDco1XmC3f=jUi6X1j6=Phy=HDr_Tqch8Fz=HiY=E1g@mail.gmail.com>
+Subject: Re: DRAFT: TPP statement
+From: Dan Schwerin <dschwerin@hillaryclinton.com>
+To: Speech Drafts <speechdrafts@hillaryclinton.com>
+Content-Type: multipart/mixed; boundary=047d7bae4522afd5bb0521798454
+X-Original-Sender: dschwerin@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of dschwerin@hillaryclinton.com designates 2a00:1450:400c:c05::230 as
+ permitted sender) smtp.mailfrom=dschwerin@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--047d7bae4522afd5bb0521798454
+Content-Type: multipart/alternative; boundary=047d7bae4522afd5b60521798452
+
+
+--047d7bae4522afd5b60521798452
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Thanks to all for the feedback. This is indeed a hard balance to strike,
+since we don't want to invite mockery for being too enthusiastically
+opposed to a deal she once championed, or over-claiming how bad it is,
+since it's a very close call on the merits.  Below and attached is a
+revised draft:
+
+*Statement on TPP*
+
+
+
+As Secretary of State, I called for a strong, fair, and balanced
+trans-Pacific trade agreement as part of a broader strategy to reassert
+American leadership in Asia and a robust economic agenda at home to
+strengthen our ability to compete successfully with anyone in the world.  I
+salute President Obama and his team for working incredibly hard in pursuit
+of that kind of deal.  Based on what I have seen so far, however, the final
+Trans-Pacific Partnership (TPP) does not do meet the high bar by which we
+should judge any new trade agreement =E2=80=93 and I cannot support it.
+
+
+
+As I have said many times, we need to be sure that any new trade agreement
+will create good American jobs, raise wages, and advance our national
+security.  The goal is greater prosperity for American families, not trade
+for trade=E2=80=99s sake.  That is why, as a Senator, I voted against agree=
+ments =E2=80=93
+like the Central American Free Trade Agreement -- that I didn=E2=80=99t thi=
+nk
+measured up.
+
+
+
+The Obama administration deserves credit for securing improvements on a
+range of key issues in TPP, but there are significant flaws that remain
+unresolved and tip the balance against this agreement.  I believe it will
+do more harm than good for hard-working American families whose paychecks
+have barely budged in years while corporate profits have reached
+near-record highs.  It=E2=80=99s a close call, but this is the wrong agreem=
+ent at
+the wrong time.
+
+
+
+We still need to do more to stop currency manipulation, which costs
+American jobs and puts our businesses at a disadvantage.  We can=E2=80=99t =
+allow
+other countries to play by their own rules or exploit American consumers =
+=E2=80=93
+something we=E2=80=99ve seen too often over the past 15 years.  We also nee=
+d to get
+tougher on unfair subsidies, loopholes, and other underhanded trading
+practices.  Some progress has been made in this agreement to better protect
+workers and the environment, but we need to go further, especially when it
+comes to clear, enforceable assurances that countries will meet their labor
+obligations under this deal.  And, as I wrote in my book *Hard Choices,* I
+remain deeply concerned about a process for settling trade disputes that,
+despite new improvements, still favors powerful corporations at the expense
+of everyone else.
+
+
+
+As President, I will pursue a comprehensive approach to trade that
+addresses these challenges and prioritizes the needs of American workers
+and families.
+
+
+
+First, I will fight to improve our country=E2=80=99s economic competitivene=
+ss based
+on strong growth, fair growth, and long-term growth.  That=E2=80=99s how we=
+=E2=80=99ll make
+trade work more for us rather than against us.  We need to close tax
+loopholes that reward corporations for shipping jobs overseas and instead
+create more good-paying jobs at home and invest in the sources of American
+strength, from infrastructure to innovation to clean energy.  Most of all,
+we have to invest in our people, so every American can get the skills and
+training they need to compete in the global economy.
+
+
+
+Second, I will strengthen enforcement of the trade agreements we already
+have and hold China and others accountable for their unfair trading
+practices.
+
+
+
+Third, I still believe a strong and fair trans-Pacific trade agreement is
+both possible and necessary, so I will build on the Obama administration=E2=
+=80=99s
+valuable work and negotiate a deal that meets our tests and delivers for
+everyday Americans.
+
+
+
+Fourth, I will bring more transparency and inclusiveness to trade
+negotiations, including making sure that workers, labor unions, NGOs, and
+small businesses are well-represented at every stage.  Just as we demand
+more open and fair markets, we should also demand more open and fair
+negotiations.
+
+
+
+I will also continue to reassert American leadership in Asia, where so much
+
+of the future of the 21st century will be written.  Our strategic position
+in the region, the security of allies like Japan and South Korea, and our
+ability to push China to act responsibly all depend on a strong American
+leadership.
+
+
+
+As President, I=E2=80=99ll keep doing what I=E2=80=99ve always done =E2=80=
+=93 fighting for
+families, fighting for fairness, fighting for you.
+
+
+
+###
+
+--047d7bae4522afd5b60521798452
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Thanks to all for the feedback. This is indeed a hard bala=
+nce to strike, since we don&#39;t want to invite mockery for being too enth=
+usiastically opposed to a deal she once championed, or over-claiming how ba=
+d it is, since it&#39;s a very close call on the merits.=C2=A0 Below and at=
+tached is a revised draft:<div><br></div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"margin-bottom:0.0001pt;tex=
+t-align:center;line-height:150%"><b><u><span style=3D"font-size:14pt;line-h=
+eight:150%;font-family:&#39;Times New Roman&#39;">Statement
+on TPP</span></u></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;;color:rgb(26,26,26)">=C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;;color:rgb(26,26,26)">As Se=
+cretary of
+State, I called for </span><span style=3D"font-size:14pt;font-family:&#39;T=
+imes New Roman&#39;">a strong,
+fair, and balanced trans-Pacific trade agreement as part of a broader strat=
+egy
+to reassert American leadership in Asia and a robust economic agenda at hom=
+e to
+strengthen our ability to compete successfully with anyone in the world.=C2=
+=A0 I salute President Obama and his team for
+working incredibly hard in pursuit of that kind of deal.=C2=A0 Based on wha=
+t I have seen so far, however, the
+final Trans-Pacific Partnership (TPP) does not do meet the high bar by whic=
+h we
+should judge any new trade agreement =E2=80=93 and I cannot support it. =C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">As I have said many times=
+, we
+need to be sure that any new trade agreement will create good American jobs=
+,
+raise wages, and advance our national security.=C2=A0 The goal is greater p=
+rosperity for American
+families, not trade for trade=E2=80=99s sake.=C2=A0
+That is why, as a Senator, I voted against agreements =E2=80=93 like the Ce=
+ntral
+American Free Trade Agreement -- that I didn=E2=80=99t think measured up.<s=
+pan style=3D"color:rgb(26,26,26)"></span></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;;color:rgb(26,26,26)">=C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;;color:rgb(26,26,26)">The O=
+bama
+administration deserves credit for securing improvements on a range of key
+issues in TPP, but there are significant flaws that remain unresolved and t=
+ip
+the balance against this agreement.=C2=A0 I
+believe it will do more harm than good for hard-working American families w=
+hose
+paychecks have barely budged in years while corporate profits have reached
+near-record highs.=C2=A0 It=E2=80=99s a close call,
+but this is the wrong agreement at the wrong time.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;;color:rgb(26,26,26)">=C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">We still need to do more =
+to stop
+currency manipulation, which costs American jobs and puts our businesses at=
+ a
+disadvantage.=C2=A0 We can=E2=80=99t allow other
+countries to play by their own rules or exploit American consumers =E2=80=
+=93 something we=E2=80=99ve
+seen too often over the past 15 years.=C2=A0 We
+also need to get tougher on unfair subsidies, loopholes, and other underhan=
+ded
+trading practices.=C2=A0 Some progress has
+been made in this agreement to better protect workers and the environment, =
+but
+we need to go further, especially when it comes to clear, enforceable
+assurances that countries will meet their labor obligations under this
+deal.=C2=A0 And, as I wrote in my book <i>Hard Choices,</i> I remain deeply=
+ concerned
+about a process for settling trade disputes that, despite new improvements,
+still favors powerful corporations at the expense of everyone else.</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">As President, I will purs=
+ue a
+comprehensive approach to trade that addresses these challenges and priorit=
+izes
+the needs of American workers and families.=C2=A0
+</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">First, I will fight to im=
+prove our
+country=E2=80=99s economic competitiveness based on strong growth, fair gro=
+wth, and
+long-term growth.=C2=A0 That=E2=80=99s how we=E2=80=99ll make
+trade work more for us rather than against us.=C2=A0
+We need to close tax loopholes that reward corporations for shipping
+jobs overseas and instead create more good-paying jobs at home and invest i=
+n
+the sources of American strength, from infrastructure to innovation to clea=
+n
+energy.=C2=A0 Most of all, we have to invest
+in our people, so every American can get the skills and training they need =
+to
+compete in the global economy. </span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">Second, I will strengthen=
+ enforcement
+of the trade agreements we already have and hold China and others accountab=
+le
+for their unfair trading practices. </span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">Third, I still believe a =
+strong
+and fair trans-Pacific trade agreement is both possible and necessary, so I
+will build on the Obama administration=E2=80=99s valuable work and negotiat=
+e a deal
+that meets our tests and delivers for everyday Americans.=C2=A0 </span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">Fourth, I will bring more
+transparency and inclusiveness to trade negotiations, including making sure
+that workers, labor unions, NGOs, and small businesses are well-represented=
+ at
+every stage.=C2=A0 Just as we demand more open
+and fair markets, we should also demand more open and fair negotiations. </=
+span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">I will also continue to r=
+eassert
+American leadership in Asia, where so much </span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">of the future of the 21<s=
+up>st</sup>
+century will be written.=C2=A0 Our strategic
+position in the region, the security of allies like Japan and South Korea, =
+and
+our ability to push China to act responsibly all depend on a strong America=
+n leadership.=C2=A0 </span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt"><span style=3D"font=
+-size:14pt;font-family:&#39;Times New Roman&#39;">As President, I=E2=80=99l=
+l keep doing
+what I=E2=80=99ve always done =E2=80=93 fighting for families, fighting for=
+ fairness, fighting
+for you. </span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt;line-height:150%"><s=
+pan style=3D"font-size:14pt;line-height:150%;font-family:&#39;Times New Rom=
+an&#39;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"margin-bottom:0.0001pt;tex=
+t-align:center;line-height:150%"><span style=3D"font-size:14pt;line-height:=
+150%;font-family:&#39;Times New Roman&#39;">###</span></p>
+
+</div></div>
+
+--047d7bae4522afd5b60521798452--
+
+--047d7bae4522afd5bb0521798454
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document; 
+	name="2015-10-06 TPP statement- 9pm.docx"
+Content-Disposition: attachment; 
+	filename="2015-10-06 TPP statement- 9pm.docx"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_ifg3tffn1
+
+UEsDBBQABgAIAAAAIQCRs9+3iwEAAC0IAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADE
+lctqwzAQRfeF/oPRtthKsiilxMmij2UbaPoBijWOTfVCmrz+vuPYMaWEODQx3RjsmXvvGckw4+lW
+q2gNPpTWpGyYDFgEJrOyNMuUfc5f4wcWBRRGCmUNpGwHgU0ntzfj+c5BiEhtQsoKRPfIecgK0CIk
+1oGhSm69FkivfsmdyL7EEvhoMLjnmTUIBmOsPNhk/Ay5WCmMXrb0uSYhOYue6r4qKmXCOVVmAqnM
+qyo/qvOgwgnh2shfdHFDlpBy3xOK0oW7JuGdjsaXEqKZ8PgmNNnxjfWSS5utNEUkp0GP5Nk8LzNo
+9ZWb8zaDEOjMtUraihal6eQwK70AT8rrg7TWnRABdwrC9Qlq3+54QCRBHwCNcyfCBhYfvVH8MO8E
+ya1FY7GP22itOyHAyJ4YDs6dCAUICX54fYLa+Kx76CW/Nj4zf/SP+ZQnFgr6IGisOyGQ1hHUz8tv
+Ym9zKpI6Z966QOvN/2Hswx6q1DEN7MBjefpPbxPJ+uL5oFqiEuSRbL5f9pNvAAAA//8DAFBLAwQU
+AAYACAAAACEAwmCa8+4AAABOAgAACwAIAl9yZWxzLy5yZWxzIKIEAiigAAIAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKySzUoDQQyA74LvMOTe
+nW0FEelsL1LoTaQ+QJjJ7g7u/JBJtX17B1GxUksPHieTfPkSslztw6ReiYtP0cC8aUFRtMn5OBh4
+3q5nd6CKYHQ4pUgGDlRg1V1fLZ9oQqlFZfS5qEqJxcAoku+1LnakgKVJmWL96RMHlPrkQWe0LziQ
+XrTtreafDOiOmGrjDPDGzUFtD5kuYae+95Yekt0FinKixa+MSkYeSAy8JXbafYabigV92mZxuc3f
+k+pAgg4FtU1Ms8y1msXXzX4LVZfHGi4fGeeEbv5zPbQXio7ceSXM+ctIH11B9w4AAP//AwBQSwME
+FAAGAAgAAAAhAPFzD5I4AQAAQAYAABwACAF3b3JkL19yZWxzL2RvY3VtZW50LnhtbC5yZWxzIKIE
+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
+LnhtbFBLBQYAAAAAEQARADoEAABmUAAAAAA=
+--047d7bae4522afd5bb0521798454--

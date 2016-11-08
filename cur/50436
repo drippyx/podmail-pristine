@@ -1,0 +1,592 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.94 with SMTP id o91csp2228179lfi;
+        Tue, 28 Apr 2015 15:44:10 -0700 (PDT)
+X-Received: by 10.236.96.231 with SMTP id r67mr25647639yhf.73.1430261049521;
+        Tue, 28 Apr 2015 15:44:09 -0700 (PDT)
+Return-Path: <hrcrapid+bncBC4ZXHOS2UOBBOE2QCVAKGQEIE2UJIQ@googlegroups.com>
+Received: from mail-yk0-x23b.google.com (mail-yk0-x23b.google.com. [2607:f8b0:4002:c07::23b])
+        by mx.google.com with ESMTPS id t127si13924163ykc.30.2015.04.28.15.44.08
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Apr 2015 15:44:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of hrcrapid+bncBC4ZXHOS2UOBBOE2QCVAKGQEIE2UJIQ@googlegroups.com designates 2607:f8b0:4002:c07::23b as permitted sender) client-ip=2607:f8b0:4002:c07::23b;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hrcrapid+bncBC4ZXHOS2UOBBOE2QCVAKGQEIE2UJIQ@googlegroups.com designates 2607:f8b0:4002:c07::23b as permitted sender) smtp.mail=hrcrapid+bncBC4ZXHOS2UOBBOE2QCVAKGQEIE2UJIQ@googlegroups.com;
+       dkim=pass header.i=@googlegroups.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-x23b.google.com with SMTP id 19sf284408ykq.0;
+        Tue, 28 Apr 2015 15:44:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20120806;
+        h=from:mime-version:references:in-reply-to:date:message-id:subject:to
+         :cc:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:list-post:list-help:list-archive
+         :sender:list-unsubscribe;
+        bh=CbreakCRERfwGvX42n1lcTump27x3Qk6JvaUnnSWaso=;
+        b=OwaQiFUgWDt1LRp1gn+OuioAHMIulHPS0zE/ZafCj3NKu08VZN2CcvYreWYDpgtupP
+         JCioDtAG4YKGsrbsrDed42jTouTxs/ERrhIO0VOYAHD5GmTfXR8ABhUpriKGJSVImq0m
+         5mdq056xWTdumICuClM7uzW4ugrVike8DQHVz8ZwLF3Y2/AsDOoG7RgpAeewsyP02vTM
+         dr8vctqljtmbWivWJUFQ57DQzcqUM/wOJz4FmkMmwm2da02boioGmY48P70Y8oNSmE35
+         3ei52+TB/jZlP+i9+7rfkUiGdKkUB2Qu2UxvJMeSoM6YnnJbo1cCPPLRWBQPpv/eHl8Q
+         7zeQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:mime-version:references:in-reply-to:date
+         :message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe;
+        bh=CbreakCRERfwGvX42n1lcTump27x3Qk6JvaUnnSWaso=;
+        b=fI+5QQAo8y5tpHgbLvcF7zv0Hjt5czc7Miuz89qTG7wkniTdzMnV3AA9Qx9AFbVLCo
+         fSVSO5cC9ECYlLUiH/XbFGqnXCIHqOsUtCXhj5jqPUTHEETG9/qaWXjL+4ff/0nPDVDw
+         N9HpV/8l+XfRXNZfszo9SHhMX73tflOMrTQF1aeZGLtT/WjQu4udRDK68ryRKF4mkRgZ
+         N4yzLac+omG62IKmlO6jmRzaYzSw5WXtyRXO/ZjReLBu5iPMh78T4oWoqXSe556oaRjH
+         4ikFyC3HddFXFFtTWlT6TsdHNfRgvZaxFBZfyFewi4WeadrXh20ntH7R3iT1ZwOj6wph
+         UOAg==
+X-Received: by 10.140.98.116 with SMTP id n107mr224135qge.11.1430261048459;
+        Tue, 28 Apr 2015 15:44:08 -0700 (PDT)
+X-BeenThere: hrcrapid@googlegroups.com
+Received: by 10.140.16.108 with SMTP id 99ls527255qga.9.gmail; Tue, 28 Apr
+ 2015 15:44:08 -0700 (PDT)
+X-Received: by 10.236.53.170 with SMTP id g30mr32340374yhc.17.1430261048252;
+        Tue, 28 Apr 2015 15:44:08 -0700 (PDT)
+Received: from mail-ig0-f170.google.com (mail-ig0-f170.google.com. [209.85.213.170])
+        by gmr-mx.google.com with ESMTPS id k7si1005013igu.0.2015.04.28.15.44.08
+        for <HRCrapid@googlegroups.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 28 Apr 2015 15:44:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of nmerrill@hillaryclinton.com designates 209.85.213.170 as permitted sender) client-ip=209.85.213.170;
+Received: by mail-ig0-f170.google.com with SMTP id yr2so104654783igb.0
+        for <HRCrapid@googlegroups.com>; Tue, 28 Apr 2015 15:44:08 -0700 (PDT)
+X-Gm-Message-State: ALoCoQkNrkIHJF+QJL9eHCX7Q5zRKrCCWCxnaxBxLsgIORDKBtoVD/PO8WRAGz5tdiO+88twKSDX
+X-Received: by 10.107.9.67 with SMTP id j64mr24839431ioi.39.1430261048052;
+ Tue, 28 Apr 2015 15:44:08 -0700 (PDT)
+From: Nick Merrill <nmerrill@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <242088330705778932@unknownmsgid>
+In-Reply-To: <242088330705778932@unknownmsgid>
+Date: Tue, 28 Apr 2015 18:44:07 -0400
+Message-ID: <5557109254032483032@unknownmsgid>
+Subject: Re: Scarborough says Algeria donated to Clinton Foundation when it
+ wanted off 'terror list' | PunditFact
+To: Josh Schwerin <jschwerin@hillaryclinton.com>
+CC: hrcrapid <HRCrapid@googlegroups.com>
+Content-Type: multipart/alternative; boundary=001a113df6d6b4a82f0514d09965
+X-Original-Sender: nmerrill@hillaryclinton.com
+X-Original-Authentication-Results: gmr-mx.google.com;       spf=pass
+ (google.com: domain of nmerrill@hillaryclinton.com designates 209.85.213.170
+ as permitted sender) smtp.mail=nmerrill@hillaryclinton.com;       dmarc=pass
+ (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list hrcrapid@googlegroups.com; contact hrcrapid+owners@googlegroups.com
+List-ID: <hrcrapid.googlegroups.com>
+X-Google-Group-Id: 612515467801
+List-Post: <http://groups.google.com/group/hrcrapid/post>, <mailto:hrcrapid@googlegroups.com>
+List-Help: <http://groups.google.com/support/>, <mailto:hrcrapid+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/hrcrapid
+Sender: hrcrapid@googlegroups.com
+List-Unsubscribe: <mailto:googlegroups-manage+612515467801+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/group/hrcrapid/subscribe>
+
+--001a113df6d6b4a82f0514d09965
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Boom!
+
+
+
+On Apr 28, 2015, at 6:43 PM, Josh Schwerin <jschwerin@hillaryclinton.com>
+wrote:
+
+Scarborough says Algeria donated to Clinton Foundation when it wanted off
+'terror list' | PunditFact
+Scarborough=E2=80=99s claim rates False.
+
+http://www.politifact.com/punditfact/statements/2015/apr/28/joe-scarborough=
+/scarborough-says-algeria-donated-clinton-foundatio/
+
+Scarborough says Algeria donated to Clinton Foundation when it wanted off
+'terror list'
+
+Television pundits are raising a lot of questions about *foreign government
+donations*
+<http://www.washingtonpost.com/politics/foreign-governments-gave-millions-t=
+o-foundation-while-clinton-was-at-state-dept/2015/02/25/31937c1e-bc3f-11e4-=
+8668-4e7ba8439ca6_story.html?hpid=3Dz2>
+to the Clinton Foundation during Hillary Clinton=E2=80=99s tenure as secret=
+ary of
+state.
+
+But not everyone get all the details right. Joe Scarborough of MSNBC=E2=80=
+=99s *Morning
+Joe *flubbed describing the situation in the April 27 show.
+
+He was discussing *a column*
+<http://www.washingtonpost.com/opinions/sloppiness-and-greed/2015/04/24/e4d=
+53446-eaa9-11e4-aae1-d642717d8afa_story.html>
+by the *Washington Post*=E2=80=99s Ruth Marcus, whose op-ed highlighted an
+unreported donation to Bill Clinton=E2=80=99s foundation by Algeria in 2010=
+ as an
+example of sloppiness. The donation, and others like it, raises questions
+about whether Clinton went "soft" on Algeria for contributing to her
+husband=E2=80=99s cause under the appearance of earthquake relief in Haiti,=
+ Marcus
+wrote.
+
+Scarborough said the situation will "stink to high heaven" even if it=E2=80=
+=99s a
+legal gray area.
+
+"I think it was Algeria, maybe, that had given a donation that went
+unreported at a time when they wanted to be taken off of the terror list in
+the State Department," Scarborough said. "They write the check, they get
+taken off the terror list. ... At the same time, and then it goes
+unreported by the Clinton Foundation."
+
+"Is there a quid pro quo there? I don't know, that's really hard to tell,"
+he said.
+
+Scarborough went on to break down to his panelists how easy it would be to
+explain to voters what might have occurred.
+
+"This is pretty simple stuff. So Algeria is on the terror list, they want
+off the terror list, the State Department's making a decision to do it,
+they write a check for what? How much? How many million dollars do they
+write a check for? I don't know, but Algeria writes a check. You're from
+Boston, you know how politics works. They write a really big check to the
+Clinton Foundation," Scarborough said. "The Clinton Foundation takes the
+check, and then just, out of nowhere the State Department then decides,
+well, they are going to take Algeria off the list. Now why did Algeria
+write a big check to the Clinton Foundation at the time they want something
+from the State Department? That's pretty simple for most voters."
+
+The problem with all of this isn=E2=80=99t the donation, or questions about=
+ a quid
+pro quo with Algeria. It=E2=80=99s the fact that Algeria wasn=E2=80=99t eve=
+r on the terror
+list. (*Media Matters*
+<http://mediamatters.org/blog/2015/04/27/msnbcs-scarborough-invents-algeria=
+n-terror-conn/203435>
+first
+pointed out what Scarborough said.)
+
+*An ally against terror*
+
+The list Scarborough mentions is a serious designation given to just four
+countries the State Department considers *state sponsors of terrorism*
+<http://www.state.gov/j/ct/list/c14151.htm>: Syria, Iran, Sudan and Cuba.
+President Barack Obama is poised to *remove Cuba*
+<http://www.nytimes.com/2015/04/15/world/americas/obama-cuba-remove-from-st=
+ate-terror-list.html>
+from the list as a show of improved diplomatic relations. (Libya, Iraq and
+North Korea are the only countries that have been removed.)
+
+Algeria is actually a key partner of the United States in fighting
+terrorism in North Africa and "has a long history of fighting terrorism,"
+the *State Department says*
+<http://www.state.gov/j/ct/rls/crt/2013/224823.htm>.
+
+The country spent about 20 years locked in a civil war between the military
+and various Islamist groups after an Islamist group won a 1991 election
+that was scrapped. The country=E2=80=99s president, Abdelaziz Bouteflika, l=
+ifted a
+state of emergency in April 2011.
+
+But the country continues to *struggle with radical violence*
+<http://www.state.gov/documents/organization/170479.pdf> in neighboring
+countries. Algeria was attacked by the group that calls itself al-Qaida in
+the Lands of the Islamic Maghreb almost 200 times in just 2013 in the form
+of improvised explosive devices, bombings, kidnappings, and fake roadblocks=
+.
+
+*Human rights violations hamper relations*
+
+The Algerian government is not a state sponsor of terror. But its hands are
+not clean when it comes to human rights, which is most likely what
+Scarborough was trying to recall on air.
+
+The *Washington Post* story that revealed the Algerian embassy=E2=80=99s do=
+nation
+of $500,000 also mention that the one-time gift coincided with increased
+lobbying visits to the State Department about human rights violations.
+
+In 2010, Algeria spent more than $420,000 lobbying American officials on
+inter-country relations and on "human rights issues," the *Post* found,
+citing documents filed as part of the Foreign Agents Registration Act. The
+year also saw an increase in meetings between State Department officials
+and lobbyists representing Algeria, growing from "a handful" of recorded
+visits in the years before and after to 12 visits in 2010, the *Post*
+reported.
+
+The Algeria donation came soon after the Jan. 12, 2010, earthquake in
+Haiti, the *Clinton Foundation said*
+<https://www.clintonfoundation.org/press/facts#sthash.CbslGu5F.dpuf>. It
+was unsolicited and went to the Clinton Foundation Haiti Relief Fund,
+"where the entire amount of Algeria=E2=80=99s contribution was distributed =
+as aid
+in Haiti." Algeria had not donated before and has not donated since, a
+foundation spokesman said.
+
+The foundation acknowledged it did not alert the State Department about the
+gift for vetting, which was required under a memorandum of understanding
+between the Obama administration and the Clintons in an effort to prevent
+foreign governments from trying to curry favor with Hillary Clinton=E2=80=
+=99s State
+Department by donating to Bill Clinton=E2=80=99s philanthropy.
+
+So what are the human rights issues Algeria was lobbying on?
+
+Reports by Human Rights Watch, Amnesty International and the State
+Department outline the activities of a strict authoritarian government that
+represses its people=E2=80=99s freedom of assembly and association, overuse=
+s
+pretrial detentions, and employs a judicial system that is susceptible to
+corruption.
+
+The State Department=E2=80=99s 2010 report of human rights issues in Algeri=
+a
+highlights more issues including reports of arbitrary killings, the
+government failing to account for people who disappeared during the civil
+war in the 1990s, violence and discrimination against women, and continued
+restrictions for workers=E2=80=99 rights.
+
+The *government of Algeria*
+<http://www.state.gov/j/drl/rls/hrrpt/2010/nea/154458.htm> has resisted
+inspections by independent human rights groups.
+
+MSNBC's Diana Rocco said Scarborough deserves some credit for indicating he
+"wasn=E2=80=99t sure it was" Algeria, and that the exchange that followed "=
+clearly
+shows he=E2=80=99s using it as a hypothetical scenario to make his larger p=
+oint
+about how the quid pro quo scenario may have unfolded."
+
+None of that, though, means that Algeria was on the terror watch list in
+the first place.
+
+Neither Algeria nor other governments revealed to have given to the
+foundation =E2=80=94 Australia, the Dominican Republic, Kuwait, Norway, Oma=
+n and
+Qatar =E2=80=94 are sponsors of terrorism, either.
+
+*Our ruling*
+
+Scarborough was trying to recall the details of a news story about Clinton
+Foundation donations from foreign governments when he brought up Algeria=E2=
+=80=99s
+donation to the foundation to try getting off the "terror list."
+
+There are parts about the donations that may not look good for Clinton.
+Maybe it becomes a legal problem, maybe it=E2=80=99s just a political one. =
+But to
+claim the foundation took donations from a country on the terrorist list is
+inaccurate.
+
+Scarborough=E2=80=99s claim rates False.
+
+
+Sent from my iPhone
+
+--=20
+You received this message because you are subscribed to the Google Groups
+"HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an
+email to hrcrapid+unsubscribe@googlegroups.com.
+To post to this group, send email to hrcrapid@googlegroups.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--=20
+You received this message because you are subscribed to the Google Groups "=
+HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to hrcrapid+unsubscribe@googlegroups.com.
+To post to this group, send email to hrcrapid@googlegroups.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--001a113df6d6b4a82f0514d09965
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=
+=3Dutf-8"></head><body dir=3D"auto"><div>Boom!<br><br><br></div><div><br>On=
+ Apr 28, 2015, at 6:43 PM, Josh Schwerin &lt;<a href=3D"mailto:jschwerin@hi=
+llaryclinton.com">jschwerin@hillaryclinton.com</a>&gt; wrote:<br><br></div>=
+<div><meta http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf-=
+8"><div><base href=3D"http://www.politifact.com/punditfact/statements/2015/=
+apr/28/joe-scarborough/scarborough-says-algeria-donated-clinton-foundatio/"=
+><style id=3D"article-content">
+        @media print {
+            .original-url {
+                display: none;
+            }
+        }
+
+        h1.title {
+            font: -apple-system-headline;
+            font-weight: normal;
+            text-align: start;
+            -webkit-hyphens: manual;
+        }
+
+        blockquote {
+            color: rgba(0, 0, 0, 0.5);
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        blockquote > *:first-child:before {
+            -webkit-margin-start: -6px;
+            content: open-quote;
+        }
+
+        blockquote > *:last-child:after {
+            content: close-quote;
+        }
+
+        /* FIXME: We should be able to remove this when WebKit's link color=
+ matches UIKit's (<rdar://problem/13650224>). */
+        .page a {
+            color: rgb(20, 111, 223);
+        }
+
+        #article .large-element {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .page {
+            font: -apple-system-body;
+            text-align: start;
+        }
+
+        #article .leading-image, #article figure, #article .auxiliary {
+            font: -apple-system-short-subheadline;
+        }
+
+        h1 {
+            font: -apple-system-subheadline;
+        }
+
+        h2 {
+            font: -apple-system-footnote;
+        }
+
+        h3 {
+            font: -apple-system-caption1;
+        }
+
+        h4, h5, h6 {
+            font: -apple-system-caption2;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: bold;
+        }
+
+        hr {
+            background: rgba(0, 0, 0, 0.2);
+            height: 1px;
+            border: 0;
+        }
+    </style><link rel=3D"stylesheet" type=3D"text/css" href=3D"safari-resou=
+rce:/WBSReaderSharedStyleSheet.css" id=3D"article-content-shared"><title>Sc=
+arborough says Algeria donated to Clinton Foundation when it wanted off &#3=
+9;terror list&#39; | PunditFact</title><div class=3D"original-url"><span st=
+yle=3D"background-color:rgba(255,255,255,0)">Scarborough=E2=80=99s claim ra=
+tes False.</span></div><div class=3D"original-url"><br><a href=3D"http://ww=
+w.politifact.com/punditfact/statements/2015/apr/28/joe-scarborough/scarboro=
+ugh-says-algeria-donated-clinton-foundatio/">http://www.politifact.com/pund=
+itfact/statements/2015/apr/28/joe-scarborough/scarborough-says-algeria-dona=
+ted-clinton-foundatio/</a><br><br></div><div id=3D"article">
+        <div class=3D"page" style=3D"font-size:18px;line-height:28px"><h1 c=
+lass=3D"title">Scarborough says Algeria donated to Clinton Foundation when =
+it wanted off &#39;terror list&#39;</h1>
+        <p>Television pundits are raising a lot of questions about <a href=
+=3D"http://www.washingtonpost.com/politics/foreign-governments-gave-million=
+s-to-foundation-while-clinton-was-at-state-dept/2015/02/25/31937c1e-bc3f-11=
+e4-8668-4e7ba8439ca6_story.html?hpid=3Dz2"><u>foreign government donations<=
+/u></a> to the Clinton Foundation during Hillary Clinton=E2=80=99s tenure a=
+s secretary of state.</p>
+
+<p>But not everyone get all the details right. Joe Scarborough of MSNBC=E2=
+=80=99s <em>Morning Joe </em>flubbed describing the situation in the April =
+27 show.</p>
+
+<p>He was discussing <a href=3D"http://www.washingtonpost.com/opinions/slop=
+piness-and-greed/2015/04/24/e4d53446-eaa9-11e4-aae1-d642717d8afa_story.html=
+"><u>a column</u></a> by the <em>Washington Post</em>=E2=80=99s Ruth Marcus=
+, whose op-ed highlighted an unreported donation to Bill Clinton=E2=80=99s =
+foundation by Algeria in 2010 as an example of sloppiness. The donation, an=
+d others like it, raises questions about whether Clinton went &quot;soft&qu=
+ot; on Algeria for contributing to her husband=E2=80=99s cause under the ap=
+pearance of earthquake relief in Haiti, Marcus wrote.</p>
+
+<p>Scarborough said the situation will &quot;stink to high heaven&quot; eve=
+n if it=E2=80=99s a legal gray area.</p>
+
+<p>&quot;I think it was Algeria, maybe, that had given a donation that went=
+ unreported at a time when they wanted to be taken off of the terror list i=
+n the State Department,&quot; Scarborough said. &quot;They write the check,=
+ they get taken off the terror list. ... At the same time, and then it goes=
+ unreported by the Clinton Foundation.&quot;</p>
+
+<p>&quot;Is there a quid pro quo there? I don&#39;t know, that&#39;s really=
+ hard to tell,&quot; he said.</p>
+
+<p>Scarborough went on to break down to his panelists how easy it would be =
+to explain to voters what might have occurred.</p>
+
+<p>&quot;This is pretty simple stuff. So Algeria is on the terror list, the=
+y want off the terror list, the State Department&#39;s making a decision to=
+ do it, they write a check for what? How much? How many million dollars do =
+they write a check for? I don&#39;t know, but Algeria writes a check. You&#=
+39;re from Boston, you know how politics works. They write a really big che=
+ck to the Clinton Foundation,&quot; Scarborough said. &quot;The Clinton Fou=
+ndation takes the check, and then just, out of nowhere the State Department=
+ then decides, well, they are going to take Algeria off the list. Now why d=
+id Algeria write a big check to the Clinton Foundation at the time they wan=
+t something from the State Department? That&#39;s pretty simple for most vo=
+ters.&quot;</p>
+
+<p>The problem with all of this isn=E2=80=99t the donation, or questions ab=
+out a quid pro quo with Algeria. It=E2=80=99s the fact that Algeria wasn=E2=
+=80=99t ever on the terror list. (<a href=3D"http://mediamatters.org/blog/2=
+015/04/27/msnbcs-scarborough-invents-algerian-terror-conn/203435"><u>Media =
+Matters</u></a>=C2=A0first pointed=C2=A0out what Scarborough said.)</p>
+
+<p><strong>An ally against terror</strong></p>
+
+<p>The list Scarborough mentions is a serious designation given to just fou=
+r countries the State Department considers <a href=3D"http://www.state.gov/=
+j/ct/list/c14151.htm"><u>state sponsors of terrorism</u></a>: Syria, Iran, =
+Sudan and Cuba. President Barack Obama is poised to <a href=3D"http://www.n=
+ytimes.com/2015/04/15/world/americas/obama-cuba-remove-from-state-terror-li=
+st.html"><u>remove Cuba</u></a> from the list as a show of improved diploma=
+tic relations. (Libya, Iraq and North Korea are the only countries that hav=
+e been removed.)</p>
+
+<p>Algeria is actually a key partner of the United States in fighting terro=
+rism in North Africa and &quot;has a long history of fighting terrorism,&qu=
+ot; the <a href=3D"http://www.state.gov/j/ct/rls/crt/2013/224823.htm"><u>St=
+ate Department says</u></a>.</p>
+
+<p>The country spent about 20 years locked in a civil war between the milit=
+ary and various Islamist groups after an Islamist group won a 1991 election=
+ that was scrapped. The country=E2=80=99s president, Abdelaziz Bouteflika, =
+lifted a state of emergency in April 2011.</p>
+
+<p>But the country continues to <a href=3D"http://www.state.gov/documents/o=
+rganization/170479.pdf"><u>struggle with radical violence</u></a> in neighb=
+oring countries. Algeria was attacked by the group that calls itself al-Qai=
+da in the Lands of the Islamic Maghreb almost 200 times in just 2013 in the=
+ form of improvised explosive devices, bombings, kidnappings, and fake road=
+blocks.</p>
+
+<p><strong>Human rights violations hamper relations</strong></p>
+
+<p>The Algerian government is not a state sponsor of terror. But its hands =
+are not clean when it comes to human rights, which is most likely what Scar=
+borough was trying to recall on air.</p>
+
+<p>The <em>Washington Post</em> story that revealed the Algerian embassy=E2=
+=80=99s donation of $500,000 also mention that the one-time gift coincided =
+with increased lobbying visits to the State Department about human rights v=
+iolations.</p>
+
+<p>In 2010, Algeria spent more than $420,000 lobbying American officials on=
+ inter-country relations and on &quot;human rights issues,&quot;=C2=A0the <=
+em>Post</em> found, citing documents filed as part of the Foreign Agents Re=
+gistration Act. The year also saw an increase in meetings between State Dep=
+artment officials and lobbyists representing Algeria, growing from &quot;a =
+handful&quot; of recorded visits in the years before and after to 12 visits=
+ in 2010, the <em>Post</em> reported.</p>
+
+<p>The Algeria donation came soon after the Jan. 12, 2010, earthquake in Ha=
+iti, the <a href=3D"https://www.clintonfoundation.org/press/facts#sthash.Cb=
+slGu5F.dpuf"><u>Clinton Foundation said</u></a>. It was unsolicited and wen=
+t to the Clinton Foundation Haiti Relief Fund, &quot;where the entire amoun=
+t of Algeria=E2=80=99s contribution was distributed as aid in Haiti.&quot; =
+Algeria had not donated before and has not donated since, a foundation spok=
+esman said.</p>
+
+<p>The foundation acknowledged it did not alert the State Department about =
+the gift for vetting, which was required under a memorandum of understandin=
+g between the Obama administration and the Clintons in an effort to prevent=
+ foreign governments from trying to curry favor with Hillary Clinton=E2=80=
+=99s State Department by donating to Bill Clinton=E2=80=99s philanthropy.</=
+p>
+
+<p>So what are the human rights issues Algeria was lobbying on?</p>
+
+<p>Reports by Human Rights Watch, Amnesty International and the State Depar=
+tment outline the activities of a strict authoritarian government that repr=
+esses its people=E2=80=99s freedom of assembly and association, overuses pr=
+etrial detentions, and employs a judicial system that is susceptible to cor=
+ruption.</p>
+
+<p>The State Department=E2=80=99s 2010 report of human rights issues in Alg=
+eria highlights more issues including reports of arbitrary killings, the go=
+vernment failing to account for people who disappeared during the civil war=
+ in the 1990s, violence and discrimination against women, and continued res=
+trictions for workers=E2=80=99 rights.</p>
+
+<p>The <a href=3D"http://www.state.gov/j/drl/rls/hrrpt/2010/nea/154458.htm"=
+><u>government of Algeria</u></a> has resisted inspections by independent h=
+uman rights groups.</p>
+
+<p>MSNBC&#39;s Diana Rocco said Scarborough deserves some credit for indica=
+ting he &quot;wasn=E2=80=99t sure it was&quot; Algeria, and that the exchan=
+ge that followed &quot;clearly shows he=E2=80=99s using it as a hypothetica=
+l scenario to make his larger point about how the quid pro quo scenario may=
+ have unfolded.&quot;</p>
+
+<p>None of that, though, means that=C2=A0Algeria was on the terror watch li=
+st in the first place.=C2=A0</p>
+
+<p>Neither Algeria nor other governments revealed to have given to the foun=
+dation =E2=80=94 Australia, the Dominican Republic, Kuwait, Norway, Oman an=
+d Qatar =E2=80=94 are sponsors of terrorism, either.</p>
+
+<p><strong>Our ruling</strong></p>
+
+<p>Scarborough was trying to recall the details of a news story about Clint=
+on Foundation donations from foreign governments when he brought up Algeria=
+=E2=80=99s donation to the foundation to try getting off the &quot;terror l=
+ist.&quot;</p>
+
+<p>There are parts about the donations that may not look good for Clinton. =
+Maybe it becomes a legal problem, maybe it=E2=80=99s just a political one. =
+But to claim the foundation took donations from a country on the terrorist =
+list is inaccurate.</p>
+
+<p>Scarborough=E2=80=99s claim rates False.</p>
+
+      </div></div></div><div><br><br>Sent from my iPhone</div>
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br>
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com">hrcrapid+u=
+nsubscribe@googlegroups.com</a>.<br>
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com">hrcrapid@googlegroups.com</a>.<br>
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br>
+</div></body></html>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com">hrcrapid+u=
+nsubscribe@googlegroups.com</a>.<br />
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com">hrcrapid@googlegroups.com</a>.<br />
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br />
+
+--001a113df6d6b4a82f0514d09965--

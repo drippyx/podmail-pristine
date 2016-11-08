@@ -1,0 +1,564 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp2584198lfb;
+        Wed, 18 Nov 2015 11:33:26 -0800 (PST)
+X-Received: by 10.60.135.68 with SMTP id pq4mr2233835oeb.7.1447875206137;
+        Wed, 18 Nov 2015 11:33:26 -0800 (PST)
+Return-Path: <nmerrill@hillaryclinton.com>
+Received: from mail-oi0-x230.google.com (mail-oi0-x230.google.com. [2607:f8b0:4003:c06::230])
+        by mx.google.com with ESMTPS id u16si3542524oet.62.2015.11.18.11.33.25
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 18 Nov 2015 11:33:26 -0800 (PST)
+Received-SPF: pass (google.com: domain of nmerrill@hillaryclinton.com designates 2607:f8b0:4003:c06::230 as permitted sender) client-ip=2607:f8b0:4003:c06::230;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of nmerrill@hillaryclinton.com designates 2607:f8b0:4003:c06::230 as permitted sender) smtp.mailfrom=nmerrill@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-x230.google.com with SMTP id w189so30143813oiw.3
+        for <john.podesta@gmail.com>; Wed, 18 Nov 2015 11:33:25 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        bh=T7F3JeWdES6oG6vnOEzYV8l0Io5Zoa1h6EU0f76fF0M=;
+        b=EIjYu67sKWE3VXJyrl1fVdBbqwRByZQrP8o798DSdYsJt+eUJQnRENpU7SroS07tya
+         AdOClA7VYQPrnfmJ+JNqqV67AT+MtliAMrRh7V6AR1Pl3cRg9UxxBcZF3nkwIWAE+9G3
+         cVNerhVnmJFdvCq+w7E7j3ih1UJYrb8ULZusI=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=T7F3JeWdES6oG6vnOEzYV8l0Io5Zoa1h6EU0f76fF0M=;
+        b=eLwB9Uy17EZwXXApEDillh+PA41aL93WLnC1K+jQu2Zpzzs0qyCOdmW11GvrEC7Xz/
+         y167Iwf37ruycUXeec4Q2S82GUqCNs7JGvwRDzAQw4aRPKiH7KooDKWTi9R+AI2oc4nN
+         HGSV9yHfQOUXFUB5FHV00MORcx0BvezFUrGUeauky4FXZznOjRMNQ7J1hgw9uX1ZEM89
+         507SCj/wxcMpYAJTbymjX4esduX39NPlyHMRjaMFiKWvAQ1Q2o9CgYsGH61HieYkng+B
+         rjMXyQ4rPx+vkyKxqZ7Pcs7rRM+IX98MqwrjV1MOJveLeIyTVG/KCmDBd7v8Bn4yw4N+
+         9kFw==
+X-Gm-Message-State: ALoCoQlcpFkq5nm+K7NhGH36RLnTad9ioYqWtcSubmHjEo385fWKzbvm0mPd/8H9YTcREqXWsqz9
+MIME-Version: 1.0
+X-Received: by 10.202.83.74 with SMTP id h71mr2183370oib.32.1447875205761;
+ Wed, 18 Nov 2015 11:33:25 -0800 (PST)
+Received: by 10.202.226.11 with HTTP; Wed, 18 Nov 2015 11:33:25 -0800 (PST)
+In-Reply-To: <195dd67ec2b906e011bb83b6b013389a@mail.gmail.com>
+References: <2129470085866932887@unknownmsgid>
+	<CADHYb18b9t8gStV=xSnxc-kSzesH2UGieVf_YYEx9fMH1iYM5w@mail.gmail.com>
+	<4ee45d0a8acb1e0a32e66135fc5759f2@mail.gmail.com>
+	<8316062107421809367@unknownmsgid>
+	<CAE_=YH9brrfwkUmCRjpnSkMjFqXU3BSCFAhvqf-iBVSHTZrKOA@mail.gmail.com>
+	<195dd67ec2b906e011bb83b6b013389a@mail.gmail.com>
+Date: Wed, 18 Nov 2015 14:33:25 -0500
+Message-ID: <CAE_=YH-ixLue-vUgJFKvgnPt9j27Ti+o-Zc78byi2ZWgEC12Cg@mail.gmail.com>
+Subject: Re: Inquiry: Politico | Encryption and Anonymization
+From: Nick Merrill <nmerrill@hillaryclinton.com>
+To: Jake Sullivan <jsullivan@hillaryclinton.com>
+CC: Sara Solow <ssolow@hillaryclinton.com>, 
+ Teddy Goff <tgoff@hillaryclinton.com>, 
+ John Podesta <john.podesta@gmail.com>, 
+ Tony Carrk <tcarrk@hillaryclinton.com>, 
+ Brian Fallon <bfallon@hillaryclinton.com>, 
+ Christina Reynolds <creynolds@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a113d12a451953c0524d5b742
+
+--001a113d12a451953c0524d5b742
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Fallon what's your preference?  I could deliver these points on background
+or abridge them a bit so as not the arbitrarily provide to much detail in
+the absence of a broader plan.
+
+On Wed, Nov 18, 2015 at 1:35 PM, Jake Sullivan <jsullivan@hillaryclinton.co=
+m
+> wrote:
+
+> We will not address the internet freedom funding so I would do something
+> about that.  We will address the broader encryption issue.
+>
+>
+>
+> *From:* Nick Merrill [mailto:nmerrill@hillaryclinton.com]
+> *Sent:* Wednesday, November 18, 2015 1:35 PM
+> *To:* Sara Solow <ssolow@hillaryclinton.com>
+> *Cc:* Jake Sullivan <jsullivan@hillaryclinton.com>; Teddy Goff <
+> tgoff@hillaryclinton.com>; John Podesta <john.podesta@gmail.com>; Tony
+> Carrk <tcarrk@hillaryclinton.com>; Brian Fallon <
+> bfallon@hillaryclinton.com>; Christina Reynolds <
+> creynolds@hillaryclinton.com>
+>
+> *Subject:* Re: Inquiry: Politico | Encryption and Anonymization
+>
+>
+>
+> Got it.  Thanks for all of this.  Is this something we want to deploy or
+> do we think enough of this will get addressed tomorrow that maybe we can
+> tell him to wait as we will have more to say going forward, starting
+> tomorrow.  Thoughts?
+>
+>
+>
+> On Wed, Nov 18, 2015 at 12:12 PM, Sara Solow <ssolow@hillaryclinton.com>
+> wrote:
+>
+> Agree with Jake.  Man this is tough.  Is there evidence that bad guys --
+> not just dissidents but terrorists or whatever -- have also benefitted fr=
+om
+> the technologies supported by the Internet freedom agenda?  Either way, I
+> think the talking points Jake put down, from Ben, stay the same.
+>
+>
+> On Nov 18, 2015, at 11:53 AM, Jake Sullivan <jsullivan@hillaryclinton.com=
+>
+> wrote:
+>
+> Adding Tony and Sara S, and others from comms.  This is going to be a
+> challenge.  I think we should give a comment on the anonymizing tools and
+> punt on backdoors (she=E2=80=99ll have more to say on that tomorrow).
+>
+>
+>
+> On anonymizing tools, Ben Scott has suggested the following talking
+> points.  Boiled down, the points are:
+>
+>
+>
+> 1-The bad guys could already get crypto  -- we helped the good guys get
+> it.
+>
+> 2-The Internet Freedom investments in these technologies were strongly
+> bipartisan (and remain so).
+>
+>
+>
+> Talking Points:
+>
+>
+>
+> =E2=9E=A2 Secretary Clinton=E2=80=99s Internet Freedom agenda is a signat=
+ure achievement
+> at the State
+>
+> Department. She elevated human rights in a digital era to the top tier of
+> foreign policy
+>
+> issues and built a new kind of diplomacy around harnessing the power of
+> technology
+>
+> to serve the foreign policy goals of the United States.
+>
+>
+>
+> =E2=9E=A2 The Internet Freedom programs that invest in software developme=
+nt were
+> designed
+>
+> to help people help themselves. Authoritarian governments will not
+> willingly grant
+>
+> freedom of expression or the right to privacy. But technology can empower
+> people
+>
+> with secure communications tools.
+>
+>
+>
+> =E2=9E=A2 Making secure communications tools usable for the average citiz=
+en in
+> authoritarian
+>
+> societies was a central goal of Secretary Clinton=E2=80=99s. She achieved=
+ that
+> goal. The latest
+>
+> generation of Internet Freedom technologies is so user-friendly that even
+> Silicon
+>
+> Valley giants have taken up the tools built by tiny NGOs.
+>
+>
+>
+> =E2=9E=A2 Of course, the leaders of America=E2=80=99s Internet Freedom po=
+licies are aware
+> that secure
+>
+> communications technologies can cut both ways. Providing people with tool=
+s
+>
+> powerful enough to resist intervention by their own governments means tha=
+t
+> our own
+>
+> security services will be challenged as well. This question was thoroughl=
+y
+> reviewed
+>
+> and debated at the time the Internet Freedom agenda was launched.
+>
+>
+>
+> =E2=9E=A2 Secretary Clinton joined the consensus view of Congressional le=
+aders
+> from both
+>
+> parties that supporting Internet Freedom technologies requires
+> uncompromising
+>
+> commitment to the security of users. And while we will do all we can to
+> support the
+>
+> work of law enforcement, the steadfast protection of fundamental rights
+> around the
+>
+> world puts us on the right side of history.
+>
+>
+>
+> =E2=9E=A2 A bipartisan group of Congressional leaders have supported and =
+funded
+> these
+>
+> programs for many years. Since 2008, Congress has appropriated more than
+> $200
+>
+> million to enable these innovative Internet Freedom programs. Since 2014,
+> under
+>
+> Republican leadership in Congress, the annual allocation for Internet
+> freedom
+>
+> programs has increased to $50.5 million.
+>
+>
+>
+> =E2=9E=A2 Following Secretary Clinton=E2=80=99s push for Internet Freedom=
+, uptake of
+> these Internet
+>
+> Freedom tools has grown from hundreds of thousands of regular users to
+> more than
+>
+> 900 million people in 60 countries who use these technologies to exercise
+> their rights
+>
+> in the digital world.
+>
+>
+>
+> *From:* Teddy Goff [mailto:tgoff@hillaryclinton.com]
+> *Sent:* Wednesday, November 18, 2015 11:48 AM
+> *To:* Nick Merrill <nmerrill@hillaryclinton.com>; Jake Sullivan <
+> jsullivan@hillaryclinton.com>; John Podesta <john.podesta@gmail.com>
+> *Subject:* Re: Inquiry: Politico | Encryption and Anonymization
+>
+>
+>
+> just giving JDP and JS a heads up on this in case they aren't on HRCRR@.
+>
+>
+>
+> On Wed, Nov 18, 2015 at 11:24 AM, Nick Merrill <
+> nmerrill@hillaryclinton.com> wrote:
+>
+> I assume we don't have anything on this just yet....
+>
+>
+> Begin forwarded message:
+>
+> *Resent-From:* <nmerrill@hrcoffice.com>
+> *From:* Joe Marks <jmarks@politico.com>
+> *Date:* November 18, 2015 at 11:15:57 AM EST
+> *To:* "nmerrill@hrcoffice.com" <nmerrill@hrcoffice.com>
+> *Subject:* *Comments on encryption and anonymization*
+>
+> Hi Nick,
+>
+>
+>
+> I=E2=80=99m working on a story today about the renewed debate over end to=
+ end
+> encryption following the Paris attacks. One thing the article explores is
+> Sec. Clinton=E2=80=99s support for anonymizing tools such as Tor for poli=
+tical
+> dissidents when she was secretary and whether that may be a political
+> liability.
+>
+>
+>
+> Can the campaign comment on whether that support may be a liability and/
+> or whether Sec. Clinton has a firmer position on government backdoors for
+> encryption since the Re/Code interview in February where she called it a
+> =E2=80=9Cclassic hard choice?=E2=80=9D
+>
+>
+>
+> My deadline is 2 p.m.
+>
+>
+>
+> Thanks,
+>
+>
+>
+> Joe
+>
+>
+>
+> --
+>
+> Joseph Marks
+>
+> Reporter, Cybersecurity
+>
+> Politico Pro
+>
+> 703-647-8776 (desk)
+>
+> 202-664-7910 (cell)
+>
+> jmarks@politico.com
+>
+> @Joseph_Marks_
+>
+>
+>
+> --
+> You received this message because you are subscribed to the Google Groups
+> "HRCRR" group.
+> To unsubscribe from this group and stop receiving emails from it, send an
+> email to hrcrr+unsubscribe@hillaryclinton.com.
+> To post to this group, send email to hrcrr@hillaryclinton.com.
+>
+>
+>
+>
+>
+
+--001a113d12a451953c0524d5b742
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Fallon what&#39;s your preference?=C2=A0 I could deliver t=
+hese points on background or abridge them a bit so as not the arbitrarily p=
+rovide to much detail in the absence of a broader plan.</div><div class=3D"=
+gmail_extra"><br><div class=3D"gmail_quote">On Wed, Nov 18, 2015 at 1:35 PM=
+, Jake Sullivan <span dir=3D"ltr">&lt;<a href=3D"mailto:jsullivan@hillarycl=
+inton.com" target=3D"_blank">jsullivan@hillaryclinton.com</a>&gt;</span> wr=
+ote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border=
+-left:1px #ccc solid;padding-left:1ex"><div lang=3D"EN-US" link=3D"blue" vl=
+ink=3D"purple"><div><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">We will not addre=
+ss the internet freedom funding so I would do something about that.=C2=A0 W=
+e will address the broader encryption issue.</span></p><p class=3D"MsoNorma=
+l"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if;color:#1f497d">=C2=A0</span></p><p class=3D"MsoNormal"><b><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">From:</span><=
+/b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if"> Nick Merrill [mailto:<a href=3D"mailto:nmerrill@hillaryclinton.com" ta=
+rget=3D"_blank">nmerrill@hillaryclinton.com</a>] <br><b>Sent:</b> Wednesday=
+, November 18, 2015 1:35 PM<br><b>To:</b> Sara Solow &lt;<a href=3D"mailto:=
+ssolow@hillaryclinton.com" target=3D"_blank">ssolow@hillaryclinton.com</a>&=
+gt;<br><b>Cc:</b> Jake Sullivan &lt;<a href=3D"mailto:jsullivan@hillaryclin=
+ton.com" target=3D"_blank">jsullivan@hillaryclinton.com</a>&gt;; Teddy Goff=
+ &lt;<a href=3D"mailto:tgoff@hillaryclinton.com" target=3D"_blank">tgoff@hi=
+llaryclinton.com</a>&gt;; John Podesta &lt;<a href=3D"mailto:john.podesta@g=
+mail.com" target=3D"_blank">john.podesta@gmail.com</a>&gt;; Tony Carrk &lt;=
+<a href=3D"mailto:tcarrk@hillaryclinton.com" target=3D"_blank">tcarrk@hilla=
+ryclinton.com</a>&gt;; Brian Fallon &lt;<a href=3D"mailto:bfallon@hillarycl=
+inton.com" target=3D"_blank">bfallon@hillaryclinton.com</a>&gt;; Christina =
+Reynolds &lt;<a href=3D"mailto:creynolds@hillaryclinton.com" target=3D"_bla=
+nk">creynolds@hillaryclinton.com</a>&gt;</span></p><div><div class=3D"h5"><=
+br><b>Subject:</b> Re: Inquiry: Politico | Encryption and Anonymization</di=
+v></div><p></p><div><div class=3D"h5"><p class=3D"MsoNormal">=C2=A0</p><div=
+><p class=3D"MsoNormal">Got it.=C2=A0 Thanks for all of this.=C2=A0 Is this=
+ something we want to deploy or do we think enough of this will get address=
+ed tomorrow that maybe we can tell him to wait as we will have more to say =
+going forward, starting tomorrow.=C2=A0 Thoughts?</p></div><div><p class=3D=
+"MsoNormal">=C2=A0</p><div><p class=3D"MsoNormal">On Wed, Nov 18, 2015 at 1=
+2:12 PM, Sara Solow &lt;<a href=3D"mailto:ssolow@hillaryclinton.com" target=
+=3D"_blank">ssolow@hillaryclinton.com</a>&gt; wrote:</p><blockquote style=
+=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;m=
+argin-left:4.8pt;margin-right:0in"><div><div><p class=3D"MsoNormal">Agree w=
+ith Jake.=C2=A0 Man this is tough.=C2=A0 Is there evidence that bad guys --=
+ not just dissidents but terrorists or whatever -- have also benefitted fro=
+m the technologies supported by the Internet freedom agenda?=C2=A0 Either w=
+ay, I think the talking points Jake put down, from Ben, stay the same.</p><=
+/div><div><div><div><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><=
+br>On Nov 18, 2015, at 11:53 AM, Jake Sullivan &lt;<a href=3D"mailto:jsulli=
+van@hillaryclinton.com" target=3D"_blank">jsullivan@hillaryclinton.com</a>&=
+gt; wrote:</p></div><blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0=
+pt"><div><div><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-f=
+amily:&quot;Calibri&quot;,sans-serif;color:#1f497d">Adding Tony and Sara S,=
+ and others from comms.=C2=A0 This is going to be a challenge.=C2=A0 I thin=
+k we should give a comment on the anonymizing tools and punt on backdoors (=
+she=E2=80=99ll have more to say on that tomorrow).</span></p><p class=3D"Ms=
+oNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif;color:#1f497d">=C2=A0</span></p><p class=3D"MsoNormal"><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f49=
+7d">On anonymizing tools, Ben Scott has suggested the following talking poi=
+nts.=C2=A0 Boiled down, the points are:</span></p><p class=3D"MsoNormal"><s=
+pan style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;co=
+lor:#1f497d">=C2=A0</span></p><p class=3D"MsoNormal">1-The=C2=A0<span style=
+=3D"font-size:9.5pt">bad guys could already get crypto =C2=A0-- we helped t=
+he good guys get it.=C2=A0</span></p><p class=3D"MsoNormal"><span style=3D"=
+font-size:9.5pt">2-The Internet Freedom investments in these technologies w=
+ere strongly bipartisan (and remain so).</span></p><p class=3D"MsoNormal"><=
+span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;c=
+olor:#1f497d">=C2=A0</span></p><p class=3D"MsoNormal" style=3D"text-autospa=
+ce:none"><span style=3D"font-size:11.0pt">Talking Points:</span></p><p clas=
+s=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-size:11.0=
+pt">=C2=A0</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><=
+span style=3D"font-size:11.0pt;font-family:MS-Gothic">=E2=9E=A2 </span><spa=
+n style=3D"font-size:11.0pt">Secretary Clinton</span><span style=3D"font-si=
+ze:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">=E2=80=99</span><span=
+ style=3D"font-size:11.0pt">s Internet Freedom agenda is a signature achiev=
+ement at the State</span></p><p class=3D"MsoNormal" style=3D"text-autospace=
+:none"><span style=3D"font-size:11.0pt">Department. She elevated human righ=
+ts in a digital era to the top tier of foreign policy</span></p><p class=3D=
+"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-size:11.0pt">=
+issues and built a new kind of diplomacy around harnessing the power of tec=
+hnology</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><spa=
+n style=3D"font-size:11.0pt">to serve the foreign policy goals of the Unite=
+d States.</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><s=
+pan style=3D"font-size:11.0pt">=C2=A0</span></p><p class=3D"MsoNormal" styl=
+e=3D"text-autospace:none"><span style=3D"font-size:11.0pt;font-family:MS-Go=
+thic">=E2=9E=A2 </span><span style=3D"font-size:11.0pt">The Internet Freedo=
+m programs that invest in software development were designed</span></p><p c=
+lass=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-size:1=
+1.0pt">to help people help themselves. Authoritarian governments will not w=
+illingly grant</span></p><p class=3D"MsoNormal" style=3D"text-autospace:non=
+e"><span style=3D"font-size:11.0pt">freedom of expression or the right to p=
+rivacy. But technology can empower people</span></p><p class=3D"MsoNormal" =
+style=3D"text-autospace:none"><span style=3D"font-size:11.0pt">with secure =
+communications tools.</span></p><p class=3D"MsoNormal" style=3D"text-autosp=
+ace:none"><span style=3D"font-size:11.0pt">=C2=A0</span></p><p class=3D"Mso=
+Normal" style=3D"text-autospace:none"><span style=3D"font-size:11.0pt;font-=
+family:MS-Gothic">=E2=9E=A2 </span><span style=3D"font-size:11.0pt">Making =
+secure communications tools usable for the average citizen in authoritarian=
+</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=
+=3D"font-size:11.0pt">societies was a central goal of Secretary Clinton</sp=
+an><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-ser=
+if">=E2=80=99</span><span style=3D"font-size:11.0pt">s. She achieved that g=
+oal. The latest</span></p><p class=3D"MsoNormal" style=3D"text-autospace:no=
+ne"><span style=3D"font-size:11.0pt">generation of Internet Freedom technol=
+ogies is so user-friendly that even Silicon</span></p><p class=3D"MsoNormal=
+" style=3D"text-autospace:none"><span style=3D"font-size:11.0pt">Valley gia=
+nts have taken up the tools built by tiny NGOs.</span></p><p class=3D"MsoNo=
+rmal" style=3D"text-autospace:none"><span style=3D"font-size:11.0pt">=C2=A0=
+</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=
+=3D"font-size:11.0pt;font-family:MS-Gothic">=E2=9E=A2 </span><span style=3D=
+"font-size:11.0pt">Of course, the leaders of America</span><span style=3D"f=
+ont-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">=E2=80=99</span=
+><span style=3D"font-size:11.0pt">s Internet Freedom policies are aware tha=
+t secure</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><sp=
+an style=3D"font-size:11.0pt">communications technologies can cut both ways=
+. Providing people with tools</span></p><p class=3D"MsoNormal" style=3D"tex=
+t-autospace:none"><span style=3D"font-size:11.0pt">powerful enough to resis=
+t intervention by their own governments means that our own</span></p><p cla=
+ss=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-size:11.=
+0pt">security services will be challenged as well. This question was thorou=
+ghly reviewed</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none=
+"><span style=3D"font-size:11.0pt">and debated at the time the Internet Fre=
+edom agenda was launched.</span></p><p class=3D"MsoNormal" style=3D"text-au=
+tospace:none"><span style=3D"font-size:11.0pt">=C2=A0</span></p><p class=3D=
+"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-size:11.0pt;f=
+ont-family:MS-Gothic">=E2=9E=A2 </span><span style=3D"font-size:11.0pt">Sec=
+retary Clinton joined the consensus view of Congressional leaders from both=
+</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=
+=3D"font-size:11.0pt">parties that supporting Internet Freedom technologies=
+ requires uncompromising</span></p><p class=3D"MsoNormal" style=3D"text-aut=
+ospace:none"><span style=3D"font-size:11.0pt">commitment to the security of=
+ users. And while we will do all we can to support the</span></p><p class=
+=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-size:11.0p=
+t">work of law enforcement, the steadfast protection of fundamental rights =
+around the</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><=
+span style=3D"font-size:11.0pt">world puts us on the right side of history.=
+</span></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=
+=3D"font-size:11.0pt">=C2=A0</span></p><p class=3D"MsoNormal" style=3D"text=
+-autospace:none"><span style=3D"font-size:11.0pt;font-family:MS-Gothic">=E2=
+=9E=A2 </span><span style=3D"font-size:11.0pt">A bipartisan group of Congre=
+ssional leaders have supported and funded these</span></p><p class=3D"MsoNo=
+rmal" style=3D"text-autospace:none"><span style=3D"font-size:11.0pt">progra=
+ms for many years. Since 2008, Congress has appropriated more than $200</sp=
+an></p><p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"=
+font-size:11.0pt">million to enable these innovative Internet Freedom progr=
+ams. Since 2014, under</span></p><p class=3D"MsoNormal" style=3D"text-autos=
+pace:none"><span style=3D"font-size:11.0pt">Republican leadership in Congre=
+ss, the annual allocation for Internet freedom</span></p><p class=3D"MsoNor=
+mal" style=3D"text-autospace:none"><span style=3D"font-size:11.0pt">program=
+s has increased to $50.5 million.</span></p><p class=3D"MsoNormal" style=3D=
+"text-autospace:none"><span style=3D"font-size:11.0pt">=C2=A0</span></p><p =
+class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font-size:=
+11.0pt;font-family:MS-Gothic">=E2=9E=A2 </span><span style=3D"font-size:11.=
+0pt">Following Secretary Clinton</span><span style=3D"font-size:11.0pt;font=
+-family:&quot;Calibri&quot;,sans-serif">=E2=80=99</span><span style=3D"font=
+-size:11.0pt">s push for Internet Freedom, uptake of these Internet</span><=
+/p><p class=3D"MsoNormal" style=3D"text-autospace:none"><span style=3D"font=
+-size:11.0pt">Freedom tools has grown from hundreds of thousands of regular=
+ users to more than</span></p><p class=3D"MsoNormal" style=3D"text-autospac=
+e:none"><span style=3D"font-size:11.0pt">900 million people in 60 countries=
+ who use these technologies to exercise their rights</span></p><p class=3D"=
+MsoNormal"><span style=3D"font-size:11.0pt">in the digital world.</span></p=
+><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;C=
+alibri&quot;,sans-serif;color:#1f497d">=C2=A0</span></p><p class=3D"MsoNorm=
+al"><b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans=
+-serif">From:</span></b><span style=3D"font-size:11.0pt;font-family:&quot;C=
+alibri&quot;,sans-serif"> Teddy Goff [mailto:<a href=3D"mailto:tgoff@hillar=
+yclinton.com" target=3D"_blank">tgoff@hillaryclinton.com</a>] <br><b>Sent:<=
+/b> Wednesday, November 18, 2015 11:48 AM<br><b>To:</b> Nick Merrill &lt;<a=
+ href=3D"mailto:nmerrill@hillaryclinton.com" target=3D"_blank">nmerrill@hil=
+laryclinton.com</a>&gt;; Jake Sullivan &lt;<a href=3D"mailto:jsullivan@hill=
+aryclinton.com" target=3D"_blank">jsullivan@hillaryclinton.com</a>&gt;; Joh=
+n Podesta &lt;<a href=3D"mailto:john.podesta@gmail.com" target=3D"_blank">j=
+ohn.podesta@gmail.com</a>&gt;<br><b>Subject:</b> Re: Inquiry: Politico | En=
+cryption and Anonymization</span></p><p class=3D"MsoNormal">=C2=A0</p><div>=
+<p class=3D"MsoNormal">just giving JDP and JS a heads up on this in case th=
+ey aren&#39;t on HRCRR@.</p></div><div><p class=3D"MsoNormal">=C2=A0</p><di=
+v><p class=3D"MsoNormal">On Wed, Nov 18, 2015 at 11:24 AM, Nick Merrill &lt=
+;<a href=3D"mailto:nmerrill@hillaryclinton.com" target=3D"_blank">nmerrill@=
+hillaryclinton.com</a>&gt; wrote:</p><blockquote style=3D"border:none;borde=
+r-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;marg=
+in-top:5.0pt;margin-right:0in;margin-bottom:5.0pt"><div><div><p class=3D"Ms=
+oNormal" style=3D"margin-bottom:12.0pt">I assume we don&#39;t have anything=
+ on this just yet....<br><br><br>Begin forwarded message:</p></div><div><p =
+class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><b>Resent-From:</b> &lt;=
+<a href=3D"mailto:nmerrill@hrcoffice.com" target=3D"_blank">nmerrill@hrcoff=
+ice.com</a>&gt;<br><b>From:</b> Joe Marks &lt;<a href=3D"mailto:jmarks@poli=
+tico.com" target=3D"_blank">jmarks@politico.com</a>&gt;<br><b>Date:</b> Nov=
+ember 18, 2015 at 11:15:57 AM EST<br><b>To:</b> &quot;<a href=3D"mailto:nme=
+rrill@hrcoffice.com" target=3D"_blank">nmerrill@hrcoffice.com</a>&quot; &lt=
+;<a href=3D"mailto:nmerrill@hrcoffice.com" target=3D"_blank">nmerrill@hrcof=
+fice.com</a>&gt;<br><b>Subject:</b> <b>Comments on encryption and anonymiza=
+tion</b></p></div><div><div><p class=3D"MsoNormal">Hi Nick,</p><p class=3D"=
+MsoNormal">=C2=A0</p><p class=3D"MsoNormal">I=E2=80=99m working on a story =
+today about the renewed debate over end to end encryption following the Par=
+is attacks. One thing the article explores is Sec. Clinton=E2=80=99s suppor=
+t for anonymizing tools such as Tor for political dissidents when she was s=
+ecretary and whether that may be a political liability. </p><p class=3D"Mso=
+Normal">=C2=A0</p><p class=3D"MsoNormal">Can the campaign comment on whethe=
+r that support may be a liability and/ or whether Sec. Clinton has a firmer=
+ position on government backdoors for encryption since the Re/Code intervie=
+w in February where she called it a =E2=80=9Cclassic hard choice?=E2=80=9D<=
+/p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">My deadline is 2=
+ p.m.</p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">Thanks,</p=
+><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">Joe </p><p class=
+=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">--</p><p class=3D"MsoNormal=
+">Joseph Marks</p><p class=3D"MsoNormal">Reporter, Cybersecurity</p><p clas=
+s=3D"MsoNormal">Politico Pro</p><p class=3D"MsoNormal"><a href=3D"tel:703-6=
+47-8776" target=3D"_blank">703-647-8776</a> (desk)</p><p class=3D"MsoNormal=
+"><a href=3D"tel:202-664-7910" target=3D"_blank">202-664-7910</a> (cell)</p=
+><p class=3D"MsoNormal"><a href=3D"mailto:jmarks@politico.com" target=3D"_b=
+lank">jmarks@politico.com</a></p><p class=3D"MsoNormal">@Joseph_Marks_</p><=
+p class=3D"MsoNormal"><span style=3D"color:#888888">=C2=A0</span></p></div>=
+</div></div><p class=3D"MsoNormal"><span style=3D"color:#888888">-- <br>You=
+ received this message because you are subscribed to the Google Groups &quo=
+t;HRCRR&quot; group.<br>To unsubscribe from this group and stop receiving e=
+mails from it, send an email to <a href=3D"mailto:hrcrr+unsubscribe@hillary=
+clinton.com" target=3D"_blank">hrcrr+unsubscribe@hillaryclinton.com</a>.<br=
+>To post to this group, send email to <a href=3D"mailto:hrcrr@hillaryclinto=
+n.com" target=3D"_blank">hrcrr@hillaryclinton.com</a>.</span></p></blockquo=
+te></div><p class=3D"MsoNormal">=C2=A0</p></div></div></div></blockquote></=
+div></div></div></blockquote></div><p class=3D"MsoNormal">=C2=A0</p></div><=
+/div></div></div></div>
+</blockquote></div><br></div>
+
+--001a113d12a451953c0524d5b742--

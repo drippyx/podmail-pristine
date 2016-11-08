@@ -1,0 +1,750 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.207 with SMTP id r198csp232807lfr;
+        Sat, 12 Sep 2015 09:34:17 -0700 (PDT)
+X-Received: by 10.194.192.72 with SMTP id he8mr9195007wjc.11.1442075657290;
+        Sat, 12 Sep 2015 09:34:17 -0700 (PDT)
+Return-Path: <mshapiro@hillaryclinton.com>
+Received: from mail-wi0-x22a.google.com (mail-wi0-x22a.google.com. [2a00:1450:400c:c05::22a])
+        by mx.google.com with ESMTPS id x5si6683130wiy.3.2015.09.12.09.34.17
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 12 Sep 2015 09:34:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mshapiro@hillaryclinton.com designates 2a00:1450:400c:c05::22a as permitted sender) client-ip=2a00:1450:400c:c05::22a;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mshapiro@hillaryclinton.com designates 2a00:1450:400c:c05::22a as permitted sender) smtp.mailfrom=mshapiro@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-x22a.google.com with SMTP id fx3so72522438wic.0
+        for <john.podesta@gmail.com>; Sat, 12 Sep 2015 09:34:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=references:from:mime-version:in-reply-to:date:message-id:subject:to
+         :cc:content-type;
+        bh=+v0XfxU72uE30gwit8UqrMHILQK0aGkKLf8eC34ypOw=;
+        b=LKe2un3jjNN0mmXVhIT4AkgRWzN1TVO/GmKnt9c/gci0NNpuVnVGEY1ahk3HyYB51i
+         g2gptNf6iDUo8suns8geanwkRpDm8Wzz56y59C4Z354aEUEEGFn8SIl6BbA5Vk0LECEk
+         HiFBsjBPK6SAXFI67jGSvEyjQ8lW2gWKX0Hro=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:references:from:mime-version:in-reply-to:date
+         :message-id:subject:to:cc:content-type;
+        bh=+v0XfxU72uE30gwit8UqrMHILQK0aGkKLf8eC34ypOw=;
+        b=B64MR2M4QmIM8Uym+L/Hc1sKnjyo4s6TryJGgDefKZeUbNqc3R8X62KabRFMNKzcta
+         EiaBsHZFv8aENPm6xBSvwjcuNyN0+O1xT/Xraen1uQCvKSAT8pu5cMhuCXsaKESMafyW
+         fkZHndYuilZOz5eR2iSfT8/6/EXkzrjjbxK5d3CcbjthupwkW/Kk/U0oZaY7I31I6ICJ
+         wsAVuSIkNudLXDquBPs8bjT0qG2vG2FVhAhQW8i60j5ijSxY44IFU8RZBIwJI3k+KlTR
+         fTqTU4hrtMgZs80jzQ9DVXtJqUsPLxj6sG8NzamwI0RcvGBGsgYz24/JKzh2WdMGBsAj
+         0i5A==
+X-Gm-Message-State: ALoCoQlJODEOz2Dn97rTLwp7CXpvWGOuGRil7wWfSD617DqkGgCtrWX81G8SXKc64e5IgCgKVLLE
+X-Received: by 10.180.108.175 with SMTP id hl15mr7954552wib.1.1442075657052;
+ Sat, 12 Sep 2015 09:34:17 -0700 (PDT)
+References: <CAJiTYQYmTEZLZkrtj0MmKfd6eVYN+ZvUyyYb1m+iSgKLuUdBkQ@mail.gmail.com>
+ <b1b540fdd90d52da7b6f7b019c56a6de@mail.gmail.com> <CAHKKQZ0mGASr0paMREQ8eF6JLTF3eFrVruG1rQG0Ym5Eg3+fuQ@mail.gmail.com>
+ <1AB1B9F6-7ACB-40D1-BBFD-C8EE26D9DFF6@gmail.com> <CAJiTYQY8UrmnAsKGYf7S_o7ioBDCfcuV=O+qF3oNDsx0=TGqLw@mail.gmail.com>
+ <CAHKKQZ2V4qT0D9=44yrG-2Bp-ZdvB7UEbj7Q7z-8j+Gs1m=rjA@mail.gmail.com>
+ <CANn9_kLG5rGy1fwkW-4H6pRw==FG4eUxB=Wa1Lb7xsRzycF+xg@mail.gmail.com>
+ <CAHKKQZ1mc9_8svpB40RsKF39wRgQ7e-JiCgo7au8tB=fdfH74g@mail.gmail.com>
+ <CAJiTYQYPC_3LjGHfNz+2affZfavLDdFoj4+iG1xWSwNd_4QdFw@mail.gmail.com>
+ <8309512971336841310@unknownmsgid> <CAJiTYQaEcs=OOMXkqADFUz98puaaM47ZUDqqq89mGQwdx_wsyA@mail.gmail.com>
+ <5330269939811793724@unknownmsgid> <CAJiTYQZR2nKdW_UYP0NdTmF4Q6Td4moDYq0a06uZcr6bE=WZEw@mail.gmail.com>
+ <5936212192683478220@unknownmsgid> <CAJiTYQaMR+22hANqfuqH=7MOmaP3S1G9UJc9h=K2m51u+CtbbA@mail.gmail.com>
+ <-7778766332298366634@unknownmsgid> <CAJiTYQY+0qxOYHw4su2jKRU2c3vKZg-UfP139MEPH7Sqm3k5MA@mail.gmail.com>
+ <CAHKKQZ1HspPdrYwnQ4mHgsSChAwbiejKgNWb8xmCeYuZzxqGiA@mail.gmail.com> <CAHKKQZ2=BFskQ0WsPYpkpyueopDsWo7jcRt9h2tEFjOirNSR8A@mail.gmail.com>
+From: Michael Shapiro <mshapiro@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+In-Reply-To: <CAHKKQZ2=BFskQ0WsPYpkpyueopDsWo7jcRt9h2tEFjOirNSR8A@mail.gmail.com>
+Date: Sat, 12 Sep 2015 12:34:14 -0400
+Message-ID: <5093061452043216585@unknownmsgid>
+Subject: Re: Glass steagall
+To: Gary Gensler <ggensler@hillaryclinton.com>
+CC: Neera Tanden <ntanden@gmail.com>, Mike Pyle <pyle_michael@yahoo.com>, 
+ Jake Sullivan <jsullivan@hillaryclinton.com>, 
+ David Kamin <davidckamin@gmail.com>, Gene Sperling <gbsperling@gmail.com>, 
+ John Podesta <john.podesta@gmail.com>, 
+ Mike Schmidt <mschmidt@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=e89a8f3ba55f473dbf051f8f674a
+
+--e89a8f3ba55f473dbf051f8f674a
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+This is not my area at all. So people should weight Schmidt and Pyles and
+Gary's views much, much more strongly.
+
+But my understanding is that Biden is somewhat weaker with liberals on
+financial reform issues. If we are worried about him entering, and drawing
+liberals either from us or Sanders because he's in theory more electable,
+I'd lean toward going stronger on financial accountability to the extent we
+can in a way that does not seem like a lurch but an evolution of the
+principles we've put out and the lessons of the crisis.
+
+Sent from my iPhone
+
+On Sep 12, 2015, at 12:26 PM, Gary Gensler <ggensler@hillaryclinton.com>
+wrote:
+
++ Pyle
+
+On Sat, Sep 12, 2015 at 12:20 PM, Gary Gensler <ggensler@hillaryclinton.com=
+>
+wrote:
+
+> I think that what HRC is confronting on the rope lines when folks ask
+> about Glass Steagall is less about the specifics of that actual law and f=
+ar
+> more that a broad part of the public think that we have a) not yet solved
+> for the risks that Banks pose to their daily lives & b) that the banks an=
+d
+> their executives are entitled or not held accountable as they should be.
+> It's a mixture of not solving both a) Too Big to Fail and b) Too Big  to
+> Jail.
+>
+> And I have heard too often from progressive advocates some mixture of
+> concern our positions given some mixture of a) Hillary having been a NY
+> Senator thus close to Wall Street, b) the perceived deregulation of WJC
+> years & c) many of Hillary donor/adviser base coming from Finance.
+>
+> For me, if we wish to address these more head on, we should consider
+> dialing up the substance of both our risk agenda and our accountability
+> agenda.
+>
+> On risk, our current liability risk fee does tip the scales directly
+> regarding size and risk, but it does not set any absolute limit to size,
+> risk or complexity.  It's also pretty technical rather than a clear rule.
+> Dialing up, I think that we could say that Hillary is calling for
+> strengthening the Dodd Frank provision which already allows for regulator=
+s
+> (the FDIC and Fed) to downsize or restructure banks.  The authority is
+> already there but by calling  for a broadening of that authority we can
+> associate ourselves more directly wish a call to downsize banks.  We coul=
+d
+> say that the law needs to make it explicit that the regulators can downsi=
+ze
+> for risk to the economy, complexity to manage or overall size relative to
+> the markets.  Or if we wished to dial this  knob further, we could sugges=
+t
+> a specific number saying that given  that it is almost certain that some
+> large systemic bank will fail we should limit their scale.
+>
+> I don't, however, think that we should stress Glass Steagall or lines of
+> business other than our call for closing some loopholes in Volcker.
+>
+> For the public it's would be clear and somewhat like rules that over-size=
+d
+> vehicles are banned from the highways in part to protect the rest of the
+> public from when they crash.  We could say why not protect the public fro=
+m
+> inevitable future crashes of Too big to Fail Banks.
+>
+> On accountability, we could dial up the current provisions of senior
+> executives' bonuses being on the line when large fines are paid by tweaki=
+ng
+> some of the language (making it clearer and with less defenses) and uppin=
+g
+> the rhetoric.  We could also add that regulators have clear authority to
+> force senior executives to lose their job for misdeeds that happened unde=
+r
+> their supervision even if they didn't participate in the misdeed.
+>
+> Lastly, though the FTT has been well litigated, I wanted to comment that
+> one of the reasons I don't think  that it will get us much credit is that
+> it does not go to either of the public's deeply held concerns.  An FTT
+> effects markets by putting a tax on every trade.  It does not address Ban=
+k
+> risk, Too Big to Fail, accountability or Too Big to Jail.  My view is tha=
+t
+> the debate will still focus on these items and that Hillary would still g=
+et
+> the rope line questions.
+>
+> Gary
+>
+> On Sat, Sep 12, 2015 at 10:09 AM, Neera Tanden <ntanden@gmail.com> wrote:
+>
+>> Yes. And the broad test is too complex to manage. But I'm obviously happ=
+y
+>> to work with others on other triggers if you don't like that one.
+>> On Sat, Sep 12, 2015 at 9:58 AM Jake Sullivan <
+>> jsullivan@hillaryclinton.com> wrote:
+>>
+>>> I'm trying to get same answer.  What I'm trying to figure out is if you
+>>> are saying, I need a glass steagall tool I can use if a bank can't meet=
+ my
+>>> tests?
+>>>
+>>>
+>>>
+>>> On Sep 12, 2015, at 9:53 AM, Neera Tanden <ntanden@gmail.com> wrote:
+>>>
+>>> I would say that if there's a bank that needs to be broken up she needs
+>>> a glass steagall tool to break them up. She can't really do that now.
+>>>
+>>> However, I'm open to saying a pattern of too much complexity. So it's
+>>> finding several banks. But I'm trying to find a debate answer not a pol=
+icy
+>>> rollout. Happy to think longer for that kind of answer.
+>>>
+>>> Obviously she can't break up any bank on her own. The higher cap
+>>> requirements are designed to assure much less likelihood of failure. We
+>>> have pushed for higher ones. But we live in a quandary which is no one
+>>> knows what any of this means and glass steagall has the most resonance =
+with
+>>> reporters and the like.
+>>>
+>>> I get Jamie Damon's argument that having both sides of the business
+>>> helped him weather the storm. They took profits and losses at different
+>>> times. But I think there are some reasonable people on Wall Street who
+>>> think the complexity is a problem.
+>>>
+>>> On Sat, Sep 12, 2015 at 9:38 AM Jake Sullivan <
+>>> jsullivan@hillaryclinton.com> wrote:
+>>>
+>>>> So if there is one of those we reinstate glass steagall for all banks?
+>>>>
+>>>> Just trying to understand.
+>>>>
+>>>>
+>>>> On Sep 12, 2015, at 9:36 AM, Neera Tanden <ntanden@gmail.com> wrote:
+>>>>
+>>>> A bank too complex to manage that therefore is too risky.
+>>>>
+>>>> On Sat, Sep 12, 2015 at 9:33 AM Jake Sullivan <
+>>>> jsullivan@hillaryclinton.com> wrote:
+>>>>
+>>>>> To summarize, your position would be that she would be open to
+>>>>> reinstating glass steagall if it came to that?   What's the answer to
+>>>>> "what's it gonna take"?
+>>>>>
+>>>>>
+>>>>>
+>>>>> On Sep 12, 2015, at 9:09 AM, Neera Tanden <ntanden@gmail.com> wrote:
+>>>>>
+>>>>> Look, I wasn't there in the 90s. But I don't think she will win a
+>>>>> battle on glass steagall's role in the crisis. And I think it is prob=
+lem.
+>>>>> Fair or unfair it's pretty ingrained. So I'm trying to think of a thi=
+rd way
+>>>>> between support and opposition. I think O'Malley will push her to be
+>>>>> opposed and it could be really deadly.
+>>>>>
+>>>>> But I'm happy to register my dissent from your views and move on.
+>>>>>
+>>>>> On Fri, Sep 11, 2015 at 9:54 PM Gary Gensler <
+>>>>> ggensler@hillaryclinton.com> wrote:
+>>>>>
+>>>>>> I would say no and say that this 1930's policy solution doesn't work
+>>>>>> in this century.  And it wouldn't have done anything about AIG, Lehm=
+an or
+>>>>>> many other too big to fail failures.
+>>>>>>
+>>>>>> Sent from my iPhone
+>>>>>>
+>>>>>> On Sep 11, 2015, at 9:42 PM, Neera Tanden <ntanden@gmail.com> wrote:
+>>>>>>
+>>>>>> someone follows up with
+>>>>>> "Are you for reinstating glass steagall or not?"
+>>>>>>
+>>>>>> Gene's artful version still gets us to no.
+>>>>>>
+>>>>>> I am saying she says some version of I will fix the problem w out it=
+.
+>>>>>> But if it makes sense to do bc of issues that arise - e g too much
+>>>>>> complexity to manage - then she will do it. She's not saying she wil=
+l do it
+>>>>>> now. She's not saying it was responsible for the crisis. But she wil=
+l
+>>>>>> reinstate if future need arises.
+>>>>>>
+>>>>>> I guess I worry about everyone else up on the stage saying reinstate
+>>>>>> glass steagall and not giving her more.
+>>>>>>
+>>>>>> I recognize I'm in a different place than others. You may not want t=
+o
+>>>>>> go this far, but given her anxiety on Glass Steagall I did want to o=
+ffer up
+>>>>>> an alternative.
+>>>>>> On Fri, Sep 11, 2015 at 6:00 PM Gary Gensler <
+>>>>>> ggensler@hillaryclinton.com> wrote:
+>>>>>>
+>>>>>>> I think Gene is onto a possible path forward - buying into the
+>>>>>>> values of Glass Steagall - while not the actual specifics for our t=
+imes.
+>>>>>>> Glass Steagall was another generations solution for a similar probl=
+em -
+>>>>>>> risk - but a problem that has taken on new forms nearly 80 years la=
+ter.
+>>>>>>> Obama focused and succeeded on much with Dodd Frank, but can and ne=
+ed to do
+>>>>>>> more.  That's why I am for Risk fee, strengthening Volcker, etc. an=
+d if
+>>>>>>> needed would in a heartbeat ....
+>>>>>>>
+>>>>>>> On Fri, Sep 11, 2015 at 5:02 PM, Gene Sperling <gbsperling@gmail.co=
+m
+>>>>>>> > wrote:
+>>>>>>>
+>>>>>>>> I want to come back to my comment that was somewhat between Neera
+>>>>>>>> and Gary.
+>>>>>>>>
+>>>>>>>> I agree with Gary that we should not flip flop on Glass Steagall
+>>>>>>>> because one, it is make-believe to think it caused the crisis in a=
+ny way;
+>>>>>>>> 2) because it is make believe, it is crazy for her to buy into the=
+ idea
+>>>>>>>> that it was her husband as opposed to a Republican Administration =
+bore the
+>>>>>>>> regulatory responsibility for the worst financial crisis in our li=
+fe time.
+>>>>>>>>
+>>>>>>>> But where we could think more, is how without buying into the
+>>>>>>>> Glass-Steagall as cause and cure line -- we could find ways to blu=
+r a
+>>>>>>>> little more going forward, that could use the two words.
+>>>>>>>>
+>>>>>>>> Such as: "I do want to strengthen some of the key protections
+>>>>>>>> against risky behavior that Glass Steagall was designed to prevent=
+ -- which
+>>>>>>>> is why I want to strengthen Volker Rule etc. And I want to make su=
+re we
+>>>>>>>> never see the type of let Wall Street do whatever they want like t=
+ook place
+>>>>>>>> under George Bush.....[and then hit a litany]
+>>>>>>>>
+>>>>>>>> That structure has us not focusing on being against Glass Steagall=
+,
+>>>>>>>> but quickly buys into some of the values going forward and then pi=
+vots to
+>>>>>>>> an all out hit on Bush and reckless practices under Bush watch tha=
+t led to
+>>>>>>>> crisis......"
+>>>>>>>>
+>>>>>>>> Thoughts?
+>>>>>>>>
+>>>>>>>> On Fri, Sep 11, 2015 at 1:42 PM, Gary Gensler <
+>>>>>>>> ggensler@hillaryclinton.com> wrote:
+>>>>>>>>
+>>>>>>>>> I understand  what Neera is saying that Glass Steagall is not wel=
+l
+>>>>>>>>> understood by the public, but I would still have HRC keep to that=
+ her focus
+>>>>>>>>> is on risk.  That's why we have the risk fee, strengthening Volck=
+er and
+>>>>>>>>> Shadow Banking and if desired add that she would not hesitate to =
+hold banks
+>>>>>>>>> accountable and not hesitate if need be to downsize or even break=
+ some of
+>>>>>>>>> them up.  On Glass Steagall, it's far more than just not concedin=
+g it.  I
+>>>>>>>>> think that particularly given what HRC has said and that Lehman, =
+AIG and so
+>>>>>>>>> many others would have failed even with Glass Steagall that HRC i=
+s on safer
+>>>>>>>>> grounds talking about risk and even size than what lines of busin=
+ess banks
+>>>>>>>>> are in.  It appears a bit flip floppy whereas the risk and size a=
+re far
+>>>>>>>>> less so.
+>>>>>>>>>
+>>>>>>>>> On Fri, Sep 11, 2015 at 3:47 PM, Neera Tanden <ntanden@gmail.com>
+>>>>>>>>> wrote:
+>>>>>>>>>
+>>>>>>>>>> Where I'm disagreeing with this group is precisely on the words
+>>>>>>>>>> Glass Steagall.  No one knows what it is, but being on the wrong=
+ side of it
+>>>>>>>>>> is dangerous.  So I'm not committing her to reinstate it, but I =
+also think
+>>>>>>>>>> shutting it down is ill advised; I fear that in the black and wh=
+ite world
+>>>>>>>>>> we're living in, that is shorthanded as pro-bank.  So that is wh=
+y I would
+>>>>>>>>>> remain open to it as a policy option in the future.
+>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>> On Fri, Sep 11, 2015 at 2:58 PM, Gene Sperling <
+>>>>>>>>>> gbsperling@gmail.com> wrote:
+>>>>>>>>>>
+>>>>>>>>>>> Very much agree
+>>>>>>>>>>>
+>>>>>>>>>>> Sent from my iPhone
+>>>>>>>>>>>
+>>>>>>>>>>> On 11 Sep 2015, at 11:53, Gary Gensler <
+>>>>>>>>>>> ggensler@hillaryclinton.com> wrote:
+>>>>>>>>>>>
+>>>>>>>>>>> If we need words I would go with " I will work to reduce the
+>>>>>>>>>>> size of the banks in a heartbeat"  or if more is needed to go w=
+ith "I will
+>>>>>>>>>>> work to reduce the size or even breakup the banks in a heartbea=
+t ..."
+>>>>>>>>>>> rather than a reference to reinstating Glass Steagall.
+>>>>>>>>>>>
+>>>>>>>>>>> I say this as we've already said that crisis wasn't about Glass
+>>>>>>>>>>> Steagall restrictions but about risk.  Also I believe that as a=
+ policy
+>>>>>>>>>>> matter that the issue about too big or too risky to fail is abo=
+ut size and
+>>>>>>>>>>> risk not Glass Steagall.  I would prefer not to concede that po=
+int.
+>>>>>>>>>>>
+>>>>>>>>>>> Further, Dodd Frank gave the FDIC and Fed to restructure or eve=
+n
+>>>>>>>>>>> downsize banks if the living will process leads to a conclusion=
+ that the
+>>>>>>>>>>> risk of resolution is too great.
+>>>>>>>>>>>
+>>>>>>>>>>> On Fri, Sep 11, 2015 at 2:37 PM, Jake Sullivan <
+>>>>>>>>>>> jsullivan@hillaryclinton.com> wrote:
+>>>>>>>>>>>
+>>>>>>>>>>>> That=E2=80=99s close to what we have minus the words Glass Ste=
+agall.
+>>>>>>>>>>>> Are those magic words for you?
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>> *From:* Neera Tanden [mailto:ntanden@gmail.com]
+>>>>>>>>>>>> *Sent:* Friday, September 11, 2015 2:17 PM
+>>>>>>>>>>>> *To:* Jake Sullivan <jsullivan@hillaryclinton.com>; John
+>>>>>>>>>>>> Podesta <john.podesta@gmail.com>; Gene Sperling <
+>>>>>>>>>>>> gbsperling@gmail.com>; Gary Gensler <
+>>>>>>>>>>>> ggensler@hillaryclinton.com>; Mike Schmidt <
+>>>>>>>>>>>> mschmidt@hillaryclinton.com>; Michael Shapiro <
+>>>>>>>>>>>> mshapiro@hillaryclinton.com>; David Kamin <
+>>>>>>>>>>>> davidckamin@gmail.com>
+>>>>>>>>>>>> *Subject:* Glass steagall
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>> i think most people know I worry that this is the closest thin=
+g
+>>>>>>>>>>>> to an Iraq vote we have to face us. And a big potential proble=
+m in the
+>>>>>>>>>>>> debate.
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>> Why can't she say the following:
+>>>>>>>>>>>>
+>>>>>>>>>>>> Too big to fail  are problems. Should never happen again etc. =
+I
+>>>>>>>>>>>> will take steps - higher cap requirements, whatever you have o=
+n list -to
+>>>>>>>>>>>> ensure we protect Americans.  I think those will work better.
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>> I will work every day to make sure we protect Americans so the=
+y
+>>>>>>>>>>>> never suffer for the excesses on  Wall Street.  But if banks a=
+re growing
+>>>>>>>>>>>> too big to manage and we need to take these steps  tetc etc, b=
+elieve me I
+>>>>>>>>>>>> will work to reinstate glass steagall in a heartbeat bc this A=
+mericans
+>>>>>>>>>>>> losing so much for the banks can never happen again.
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>> She's not conceding it was responsible for the financial
+>>>>>>>>>>>> crisis.  But her openness will be better than a hard and fast =
+position that
+>>>>>>>>>>>> puts her on the bank side of the ledger.
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>>
+>>>>>>>>>>>> Anyway I just offer it as a thought.
+>>>>>>>>>>>>
+>>>>>>>>>>>
+>>>>>>>>>>>
+>>>>>>>>>>
+>>>>>>>>>
+>>>>>>>>
+>>>>>>>
+>
+
+--e89a8f3ba55f473dbf051f8f674a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=
+=3Dutf-8"></head><body dir=3D"auto"><div>This is not my area at all. So peo=
+ple should weight Schmidt and Pyles and Gary&#39;s views much, much more st=
+rongly.=C2=A0</div><div><br></div><div>But my understanding is that Biden i=
+s somewhat weaker with liberals on financial reform issues. If we are worri=
+ed about him entering, and drawing liberals either from us or Sanders becau=
+se he&#39;s in theory more electable, I&#39;d lean toward going stronger on=
+ financial accountability to the extent we can in a way that does not seem =
+like a lurch but an evolution of the principles we&#39;ve put out and the l=
+essons of the crisis.=C2=A0<br><br>Sent from my iPhone</div><div><br>On Sep=
+ 12, 2015, at 12:26 PM, Gary Gensler &lt;<a href=3D"mailto:ggensler@hillary=
+clinton.com">ggensler@hillaryclinton.com</a>&gt; wrote:<br><br></div><block=
+quote type=3D"cite"><div><div dir=3D"ltr">+ Pyle<div class=3D"gmail_extra">=
+<br><div class=3D"gmail_quote">On Sat, Sep 12, 2015 at 12:20 PM, Gary Gensl=
+er <span dir=3D"ltr">&lt;<a href=3D"mailto:ggensler@hillaryclinton.com" tar=
+get=3D"_blank">ggensler@hillaryclinton.com</a>&gt;</span> wrote:<br><blockq=
+uote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc =
+solid;padding-left:1ex"><div dir=3D"ltr">I think that what HRC is confronti=
+ng on the rope lines when folks ask about Glass Steagall is less about the =
+specifics of that actual law and far more that a broad part of the public t=
+hink that we have a) not yet solved for the risks that Banks pose to their =
+daily lives &amp; b) that the banks and their executives are entitled or no=
+t held accountable as they should be.=C2=A0 It&#39;s a mixture of not solvi=
+ng both a) Too Big to Fail and b) Too Big =C2=A0to Jail. =C2=A0<div><br></d=
+iv><div>And I have heard too often from progressive advocates some mixture =
+of concern our positions given some mixture of a) Hillary having been a NY =
+Senator thus close to Wall Street, b) the perceived deregulation of WJC yea=
+rs &amp; c) many of Hillary donor/adviser base coming from Finance. =C2=A0<=
+div><br></div><div>For me, if we wish to address these more head on, we sho=
+uld consider dialing up the substance of both our risk agenda and our accou=
+ntability agenda.</div><div><br></div><div>On risk, our current liability r=
+isk fee does tip the scales directly regarding size and risk, but it does n=
+ot set any absolute limit to size, risk or complexity.=C2=A0 It&#39;s also =
+pretty technical rather than a clear rule.=C2=A0 Dialing up, I think that w=
+e could say that Hillary is calling for strengthening the Dodd Frank provis=
+ion which already allows for regulators (the FDIC and Fed) to downsize or r=
+estructure banks.=C2=A0 The authority is already there but by calling =C2=
+=A0for a broadening of that authority we can associate ourselves more direc=
+tly wish a call to downsize banks.=C2=A0 We could say that the law needs to=
+ make it explicit that the regulators can downsize for risk to the economy,=
+ complexity to manage or overall size relative to the markets.=C2=A0 Or if =
+we wished to dial this =C2=A0knob further, we could suggest a specific numb=
+er saying that given =C2=A0that it is almost certain that some large system=
+ic bank will fail we should limit their scale.</div></div><div><br></div><d=
+iv>I don&#39;t, however, think that we should stress Glass Steagall or line=
+s of business other than our call for closing some loopholes in Volcker.</d=
+iv><div><br></div><div>For the public it&#39;s would be clear and somewhat =
+like rules that over-sized vehicles are banned from the highways in part to=
+ protect the rest of the public from when they crash.=C2=A0 We could say wh=
+y not protect the public from inevitable future crashes of Too big to Fail =
+Banks.</div><div><br></div><div>On accountability, we could dial up the cur=
+rent provisions of senior executives&#39; bonuses being on the line when la=
+rge fines are paid by tweaking some of the language (making it clearer and =
+with less defenses) and upping the rhetoric.=C2=A0 We could also add that r=
+egulators have clear authority to force senior executives to lose their job=
+ for misdeeds that happened under their supervision even if they didn&#39;t=
+ participate in the misdeed.</div><div><br></div><div>Lastly, though the FT=
+T has been well litigated, I wanted to comment that one of the reasons I do=
+n&#39;t think =C2=A0that it will get us much credit is that it does not go =
+to either of the public&#39;s deeply held concerns.=C2=A0 An FTT effects ma=
+rkets by putting a tax on every trade.=C2=A0 It does not address Bank risk,=
+ Too Big to Fail, accountability or Too Big to Jail.=C2=A0 My view is that =
+the debate will still focus on these items and that Hillary would still get=
+ the rope line questions.=C2=A0</div><div><br></div><div>Gary</div></div><d=
+iv class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Sat, Sep 12, 201=
+5 at 10:09 AM, Neera Tanden <span dir=3D"ltr">&lt;<a href=3D"mailto:ntanden=
+@gmail.com" target=3D"_blank">ntanden@gmail.com</a>&gt;</span> wrote:<br><b=
+lockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px =
+#ccc solid;padding-left:1ex">Yes.  And the broad test is too complex to man=
+age. But I&#39;m obviously happy to work with others on other triggers if y=
+ou don&#39;t like that one. <br><div class=3D"gmail_quote"><div dir=3D"ltr"=
+>On Sat, Sep 12, 2015 at 9:58 AM Jake Sullivan &lt;<a href=3D"mailto:jsulli=
+van@hillaryclinton.com" target=3D"_blank">jsullivan@hillaryclinton.com</a>&=
+gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0=
+ .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"auto"><div>I=
+&#39;m trying to get same answer.=C2=A0 What I&#39;m trying to figure out i=
+s if you are saying, I need a glass steagall tool I can use if a bank can&#=
+39;t meet my tests?<br><br><br></div></div><div dir=3D"auto"><div><br>On Se=
+p 12, 2015, at 9:53 AM, Neera Tanden &lt;<a href=3D"mailto:ntanden@gmail.co=
+m" target=3D"_blank">ntanden@gmail.com</a>&gt; wrote:<br><br></div><blockqu=
+ote type=3D"cite"><div><div style=3D"white-space:pre-wrap">I would say that=
+ if there&#39;s a bank that needs to be broken up she needs a glass steagal=
+l tool to break them up. She can&#39;t really do that now. <br><br>However,=
+ I&#39;m open to saying a pattern of too much complexity. So it&#39;s findi=
+ng several banks. But I&#39;m trying to find a debate answer not a policy r=
+ollout.  Happy to think longer for that kind of answer. <br><br>Obviously s=
+he can&#39;t break up any bank on her own.  The higher cap requirements are=
+ designed to assure much less likelihood of failure.  We have pushed for hi=
+gher ones.  But we live in a quandary which is no one knows what any of thi=
+s means and glass steagall has the most resonance with reporters and the li=
+ke.  <br><br>I get Jamie Damon&#39;s argument that having both sides of the=
+ business helped him weather the storm. They took profits and losses at dif=
+ferent times. But I think there are some reasonable people on Wall Street w=
+ho think the complexity is a problem.  </div><br><div class=3D"gmail_quote"=
+><div dir=3D"ltr">On Sat, Sep 12, 2015 at 9:38 AM Jake Sullivan &lt;<a href=
+=3D"mailto:jsullivan@hillaryclinton.com" target=3D"_blank">jsullivan@hillar=
+yclinton.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" styl=
+e=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div di=
+r=3D"auto"><div>So if there is one of those we reinstate glass steagall for=
+ all banks?<br><br>Just trying to understand.=C2=A0<br><br></div></div><div=
+ dir=3D"auto"><div><br>On Sep 12, 2015, at 9:36 AM, Neera Tanden &lt;<a hre=
+f=3D"mailto:ntanden@gmail.com" target=3D"_blank">ntanden@gmail.com</a>&gt; =
+wrote:<br><br></div><blockquote type=3D"cite"><div>A bank too complex to ma=
+nage that therefore is too risky.  <br><br><div class=3D"gmail_quote"><div =
+dir=3D"ltr">On Sat, Sep 12, 2015 at 9:33 AM Jake Sullivan &lt;<a href=3D"ma=
+ilto:jsullivan@hillaryclinton.com" target=3D"_blank">jsullivan@hillaryclint=
+on.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"m=
+argin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"a=
+uto"><div>To summarize, your position would be that she would be open to re=
+instating glass steagall if it came to that? =C2=A0 What&#39;s the answer t=
+o &quot;what&#39;s it gonna take&quot;?<br><br><br></div></div><div dir=3D"=
+auto"><div><br>On Sep 12, 2015, at 9:09 AM, Neera Tanden &lt;<a href=3D"mai=
+lto:ntanden@gmail.com" target=3D"_blank">ntanden@gmail.com</a>&gt; wrote:<b=
+r><br></div><blockquote type=3D"cite"><div><div style=3D"white-space:pre-wr=
+ap">Look, I wasn&#39;t there in the 90s. But I don&#39;t think she will win=
+ a battle on glass steagall&#39;s role in the crisis.  And I think it is pr=
+oblem.  Fair or unfair it&#39;s pretty ingrained. So I&#39;m trying to thin=
+k of a third way between support and opposition. I think O&#39;Malley will =
+push her to be opposed and it could be really deadly.  <br><br>But I&#39;m =
+happy to register my dissent from your views and move on.  </div><div dir=
+=3D"ltr"><br><div><div class=3D"gmail_quote"><div dir=3D"ltr">On Fri, Sep 1=
+1, 2015 at 9:54 PM Gary Gensler &lt;<a href=3D"mailto:ggensler@hillaryclint=
+on.com" target=3D"_blank">ggensler@hillaryclinton.com</a>&gt; wrote:<br></d=
+iv><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
+:1px #ccc solid;padding-left:1ex"><div dir=3D"auto"><div>I would say no and=
+ say that this 1930&#39;s policy solution doesn&#39;t work in this century.=
+=C2=A0 And it wouldn&#39;t have done anything about AIG, Lehman or many oth=
+er too big to fail failures. =C2=A0<br><br>Sent from my iPhone</div></div><=
+div dir=3D"auto"><div><br>On Sep 11, 2015, at 9:42 PM, Neera Tanden &lt;<a =
+href=3D"mailto:ntanden@gmail.com" target=3D"_blank">ntanden@gmail.com</a>&g=
+t; wrote:<br><br></div><blockquote type=3D"cite"><div>someone follows up wi=
+th <br>&quot;Are you for reinstating glass steagall or not?&quot;<br><br>Ge=
+ne&#39;s artful version still gets us to no. <br><br>I am saying she says s=
+ome version of I will fix the problem w out it. But if it makes sense to do=
+ bc of issues that arise - e g too much complexity to manage - then she wil=
+l do it.  She&#39;s not saying she will do it now.  She&#39;s not saying it=
+ was responsible for the crisis.  But she will reinstate if future need ari=
+ses.  <br><br>I guess I worry about everyone else up on the stage saying re=
+instate glass steagall and not giving her more.  <br><br>I recognize I&#39;=
+m in a different place than others.  You may not want to go this far, but g=
+iven her anxiety on Glass Steagall I did want to offer up an alternative.  =
+<br><div class=3D"gmail_quote"><div dir=3D"ltr">On Fri, Sep 11, 2015 at 6:0=
+0 PM Gary Gensler &lt;<a href=3D"mailto:ggensler@hillaryclinton.com" target=
+=3D"_blank">ggensler@hillaryclinton.com</a>&gt; wrote:<br></div><blockquote=
+ class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc soli=
+d;padding-left:1ex"><div dir=3D"ltr">I think Gene is onto a possible path f=
+orward - buying into the values of Glass Steagall - while not the actual sp=
+ecifics for our times.=C2=A0 Glass Steagall was another generations solutio=
+n for a similar problem - risk - but a problem that has taken on new forms =
+nearly 80 years later.=C2=A0 Obama focused and succeeded on much with Dodd =
+Frank, but can and need to do more.=C2=A0 That&#39;s why I am for Risk fee,=
+ strengthening Volcker, etc. and if needed would in a heartbeat ....</div><=
+div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, Sep 11, 20=
+15 at 5:02 PM, Gene Sperling <span dir=3D"ltr">&lt;<a href=3D"mailto:gbsper=
+ling@gmail.com" target=3D"_blank">gbsperling@gmail.com</a>&gt;</span> wrote=
+:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-le=
+ft:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">I want to come back to=
+ my comment that was somewhat between Neera and Gary.<div><br></div><div>I =
+agree with Gary that we should not flip flop on Glass Steagall because one,=
+ it is make-believe to think it caused the crisis in any way; 2) because it=
+ is make believe, it is crazy for her to buy into the idea that it was her =
+husband as opposed to a Republican Administration bore the regulatory respo=
+nsibility for the worst financial crisis in our life time.</div><div><br></=
+div><div>But where we could think more, is how without buying into the Glas=
+s-Steagall as cause and cure line -- we could find ways to blur a little mo=
+re going forward, that could use the two words.</div><div><br></div><div>Su=
+ch as: &quot;I do want to strengthen some of the key protections against ri=
+sky behavior that Glass Steagall was designed to prevent -- which is why I =
+want to strengthen Volker Rule etc. And I want to make sure we never see th=
+e type of let Wall Street do whatever they want like took place under Georg=
+e Bush.....[and then hit a litany]</div><div><br></div><div>That structure =
+has us not focusing on being against Glass Steagall, but quickly buys into =
+some of the values going forward and then pivots to an all out hit on Bush =
+and reckless practices under Bush watch that led to crisis......&quot;</div=
+><div><br></div><div>Thoughts?</div></div><div class=3D"gmail_extra"><br><d=
+iv class=3D"gmail_quote">On Fri, Sep 11, 2015 at 1:42 PM, Gary Gensler <spa=
+n dir=3D"ltr">&lt;<a href=3D"mailto:ggensler@hillaryclinton.com" target=3D"=
+_blank">ggensler@hillaryclinton.com</a>&gt;</span> wrote:<br><blockquote cl=
+ass=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;p=
+adding-left:1ex"><div dir=3D"ltr">I understand =C2=A0what Neera is saying t=
+hat Glass Steagall is not well understood by the public, but I would still =
+have HRC keep to that her focus is on risk.=C2=A0 That&#39;s why we have th=
+e risk fee, strengthening Volcker and Shadow Banking and if desired add tha=
+t she would not hesitate to hold banks accountable and not hesitate if need=
+ be to downsize or even break some of them up.=C2=A0 On Glass Steagall, it&=
+#39;s far more than just not conceding it.=C2=A0 I think that particularly =
+given what HRC has said and that Lehman, AIG and so many others would have =
+failed even with Glass Steagall that HRC is on safer grounds talking about =
+risk and even size than what lines of business banks are in.=C2=A0 It appea=
+rs a bit flip floppy whereas the risk and size are far less so. =C2=A0</div=
+><div><div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri=
+, Sep 11, 2015 at 3:47 PM, Neera Tanden <span dir=3D"ltr">&lt;<a href=3D"ma=
+ilto:ntanden@gmail.com" target=3D"_blank">ntanden@gmail.com</a>&gt;</span> =
+wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;bord=
+er-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr"><div>Where I&#39;=
+m disagreeing with this group is precisely on the words Glass Steagall.=C2=
+=A0 No one knows what it is, but being on the wrong side of it is dangerous=
+.=C2=A0 So I&#39;m not committing her to reinstate it, but I also think shu=
+tting it down is ill advised; I fear that in the=C2=A0black and white world=
+ we&#39;re living in, that is shorthanded as pro-bank.=C2=A0 So that is why=
+=C2=A0I would remain open to it as a policy option in the future.=C2=A0 </d=
+iv><div>=C2=A0</div><div>=C2=A0</div></div><div class=3D"gmail_extra"><br><=
+div class=3D"gmail_quote">On Fri, Sep 11, 2015 at 2:58 PM, Gene Sperling <s=
+pan dir=3D"ltr">&lt;<a href=3D"mailto:gbsperling@gmail.com" target=3D"_blan=
+k">gbsperling@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail=
+_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:=
+1ex"><div dir=3D"auto"><div>Very much agree<br><br>Sent from my iPhone</div=
+><div><div><div><br>On 11 Sep 2015, at 11:53, Gary Gensler &lt;<a href=3D"m=
+ailto:ggensler@hillaryclinton.com" target=3D"_blank">ggensler@hillaryclinto=
+n.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div><div dir=
+=3D"ltr">If we need words I would go with &quot; I will work to reduce the =
+size of the banks in a heartbeat&quot; =C2=A0or if more is needed to go wit=
+h &quot;I will work to reduce the size or even breakup the banks in a heart=
+beat ...&quot; rather than a reference to reinstating Glass Steagall. =C2=
+=A0<div><br></div><div>I say this as we&#39;ve already said that crisis was=
+n&#39;t about Glass Steagall restrictions but about risk.=C2=A0 Also I beli=
+eve that as a policy matter that the issue about too big or too risky to fa=
+il is about size and risk not Glass Steagall.=C2=A0 I would prefer not to c=
+oncede that point.</div><div><br></div><div>Further, Dodd Frank gave the FD=
+IC and Fed to restructure or even downsize banks if the living will process=
+ leads to a conclusion that the risk of resolution is too great.</div></div=
+><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Fri, Sep 11, =
+2015 at 2:37 PM, Jake Sullivan <span dir=3D"ltr">&lt;<a href=3D"mailto:jsul=
+livan@hillaryclinton.com" target=3D"_blank">jsullivan@hillaryclinton.com</a=
+>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0p=
+x 0px 0px 0.8ex;padding-left:1ex;border-left-color:rgb(204,204,204);border-=
+left-width:1px;border-left-style:solid"><div lang=3D"EN-US" vlink=3D"#954F7=
+2" link=3D"#0563C1"><div><p class=3D"MsoNormal"><span style=3D"color:rgb(31=
+,73,125);font-family:&quot;Calibri&quot;,sans-serif;font-size:11pt">That=E2=
+=80=99s close to what we have minus the words Glass Steagall.=C2=A0 Are tho=
+se magic words for you?</span></p><p class=3D"MsoNormal"><span style=3D"col=
+or:rgb(31,73,125);font-family:&quot;Calibri&quot;,sans-serif;font-size:11pt=
+">=C2=A0</span></p><p class=3D"MsoNormal"><b><span style=3D"font-family:&qu=
+ot;Calibri&quot;,sans-serif;font-size:11pt">From:</span></b><span style=3D"=
+font-family:&quot;Calibri&quot;,sans-serif;font-size:11pt"> Neera Tanden [m=
+ailto:<a href=3D"mailto:ntanden@gmail.com" target=3D"_blank">ntanden@gmail.=
+com</a>] <br><b>Sent:</b> Friday, September 11, 2015 2:17 PM<br><b>To:</b> =
+Jake Sullivan &lt;<a href=3D"mailto:jsullivan@hillaryclinton.com" target=3D=
+"_blank">jsullivan@hillaryclinton.com</a>&gt;; John Podesta &lt;<a href=3D"=
+mailto:john.podesta@gmail.com" target=3D"_blank">john.podesta@gmail.com</a>=
+&gt;; Gene Sperling &lt;<a href=3D"mailto:gbsperling@gmail.com" target=3D"_=
+blank">gbsperling@gmail.com</a>&gt;; Gary Gensler &lt;<a href=3D"mailto:gge=
+nsler@hillaryclinton.com" target=3D"_blank">ggensler@hillaryclinton.com</a>=
+&gt;; Mike Schmidt &lt;<a href=3D"mailto:mschmidt@hillaryclinton.com" targe=
+t=3D"_blank">mschmidt@hillaryclinton.com</a>&gt;; Michael Shapiro &lt;<a hr=
+ef=3D"mailto:mshapiro@hillaryclinton.com" target=3D"_blank">mshapiro@hillar=
+yclinton.com</a>&gt;; David Kamin &lt;<a href=3D"mailto:davidckamin@gmail.c=
+om" target=3D"_blank">davidckamin@gmail.com</a>&gt;<br><b>Subject:</b> Glas=
+s steagall</span></p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal=
+">i think most people know I worry that this is the closest thing to an Ira=
+q vote we have to face us. And a big potential problem in the debate.=C2=A0=
+</p><div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal"=
+>Why can&#39;t she say the following:</p></div><div><p class=3D"MsoNormal">=
+Too big to fail =C2=A0are problems. Should never happen again etc. I will t=
+ake steps - higher cap requirements, whatever you have on list -to ensure w=
+e protect Americans.=C2=A0 I think those will work better. =C2=A0</p></div>=
+<div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal">I=
+=C2=A0will work every day to make sure we protect Americans so they never s=
+uffer for the excesses on =C2=A0Wall Street.=C2=A0 But if banks are growing=
+ too big to manage and we need to take these steps=C2=A0=C2=A0tetc etc, bel=
+ieve me I will work to reinstate glass steagall in a heartbeat bc this Amer=
+icans losing so much for the banks can never happen again.=C2=A0</p></div><=
+div><p class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal">She&=
+#39;s not conceding it was responsible for the financial crisis.=C2=A0 But =
+her openness will be better than a hard and fast position that puts her on =
+the bank side of the ledger.=C2=A0</p></div><div><p class=3D"MsoNormal">=C2=
+=A0</p></div><p class=3D"MsoNormal">Anyway I just=C2=A0offer it as a though=
+t.=C2=A0 </p></div></div>
+</blockquote></div><br></div>
+</div></blockquote></div></div></div></blockquote></div><br></div>
+</blockquote></div><br></div>
+</div></div></blockquote></div><br></div>
+</blockquote></div><br></div>
+</blockquote></div>
+</div></blockquote></div></blockquote></div></div></div>
+</div></blockquote></div></blockquote></div>
+</div></blockquote></div></blockquote></div>
+</div></blockquote></div></blockquote></div>
+</blockquote></div><br></div>
+</blockquote></div><br></div></div>
+</div></blockquote></body></html>
+
+--e89a8f3ba55f473dbf051f8f674a--

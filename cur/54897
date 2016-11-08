@@ -1,0 +1,831 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.52.109.42 with SMTP id hp10cs143331vdb;
+        Tue, 10 May 2011 09:43:35 -0700 (PDT)
+Return-Path: <bigcampaign+bncCPyYu4rnDRCTw6XuBBoE-qbKUw@googlegroups.com>
+Received-SPF: pass (google.com: domain of bigcampaign+bncCPyYu4rnDRCTw6XuBBoE-qbKUw@googlegroups.com designates 10.68.25.69 as permitted sender) client-ip=10.68.25.69;
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of bigcampaign+bncCPyYu4rnDRCTw6XuBBoE-qbKUw@googlegroups.com designates 10.68.25.69 as permitted sender) smtp.mail=bigcampaign+bncCPyYu4rnDRCTw6XuBBoE-qbKUw@googlegroups.com; dkim=pass header.i=bigcampaign+bncCPyYu4rnDRCTw6XuBBoE-qbKUw@googlegroups.com
+Received: from mr.google.com ([10.68.25.69])
+        by 10.68.25.69 with SMTP id a5mr1984933pbg.10.1305045813750 (num_hops = 1);
+        Tue, 10 May 2011 09:43:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=beta;
+        h=domainkey-signature:x-beenthere:received-spf:x-asg-debug-id
+         :x-barracuda-envelope-from:x-asg-whitelist:from:to:date:subject
+         :thread-topic:x-asg-orig-subj:thread-index:message-id
+         :accept-language:x-ms-has-attach:x-ms-tnef-correlator:acceptlanguage
+         :mime-version:x-barracuda-connect:x-barracuda-start-time
+         :x-barracuda-encrypted:x-barracuda-url:x-virus-scanned
+         :x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:x-google-group-id:list-post
+         :list-help:list-archive:sender:list-unsubscribe:content-language
+         :content-type;
+        bh=Ybh2OT3gKhqOAFjbkH6ZOVa7igDvqMBcnVsmeS6tSu4=;
+        b=F5vfY4fEbunlVj+5llBiFAUIhiJIQGpIwjFObBjNq6gUmVQUUzky3KTi8gQCbTydt6
+         W24EeGX5nugvL/5qIkIA67TRvGa1zNqYURNBKT4qz4kBUu93VovZYGrykCT/Z+ivx1qL
+         VysNh4Hsig64XJaJh4MOTgQWnQ7l2BoEKq6mg=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=googlegroups.com; s=beta;
+        h=x-beenthere:received-spf:x-asg-debug-id:x-barracuda-envelope-from
+         :x-asg-whitelist:from:to:date:subject:thread-topic:x-asg-orig-subj
+         :thread-index:message-id:accept-language:x-ms-has-attach
+         :x-ms-tnef-correlator:acceptlanguage:mime-version
+         :x-barracuda-connect:x-barracuda-start-time:x-barracuda-encrypted
+         :x-barracuda-url:x-virus-scanned:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:x-google-group-id:list-post:list-help:list-archive:sender
+         :list-unsubscribe:content-language:content-type;
+        b=jH7G3rxb4uZLWndvwWFWbEuARrXQ8mknmKdY9qOgFl5mwwEuC/BxqaVNJmIeZl5aKF
+         3C9kz1Jjkmj8tnT/slVL8WRb/flwp/L9wWtP6ryxw9OMwLdLxkiwwE2sVCERPuXgFpzC
+         Ejl5En1URV1o/7r/VmpbjUYX7oVIqJgfuWfuA=
+Received: by 10.68.25.69 with SMTP id a5mr457332pbg.10.1305043347176;
+        Tue, 10 May 2011 09:02:27 -0700 (PDT)
+X-BeenThere: bigcampaign@googlegroups.com
+Received: by 10.68.1.5 with SMTP id 5ls10569729pbi.1.gmail; Tue, 10 May 2011
+ 09:02:26 -0700 (PDT)
+Received: by 10.68.26.195 with SMTP id n3mr1185035pbg.41.1305043346540;
+        Tue, 10 May 2011 09:02:26 -0700 (PDT)
+Received: by 10.68.26.195 with SMTP id n3mr1185034pbg.41.1305043346514;
+        Tue, 10 May 2011 09:02:26 -0700 (PDT)
+Received: from mrelay2.americanprogress.org (mrelay2.americanprogress.org [208.87.104.101])
+        by gmr-mx.google.com with ESMTPS id q16si3440547pbt.6.2011.05.10.09.02.25
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 10 May 2011 09:02:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jdorner@americanprogress.org designates 208.87.104.101 as permitted sender) client-ip=208.87.104.101;
+X-ASG-Debug-ID: 1305043336-019f0f35cb1450c0001-QLVFix
+Received: from mail.americanprogress.org ([172.16.10.1]) by mrelay2.americanprogress.org with ESMTP id lXALa6hSFPCOIbIL (version=TLSv1 cipher=RC4-MD5 bits=128 verify=NO) for <bigcampaign@googlegroups.com>; Tue, 10 May 2011 12:02:16 -0400 (EDT)
+X-Barracuda-Envelope-From: jdorner@americanprogress.org
+X-ASG-Whitelist: Client
+Received: from CAPMAILBOX.americanprogresscenter.org ([172.16.10.17]) by
+ mailfe1.americanprogresscenter.org ([172.16.10.19]) with mapi; Tue, 10 May
+ 2011 12:03:05 -0400
+From: Joshua Dorner <jdorner@americanprogress.org>
+To: "'bigcampaign@googlegroups.com'" <bigcampaign@googlegroups.com>
+Date: Tue, 10 May 2011 12:03:04 -0400
+Subject: =?windows-1252?Q?=5Bbig_campaign=5D_Boehner_Lauds_Kennedy=92s_Progressive?=
+	=?windows-1252?Q?_Tax_Plan?=
+Thread-Topic: =?iso-2022-jp?B?Qm9laG5lciBMYXVkcyBLZW5uZWR5GyRCIUcbKEJzIFByb2c=?=
+ =?iso-2022-jp?B?cmVzc2l2ZSBUYXggUGxhbg==?=
+X-ASG-Orig-Subj: =?iso-2022-jp?B?Qm9laG5lciBMYXVkcyBLZW5uZWR5GyRCIUcbKEJzIFByb2c=?=
+ =?iso-2022-jp?B?cmVzc2l2ZSBUYXggUGxhbg==?=
+Thread-Index: AcwPK74FHthrrYemSri+OVswKlrK5Q==
+Message-ID: <A28459BA2B4D5D49BED0238513058A7F013D6712B087@CAPMAILBOX.americanprogresscenter.org>
+Accept-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Barracuda-Connect: UNKNOWN[172.16.10.1]
+X-Barracuda-Start-Time: 1305043336
+X-Barracuda-Encrypted: RC4-MD5
+X-Barracuda-URL: http://mrelay2.americanprogress.org:8000/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at americanprogress.org
+X-Original-Sender: jdorner@americanprogress.org
+X-Original-Authentication-Results: gmr-mx.google.com; spf=pass (google.com:
+ domain of jdorner@americanprogress.org designates 208.87.104.101 as permitted
+ sender) smtp.mail=jdorner@americanprogress.org
+Reply-To: jdorner@americanprogress.org
+Precedence: list
+Mailing-list: list bigcampaign@googlegroups.com; contact bigcampaign+owners@googlegroups.com
+List-ID: <bigcampaign.googlegroups.com>
+X-Google-Group-Id: 329678006109
+List-Post: <http://groups.google.com/group/bigcampaign/post?hl=en_US>, <mailto:bigcampaign@googlegroups.com>
+List-Help: <http://groups.google.com/support/?hl=en_US>, <mailto:bigcampaign+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/bigcampaign?hl=en_US>
+Sender: bigcampaign@googlegroups.com
+List-Unsubscribe: <http://groups.google.com/group/bigcampaign/subscribe?hl=en_US>,
+ <mailto:bigcampaign+unsubscribe@googlegroups.com>
+Content-Language: en-US
+Content-Type: multipart/related;
+	boundary="_004_A28459BA2B4D5D49BED0238513058A7F013D6712B087CAPMAILBOXa_";
+	type="multipart/alternative"
+
+--_004_A28459BA2B4D5D49BED0238513058A7F013D6712B087CAPMAILBOXa_
+Content-Type: multipart/alternative;
+	boundary="_000_A28459BA2B4D5D49BED0238513058A7F013D6712B087CAPMAILBOXa_"
+
+
+--_000_A28459BA2B4D5D49BED0238513058A7F013D6712B087CAPMAILBOXa_
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+http://wonkroom.thinkprogress.org/2011/05/10/boehner-kennedy-taxes/
+
+Boehner Lauds Kennedy=E2=80=99s Progressive Tax Plan<http://wonkroom.thinkp=
+rogress.org/2011/05/10/boehner-kennedy-taxes/>
+
+[cid:image001.jpg@01CC0F0A.36EA8310]
+
+Speaker of the House John Boehner (R-OH) delivered a speech<http://wonkroom=
+.thinkprogress.org/2011/05/09/boehner-debt-ceilin/> last night at the Econo=
+mic Club of New York<http://thinkprogress.org/2011/05/10/boehner-koch-econo=
+mic-club/> in Manhattan, laying out the Republican vision when it comes to =
+the debt ceiling<http://wonkroom.thinkprogress.org/2011/05/09/boehner-debt-=
+ceilin/>, the budget, and taxes. Boehner, of course, denied that increasing=
+ revenue has any role in deficit reduction, and to bolster his argument, he=
+ pointed to a speech<http://www.speaker.gov/News/DocumentSingle.aspx?Docume=
+ntID=3D240370> that President Kennedy gave in the 1960=E2=80=B2s that calle=
+d for tax reform:
+
+If we=E2=80=99re serious about balancing the budget and getting our economy=
+ back to creating jobs, tax hikes should be off the table=E2=80=A6Rather th=
+an increase government spending, President Kennedy told the New York Econom=
+ic Club, we should cut taxes significantly, and take steps to =E2=80=98incr=
+ease incentives and the availability of investment capital=E2=80=99 for emp=
+loyers. I would note that my colleagues and I are not calling for tax cuts =
+in our budget. Rather, we=E2=80=99re calling for an end to the threat of ta=
+x hikes - and a fundamental reform of the tax code - to provide certainty t=
+o those in our country who create jobs.
+
+This is a favorite reference for Republicans<http://blogs.abcnews.com/theno=
+te/2010/09/republicans-invoking-jfk-draws-kennedy-ire.html>, who attempt to=
+ use Kennedy=E2=80=99s calls for tax reform (which resulted in legislation =
+that passed in February, 1964, three months after Kennedy=E2=80=99s death<h=
+ttp://www.slate.com/id/2093947/>) to bolster their bipartisan credentials a=
+nd push for further reductions in taxes for the richest Americans. But Boeh=
+ner and the rest of the GOP conveniently leave out key planks in Kennedy=E2=
+=80=99s plan. Are Republicans saying that they support the following facets=
+ of Kennedy=E2=80=99s proposed tax system?:
+
+- The tax reform passed after Kennedy=E2=80=99s death cut the top marginal =
+tax rate from 90 percent to 70 percent<http://www.ctj.org/pdf/regcg.pdf>, t=
+wice today=E2=80=99s top rate of 35 percent.Kennedy explicitly called for a=
+ top rate of 65 percent, but added that itshould be set at 70 percent<http:=
+//www.presidency.ucsb.edu/ws/index.php?pid=3D9387#axzz1LxJ94G7E> if certain=
+ deductions weren=E2=80=99t phased out at the top of the income scale.
+
+- Kennedy called for U.S. corporations to be taxed on all their profits, ea=
+rned anywhere in the world, rather than the current system of allowing them=
+ to defer taxation until they bring those profits home. =E2=80=9CThe undesi=
+rability of continuing deferral is underscored where deferral has served as=
+ a shelter for tax escape through the unjustifiable use of tax havens<http:=
+//www.presidency.ucsb.edu/ws/index.php?pid=3D9387#axzz1LxJ94G7E> such as Sw=
+itzerland,=E2=80=9D Kennedy said in 1961. During Kennedy=E2=80=99s time in =
+office, corporate taxes made up more than 20 percent of total revenue<http:=
+//www.whitehouse.gov/omb/budget/Historicals>. Today, it=E2=80=99s less than=
+ ten percent<http://www.whitehouse.gov/omb/budget/Historicals>.
+
+- Kennedy called for cutting tax preferences for the oil and gas industries=
+, saying in 1963 that, =E2=80=9Cwhile these are complex as well as controve=
+rsial problems, we cannot shrink from a frank appraisal<http://www.presiden=
+cy.ucsb.edu/ws/index.php?pid=3D9387#axzz1LxJ94G7E> of governmental policies=
+ and tax subsidies in this area.=E2=80=9D Republicans have been adamantly o=
+pposed to cutting subsidies for oil and gas companies.
+
+- Kennedy called for limiting itemized deductions for the rich, saying that=
+ they should receive the same benefit for things like charitable giving =E2=
+=80=9Cas everyone else<http://www.presidency.ucsb.edu/ws/index.php?pid=3D93=
+87#axzz1LxJ94G7E>,=E2=80=9D instead of preferential treatment (which they s=
+till receive). President Obama has called for the same system<http://wonkro=
+om.thinkprogress.org/2009/03/05/deduction-chart/> since he came into office=
+, but the GOP has derided Obama=E2=80=99s proposals.
+
+Kennedy=E2=80=99s tax reforms also called for boosting the child care deduc=
+tion<http://www.presidency.ucsb.edu/ws/index.php?pid=3D9387#axzz1LxJ94G7E> =
+and raising the standard exemption, thus providing tax relief for the poore=
+st Americans. =E2=80=9CThe Revenue Act of 1964<http://www.slate.com/id/2093=
+947/> was aimed at the demand, rather than the supply, side of the economy,=
+=E2=80=9D said Arthur Okun, a Kennedy economic adviser.
+
+Is Boehner on board with tax reform that fits these parameters? If not, he =
+probably shouldn=E2=80=99t be invoking Kennedy=E2=80=99s name to support hi=
+s tax cut agenda. The Kennedy family, during the 2010 Congressional campaig=
+n, took issue with Republicans using Kennedy=E2=80=99s legacy to support th=
+eir tax plan, calling the portrayal =E2=80=9Cdishonest=E2=80=9D and =E2=80=
+=9Cfalse.=E2=80=9D<http://blogs.abcnews.com/thenote/2010/09/republicans-inv=
+oking-jfk-draws-kennedy-ire.html>
+
+
+--=20
+You received this message because you are subscribed to the "big campaign" =
+group.
+
+To post to this group, send to bigcampaign@googlegroups.com
+
+To unsubscribe, send email to bigcampaign-unsubscribe@googlegroups.com
+
+E-mail dubois.sara@gmail.com with questions or concerns
+=20
+This is a list of individuals. It is not affiliated with any group or organ=
+ization.
+--_000_A28459BA2B4D5D49BED0238513058A7F013D6712B087CAPMAILBOXa_
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Diso-2022-=
+jp">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head><meta name=3DGenerator content=3D"Microso=
+ft Word 12 (filtered medium)"><!--[if !mso]><style>v\:* {behavior:url(#defa=
+ult#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Lucida Grande";}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h2
+	{mso-style-priority:9;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-priority:9;
+	mso-style-link:"Heading 2";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"2050" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue vli=
+nk=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><o:p>&nbsp;</o:p=
+></p><p class=3DMsoNormal><a href=3D"http://wonkroom.thinkprogress.org/2011=
+/05/10/boehner-kennedy-taxes/">http://wonkroom.thinkprogress.org/2011/05/10=
+/boehner-kennedy-taxes/</a><o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;<=
+/o:p></p><h2 style=3D'margin:0in;margin-bottom:.0001pt'><span style=3D'font=
+-size:15.0pt;font-family:"Lucida Grande";color:black'><a href=3D"http://won=
+kroom.thinkprogress.org/2011/05/10/boehner-kennedy-taxes/" title=3D"Permane=
+nt link to 'Boehner Lauds Kennedy&#8217;s Progressive Tax Plan'"><span styl=
+e=3D'color:#774400;border:none windowtext 1.0pt;padding:0in'>Boehner Lauds =
+Kennedy=E2=80=99s Progressive Tax Plan</span></a><o:p></o:p></span></h2><p =
+style=3D'line-height:13.5pt'><span style=3D'font-size:9.0pt;font-family:"Lu=
+cida Grande";color:black'><img border=3D0 width=3D190 height=3D230 id=3D"Pi=
+cture_x0020_1" src=3D"cid:image001.jpg@01CC0F0A.36EA8310" alt=3D"http://won=
+kroom.thinkprogress.org/wp-content/uploads/2011/05/boehnerjfk0510.jpg"></sp=
+an><span style=3D'font-size:9.0pt;font-family:"Lucida Grande";color:black'>=
+<o:p></o:p></span></p><p style=3D'line-height:13.5pt'><span style=3D'font-s=
+ize:9.0pt;font-family:"Lucida Grande";color:black'>Speaker of the House Joh=
+n Boehner (R-OH)<span class=3Dapple-converted-space>&nbsp;</span><a href=3D=
+"http://wonkroom.thinkprogress.org/2011/05/09/boehner-debt-ceilin/"><span s=
+tyle=3D'color:#774400'>delivered a speech</span></a><span class=3Dapple-con=
+verted-space>&nbsp;</span>last night<span class=3Dapple-converted-space>&nb=
+sp;</span><a href=3D"http://thinkprogress.org/2011/05/10/boehner-koch-econo=
+mic-club/"><span style=3D'color:#774400'>at the Economic Club of New York</=
+span></a><span class=3Dapple-converted-space>&nbsp;</span>in Manhattan, lay=
+ing out the Republican vision when it comes to<span class=3Dapple-converted=
+-space>&nbsp;</span><a href=3D"http://wonkroom.thinkprogress.org/2011/05/09=
+/boehner-debt-ceilin/"><span style=3D'color:#774400'>the debt ceiling</span=
+></a>, the budget, and taxes. Boehner, of course, denied that increasing re=
+venue has any role in deficit reduction, and to bolster his argument,<span =
+class=3Dapple-converted-space>&nbsp;</span><a href=3D"http://www.speaker.go=
+v/News/DocumentSingle.aspx?DocumentID=3D240370"><span style=3D'color:#77440=
+0'>he pointed to a speech</span></a><span class=3Dapple-converted-space>&nb=
+sp;</span>that President Kennedy gave in the 1960=E2=80=B2s that called for=
+ tax reform:<o:p></o:p></span></p><p style=3D'line-height:13.5pt'><span sty=
+le=3D'font-size:9.0pt;font-family:"Lucida Grande";color:black'>If we=E2=80=
+=99re serious about balancing the budget and getting our economy back to cr=
+eating jobs, tax hikes should be off the table=E2=80=A6<strong><span style=
+=3D'font-family:"Lucida Grande"'>Rather than increase government spending, =
+President Kennedy told the New York Economic Club, we should cut taxes sign=
+ificantly, and take steps to =E2=80=98increase incentives and the availabil=
+ity of investment capital=E2=80=99 for employers.</span></strong><span clas=
+s=3Dapple-converted-space>&nbsp;</span>I would note that my colleagues and =
+I are not calling for tax cuts in our budget. Rather, we=E2=80=99re calling=
+ for an end to the threat of tax hikes &#8212; and a fundamental reform of =
+the tax code &#8212; to provide certainty to those in our country who creat=
+e jobs.<o:p></o:p></span></p><p style=3D'line-height:13.5pt'><span style=3D=
+'font-size:9.0pt;font-family:"Lucida Grande";color:black'>This is a<span cl=
+ass=3Dapple-converted-space>&nbsp;</span><a href=3D"http://blogs.abcnews.co=
+m/thenote/2010/09/republicans-invoking-jfk-draws-kennedy-ire.html"><span st=
+yle=3D'color:#774400'>favorite reference for Republicans</span></a>, who at=
+tempt to use Kennedy=E2=80=99s calls for tax reform (which resulted in legi=
+slation that passed in February, 1964,<span class=3Dapple-converted-space>&=
+nbsp;</span><a href=3D"http://www.slate.com/id/2093947/"><span style=3D'col=
+or:#774400'>three months after Kennedy=E2=80=99s death</span></a>) to bolst=
+er their bipartisan credentials and push for further reductions in taxes fo=
+r the richest Americans. But Boehner and the rest of the GOP conveniently l=
+eave out key planks in Kennedy=E2=80=99s plan. Are Republicans saying that =
+they support the following facets of Kennedy=E2=80=99s proposed tax system?=
+:<o:p></o:p></span></p><p style=3D'line-height:13.5pt'><span style=3D'font-=
+size:9.0pt;font-family:"Lucida Grande";color:black'>&#8211; The tax reform =
+passed after Kennedy=E2=80=99s death cut the top marginal tax rate from 90 =
+percent<span class=3Dapple-converted-space>&nbsp;</span><a href=3D"http://w=
+ww.ctj.org/pdf/regcg.pdf"><span style=3D'color:#774400'>to 70 percent</span=
+></a>, twice today=E2=80=99s top rate of 35 percent.<strong><span style=3D'=
+font-family:"Lucida Grande"'>Kennedy explicitly called for a top rate of 65=
+ percent</span></strong>, but added that it<a href=3D"http://www.presidency=
+.ucsb.edu/ws/index.php?pid=3D9387#axzz1LxJ94G7E"><span style=3D'color:#7744=
+00'>should be set at 70 percent</span></a><span class=3Dapple-converted-spa=
+ce>&nbsp;</span>if certain deductions weren=E2=80=99t phased out at the top=
+ of the income scale.<o:p></o:p></span></p><p style=3D'line-height:13.5pt'>=
+<span style=3D'font-size:9.0pt;font-family:"Lucida Grande";color:black'>&#8=
+211;<span class=3Dapple-converted-space>&nbsp;</span><strong><span style=3D=
+'font-family:"Lucida Grande"'>Kennedy called for U.S. corporations to be ta=
+xed on all their profits, earned anywhere in the world</span></strong>, rat=
+her than the current system of allowing them to defer taxation until they b=
+ring those profits home. =E2=80=9CThe undesirability of continuing deferral=
+ is underscored where deferral has served as a shelter for tax escape throu=
+gh<span class=3Dapple-converted-space>&nbsp;</span><a href=3D"http://www.pr=
+esidency.ucsb.edu/ws/index.php?pid=3D9387#axzz1LxJ94G7E"><span style=3D'col=
+or:#774400'>the unjustifiable use of tax havens</span></a><span class=3Dapp=
+le-converted-space>&nbsp;</span>such as Switzerland,=E2=80=9D Kennedy said =
+in 1961. During Kennedy=E2=80=99s time in office, corporate taxes made up<s=
+pan class=3Dapple-converted-space>&nbsp;</span><a href=3D"http://www.whiteh=
+ouse.gov/omb/budget/Historicals"><span style=3D'color:#774400'>more than 20=
+ percent of total revenue</span></a>. Today, it=E2=80=99s<span class=3Dappl=
+e-converted-space>&nbsp;</span><a href=3D"http://www.whitehouse.gov/omb/bud=
+get/Historicals"><span style=3D'color:#774400'>less than ten percent</span>=
+</a>.<o:p></o:p></span></p><p style=3D'line-height:13.5pt'><span style=3D'f=
+ont-size:9.0pt;font-family:"Lucida Grande";color:black'>&#8211;<span class=
+=3Dapple-converted-space>&nbsp;</span><strong><span style=3D'font-family:"L=
+ucida Grande"'>Kennedy called for cutting tax preferences for the oil and g=
+as industries</span></strong>, saying in 1963 that, =E2=80=9Cwhile these ar=
+e complex as well as controversial problems,<span class=3Dapple-converted-s=
+pace>&nbsp;</span><a href=3D"http://www.presidency.ucsb.edu/ws/index.php?pi=
+d=3D9387#axzz1LxJ94G7E"><span style=3D'color:#774400'>we cannot shrink from=
+ a frank appraisal</span></a><span class=3Dapple-converted-space>&nbsp;</sp=
+an>of governmental policies and tax subsidies in this area.=E2=80=9D Republ=
+icans have been adamantly opposed to cutting subsidies for oil and gas comp=
+anies.<o:p></o:p></span></p><p style=3D'line-height:13.5pt'><span style=3D'=
+font-size:9.0pt;font-family:"Lucida Grande";color:black'>&#8211;<span class=
+=3Dapple-converted-space>&nbsp;</span><strong><span style=3D'font-family:"L=
+ucida Grande"'>Kennedy called for limiting itemized deductions for the rich=
+</span></strong>, saying that they should receive the same benefit for thin=
+gs like charitable giving =E2=80=9C<a href=3D"http://www.presidency.ucsb.ed=
+u/ws/index.php?pid=3D9387#axzz1LxJ94G7E"><span style=3D'color:#774400'>as e=
+veryone else</span></a>,=E2=80=9D instead of preferential treatment (which =
+they still receive). President Obama has<span class=3Dapple-converted-space=
+>&nbsp;</span><a href=3D"http://wonkroom.thinkprogress.org/2009/03/05/deduc=
+tion-chart/"><span style=3D'color:#774400'>called for the same system</span=
+></a><span class=3Dapple-converted-space>&nbsp;</span>since he came into of=
+fice, but the GOP has derided Obama=E2=80=99s proposals.<o:p></o:p></span><=
+/p><p style=3D'line-height:13.5pt'><span style=3D'font-size:9.0pt;font-fami=
+ly:"Lucida Grande";color:black'>Kennedy=E2=80=99s tax reforms also called f=
+or<span class=3Dapple-converted-space>&nbsp;</span><a href=3D"http://www.pr=
+esidency.ucsb.edu/ws/index.php?pid=3D9387#axzz1LxJ94G7E"><span style=3D'col=
+or:#774400'>boosting the child care deduction</span></a><span class=3Dapple=
+-converted-space>&nbsp;</span>and raising the standard exemption, thus prov=
+iding tax relief for the poorest Americans. =E2=80=9C<a href=3D"http://www.=
+slate.com/id/2093947/"><span style=3D'color:#774400'>The Revenue Act of 196=
+4</span></a><span class=3Dapple-converted-space>&nbsp;</span>was aimed at t=
+he demand, rather than the supply, side of the economy,=E2=80=9D said Arthu=
+r Okun, a Kennedy economic adviser.<o:p></o:p></span></p><p style=3D'line-h=
+eight:13.5pt'><span style=3D'font-size:9.0pt;font-family:"Lucida Grande";co=
+lor:black'>Is Boehner on board with tax reform that fits these parameters? =
+If not, he probably shouldn=E2=80=99t be invoking Kennedy=E2=80=99s name to=
+ support his tax cut agenda. The Kennedy family, during the 2010 Congressio=
+nal campaign, took issue with Republicans using Kennedy=E2=80=99s legacy to=
+ support their tax plan,<span class=3Dapple-converted-space>&nbsp;</span><a=
+ href=3D"http://blogs.abcnews.com/thenote/2010/09/republicans-invoking-jfk-=
+draws-kennedy-ire.html"><span style=3D'color:#774400'>calling the portrayal=
+ =E2=80=9Cdishonest=E2=80=9D and =E2=80=9Cfalse.=E2=80=9D</span></a><o:p></=
+o:p></span></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNorm=
+al><o:p>&nbsp;</o:p></p></div></body></html>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the &quot;big campa=
+ign&quot; group.<br />
+&nbsp;<br />
+To post to this group, send to bigcampaign@googlegroups.com<br />
+&nbsp;<br />
+To unsubscribe, send email to bigcampaign-unsubscribe@googlegroups.com<br /=
+>
+&nbsp;<br />
+E-mail dubois.sara@gmail.com with questions or concerns<br />
+ <br />
+This is a list of individuals. It is not affiliated with any group or organ=
+ization.
+--_000_A28459BA2B4D5D49BED0238513058A7F013D6712B087CAPMAILBOXa_--
+
+--_004_A28459BA2B4D5D49BED0238513058A7F013D6712B087CAPMAILBOXa_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=20758;
+	creation-date="Tue, 10 May 2011 16:03:04 GMT";
+	modification-date="Tue, 10 May 2011 16:03:04 GMT"
+Content-ID: <image001.jpg@01CC0F0A.36EA8310>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEBLAEsAAD/4QXARXhpZgAASUkqAAgAAAAOAAABAwABAAAAIBMAAAEBAwAB
+AAAAwAwAAAIBAwADAAAAtgAAAAYBAwABAAAAAgAAAA4BAgCTAQAAvAAAAA8BAgAGAAAAUAIAABAB
+AgAVAAAAVgIAABUBAwABAAAAAwAAADEBAgAeAAAAbAIAADIBAgAUAAAAigIAADsBAgAOAAAAngIA
+ABMCAwABAAAAAgAAAGmHBAABAAAArAIAACWIBAABAAAApgUAAAAAAAAIAAgACABVLlMuIEhvdXNl
+IFNwZWFrZXIgSm9obiBCb2VobmVyLCAoUi1PSCkgYWRkcmVzc2VzIHRoZSBFY29ub21pYyBDbHVi
+IG9mIE5ldyBZb3JrIGluIE5ldyBZb3JrLCBNb25kYXksIE1heSA5LCAyMDExLiAgVGhlIEVjb25v
+bWljIENsdWIgb2YgTmV3IFlvcmsgaXMgYSBub24tcG9saXRpY2FsLCBub24tcGFydGlzYW4gYW5k
+IG5vbi1wcm9maXQgb3JnYW5pemF0aW9uIHdpdGggbWVtYmVycyBmcm9tIHRoZSBleGVjdXRpdmUg
+bGV2ZWxzIG9mIGJ1c2luZXNzLCBpbmR1c3RyeSBhbmQgZmluYW5jZS4gSXQncyBtaXNzaW9uIGlz
+IHRvIHByb21vdGUgdGhlIHN0dWR5IGFuZCBkaXNjdXNzaW9uIG9mIHNvY2lhbCwgZWNvbm9taWMs
+IGFuZCBwb2xpdGljYWwgcXVlc3Rpb25zLiAoQVAgUGhvdG8vS2F0aHkgV2lsbGVucykAAENhbm9u
+AENhbm9uIEVPUy0xRCBNYXJrIElWAHJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaAAyMDEx
+OjA1OjA5IDIwOjA1OjI4AEthdGh5IFdpbGxlbnMAHwCaggUAAQAAACYEAACdggUAAQAAAC4EAAAi
+iAMAAQAAAAEAAAAniAMAAQAAAMQJAAAAkAcABAAAADAyMjEDkAIAFAAAADYEAAAEkAIAFAAAAEoE
+AAABkQcABAAAAAECAwABkgoAAQAAAF4EAAACkgUAAQAAAGYEAAAEkgoAAQAAAG4EAAAFkgUAAQAA
+AHYEAAAGkgUAAQAAAH4EAAAHkgMAAQAAAAUAAAAJkgMAAQAAABAAAAAKkgUAAQAAAIYEAACGkgcA
+CAEAAI4EAACQkgIAAwAAADQ4AACRkgIAAwAAADQ4AACSkgIAAwAAADQ4AAAAoAcABAAAADAxMDAB
+oAMAAQAAAP//AAACoAQAAQAAAHYLAAADoAQAAQAAAOYHAAAOogUAAQAAAJYFAAAPogUAAQAAAJ4F
+AAAQogMAAQAAAAIAAAABpAMAAQAAAAAAAAACpAMAAQAAAAEAAAADpAMAAQAAAAEAAAAGpAMAAQAA
+AAAAAAAAAAAAAQAAAPoAAAAcAAAACgAAADIwMTE6MDU6MDkgMTk6MTc6MTYAMjAxMTowNTowOSAx
+OToxNzoxNgAAAAgAAAABAAAAAwAAAAEAAAAAAAEAAAADAAAAAQAAAMwAAAAKAAAAkAEAAAEAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtUoACgUAAADOMQBEAwAAAQAAAAEA
+BAAAAAICAAAAAAAA/+ICQElDQ19QUk9GSUxFAAEBAAACMEFEQkUCEAAAbW50clJHQiBYWVogB88A
+BgADAAAAAAAAYWNzcEFQUEwAAAAAbm9uZQAAAAAAAAAAAAAAAAAAAAEAAPbWAAEAAAAA0y1BREJF
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKY3BydAAAAPwA
+AAAyZGVzYwAAATAAAABrd3RwdAAAAZwAAAAUYmtwdAAAAbAAAAAUclRSQwAAAcQAAAAOZ1RSQwAA
+AdQAAAAOYlRSQwAAAeQAAAAOclhZWgAAAfQAAAAUZ1hZWgAAAggAAAAUYlhZWgAAAhwAAAAUdGV4
+dAAAAABDb3B5cmlnaHQgMTk5OSBBZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZAAAAGRlc2MAAAAA
+AAAAEUFkb2JlIFJHQiAoMTk5OCkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAADzUQAB
+AAAAARbMWFlaIAAAAAAAAAAAAAAAAAAAAABjdXJ2AAAAAAAAAAECMwAAY3VydgAAAAAAAAABAjMA
+AGN1cnYAAAAAAAAAAQIzAABYWVogAAAAAAAAnBgAAE+lAAAE/FhZWiAAAAAAAAA0jQAAoCwAAA+V
+WFlaIAAAAAAAACYxAAAQLwAAvpz/2wBDAAEBAQEBAQEBAQEBAQECAgMCAgICAgQDAwIDBQQFBQUE
+BAQFBgcGBQUHBgQEBgkGBwgICAgIBQYJCgkICgcICAj/2wBDAQEBAQICAgQCAgQIBQQFCAgICAgI
+CAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAj/wAARCADmAL4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+I6LV
+r9H3R3l2rZ6iQ8GugsfH3jXTZFbT/FGu2pA/5Z3DD+tcXAG3EMCD1wKJJdrhFx+dee0rjUnuen/8
+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
+LbgTzRRWiEf/2Q==
+
+--_004_A28459BA2B4D5D49BED0238513058A7F013D6712B087CAPMAILBOXa_--

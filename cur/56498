@@ -1,0 +1,950 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.68 with SMTP id r65csp418520lfr;
+        Thu, 24 Sep 2015 18:09:31 -0700 (PDT)
+X-Received: by 10.140.98.238 with SMTP id o101mr3167386qge.70.1443143371587;
+        Thu, 24 Sep 2015 18:09:31 -0700 (PDT)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bl2-obe.outbound.protection.outlook.com (mail-bl2on0097.outbound.protection.outlook.com. [65.55.169.97])
+        by mx.google.com with ESMTPS id 97si745417qgh.6.2015.09.24.18.09.31
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 24 Sep 2015 18:09:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 65.55.169.97 as permitted sender) client-ip=65.55.169.97;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 65.55.169.97 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=fail header.i=@mail.salsalabs.net;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from BLUPR07MB100.namprd07.prod.outlook.com (10.242.200.20) by
+ BLUPR07MB657.namprd07.prod.outlook.com (10.141.208.144) with Microsoft SMTP
+ Server (TLS) id 15.1.280.20; Fri, 25 Sep 2015 01:09:30 +0000
+Received: from BY2PR07CA048.namprd07.prod.outlook.com (10.141.251.23) by
+ BLUPR07MB100.namprd07.prod.outlook.com (10.242.200.20) with Microsoft SMTP
+ Server (TLS) id 15.1.274.16; Fri, 25 Sep 2015 01:09:28 +0000
+Received: from BY2FFO11FD046.protection.gbl (2a01:111:f400:7c0c::163) by
+ BY2PR07CA048.outlook.office365.com (2a01:111:e400:2c61::23) with Microsoft
+ SMTP Server (TLS) id 15.1.274.16 via Frontend Transport; Fri, 25 Sep 2015
+ 01:09:28 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=Law.Georgetown.Edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=mail.salsalabs.net;gmail.com; dmarc=fail action=none
+ header.from=gmail.com;
+Received-SPF: Fail (protection.outlook.com: domain of Law.Georgetown.Edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BY2FFO11FD046.mail.protection.outlook.com (10.1.15.170) with Microsoft SMTP
+ Server (TLS) id 15.1.274.4 via Frontend Transport; Fri, 25 Sep 2015 01:09:27
+ +0000
+Resent-From: <Podesta@Law.Georgetown.Edu>
+Received: from na01-bl2-obe.outbound.protection.outlook.com (141.161.191.14)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.210.2; Thu, 24 Sep 2015 21:09:25 -0400
+Received: from SN1PR0701CA0013.namprd07.prod.outlook.com (10.162.96.23) by
+ CO2PR07MB554.namprd07.prod.outlook.com (10.141.199.150) with Microsoft SMTP
+ Server (TLS) id 15.1.274.16; Fri, 25 Sep 2015 01:09:20 +0000
+Received: from BY2FFO11OLC016.protection.gbl (2a01:111:f400:7c0c::152) by
+ SN1PR0701CA0013.outlook.office365.com (2a01:111:e400:5173::23) with Microsoft
+ SMTP Server (TLS) id 15.1.280.20 via Frontend Transport; Fri, 25 Sep 2015
+ 01:09:19 +0000
+Authentication-Results: spf=pass (sender IP is 69.174.83.186)
+ smtp.mailfrom=bounces.salsalabs.net; Law.Georgetown.Edu; dkim=pass (signature
+ was verified) header.d=mail.salsalabs.net;Law.Georgetown.Edu; dmarc=fail
+ action=none header.from=gmail.com;
+Received-SPF: Pass (protection.outlook.com: domain of bounces.salsalabs.net
+ designates 69.174.83.186 as permitted sender)
+ receiver=protection.outlook.com; client-ip=69.174.83.186;
+ helo=m186.salsalabs.net;
+Received: from m186.salsalabs.net (69.174.83.186) by
+ BY2FFO11OLC016.mail.protection.outlook.com (10.1.15.61) with Microsoft SMTP
+ Server id 15.1.274.4 via Frontend Transport; Fri, 25 Sep 2015 01:09:18 +0000
+Return-Path: podesta@law.georgetown.edu
+DKIM-Signature: v=1; a=rsa-sha1; d=mail.salsalabs.net; s=s1024-dkim; c=relaxed/relaxed;
+	q=dns/txt; i=@mail.salsalabs.net; t=1443143358;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=qQGL688qOJklYFniXa1FKWHLcNk=;
+	b=NBR95H14HVlXWG+Uynnk9gBnpZcQ5t1oVSnH1yXBuv4Q2UxdWf1HkAEj8hNZLklG
+	oZj7lvMH63eSG7AyLfBH4rtjjBSFU8+Z2RmM+wtHsUO/ALQ4R/LrVz1XU5AYuPwh
+	eLq4ICAaJRBIhhkdegBABN7ZX1dp0ORlms21yoa2Zxc=;
+Received: from [10.174.83.205] ([10.174.83.205:44734] helo=10.174.83.205)	by
+ mailer3.salsalabs.net (envelope-from
+ <3364170106-1330249-org-orgDB@bounces.salsalabs.net>)	(ecelerity 3.5.10.45038
+ r(Core:3.5.10.0)) with ESMTP	id 7F/F4-19245-EBE94065; Thu, 24 Sep 2015
+ 21:09:18 -0400
+Date: Thu, 24 Sep 2015 21:09:18 -0400
+From: Rabbi Michael Lerner <rabbilerner.tikkun@gmail.com>
+Sender: <rabbilerner.tikkun=gmail.com@mail.salsalabs.net>
+Reply-To: <rabbilerner.tikkun@gmail.com>
+To: Podesta@Law.Georgetown.Edu
+Message-ID: <3364170106.-1201004680@org.orgDB.reply.salsalabs.com>
+Subject: Challenge the Media Trivializations of the Pope's Radical Message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_8186742_1194867653.1443143358236"
+Envelope-From: <3364170106-1330249-org-orgDB@bounces.salsalabs.net>
+List-Unsubscribe: <http://org.salsalabs.com/o/525/p/salsa/supporter/unsubscribe/public/index.sjs?Email=Podesta@Law.Georgetown.Edu&email_blast_KEY=1330249>
+X_email_KEY: 3364170106
+X-campaignid: salsaorg525-1330249
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2FFO11OLC016;1:/2xYo7Kf6v6IrXM2GCbG49g3wouoLd0wt7qhAhkZNWeB+Vva4n/tj1EqpuWeT0Dh0+PwxpjB5TyLNX8ct5qUE0zvVPn/TInuhOF6ne9ITTRuMPHFPCQ+PvI1kOUoJl6vrGO/jl1bkEsUt8WD3+v/dXTjl35ABENnMIEy9A3SJ+wfBbT+7X3QX+ymq3UyRPXx85zoKW50wXtWsRxoAE+LCeVG5njo8g9Cs5fMQjiKl7S4j2TqdWd1XZIe7gGy4ZQUhi1JjzVHtGhx0PAZKZPdWT43a4JESnD8ZvwkqDXhsMoDMZ1XTe+XxQ5CZNkkPbojIuKcGMLuAfz6JZaBx2Mw+brHL+KyUvJixH2HTUQHr9Lp2Uvp2FrfiHrDJkDit4ysMF5/9pfa+Y3veoEXaqWpwc+gC8DC/AjTGq86WovZypg=
+X-Forefront-Antispam-Report-Untrusted: CIP:69.174.83.186;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31620200002)(3000300001)(1060300003)(438002)(359002)(13734003)(349900001)(199003)(349012);DIR:INB;SFP:;SCL:9;SRVR:CO2PR07MB554;H:m186.salsalabs.net;FPR:;SPF:Pass;PTR:m186.salsalabs.net;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB554;2:VCDtIV+C+0nBYcZUZkwLr89SDRVB0m4UjOTZr/VQdRNazA3gxYcMvqMrHbj+CsOVKX/5FTHbeDqr00xKCNRpnZybU4HQsFayWK5og8UVn3QY/+WPaAY2sepZkooaBhq41m6IKcPhZXgUMXuZVJlVha9riUzw1TA2BCbi0zKra3o=;3:mca0hl8lLhVx8c/L3UPNl8L+wDU5swKdyikLgtRSnXLht/GKvbNPPvX6tndorlDp+CHiserpg+PNCIKLQ9tPpQffccVsahe0NUyUXL2MV7rUdM4oQo6qwkBSDtg76MM9Jd1TLePTlf1Pq4Mzn58DHK58oLnBoFQ6ahBdlySBzvCNwJYCBIiZ/6fSufVmPcqEzJXfCCsDIe11by1CW3rb5FSk32GavKNZOOWjqUSd5VGnGd9GkMIW+1miN9GpNfNHlsrXvr6OigsQAZcoO+eca5xAmicWqVGQm0a1ChgwxM4C+QJ9Nu4cTN/oUHjJlZpqkfE3YmrcFY2eUsJZ3tdfo6JLXfS5RC2i4QORgU9/MfFMX8lbNZbb2ZpwXJnhv4KW;25:bne4OF2RS6rinvXp/kxwRSh3Jt3CpftDsgoYVs5mbi+Zl6TKnzmzDskO2PQC+sopgAktBXy6UBLFZuUWOFOdRmzSRUhi0fCqA7pqpCCmhD+Z69pP3TyufjHG8Kpsz4elBK1gvbcYWNCE3HjfORTOgzv3QReknMOZet8OkHcw+1G/bkw2LK5irUI+T8zhQwAo7EzKfKerKKLM6EOVjhayrRXpl+5GO9RB56Hg76Jme1/Z762E6xs8Eionf+Gijo0vvpDL0YR3XiPynWzt2Xeaqg==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam: UriScan:;BCL:6;PCL:0;RULEID:(421252001)(42134001)(42139001)(3001015)(3010001)(71701003)(71702001);SRVR:CO2PR07MB554;UriScan:;BCL:1;PCL:0;RULEID:(421252001)(42134001)(42139001)(3002015);SRVR:BLUPR07MB100;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB554;20:C7UyCt6iMNUnseXmyaZhNNSeXZizPWuCILC8SqwcfLnn6s0w2JoKETfZYNyjwYyJd1WKdJ30fhfL/PppatwzAwxCPgGr7/oE2uQTeoiVTvTrQzNdmA91DjBd6dZ+xuS+ecoPHwhxh7VfFEteXiqgDrBApnuI4efFSbsIXRXbwPQ=;4:0GM42EPrMEQe+8wgzaZX817B9fA7T6bL6WosvDUP8hbyTHZDfg0ZyMgcFWMPIMUTkFU5paH5JshdXEjrtyZ2zoR5sLLKjcgY7rVFfP0VrxIo2SEB7hw+oILcXPeBflE7+JciOn16+GXpDwCBLoh7+cFvlM3YJv6GSWF/b5pV+YQQY6fjl49fafaPXZuWVPPvxendRaQ1sCgrBOMOnO8lgkg9BJBUMVgEfXniPzIvc+N0xW4wlamk0SdqlMDplBhOUbPrJ41nFhBFh61ERea3lXZa3fmYs7Gsug7FLDc6ftNxZwqJo149ctK61ARY8o3bEMVcSxpQTOd2uKdkzTSLkZXDOwZZnMkJ9JBroNmNIcE=;23:1HzmadXDmXt+BPgyGSQB+r/tfQa/2qHHIhDm7nu7jTDvzSB/8r6L7eOKjc4mFLPujHP1If4ZBJcWSWl5gi5qyaVWoPMcIcCUDzugnh115ciMAVnySSx7SV33VQ+4xaHdep6lTRyOjVJ1earb1CjwBALfsQWfGVAqnxMUubemoBHg4Jrtr0IIKF7ZjPqwCLBL5NdOyLkcwzctntziketG5lnvz/k/himU8yijFCxJis7A3s2DBAvJZChua9Ug4DIdjehEfLyio9tFiRK0OtHT5g4I0jSTrYFyQzbeGwmaeXfkJdIbuxAa8/yO61DDCoq4ElJ/MAU+K24QpuhCJ80oO2QaCZn3JXf94wa4qa2yGTFr/Ts3RpCV5T4fU6iu/LcQ
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:6;PCL:0;RULEID:(601004)(2401047)(1201001)(8121501046)(520078)(3002001);SRVR:CO2PR07MB554;BCL:6;PCL:0;RULEID:;SRVR:CO2PR07MB554;BCL:1;PCL:0;RULEID:(601004)(2401047)(8121501046)(5005006)(1201001)(520078)(3002001);SRVR:BLUPR07MB100;BCL:1;PCL:0;RULEID:;SRVR:BLUPR07MB100;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB554;5:0dNk0r8q+3v6fCISwmTYPiDm9jkN4ZMELs9M8vim/iJ6zgukssXJmUXK5Cs7uUe93ew1nL5FiA9KUVyrGgRaoGyb2WD90SozyiKj04c76nMXewS3WCMIdSla61V+6/S9wuqMrLwASXtiLztiWzrPVA==;24:XlEAo51YuDlourfbi4E7OU4mKkNcMRox6te/WOiejPw5WX5hjdj3+bKyAVYJXkYq5pp7MqIFjNENX6bnoKDbxw==;20:Xno11WTECIGfywG8OTxIM4z7jZ2gC9NEFf/eBkb9DnG4HEs+PcPeeZGU0G+3i43Da6gNuwry4BHHjKoKxA/L6w==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB554
+X-OrganizationHeadersPreserved: CO2PR07MB554.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2FFO11FD046.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BY2FFO11FD046;1:jqPghCNR+ZrZkXRmL4YJXmYz7pz9SmRLqxJOEVY6qFgOqBjIaGWvTCEnoWp8znMH4SkL+GcyZR45H4uzNkr8TMA5buD10VWdb/M65scTdh5F6/FP+2yjdVoISujsvHflo9+RrehJFSIrNFM7mrqdF5KijLbEHdPTHgt0Gno891J9p3JyQSnc3MHVkFZgHP5Bo2GitRQOXCyCvzJ5pliOJ8iXRhVUUdo5rBzRhir8pZgzQEtCL1y2AcL78iXP9zyrpPbFxyjQa4HL7skEgLpkM2lJNdfKS4xO/oKBi/Ixc2PSVUkiueDxRsKBcpBkB7Rn2AVpsj9A/0cekViE/216z1SMQt++37gGKpTraReehU+rwegXv7nzGzWbwpuWk/iigOs78M6mhEcnCQVygx+oHYqHQGtx1NI2DdzzIEVqba8=
+X-Forefront-Antispam-Report: =?us-ascii?Q?CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(100?=
+ =?us-ascii?Q?09020)(1060300003)(2980300002)(1110001)(1109001)(339900001)(?=
+ =?us-ascii?Q?189002)(13734003)(199003)(6250500002)(960300001)(15187005004?=
+ =?us-ascii?Q?)(81156007)(68736005)(4001540100001)(1720100001)(18926415007?=
+ =?us-ascii?Q?)(4001450100002)(4001600100001)(104016004)(76482005)(9773600?=
+ =?us-ascii?Q?4)(85226003)(6260500002)(5001860100001)(146001)(6806005)(500?=
+ =?us-ascii?Q?1830100001)(88552001)(450100001)(11100500001)(2420400006)(95?=
+ =?us-ascii?Q?6001)(84236003)(2171001)(77156002)(19618635001)(104766002)(8?=
+ =?us-ascii?Q?7936001)(15974865002)(15975445007)(77096005)(62966003)(23510?=
+ =?us-ascii?Q?01)(110436001)(43066003)(47976999)(87572001)(73392002)(50986?=
+ =?us-ascii?Q?999)(81442002)(110486001)(5007970100001)(84326002)(84246003)?=
+ =?us-ascii?Q?(573324001)(46102003)(64706001)(107886002)(85426001)(1064660?=
+ =?us-ascii?Q?01)(4290100001)(229853001)(110136002)(5001960100002)(1958040?=
+ =?us-ascii?Q?5001)(18206015028)(53806999)(5002220100002)(19580395003)(512?=
+ =?us-ascii?Q?874002)(75432002)(54356999)(82202001)(567944001)(105606002)(?=
+ =?us-ascii?Q?19617315012)(7099028)(7029012)(42882004)(579004);DIR:OUT;SFP?=
+ =?us-ascii?Q?:1101;SCL:1;SRVR:BLUPR07MB100;H:mail.law.georgetown.edu;FPR:?=
+ =?us-ascii?Q?;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB100;2:BKJ/YTUjcL75KaovKdc7jNVJoE1L/LOSZbaXsRyaw+sr97ZMPGet0qk+qSskAHS8NLoNBRT4KZg7NWkF4CNNbsP6NEFS0xD8G2+k7znil5OQXIGLCwrPFbBHboiGvJOY2UUgZdjqAuSddO1F1af06DR9hkbTZE6xLIt4WNnQNWk=;3:kwn90h1FTtmT3e+eJfCGMkkQ7SPokkpu3PIEbRhCZJH90pfNDcsd+YLpZidBApvO3dMdHHqVP6hOKW9bBykYnWTBXxrpD9GGVruBk69PRYc8iQdgo/ciaTB42p8LqbyIeFsLlkCw4GJ/hdegX3U8kCWmDRk/wwrh6C/Yuk2LC6Ksjq3AC+c+ZYuifxUW4w36kT1OGhLAdEhSpUw4OBSS8nKLIh5oc5tjtFMBdsIDTIQe1trlbUQgWazjdEz2ZtoynvNu3uK4jhizWptMCxnUg2OR25z21o8RyzaQcC5i9jTm9gjXLraNa0PJ3Dpprsef;25:VnZ5EyJcPwQEts5hiR/FQ+ELvN9NQlpk2K5o54KOc+9cspa1XtDJ+e4WNgrX5qMinpAvblPAvM87OuP+gHxknyRIE/1uEy0tanFYXp0moCfuyyOCeaji7Oq1XKfWLnVLJwKGOzJn6IMLDhbPYUcBpNApW6AhGU6/FMbqR9NZsV0caCXTUhysRCaxdARZfDiyG1S5BpP8PxY76nojDrhGViinHuZAqfEAKta4kk9fRoGAjgb7Oxt5PJgMiUdwu0+GOK9GqueRc4Wmz7gAydqHXg==;20:6NlOD5DcWq4Ur4yHvFadQ06zztIRspiHpMzGSKeP5wSjx+eFZywu3Q+kW3cazNz8HP7v1mTIsrw+9h++QYgg9zNHZR8jAE7XT0JvptM+zE11kQNrTf5zPPCL/qWKgid1QecwjGRickpy8iug6st4PxZhtaMhq6gnn0UtnKtZ5mg=
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam-PRVS: <BLUPR07MB10052DF2C9EF9B921E1B0C893420@BLUPR07MB100.namprd07.prod.outlook.com>
+X-Microsoft-Exchange-Diagnostics: 1;BLUPR07MB100;4:i37KwB++3Jev7V3E7P/Lw3KjeF5XMyKzjklKPrRyj42x9cw69zrF90DLg5T3rZ/WX6BBvbLrmhsoJG45sDuwRCsjZ9H8zDPxrJ/BZfviBAZR0QDJ3Ram2sLemVNi29V/zXgHWphMCE87FBijcGhPcopzTpJ0SOiP5aaYm4PE0LnHuPxAIa7pGNQaxe3XiUt2MFHItdYOfSwRfd1VD7ar88kiOlEZW99YMlmRaKaMVZm0FtgWqHDbDOidqu+LXyEwzzOGgGoyoA5hVaflV4nJZVqOmmunpTnDjsiaUHHjVS6bl24MgwBkweY1vki5Xy2NBVzAFxRbMasiK98+xiJjzcMluXec1S3BFfT8CQMr1CI1KtMHv/kg8GkK28jsg8ib
+X-Forefront-PRVS: 07106EF9B9
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;BLUPR07MB100;23:DcaI5u/s2Po25lK0GTzdAO7Xg2Sm0KBwGpaH4HI0l3?=
+ =?us-ascii?Q?zjZnTjN5LeoE5N31aRpxiEgcY+fb3kkJmTquGeRG2PmduVkYF/4q04Z01Aev?=
+ =?us-ascii?Q?3+uhxdblaAE4BO4rnevSIOCxeCJbriabo2m52P8ItRM+qyjsy7AqRgPXV9Ey?=
+ =?us-ascii?Q?X7QGGlYtgO9QWbcNh4y08q/JcXidvvN7uDLBXEdpBKdBKvBNSR0UgBK3qyoB?=
+ =?us-ascii?Q?TSA4q2dWAM/cHwZaemiXHw1A7/ye8zQzHRehGTWViOwLcbpJRJMEdpauFqGS?=
+ =?us-ascii?Q?YVfNsMzohZ+oR9p4wk1Xmj3HhpPorg4ehvJejL4URg/aFyvQt8g2dpXpy0lJ?=
+ =?us-ascii?Q?chbH15jSMnMOQDfps+rvfLKmGrIQWrZ3oAkwTVSV1uKEfT3DolRM1Y+yhfVu?=
+ =?us-ascii?Q?EKiKLx63QchZ9qQP+ulyPgSah7c4NKZqVHeXG0RIW2o8dw/v1BgVqFTpBQEO?=
+ =?us-ascii?Q?sFX6CgMPixNLNw+AlzoUyYcu7pv4lHZoUqsNV0qZgDd950eJr5vILdKhdAls?=
+ =?us-ascii?Q?MHzEV9Lkv7qbKWoHAxqMWI4P/a3AqOpXD7oHJn8sSUbNq58wMqBEd/GY5mOz?=
+ =?us-ascii?Q?ee0JurTUvOQwvEiQG9SbVc2AOFmtfDtLx/BkGLuJreOjq0seGbF8VumN2kLQ?=
+ =?us-ascii?Q?VoQ7jl1dVqgjeoHVaGVQNshcFalXMgKf9ZOAdhK1h3lBxpLu53k8eMW/DjLQ?=
+ =?us-ascii?Q?o3WQjvgGFTuae0e8ywpq3c6zpXQNj6Uy7NghQonFch9n8Zuk5Av6JTUX8JIs?=
+ =?us-ascii?Q?y3vSHwBcaycKm+Yg+RmVrUeR4KK8l6WWF2U6gaiV1TwaVxW22qjmp7r6hUUk?=
+ =?us-ascii?Q?NXLTk0pNR6Wy0K3sNZKFcCqCEBTcSHhNtr5vSOK0pUMQ3d2tuUt1GYT6XsUP?=
+ =?us-ascii?Q?TfW8+tjt0ftDWG9jxJ6xJB2IVNiJvUi5qvZhrgSHcGs+AvOX9ZqTrwoSlKoZ?=
+ =?us-ascii?Q?fCVgp5wutIpAweKcTvIlvSqz5Ai1lz0buRA9iAViEMqUxYVlP9V9PV33PHtY?=
+ =?us-ascii?Q?jTwJ1BhGjFxNeG/Fam11pV3QUBaoAY1LGnH7qWG8zf35HZpgB1EpiYkDlJ+9?=
+ =?us-ascii?Q?ogZ6lsGWK9+qp2PJMscU7rX/ns5FrxIHH1ybDcsFWVcDlCeRhLE6alDcoN/R?=
+ =?us-ascii?Q?Hq7BevxODuhlH1DziY6yYMwyoDBJfboZgX0rZDQVxm8mxr2YOdTqYlMi6eN+?=
+ =?us-ascii?Q?PZYDLzjhwzRSwK5ocFr06SnY6IQldbKivgoqR54dZLcovEUsQluSR45sYpb4?=
+ =?us-ascii?Q?p5MKyAdAAqQXU/cp85MflLu6NNkXUDZRn5y+QrzHyXKkrrjAp9kP+Dnp7b5a?=
+ =?us-ascii?Q?C71ZTf5+vtod454UdR4U6/5WGro3Z69o8XEtLvjoh0NtRNy3E5xgSfjWW+O2?=
+ =?us-ascii?Q?YrXbdOCfrQHNeB/Hljd8SWO0lQQIQxBDbANLlvM1ar621RN9Z+ZhsfcdxMWj?=
+ =?us-ascii?Q?LpFLBRLMoNHWbbkbYVIhkGb0tmjn9frqQthJYve3WPq0ukpNl+FvNvBFp+r5?=
+ =?us-ascii?Q?BGHp867bn6DzeiSRc5U1nWkbYjuollIUTfwqWwrXeHZ2lqSnNqzLdpoyTOAs?=
+ =?us-ascii?Q?ZAwq5YiufSRH7p50mANknaf/My5LaP3gViCSqjsrCbVvG90zBfKByfU3axmB?=
+ =?us-ascii?Q?ISdDLVsnLTAQ8BVdfau5TyNGiwIMYznTcKVFlhds8FhrIxd8n7GH1j60JE65?=
+ =?us-ascii?Q?zVuo7QNAiKpn0aVnU26816HQWpLZSBr8DrPrdDdherM4KDLaBI2j5Fa+hgo4?=
+ =?us-ascii?Q?kcPpKmw3T81qAUc3paat7ZzLMEnE3IV3u7LhjTi7dzQL0SsGhel999XUnMRM?=
+ =?us-ascii?Q?Hi8OEAshmDY8BZJRDPDdtxr4PvkE2Co2IQ1wYf9BN986lWO0MHY+eSUNZQYl?=
+ =?us-ascii?Q?3/m5YC2Aw5dRBu9CrgXgFuwuu7nt4jCQFrvJJFkBI6DRD9HA0pouOgpuFTbB?=
+ =?us-ascii?Q?yjueced5/y/Q1DEmUu5VvmMS1sDJikdYmbU6RMjXaZ9Z0tcFUAmmHenCqSJQ?=
+ =?us-ascii?Q?9tlqI/Pbf6JO2DLWLFjMSkgtsRNBdwDCMO65b8guanZYKnqb3jJW1+QEkeKm?=
+ =?us-ascii?Q?9ZEcM=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;BLUPR07MB100;5:/40yCbn0t4OBlb0ZghGlaEQJOk/FyUgW6a/lnbOGRI/TWk/SVoFJTeNhitjidAf+ItJ5so/pM5V6RxsEux2HccEohGeNgvfobgu1uKboPsN12eb59sg6LOCDIU0a81xG2X3C+BQ9HumQAurotvHkGQ==;24:Xca2aRaCWLCi94cvyDvJ5o0Qk6XFPQfKH/wRztOjKmZwmAY8BUWN0EUA6uldUL/5oon9jp7xQG43wGpiIZFcroODaEVUAmPU240/f8DDpv0=;20:CoBgNb1y33BPFuC4tW+ojfutwhyBEthdgqTgW3+rRB2JwmAtOQ37Wuwj3VnnpKHbw7TNxHTyQ9wIcZagNBA7Ag==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 1
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 25 Sep 2015 01:09:27.7739
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB100
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB657;2:d7ZkGvCGAxxtVmuSvrnR9BebgIpqLY86uh4ReIJ4XSjWBaXKpTywTGEwyEXVZVVuqKmZJTvReYhpJfwrF2qKjrFTJ3yRd8IfMjyTryUvOoTPhMg9xRsmkBaLkwZghgJhkHelrSsVg9RYb1Rap37e+kNNTtFAunn7n95/Bto4U2g=;23:AqU0/QC+SwzCRlzOqL1WzCtOB/WgZv1IlBiAsri0AWuHxBzTcscti/b0p3SSJr1d/nJAkvruhviTDTfvXcelABw9fFBa9iJ9uzU22GZUMRvRcGk1HW0ww179QAIz7D1ZvzZiiIR5DIyatkvg4IjtZHY49gyW24lw1E7hSbTaJXpboQmlKo/CqxibfbS3vmPQ
+X-OriginatorOrg: law.georgetown.edu
+
+------=_Part_8186742_1194867653.1443143358236
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+You can read this on line at :http://www.tikkun.org/nextgen/challenge-the-m=
+edia-trivialization-of-the-popes-radical-message [ http://www.tikkun.org/ne=
+xtgen/challenge-the-media-trivialization-of-the-popes-radical-message ] . I=
+t also appeared on Rabbi Lerner's column on the home page of The Huffington=
+ Post yesterday, September 23.=20
+
+
+
+*Save the Pope's Radical Prophetic Message from Media Trivialization*=20
+
+By Rabbi Michael Lerner=20
+
+=20
+
+The recent national conference of the Religion Newswriters Association in P=
+hiladelphia focused on preparing the several hundred media attendees for ho=
+w to cover the Pope's visit to the U.S. this week. But in panel after panel=
+, we were presented with leaders of the Catholic Church who were unsympathe=
+tic to the Pope's message. Too smart to directly critique the Pope, in sess=
+ion after session they presented a single message: the "real story" about P=
+ope Francis is what a great guy he is, how caring he is personally for the =
+poor and the downtrodden. The Pope, they insisted, has no politics-he's abo=
+ve politics and only a humble servant of Jesus.=20
+
+=20
+
+      Apparently the right-wingers in the Church hope that the media doesn'=
+t know that Jesus himself was a revolutionary with a powerful call to chall=
+enge the way official Judaism at that time, represented by the priests of t=
+he Temple, had become assimilated to the values of the Roman occupiers of J=
+udea rather than articulators of the prophetic message of the Torah to "lov=
+e the stranger" and pursue justice and caring for all. And for an America's=
+ corporate media, which often obscures the environmental destructiveness an=
+d human suffering that global capitalism has wrought for the contemporary w=
+orld, the path to turn attention away from the Pope's critique of capitalis=
+m is to lionize him in precisely the trivializing way that his detractors i=
+n the Church recommend.=20
+
+=20
+
+          Few Americans realize that the Pope's recent encyclical on the en=
+vironment is one of the most articulate and accessible presentations of why=
+ there is scant chance to avoid environmental disaster unless we radically =
+transform our global economic and political order.=20
+
+=20
+
+          The Pope insists that the worldview popularized by global capital=
+ism is deeply misguided. It is not only that our global economy has produce=
+d a huge gap between the wealth of the few and the well-being of many, but =
+that its promotion of endless growth, and the consumption of more and more =
+of the earth's resources to satisfy advertising-generated consumer desires,=
+ is a major element in the deepening environmental crisis. This economy is,=
+ as Pope Francis says in his encyclical letter "Laudato Si," based "on the =
+lie that there is an infinite supply in the earth's goods and this leads to=
+ the planet being squeezed dry beyond every limit."An ethical standard must=
+ be introduced into the way we organize our economy. Tehchnological product=
+s are not morally neutral, the Pope tells us, "for they create a framework =
+which ends up conditioning lifestyles and shaping social possiblities along=
+ the lines dictated by the interests of certain powerful groups. Decisions =
+that may seem purely instrumental are in reality decisions about the kind o=
+f society we want to build."=20
+
+=20
+
+      The depth of the Pope's environmental critique stand in stark contras=
+t not only to the Republican parties denial of global warming, but also to =
+the shallow environmentalism that pervades much of the liberal and progress=
+ive culture. Many well-intentioned Americans who care deeply about the Eart=
+h channel that caring into small acts in their personal lives like recyclin=
+g, installing solar panels, eating organic food, and challenging local mani=
+festations of corporate irresponsibility like fracking in their neighborhoo=
+ds, yet give little attention to demanding a comprehensive transformation o=
+f the larger economic forces that are destroying the planet. National envir=
+onmental organizations mostly avoid any mention of the way the environmenta=
+l crisis disproportionately impacts on the global poor and powerless, much =
+less challenging the shared rhetoric of both major political parties that "=
+growth" is progress and that being the most economically and militarily pow=
+erful force in the world should be the goal of public policy, rather than t=
+he most caring society in the world-caring for everyone on the planet and c=
+aring for the Earth.=20
+
+=20
+
+      Environmentalists instead ought to be embracing the Pope's message an=
+d endorsing the ESRA-the Environmental and Social Responsibility Amendment =
+to the U.S. Constitution. The ESRA not only calls for public financing of a=
+ll elections and banning all other monies (not just corporate, but anyone's=
+ money) from elections, but also requires the major corporations (any whose=
+ income is above $50 million a year) to get a new corporate charter once ev=
+ery five years which would only be granted to those that can prove a satisf=
+actory history of environmental and social responsibility to a jury of ordi=
+nary citizens who would hear testimony on that corporation's environmental =
+and social responsibility from people around the globe who have been impact=
+ed by its products, services, employment and investment practices.=20
+
+=20
+
+        This is only a first step in what if would mean to take the Pope se=
+riously. While he himself may wish to not appear too confrontational (he al=
+ready reportedly told reporters that he was not a left-winger), he probably=
+ also meant what we at our Network of Spiritual Progressives mean with simi=
+lar points-that the Left has historically been so religio-phobic and unwill=
+ing to talk about love of the stranger and "awe and wonder at the grandeur =
+of the universe" (supposedly too flaky) that it's hard for spiritual people=
+ to feel that they are welcome in the Left. And then there is the tendency =
+of many on the Left to focus on the 5% they disagree with in others' perspe=
+ctives, rather than the 95% they agree with. But our task is to not let tha=
+t obscure the radical message that the Pope has sent out to the world.=20
+
+          Recognizing the Pope's prophetic role at this historical moment d=
+oesn't mean that we can't also urge him to rethink the Church's stance on w=
+omen, on homosexuals, on abortion, and on birth control. We at Tikkun have =
+gently rebuked him on these issues. The contradiction between his message f=
+or social justice and saving the planet and his refusal to change the Vatic=
+an's persistent attempts to prevent governments from funding birth control =
+is something he could change without abandoning the notion that the fetus i=
+s sacred. Those who believe themselves to be without contradictions in thei=
+r own practices and belief systems can throw the first criticisms. We at Ti=
+kkun are a bit more humble than that. Yes, there are parts of what he suppo=
+rts that I think need to be changed. But we also recognize  the context of =
+his situation--dealing with a Church of a billion people who have been for =
+centuries stuck in these patriarchal directions and worldviews.=20
+
+=20
+
+We don't have to stop critiquing those aspects of the Church in order to em=
+brace this Pope as *one of the most significant prophetic spiritual progres=
+sives alive on the planet*, a true brother and amazingly influential ally, =
+ if slightly flawed (like all of us are in various ways). So we at Tikkun m=
+agazine cheer on his important thinking on the environment, poverty and the=
+ need to overcome the dynamics of global capitalism and the culture it has =
+promoted,  and do what we can to bring his radical message to the attention=
+ of a society whose media are already hearing a trivialization of the Pope'=
+s message as they try to transform him into the world's latest momentary ce=
+lebrity.=20
+
+=20
+
+0 0 1 1306 6574 Tikkun 96 17 7863 14.0 Normal 0 false false false EN-US JA =
+X-NONE /* Style Definitions */ table.MsoNormalTable {mso-style-name:"Table =
+Normal"; mso-tstyle-rowband-size:0; mso-tstyle-colband-size:0; mso-style-no=
+show:yes; mso-style-priority:99; mso-style-parent:""; mso-padding-alt:0in 5=
+.4pt 0in 5.4pt; mso-para-margin:0in; mso-para-margin-bottom:.0001pt; mso-pa=
+gination:widow-orphan; font-size:10.0pt; font-family:Cambria;}=20
+
+Rabbi Michael Lerner is editor of Tikkun magazine which won, for the second=
+ time in a row, the "Best Magazine of the Year" Award from the mainstream m=
+edia's Religion Newswriters Association in August 2015. The ESRA he mention=
+s can be read at www.tikkun.org/esra [ http://www.tikkun.org/esra ]. Lerner=
+ is rabbi of Beyt Tikkun synagogue in Berkeley, Ca. and author of the natio=
+nal best seller The Left Hand of God: Taking Back our Country from the Reli=
+gious Right (HarperCollins, 2006). He welcomes contact with potential allie=
+s: RabbiLerner.tikkun@gmail.com
+
+
+
+
+
+
+****************************************************************
+You are receiving this email because you signed up for TikkunMail or NSPMai=
+l through our web site or at one of our events.=20
+Click the link below to unsubscribe (or copy and paste it into your browser=
+ address window):
+
+http://org.salsalabs.com/o/525/unsubscribe.jsp?Email=3DPodesta@Law.Georgeto=
+wn.Edu&email_blast_KEY=3D1330249&organization_KEY=3D525
+
+If you have trouble using the link, please send an email message to natalie=
+@tikkun.org
+------=_Part_8186742_1194867653.1443143358236
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html dir=3D"ltr">
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <table width=3D"640" align=3D"center">
+            <tbody>
+                <tr>
+                    <td><img src=3D"https://org.salsalabs.com/o/525/images/=
+tikkun_banner_plain.jpg" alt=3D"" />
+                    <div id=3D"inline_nsp_text"><!-- TemplateBeginEditable =
+name=3D"content" --><p class=3D"MsoNormal"></p>
+<p class=3D"MsoNormal">You can read this on line at :http://<a href=3D"http=
+://org.salsalabs.com/dia/track.jsp?v=3D2&c=3DDySQzVueVxNG7r2GtpCz8v60BbzbkQ=
+tH">www.tikkun.org/nextgen/challenge-the-media-trivialization-of-the-popes-=
+radical-message</a>&#160; . It also appeared on Rabbi Lerner's column on th=
+e home page of The Huffington Post yesterday, September 23.</p>
+<p class=3D"MsoNormal"></p>
+<p class=3D"MsoNormal"><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"font-size:18.0pt;mso-bidi-font-size:12.0pt">Save the Pope&rsquo;s Radic=
+al Prophetic Message from Media Trivialization<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;mso-bidi-font-size:1=
+2.0pt">By Rabbi Michael Lerner<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;mso-bidi-font-size:1=
+2.0pt"><o:p>&#160;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt">The recent national conference of the Religion Newswriters Associati=
+on in Philadelphia focused on preparing the several hundred media attendees=
+ for how to cover the Pope&rsquo;s visit to the U.S. this week. But in pane=
+l after panel, we were presented with leaders of the Catholic Church who we=
+re unsympathetic to the Pope&rsquo;s message. Too smart to directly critiqu=
+e the Pope, in session after session they presented a single message: the &=
+ldquo;real story&rdquo; about Pope Francis is what a great guy he is, how c=
+aring he is personally for the poor and the downtrodden. The Pope, they ins=
+isted, has no politics&mdash;he&rsquo;s above politics and only a humble se=
+rvant of Jesus.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><o:p>&#160;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><span style=3D"mso-spacerun:yes">&#160;&#160;&#160;&#160;&#160;&#160=
+; </span>Apparently the right-wingers in the Church hope that the media doe=
+sn&rsquo;t know that Jesus himself was a revolutionary with a powerful call=
+ to challenge the way official Judaism at that time, represented by the pri=
+ests of the Temple, had become assimilated to the values of the Roman occup=
+iers of Judea rather than articulators of the prophetic message of the Tora=
+h to &ldquo;love the stranger&rdquo; and pursue justice and caring for all.=
+ And for an America&rsquo;s corporate media, which often obscures the envir=
+onmental destructiveness and human suffering that global capitalism has wro=
+ught<span style=3D"mso-spacerun:yes">&#160; </span>for the contemporary wor=
+ld, the path to turn attention away from the Pope&rsquo;s<span style=3D"mso=
+-spacerun:yes">&#160; </span>critique of capitalism is to lionize him in pr=
+ecisely the trivializing way that his detractors in the Church recommend.<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><o:p>&#160;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><span style=3D"mso-spacerun:yes">&#160;&#160;&#160;&#160;&#160;&#160=
+;&#160;&#160;&#160;&#160; </span>Few Americans realize that the Pope&rsquo;=
+s recent encyclical on the environment is one of the most articulate and ac=
+cessible presentations of why there is scant chance to avoid environmental =
+disaster unless we radically transform our global economic and political or=
+der. <o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><o:p>&#160;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><span style=3D"mso-spacerun:yes">&#160;&#160;&#160;&#160;&#160;&#160=
+;&#160;&#160;&#160;&#160; </span>The Pope insists that the worldview popula=
+rized by global capitalism is deeply misguided. It is not only that our glo=
+bal economy has produced a huge gap between the wealth of the few and the w=
+ell-being of many, but that its promotion of endless growth, and the consum=
+ption of more and more of the earth&rsquo;s resources to satisfy advertisin=
+g-generated consumer desires, is a major element in the deepening environme=
+ntal crisis. This economy is, as Pope Francis says in his encyclical letter=
+ &ldquo;Laudato Si,&rdquo; based &ldquo;on the lie that there is an infinit=
+e supply in the earth&rsquo;s goods and this leads to the planet being sque=
+ezed dry beyond every limit.&rdquo;An ethical standard must be introduced i=
+nto the way we organize our economy. Tehchnological products are not morall=
+y neutral, the Pope tells us, &ldquo;for they create a framework which ends=
+ up conditioning lifestyles and shaping social possiblities along the lines=
+ dictated by the interests of certain powerful groups. Decisions that may s=
+eem purely instrumental are in reality decisions about the kind of society =
+we want to build.&rdquo;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><o:p>&#160;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><span style=3D"mso-spacerun:yes">&#160;&#160;&#160;&#160;&#160;&#160=
+; </span>The depth of the Pope&rsquo;s environmental critique stand in star=
+k contrast not only to the Republican parties denial of global warming, but=
+ also to the shallow environmentalism that pervades much of the liberal and=
+ progressive culture. Many well-intentioned Americans who care deeply about=
+ the Earth channel that caring into small acts in their personal lives like=
+ recycling, installing solar panels, eating organic food, and challenging l=
+ocal manifestations of corporate irresponsibility like fracking in their ne=
+ighborhoods, yet give little attention to demanding a comprehensive transfo=
+rmation of the larger economic forces that are destroying the planet. Natio=
+nal environmental organizations mostly avoid any mention of the way the env=
+ironmental crisis disproportionately impacts on the global poor and powerle=
+ss, much less challenging the shared rhetoric of both major political parti=
+es that &ldquo;growth&rdquo; is progress and that being the most economical=
+ly and militarily powerful force in the world should be the goal of public =
+policy, rather than the most caring society in the world&mdash;caring for e=
+veryone on the planet and caring for the Earth. <o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><o:p>&#160;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><span style=3D"mso-spacerun:yes">&#160;&#160;&#160;&#160;&#160;&#160=
+; </span>Environmentalists instead ought to be embracing the Pope&rsquo;s m=
+essage and endorsing the ESRA&mdash;the Environmental and Social Responsibi=
+lity Amendment to the U.S. Constitution. The ESRA not only calls for public=
+ financing of all elections and banning all other monies (not just corporat=
+e, but anyone&rsquo;s money) from elections, but also requires the major co=
+rporations (any whose income is above $50 million a year) to get a new corp=
+orate charter once every five years which would only be granted to those th=
+at can prove a satisfactory history of environmental and social responsibil=
+ity to a jury of ordinary citizens who would hear testimony on that corpora=
+tion&rsquo;s environmental and social responsibility from people around the=
+ globe who have been impacted by its products, services, employment and inv=
+estment practices. <o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><o:p>&#160;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><span style=3D"mso-spacerun:yes">&#160;&#160;&#160;&#160;&#160;&#160=
+;&#160;&#160; </span>This is only a first step in what if would mean to tak=
+e the Pope seriously. While he himself may wish to not appear too confronta=
+tional (he already reportedly told reporters that he was not a left-winger)=
+, he probably also meant what we at our Network of Spiritual Progressives m=
+ean with similar points&mdash;that the Left has historically been so religi=
+o-phobic and unwilling to talk about love of the stranger and &ldquo;awe an=
+d wonder at the grandeur of the universe&rdquo; (supposedly too flaky) that=
+ it&rsquo;s hard for spiritual people to feel that they are welcome in the =
+Left. And then there is the tendency of many on the Left to focus on the 5%=
+ they disagree with in others&rsquo; perspectives, rather than the 95% they=
+ agree with. But our task is to not let that obscure the radical message th=
+at the Pope has sent out to the world.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><span style=3D"mso-spacerun:yes">&#160;&#160;&#160;&#160;&#160;&#160=
+;&#160;&#160;&#160;&#160; </span>Recognizing the Pope&rsquo;s prophetic rol=
+e at this historical moment doesn&rsquo;t mean that we can&rsquo;t also urg=
+e him to rethink the Church&rsquo;s stance on women, on homosexuals, on abo=
+rtion, and on birth control. We at Tikkun have gently rebuked him on these =
+issues. The contradiction between his message for social justice and saving=
+ the planet and his refusal to change the Vatican&rsquo;s persistent attemp=
+ts to prevent governments from funding birth control is something he could =
+change without abandoning the notion that the fetus is sacred. Those who be=
+lieve themselves to be without contradictions in their own practices and be=
+lief systems can throw the first criticisms. We at Tikkun are a bit more hu=
+mble than that. Yes, there are parts of what he supports that I think need =
+to be changed. But we also<span style=3D"mso-spacerun:yes">&#160; </span>re=
+cognize <span style=3D"mso-spacerun:yes">&#160;</span>the context of his si=
+tuation--dealing with a Church of a billion people who have been for centur=
+ies stuck in these patriarchal directions and worldviews. <o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt"><o:p>&#160;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:16.0pt;mso-bidi-font-size:1=
+2.0pt">We don&rsquo;t have to stop critiquing those aspects of the Church i=
+n order to embrace this Pope as <b style=3D"mso-bidi-font-weight:normal">on=
+e of the most significant prophetic spiritual progressives alive on the pla=
+net</b>, a true brother and amazingly influential ally, <span style=3D"mso-=
+spacerun:yes">&#160;</span>if slightly flawed (like all of us are in variou=
+s ways). So we at Tikkun magazine cheer on his important thinking on the en=
+vironment, poverty and the need to overcome the dynamics of global capitali=
+sm and the culture it has promoted, <span style=3D"mso-spacerun:yes">&#160;=
+</span>and do what we can to bring his radical message to the attention of =
+a society whose media are already hearing a trivialization of the Pope&rsqu=
+o;s message (with the exception of the NY Times and a very few other source=
+s) as they try to transform him into the world&rsquo;s latest momentary cel=
+ebrity. <o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;mso-bidi-font-size:1=
+2.0pt"><o:p>&#160;</o:p></span></p>
+<p><!--[if gte mso 9]><xml>
+<o:DocumentProperties>
+<o:Revision>0</o:Revision>
+<o:TotalTime>0</o:TotalTime>
+<o:Pages>1</o:Pages>
+<o:Words>1306</o:Words>
+<o:Characters>6574</o:Characters>
+<o:Company>Tikkun</o:Company>
+<o:Lines>96</o:Lines>
+<o:Paragraphs>17</o:Paragraphs>
+<o:CharactersWithSpaces>7863</o:CharactersWithSpaces>
+<o:Version>14.0</o:Version>
+</o:DocumentProperties>
+<o:OfficeDocumentSettings>
+<o:AllowPNG ></o:AllowPNG>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->  <!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:TrackMoves ></w:TrackMoves>
+<w:TrackFormatting ></w:TrackFormatting>
+<w:PunctuationKerning ></w:PunctuationKerning>
+<w:ValidateAgainstSchemas ></w:ValidateAgainstSchemas>
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF ></w:DoNotPromoteQF>
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>JA</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables ></w:BreakWrappedTables>
+<w:SnapToGridInCell ></w:SnapToGridInCell>
+<w:WrapTextWithPunct ></w:WrapTextWithPunct>
+<w:UseAsianBreakRules ></w:UseAsianBreakRules>
+<w:DontGrowAutofit ></w:DontGrowAutofit>
+<w:SplitPgBreakAndParaMark ></w:SplitPgBreakAndParaMark>
+<w:EnableOpenTypeKerning ></w:EnableOpenTypeKerning>
+<w:DontFlipMirrorIndents ></w:DontFlipMirrorIndents>
+<w:OverrideTableStyleHps ></w:OverrideTableStyleHps>
+</w:Compatibility>
+<m:mathPr>
+<m:mathFont m:val=3D"Cambria Math" ></m:mathFont>
+<m:brkBin m:val=3D"before" ></m:brkBin>
+<m:brkBinSub m:val=3D"--" ></m:brkBinSub>
+<m:smallFrac m:val=3D"off" ></m:smallFrac>
+<m:dispDef ></m:dispDef>
+<m:lMargin m:val=3D"0" ></m:lMargin>
+<m:rMargin m:val=3D"0" ></m:rMargin>
+<m:defJc m:val=3D"centerGroup" ></m:defJc>
+<m:wrapIndent m:val=3D"1440" ></m:wrapIndent>
+<m:intLim m:val=3D"subSup" ></m:intLim>
+<m:naryLim m:val=3D"undOvr" ></m:naryLim>
+</m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState=3D"false" DefUnhideWhenUsed=3D"true"
+DefSemiHidden=3D"true" DefQFormat=3D"false" DefPriority=3D"99"
+LatentStyleCount=3D"276">
+<w:LsdException Locked=3D"false" Priority=3D"0" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Normal" ></w:LsdException=
+>
+<w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"heading 1" ></w:LsdExcept=
+ion>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"he=
+ading 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"he=
+ading 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"he=
+ading 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"he=
+ading 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"he=
+ading 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"he=
+ading 7" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"he=
+ading 8" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"he=
+ading 9" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 1" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 2" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 3" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 4" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 5" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 6" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 7" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 8" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 9" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"0" Name=3D"header" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"0" Name=3D"footer" ></w:LsdExc=
+eption>
+<w:LsdException Locked=3D"false" Priority=3D"35" QFormat=3D"true" Name=3D"c=
+aption" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"10" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Title" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"0" Name=3D"Default Paragraph F=
+ont" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"11" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtitle" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"22" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Strong" ></w:LsdException=
+>
+<w:LsdException Locked=3D"false" Priority=3D"20" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Emphasis" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"59" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Table Grid" ></w:LsdException>
+<w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" Name=3D"Placehold=
+er Text" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"1" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"No Spacing" ></w:LsdExcep=
+tion>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Shading" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light List" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Grid" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Dark List" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful List" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 1" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 1" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" Name=3D"Revision"=
+ ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"34" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"List Paragraph" ></w:LsdE=
+xception>
+<w:LsdException Locked=3D"false" Priority=3D"29" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Quote" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"30" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Quote" ></w:LsdEx=
+ception>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 1" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 1" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 2" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 2" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 2" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 2" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 3" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 3" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 3" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 3" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 4" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 4" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 4" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 4" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 5" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 5" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 5" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 5" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light List Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 6" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 6" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 6" ></w:LsdExcepti=
+on>
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 6" ></w:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"19" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Emphasis" ></w:Lsd=
+Exception>
+<w:LsdException Locked=3D"false" Priority=3D"21" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Emphasis" ></w:Ls=
+dException>
+<w:LsdException Locked=3D"false" Priority=3D"31" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Reference" ></w:Ls=
+dException>
+<w:LsdException Locked=3D"false" Priority=3D"32" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Reference" ></w:L=
+sdException>
+<w:LsdException Locked=3D"false" Priority=3D"33" SemiHidden=3D"false"
+UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Book Title" ></w:LsdExcep=
+tion>
+<w:LsdException Locked=3D"false" Priority=3D"37" Name=3D"Bibliography" ></w=
+:LsdException>
+<w:LsdException Locked=3D"false" Priority=3D"39" QFormat=3D"true" Name=3D"T=
+OC Heading" ></w:LsdException>
+</w:LatentStyles>
+</xml><![endif]-->  <!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin:0in;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-size:10.0pt;
+font-family:Cambria;}
+</style>
+<![endif]-->    <!--StartFragment-->                                       =
+     <!--EndFragment--></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:14.0pt;mso-bidi-font-size:1=
+2.0pt">Rabbi Michael Lerner is editor of Tikkun magazine which won, for the=
+ second time in a row, the &ldquo;Best Magazine of the Year&rdquo; Award fr=
+om the mainstream media&rsquo;s Religion Newswriters Association in August =
+2015. The ESRA he mentions can be read at <a href=3D"http://org.salsalabs.c=
+om/dia/track.jsp?v=3D2&c=3DnVXveIU2byQRtEKkHVLfSP60BbzbkQtH">www.tikkun.org=
+/esra</a>.<span style=3D"mso-spacerun:yes">&#160; </span>Lerner is rabbi of=
+ Beyt Tikkun synagogue in Berkeley, Ca. and author of the national best sel=
+ler The Left Hand of God: Taking Back our Country from the Religious Right =
+(HarperCollins, 2006). He welcomes contact with potential allies: RabbiLern=
+er.tikkun@gmail.com<o:p></o:p></span></p><!-- TemplateEndEditable --></div>
+                    <hr />
+                    <p><a href=3D"http://org.salsalabs.com/dia/track.jsp?v=
+=3D2&c=3DxOJW%2FAY%2BE4GzWDvTkpy39%2F60BbzbkQtH">Click here to unsubscribe<=
+/a><br />
+                    if you are having trouble unsubscribing <a href=3D"mail=
+to:kay@tikkun.org ">Click here</a></p>
+                    <p>Copyright 2015 Tikkun Magazine. Tikkun is a register=
+ed trademark. <br />
+                    2342 Shattuck Avenue, #1200<br />
+                    Berkeley, CA 94704<br />
+                    510-644-1200<br />
+                    Fax 510-644-1255</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    <div style=3D'text-align:center;'><a href=3D'http://www.salsalabs.com/?=
+email'><img alt=3D'empowered by Salsa' src=3D'https://hq.salsalabs.com/sals=
+a/images/SALSA_empowered_180x50_2.png' border=3D'0'/></a></div></body>
+</html><img width=3D1 height=3D1 src=3D"http://org.salsalabs.com/dia/TrackI=
+mage?key=3D3364170106"><diaEmailID=3D'3364170106' thread=3D11340 />
+------=_Part_8186742_1194867653.1443143358236--

@@ -1,0 +1,473 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp2508650lfb;
+        Wed, 25 Nov 2015 05:04:18 -0800 (PST)
+X-Received: by 10.98.72.134 with SMTP id q6mr31660629pfi.56.1448456658737;
+        Wed, 25 Nov 2015 05:04:18 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1on0055.outbound.protection.outlook.com. [157.56.110.55])
+        by mx.google.com with ESMTPS id wp3si1089396pab.160.2015.11.25.05.04.17
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 25 Nov 2015 05:04:18 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.55 as permitted sender) client-ip=157.56.110.55;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.55 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=neutral (body hash did not verify) header.i=@bounce.myngp.com
+Received: from BLUPR07CA0053.namprd07.prod.outlook.com (10.255.223.166) by
+ BY2PR07MB107.namprd07.prod.outlook.com (10.242.46.142) with Microsoft SMTP
+ Server (TLS) id 15.1.331.20; Wed, 25 Nov 2015 13:04:16 +0000
+Received: from BN1AFFO11FD012.protection.gbl (2a01:111:f400:7c10::109) by
+ BLUPR07CA0053.outlook.office365.com (2a01:111:e400:841::38) with Microsoft
+ SMTP Server (TLS) id 15.1.337.9 via Frontend Transport; Wed, 25 Nov 2015
+ 13:04:16 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.myngp.com;gmail.com; dmarc=none action=none
+ header.from=iowadailydemocrat.com;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.74;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ BN1AFFO11FD012.mail.protection.outlook.com (10.58.52.72) with Microsoft SMTP
+ Server (TLS) id 15.1.331.11 via Frontend Transport; Wed, 25 Nov 2015 13:04:15
+ +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (141.161.191.13)
+ by LAW-CAS1.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Wed, 25 Nov 2015 08:04:13 -0500
+Received: from BLUPR07CA0109.namprd07.prod.outlook.com (10.255.223.180) by
+ BLUPR07MB529.namprd07.prod.outlook.com (10.141.204.141) with Microsoft SMTP
+ Server (TLS) id 15.1.331.20; Wed, 25 Nov 2015 13:04:12 +0000
+Received: from BY2FFO11FD052.protection.gbl (2a01:111:f400:7c0c::145) by
+ BLUPR07CA0109.outlook.office365.com (2a01:111:e400:841::52) with Microsoft
+ SMTP Server (TLS) id 15.1.337.9 via Frontend Transport; Wed, 25 Nov 2015
+ 13:04:12 +0000
+Authentication-Results: spf=pass (sender IP is 192.82.209.214)
+ smtp.mailfrom=bounce.myngp.com; law.georgetown.edu; dkim=pass (signature was
+ verified) header.d=bounce.myngp.com;law.georgetown.edu; dmarc=none
+ action=none header.from=iowadailydemocrat.com;
+Received-SPF: Pass (protection.outlook.com: domain of bounce.myngp.com
+ designates 192.82.209.214 as permitted sender)
+ receiver=protection.outlook.com; client-ip=192.82.209.214;
+ helo=mailout850.ngpweb.com;
+Received: from mailout850.ngpweb.com (192.82.209.214) by
+ BY2FFO11FD052.mail.protection.outlook.com (10.1.15.189) with Microsoft SMTP
+ Server id 15.1.331.11 via Frontend Transport; Wed, 25 Nov 2015 13:04:11 +0000
+Return-Path: podesta@law.georgetown.edu
+DKIM-Signature: v=1; a=rsa-sha1; d=bounce.myngp.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; i=@bounce.myngp.com; t=1448456651;
+	h=Sender:From:Subject:List-Unsubscribe:Date:To:Reply-To:Message-ID:MIME-Version:
+	Content-Type;
+	bh=WCyaMsPuain5oOU0k6Pk43Fe1yI=;
+	b=8hDYyHh29YN8SAekmgjQQ1tgyzMJNqcLKvMkpUolgn2wL2D+KQUy9uf0wefINppd
+	Z9dHESvXyJWg4Ap/TSpTkrP4B/xyZKxE6z77qonAIW5WrsklmcuSxXRcd4pch+W+
+	cFojQQ4ldKuq18OhiihOEFYCvWYZX8GcH1kZaiFzJAU=;
+X-MSFBL: cG9kZXN0YUBsYXcuZ2VvcmdldG93bi5lZHVAbWFpbG91dDg1MEB3YXJtdXBkZWZh
+	dWx0QGJvdW5jZV8yMTAwMDAwMjM4OTI5NTkwX3BvZDI=
+Received: from [10.0.1.171] ([10.0.1.171:52274] helo=OBPROD12)	by nvmta03
+ (envelope-from <bounce_2100000238929590_pod2@bounce.myngp.com>)	(ecelerity
+ 3.6.3.44158 r(Platform:3.6.3.2)) with ESMTP	id 91/58-03442-BC1B5565; Wed, 25
+ Nov 2015 08:04:11 -0500
+Sender: =?UTF-8?B?SW93YSBEYWlseSBEZW1vY3JhdA==?= <bounce@bounce.myngp.com>
+X-Binding: warmupdefault
+Reply-To: <editor@iowadailydemocrat.com>
+From: Iowa Daily Democrat <editor@iowadailydemocrat.com>
+To: John Podesta <podesta@law.georgetown.edu>
+Message-ID: <25f1c8f7d7cc47f19cc91f1241c19fec@iowadailydemocrat.com>
+Date: Wed, 25 Nov 2015 08:04:11 -0500
+Subject: =?utf-8?B?R3Vlc3QgT3BpbmlvbjogSmVmZmVyc29uIOKAkyBtYWludGFpbiBhIOKAnFdhbGwgb2Y=?=
+	=?utf-8?B?IHNlcGFyYXRpb24gYmV0d2VlbiBjaHVyY2ggYW5kIHN0YXRl4oCd?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----C4CA9BE5860249D49D44F8463C6255CB"
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2FFO11FD052;1:f2Myn8DVsWZ3gXBQz13DU/Gmc0pfI6JLmnisSM6ERZOFU6Xbd89qk6Z/s64mpw9LHxccyRbbw6zGlpqgALCSMILeCKkfnycBeM4ByKMuv8U0y8pCXf/fkON8TmS7wflfJv0c0WQR2H7TupooTIJ1dhGXKSm2+gckf8sAjaKFh76X6QIHnQpHZrHKmBuTeVR+TXBaEXK7G8+Lgs6wxcE/pRWtSa5B91EsNlqmvkUkk3byga+jY7ugW3m/a5pN+TZ3W8NuKnLuAuSniuTkW3c2qx0oYvyzAa53e3cGt/arImYTZcR40J3l9Vp3gnLJ1m/I+D6u/IsGP3TJslGncFx3CH3PDGge8SQTqzj6plYIHDzQGYXTair5yyA+HOZqotUzzQBk5fdtQ0dOIRLxD8aj7Mjh7QlZb4ooSutSWaTHoW6Lx2wHP1qg2cxR1VzZrs7IKL2amtW/iOSfhaC/taa2yA==
+X-Forefront-Antispam-Report-Untrusted: CIP:192.82.209.214;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31640200002)(1100300003)(2980300002)(438002)(359002)(189002)(16204003)(199003)(111735001)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR07MB529;H:mailout850.ngpweb.com;FPR:;SPF:Pass;PTR:mailout850.ngpweb.com;MX:1;A:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB529;2:bV0Vu4LdaBLYDh7LevwCpfGIHkSvo6b0PWt8dIhhDH4ifq2BepBNmmMGmcuJkYXVj2fgngmMmwk3ry/wucXwZ1BM3KoG7AejSRtKQkYAISHESR8nVGShrAAbr+cgn2xkY7LNGQa7hpB5lfLOS7ehow==;3:xUTxU+Hs0LoPnnqxQQuNWpJVkYoy7dBtURWC17PYJEly8G5cH2s3yXkolG6DRvXvzy4W7EHecOiaeMyWu5Z7F+D2kHLrAhevOhsTAJdzPSFbLhNr9cywYkOcTZPMZHpejxMJkTpvoQQjPOoZOi8EXMQ0FGMmeGirR+m7A058SMSHmJlU2MpDNJLh+5sD0wAcHLJwY+L3y+4l6AoTA1WpBIOe2Klq+33GnCk2hgukIlwxEAMYFuLGSzTVHlK+uuNsK1LYqSuW9MJm+wQ79H7lxAqsWS5Fmi06ZlMbnsTg0Vu7ZZjBYYyyxEinKeS+/gO3VSEqPftUPrJ40bOWI2FkwU3YK5JM6EoahJyppH7r08Y=;25:8u4ceKlpcaycbZCdsRYtxhdPkWyGJYO3NzMQapMdZuROPTU7GKR3faLD6nSwRPK1M3e4phaUuczE0CpPGlnIvrfDv0jfMkZDwwSQyJwUfR4GleIhRr/rkP2qcVNXGzaMDSdartD4sXs6Tq2G/usB5bpT7HLx48PFPzwO5MDEFRz4MC3hBY3bQFhScCfSJ1VbFMC/sfXeqXyRhq3PxAe5dQVkjtayabTQZglM6GxExr3kLiNxer+b2atDwLMPkoYqMS9wHMGOYluqCRmA+csn/w==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(42134001)(42139001)(42145001)(3001015)(71701003)(71702001);SRVR:BLUPR07MB529;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB529;20:i9lzIrP2n+MaCDkY8DwOlNMH3ScNQxgzoTLiCzDCsWf3t/4Oy382GmmvxXXucoO8c+Xt6mqH2qtFZMzfFRAnfmxW7kBwKuyL1xDUks7kbCxqD/G40h8ErsAzCx0QLk1dR2yH+lT1A26ABp42Q0sT1lnz40CydupX/g7lDhue4qdgG7/DQYuQCJQWj7NaAwcNnLJsTO45Zvg7EzdoaEo1szCNcmhlti6ta5fFHwUM+cSWwGy+a9155CaeVkYAFGs4FinIkvc1He0a4eN0hE1LXSIweBBT3HnQDJfBwprApDSKprJnZfM+W7ZRiAkaa+nntFu3akEbxZuiSOwWgzkHEYC3/vJZAd3UvUggJNP71DMg6iWWc14oVmADsQFo1O02xI4AN0lS8F2faG8lOe6ZvDUgLwoi1EAFvV5kesQMa4w=;4:SV5gmUUCHoyHbHHqDaPHbBhkbRTekK3kf4mpWz39gu88xSw+DFl1b0/Fg7MxpuTXxBdDWXMgYtSniXi9AzE5/LVUxqWYPLREWpvWN3MSZkSCntQQv80krKgVyRKITV6LbozKneiSZgTlGAVtpvSUxizNMKyvvGQitjegeoQsSE3zse98PKuSIl9pFgbe9/VOWSGy58YHWq5PQaI5wI5srZ99Ra/YG2/hdOp17HdvveNL2DOAZHeJ+M+m1dL6l97/j2FsTh+gMmVAOSswXkzcE3XM3AcSUUKNEDGOYaoLQ0Gk3fJO2hBwq60P9Gd5YNBAd5KbMp8PqPKAwOD8K/gW73VFWOvFZi8/EfC0o7ilNhuZg1W8JxOviH1mHO2Zc1td
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(520078)(1601001)(8121501046)(3002001)(10201501046);SRVR:BLUPR07MB529;BCL:8;PCL:0;RULEID:;SRVR:BLUPR07MB529;BCL:6;PCL:0;RULEID:(601004)(2401047)(520078)(5005006)(8121501046)(3002001)(10201501046);SRVR:BY2PR07MB107;BCL:6;PCL:0;RULEID:;SRVR:BY2PR07MB107;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB529;23:84TTAuv6dXR1MjEvOt9CSrkMCLVUz4ghxNzHZZ3HPmMAGd0+GGSJID+K1CUMBJi7OOiykvJ0oPPT0MGtr786R92LkYhb2fwd4whdmOkSi4hpwy0TWPeb3dhiLHnsceMZB2gURhjTHnAprFp8L/6UTpXCxqw1aA7VY1vNV6issf6vhesRV2n7cCXmUV6GwKRNfu1T6trryoQWu+LiA0ky8K5hR5gla7ONJbE/kamBn2+gZopvLRhQfb+DrHOx6lUMpVShNC4hJbJyn6xUEtpnXfhBhbPcKLLzEaaQjueqmfyHJCwqHcoa1/5IFgkKNWuabO5kL886IYXslEe0WMEozmTF4Yger/F+FUc0Xt02/2/NTav5AgwqeadLD/EOsdm4xlQe+4hHaFtwBQLB1yeooSgumeedjqxZ6KF7D2RzBoA=;5:qRnxKqXT0u5ppvrAlycfgmnGDy+Iavrlk/K8rugyEa5l8cyV7rvCnmgxbrHn8OQ0mEpRtiFBoo4vc4iF0eZM5iaL0WzhRvqL60aNTjCi/Tjd3ahpxTgkvXsB8kOGvo2mF3L35yuf+9ayhkm1JwHTVQ==;24:gkmU5nNS+8K8ECKCPbUDdNWYB2Fx87mfy4mc+cCNeseEBXDltRqBDHcuPX8kql9FXoaxYSou9IC1eN5TS2PIew==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB529
+X-OrganizationHeadersPreserved: BLUPR07MB529.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS1.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD012.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD012;1:CYV8u2+V2Sl1ZAI7inPrVDh2zoohENg4jaMeuPA8bHHpO3ho/xh4KyMEGU07osv4g9aVSbKmrshPivGzOFZ9lzepi3OdHah8FNHAEsl9cG0Mprz0yn3MzOsKUbRyWOXIsiVI2E31vmB4lAwiVk4zbDa1CnathQWJbhSw9zqqrulVjzJqyPSqnkTzNA2TLunpvWUigXz6bYC5JgRQ8OuVrSN9bD8ueo7oE6uJTnXjXxEl8IuO7v+rDGXlrcRbhwkcs/bVrZwWLeBJrzLm0KKopo1cfo0nbKaW6ywVsBslfaqL7Wh0V6ZzAkjDA1J7M8dkEgYa9DQcwArJDLUT5CsGQbv1v4sy9WgOrmJYZplEcetercLJRFT62TP7CsNzpyBNepVJp58kdajaKgwadfko7+1chtSUUyaxDAOn1Th9gdzY+KhkIrs0AvVAvkzvKc+R
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(1100300003)(2980300002)(1109001)(1110001)(339900001)(111735001)(189002)(199003)(16204003)(19617315012)(43066003)(110486001)(22756006)(50986999)(19580395003)(11100500001)(18926405002)(97736004)(88552001)(6806005)(956001)(54356999)(110136002)(81156007)(36756003)(450100001)(5001960100002)(606003)(104766002)(229853001)(5002220100002)(33646002)(114696002)(960300001)(5007970100001)(22746007)(18206015028)(53806999)(107886002)(77096005)(5001920100001)(4290100001)(561944003)(104016004)(19622755009)(2171001)(85426001)(75432002)(15975445007)(24736003)(108616004)(512874002)(84326002)(106466001)(105606002)(4001450100002)(87936001)(7099028)(42882005)(79686003)(18200335002);DIR:OUT;SFP:1101;SCL:1;SRVR:BY2PR07MB107;H:mail.law.georgetown.edu;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR07MB107;2:KcQ6Bu5OC/A/SOJhpLXggTLKJeZFkWvsyqGhEQDPTBC/eQRMEKgBE83s/DS5XrNQhESJenxoyGEzjuHgNfemyYUbhPFPxX0RmN0cSS891W8C+FwohifjZrN6CHyO4GwzT2xFEm1BXSrPNS14chsnCA==;3:rtlubrClgP6ICwLEu31ITzTv1DCzfdsDYcWn0Y5Fc27HRpSzYAdXzlR6uZ0V5AT26Z4I852WXht4JHQHlKVdr4xNBmgPvre72Gwo7fpMqgtG1l73B/Pmq9ynm7h3CfvqRarSufL5GW3HnqU6AyGkVZD3k8K+i8DBznCgKU48YA5lhDfILKbGXWR5NNHQU2Vlvh2BmHDI9HXHZPt/PyYdRK0sAbEkKtOBFbYK16cL88I0+JgdaPHf5ExFLClDYjut9mFaHZFt3czjvY3xxyJvfRGdiRkqkWM/QswtitO2jNBhjhg8Oy8RPhrc9t/9iRTA;25:rL1v7J7RewvdFcTcHY47chsqbMHPo6eL2NddJhsXrzQTVR3NJio6USu1sX6BQRJ7RPhLF/cWgyI3Nc2f/khMCxh2Ms2kIZWoSCvoKevHn/8t3W1Z2/Th8zfXTPVs2F6YCbc/9EynGTeF4l4dY2KSyp53SkD3+HneaAjEhdp+auxnhdXZgzPL+zGWfZp86Seap6Hz6sJO5Pvwq/l7r/EkcrhI9Babrc95PiyQLnGuOBJZ/aaRd326QyMELCKfLseL5Kk+UuHWm4x54iHnWjosQw==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:6;PCL:0;RULEID:(42134001)(42139001)(42145001)(3002015);SRVR:BY2PR07MB107;
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR07MB107;20:WUFRVr2TiKMekRqoAxc04pAOnyROLmBOc3TO38xXxE7i7BU522PIibFWmmGFW3BeBAXqATUW7XpUa1LPdKSlToy2eFt1jxWD3iZ+/YfdpxtSc9FfSkRBroDOuZTDE4DRDpnykbArqi33lOCCDTdJi3BZdsKAFpsH+F2g8CUUj4w6yF90pVJTC0wSAZbqbGeo0lPXfyt4JuwkbUoNiadFsb2MjaDJ6qedsB82ThLOg69dU7b+7JzodUvCqEJLxQVuUoHYhdLE6QHjfB54131uxzaBW/WrJpcLTmhVFo+5+yQF72vDEHKwdq8dsLzB3aR5Q5LWiEfbsaqJSsGjIPCh4o40N+GtvNllTVvkxDsYknlszvlgfvy4ZSML2Il8oCy4UFH0KhT71aaalgOcdClT+KSavpvN/PD9AMiBP0GartE=;4:l2y42SzL7QxM3+hfR3z5STxfDXgAoy8rxjRRAH2i1XXsl7J+qsk7400LUqY4/9Fyq4A0fVK26V7I0aBSQE9zVXXnHyhnU9gYdUNxQVBPhp+nSSaLDZLdQWeQAiSwJynQZRi7SexSTsulkAJu+Q1Rf7rjh+zYtqAva3wuElbHTejqj4IBGIwBLJYf2izHYkOfcD40y8HopztbBsCH74z+Q4PnaUWScDQkfU+sy90msRfRj+fWawWmrTjdKiP/Be00gv3j/+uC6U2fwaaB3VwBVlWKmfHnxSGZB2LtlPHe2WZkXPcBWXp6Mvbq+3YusI4I0oLdVQ4Xj19/dy8ksV6z7jcgY9lgFZnugJJZtssi/keWVy+HWNEMTEfEChgF9Buo
+X-Microsoft-Antispam-PRVS:
+	<BY2PR07MB1070E107ABBB095F15B9B7993050@BY2PR07MB107.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 0771670921
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BY2PR07MB107;23:aWoSDXmbhQJXZohqS3VfZW0UK8dXUVw/VFMYRSmO34?=
+ =?us-ascii?Q?tGPewZ2TS0/crxfCchxkm1rCkf21RKN8wToTDF2vaoSiA9Rb24CtKy9ab72w?=
+ =?us-ascii?Q?fRi0xS/M9WYlvoH2fL84GQ7+4L6u1J2Wsv1NA5xd5hJ4N3DiUFFRWdBktjI2?=
+ =?us-ascii?Q?lwKZZhJGv9y4SF0t2SbGp1E+7yGIizTxKNelzr1Q9dMI/Ino7Xf6KaiICZIz?=
+ =?us-ascii?Q?l9gVPaSRd+2ErIYDirfw5fC7SjupTU+IjEKoNoERPza1b0qHTocU6yS6Je3k?=
+ =?us-ascii?Q?JnkBtuZW3Yjjgo6hsaOdnd8LAu9gnIGV7xcoK32W9JSsru93IqAWKUwrvP8a?=
+ =?us-ascii?Q?3Zo6S+Ubxu8xQOtQZbDjo8KxHPZ+yzkwLj2BBamaKbGnMPmDHerzTCuuEiLu?=
+ =?us-ascii?Q?gHj6kSgFOmZojHnPNDqMU70fjrQNj8BBFFHFk9gbMLBxGV2RQ/iM5bh578pS?=
+ =?us-ascii?Q?9HmocfWABSghKjAqZG6Y46apJqoxrKBur8E494fvdgBY5Vcwjw5xK39P/bWc?=
+ =?us-ascii?Q?68l1dD6RRIJ//1Uz9OUff/CnJf+qOFSRLE2mM58MpJJxHrJ21Bu1Ahd1e4Wi?=
+ =?us-ascii?Q?jbMbCrFuyceIAcxvXKGRtnKCXBltXpfDA/zzBZrr2MMnpdGuDKyy/84Dn3aK?=
+ =?us-ascii?Q?RlEDtv3SUrndAP0UgmqeSBA2p7Q4xOgn/ShuLft8a9UfEoEbRn1x4W5ppS01?=
+ =?us-ascii?Q?irz9dCobmoxaYLI5YeSlG8jEiMsALGa/jlXzZOLYFoCYqP2ONN2PJP67Pc75?=
+ =?us-ascii?Q?7CHO64RgBYc7NpEdrxO3+YjOhxGktkQxIGIb7XE73CvJMDRy8R6QNbWO4Y2P?=
+ =?us-ascii?Q?BoWH8DMCYrvDuR0HFv3e0C2TeEeTeYfwvR9Plul9IUat7R5XTwiPyQ+osCyW?=
+ =?us-ascii?Q?kS9ykXyEfwL1GaUqmjGvFZ2wIqXo59a6LgT10rP3M5jldg4Cf6wVaH/Kzi3K?=
+ =?us-ascii?Q?XLLACAkBbqEn9PAjv7n9Xy74V0JFT7Kj4ecG6eEMBMr9iFe7wD51p5BRVA79?=
+ =?us-ascii?Q?sQvHTJiu+hF7yy+fC206etVjtTJBPYVr3GEXIAUktVwW3itjr6F7bfBBK8XU?=
+ =?us-ascii?Q?wB2SDCk0054johSX/MNp3somUpG3HBK5P78RnMCBpcskSAUVLT0H+/2KBUoM?=
+ =?us-ascii?Q?/yKeBGafbhjYhA45UUxILpHMGSPD8Xdyu0/w9hA1Zd4rsUESjD2qFV4L1l+K?=
+ =?us-ascii?Q?plQzvCyvoRAzzJi0y0062r7dzEoiSntxW5/80k6eFxDkd4crgjRSVxIE3h/k?=
+ =?us-ascii?Q?DIsjC4ke+osdOnAiceVw/0pp/l8HPa/8vkpk/4UYsKwmkUqqW2LbWgAR6/sg?=
+ =?us-ascii?Q?gK90/dMl2qhD8UFQRdo3NY2xJYii5w77HV3BFBhJhu+nDC7x2nXCg6pl3zvD?=
+ =?us-ascii?Q?4EXhfiJm3FBR1bjqYQ97T2vytm3q3MexCtTDRP47h48U/01/KfevX/SA+OtZ?=
+ =?us-ascii?Q?10NPi2Bv3IDYmhgwa5LHM60Cjy+ErWxwdSMGC1xYdcW3j4kyQDFsHyTyBhyQ?=
+ =?us-ascii?Q?jkGaI7aLm8K5ZuIpqkblC0J04Rlpgg+MFEfVdjjTEMl2e4kBXPAtG6Ava3ya?=
+ =?us-ascii?Q?z5mNmJCmsywKNUxirNI2MR84jsX8YsK2NMhEw=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BY2PR07MB107;5:oGc5z7XKtyKJy3A8dcVq1FJ6JzOsrauGA9gOkgKoKdVO025PtHrIF9afKB62GHU2RZ7yRYAJt+d0UyY68A4k2p/O8dqRS+0ZNtQZrREkTUKx+UoaC8PJUU56hifVYDda447BA3aD8GOTY9MkEa3qpw==;24:f1YUqjyKTdvRrhxb/FRceNphvCXXvt5ylXPf9fCk5CftfN+2gHUpjatAY8v00NSCic151tcMJXK/XfJbUV+6wd7tQ9n258lvFhsWfii5GvA=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 25 Nov 2015 13:04:15.6840
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB107
+
+------C4CA9BE5860249D49D44F8463C6255CB
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Guest Opinion: Jefferson =E2=80=93 maintain a =E2=80=9CWall of separati=
+on between church and state=E2=80=9D
+
+Back in my days as a Des Moines Register reporter, I was assigned to fo=
+llow Republican presidential candidate Alan Keyes, the former Reagan ad=
+ministration diplomat, on the day of the 2000 Iowa caucuses=2E My usual=
+ beat was science and technology, not politics, but there were a lot of=
+ candidates that year=2E Since Keyes was considered a minor candidate, =
+I got to tail him=2E
+
+=C2=A0I followed Keyes as he appeared on a morning radio program, follo=
+wed him to the WHO-AM studios for an interview, and then tracked him as=
+ he visited Des Moines-area caucuses=2E I found him kind of charming=2E=
+ I had no opinion on his positions; as a reporter, that wasn=E2=80=99t =
+my job=2E But it was clear he was to the right of most Republicans in a=
+ field that included George W=2E Bush, Steve Forbes and Gary Bauer=2E
+
+Continue
+
+
+
+=C2=A0
+
+Guest Opinion: Chickenhawks =E2=80=93 Be Afraid!
+
+=C2=A0
+
+Guest Opinion: Consumers beware =E2=80=93 Read the fine print before yo=
+u sign
+
+=C2=A0
+
+Guest Opinion: The problem is madmen, not refugees or Muslims
+
+=C2=A0
+
+Conservative tax proposal draws fire for favoring wealthy Iowans
+
+
+
+=C2=A0
+
+
+=C2=A0
+
+Iowa Daily Democrat (=E2=80=9CIDD=E2=80=9D) is published by the Clarion=
+ News Service, LLC=2E (=E2=80=9CCNS=E2=80=9D)=2E =C2=A0Signed articles =
+in the IDD reflect the views and opinions of the author(s) and do not n=
+ecessarily represent those of the editor(s), the IDD, the Clarion News =
+Service, or its members=2E =C2=A0The claims and opinions set forth in p=
+aid advertisements published in CNS products are not necessarily those =
+of the editors, authors, the IDD, Clarion News Service, or its members =
+and CNS takes no responsibility for any such claim or opinion=2E =C2=A0=
+No information presented in CNS products should be relied on as advice =
+and/or counsel=2E =C2=A0CNS takes no responsibility for any user relyin=
+g on information provided by CNS products as advice and/or counsel=2E
+
+
+
+
+
+
+The Iowa Daily Democrat
+
+=C2=A0
+
+696 18th St=2E
+
+=C2=A0
+
+Des Moines, IA 50314
+
+=C2=A0
+
+
+
+You are receiving this email because you signed up for our daily newsle=
+tter, you have had direct contact with someone related to The Iowa Dail=
+y Democrat, or you were part of Jack Hatch for Governor=E2=80=99s conta=
+ct list=2E
+
+
+https://act=2Emyngp=2Ecom/el/-5330496791933286656/-6656585940486256896
+------C4CA9BE5860249D49D44F8463C6255CB
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div align=3D"center">
+=09<table cellspacing=3D"0" class=3D"backgroundTable" width=3D"100%">
+=09=09<tbody>
+=09=09=09<tr>
+=09=09=09=09<td align=3D"center" valign=3D"top">
+=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" id=3D"content=
+Table" style=3D"border: 0px none rgb(0, 0, 0); margin-top: 10px; width:=
+ 800px;" width=3D"600">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table align=3D"center" cellpadding=3D"20" c=
+ellspacing=3D"0" style=3D"width: 800px;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"right" style=3D"backgr=
+ound-color: #FFFFFF;border-top: 0px none #000000;border-bottom: 0px non=
+e #FFFFFF;text-align: center;padding: 0px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<a data-form-type=3D"" href=3D"h=
+ttps://act=2Emyngp=2Ecom/el/-5330496791933286656/-6584528346448328960">=
+<img alt=3D"IDD Header" height=3D"200" src=3D"https://d1kxpthy2j2ikk=2E=
+cloudfront=2Enet/Uploads/2021/images/idd-header=2Ejpg" style=3D"display=
+: block;   margin:0 auto;" width=3D"800" /></a></td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"width: 800px;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" class=3D"default=
+Text" style=3D"color: rgb(51, 51, 51); line-height: 150%; font-family: =
+Verdana; padding: 20px;" valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"text-align: center;"=
+>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a data-form-type=3D"" href=3D=
+"https://act=2Emyngp=2Ecom/el/-5330496791933286656/-6512470752410401024=
+"><img height=3D"649" width=3D"800" alt=3D"" src=3D"https://d1kxpthy2j2=
+ikk=2Ecloudfront=2Enet/Uploads/2021/images/IDD-11-25-15=2Ejpg" style=3D=
+" " /></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<h1 style=3D"margin-top: 0px; co=
+lor: rgb(86, 86, 86); font-size: 36px; margin-bottom: 18px; font-family=
+: Georgia, serif; line-height: 44px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a data-emb-href-display=3D":=
+//iowadailydemocrat=2Ecom/news/2015/07/in-the-center-ring-republicans-a=
+re-reeling-from-a-double-supreme-court-slap-down/" data-form-type=3D"" =
+href=3D"https://act=2Emyngp=2Ecom/el/-5330496791933286656/-651247075241=
+0401024" style=3D"text-decoration: none; transition: all 0=2E2s; -webki=
+t-transition: all 0=2E2s; color: rgb(65, 99, 126);" target=3D"_blank">G=
+uest Opinion: Jefferson &ndash; maintain a &ldquo;Wall of separation be=
+tween church and state&rdquo;</a></h1>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"box-sizing: border-b=
+ox; margin: 0px 0px 1rem; padding: 0px; color: rgb(40, 50, 55); font-fa=
+mily: adobe-caslon-pro, Georgia, Times, serif; font-size: 17=2E6px; lin=
+e-height: 26=2E4px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09Back in my days as a Des Moin=
+es Register reporter, I was assigned to follow Republican presidential =
+candidate Alan Keyes, the former Reagan administration diplomat, on the=
+ day of the 2000 Iowa caucuses=2E My usual beat was science and technol=
+ogy, not politics, but there were a lot of candidates that year=2E Sinc=
+e Keyes was considered a minor candidate, I got to tail him=2E</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<p class=3D"p1" style=3D"box-siz=
+ing: border-box; margin: 0px 0px 1rem; padding: 0px; color: rgb(40, 50,=
+ 55); font-family: adobe-caslon-pro, Georgia, Times, serif; font-size: =
+17=2E6px; line-height: 26=2E4px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span class=3D"s1" style=3D"b=
+ox-sizing: border-box;">&nbsp;</span><span class=3D"s1" style=3D"box-si=
+zing: border-box;">I followed Keyes as he appeared on a morning radio p=
+rogram, followed him to the WHO-AM studios for an interview, and then t=
+racked him as he visited Des Moines-area caucuses=2E I found him kind o=
+f charming=2E I had no opinion on his positions; as a reporter, that wa=
+sn&rsquo;t my job=2E But it was clear he was to the right of most Repub=
+licans in a field that included George W=2E Bush, Steve Forbes and Gary=
+ Bauer=2E</span></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"display: block; te=
+xt-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"https://act=2Emyng=
+p=2Ecom/el/-5330496791933286656/-6512470752410401024" style=3D"display:=
+ inline-block; padding: 10px 20px; text-decoration: none; text-transfor=
+m: uppercase; margin: 0 auto 25px; color: #FFF; font-size: 16px; backgr=
+ound-color: #41637e; line-height: 25px; font-family: Georgia, serif;">C=
+ontinue</a></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"display: block;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<hr />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09&nbsp;</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h3 style=3D"margin-top: 0px;=
+ color: rgb(85, 85, 85); font-weight: normal; font-size: 18px; line-hei=
+ght: 26px; margin-bottom: 16px; font-family: Georgia, serif; text-align=
+: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a data-emb-href-display=3D=
+"://iowadailydemocrat=2Ecom/news/2015/07/our-opinion-holiday-vetoes-by-=
+this-governor-he-is-sacrificing-our-future/" data-form-type=3D"" href=3D=
+"https://act=2Emyngp=2Ecom/el/-5330496791933286656/-6296297970296617216=
+" style=3D"text-decoration: none; transition: all 0=2E2s; color: rgb(65=
+, 99, 126);" target=3D"_blank">Guest Opinion: Chickenhawks &ndash; Be A=
+fraid!</a></h3>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09&nbsp;</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h3 style=3D"margin-top: 0px;=
+ color: rgb(85, 85, 85); font-weight: normal; font-size: 18px; line-hei=
+ght: 26px; margin-bottom: 16px; font-family: Georgia, serif; text-align=
+: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a data-form-type=3D"" hre=
+f=3D"https://act=2Emyngp=2Ecom/el/-5330496791933286656/-622424037625868=
+9280" style=3D"text-decoration: none; transition: all 0=2E2s; color: rg=
+b(65, 99, 126);" target=3D"_blank">Guest Opinion: Consumers beware &nda=
+sh; Read the fine print before you sign</a></h3>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09&nbsp;</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h3 style=3D"margin-top: 0px;=
+ color: rgb(85, 85, 85); font-weight: normal; font-size: 18px; line-hei=
+ght: 26px; margin-bottom: 16px; font-family: Georgia, serif; text-align=
+: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a data-emb-href-display=3D=
+"://iowadailydemocrat=2Ecom/news/2015/06/scotus-decision-marks-an-impor=
+tant-milestone-in-americas-the-health-care-debate/" data-form-type=3D""=
+ href=3D"https://act=2Emyngp=2Ecom/el/-5330496791933286656/-61521827822=
+20761344" style=3D"text-decoration: none; transition: all 0=2E2s; color=
+: rgb(65, 99, 126);" target=3D"_blank">Guest Opinion: The problem is ma=
+dmen, not refugees or Muslims</a></h3>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09&nbsp;</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h3 style=3D"margin-top: 0px;=
+ color: rgb(85, 85, 85); font-weight: normal; font-size: 18px; line-hei=
+ght: 26px; margin-bottom: 16px; font-family: Georgia, serif; text-align=
+: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a data-emb-href-display=3D=
+"://iowadailydemocrat=2Ecom/news/2015/06/guest-opinion-americans-must-a=
+ct-to-address-climate-consequences/" data-form-type=3D"" href=3D"https:=
+//act=2Emyngp=2Ecom/el/-5330496791933286656/-6080125188182833408" style=
+=3D"text-decoration: none; transition: all 0=2E2s; color: rgb(65, 99, 1=
+26);" target=3D"_blank">Conservative tax proposal draws fire for favori=
+ng wealthy Iowans</a></h3>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"display: block;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09&nbsp;</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<hr />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09&nbsp;</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<em style=3D"color: rgb(86=
+, 86, 86); font-family: Georgia, serif; font-size: 16px; line-height: 2=
+5px;">Iowa Daily Democrat (&ldquo;IDD&rdquo;) is published by the Clari=
+on News Service, LLC=2E (&ldquo;CNS&rdquo;)=2E &nbsp;Signed articles in=
+ the IDD reflect the views and opinions of the author(s) and do not nec=
+essarily represent those of the editor(s), the IDD, the Clarion News Se=
+rvice, or its members=2E &nbsp;The claims and opinions set forth in pai=
+d advertisements published in CNS products are not necessarily those of=
+ the editors, authors, the IDD, Clarion News Service, or its members an=
+d CNS takes no responsibility for any such claim or opinion=2E &nbsp;No=
+ information presented in CNS products should be relied on as advice an=
+d/or counsel=2E &nbsp;CNS takes no responsibility for any user relying =
+on information provided by CNS products as advice and/or counsel=2E</em=
+></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"left" class=3D"footerR=
+ow" style=3D"border-top: 0px none #FFFFFF;padding: 20px" valign=3D"top"=
+>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"footerText" style=3D=
+"font-size: 10px; color: rgb(255, 255, 255); line-height: 15px; font-fa=
+mily: Verdana; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"color:#000000;=
+">The Iowa Daily Democrat</span></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"footerText" style=3D=
+"font-size: 10px; color: rgb(255, 255, 255); line-height: 15px; font-fa=
+mily: Verdana; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09&nbsp;</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"footerText" style=3D=
+"font-size: 10px; color: rgb(255, 255, 255); line-height: 15px; font-fa=
+mily: Verdana; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"color:#000000;=
+">696 18th St=2E</span></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"footerText" style=3D=
+"font-size: 10px; color: rgb(255, 255, 255); line-height: 15px; font-fa=
+mily: Verdana; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09&nbsp;</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"footerText" style=3D=
+"font-size: 10px; color: rgb(255, 255, 255); line-height: 15px; font-fa=
+mily: Verdana; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"color:#000000;=
+">Des Moines, IA 50314</span></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"footerText" style=3D=
+"font-size: 10px; color: rgb(255, 255, 255); line-height: 15px; font-fa=
+mily: Verdana; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09&nbsp;</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"footerText" style=3D=
+"font-size: 10px; color: rgb(255, 255, 255); line-height: 15px; font-fa=
+mily: Verdana; text-align: center;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div align=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p class=3D"p1">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"color:#0=
+00000;"><span class=3D"s1">You are receiving this email because you sig=
+ned up for our daily newsletter, you have had direct contact with someo=
+ne related to The Iowa Daily Democrat, or you were part of Jack Hatch f=
+or Governor&rsquo;s contact list=2E</span></span></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p align=3D"center" class=3D"=
+unsubscribelink">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<span style=3D"color:#0000=
+00;"> <a href=3D"https://act=2Emyngp=2Ecom/el/-5330496791933286656/-665=
+6585940486256896" class=3D"unsubscribe-link">unsubscribe</a></span></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09</td>
+=09=09=09</tr>
+=09=09</tbody>
+=09</table>
+</div>
+<p>
+=09&nbsp;</p>
+<img src=3D'https://act=2Emyngp=2Ecom/el/-5330496791933286656/-79536226=
+33168959744' />
+------C4CA9BE5860249D49D44F8463C6255CB--

@@ -1,0 +1,592 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.68 with SMTP id r65csp168543lfr;
+        Wed, 7 Oct 2015 13:08:08 -0700 (PDT)
+X-Received: by 10.66.221.104 with SMTP id qd8mr3127086pac.155.1444248488833;
+        Wed, 07 Oct 2015 13:08:08 -0700 (PDT)
+Return-Path: <podesta+caf_=podesta=law.georgetown.edu@georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bon0085.outbound.protection.outlook.com. [157.56.111.85])
+        by mx.google.com with ESMTPS id pn2si60213022pac.121.2015.10.07.13.08.08
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 07 Oct 2015 13:08:08 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning podesta+caf_=podesta=law.georgetown.edu@georgetown.edu does not designate 157.56.111.85 as permitted sender) client-ip=157.56.111.85;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning podesta+caf_=podesta=law.georgetown.edu@georgetown.edu does not designate 157.56.111.85 as permitted sender) smtp.mailfrom=podesta+caf_=podesta=law.georgetown.edu@georgetown.edu
+Authentication-Results: spf=pass (sender IP is 209.85.223.179)
+ smtp.mailfrom=georgetown.edu; law.georgetown.edu; dkim=none (message not
+ signed) header.d=none;law.georgetown.edu; dmarc=bestguesspass action=none
+ header.from=law.georgetown.edu;
+Authentication-Results: spf=permerror (sender IP is 141.161.191.75)
+ smtp.mailfrom=georgetown.edu; gmail.com; dkim=none (message not signed)
+ header.d=none;gmail.com; dmarc=none action=none
+ header.from=law.georgetown.edu;
+Received: from CO1PR07MB111.namprd07.prod.outlook.com (10.242.167.17) by
+ CO1PR07MB911.namprd07.prod.outlook.com (10.242.166.27) with Microsoft SMTP
+ Server (TLS) id 15.1.293.16; Wed, 7 Oct 2015 20:08:06 +0000
+Received: from BLUPR07CA087.namprd07.prod.outlook.com (10.160.24.42) by
+ CO1PR07MB111.namprd07.prod.outlook.com (10.242.167.17) with Microsoft SMTP
+ Server (TLS) id 15.1.286.20; Wed, 7 Oct 2015 20:08:05 +0000
+Received: from BY2FFO11FD005.protection.gbl (2a01:111:f400:7c0c::164) by
+ BLUPR07CA087.outlook.office365.com (2a01:111:e400:8ae::42) with Microsoft
+ SMTP Server (TLS) id 15.1.300.9 via Frontend Transport; Wed, 7 Oct 2015
+ 20:08:03 +0000
+Received-SPF: PermError (protection.outlook.com: domain of georgetown.edu used
+ an invalid SPF mechanism)
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BY2FFO11FD005.mail.protection.outlook.com (10.1.14.126) with Microsoft SMTP
+ Server (TLS) id 15.1.293.9 via Frontend Transport; Wed, 7 Oct 2015 20:08:02
+ +0000
+Received: from na01-bl2-obe.outbound.protection.outlook.com (141.161.191.14)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.210.2; Wed, 7 Oct 2015 16:06:36 -0400
+Received: from SN1PR07CA0015.namprd07.prod.outlook.com (10.162.170.153) by
+ BLUPR07MB099.namprd07.prod.outlook.com (10.242.200.12) with Microsoft SMTP
+ Server (TLS) id 15.1.286.20; Wed, 7 Oct 2015 20:06:12 +0000
+Received: from BY2FFO11OLC005.protection.gbl (2a01:111:f400:7c0c::117) by
+ SN1PR07CA0015.outlook.office365.com (2a01:111:e400:3000::25) with Microsoft
+ SMTP Server (TLS) id 15.1.293.16 via Frontend Transport; Wed, 7 Oct 2015
+ 20:06:12 +0000
+Received-SPF: Pass (protection.outlook.com: domain of georgetown.edu
+ designates 209.85.223.179 as permitted sender)
+ receiver=protection.outlook.com; client-ip=209.85.223.179;
+ helo=mail-io0-f179.google.com;
+Received: from mail-io0-f179.google.com (209.85.223.179) by
+ BY2FFO11OLC005.mail.protection.outlook.com (10.1.14.145) with Microsoft SMTP
+ Server (TLS) id 15.1.293.9 via Frontend Transport; Wed, 7 Oct 2015 20:06:12
+ +0000
+Received: by iow1 with SMTP id 1so35429787iow.1        for
+ <podesta@law.georgetown.edu>; Wed, 07 Oct 2015 13:06:11 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-original-authentication-results:x-gm-message-state:delivered-to
+         :date:from:subject:to:reply-to:mime-version:content-type:message-id;
+        bh=+umIsmlZJQOFrkYyXyuZzDu3E0vz13lqA5PhuRz7zQw=;
+        b=AhZ/Uun+PH1MS/ghC6v5c88JgrmjgL6Tsk3eUBEgXsxF1Yd9An72ZykGPQ6/JATZfc
+         hgSuHDiDme3QmeMohPZgUmBS+9ZKh/Sxl9/OU6IYwRuWlAH+0tUdbvbnyfSA2XCdEgzF
+         es098U65qVCvrYmbDIjxjQPJSsj7NkFXRjKNOHmNiPiN+76x0YX7vGPn91E3Vy29dsRA
+         c62yyhPvNx/PU1STyzDpkKNhwRvdWHehIF1aUwJuluE7W5mztjJeTyKXgqPkSBJ6hkjh
+         xCYbUeeIP/71s2++bFGkYCrn4ArkA9WeqM7alvtm1sxhX1Zs1Djzg9LEjnPOmK0Zprv0
+         3oeg==
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com: domain of automailer-cbbounce@mailer2.alumniconnections.com designates 198.212.10.190 as permitted sender) smtp.mailfrom=automailer-cbbounce@mailer2.alumniconnections.com
+X-Gm-Message-State: ALoCoQk5WiDO2Aj29bgByUd/MG9oWwdIrkp1Mgp0lPzf//NmKOcgAwq0v/TtiQPd7vbZSRrL7HSs
+X-Received: by 10.107.130.220 with SMTP id m89mr4249021ioi.146.1444248371066;
+        Wed, 07 Oct 2015 13:06:11 -0700 (PDT)
+X-Forwarded-To: podesta@law.georgetown.edu
+X-Forwarded-For: podesta@georgetown.edu podesta@law.georgetown.edu
+Delivered-To: podesta@georgetown.edu
+Received: by 10.64.123.161 with SMTP id mb1csp72716ieb;        Wed, 7 Oct 2015
+ 13:06:10 -0700 (PDT)
+X-Received: by 10.141.23.210 with SMTP id z201mr3806659qhd.104.1444248370132;
+        Wed, 07 Oct 2015 13:06:10 -0700 (PDT)
+Return-Path: podesta+caf_=podesta=law.georgetown.edu@georgetown.edu
+Received: from bmail1.alumniconnections.com (bmail1.alumniconnections.com.
+ [198.212.10.190])        by mx.google.com with ESMTP id
+ 79si35569601qhs.124.2015.10.07.13.06.09        for <podesta@georgetown.edu>;
+        Wed, 07 Oct 2015 13:06:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of automailer-cbbounce@mailer2.alumniconnections.com designates 198.212.10.190 as permitted sender) client-ip=198.212.10.190;
+Received: from mailer2 (mailer2.alumniconnections.com [192.168.16.239])	by
+ bmail1.alumniconnections.com (Postfix) with SMTP id 3E9132AA1	for
+ <podesta@georgetown.edu>; Wed,  7 Oct 2015 16:06:09 -0400 (EDT)
+Date: Wed, 7 Oct 2015 16:06:09 -0400
+From: Larry Center <cleeval@law.georgetown.edu>
+Subject: Upcoming Live Webcasts
+To: John Podesta <podesta@georgetown.edu>
+Reply-To: <cleeval@law.georgetown.edu>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_Part_1_yMDE1IDE2OjA2OjA5IC0wNDAw"
+Message-ID: <HPC-SAM749.GTW.48126.558825@mailer2>
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2FFO11OLC005;1:bAeSuNou06Y3tAXeGU4iVscsQ6nzbRh6ls1dKRxxeAsDDIq4y81sJJH2iB//p/pZGqxCK80RQHtFsy80GMH5vX6caXK7NphazgGDc8N2TS81QDxLSzaOQ2U6018qCfvN2kdc9haIc+1FaDdVzQV1hTUTXJlNpl0Sq6mnMfbHfYg87B+cFx79p5dTo/BUWeIawmHbfd5gcoeVmZrkMRzGSV1/hJF68tlE2X6Rk0YzBh5gRH71pzl5HGgVL10UgBsrXm5ayVNH3AVbqYAdklfp6hWyhpikaberBpUlrKI0EyuNHslM2WQXhmxbxKhFQKx6dOSITp89JmfdajaTTgby19H4sqX9H5zP//hTVGkEGSQLdPOM02WrBqxYqmZBHjydrcqQcZenw9fzs33UkAFJDDoec25HO14cDPr3nno8jdmok5X2SdRo9C6LqwrUBaShuiJ0ALqqVN44qaxqgjQLzcooCFnTyq3b/yAgLjhosIdaEc1oWoXvDCERktDX4xqw
+X-Forefront-Antispam-Report-Untrusted: CIP:209.85.223.179;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(2980300002)(438002)(189002)(149424002)(199003)(377454003)(25584004)(106466001)(50986999)(43066003)(15187005004)(575784001)(64706001)(46102003)(307094003)(59656003)(512934002)(89122001)(229853001)(18206015028)(19580395003)(77096005)(33656002)(450100001)(59286002)(19618635001)(11100500001)(19580405001)(75432002)(189998001)(107886002)(54356999)(6806005)(22756006)(84326002)(88552001)(19617315012)(53806999)(59646003)(59536001)(5001970100001)(110136002)(5008740100001)(15975445007)(63696999)(33716001)(2171001)(42262002)(18200335002);DIR:INB;SFP:;SCL:1;SRVR:BLUPR07MB099;H:mail-io0-f179.google.com;FPR:;SPF:Pass;PTR:mail-io0-f179.google.com;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB099;2:OYPgBzRQ/qffDq8oVsMFEJ3MEgew8jYtNfqw1HwuJsx9mGDzARoLEDmiQm/jcNoc0eHe014HWTkiDEyAmM4jQDa8ZCjcHDbnkNpO1RtT+U0FJb/dwZycd44DSl7pjNjC8A7IYAG45sMUXWJQd+xXdTlzh6ErRmT2VZ6NRhJg5iM=;3:bU0tb7Xb/KCgJgkvQSaJQZ7AtECDihrndxhrCJ+HzJjm8DxE8cmuL2cdeE8fSIv6chqvYCnzP1APMyjxLCPzUAmX9flvj5IbbiEw2p1SgCa3e41T//0BROvEOiWk3SFsnsmBy7OI+07dFBziL77Vy6RXiY112aMtTHMsO5NdAGyPxvimw/45oC+i0Kkh8kA6XUT7OwyiKwDnFVQKjGqrmEuJ6onuAH//C+18hYqgN/2Jbyg119V2h7L1CWDoXNW7/eLGp0pIy3sKd499Fo65T8q5fXzu6tBBCcKZc8R2XZ9nxMgAL2PaYgTFUgsI8orR7oSJTBfcD5bbaCu+14zZTQ==;25:DE6egkEPaOl1o7byk2dOER6HNVfZQePm5iXoeHA0M1U715czrmVFheSoC01AsBOfZYgq7RNq8Ic5tMlJyNh1lJ1InMpaTvdLrun98kHGVL9Ns4bGTlLrF/fj11WtmfFAL6GAlTzjl1tbS91nJ+KP7oCGZU0fDxGuI6ee0h+7rxrTaotQ5OvdbrK4dSSfloVnAyI3hUqHVY7G1WrCizfs2QKwSp0QBV4oI0ZG7J/Z8FJSq8F6Ttz6X0RvQRydPk/9eW5GIUz3IMvCWz6LZHE8tw==
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(42139001)(8251501001)(71701003)(71702001);SRVR:BLUPR07MB099;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB099;20:7fRvQI/9IGnnB7UJpA6RN+qNKseFNe8tMNIjKg82JCk/is3nzglcSN+A4zHyvuXnPwE6vwi4MaVJkZ63MeZqcc/t4Va6e2xHp1cv+umvjxtvFuHKjl2cPsYITOIBa/XdgY55N6OngFmGql826J8J2NC5+AiiffqIAe573ElJ4zo=;4:Ac7d+7HA4RGV9g6KHBUfoB92QOqBCAPtYHb90+ygVC7KkWQlme2LF2x/NhVKmTB1VCJoRPe/xEHx+UdZtUxic3aSalAlgJRAt4XAqu6tB/lb23Qk2x+1ULC43RnfcKFcgbKKZ60m7e6KbJae4iUIYekFlvhTczn0PYK/tkzZEc/I/9nRkCyHG4aoX/8vv6jTmAv9hOW50UxB6Vc4abA8vioH03XRcRt0rzDeXRRUMwKjiOysbFvdeoVpWIEBvQBYNIMOK/dBBj+LOEkAlnE5fpXO0th+9dw7/8lV3r1Y/IH5iCIXohF5VfczM/3TmSR4FL2ygV1KHBzxyLCwL9whXp8gOv+bJ8g1JxgRyLnhJoM=
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(9101504095)(520078)(3002001);SRVR:BLUPR07MB099;BCL:0;PCL:0;RULEID:;SRVR:BLUPR07MB099;BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(5005006)(520078)(3002001);SRVR:CO1PR07MB111;BCL:0;PCL:0;RULEID:;SRVR:CO1PR07MB111;
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;BLUPR07MB099;23:hdqZzcIuCdNITjEXr6+rJEwVXTJb8MMg5NhpLCYgTS?=
+ =?us-ascii?Q?+Wt0B023tVTOxuHfwRUhIURMpHOXMJNRn+ctfrKtmkwJF1rdGU8EZbIEsnor?=
+ =?us-ascii?Q?dy5qGUNZNSD+m2arVm1lUjFp/Y1NIZ1rkiWHYKP2llo0akXaIgiIifkOFG6b?=
+ =?us-ascii?Q?95h6Bz3I2pT+tCn5VFNt8itZZfIMwkLFd1Gv6wmgcQ7bLQFBk0SBzoTAzIVH?=
+ =?us-ascii?Q?5gG90dwCpDn1vGSom5MFhboCx1WnEeqK7O8To/p5IcJ1vj1y5jq5FoBL/Uba?=
+ =?us-ascii?Q?jrlwKGC6NUIAh5xIqqwIS4d40ZfhFupt5+5fOdsTynhc3lBFPM6YspnjYbnP?=
+ =?us-ascii?Q?oMEPn99T8Fd1JqJkX7Eu6AE/VWE7I5XFhRWkUjpljYwdknKPSO3Xqo9iF+ys?=
+ =?us-ascii?Q?opgNT8TkJ4NHNmAS3K52xADUU98amDCF25M0N/2F2oLt8UcSJfBwsFTBEA2E?=
+ =?us-ascii?Q?TukiEgjcsDsTzW9KCRsBfrOsthgqOy6gOxl8ZJxhE6R7VP2suNMmhKf6BgOG?=
+ =?us-ascii?Q?f3fvQTTngWX/vtfqYbFozT0o9JWPn/15secel41OZObSwaM0Zkvgbe668xqQ?=
+ =?us-ascii?Q?2tUyAKjI6uMxYoiieJJYzkD/F43CKcmFfXLnp1gUtXyatj/Z7NOd14/r5/wW?=
+ =?us-ascii?Q?udkIyGXS2cwBjs3KU1JgeO8sZecRchaRSpcE0S4x4PEzwsdaNWjBBBiRSwvx?=
+ =?us-ascii?Q?F4nFY78rlU0xo4OsNiT5D+MQ9UWsP+4upXXC/HRVb7a+RR7Ypf4O29t9ASHN?=
+ =?us-ascii?Q?oJfmR3TCn+TkWkuprDRd2McFuQS8I2xj4BuxDs4hPMy2Y5DtrOixKXz0u5m+?=
+ =?us-ascii?Q?+ADYhiWqAOc1qWMyWwr/vsDrhDhb0F9Z325o0jqEa6MAZ+Dx9P7oTPfGc2OL?=
+ =?us-ascii?Q?FwFBSeEX4xgj3hQ+y0lL6oV+GpubNKLMzRpZVh35cifO/mE8iamfEgM1cCtT?=
+ =?us-ascii?Q?5j+J1+DjbGIZ36emBKKNcvwGleqnpli5TA6amUsM6E+jzIkB7ZMhGA4Vp8O0?=
+ =?us-ascii?Q?S7v9W0RdUEe3OfwSu9XaAnS87X147Xh9ce+Mnv8ZpA7yOhs0wzACmhOd/yre?=
+ =?us-ascii?Q?5XLWul9z7YeZw4SVqApr/HDithu4DIIxF38Yz+PvLYZzCaYROEk/fTEaZe1U?=
+ =?us-ascii?Q?DiOQBnaUYf0oKAyMVNGkgc+WQCuudmiG2g/YDEB0YkaHCujZ96C7Wav6ZRzL?=
+ =?us-ascii?Q?tNk/kBM1jWPmzeGY1DRwClvNLbM9nMKJQjoTluIZeqf900lAEHL2/RTh55Tj?=
+ =?us-ascii?Q?nEKt2OK/PkNy2fFYz9I4zIx72H1WkZMKzRM2Qag2zG2ggHKeBlz4j1GgC2Ew?=
+ =?us-ascii?Q?=3D=3D?=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB099;5:fEE86XIk1mtKN89+mK/KXU38JzvpQ2hQRaBKGm3t1dKULUcPJqbBZPNO5dIFAe9QtWhAZAkoJ93XWMerRKiD0dvEFaAz33dW+TT/AC7irZjCN1S9WVj0CkMZBNS0XkvIYvczvdeQsJQX7868Fk4S9Q==;24:nZrvqqQHIN8g++B5vJgimZwdbOEa/JJJ4YLsQe842gKRlAfVf0g89V/k5AjpljzDjNDwxOxFsKo+f1VaBRgggD3W41MMG9YmAEM945iAfn8=;20:7HAHDvnnxo+ZVIxc/BuMUUftMJM0rGANMhPEkN1kiwS0RCHXIcGXZ3LYwZqgQ+Txzq+btkdGyIeHk5B7csxY2Q==
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB099
+X-OrganizationHeadersPreserved: BLUPR07MB099.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2FFO11FD005.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BY2FFO11FD005;1:zRJMNF6Jx01K7m3E44z3K3rtowA4BOhAbcAIgAo92Ri7OyXIwCz3utErBbS7YMthkZ8XE61kdj4DiPeZob2S4kP/ZULDlz7nSWPX6bW2FLbp0JPlWA605pH9jvOTPCTSQlY8Q9Zb1oFdZmaTvd8o7J99IXRigd5ie75DyVk5cyFt+GnAGbvwODBgKYTqISS9G/nvga5kK4YZmDQZewGdXeQupSJJ87uaHmL99OZQkzPcTZdIyuvQC1IqW9Sge7VaTuSKoadAcHJTnQtmEgqiSIaBHpV3wfgidy8R+Jm4PxgbPtdxeMj9Y6U9a8q3Ic+GRMjcDXa8FZuPE1NMwqqN9prKCTcZo+cI0VDMsGkhsGIfcqwiYLC7kOMYlZaHx9+jApRdmIB4D9cl12E0q5NIhg==
+X-Forefront-Antispam-Report: CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(448002)(149424002)(25584004)(199003)(189002)(377454003)(63696999)(5001960100002)(87936001)(107886002)(960300001)(18206015028)(85326001)(81156007)(19580395003)(189998001)(59536001)(88552001)(512934002)(5007970100001)(77096005)(307094003)(59286002)(33716001)(4001450100002)(53806999)(19580405001)(97736004)(50986999)(5008740100001)(54356999)(59646003)(59656003)(33656002)(6806005)(89122001)(15975445007)(75432002)(450100001)(575784001)(19617315012)(229853001)(110136002)(2171001)(19618635001)(46102003)(22756006)(11100500001)(43066003)(106466001)(84326002)(15187005004)(64706001)(7029012)(7099028)(42262002)(18200335002);DIR:OUT;SFP:1101;SCL:1;SRVR:CO1PR07MB111;H:mail.law.georgetown.edu;FPR:;SPF:PermError;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;CO1PR07MB111;2:66+DIxSCUofIJpjFFdR6ou782mxmcB53ljmYz9r6KHgp2BDGq0mFfMh8Pzepnv61CDbShlJHXA4SxJiguLHeitxEHGc8NCBeMmYGnpwVtLC/fjEL7u6gOI645ECYyGNo6vMX5sWb5AazyE7oCwd/QkCxADxDwG6LTnMRMWx7Yf4=;3:V2EyaJPSGdViLnK68q/KLDuohvFBWcfpsPnLjAf0o1JCLPbQh8U6A4OXdMQ8794op8j6NN4Rp1DoatqX6t4jiwcZRSlv1i6YLgfl+PZ4Pxvfy+TGt5xy0Jyq3+IAo2J7Ay/gjrSP+g7sdCWprqL1VWhWRRasfI6Y+inkNSY84xLIKDsqV+oZpj2pyDVAp0h7BmOAO6pet+PQE2v5KshSyABJIpw/haZEv7rr19Ao4+ZIJrBHY1CK7ZoJzdqG837s;25:D0fLP7IcKuMjpllPBORr2fJY6F+uebmiVdr9EPJrrJ+/o5o3q7YQR7onYlntVB7WW5GGVMJBDl9SiH3JHoKOu4OSkc+q0D6SIsexCDMtBxMqv1LtgL0gjQIEXOh1tq8NEPoxbfPrwobOWag2O/OnsrvIw1BlBq6cvBJW5pJYvRznoItTSf0OfPrNmje9pVwfjkvT7Fs2w91FXYt19ybP9dKRGE17JLtPur3Hli3wz5crq/XbS/JRUb2t2X+t7u4OasDVN+2PXnHf0ylBmNhoEQ==;20:jH6FAD0148NQ7/ko+LZND1WkMWTXXGXkUwoTBpOle9DkeJW5FpG4ZnFVqzHP0wmIP1EHeNWdWcNqclgdeDAu0KYszLPys7RUYf2xLW4amMDHkv8SvKNx6Ne5i57YvvygtLdEmtr9jsunwlRPk5vz9avh8SwYf+umSxmetTe2hFQ=
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(42139001);SRVR:CO1PR07MB111;
+X-Microsoft-Antispam-PRVS: <CO1PR07MB111FE8D6C8E4E61A997BD66BE360@CO1PR07MB111.namprd07.prod.outlook.com>
+X-Microsoft-Exchange-Diagnostics: 1;CO1PR07MB111;4:pwqkEJJsvacDsQFF+U8OA5S4yvUZLmBvTOJRVmrdZs76awLoNNIT+wdo0TFZSgGo8BVO82nTsXYOCwoO15+HVImimQuwy+labJdqksnBC4g0pb2BsGkeYDmNn1cVIbxBDIU98landq6CzNvht151ZDFtXEoXlbvvsJ+gS9g+U4Xrj0zghEzP5zS0HzFAM/G/6vIRcfo+kraVgZAhMGETj+EKlQthRCK+z9/sRFz/DmQ3QdyuWkawG4rKNaFegrxuI0kOgi7ZrQf+U6EJIiqXgpDA0LlOjI9Y3D7t+uUpHCXJTWX7GQMc9CY7dALet8wRJ9kiP2mopM4kS3LJ3TcnlRNSNyE5GOIgZIQULR0gJKs=
+X-Forefront-PRVS: 0722981D2A
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;CO1PR07MB111;23:qhMtmP+dT4Glw8TkYpgqnxONxOjDU/uVeEEP2BM8EP?=
+ =?us-ascii?Q?tC+0WGAN31PVEj015E9n0gugL7lW4BPfAo6NrK8doqFHuzfjf/wOtC+JiSBG?=
+ =?us-ascii?Q?pwxFLRNSg4l+qxqTz9Db7EapOKhTn8el5rgMRZ2FxjRIbYgVnPPfBB3PVZds?=
+ =?us-ascii?Q?XOmiTmgZ/5hEKQ9hRJ+JGdA0mGBPNj8ibJaFCmSs2dijQlvJuDljMMl7eWOm?=
+ =?us-ascii?Q?m/y30aZcKvLKbhCES0mQPlrcs42UjLaIXLaFpxzbEVoLiMhvmzON6LqRem++?=
+ =?us-ascii?Q?0Nn9f1p7gcsk7aNgZ0k6YuhFKcZYbK4z11NWv+99jxiWw6nkvcmF0LV0OQX8?=
+ =?us-ascii?Q?CI58w6TRwprcjQ85jaO1cM7VaU4LDnW3BlstavW+rxB0up7TIDgj+NX/7UVy?=
+ =?us-ascii?Q?OCad1olXX9irlY/8igf5cevpGl5uuwxcJuqSm57R2JHgPAlDdjfura4I2RVT?=
+ =?us-ascii?Q?H7rFAYum5E3TTcVaGGlmWpooGOusfP4GVQT/6i1LI305o5tyb6HXeeu7REXJ?=
+ =?us-ascii?Q?2BrTHvw5MxgXOUIh8kgQNaaY94CscYSFur8QmE5bxczEy089Ew8Y3l5hACmz?=
+ =?us-ascii?Q?QFDUOGhBvo2f8pxYKoaWgqs1R+zrpWZBeKR1WW8D1FEfv7ZlN7GiT5az9Jnm?=
+ =?us-ascii?Q?6Dz+vTaiN58tp3T3h7SZC0DnNPvkn70hwoT1iRCs2vk7LT+gwXo0mTA+emnN?=
+ =?us-ascii?Q?gd3blzvy/i2jJQfQ7n784dF3xoJQ4SitTsdvpQZA3YdJco1ysqi0kCFxlKeb?=
+ =?us-ascii?Q?ZhR+3mVcqmXO73A63lJFhrz1vzHYJ21s67S7tDYogRDvz6AAuXpmqyd7ZGBq?=
+ =?us-ascii?Q?vnvfppfM8xl4a3Y3L+o70DWo3+V83/Ucm4ehMMyKLzi0V/kj8j/n+CusSA1t?=
+ =?us-ascii?Q?7kForUknq6f0E2TfBG9I1hyj1UK8QGxrWAc8fzvu8bD3EKrMHPz3REbFMM54?=
+ =?us-ascii?Q?teIb6NT4QvrrOTabLD/zMmrkyFWHncNN63Dc64uQHqOmvGyMZ1OmHPfAiiOs?=
+ =?us-ascii?Q?6iEIvpRd+pxOJ9sy45RF6EBWfkY0AjBINgMmqRuDpjV1m7joZoX2zLPz/pgz?=
+ =?us-ascii?Q?u/Pmi2TMHoXotkJv9zVSlwZYd54o22OXat21cwlF0UGuvBeEH1ugcqkLbK+x?=
+ =?us-ascii?Q?S+r7MeRo+3t5/fnn8een7cdwsweAAnSgK2n1LNb6ug+N+6s9Qrqcry786Sdl?=
+ =?us-ascii?Q?8Dr8QJj2P21ilg7Fy0HG+es00vXqkf4dAInZejtkjjRqd8tSKzAHUwG4ycA9?=
+ =?us-ascii?Q?gBfjBnVMiMA81HOYW+Qa/QIRBWQLTBObcpnyuBK+FHJEoicdseosyYwn9oMB?=
+ =?us-ascii?Q?15A0SzZlXW6a8YvPVXhwyRrNiaxPe6fk1FUjRGyYpGwK54ZXNWkkThKDIOn1?=
+ =?us-ascii?Q?QQvk8PLxFyIlsfkFZYXsP+hWuIGwi+4pMVZUO9kpwEAOps++8U1QfnBLDQ9B?=
+ =?us-ascii?Q?MKew7TidfNZswH/VURjqIqSBOipuO673LOt8Ve3jI8Ougv9NdfRjUtozEqie?=
+ =?us-ascii?Q?V5klEX/mSp0vG3+rhgTjTNhbEcnRk97bY=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;CO1PR07MB111;5:c+AespD0Q0YNQkNnmZvu7GnbJCZbC82GeTdvt+ML+a4Ls9SxukLZOROq/i03PFr2aPh7NDUEXMzqZmvK8XoSnq7VexASeKuYrDo13rsKp5ypLaXhIomurDHBaN2dUrYZ9S9f+bakA5EA9U6riYlXuA==;24:OWpQU7/RnNvyCYPE4rvQ6WxSw1Ru7LJBTMvLluq9suZeDx7Yzijr7Nnj7rqI/X0afKEsqpXQvLm0uOMz5072WqfLUdJVbHnNBXjHYdThRU4=;20:khOaybPtC6+h1jrgs8bb0dDyduPAoYI7mMr+7unxT93Slwu/LTeEmSNhr4DAiT0tLm6opiOanvZeWoqQRe+QaA==
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Oct 2015 20:08:02.4951
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1PR07MB111
+X-Microsoft-Exchange-Diagnostics:
+	1;CO1PR07MB911;2:py/ZUT6UbEPDIfqvUqVojdaMlKgWs53/JQWkgFar6khHHRwCNshN4+y4g+EW8b6n5VBQCByJCZ2nW6MKgtx31HCG3ILiD/7iVKYHBMO2+Rkgu9B4D2OVJB0rM6NRt6bG2oe+UumPK5kpo9Vy9q3CH4z7xDM/LiA0Rx+fyaBDLeA=;23:zwwCHasW4Ji4i/XjVNnSSzh3sHXSb6M8ivwspMkC+dxu1HwUxgbtIer2I8g3lmCHrEEhSUeqHDMaFnK23nlH6GVP4Zh9EAeOmLV8AzinvxxRY0mGgVrC19Lwvu4lZ81sAuyH8bT7+GGxm0F7nLc6MeB+IDg00YhPe8Bn1fqCJDMhEGfLcbbouFIppNjcks+k
+X-OriginatorOrg: law.georgetown.edu
+
+--_Part_1_yMDE1IDE2OjA2OjA5IC0wNDAw
+Content-Type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Can't see any images below? http://alumni.georgetown.edu/links/link.cgi?l=
+=3D6766929&h=3D48126&e=3DGTW-20151007115317 View the page in your browser=
+.
+
+
+
+Georgetown University Office of Advancement | PO Box 571253 | Washington,=
+ DC 20057
+
+Please contact us at cle@law.georgetown.edu with any questions or comment=
+s.
+
+http://alumni.georgetown.edu/olc/pub/GTW/blastmailopt/blastmailopt.cgi?FN=
+C=3Doptout___BR___48126___GTW-20151007115317___FVYxe0vv9xtJrNKaHuSUpM27F4=
+A Unsubscribe/Manage Office of Advancement email preferences | http://alu=
+mni.georgetown.edu/links/link.cgi?l=3D6766930&h=3D48126&e=3DGTW-201510071=
+15317 Privacy Policy
+
+This Law Center email was sent to podesta@georgetown.edu. To ensure you c=
+ontinue receiving our emails, please add us to your address book or safe =
+list.
+
+Need your NetID, http://alumni.georgetown.edu/links/link.cgi?l=3D6766931&=
+h=3D48126&e=3DGTW-20151007115317 please click here. | http://alumni.georg=
+etown.edu/links/link.cgi?l=3D6766932&h=3D48126&e=3DGTW-20151007115317 Mak=
+e a gift
+--_Part_1_yMDE1IDE2OjA2OjA5IC0wNDAw
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<div align=3D"center" style=3D"margin-top:10px; width:100%; background-co=
+lor:#eeeeee;">
+<table width=3D"633" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+    <tbody>
+        <tr>
+            <td width=3D"600" height=3D"20" style=3D"font:9px Verdana, Ar=
+ial, Helvetica, sans-serif; color:#4f4f4f;">
+            <div align=3D"center">Can&rsquo;t see any images below? <a hr=
+ef=3D"http://alumni.georgetown.edu/links/link.cgi?l=3D6766933&h=3D48126&e=
+=3DGTW-20151007115317" style=3D"color:#1f4a69">View the page in your brow=
+ser</a>.</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!--1-->
+<div align=3D"center" style=3D"width:100%; background-color:#eeeeee;">
+<table width=3D"633" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+    <tbody>
+        <!--1 row-->
+        <tr>
+            <td>
+            <table width=3D"633" cellspacing=3D"0" cellpadding=3D"0" bord=
+er=3D"0">
+                <tbody>
+                    <tr>
+                        <td><a href=3D"http://alumni.georgetown.edu/links=
+/link.cgi?l=3D6766934&h=3D48126&e=3DGTW-20151007115317"><img src=3D"http:=
+//www.law.georgetown.edu/email/2014/05/cle/img/cle-email.jpg" width=3D"63=
+3" height=3D"399" border=3D"0" alt=3D"Georgeotwn Law Campus" /></a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <!--1 row-->        <!--2 row-->
+        <tr>
+            <td>
+            <table width=3D"633" cellspacing=3D"0" cellpadding=3D"0" bord=
+er=3D"0" style=3D"background:#fff;">
+                <tbody>
+                    <tr>
+                        <td colspan=3D"3" width=3D"633" height=3D"20"> </=
+td>
+                    </tr>
+                    <tr>
+                        <td width=3D"50"> </td>
+                        <!--internal-->
+                        <td width=3D"533" style=3D"padding:2px 0;">
+                        <table width=3D"533" cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0">
+                            <tbody>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;" align=3D"ce=
+nter"><strong style=3D"font-size:18px;">Upcoming Live Webcast</strong>   =
+                      <br />
+                                    <br />
+                                    <strong>Bankruptcy: Views from the Be=
+nch 2015</strong><br />
+                                    October 9, 2015</td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;" height=3D"1=
+4"> </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;"><em>Co-Spon=
+sored with the American Bankruptcy Institute (ABI), the "Views from the B=
+ench" program provides you unparalleled access to bankruptcy judges from =
+across the country. This year's program features panels on retail bankrup=
+tcy, sales, health care and nonprofit cases, and private-equity and hedge=
+ funds.  </em><br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766935&h=3D48126&e=3DGTW-20151007115317">Bankruptc=
+y: Views from the Bench (Pt. 1)</a><br />
+                                    Friday, October 9, 2015<br />
+                                    9:15 AM - 12:30 PM (GMT-05:00) Easter=
+n Time (US & Canada))<br />
+                                    3.0 CLE Credit<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766936&h=3D48126&e=3DGTW-20151007115317">Bankruptc=
+y: Views from the Bench (Pt. 2)</a><br />
+                                    Friday, October 9, 2015<br />
+                                    2:00 PM - 4:00 PM (GMT-05:00) Eastern=
+ Time (US & Canada))<br />
+                                    2.0 CLE Credits<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766937&h=3D48126&e=3DGTW-20151007115317">Bankruptc=
+y: Views from the Bench (Ethics)</a><br />
+                                    Friday, October 9, 2015<br />
+                                    4:15 PM - 5:15 PM (GMT-05:00) Eastern=
+ Time (US & Canada))<br />
+                                    1.0 CLE Ethics Credit</td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;" height=3D"1=
+4"> </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;" align=3D"ce=
+nter"><strong>Hotel & Lodging Legal Summit</strong><br />
+                                    November 5-6, 2015</td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;" height=3D"1=
+4"> </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;"><em>Co-Spon=
+sored with the American Hotel & Lodging Association (AHLA), the 2015 Summ=
+it will provide you with the latest developments occurring in the evolvin=
+g practice of hotel law.</em> <br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766938&h=3D48126&e=3DGTW-20151007115317">Hotel Ind=
+ustry Update: Acquisitions and Spin-Offs and General Counsels' Panel</a><=
+br />
+                                    Thursday, November 5, 2015<br />
+                                    8:45 AM - 12:15 PM (GMT-05:00) Easter=
+n Time (US & Canada))<br />
+                                    3.0 CLE Credits<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766939&h=3D48126&e=3DGTW-20151007115317">Financing=
+ and Crisis Management in the Hotel Industry</a><br />
+                                    Thursday, November 5, 2015<br />
+                                    1:45 PM - 4:45 PM (GMT-05:00) Eastern=
+ Time (US & Canada))<br />
+                                    2.5 CLE Credits<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766940&h=3D48126&e=3DGTW-20151007115317">Ethical I=
+ssues of Latent Corporate Liability and Labor and Employment Topics</a><b=
+r />
+                                    Friday, November 6, 2015<br />
+                                    8:00 AM - 12:00 PM (GMT-05:00) Easter=
+n Time (US & Canada))<br />
+                                    1.5 CLE Credits and 2.0 CLE Ethics Cr=
+edit<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766941&h=3D48126&e=3DGTW-20151007115317">Hotel Own=
+er-Manager Dynamics and Implications of New Union Organizing Rules </a><b=
+r />
+                                    Friday, November 6, 2015<br />
+                                    12:15 PM - 3:30 PM (GMT-05:00) Easter=
+n Time (US & Canada))<br />
+                                    3.0 CLE Credits<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766942&h=3D48126&e=3DGTW-20151007115317">How Couns=
+el Should Prepare for the Next Downturn and Mini-MBA 202: Financial Liter=
+acy </a><br />
+                                    Friday, November 6, 2015<br />
+                                    12:15 PM - 3:30 PM (GMT-05:00) Easter=
+n Time (US & Canada))<br />
+                                    3.0 CLE Credits</td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;" height=3D"1=
+4"> </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;" align=3D"ce=
+nter"><strong>Advanced eDiscovery Institute</strong><br />
+                                    November 19-20, 2015</td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;" height=3D"1=
+4"> </td>
+                                </tr>
+                                <tr>
+                                    <td width=3D"533" style=3D"font-size:=
+12px; font-family: Arial, Helvetica, sans-serif; color:#333;"><em>Conside=
+red the premier eDiscovery conference in the country, this year's Advance=
+d eDiscovery Institute will not disappoint. We are providing more session=
+s, speakers, and judges than ever before so you know exactly how the revi=
+sed Federal Rules of Civil Procedure will impact you.</em> <br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766943&h=3D48126&e=3DGTW-20151007115317">Predictiv=
+e Technology and the Future of eDiscovery</a><br />
+                                    Thursday, November 19, 2015<br />
+                                    8:30 AM - 12:10 PM (GMT-05:00) Easter=
+n Time (US & Canada))<br />
+                                    3.25 CLE Credit<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766944&h=3D48126&e=3DGTW-20151007115317">Rule 37(e=
+), Effective Project Management and Proportionality in Practice </a><br /=
+>
+                                    Thursday, November 19, 2015<br />
+                                    1:30 PM - 5:00 PM (GMT-05:00) Eastern=
+ Time (US & Canada))<br />
+                                    3.0 CLE Credits    <br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766945&h=3D48126&e=3DGTW-20151007115317">Electroni=
+c Information Retrieval and Mobile Devices</a><br />
+                                    Thursday, November 19, 2015<br />
+                                    1:30 PM - 5:00 PM (GMT-05:00) Eastern=
+ Time (US & Canada))<br />
+                                    3.0 CLE Credits<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766946&h=3D48126&e=3DGTW-20151007115317">Understan=
+ding Data Collection and Predictive Coding </a><br />
+                                    Thursday, November 19, 2015<br />
+                                    1:30 PM - 5:00 PM (GMT-05:00) Eastern=
+ Time (US & Canada))<br />
+                                    3.0 CLE Credits<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766947&h=3D48126&e=3DGTW-20151007115317">Managemen=
+t of Legal Counsel Inside and Outside of A Firm</a><br />
+                                    Thursday, November 19, 2015<br />
+                                    1:30 PM - 5:00 PM (GMT-05:00) Eastern=
+ Time (US & Canada))<br />
+                                    3.0 CLE Credit<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766948&h=3D48126&e=3DGTW-20151007115317">eDiscover=
+y Case Law Update</a><br />
+                                    Friday, November 20, 2015<br />
+                                    8:30 AM - 9:45 AM (GMT-05:00) Eastern=
+ Time (US & Canada))<br />
+                                    1.25 CLE Credit<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766949&h=3D48126&e=3DGTW-20151007115317">eDiscover=
+y and Privilege of Information</a><br />
+                                    Friday, November 20, 2015<br />
+                                    10:10 AM - 12:20 PM (GMT-05:00) Easte=
+rn Time (US & Canada))<br />
+                                    2.0 CLE Credit<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766950&h=3D48126&e=3DGTW-20151007115317">Native Pr=
+oduction and Social Media Data Collection</a><br />
+                                    Friday, November 20, 2015<br />
+                                    10:10 AM - 12:20 PM (GMT-05:00) Easte=
+rn Time (US & Canada))<br />
+                                    2.0 CLE Credit<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766951&h=3D48126&e=3DGTW-20151007115317">Presentin=
+g ESI to Judge and Jury and Dispute Revolution</a><br />
+                                    Friday, November 20, 2015<br />
+                                    10:10 AM - 12:20 PM (GMT-05:00) Easte=
+rn Time (US & Canada))<br />
+                                    2.0 CLE Credit<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766952&h=3D48126&e=3DGTW-20151007115317">Data Brea=
+ches and eDiscovery Efficiency </a><br />
+                                    Friday, November 20, 2015<br />
+                                    10:10 AM - 12:20 PM (GMT-05:00) Easte=
+rn Time (US & Canada))<br />
+                                    2.0 CLE Credit<br />
+                                    <br />
+                                    <a href=3D"http://alumni.georgetown.e=
+du/links/link.cgi?l=3D6766953&h=3D48126&e=3DGTW-20151007115317">Ethical T=
+raps in the Amendments to the Federal Rules </a><br />
+                                    Friday, November 20, 2015<br />
+                                    12:50 PM - 1:50 PM (GMT-05:00) Easter=
+n Time (US & Canada))<br />
+                                    1.0 CLE Ethics Credit</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                        <!--internal-->
+                        <td width=3D"50"> </td>
+                    </tr>
+                    <tr>
+                        <td colspan=3D"3" width=3D"633" height=3D"40"> </=
+td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <!--2 row-->
+    </tbody>
+</table>
+<!--1--></div>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+    <tbody>
+        <tr>
+            <td bgcolor=3D"#eeeeee" align=3D"center" width=3D"100%">
+            <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"600">
+                <tbody>
+                    <tr>
+                        <td bgcolor=3D"#eeeeee" align=3D"center" style=3D=
+"color:#000001; font-family:Arial, Helvetica, sans-serif; font-size:11px;=
+ padding:8px 0 0 0; line-height:22px;">Georgetown University Office of Ad=
+vancement | PO Box 571253 | Washington, DC 20057</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor=3D"#eeeeee" width=3D"600" height=3D"5=
+">
+                        <table border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"600">
+                            <tbody>
+                                <tr>
+                                    <td width=3D"45" height=3D"5" bgcolor=
+=3D"#eeeeee"> </td>
+                                    <td width=3D"510" height=3D"5" bgcolo=
+r=3D"#eeeeee"><img src=3D"http://alumni.georgetown.edu/Images/Bemail/Stan=
+dardFooter/black.png" alt=3D"" style=3D"line-height: 0.1em; display: bloc=
+k; margin:0; padding:0; border:0; background-color:#eeeeee;" width=3D"510=
+" height=3D"5" /></td>
+                                    <td width=3D"45" height=3D"5" bgcolor=
+=3D"#eeeeee"> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor=3D"#eeeeee" align=3D"center" style=3D=
+"color:#000001; font-family:Arial, Helvetica, sans-serif; font-size:11px;=
+ padding:0 0 8px 0; line-height:22px;">Please contact us at <a style=3D"c=
+olor: #000001; text-decoration:underline;" href=3D"mailto:cleeval@law.geo=
+rgetown.edu"><span>cleeval@law.georgetown.edu</span></a> with any questio=
+ns or comments.<br />
+                        <a style=3D"color: #000001; text-decoration:under=
+line;" href=3D"http://alumni.georgetown.edu/olc/pub/GTW/blastmailopt/blas=
+tmailopt.cgi?FNC=3Doptout___BR___48126___GTW-20151007115317___FVYxe0vv9xt=
+JrNKaHuSUpM27F4A"><span>Unsubscribe/Manage</span></a> Office of Advanceme=
+nt email preferences | <a style=3D"color: #000001; text-decoration:underl=
+ine;" href=3D"http://alumni.georgetown.edu/links/link.cgi?l=3D6766954&h=3D=
+48126&e=3DGTW-20151007115317"><span>Privacy Policy</span></a></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor=3D"#eeeeee" align=3D"center" style=3D=
+"color:#000001; font-family:Arial, Helvetica, sans-serif; font-size:10px;=
+ padding:10px 0;">This <em><strong>Law Center</strong></em> email was sen=
+t to <a href=3D"mailto:podesta@georgetown.edu" style=3D"color:#000001; te=
+xt-decoration:underline;"><span>podesta@georgetown.edu</span></a>.<br />
+                        To ensure you continue receiving our emails, plea=
+se add us to your address book or safe list.<br />
+                        <br />
+                        Need your NetID, <a style=3D"color:#000001; text-=
+decoration:underline;" href=3D"http://alumni.georgetown.edu/links/link.cg=
+i?l=3D6766955&h=3D48126&e=3DGTW-20151007115317"><span>please click here</=
+span></a>. | <a style=3D"color:#000001; text-decoration:underline;" href=3D=
+"http://alumni.georgetown.edu/links/link.cgi?l=3D6766956&h=3D48126&e=3DGT=
+W-20151007115317"><span>Make a gift</span></a><br />
+                        <img src=3D'http://www.alumniconnections.com/imag=
+es/OpenCount.cgi/GTW-20151007115317/48126' /></td>
+                    </tr>
+                    <!--end footer-->
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<style type=3D"text/css"> .ReadMsgBody {width: 100%;} .ExternalClass {wid=
+th: 100%;}</style>
+--_Part_1_yMDE1IDE2OjA2OjA5IC0wNDAw--

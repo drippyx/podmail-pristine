@@ -1,0 +1,795 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.64.48.201 with SMTP id o9csp504734ien;
+        Mon, 27 Aug 2012 12:19:24 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=received-spf:dkim-signature:x-beenthere:received-spf:mime-version
+         :date:message-id:subject:from:to:x-gm-message-state
+         :x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:x-google-group-id:list-post
+         :list-help:list-archive:sender:list-unsubscribe:content-type;
+        bh=DGa9/pFXuI/K6nDq2Rgt9l2ATMT/h7gEwg3ITVDxd7E=;
+        b=hqZ4OutgjA1DIYXXtquECh3a9UoYcHRfgQ+8pz++/AbebKI6f3nmCLRVJEnKs7W/Bk
+         9LsfIkly6jchCLhCq/I+UBUgxg8UEp8YuCR+5JrrA4RU8VJXS3TUnaOC/hrEbquqKVqp
+         xBWkwB84e6k13DjyRnq23cyZka4lSL36qgGjpXcJGKv1eVc7WYb8p9Bw1bIOIzGWIGIe
+         27wzuYe1567bdIioU4ak8mnc3d9E4EsVzjyvTDN8iDpfxDLBm1WrSMP1x56BqyZTxBwX
+         4U7R/CygTzfu1PN30X7H8g2MVCfwYtZgOH6DokfH1NO7Jgng9QzdBYnT9tQO/+PHeq6S
+         wyzQ==
+Return-Path: <bigcampaign+bncCIXvj96gHxC5kO-BBRoEsCGg8Q@googlegroups.com>
+Received-SPF: pass (google.com: domain of bigcampaign+bncCIXvj96gHxC5kO-BBRoEsCGg8Q@googlegroups.com designates 10.50.46.131 as permitted sender) client-ip=10.50.46.131
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of bigcampaign+bncCIXvj96gHxC5kO-BBRoEsCGg8Q@googlegroups.com designates 10.50.46.131 as permitted sender) smtp.mail=bigcampaign+bncCIXvj96gHxC5kO-BBRoEsCGg8Q@googlegroups.com; dkim=pass header.i=bigcampaign+bncCIXvj96gHxC5kO-BBRoEsCGg8Q@googlegroups.com
+Received: from mr.google.com ([10.50.46.131])
+        by 10.50.46.131 with SMTP id v3mr16075539igm.1.1346095161479 (num_hops = 1);
+        Mon, 27 Aug 2012 12:19:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20120806;
+        h=x-beenthere:received-spf:mime-version:date:message-id:subject:from
+         :to:x-original-sender:x-original-authentication-results:reply-to
+         :precedence:mailing-list:list-id:x-google-group-id:list-post
+         :list-help:list-archive:sender:list-unsubscribe:content-type;
+        bh=DGa9/pFXuI/K6nDq2Rgt9l2ATMT/h7gEwg3ITVDxd7E=;
+        b=yoVh5K7jUPadXOr1KDMiVeAcejYGbARQi3IONEGK3mZrIvOjTj7uPM0IN+ZsfZHA7v
+         hrperyjgenptzOm7wb1uFuG18CcJIDvW5hVQBjtR4SDeKIZLPVTD6jB3b1awBjsayluz
+         RBIiv5/xbBOXTcc6NoD4CFwRQKo0WIiuRR10bqMfFwDaEPjsE8xWSMpqO0LrUjSDdfLZ
+         gTNvVtl67i7YLQvjYEfSUr2pdNIPJDy+3a1IpNRZSxUKoBBQBzek2lRlVb/wpTnSC1Xl
+         0i2Cln2pNa6bTliVzI3rzpJbaju/BcORYrx8gLb41qipEjh63/towU6qbZTafjCESIcP
+         GODA==
+Received: by 10.50.46.131 with SMTP id v3mr3296534igm.1.1346095161123;
+        Mon, 27 Aug 2012 12:19:21 -0700 (PDT)
+X-BeenThere: bigcampaign@googlegroups.com
+Received: by 10.50.104.169 with SMTP id gf9ls5001952igb.0.gmail; Mon, 27 Aug
+ 2012 12:19:20 -0700 (PDT)
+Received: by 10.42.33.9 with SMTP id g9mr6215246icd.25.1346095160522;
+        Mon, 27 Aug 2012 12:19:20 -0700 (PDT)
+Received: by 10.42.33.9 with SMTP id g9mr6215245icd.25.1346095160482;
+        Mon, 27 Aug 2012 12:19:20 -0700 (PDT)
+Received: from mail-ob0-f169.google.com (mail-ob0-f169.google.com [209.85.214.169])
+        by gmr-mx.google.com with ESMTPS id m5si156594igo.2.2012.08.27.12.19.20
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 27 Aug 2012 12:19:20 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.214.169 is neither permitted nor denied by domain of aniello@progressnow.org) client-ip=209.85.214.169;
+Received: by mail-ob0-f169.google.com with SMTP id x4so10915652obh.14
+        for <bigcampaign@googlegroups.com>; Mon, 27 Aug 2012 12:19:20 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.60.10.6 with SMTP id e6mr10956091oeb.45.1346095159812; Mon, 27
+ Aug 2012 12:19:19 -0700 (PDT)
+Received: by 10.76.144.70 with HTTP; Mon, 27 Aug 2012 12:19:19 -0700 (PDT)
+Date: Mon, 27 Aug 2012 15:19:19 -0400
+Message-ID: <CA+1ChEU9tfpj1sBQk4+JddUndjA9rCBKzcK8p91YGdiqVfUBPw@mail.gmail.com>
+Subject: [big campaign] BREAKING: SIX new companies drop ALEC !!!
+From: Aniello Alioto <aniello@progressnow.org>
+To: undisclosed-recipients:
+BCC: bigcampaign@googlegroups.com
+X-Gm-Message-State: ALoCoQlHYS25NUryk28vTT0d3iIOQS6AkvIlqiCrW8AdioWEnMsYIaW5q0oEbTetCxi47D0EkMb3
+X-Original-Sender: aniello@progressnow.org
+X-Original-Authentication-Results: gmr-mx.google.com; spf=neutral (google.com:
+ 209.85.214.169 is neither permitted nor denied by domain of
+ aniello@progressnow.org) smtp.mail=aniello@progressnow.org
+Reply-To: aniello@progressnow.org
+Precedence: list
+Mailing-list: list bigcampaign@googlegroups.com; contact bigcampaign+owners@googlegroups.com
+List-ID: <bigcampaign.googlegroups.com>
+X-Google-Group-Id: 329678006109
+List-Post: <http://groups.google.com/group/bigcampaign/post?hl=en_US>, <mailto:bigcampaign@googlegroups.com>
+List-Help: <http://groups.google.com/support/?hl=en_US>, <mailto:bigcampaign+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/bigcampaign?hl=en_US>
+Sender: bigcampaign@googlegroups.com
+List-Unsubscribe: <http://groups.google.com/group/bigcampaign/subscribe?hl=en_US>,
+ <mailto:googlegroups-manage+329678006109+unsubscribe@googlegroups.com>
+Content-Type: multipart/alternative; boundary=e89a8fb2028ad5af7604c84433f7
+
+--e89a8fb2028ad5af7604c84433f7
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+HUGE news (progressemists be damned)!
+
+Color of Change (along w/ others - see below) did a tremendous amount of
+work to make this happen and just broke the news on 5 new companies (*Enter=
+gy
+- which is included in the tally of 6 and in the PRwatch story below -
+dropped ALEC recently to no fanfare, so that is why there may be a ? on is
+it 5 or 6 - six sounds better*).
+
+NEW TOTALS: 38 corporations, 4 major non-profits (42 private sector former
+members) and 70 confirmed elected leaders!
+
+New ALEC companies that we are announcing today are:
+General Electric<http://www.sourcewatch.org/index.php?title=3DGeneral_Elect=
+ric>
+(GE),
+Western Union, Sprint
+Nextel<http://www.sourcewatch.org/index.php?title=3DSprint_Nextel>
+, Symantec <http://www.sourcewatch.org/index.php?title=3DSymantec> (maker o=
+f
+Norton antivirus software), Reckitt Benckiser
+Group<http://www.sourcewatch.org/index.php?title=3DReckitt_Benckiser_Group>
+(a
+British consumer goods company that makes such brands as French's mustard,
+Woolite, Lysol, Clearasil, Durex, and D-Con), and
+Entergy<http://www.sourcewatch.org/index.php?title=3DEntergy> (a
+power plant company headquartered in New Orleans).
+
+http://www.prwatch.org/news/2012/08/11724/six-more-corporations-dump-alec-3=
+8-companies-have-now-cut-ties-corporate-bill-mil
+ NEWS <http://www.prwatch.org/news-types/news>
+ Six More Corporations Dump ALEC; 38 Companies Have Now Cut Ties with
+Corporate Bill Mill
+by Rebekah Wilce <http://www.prwatch.org/users/35294/rebekah-wilce> =97
+August 27, 2012
+ Topics: Corporations <http://www.prwatch.org/topics/corporations>,
+Politics<http://www.prwatch.org/topics/politics>
+Projects: ALEC Exposed <http://www.prwatch.org/projects/alec-exposed>
+[image: Share/Save] Share
+this<http://www.addtoany.com/share_save#url=3Dhttp%3A%2F%2Fwww.prwatch.org%=
+2Fnews%2F2012%2F08%2F11724%2Fsix-more-corporations-dump-alec-38-companies-h=
+ave-now-cut-ties-corporate-bill-mil&title=3DSix%20More%20Corporations%20Dum=
+p%20ALEC%3B%2038%20Companies%20Have%20Now%20Cut%20Ties%20with%20Corporate%2=
+0Bill%20Mill&description=3D>
+
+[image: French's mustard]
+
+Now you can swap out that GE lightbulb, Western Union $100 to the old
+country, continue that cell phone contract with Sprint, protect your
+computer from that nasty virus, smother that hot dog with French's mustard,
+and pay the electric bill in New Orleans, all without indirectly supporting
+the American Legislative Exchange
+Council<http://www.sourcewatch.org/index.php?title=3DAmerican_Legislative_E=
+xchange_Council>
+ (ALEC).
+
+Six more companies have indicated that they are cutting, or have cut, ties
+to ALEC: General
+Electric<http://www.sourcewatch.org/index.php?title=3DGeneral_Electric>
+(GE),
+Western Union, Sprint
+Nextel<http://www.sourcewatch.org/index.php?title=3DSprint_Nextel>
+, Symantec <http://www.sourcewatch.org/index.php?title=3DSymantec>(maker of
+Norton antivirus software), Reckitt Benckiser
+Group<http://www.sourcewatch.org/index.php?title=3DReckitt_Benckiser_Group>
+(a
+British consumer goods company that makes such brands as French's mustard,
+Woolite, Lysol, Clearasil, Durex, and D-Con), and
+Entergy<http://www.sourcewatch.org/index.php?title=3DEntergy> (a
+power plant company headquartered in New Orleans).
+Corporate Involvement with ALEC
+
+[image: GE Lightbulb]
+
+GE told the online civil rights organization ColorofChange.org (CoC) that
+it decided not to renew its ALEC membership in July 2012. The company was a
+member of ALEC's Tax and Fiscal Policy Task
+Force<http://www.sourcewatch.org/index.php?title=3DTax_and_Fiscal_Policy_Ta=
+sk_Force>
+as
+of March 2011.
+
+Tim Daly, senior vice president for global public policy at Western Union,
+told CoC that the company was only an ALEC member in 2011 and chose not to
+renew in May 2012. Western Union was a member of ALEC's Commerce, Insurance
+and Economic Development Task
+Force<http://www.sourcewatch.org/index.php?title=3DCommerce,_Insurance_and_=
+Economic_Development_Task_Force>
+as
+of June 2011.
+
+A Sprint spokesperson told CoC that it had not been a member of ALEC for
+three or four years. ALEC's internal documents had listed the company as a
+member of ALEC's Communications and Technology Task
+Force<http://www.sourcewatch.org/index.php?title=3DCommunications_and_Techn=
+ology_Task_Force>
+as
+recently as July
+2011<http://www.commoncause.org/atf/cf/%7BFB3C17E2-CDD1-4DF6-92BE-BD4429893=
+665%7D/telecom&it_updated_35-day_mailing%20New%20Orleans.pdf>,
+but the spokesperson said that ALEC's records are mistaken.
+
+Symantec is also listed in the same July 2011 Communications and
+Technology task
+force directory<http://www.commoncause.org/atf/cf/%7BFB3C17E2-CDD1-4DF6-92B=
+E-BD4429893665%7D/telecom&it_updated_35-day_mailing%20New%20Orleans.pdf>,
+but Symantec's vice president of global government affairs, Cheri McGuire,
+told CoC that the company's membership expired June 2010 and was not
+renewed.
+
+Reckitt Benckiser told CoC that it is no longer an ALEC member. It had been
+a member of the Health and Human Services Task
+Force<http://www.sourcewatch.org/index.php?title=3DHealth_and_Human_Service=
+s_Task_Force>
+ and Public Safety and Elections Task
+Force<http://www.sourcewatch.org/index.php?title=3DPublic_Safety_and_Electi=
+ons_Task_Force>
+as
+of June 2011.
+
+Last but not least,
+Entergy<http://www.sourcewatch.org/index.php?title=3DEntergy> said
+in a letter <http://alecexposed.org/w/index.php?title=3DInvestor_Open_Lette=
+r> to
+Walden Asset Management that neither it nor any of its subsidiaries is
+currently a member of ALEC, nor has it funded ALEC since 2011. Entergy had
+been a member of ALEC's Civil Justice Task
+Force<http://www.sourcewatch.org/index.php?title=3DCivil_Justice_Task_Force=
+>
+as
+of June 2011.
+The Rush to Dump ALEC
+
+[image: "I Want YOU to Dump ALEC"]
+
+Corporations that have publicly cut ties to
+ALEC<http://www.sourcewatch.org/index.php?title=3DCorporations_Which_Have_C=
+ut_Ties_to_ALEC>
+since
+the launch of ALECexposed <http://www.alecexposed/>and related public
+interest campaigns include Amgen, General Motors, Walgreens, Best Buy,
+Hewlett-Packard, MillerCoors, John Deere, Dell, Johnson & Johnson,
+Wal-Mart, Amazon.com, Procter & Gamble, Mars, Wendy's, McDonald's, Kraft
+Foods, PepsiCo, and Coca-Cola. The addition of GE, Western Union, Sprint,
+Symantec, Reckitt Benckiser, and Entergy brings the total to 38. Four
+non-profits -- Lumina Foundation for Education, the National Association of
+Charter School Authorizers (NACSA), the National Board for Professional
+Teaching Standards (NBPTS), and the Gates Foundation -- and 70 state
+legislators<http://www.sourcewatch.org/index.php?title=3DLegislators_Who_Ha=
+ve_Cut_Ties_to_ALEC>
+have
+also cut ties with ALEC.
+
+CMD, along with Color of Change, Common Cause, People for the American Way,
+Progress Now, and others are asking eBay to cut ties with
+ALEC<http://salsa.democracyinaction.org/o/632/p/dia/action/public/?action_K=
+EY=3D10002>.
+Credo Action, a project of Working Assets, is also calling on its
+supporters and customers to call eBay and urge the company to stop funding
+ALEC<http://act.credoaction.com/call/report/?r=3D6919530&cp_id=3D244&tg=3D8=
+61&id=3D44495-1183899-Gr7Qfxx>
+.
+
+
+
+
+http://colorofchange.org/press/releases/2012/8/27/general-electric-western-=
+union-sprint-nextel-syman/
+ General Electric, Western Union, Sprint Nextel, Symantec and Reckitt
+Benckiser Drop ALECColorOfChange Commends Companies for Leaving ALEC; 38
+Companies Have Now Left the American Legislative Exchange Council August
+27, 2012
+
+CONTACTS:
+Timothy Rusch: (917) 399-0236, tim@fitzgibbonmedia.com
+Rachel Tardiff: (202) 746-1407, rachel@fitzgibbonmedia.com
+
+NEW YORK =97 Five more major national and global corporate members of the
+American Legislative Exchange Council (ALEC) have told leading online civil
+rights group ColorOfChange that they have cut ties to the right-wing policy
+group, bringing the total of companies to drop ALEC to 38. They include:
+General Electric, The Western Union Company, Sprint Nextel Corporation,
+Symantec Corporation, and Reckitt Benckiser Group plc. The announcement of
+these major departures comes days before the Republican National Convention
+is scheduled to open in Tampa, FL.
+
+"These significant developments, coupled with recent withdrawals from ALEC
+by companies like Walgreens and GM, further prove that everyday people
+working together to hold corporations accountable can achieve tremendous
+change," said ColorOfChange.org Executive Director Rashad Robinson.
+"ColorOfChange celebrates these corporations who have withdrawn their
+funding from ALEC, which continues to defend its push to enact
+discriminatory voter ID laws across the nation."
+
+ColorOfChange has worked in collaboration with the Center for Media and
+Democracy (CMD), which
+launchedALECexposed.org<http://alecexposed.org/wiki/ALEC_Exposed> last
+summer to highlight the corporations and politicians that vote on ALEC
+"model" bills. CMD has also documented ALEC's role in pushing controversial
+Stand Your Ground and discriminatory voter ID laws. Other allied
+organizations include CREDO Action, Progressive Change Campaign Committee,
+Common Cause, ProgressNow, People For the American Way, and SumOfUs.org.
+
+Louis Dreyfus Commodities, Amgen Inc. and Entergy Corporation have also
+recently dropped their ALEC memberships bringing the total number of
+departed members to 38. These companies join General Motors, Walgreens,
+CVSCaremark, Best Buy, MillerCoors, John Deere, Hewlett-Packard, Dell,
+Johnson & Johnson, Wal-Mart, Amazon, Procter & Gamble, Yum! Brands,
+McDonald's, Wendy's, Mars Inc., Coca-Cola, PepsiCo, Kraft Foods, Intuit,
+Blue Cross Blue Shield Association, Reed Elsevier, Kaplan, Scantron,
+Medtronic, American Traffic Solutions, Arizona Public Service, Express
+Scripts/Medco, EnergySolutions, and Connections Education.
+
+More than 100,000 ColorOfChange members signed a petition targeting ALEC=92=
+s
+corporate partners for their role in suppressing Black votes. The petition
+can be found here: http://www.colorofchange.org/campaign/alec/.
+
+# # #
+
+With more than 800,000 members, ColorOfChange.org is the nation=92s largest
+Black online civil rights organization.
+
+
+
+
+
+--=20
+Aniello Alioto
+National Political Director
+Aniello@ProgressNow.org
+502.664.2420
+
+CA: Courage Campaign
+CO: ProgressNow Colorado
+FL: Progress Florida
+GA: Better Georgia
+IA: Progress Iowa
+MA: ProgressMass
+MI: Progress Michigan
+MN: Alliance for a Better Minnesota (ABM)
+MO: Progress Missouri
+NC: Progress North Carolina
+NE: Bold Nebraska
+NH: Granite State Progress
+NM: Progress New Mexico
+NV: ProgressNow Nevada
+OH: ProgressOhio
+PA: Keystone Progress
+TX: Progress Texas
+UT: Alliance for a Better Utah
+VA: Progress Virginia
+WA: Fuse Washington
+WI: One Wisconsin Now (OWN)
+
+Twitter: @ProgressNow
+Facebook: ProgressNow
+
+www.ProgressNow.org
+
+--=20
+You received this message because you are subscribed to the "big campaign" =
+group.
+
+To post to this group, send to bigcampaign@googlegroups.com
+
+To unsubscribe, send email to dubois.sara@gmail.com
+
+E-mail dubois.sara@gmail.com with questions or concerns
+=20
+This is a list of individuals. It is not affiliated with any group or organ=
+ization.
+
+--e89a8fb2028ad5af7604c84433f7
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote"><div class=3D"HOEnZb"><div class=3D"h5"><div cla=
+ss=3D"gmail_quote"><font face=3D"arial, helvetica, sans-serif">HUGE news (p=
+rogressemists be damned)!</font><div><font face=3D"arial, helvetica, sans-s=
+erif"><br>
+</font></div><div><font face=3D"arial, helvetica, sans-serif">Color of Chan=
+ge (along w/ others - see below) did a tremendous amount of work to make th=
+is happen and just broke the news on 5 new companies (<i>Entergy - which is=
+ included in the tally of 6 and in the PRwatch story below - dropped ALEC r=
+ecently to no fanfare, so that is why there may be a ? on is it 5 or 6 - si=
+x sounds better</i>).=A0</font></div>
+
+
+<div><font face=3D"arial, helvetica, sans-serif"><br></font></div><div><fon=
+t face=3D"arial, helvetica, sans-serif">NEW TOTALS: 38 corporations, 4 majo=
+r non-profits (42 private sector former members) and 70 confirmed elected l=
+eaders!=A0<br>
+
+
+</font><div><font face=3D"arial, helvetica, sans-serif"><br></font></div><d=
+iv><font face=3D"arial, helvetica, sans-serif">New ALEC companies that we a=
+re announcing today are:</font></div><div><font face=3D"arial, helvetica, s=
+ans-serif"><a href=3D"http://www.sourcewatch.org/index.php?title=3DGeneral_=
+Electric" title=3D"reference on General Electric" style=3D"line-height:18px=
+;color:rgb(184,35,20);margin:0px;padding:0px" target=3D"_blank">General Ele=
+ctric</a><span style=3D"line-height:18px;color:rgb(40,40,40)">=A0(GE), West=
+ern Union,=A0</span><a href=3D"http://www.sourcewatch.org/index.php?title=
+=3DSprint_Nextel" title=3D"reference on Sprint Nextel" style=3D"line-height=
+:18px;color:rgb(51,95,153);text-decoration:none;margin:0px;padding:0px" tar=
+get=3D"_blank">Sprint Nextel</a><span style=3D"line-height:18px;color:rgb(4=
+0,40,40)">,=A0</span><a href=3D"http://www.sourcewatch.org/index.php?title=
+=3DSymantec" title=3D"reference on Symantec" style=3D"line-height:18px;colo=
+r:rgb(51,95,153);text-decoration:none;margin:0px;padding:0px" target=3D"_bl=
+ank">Symantec</a>=A0<span style=3D"line-height:18px;color:rgb(40,40,40)">(m=
+aker of Norton antivirus software),=A0</span><a href=3D"http://www.sourcewa=
+tch.org/index.php?title=3DReckitt_Benckiser_Group" title=3D"reference on Re=
+ckitt Benckiser Group" style=3D"line-height:18px;color:rgb(51,95,153);text-=
+decoration:none;margin:0px;padding:0px" target=3D"_blank">Reckitt Benckiser=
+ Group</a><span style=3D"line-height:18px;color:rgb(40,40,40)">=A0(a Britis=
+h consumer goods company that makes such brands as French&#39;s mustard, Wo=
+olite, Lysol, Clearasil, Durex, and D-Con), and=A0</span><a href=3D"http://=
+www.sourcewatch.org/index.php?title=3DEntergy" title=3D"reference on Enterg=
+y" style=3D"line-height:18px;color:rgb(51,95,153);text-decoration:none;marg=
+in:0px;padding:0px" target=3D"_blank">Entergy</a><span style=3D"line-height=
+:18px;color:rgb(40,40,40)">=A0(a power plant company headquartered in New O=
+rleans).</span></font></div>
+
+
+<div><font face=3D"arial, helvetica, sans-serif"><font color=3D"#282828"><s=
+pan style=3D"line-height:18px"><br></span></font></font></div><div><font fa=
+ce=3D"arial, helvetica, sans-serif"><font color=3D"#282828"><span style=3D"=
+line-height:18px"><a href=3D"http://www.prwatch.org/news/2012/08/11724/six-=
+more-corporations-dump-alec-38-companies-have-now-cut-ties-corporate-bill-m=
+il" target=3D"_blank">http://www.prwatch.org/news/2012/08/11724/six-more-co=
+rporations-dump-alec-38-companies-have-now-cut-ties-corporate-bill-mil</a><=
+/span></font></font></div>
+
+
+<div><div style=3D"line-height:14px;font-size:11px;font-family:&#39;Lucida =
+Sans&#39;,&#39;Lucida Grande&#39;,&#39;Lucida Sans Unicode&#39;,Verdana,Gen=
+eva,sans-serif;margin:0px;padding:0px">
+<div style=3D"margin:0px 0px 10px;padding:0px"><span style=3D"margin:0px;pa=
+dding:0px"><span style=3D"margin:0px;padding:0px"><a href=3D"http://www.prw=
+atch.org/news-types/news" style=3D"margin:0px;padding:0px;text-decoration:n=
+one;color:rgb(184,35,20);font-size:15px;text-transform:uppercase" target=3D=
+"_blank">NEWS</a></span></span></div>
+
+
+</div><h1 style=3D"line-height:22px;color:rgb(34,34,34);font-size:20px;font=
+-family:&#39;Lucida Sans&#39;,&#39;Lucida Grande&#39;,&#39;Lucida Sans Unic=
+ode&#39;,Verdana,Geneva,sans-serif;margin:0px 0px 0.5em;font-weight:normal;=
+padding:0px">
+
+
+Six More Corporations Dump ALEC; 38 Companies Have Now Cut Ties with Corpor=
+ate Bill Mill</h1><div style=3D"line-height:18px;font-size:12px;font-family=
+:&#39;Lucida Sans&#39;,&#39;Lucida Grande&#39;,&#39;Lucida Sans Unicode&#39=
+;,Verdana,Geneva,sans-serif;margin:0px;padding:0px">
+
+
+<div style=3D"margin:0px 0px 1.5em;padding:0px"><div style=3D"margin:0px;pa=
+dding:0px"><div style=3D"margin:0px;padding:0px"><span style=3D"margin:0px;=
+padding:0px;font-size:11px">by=A0<a href=3D"http://www.prwatch.org/users/35=
+294/rebekah-wilce" title=3D"View user profile." style=3D"margin:0px;padding=
+:0px;text-decoration:none;color:rgb(51,95,153)" target=3D"_blank">Rebekah W=
+ilce</a>=A0=97 August 27, 2012</span></div>
+
+
+<div style=3D"margin:0px;padding:0px;font-size:11px;line-height:14px"><div =
+style=3D"margin:0px;padding:0px"><span style=3D"margin:0px;padding:0px"><li=
+ style=3D"margin:0px;padding:0px;line-height:16px;list-style-type:none">
+Topics:=A0<span style=3D"margin:0px;padding:0px"><a href=3D"http://www.prwa=
+tch.org/topics/corporations" style=3D"margin:0px;padding:0px;text-decoratio=
+n:none;color:rgb(51,95,153)" target=3D"_blank">Corporations</a></span>,=A0<=
+span style=3D"margin:0px;padding:0px"><a href=3D"http://www.prwatch.org/top=
+ics/politics" style=3D"margin:0px;padding:0px;text-decoration:none;color:rg=
+b(51,95,153)" target=3D"_blank">Politics</a></span></li>
+
+
+</span></div><div style=3D"margin:0px 0px 10px;padding:0px"><span style=3D"=
+margin:0px;padding:0px"><li style=3D"margin:0px;padding:0px;line-height:16p=
+x;list-style-type:none">
+Projects:=A0<span style=3D"margin:0px;padding:0px"><a href=3D"http://www.pr=
+watch.org/projects/alec-exposed" style=3D"margin:0px;padding:0px;text-decor=
+ation:none;color:rgb(51,95,153)" target=3D"_blank">ALEC Exposed</a></span><=
+/li></span></div>
+
+
+</div><div style=3D"margin:0px;padding:0px;color:rgb(40,40,40)"><a href=3D"=
+http://www.addtoany.com/share_save#url=3Dhttp%3A%2F%2Fwww.prwatch.org%2Fnew=
+s%2F2012%2F08%2F11724%2Fsix-more-corporations-dump-alec-38-companies-have-n=
+ow-cut-ties-corporate-bill-mil&amp;title=3DSix%20More%20Corporations%20Dump=
+%20ALEC%3B%2038%20Companies%20Have%20Now%20Cut%20Ties%20with%20Corporate%20=
+Bill%20Mill&amp;description=3D" style=3D"margin:0px;padding:0px;text-decora=
+tion:none;color:rgb(51,95,153)" target=3D"_blank"><img src=3D"http://www.pr=
+watch.org/sites/all/modules/addtoany/images/share_16_16.png" width=3D"16" h=
+eight=3D"16" alt=3D"Share/Save" style=3D"border:0px">=A0Share this</a><p st=
+yle=3D"margin:1em 0px;padding:0px">
+
+
+<img src=3D"http://www.prwatch.org/files/images/French%27s%20Mustard.jpg" a=
+lt=3D"French&#39;s mustard" width=3D"200" height=3D"150" style=3D"border:0p=
+x;margin:3px;float:right"></p><p style=3D"margin:1em 0px;padding:0px">Now y=
+ou can=A0swap out that GE lightbulb, Western Union $100 to the old country,=
+=A0continue that cell phone contract with Sprint,=A0protect your computer f=
+rom that nasty virus, smother that hot dog with French&#39;s mustard, and p=
+ay the electric bill in New Orleans, all without indirectly supporting the=
+=A0<a href=3D"http://www.sourcewatch.org/index.php?title=3DAmerican_Legisla=
+tive_Exchange_Council" title=3D"reference on American Legislative Exchange =
+Council" style=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,=
+95,153)" target=3D"_blank">American Legislative Exchange Council</a>=A0(ALE=
+C).</p>
+
+
+<p style=3D"margin:1em 0px;padding:0px"></p><p style=3D"margin:1em 0px;padd=
+ing:0px">Six more companies have indicated that they are cutting, or have c=
+ut, ties to ALEC:=A0<a href=3D"http://www.sourcewatch.org/index.php?title=
+=3DGeneral_Electric" title=3D"reference on General Electric" style=3D"margi=
+n:0px;padding:0px;text-decoration:none;color:rgb(51,95,153)" target=3D"_bla=
+nk">General Electric</a>=A0(GE), Western Union,=A0<a href=3D"http://www.sou=
+rcewatch.org/index.php?title=3DSprint_Nextel" title=3D"reference on Sprint =
+Nextel" style=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,9=
+5,153)" target=3D"_blank">Sprint Nextel</a>,=A0<a href=3D"http://www.source=
+watch.org/index.php?title=3DSymantec" title=3D"reference on Symantec" style=
+=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,95,153)" targe=
+t=3D"_blank">Symantec</a>(maker of Norton antivirus software),=A0<a href=3D=
+"http://www.sourcewatch.org/index.php?title=3DReckitt_Benckiser_Group" titl=
+e=3D"reference on Reckitt Benckiser Group" style=3D"margin:0px;padding:0px;=
+text-decoration:none;color:rgb(51,95,153)" target=3D"_blank">Reckitt Bencki=
+ser Group</a>=A0(a British consumer goods company that makes such brands as=
+ French&#39;s mustard, Woolite, Lysol, Clearasil, Durex, and D-Con), and=A0=
+<a href=3D"http://www.sourcewatch.org/index.php?title=3DEntergy" title=3D"r=
+eference on Entergy" style=3D"margin:0px;padding:0px;text-decoration:none;c=
+olor:rgb(51,95,153)" target=3D"_blank">Entergy</a>=A0(a power plant company=
+ headquartered in New Orleans).</p>
+
+
+<h2 style=3D"margin:0px 0px 0.5em;padding:0px;font-size:18px;font-weight:no=
+rmal;line-height:19px;color:rgb(34,34,34)">Corporate Involvement with ALEC<=
+/h2><p style=3D"margin:1em 0px;padding:0px"><img src=3D"http://www.prwatch.=
+org/files/images/GE%20Lightbulb.jpg" alt=3D"GE Lightbulb" width=3D"150" hei=
+ght=3D"150" style=3D"border:0px;margin:3px;float:left"></p>
+
+
+<p style=3D"margin:1em 0px;padding:0px">GE told the online civil rights org=
+anization ColorofChange.org (CoC) that it decided not to renew its ALEC mem=
+bership in July 2012. The company was a member of ALEC&#39;s=A0<a href=3D"h=
+ttp://www.sourcewatch.org/index.php?title=3DTax_and_Fiscal_Policy_Task_Forc=
+e" title=3D"reference on Tax and Fiscal Policy Task Force" style=3D"margin:=
+0px;padding:0px;text-decoration:none;color:rgb(51,95,153)" target=3D"_blank=
+">Tax and Fiscal Policy Task Force</a>=A0as of March 2011.</p>
+
+
+<p style=3D"margin:1em 0px;padding:0px">Tim Daly, senior vice president for=
+ global public policy at Western Union, told CoC that the company was only =
+an ALEC member in 2011 and chose not to renew in May 2012. Western Union wa=
+s a member of ALEC&#39;s=A0<a href=3D"http://www.sourcewatch.org/index.php?=
+title=3DCommerce,_Insurance_and_Economic_Development_Task_Force" title=3D"r=
+eference on Commerce, Insurance and Economic Development Task Force" style=
+=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,95,153)" targe=
+t=3D"_blank">Commerce, Insurance and Economic Development Task Force</a>=A0=
+as of June 2011.</p>
+
+
+<p style=3D"margin:1em 0px;padding:0px">A Sprint spokesperson told CoC that=
+ it had not been a member of ALEC for three or four years. ALEC&#39;s inter=
+nal documents had listed the company as a member of ALEC&#39;s=A0<a href=3D=
+"http://www.sourcewatch.org/index.php?title=3DCommunications_and_Technology=
+_Task_Force" title=3D"reference on Communications and Technology Task Force=
+" style=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,95,153)=
+" target=3D"_blank">Communications and Technology Task Force</a>=A0as recen=
+tly as=A0<a href=3D"http://www.commoncause.org/atf/cf/%7BFB3C17E2-CDD1-4DF6=
+-92BE-BD4429893665%7D/telecom&amp;it_updated_35-day_mailing%20New%20Orleans=
+.pdf" title=3D"reference on July 2011" style=3D"margin:0px;padding:0px;text=
+-decoration:none;color:rgb(51,95,153)" target=3D"_blank">July 2011</a>, but=
+ the spokesperson said that ALEC&#39;s records are mistaken.</p>
+
+
+<p style=3D"margin:1em 0px;padding:0px">Symantec is also listed in the same=
+ July 2011 Communications and Technology=A0<a href=3D"http://www.commoncaus=
+e.org/atf/cf/%7BFB3C17E2-CDD1-4DF6-92BE-BD4429893665%7D/telecom&amp;it_upda=
+ted_35-day_mailing%20New%20Orleans.pdf" title=3D"reference on task force di=
+rectory" style=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,=
+95,153)" target=3D"_blank">task force directory</a>, but Symantec&#39;s vic=
+e president of global government affairs, Cheri McGuire, told CoC that the =
+company&#39;s membership expired June 2010 and was not renewed.</p>
+
+
+<p style=3D"margin:1em 0px;padding:0px">Reckitt Benckiser told CoC that it =
+is no longer an ALEC member. It had been a member of the=A0<a href=3D"http:=
+//www.sourcewatch.org/index.php?title=3DHealth_and_Human_Services_Task_Forc=
+e" title=3D"reference on Health and Human Services Task Force" style=3D"mar=
+gin:0px;padding:0px;text-decoration:none;color:rgb(51,95,153)" target=3D"_b=
+lank">Health and Human Services Task Force</a>=A0and=A0<a href=3D"http://ww=
+w.sourcewatch.org/index.php?title=3DPublic_Safety_and_Elections_Task_Force"=
+ title=3D"reference on Public Safety and Elections Task Force" style=3D"mar=
+gin:0px;padding:0px;text-decoration:none;color:rgb(51,95,153)" target=3D"_b=
+lank">Public Safety and Elections Task Force</a>=A0as of June 2011.</p>
+
+
+<p style=3D"margin:1em 0px;padding:0px">Last but not least,=A0<a href=3D"ht=
+tp://www.sourcewatch.org/index.php?title=3DEntergy" title=3D"reference on E=
+ntergy" style=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,9=
+5,153)" target=3D"_blank">Entergy</a>=A0said in a=A0<a href=3D"http://alece=
+xposed.org/w/index.php?title=3DInvestor_Open_Letter" title=3D"reference on =
+letter" style=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,9=
+5,153)" target=3D"_blank">letter</a>=A0to Walden Asset Management that neit=
+her it nor any of its subsidiaries is currently a member of ALEC, nor has i=
+t funded ALEC since 2011. Entergy had been a member of ALEC&#39;s=A0<a href=
+=3D"http://www.sourcewatch.org/index.php?title=3DCivil_Justice_Task_Force" =
+title=3D"reference on Civil Justice Task Force" style=3D"margin:0px;padding=
+:0px;text-decoration:none;color:rgb(51,95,153)" target=3D"_blank">Civil Jus=
+tice Task Force</a>=A0as of June 2011.</p>
+
+
+<h2 style=3D"margin:0px 0px 0.5em;padding:0px;font-size:18px;font-weight:no=
+rmal;line-height:19px;color:rgb(34,34,34)">The Rush to Dump ALEC</h2><p sty=
+le=3D"margin:1em 0px;padding:0px"><img src=3D"http://www.prwatch.org/files/=
+images/I_Want_You_to_Dump_ALEC.jpg" alt=3D"&quot;I Want YOU to Dump ALEC&qu=
+ot;" width=3D"150" height=3D"188" style=3D"border:0px;margin:5px;float:righ=
+t"></p>
+
+
+<p style=3D"margin:1em 0px;padding:0px"><a href=3D"http://www.sourcewatch.o=
+rg/index.php?title=3DCorporations_Which_Have_Cut_Ties_to_ALEC" title=3D"ref=
+erence on Corporations that have publicly cut ties to ALEC" style=3D"margin=
+:0px;padding:0px;text-decoration:none;color:rgb(51,95,153)" target=3D"_blan=
+k">Corporations that have publicly cut ties to ALEC</a>=A0since the launch =
+of=A0<a href=3D"http://www.alecexposed/" title=3D"reference on ALECexposed"=
+ style=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,95,153)"=
+ target=3D"_blank">ALECexposed</a>and related public interest campaigns inc=
+lude Amgen, General Motors, Walgreens, Best Buy, Hewlett-Packard, MillerCoo=
+rs, John Deere, Dell, Johnson &amp; Johnson, Wal-Mart, Amazon.com, Procter =
+&amp; Gamble, Mars, Wendy&#39;s, McDonald&#39;s, Kraft Foods, PepsiCo, and =
+Coca-Cola. The addition of GE, Western Union, Sprint, Symantec, Reckitt Ben=
+ckiser, and Entergy brings the total to 38. Four non-profits -- Lumina Foun=
+dation for Education, the National Association of Charter School Authorizer=
+s (NACSA), the National Board for Professional Teaching Standards (NBPTS), =
+and the Gates Foundation -- and=A0<a href=3D"http://www.sourcewatch.org/ind=
+ex.php?title=3DLegislators_Who_Have_Cut_Ties_to_ALEC" title=3D"reference on=
+ 70 state legislators" style=3D"margin:0px;padding:0px;text-decoration:none=
+;color:rgb(51,95,153)" target=3D"_blank">70 state legislators</a>=A0have al=
+so cut ties with ALEC.</p>
+
+
+<p style=3D"margin:1em 0px;padding:0px">CMD, along with Color of Change, Co=
+mmon Cause, People for the American Way, Progress Now, and others are=A0<a =
+href=3D"http://salsa.democracyinaction.org/o/632/p/dia/action/public/?actio=
+n_KEY=3D10002" title=3D"reference on asking eBay to cut ties with ALEC" sty=
+le=3D"margin:0px;padding:0px;text-decoration:none;color:rgb(51,95,153)" tar=
+get=3D"_blank">asking eBay to cut ties with ALEC</a>. Credo Action, a proje=
+ct of Working Assets, is also calling on its supporters and customers to=A0=
+<a href=3D"http://act.credoaction.com/call/report/?r=3D6919530&amp;cp_id=3D=
+244&amp;tg=3D861&amp;id=3D44495-1183899-Gr7Qfxx" title=3D"reference on call=
+ eBay and urge the company to stop funding ALEC" style=3D"margin:0px;paddin=
+g:0px;text-decoration:none;color:rgb(51,95,153)" target=3D"_blank">call eBa=
+y and urge the company to stop funding ALEC</a>.</p>
+
+
+</div></div></div></div></div><div><font face=3D"arial, helvetica, sans-ser=
+if"><font color=3D"#282828"><span style=3D"line-height:18px"><br></span></f=
+ont></font></div><div><font face=3D"arial, helvetica, sans-serif"><font col=
+or=3D"#282828"><span style=3D"line-height:18px"><br>
+
+
+</span></font></font></div><div><font face=3D"arial, helvetica, sans-serif"=
+><font color=3D"#282828"><span style=3D"line-height:18px"><br></span></font=
+></font></div><div><font face=3D"arial, helvetica, sans-serif"><font color=
+=3D"#282828"><span style=3D"line-height:18px"><br>
+
+
+</span></font></font></div><div><font color=3D"#282828" face=3D"arial, helv=
+etica, sans-serif"><span style=3D"line-height:18px"><a href=3D"http://color=
+ofchange.org/press/releases/2012/8/27/general-electric-western-union-sprint=
+-nextel-syman/" target=3D"_blank">http://colorofchange.org/press/releases/2=
+012/8/27/general-electric-western-union-sprint-nextel-syman/</a></span></fo=
+nt></div>
+
+
+<div><div style=3D"float:left;width:714px;color:rgb(238,238,238);font-famil=
+y:Helvetica,sans-serif;font-size:12px;background-color:rgb(238,238,238)"><h=
+2 style=3D"font-family:Georgia,&#39;Times New Roman&#39;,Times,serif;font-s=
+ize:24px;color:rgb(26,26,26);margin:0px 0px 10px;padding:0px;font-weight:no=
+rmal;float:left;width:720px;display:inline">
+
+
+General Electric, Western Union, Sprint Nextel, Symantec and Reckitt Bencki=
+ser Drop ALEC</h2><h3 style=3D"font-size:20px;font-weight:normal;color:rgb(=
+26,26,26);float:left;width:720px;display:inline;margin:10px 0px 5px">ColorO=
+fChange Commends Companies for Leaving ALEC; 38 Companies Have Now Left the=
+ American Legislative Exchange Council</h3>
+
+
+<h3 style=3D"font-size:14px;font-weight:normal;color:rgb(26,26,26);float:le=
+ft;width:720px;display:inline;margin:10px 0px 5px;font-style:italic">August=
+ 27, 2012</h3></div><div style=3D"font-family:Helvetica,sans-serif;font-siz=
+e:12px;background-color:rgb(238,238,238);color:rgb(51,51,51)">
+
+
+<p style=3D"font-size:13px;line-height:20px;color:rgb(26,26,26);padding:0px=
+ 0px 25px;margin:5px 0px 0px;float:left;clear:left">CONTACTS:<br>Timothy Ru=
+sch: <a href=3D"tel:%28917%29%20399-0236" value=3D"+19173990236" target=3D"=
+_blank">(917) 399-0236</a>,=A0<a href=3D"mailto:tim@fitzgibbonmedia.com" st=
+yle=3D"color:rgb(204,0,0);text-decoration:none" target=3D"_blank">tim@fitzg=
+ibbonmedia.com</a><br>
+
+
+Rachel Tardiff: <a href=3D"tel:%28202%29%20746-1407" value=3D"+12027461407"=
+ target=3D"_blank">(202) 746-1407</a>,=A0<a href=3D"mailto:rachel@fitzgibbo=
+nmedia.com" style=3D"color:rgb(204,0,0);text-decoration:none" target=3D"_bl=
+ank">rachel@fitzgibbonmedia.com</a><br>
+
+<br>NEW YORK =97 Five more major national and global corporate members of t=
+he American Legislative Exchange Council (ALEC) have told leading online ci=
+vil rights group ColorOfChange that they have cut ties to the right-wing po=
+licy group, bringing the total of companies to drop ALEC to 38. They includ=
+e: General Electric, The Western Union Company, Sprint Nextel Corporation, =
+Symantec Corporation, and Reckitt Benckiser Group plc. The announcement of =
+these major departures comes days before the Republican National Convention=
+ is scheduled to open in Tampa, FL.</p>
+
+
+<p style=3D"font-size:13px;line-height:20px;color:rgb(26,26,26);padding:0px=
+ 0px 25px;margin:5px 0px 0px;float:left;clear:left">&quot;These significant=
+ developments, coupled with recent withdrawals from ALEC by companies like =
+Walgreens and GM, further prove that everyday people working together to ho=
+ld corporations accountable can achieve tremendous change,&quot; said Color=
+OfChange.org Executive Director Rashad Robinson. &quot;ColorOfChange celebr=
+ates these corporations who have withdrawn their funding from ALEC, which c=
+ontinues to defend its push to enact discriminatory voter ID laws across th=
+e nation.&quot;</p>
+
+
+<p style=3D"font-size:13px;line-height:20px;color:rgb(26,26,26);padding:0px=
+ 0px 25px;margin:5px 0px 0px;float:left;clear:left">ColorOfChange has worke=
+d in collaboration with the Center for Media and Democracy (CMD), which lau=
+nched<a href=3D"http://alecexposed.org/wiki/ALEC_Exposed" style=3D"color:rg=
+b(204,0,0);text-decoration:none" target=3D"_blank">ALECexposed.org</a>=A0la=
+st summer to highlight the corporations and politicians that vote on ALEC &=
+quot;model&quot; bills. CMD has also documented ALEC&#39;s role in pushing =
+controversial Stand Your Ground and discriminatory voter ID laws. Other all=
+ied organizations include CREDO Action, Progressive Change Campaign Committ=
+ee, Common Cause, ProgressNow, People For the American Way, and SumOfUs.org=
+.</p>
+
+
+<p style=3D"font-size:13px;line-height:20px;color:rgb(26,26,26);padding:0px=
+ 0px 25px;margin:5px 0px 0px;float:left;clear:left">Louis Dreyfus Commoditi=
+es, Amgen Inc. and Entergy Corporation have also recently dropped their ALE=
+C memberships bringing the total number of departed members to 38. These co=
+mpanies join General Motors, Walgreens, CVSCaremark, Best Buy, MillerCoors,=
+ John Deere, Hewlett-Packard, Dell, Johnson &amp; Johnson, Wal-Mart, Amazon=
+, Procter &amp; Gamble, Yum! Brands, McDonald&#39;s, Wendy&#39;s, Mars Inc.=
+, Coca-Cola, PepsiCo, Kraft Foods, Intuit, Blue Cross Blue Shield Associati=
+on, Reed Elsevier, Kaplan, Scantron, Medtronic, American Traffic Solutions,=
+ Arizona Public Service, Express Scripts/Medco, EnergySolutions, and Connec=
+tions Education.</p>
+
+
+<p style=3D"font-size:13px;line-height:20px;color:rgb(26,26,26);padding:0px=
+ 0px 25px;margin:5px 0px 0px;float:left;clear:left">More than 100,000 Color=
+OfChange members signed a petition targeting ALEC=92s corporate partners fo=
+r their role in suppressing Black votes. The petition can be found here:=A0=
+<a href=3D"http://www.colorofchange.org/campaign/alec/" style=3D"color:rgb(=
+204,0,0);text-decoration:none" target=3D"_blank">http://www.colorofchange.o=
+rg/campaign/alec/</a>.</p>
+
+
+<p style=3D"font-size:13px;line-height:20px;color:rgb(26,26,26);padding:0px=
+ 0px 25px;margin:5px 0px 0px;float:left;clear:left"># # #</p><p style=3D"fo=
+nt-size:13px;line-height:20px;color:rgb(26,26,26);padding:0px 0px 25px;marg=
+in:5px 0px 0px;float:left;clear:left">
+
+
+With more than 800,000 members, ColorOfChange.org is the nation=92s largest=
+ Black online civil rights organization.</p></div><span><font color=3D"#888=
+888"><div><font face=3D"arial, helvetica, sans-serif"><br></font></div>
+<div><font face=3D"arial, helvetica, sans-serif"><br clear=3D"all">
+</font><div><br></div></div></font></span></div></div></div><br clear=3D"al=
+l"><div><br></div>-- <br></div></div>Aniello Alioto<br>National Political D=
+irector<br>Aniello@ProgressNow.org<div><a href=3D"tel:502.664.2420" value=
+=3D"+15026642420" target=3D"_blank">502.664.2420</a><div>
+<br>CA: Courage Campaign<br>
+CO: ProgressNow Colorado<br>FL: Progress Florida</div><div>GA: Better Georg=
+ia<br>IA: Progress Iowa</div><div>MA: ProgressMass<br>MI: Progress Michigan=
+</div><div>MN: Alliance for a Better Minnesota (ABM)</div><div>MO: Progress=
+ Missouri</div>
+
+<div>NC: Progress North Carolina<br><div>NE: Bold Nebraska</div><div>NH: Gr=
+anite State Progress<br>NM: Progress New Mexico<br>NV: ProgressNow Nevada<b=
+r>OH: ProgressOhio<br>PA: Keystone Progress</div><div>TX: Progress Texas<br=
+>
+
+UT: Alliance for a Better Utah <br></div><div>VA: Progress Virginia<br>WA: =
+Fuse Washington<br>WI: One Wisconsin Now (OWN)<br><br>Twitter: @ProgressNow=
+<br>Facebook: ProgressNow<br><br><a href=3D"http://www.ProgressNow.org" tar=
+get=3D"_blank">www.ProgressNow.org</a></div>
+</div></div></div>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the &quot;big campa=
+ign&quot; group.<br />
+&nbsp;<br />
+To post to this group, send to bigcampaign@googlegroups.com<br />
+&nbsp;<br />
+To unsubscribe, send email to dubois.sara@gmail.com<br />
+&nbsp;<br />
+E-mail dubois.sara@gmail.com with questions or concerns<br />
+ <br />
+This is a list of individuals. It is not affiliated with any group or organ=
+ization.<br />
+
+--e89a8fb2028ad5af7604c84433f7--

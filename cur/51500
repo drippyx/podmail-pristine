@@ -1,0 +1,953 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.101 with SMTP id o98csp758631lfi;
+        Fri, 19 Jun 2015 15:47:57 -0700 (PDT)
+X-Received: by 10.194.78.14 with SMTP id x14mr28788620wjw.48.1434754077039;
+        Fri, 19 Jun 2015 15:47:57 -0700 (PDT)
+Return-Path: <hrcrapid+bncBCTNTQVNBMIJZOESVQCRUBAXDGVJM@hillaryclinton.com>
+Received: from mail-wg0-x245.google.com (mail-wg0-x245.google.com. [2a00:1450:400c:c00::245])
+        by mx.google.com with ESMTPS id ck1si15166123wjc.67.2015.06.19.15.47.56
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 19 Jun 2015 15:47:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of hrcrapid+bncBCTNTQVNBMIJZOESVQCRUBAXDGVJM@hillaryclinton.com designates 2a00:1450:400c:c00::245 as permitted sender) client-ip=2a00:1450:400c:c00::245;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hrcrapid+bncBCTNTQVNBMIJZOESVQCRUBAXDGVJM@hillaryclinton.com designates 2a00:1450:400c:c00::245 as permitted sender) smtp.mail=hrcrapid+bncBCTNTQVNBMIJZOESVQCRUBAXDGVJM@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wg0-x245.google.com with SMTP id j7sf19200520wgf.1
+        for <john.podesta@gmail.com>; Fri, 19 Jun 2015 15:47:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:date:message-id:subject:from:to:content-type
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-subscribe:list-unsubscribe;
+        bh=6pUt0T2lc/KDlaJaVJ4wshAqIq8hmGQXoppdo38tC3g=;
+        b=EH9vVIpCb+KB4ODoVMNhfekc5Mt6RfgnFFAkYihIxX1/SKg/IDMOLVzMvac7Pe7t7Y
+         o9Gc2x6E964fZpqnHIktdGy/MjSvcqJ0xlRYQW+9/kENo4ztCN6OJAOIVinhgOUw1vt6
+         KNmyM/tf1eUlynDaJg5UqCf1l3YGRXj/2wnf4=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:date:message-id:subject:from
+         :to:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-subscribe:list-unsubscribe;
+        bh=6pUt0T2lc/KDlaJaVJ4wshAqIq8hmGQXoppdo38tC3g=;
+        b=GLway3bpYPN1/ggfLOVCmCj+ZVUHjs1j+62XR0RwZR45tWaMXepU0zPYnUeZsSsgJb
+         jtXxPWSitIhLocAXSmA3Qhsc/QVYA+vC7ksvKY3RE14MTbb7ro4RkOu7rMpXsMAXDLs1
+         ugF5KDGRECul38UZhKE63RtnulKEdNCSeg6TY8Xw515Ay/kWYxk5lGNZhmNAzldE1DM2
+         IjXUTwX5WXlWjbVPdjXtC99CIh5ldODsPgzBb9ictTBVBhMoq7eAKsa2zJEnyFuZ6bFn
+         9oP+KafgGf21bpt/Fsg8rmkw4zSqKs1D9Yqc0AFwRFqvrGt5xuIoyrrI/JhUIIiB+hG6
+         9fzQ==
+Sender: hrcrapid@hillaryclinton.com
+X-Gm-Message-State: ALoCoQmDV9IYLj3K1QeEeyeS9k6TEizx0kKjx/510qdrOVCY/y0UYyWcgMglMhgmk2tWz7idL9xI
+X-Received: by 10.112.166.137 with SMTP id zg9mr17053941lbb.11.1434754076734;
+        Fri, 19 Jun 2015 15:47:56 -0700 (PDT)
+X-BeenThere: hrcrapid@hillaryclinton.com
+Received: by 10.180.93.35 with SMTP id cr3ls297660wib.51.gmail; Fri, 19 Jun
+ 2015 15:47:56 -0700 (PDT)
+X-Received: by 10.194.77.179 with SMTP id t19mr28925392wjw.30.1434754076100;
+        Fri, 19 Jun 2015 15:47:56 -0700 (PDT)
+Received: from mail-wi0-x233.google.com (mail-wi0-x233.google.com. [2a00:1450:400c:c05::233])
+        by mx.google.com with ESMTPS id d7si22244208wjn.85.2015.06.19.15.47.56
+        for <HRCRapid@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 19 Jun 2015 15:47:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of chicks@hillaryclinton.com designates 2a00:1450:400c:c05::233 as permitted sender) client-ip=2a00:1450:400c:c05::233;
+Received: by wicnd19 with SMTP id nd19so31003691wic.1
+        for <HRCRapid@hillaryclinton.com>; Fri, 19 Jun 2015 15:47:56 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.180.228.6 with SMTP id se6mr10478354wic.33.1434754075913;
+ Fri, 19 Jun 2015 15:47:55 -0700 (PDT)
+Received: by 10.27.11.18 with HTTP; Fri, 19 Jun 2015 15:47:55 -0700 (PDT)
+Date: Fri, 19 Jun 2015 18:47:55 -0400
+Message-ID: <CAD0-Q+TgD9Mp2jbXCUipMYTtZrp9XiFBXbZAut1mhkNFrz+X_Q@mail.gmail.com>
+Subject: Daily Media Report 6.19.15
+From: Charles Hicks <chicks@hillaryclinton.com>
+To: HRC Rapid <HRCRapid@hillaryclinton.com>, 
+ Jennifer Palmieri <jpalmieri@hillaryclinton.com>, 
+ Julie McClain <jmcclain@hillaryclinton.com>, 
+ Kristina Schake <kschake@hillaryclinton.com>, 
+ Meredith Thatcher <mthatcher@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a1135e39809027a0518e6b716
+X-Original-Sender: chicks@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of chicks@hillaryclinton.com designates 2a00:1450:400c:c05::233 as
+ permitted sender) smtp.mail=chicks@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list HRCRapid@hillaryclinton.com; contact HRCRapid+owners@hillaryclinton.com
+List-ID: <HRCRapid.hillaryclinton.com>
+X-Spam-Checked-In-Group: HRCRapid@hillaryclinton.com
+X-Google-Group-Id: 301712100758
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/post>,
+ <mailto:HRCRapid@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:HRCRapid+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/>
+List-Subscribe: <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/subscribe>,
+ <mailto:HRCRapid+subscribe@hillaryclinton.com>
+List-Unsubscribe: <mailto:googlegroups-manage+301712100758+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/subscribe>
+
+--001a1135e39809027a0518e6b716
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+National:
+
+
+
+-- Report on how presidential candidates were responding to the Charleston
+church shootings; showed HRC=E2=80=99s response to Jon Ralston about guns; =
+panel
+with Michael Steele, David Schrum, and Caroline Heldman; Steele said HRC
+laid out there and said that we need to have a national dialogue; Ed
+Schultz said HRC was not coy at all about bringing up what society has to
+do about the frequent shootings. MSNBC=E2=80=99s The Ed Show
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dd971c0b8-57a2-4e13=
+-b0ae-a5427e7f3b94>,
+
+
+
+
+-- Report on HRC=E2=80=99s gun answer from her interview with Jon Ralston; =
+showed
+footage of HRC answering Ralston=E2=80=99s question about what could preven=
+t
+another shooting like Charleston; Mark Halperin said HRC was not catering
+to the left=E2=80=99s desire to take on the gun lobby; John Heilemann said =
+HRC has
+a long memory; Heilemann said that HRC has seen presidents take on guns
+before and fail; Mark Halperin said states like Ohio, Virginia,
+Pennsylvania, Colorado, and New Hampshire could be in danger for HRC if the
+NRA was more riled up against her than they already were right now. Bloombe=
+rg=E2=80=99s
+With All Due Respect
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D8546e4bb-0560-43f5=
+-b7a4-c3457788fa5f>,
+2015 06 19 Hillary Clinton, Clips, National, Report on HRCs stance on NRA
+and guns.mp4
+
+
+
+-- Report that BHO and HRC spoke about gun control soon after the
+Charleston church shooting; showed footage of Bobby Jindal from Fox News=E2=
+=80=99
+Your World on Thursday; showed footage of HRC on PBS Ralston Live;
+interviewed Pete Snyder; Snyder said HRC and BHO waited for 5 seconds
+before talking politics and that=E2=80=99s not what leaders do; shifted int=
+o
+conversation about HRC facing questions about her honesty; cited the
+Quinnipiac swing state poll of FL, OH, and PA; Katie Pavlich said no
+presidential candidate has won the presidency without winning two of those
+three states; Andrea Tantaros said the reason that HRC and the NYT (HRC=E2=
+=80=99s
+=E2=80=9Chometown newspaper=E2=80=9D) were digging in on Marco Rubio was be=
+cause he did
+well in Pennsylvania in the Quinnipiac swing state poll; Harris Faulkner
+noted Bernie Sanders=E2=80=99 crowds are growing; Faulkner pointed to HRC=
+=E2=80=99s gun
+control message as a sign that she would be the third term of BHO. Fox
+News=E2=80=99 Outnumbered
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D6c9788c3-af6a-4258=
+-b825-ad3440b72e4c>,
+2015 06 19 Hillary Clinton, Clips, National, HRCs Charleston comments and
+Poll Numbers.mp4
+
+
+
+-- Discussion that there must be a national conversation about race;
+interviewed Mark Murray; Murray said if HRC or Jeb Bush were POTUS then
+there could be a more forceful conversation about race because there
+wouldn=E2=80=99t be such high expectations as BHO. MSNBC=E2=80=99s The Rund=
+own With Jose
+Diaz-Balart
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D41f6e514-1f6d-4e69=
+-9b43-958ed42d4dd3>,
+2015 06 19 Hillary Clinton, Clips, National, Mark Murray on HRC and
+Charleston shooting.mp4
+
+
+
+-- Report on how the Charleston church shooting affected the 2016 race;
+showed HRC talking about the shooting; interviewed Chuck Todd; Jose
+Diaz-Balart said that HRC had the most forceful reaction to the shooting;
+shifted into conversation about HRC=E2=80=99s trade position; Todd said HRC=
+ was
+trying to have it both ways, said HRC said she would be a no vote on this
+specific piece of legislation that=E2=80=99s in the US Senate right now; To=
+dd said
+HRC was trying to say that HRC would generally be in favor of fast track if
+all the other issues were agreed to; Todd said in HRC=E2=80=99s heart of he=
+arts
+that he believes HRC favors the TPP. MSNBC=E2=80=99s The Rundown With Jose
+Diaz-Balart
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D3c97e4f3-e779-448e=
+-bd8d-13fd18001197>,
+2015 06 19 Hillary Clinton, Clips, National, Chuck Todd on HRC on SC
+shooting and trade.mp4
+
+
+
+-- Report that Sidney Blumenthal revealed during his deposition that he was
+paid $200,000 by David Brock=E2=80=99s media groups; said this was on top o=
+f the
+$10,000 per month from The Clinton Foundation; interviewed Karl Rove; Rove
+said the question was whether HRC was aware of this; Rove said the other
+question was who was responsible for the Sunday talk show talking points
+lie; Rove said Blumenthal=E2=80=99s emails show that Blumenthal blamed the =
+Benghazi
+attack on a video, said that email was not in the emails that the State
+Department handed over to the Benghazi Committee; Rove said there was a
+question about why HRC did not hand over this email to State or why State
+didn=E2=80=99t hand it over to the Committee; Rove questioned why Blumentha=
+l who
+had no expertise was advising HRC, questioned Blumenthal=E2=80=99s business
+connections. Fox News=E2=80=99 America=E2=80=99s Newsroom With Bill Hemmer =
+and Martha
+MacCallum
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dadbc2562-94d8-44ea=
+-8b9e-ddda350d09b9>,
+2015 06 19 Hillary Clinton, Clips, National, Karl Rove on Blumenthals
+deposition.mp4
+
+
+
+-- Discussion with William Cohen about who his top three GOP candidates
+would be for 2016; Cohen listed Jeb Bush, Scott Walker, and John Kasich as
+his favorites among the GOP, said HRC was his top one among Democrats. Fox
+News=E2=80=99 Fox and Friends
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Df1e8e9c5-28e0-4db9=
+-b5f5-e4adf9856dce>,
+2015 06 19 Hillary Clinton, Jeb Bush, Scott Walker, John Kasich, Clips,
+National, William Cohen names Favorite 2016 Candidates.mp4
+
+
+States:
+
+
+
+*Nevada:*
+
+
+
+--Report on HRC and Charleston shooting: HRC has said that we need to do
+something to regulate gun usage and for gun control. Reporters say that it
+is a constitutional issue. There is no agreement on how to do effective gun
+control in this country, reporters say. KSNV(NBC)=E2=80=99s Wake Up with th=
+e
+Wagners, Las Vegas (NV).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D36d64fef-640e-467d=
+-8878-bce0c64f83f3>
+2015.06.18.,
+Hillary Clinton, Clips, National, HRC on Gun Control.mp4
+
+
+
+--Report on HRC and Latinos: HRC, reporters say, went out of her way to
+praise Latinos. She claims that she wants to increase immigrant rights.
+Republicans fired back by saying she is not interested in helping others;
+she is just self interested, according to Republicans. KTNV-LV(ABC)=E2=80=
+=99s Good
+Morning Las Vegas at 6 am, Las Vegas (NV).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Defc835df-f580-4a15=
+-bf2a-2245fa108942>
+2015.06.19.,
+Hillary Clinton, Clips, National, HRC on Latino immigrants.mp4
+
+
+
+--Report on HRC on immigration reform: HRC spoke about immigration reform.
+Reporters claim that during the Latino conference, HRC also spoke about
+automatic registration for voters. HRC stated that she wants to ensure full
+participation for American voters. Reporters claim that HRC said Latinos
+are important for the United States. She wants a more inclusive voting
+system. She also spoke about early education for children.  KVVU-LV(FOX)=E2=
+=80=99s
+FOX5 News This Morning, Las Vegas (NV).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D3cee0812-7fc7-40ce=
+-90fd-ffc70b98c2da>
+2015.06.19.,
+Hillary Clinton, Clips, National, HRC on Latino and education.mp4
+
+
+
+*South Carolina:*
+
+
+
+--Report on HRC on Charleston shooting: HRC claimed that millions of
+Americans of all backgrounds are supporting Charleston in this troubling
+time. Reporters claimed that HRC wants to open up a national conversation
+about race, gun control, and division in America. WTOC-SAV(CBS)=E2=80=99s W=
+TOC News
+at Daybreak 7:30 am, Savannah, (GA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D41f1760d-1662-4c8c=
+-b0fd-decd287aa9a7>
+2015.06.19.,
+Hillary Clinton, Clips, National, HRC on gun control.mp4
+
+
+
+*Iowa:*
+
+
+
+--Report on HRC and Guncontrol: Reporters claim that HRC spoke about gun
+control at her speech in Nevada. KTVO-DT2=E2=80=99s CBS Morning News, Ottum=
+wa, (IA)
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D2d238763-dfc1-4fca=
+-8cac-8e615d95e55a>.
+2015.06.19.,
+Hillary Clinton, Clips, National, HRC on gun control Nevada.mp4
+
+
+
+*New Hampshire:*
+
+
+
+--Report on HRC and Gun control: Reporters claim that HRC spoke about gun
+control at her speech in Nevada. WBZ-BOS(CBS)=E2=80=99SCBS Morning News, Bo=
+ston,
+(MA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dfce8663d-a392-42bd=
+-aaac-b2124150c94e>
+2015.06.19.,
+Hillary Clinton, Clips, National,
+
+
+
+--Report on HRC and Veteran=E2=80=99s Affairs: HRC makes a guarantee to vet=
+erans.
+HRC claims that taking care of veterans is part of the American duty.
+Reporters claim that she wanted to have the best equipped and strongest
+military. She wants to take care of those who served. Veterans should be
+given good jobs and better healthcare. Veterans voiced their concerns on
+education. HRC promised that the GI bill will be present if she is elected
+president. Veterans claimed that she was very receptive and that she
+listened to their concerns. She appealed to a very large group of veterans
+generationally. KOLO(ABC)=E2=80=99s KOLO 8 News Now at 11 p.m., Reno (NV).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D5af55c80-470b-4a13=
+-a81b-bd3d9fe781aa>
+2015.06.19.,
+Hillary Clinton, Clips, National, GI bill.mp4
+
+
+
+--Report on HRC and Facebook users: 145,000 interactions on Facebook from
+May 13 through June 13. WBIN=E2=80=99s NH1 News Tonight, Boston (MA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D6b7e779b-e75c-47b1=
+-88c9-1ac5703e41e3>2015.06.19.,
+Hillary Clinton, Clips, National, HRC on FB.mp4
+
+
+
+*Bernie Sanders:*
+
+
+
+--Report on Scholars and Sanders: Glen Bolger claims that it is possible
+that Sanders may win the Democratic nomination. CSPAN2=E2=80=99s U.S. Senat=
+e.
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D1c4d6eeb-a454-4d5e=
+-914c-5e0299bb2d50>2015.06.19.,
+Hillary Clinton; Bernie Sanders, Clips, National, Sanders winning.mp4
+
+
+
+--Report on Sanders on Charleston Massacre: Sanders wrote in an email about
+the act of terror that occurred in the killings in Charleston. MSNBC=E2=80=
+=99s Way
+Too Early
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D09502529-e6af-4038=
+-b151-e7f9f0840574>.
+2015.06.19.,
+Bernie Sanders, Clips, National, Sanders on terrorism.mp4
+
+
+
+--Report on Bernie Sanders and the Pope: Sanders claimed that the Pope has
+a powerful message on climate change. Sanders claims that Americans cannot
+ignore climate change as an issue. Fox News=E2=80=99 The Kelly File.
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dabf2dc61-49ac-430e=
+-9a12-e2375af203a9>
+2015.06.19.,
+Bernie Sanders, Clips, National, Sanders on Pope.mp4
+
+
+
+--Report on Bernie Sanders on terrorism: Reporters claim that because
+Sanders labeled Charleston as an act of terrorism, it is possible that HRC
+will have to refer to this as an act of terrorism as well. BLOOM=E2=80=99s =
+With All
+Due Respect.
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D1f717d5b-f034-49ae=
+-a928-65de9b78a77e>
+2015.06.18.,
+Bernie Sanders; Hillary Clinton, Clips, National, Sanders on terrorism
+HRC.mp4
+
+
+
+--Report on Bernie Sanders and Rally: Sanders is facing many criticisms for
+not holding off his campaign rally. CNN=E2=80=99s Legal View with Ashleigh =
+Banfield
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dba0e2c50-a125-4100=
+-b779-15277cdad2e0>.
+2015.06.18., Bernie Sanders, Clips, National, Sanders not cancelling.mp4
+
+
+
+--Report on Bernie Sanders and Pope: Sanders claimed that the Pope=E2=80=99=
+s stance
+on climate change should be taken seriously. He claimed that the Pope=E2=80=
+=99s
+stance should send a message to the world. WTAT-CHS(FOX)=E2=80=99s Morning =
+News at
+7, Charleston (SC).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D10891d2c-1914-45a6=
+-98e9-853febbe7060>
+2015.06.19,
+Bernie Sanders, Clips, National, Sanders Pope.mp4
+
+
+
+--Report on Bernie Sanders and shooting: Bernie Sanders called the
+Charleston shooting racism. KTVO-DT2 CBS=E2=80=99s Morning News, Ottumwa (I=
+A)
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dcced9d2e-52ba-4fc4=
+-b3c0-5b91ad81967e>.
+Bernie Sanders, Clips, National, Sanders on Shooting.mp4
+
+
+
+--Report on Bernie Sanders and Facebook Interactions: Bernie Sanders comes
+in second for highest Facebook interactions. He has 153,000. HRC has
+289,000. KGAN-IOW(CBS)=E2=80=99s CBS2 This Morning, Iowa City (IA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D691d8816-b00d-4772=
+-a1e8-651ab7545be5>
+Bernie
+Sanders; Hillary Clinton, Clips, National, facebook.mp4
+
+
+
+--Report on Bernie Sanders and immigration reform: Bernie Sanders claims
+that immigration reform is very important. He claims that there should be
+no discrimination in the United States. He stressed that he really wants to
+keep immigrant families together, and that he would continue to use
+executive orders to keep positive immigration policies. KLAS-LV(CBS)=E2=80=
+=99s 8
+News Now at Noon, Las Vegas (NV).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D7105a201-46a8-47ed=
+-a649-1f47092041e0>
+2015.06.19.,
+Bernie Sanders, Clips, National, Sanders on immigration at Latino
+Conference.mp4
+
+
+
+*Martin O=E2=80=99Malley:*
+
+
+
+--Report on MOM and fossil fuels: MOM wants to have 100% clean energy by
+20150. Reporters claim that MOM=E2=80=99s statements cannot be attainable.
+Reporters claim that Americans not using fuels is foolish. Fox Business
+Network=E2=80=99s Varney and Company
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D65dac245-57af-4e0b=
+-8642-8fb6da474b95>.
+2015.06.19.,
+Martin O=E2=80=99Malley, Clips, National, MOM fossil fuels.mp4
+
+
+
+--Report on MOM and Sanders going after HRC: Peggy Noonan from The Wall
+Street Journal claims that if MOM and Sanders attack HRC personally, their
+careers as politicians will be over. MSNBC=E2=80=99s *Morning Joe*.
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dc2ad968f-ce5f-46f2=
+-9fd1-d638dc40fd21>2016.06.19.,
+Hillary Clinton; Bernie Sanders; Martin O=E2=80=99Malley, Clips, National, =
+MOM,
+Sanders, HRC rule.mp4
+
+
+
+--Report of MOM on Morning Joe: MOM spoke about Charleston Massacre. MOM
+passed legislation on gun control. Reporters claim that it is possible that
+gun control does not work. MOM claims that if gun control can even save one
+life, then it is an important piece of legislation. MOM claims that this
+gun control is not about hunters. He claims that background checks are
+necessary. MOM speaks about mental health problems, the need to address
+them, and their role in gun control. MSNBC=E2=80=99S Morning Joe.
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dc9fa4a27-6021-46c0=
+-988a-1e859fe2f0a3>
+2015.06.19.,
+Martin O=E2=80=99Malley, Clips, National, MOM on Morning Joe.mp4
+
+
+
+--MOM on Charleston shooting: MOM claims that he will keep the victims and
+Charleston in his prayers. KTVO-DT2 CBS=E2=80=99s Morning News, Ottumwa (IA=
+).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D8706e10d-c47f-4878=
+-8898-876ee988f406>
+2015.06.19.,
+Hillary Clinton, Clips, National, MOM Charleston.mp4
+
+
+
+
+
+--=20
+Charles Hicks
+(912) 429-8253
+
+--001a1135e39809027a0518e6b716
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><h1>National:</h1>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report on how presidential candidates were respon=
+ding to
+the Charleston church shootings; showed HRC=E2=80=99s response to Jon Ralst=
+on about
+guns; panel with Michael Steele, David Schrum, and Caroline Heldman; <span =
+style=3D"background:yellow">Steele said HRC laid out there
+and said that we need to have a national dialogue; Ed Schultz said HRC was =
+not
+coy at all about bringing up what society has to do about the frequent
+shootings.</span> <a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?Save=
+dEditID=3Dd971c0b8-57a2-4e13-b0ae-a5427e7f3b94">MSNBC=E2=80=99s
+The Ed Show</a>, </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report on HRC=E2=80=99s gun answer from her inter=
+view with Jon
+Ralston; showed footage of HRC answering Ralston=E2=80=99s question about w=
+hat could
+prevent another shooting like Charleston; <span style=3D"background:yellow"=
+>Mark Halperin said HRC was not catering to the left=E2=80=99s
+desire to take on the gun lobby; John Heilemann said HRC has a long memory;
+Heilemann said that HRC has seen presidents take on guns before and fail; M=
+ark
+Halperin said states like Ohio, Virginia, Pennsylvania, Colorado, and New
+Hampshire could be in danger for HRC if the NRA was more riled up against h=
+er
+than they already were right now</span>. <a href=3D"http://mms.tveyes.com/P=
+laybackPortal.aspx?SavedEditID=3D8546e4bb-0560-43f5-b7a4-c3457788fa5f">Bloo=
+mberg=E2=80=99s
+With All Due Respect</a>, 2015 06 19 Hillary Clinton, Clips, National, Repo=
+rt
+on HRCs stance on NRA and guns.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report that BHO and HRC spoke about gun control s=
+oon
+after the Charleston church shooting; showed footage of Bobby Jindal from F=
+ox
+News=E2=80=99 Your World on Thursday; showed footage of HRC on PBS Ralston =
+Live;
+interviewed Pete Snyder; Snyder said HRC and BHO waited for 5 seconds befor=
+e
+talking politics and that=E2=80=99s not what leaders do; shifted into conve=
+rsation
+about HRC facing questions about her honesty; cited the Quinnipiac swing st=
+ate
+poll of FL, OH, and PA; Katie Pavlich said no presidential candidate has wo=
+n
+the presidency without winning two of those three states; <span style=3D"ba=
+ckground:yellow">Andrea Tantaros said the reason
+that HRC and the NYT (HRC=E2=80=99s =E2=80=9Chometown newspaper=E2=80=9D) w=
+ere digging in on Marco
+Rubio was because he did well in Pennsylvania in the Quinnipiac swing state
+poll</span>; Harris Faulkner noted Bernie Sanders=E2=80=99 crowds are growi=
+ng; Faulkner
+pointed to HRC=E2=80=99s gun control message as a sign that she would be th=
+e third term
+of BHO. <a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D=
+6c9788c3-af6a-4258-b825-ad3440b72e4c">Fox
+News=E2=80=99 Outnumbered</a>, 2015 06 19 Hillary Clinton, Clips, National,=
+ HRCs
+Charleston comments and Poll Numbers.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Discussion that there must be a national conversa=
+tion
+about race; interviewed Mark Murray; Murray said if HRC or Jeb Bush were PO=
+TUS
+then there could be a more forceful conversation about race because there
+wouldn=E2=80=99t be such high expectations as BHO. <a href=3D"http://mms.tv=
+eyes.com/PlaybackPortal.aspx?SavedEditID=3D41f6e514-1f6d-4e69-9b43-958ed42d=
+4dd3">MSNBC=E2=80=99s
+The Rundown With Jose Diaz-Balart</a>, 2015 06 19 Hillary Clinton, Clips,
+National, Mark Murray on HRC and Charleston shooting.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report on how the Charleston church shooting affe=
+cted the
+2016 race; showed HRC talking about the shooting; interviewed Chuck Todd; J=
+ose
+Diaz-Balart said that HRC had the most forceful reaction to the shooting; s=
+hifted
+into conversation about HRC=E2=80=99s trade position; Todd said HRC was try=
+ing to have
+it both ways, said HRC said she would be a no vote on this specific piece o=
+f
+legislation that=E2=80=99s in the US Senate right now; <span style=3D"backg=
+round:yellow">Todd said HRC was trying to say that HRC would generally
+be in favor of fast track if all the other issues were agreed to; Todd said=
+ in
+HRC=E2=80=99s heart of hearts that he believes HRC favors the TPP.</span> <=
+a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D3c97e4f3-=
+e779-448e-bd8d-13fd18001197">MSNBC=E2=80=99s
+The Rundown With Jose Diaz-Balart</a>, 2015 06 19 Hillary Clinton, Clips,
+National, Chuck Todd on HRC on SC shooting and trade.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Report that Sidney Blumenthal revealed during his
+deposition that he was paid $200,000 by David Brock=E2=80=99s media groups;=
+ said this
+was on top of the $10,000 per month from The Clinton Foundation; interviewe=
+d
+Karl Rove; Rove said the question was whether HRC was aware of this; Rove s=
+aid
+the other question was who was responsible for the Sunday talk show talking
+points lie; Rove said Blumenthal=E2=80=99s emails show that Blumenthal blam=
+ed the
+Benghazi attack on a video, said that email was not in the emails that the
+State Department handed over to the Benghazi Committee; Rove said there was=
+ a
+question about why HRC did not hand over this email to State or why State
+didn=E2=80=99t hand it over to the Committee; Rove questioned why Blumentha=
+l who had no
+expertise was advising HRC, questioned Blumenthal=E2=80=99s business connec=
+tions. <a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Da=
+dbc2562-94d8-44ea-8b9e-ddda350d09b9">Fox
+News=E2=80=99 America=E2=80=99s Newsroom With Bill Hemmer and Martha MacCal=
+lum</a>, 2015 06 19
+Hillary Clinton, Clips, National, Karl Rove on Blumenthals deposition.mp4</=
+p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">-- Discussion with William Cohen about who his top t=
+hree GOP
+candidates would be for 2016; Cohen listed Jeb Bush, Scott Walker, and John
+Kasich as his favorites among the GOP, said HRC was his top one among
+Democrats. <a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=
+=3Df1e8e9c5-28e0-4db9-b5f5-e4adf9856dce">Fox
+News=E2=80=99 Fox and Friends</a>, 2015 06 19 Hillary Clinton, Jeb Bush, Sc=
+ott Walker,
+John Kasich, Clips, National, William Cohen names Favorite 2016 Candidates.=
+mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<h2>States:</h2>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><b>Nevada:</b></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">--Report
+on HRC and Charleston shooting: HRC has said that we need to do something t=
+o
+regulate gun usage and for gun control. Reporters say that it is a
+constitutional issue. There is no agreement on how to do effective gun cont=
+rol
+in this country, reporters say<a href=3D"http://mms.tveyes.com/PlaybackPort=
+al.aspx?SavedEditID=3D36d64fef-640e-467d-8878-bce0c64f83f3" target=3D"_blan=
+k">. KSNV(NBC)=E2=80=99s Wake Up with the Wagners, Las Vegas (NV).</a>=C2=
+=A02015.06.18.,
+Hillary Clinton, Clips, National, HRC on Gun Control.mp4</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">--Report
+on HRC and Latinos: HRC, reporters say, went out of her way to praise Latin=
+os.
+She claims that she wants to increase immigrant rights. Republicans fired b=
+ack
+by saying she is not interested in helping others; she is just self interes=
+ted,
+according to Republicans.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPor=
+tal.aspx?SavedEditID=3Defc835df-f580-4a15-bf2a-2245fa108942" target=3D"_bla=
+nk">KTNV-LV(ABC)=E2=80=99s Good Morning Las Vegas at=C2=A06 am, Las Vegas
+(NV).</a>=C2=A02015.06.19., Hillary Clinton, Clips, National, HRC on Latino
+immigrants.mp4</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">--Report
+on HRC on immigration reform: HRC spoke about immigration reform. Reporters
+claim that during the Latino conference, HRC also spoke about automatic
+registration for voters. HRC stated that she wants to ensure full participa=
+tion
+for American voters. Reporters claim that HRC said Latinos are important fo=
+r
+the United States. She wants a more inclusive voting system. She also spoke
+about early education for children. =C2=A0<a href=3D"http://mms.tveyes.com/=
+PlaybackPortal.aspx?SavedEditID=3D3cee0812-7fc7-40ce-90fd-ffc70b98c2da" tar=
+get=3D"_blank">KVVU-LV(FOX)=E2=80=99s FOX5 News This Morning, Las Vegas (NV=
+).</a>=C2=A02015.06.19.,
+Hillary Clinton, Clips, National, HRC on Latino and education.mp4</span></p=
+>
+
+<p class=3D"MsoNormal"><b>=C2=A0</b></p>
+
+<p class=3D"MsoNormal"><b>South Carolina:</b></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on HRC on Charleston shooting: HRC claimed =
+that
+millions of Americans of all backgrounds are supporting Charleston in this
+troubling time. Reporters claimed that HRC wants to open up a national
+conversation about race, gun control, and division in America.=C2=A0<a href=
+=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D41f1760d-1662-4=
+c8c-b0fd-decd287aa9a7" target=3D"_blank">WTOC-SAV(CBS)=E2=80=99s WTOC News =
+at Daybreak=C2=A07:30 am, Savannah,
+(GA).</a>=C2=A02015.06.19., Hillary Clinton, Clips, National, HRC on gun co=
+ntrol.mp4</p>
+
+<p class=3D"MsoNormal"><b>=C2=A0</b></p>
+
+<p class=3D"MsoNormal"><b>Iowa:</b></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on HRC and Guncontrol: Reporters claim that=
+ HRC
+spoke about gun control at her speech in Nevada<a href=3D"http://mms.tveyes=
+.com/PlaybackPortal.aspx?SavedEditID=3D2d238763-dfc1-4fca-8cac-8e615d95e55a=
+" target=3D"_blank">. KTVO-DT2=E2=80=99s CBS Morning News, Ottumwa, (IA)</a=
+>.=C2=A02015.06.19.,
+Hillary Clinton, Clips, National, HRC on gun control Nevada.mp4</p>
+
+<p class=3D"MsoNormal"><b>=C2=A0</b></p>
+
+<p class=3D"MsoNormal"><b>New Hampshire:</b></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on HRC and Gun control: Reporters claim tha=
+t HRC
+spoke about gun control at her speech in Nevada<a href=3D"http://mms.tveyes=
+.com/PlaybackPortal.aspx?SavedEditID=3Dfce8663d-a392-42bd-aaac-b2124150c94e=
+" target=3D"_blank">. WBZ-BOS(CBS)=E2=80=99SCBS Morning News, Boston, (MA).=
+</a>=C2=A02015.06.19.,
+Hillary Clinton, Clips, National,</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">--Report
+on HRC and Veteran=E2=80=99s Affairs: HRC makes a guarantee to veterans. HR=
+C claims
+that taking care of veterans is part of the American duty. Reporters claim =
+that
+she wanted to have the best equipped and strongest military. She wants to t=
+ake
+care of those who served. Veterans should be given good jobs and better
+healthcare. Veterans voiced their concerns on education. HRC promised that =
+the
+GI bill will be present if she is elected president. Veterans claimed that =
+she
+was very receptive and that she listened to their concerns. She appealed to=
+ a
+very large group of veterans generationally.=C2=A0<a href=3D"http://mms.tve=
+yes.com/PlaybackPortal.aspx?SavedEditID=3D5af55c80-470b-4a13-a81b-bd3d9fe78=
+1aa" target=3D"_blank">KOLO(ABC)=E2=80=99s KOLO 8 News Now at=C2=A011 p.m.,=
+ Reno (NV).</a>=C2=A02015.06.19.,
+Hillary Clinton, Clips, National, GI bill.mp4</span></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on HRC and Facebook users: 145,000 interact=
+ions on
+Facebook from May 13 through June 13.=C2=A0<a href=3D"http://mms.tveyes.com=
+/PlaybackPortal.aspx?SavedEditID=3D6b7e779b-e75c-47b1-88c9-1ac5703e41e3" ta=
+rget=3D"_blank">WBIN=E2=80=99s NH1 News=C2=A0Tonight, Boston (MA).</a>2015.=
+06.19.,
+Hillary Clinton, Clips, National, HRC on FB.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><b>Bernie Sanders:</b></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on Scholars and Sanders: Glen Bolger claims=
+ that it
+is possible that Sanders may win the Democratic nomination.=C2=A0<a href=3D=
+"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D1c4d6eeb-a454-4d5e=
+-914c-5e0299bb2d50" target=3D"_blank">CSPAN2=E2=80=99s U.S. Senate.</a>2015=
+.06.19., Hillary Clinton; Bernie
+Sanders, Clips, National, Sanders winning.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on Sanders on Charleston Massacre: Sanders =
+wrote in
+an email about the act of terror that occurred in the killings in Charlesto=
+n.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D=
+09502529-e6af-4038-b151-e7f9f0840574" target=3D"_blank">MSNBC=E2=80=99s Way=
+ Too Early</a>.=C2=A02015.06.19., Bernie Sanders,
+Clips, National, Sanders on terrorism.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on Bernie Sanders and the Pope: Sanders cla=
+imed
+that the Pope has a powerful message on climate change. Sanders claims that
+Americans cannot ignore climate change as an issue.=C2=A0<a href=3D"http://=
+mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dabf2dc61-49ac-430e-9a12-e2=
+375af203a9" target=3D"_blank">Fox News=E2=80=99 The Kelly File.</a>=C2=A020=
+15.06.19., Bernie Sanders,
+Clips, National, Sanders on Pope.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on Bernie Sanders on terrorism: Reporters c=
+laim
+that because Sanders labeled Charleston as an act of terrorism, it is possi=
+ble
+that HRC will have to refer to this as an act of terrorism as well.=C2=A0<a=
+ href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D1f717d5b-f=
+034-49ae-a928-65de9b78a77e" target=3D"_blank">BLOOM=E2=80=99s With All Due =
+Respect.</a>=C2=A02015.06.18., Bernie
+Sanders; Hillary Clinton, Clips, National, Sanders on terrorism HRC.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">--Report
+on Bernie Sanders and Rally: Sanders is facing many criticisms for not hold=
+ing
+off his campaign rally.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPorta=
+l.aspx?SavedEditID=3Dba0e2c50-a125-4100-b779-15277cdad2e0" target=3D"_blank=
+">CNN=E2=80=99s Legal View with Ashleigh Banfield</a>. 2015.06.18.,
+Bernie Sanders, Clips, National, Sanders not cancelling.mp4</span></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on Bernie Sanders and Pope: Sanders claimed=
+ that
+the Pope=E2=80=99s stance on climate change should be taken seriously. He c=
+laimed that
+the Pope=E2=80=99s stance should send a message to the world.=C2=A0<a href=
+=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D10891d2c-1914-4=
+5a6-98e9-853febbe7060" target=3D"_blank">WTAT-CHS(FOX)=E2=80=99s Morning Ne=
+ws at 7, Charleston (SC).</a>=C2=A02015.06.19,
+Bernie Sanders, Clips, National, Sanders Pope.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on Bernie Sanders and shooting: Bernie Sand=
+ers
+called the Charleston shooting racism<a href=3D"http://mms.tveyes.com/Playb=
+ackPortal.aspx?SavedEditID=3Dcced9d2e-52ba-4fc4-b3c0-5b91ad81967e" target=
+=3D"_blank">. KTVO-DT2 CBS=E2=80=99s Morning News, Ottumwa (IA)</a>. Bernie
+Sanders, Clips, National, Sanders on Shooting.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">--Report on Bernie Sanders and Facebook Interactions=
+: Bernie
+Sanders comes in second for highest Facebook interactions. He has 153,000. =
+HRC
+has 289,000.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?Save=
+dEditID=3D691d8816-b00d-4772-a1e8-651ab7545be5" target=3D"_blank">KGAN-IOW(=
+CBS)=E2=80=99s CBS2 This Morning, Iowa City (IA).</a>=C2=A0Bernie
+Sanders; Hillary Clinton, Clips, National, facebook.mp4</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">--Report
+on Bernie Sanders and immigration reform: Bernie Sanders claims that
+immigration reform is very important. He claims that there should be no
+discrimination in the United States. He stressed that he really wants to ke=
+ep
+immigrant families together, and that he would continue to use executive or=
+ders
+to keep positive immigration policies.=C2=A0<a href=3D"http://mms.tveyes.co=
+m/PlaybackPortal.aspx?SavedEditID=3D7105a201-46a8-47ed-a649-1f47092041e0" t=
+arget=3D"_blank">KLAS-LV(CBS)=E2=80=99s 8 News Now at=C2=A0Noon, Las Vegas =
+(NV).</a>=C2=A02015.06.19.,
+Bernie Sanders, Clips, National, Sanders on immigration at Latino
+Conference.mp4</span></p>
+
+<p class=3D"MsoNormal"><b>=C2=A0</b></p>
+
+<p class=3D"MsoNormal"><b>Martin O=E2=80=99Malley:</b></p>
+
+<p class=3D"MsoNormal"><b>=C2=A0</b></p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">--Report
+on MOM and fossil fuels: MOM wants to have 100% clean energy by 20150.
+Reporters claim that MOM=E2=80=99s statements cannot be attainable. Reporte=
+rs claim
+that Americans not using fuels is foolish.=C2=A0<a href=3D"http://mms.tveye=
+s.com/PlaybackPortal.aspx?SavedEditID=3D65dac245-57af-4e0b-8642-8fb6da474b9=
+5" target=3D"_blank">Fox Business Network=E2=80=99s Varney and Company</a>.=
+=C2=A02015.06.19.,
+Martin O=E2=80=99Malley, Clips, National, MOM fossil fuels.mp4</span></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">--Report
+on MOM and Sanders going after HRC: Peggy Noonan from The Wall Street Journ=
+al
+claims that if MOM and Sanders attack HRC personally, their careers as
+politicians will be over.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPor=
+tal.aspx?SavedEditID=3Dc2ad968f-ce5f-46f2-9fd1-d638dc40fd21" target=3D"_bla=
+nk">MSNBC=E2=80=99s=C2=A0<i>Morning Joe</i>.</a>2016.06.19., Hillary
+Clinton; Bernie Sanders; Martin O=E2=80=99Malley, Clips, National, MOM, San=
+ders, HRC
+rule.mp4</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"background:yellow">--Report
+of MOM on Morning Joe: MOM spoke about Charleston Massacre. MOM passed legi=
+slation
+on gun control. Reporters claim that it is possible that gun control does n=
+ot
+work. MOM claims that if gun control can even save one life, then it is an
+important piece of legislation. MOM claims that this gun control is not abo=
+ut
+hunters. He claims that background checks are necessary. MOM speaks about
+mental health problems, the need to address them, and their role in gun
+control.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEdi=
+tID=3Dc9fa4a27-6021-46c0-988a-1e859fe2f0a3" target=3D"_blank">MSNBC=E2=80=
+=99S Morning Joe.</a>=C2=A02015.06.19., Martin O=E2=80=99Malley,
+Clips, National, MOM on Morning Joe.mp4</span></p>
+
+<p class=3D"MsoNormal"><b>=C2=A0</b></p>
+
+<p class=3D"MsoNormal">--MOM on Charleston shooting: MOM claims that he wil=
+l keep
+the victims and Charleston in his prayers.=C2=A0<a href=3D"http://mms.tveye=
+s.com/PlaybackPortal.aspx?SavedEditID=3D8706e10d-c47f-4878-8898-876ee988f40=
+6" target=3D"_blank">KTVO-DT2 CBS=E2=80=99s Morning News, Ottumwa (IA).</a>=
+=C2=A02015.06.19.,
+Hillary Clinton, Clips, National, MOM Charleston.mp4</p>
+
+<p class=3D"MsoNormal"><b>=C2=A0</b></p>
+
+<p class=3D"MsoNormal">=C2=A0</p><div><br></div>-- <br><div class=3D"gmail_=
+signature"><div dir=3D"ltr">Charles Hicks<div>(912) 429-8253</div></div></d=
+iv>
+</div>
+
+--001a1135e39809027a0518e6b716--

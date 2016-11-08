@@ -1,0 +1,381 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.12 with SMTP id m12csp2182669lfb;
+        Tue, 9 Feb 2016 09:32:54 -0800 (PST)
+X-Received: by 10.28.63.85 with SMTP id m82mr6601994wma.55.1455039174339;
+        Tue, 09 Feb 2016 09:32:54 -0800 (PST)
+Return-Path: <hannon@hillaryclinton.com>
+Received: from mail-wm0-x22c.google.com (mail-wm0-x22c.google.com. [2a00:1450:400c:c09::22c])
+        by mx.google.com with ESMTPS id r2si47443919wjz.116.2016.02.09.09.32.54
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 09 Feb 2016 09:32:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of hannon@hillaryclinton.com designates 2a00:1450:400c:c09::22c as permitted sender) client-ip=2a00:1450:400c:c09::22c;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hannon@hillaryclinton.com designates 2a00:1450:400c:c09::22c as permitted sender) smtp.mailfrom=hannon@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wm0-x22c.google.com with SMTP id g62so163872267wme.0
+        for <john.podesta@gmail.com>; Tue, 09 Feb 2016 09:32:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        bh=zR1yBqNh5eiK7Qt5E63WKUlpQZU1EF+S6GFZUoOKnkM=;
+        b=ThcOeluFois4NWp4cpbmC9l787SKOLNMpCXgvNioQcEsb1ZLJFfj8oD5M0l9AUAoHR
+         OzyBw2e2pKbSjtTlRljkAWHJ5uCObR91AswZcPW5tVagVBdweKOrIhpKuy62U6WfJBQZ
+         gL0qsNa35oEhgD9JYjizxm7rVgDLCK/ZY6duA=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=zR1yBqNh5eiK7Qt5E63WKUlpQZU1EF+S6GFZUoOKnkM=;
+        b=NR90/l/hBcXC3B5DpEsD2kmgXaTSZToBwLV0RvYDOlXqQ7A09lMKVE/1R2TQYkhzQD
+         kx6y36yna+z4m5tA11aq3r510CUMX0aEOGFqyeigBGD9KIqUHAst29pAk3arsNSsRYpX
+         oH6yNlUwyFyxM42WZpYaMP4UZGniba8wLm0nCyvWOvNpq1Qt/Px9/fX3MD3TrX9FGldv
+         axdJJiQanAOozY9ax9ATECLKlsWB3f7odT2LOMwjRNsfDXuZZuEyPjoixN1c/xeNTXu8
+         lTpltFS84Gtd/4IhXNQN2cWeUs2sqVT0mYNNUqMUKPsJwqcQgIKeJR6/tWx9abqfjCoF
+         xFKw==
+X-Gm-Message-State: AG10YOTsZppu3+OeA5n3nbP2cIlx75s0h4VeQQXOwdIlDJfIp4uVwSkXyO2iYCnOwHSwq6wsu+gnGS4jM8YJUUyJ
+MIME-Version: 1.0
+X-Received: by 10.28.145.7 with SMTP id t7mr6287443wmd.98.1455039174089; Tue,
+ 09 Feb 2016 09:32:54 -0800 (PST)
+Received: by 10.27.16.23 with HTTP; Tue, 9 Feb 2016 09:32:54 -0800 (PST)
+In-Reply-To: <CAMaQOZLRoBSn0_dL18MWHd7gxzSHS6an0o8w=qz69H3dvL=QUw@mail.gmail.com>
+References: <CAMaQOZLRoBSn0_dL18MWHd7gxzSHS6an0o8w=qz69H3dvL=QUw@mail.gmail.com>
+Date: Tue, 9 Feb 2016 12:32:54 -0500
+Message-ID: <CAMaQOZKFGCtHpzA_FmY5KB9Qy+mfuRu4jeX2R=_7PKQmsGFxXQ@mail.gmail.com>
+Subject: Re: Tech Weekly Report (Jan 25th to Feb 1st)
+From: Stephanie Hannon <hannon@hillaryclinton.com>
+To: Teddy Goff <tgoff@hillaryclinton.com>, 
+ Elan Kriegel <ekriegel@hillaryclinton.com>, 
+ Jenna Lowenstein <jlowenstein@hillaryclinton.com>, 
+ Katie Dowd <kdowd@hillaryclinton.com>, 
+ Marlon Marshall <mmarshall@hillaryclinton.com>, 
+ Brynne Craig <bcraig@hillaryclinton.com>, 
+ Rebecca Leal <rleal@hillaryclinton.com>, 
+ Dennis Cheng <dcheng@hillaryclinton.com>, 
+ Beth Jones <bjones@hillaryclinton.com>, 
+ Robby Mook <re47@hillaryclinton.com>, 
+ Heather Stone <hstone@hillaryclinton.com>, 
+ Kimberly Panicek Trueblood <kptrueblood@hillaryclinton.com>, 
+ Tracey Lewis <tlewis@hillaryclinton.com>, 
+ John Podesta <john.podesta@gmail.com>, 
+ Huma Abedin <ha16@hillaryclinton.com>, 
+ Nell Thomas <nthomas@hillaryclinton.com>, 
+ Kit Rodolfa <krodolfa@hillaryclinton.com>, 
+ Kristina Schake <kschake@hillaryclinton.com>, 
+ Christina Reynolds <creynolds@hillaryclinton.com>, 
+ Brian Fallon <bfallon@hillaryclinton.com>, 
+ Jesse Ferguson <jferguson@hillaryclinton.com>
+CC: Tech Managers <tech-managers@hillaryclinton.com>, 
+ The Product Team <product@hillaryclinton.com>, 
+ Ahna Rao <arao@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a1147149c1b4378052b59b5b4
+
+--001a1147149c1b4378052b59b5b4
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Happy First In The Nation Primary Day!
+
+Reference links:
+* Q1 project current status
+<https://docs.google.com/spreadsheets/d/1tAi6O0ap-2JrJ_SBTufzSA1fT_jVA-Dp_L=
+5kdM6oyUQ/edit#gid=3D1065016584>
+* Archive of previous Weekly Reports
+<https://docs.google.com/document/d/1QfJQgg1QImpPVyDPwCTsFGVIOK8ZkA1lntkRqs=
+n3dJc/edit#>
+
+
+Week starting February 1
+
+Wins:
+
+   -
+
+   Quick Donate Queuing: Groundwork added support where Quick Donate
+   donations are now queued, ensuring they can be processed in real-time wh=
+en
+   Stripe is healthy and queued when Stripe is unhealthy. This means we no
+   longer lose Quick Donates when New Donate is running in failover mode. Y=
+UGE!
+   -
+
+   Reporter/Aurora in Iowa: Reporter and Aurora were a big success in Iowa.
+   The tools never dropped data, and Analytics was able to get the results
+   they needed in real time.
+   - We got results for 70% of the precincts in Iowa with ~800 precinct
+      captains installing the app and ~600 using the app to submit data.
+      - We caught ~50 discrepancies between our data & the Iowa Democratic
+      Party=E2=80=99s data, which allowed the team to solve delegate compli=
+cations in 6
+      precincts.
+      - Reporter saved the call center a significant volume of calls
+      because precinct captains could both submit results & caucus issues
+      directly through the app. 50% of the precincts results came directly
+      through the Reporter app, and 50% came through through the call cente=
+r.
+
+
+Updates:
+
+   -
+
+   SMS tool aka Megaphone!: Our VAN chrome extension and SMS tool will now
+   be known as Megaphone! Over the past week, we=E2=80=99ve been working to=
+ improve
+   the Megaphone so it can be more easily used across the early states and =
+on
+   into March states. We=E2=80=99re working on ways to allow states to add =
+users and
+   SMS templates to the tool (we have to do this manually now). It=E2=80=99=
+s been used
+   in NH to build for events and will be used on primary day for GOTV asks.
+   -
+
+   Mobile update: We are working on a =E2=80=9Cgamified experience=E2=80=9D=
+ app to engage
+   and activate supporters, specifically those who have not yet donated or
+   volunteered. Our team of product, design, engineers and an illustrator a=
+re
+   working hard to target a Convention launch. We=E2=80=99re currently test=
+ing
+   different versions of design prototypes with users and working towards
+   defining an appealing visual style with an illustrator.  We are also
+   vetting the initial set of activities that users can complete in the app=
+ to
+   make sure we try a diverse set of activities and adapt any future
+   activities based on user behavior.
+   -
+
+   HFA cloud for Vertica analytics: Tech is ready for Analytics to move
+   over to the HFA cluster as we=E2=80=99ve finished the hardware and softw=
+are
+   upgrades. Limited load testing has been performed but we are unable to
+   fully load test without real traffic. Next steps are to move Analytics o=
+ver
+   in a staged fashion, we=E2=80=99re aiming to do this in the time between=
+ the next
+   few caucuses/primaries to minimize disruption.
+
+
+Outage:
+
+   -
+
+   Stripe outage: Beginning at 5:02 p.m. ET on 02/04/2016 Stripe began
+   experiencing an uptick in the amount of time it takes for us to confirm =
+a
+   successful donations. This results in failed donations on our website. W=
+e
+   flipped over to our backup payment process, Cybersource, at 5:12 p.m. ET=
+.
+   We currently support one-time donations to our HFA account through
+   Cybersource -- all other contribution methods (saved credit card,
+   subscription, all HVF donations) -- were disabled. Stripe confirmed a
+   recovery around 5:25 p.m. ET and we flipped back to Stripe at 5:27 p.m. =
+ET.
+   Quick Donate queueing (mentioned above) and upcoming support for HVF
+   contributions in Cybersource will allow us to retain donations when Stri=
+pe
+   experiences outages.
+   -
+
+   Ops coverage update: As we continue through primary season things are
+   only going to get crazier, so the tech ops team has been making rounds
+   through our agile teams to make sure everyone has the support they need.=
+ We
+   now have a complete list of all of our production services and a better
+   understanding of how we can help all of our developers keep things runni=
+ng
+   smoothly during busy times. Coming soon: new ways to contact our on-call
+   engineers when you have a problem -- look for updates in your inbox this
+   week!
+
+
+Hiring:
+
+   -
+
+   Welcome Matt Tucker (Senior Software Engineer): Matt is our first
+   backend engineer to join the Donate team. He will own building new servi=
+ces
+   that extend Groundwork=E2=80=99s functionality in order to continue to g=
+row our
+   online fundraising capabilities. Before joining HFA, Matt was co-founder=
+ of
+   Unfold, an iOS app for sharing, discovering and having conversations abo=
+ut
+   interesting stuff you find on the internet. Before Unfold, Matt was a Sr=
+.
+   Backend Engineer at charity: water where he helped build their crowdfund=
+ing
+   platform as well as critical internal systems.
+   - Welcome James Plummer (Senior Product Designer): James will be working
+   across two main product areas -- Fundraising and Organizing. On the
+   Fundraising side, James will be partnering with Deepa and working with t=
+he
+   Donation agile team to build the highest converting donation (web or nat=
+ive
+   mobile) workflows ever seen on a political campaign. He'll also be apply=
+ing
+   that same design thinking to signup forms. On the Organizing side, James
+   will be working with Gerard on tools to improve life for staff and
+   leadership whether that means continuing to build out the Chrome Extensi=
+on,
+   expanding the power of the Raiser (aka Palmer) tool, or other upcoming
+   "awesome organizer dopeness" (his words, not mine!).
+
+--001a1147149c1b4378052b59b5b4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><span id=3D"docs-internal-guid-390a30c1-c70c-dacd-2406-5ea=
+2229f8515">Happy First In The Nation Primary Day!</span><div><span><br></sp=
+an></div><div><div>Reference links:</div><div>*=C2=A0<a href=3D"https://doc=
+s.google.com/spreadsheets/d/1tAi6O0ap-2JrJ_SBTufzSA1fT_jVA-Dp_L5kdM6oyUQ/ed=
+it#gid=3D1065016584" target=3D"_blank">Q1 project current status</a></div><=
+div><span style=3D"font-size:12.8px">* Archive of previous=C2=A0</span><a h=
+ref=3D"https://docs.google.com/document/d/1QfJQgg1QImpPVyDPwCTsFGVIOK8ZkA1l=
+ntkRqsn3dJc/edit#" target=3D"_blank" style=3D"font-size:12.8px">Weekly=C2=
+=A0Reports</a><br></div></div><div><span><br><div dir=3D"ltr" style=3D"marg=
+in-left:0pt"><table style=3D"border:none;border-collapse:collapse"><colgrou=
+p><col width=3D"24"><col width=3D"600"></colgroup><tbody><tr style=3D"heigh=
+t:40px"><td style=3D"border:1px solid rgb(11,83,148);vertical-align:top;pad=
+ding:7px;background-color:rgb(11,83,148)"><br></td><td style=3D"border:1px =
+solid rgb(11,83,148);vertical-align:middle;padding:7px"><h1 dir=3D"ltr" sty=
+le=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"fon=
+t-family:Arial;color:rgb(0,0,0);vertical-align:baseline;white-space:pre-wra=
+p;background-color:transparent"><font size=3D"4">Week starting February 1</=
+font></span></h1></td></tr></tbody></table></div><br><p dir=3D"ltr" style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+family:Arial;color:rgb(0,0,0);font-weight:700;vertical-align:baseline;white=
+-space:pre-wrap;background-color:transparent">Wins:</span></p><ul style=3D"=
+margin-top:0pt;margin-bottom:0pt"><li style=3D"list-style-type:disc;vertica=
+l-align:baseline"><p style=3D"margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;line-height:1.38;ver=
+tical-align:baseline;white-space:pre-wrap;background-color:transparent">Qui=
+ck Donate Queuing: </span>Groundwork added support where Quick Donate donat=
+ions are now queued, ensuring they can be processed in real-time when Strip=
+e is healthy and queued when Stripe is unhealthy. This means we no longer l=
+ose Quick Donates when New Donate is running in failover mode. YUGE!</p></l=
+i><li style=3D"list-style-type:disc;vertical-align:baseline"><p style=3D"ma=
+rgin-top:0pt;margin-bottom:0pt"><span style=3D"color:rgb(0,0,0);font-family=
+:Arial;font-weight:700;line-height:1.38;vertical-align:baseline;white-space=
+:pre-wrap;background-color:transparent">Reporter/Aurora in Iowa: </span>Rep=
+orter and Aurora were a big success in Iowa. The tools never dropped data, =
+and Analytics was able to get the results they needed in real time.</p></li=
+><ul><li>We got results for 70% of the precincts in Iowa with ~800 precinct=
+ captains installing the app and ~600 using the app to submit data.</li><li=
+>We caught ~50 discrepancies between our data &amp; the Iowa Democratic Par=
+ty=E2=80=99s data, which allowed the team to solve delegate complications i=
+n 6 precincts.</li><li>Reporter saved the call center a significant volume =
+of calls because precinct captains could both submit results &amp; caucus i=
+ssues directly through the app. 50% of the precincts results came directly =
+through the Reporter app, and 50% came through through the call center.</li=
+></ul></ul></span><span><br><p dir=3D"ltr" style=3D"line-height:1.38;margin=
+-top:0pt;margin-bottom:0pt"><span style=3D"font-family:Arial;color:rgb(0,0,=
+0);font-weight:700;vertical-align:baseline;white-space:pre-wrap;background-=
+color:transparent">Updates:</span></p><ul style=3D"margin-top:0pt;margin-bo=
+ttom:0pt"><li dir=3D"ltr" style=3D"list-style-type:disc;vertical-align:base=
+line"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;line-height:1.38;ver=
+tical-align:baseline;white-space:pre-wrap;background-color:transparent">SMS=
+ tool aka Megaphone!: </span>Our VAN chrome extension and SMS tool will now=
+ be known as Megaphone! Over the past week, we=E2=80=99ve been working to i=
+mprove the Megaphone so it can be more easily used across the early states =
+and on into March states. We=E2=80=99re working on ways to allow states to =
+add users and SMS templates to the tool (we have to do this manually now). =
+It=E2=80=99s been used in NH to build for events and will be used on primar=
+y day for GOTV asks.</p></li><li dir=3D"ltr" style=3D"list-style-type:disc;=
+vertical-align:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bott=
+om:0pt"><span style=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;l=
+ine-height:1.38;vertical-align:baseline;white-space:pre-wrap;background-col=
+or:transparent">Mobile update: </span>We are working on a =E2=80=9Cgamified=
+ experience=E2=80=9D app to engage and activate supporters, specifically th=
+ose who have not yet donated or volunteered. Our team of product, design, e=
+ngineers and an illustrator are working hard to target a Convention launch.=
+ We=E2=80=99re currently testing different versions of design prototypes wi=
+th users and working towards defining an appealing visual style with an ill=
+ustrator.=C2=A0 We are also vetting the initial set of activities that user=
+s can complete in the app to make sure we try a diverse set of activities a=
+nd adapt any future activities based on user behavior.</p></li><li dir=3D"l=
+tr" style=3D"list-style-type:disc;vertical-align:baseline"><p dir=3D"ltr" s=
+tyle=3D"margin-top:0pt;margin-bottom:0pt"><span style=3D"color:rgb(0,0,0);f=
+ont-family:Arial;font-weight:700;line-height:1.38;vertical-align:baseline;w=
+hite-space:pre-wrap;background-color:transparent">HFA cloud for Vertica ana=
+lytics: </span>Tech is ready for Analytics to move over to the HFA cluster =
+as we=E2=80=99ve finished the hardware and software upgrades. Limited load =
+testing has been performed but we are unable to fully load test without rea=
+l traffic. Next steps are to move Analytics over in a staged fashion, we=E2=
+=80=99re aiming to do this in the time between the next few caucuses/primar=
+ies to minimize disruption.</p></li></ul><p dir=3D"ltr" style=3D"line-heigh=
+t:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-family:Arial;c=
+olor:rgb(0,0,0);font-weight:700;vertical-align:baseline;white-space:pre-wra=
+p;background-color:transparent"><br></span></p><p dir=3D"ltr" style=3D"line=
+-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-family:A=
+rial;color:rgb(0,0,0);font-weight:700;vertical-align:baseline;white-space:p=
+re-wrap;background-color:transparent">Outage: </span></p><ul style=3D"margi=
+n-top:0pt;margin-bottom:0pt"><li dir=3D"ltr" style=3D"list-style-type:disc;=
+vertical-align:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bott=
+om:0pt"><span style=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;l=
+ine-height:1.38;vertical-align:baseline;white-space:pre-wrap;background-col=
+or:transparent">Stripe outage: </span>Beginning at 5:02 p.m. ET on 02/04/20=
+16 Stripe began experiencing an uptick in the amount of time it takes for u=
+s to confirm a successful donations. This results in failed donations on ou=
+r website. We flipped over to our backup payment process, Cybersource, at 5=
+:12 p.m. ET. We currently support one-time donations to our HFA account thr=
+ough Cybersource -- all other contribution methods (saved credit card, subs=
+cription, all HVF donations) -- were disabled. Stripe confirmed a recovery =
+around 5:25 p.m. ET and we flipped back to Stripe at 5:27 p.m. ET. Quick Do=
+nate queueing (mentioned above) and upcoming support for HVF contributions =
+in Cybersource will allow us to retain donations when Stripe experiences ou=
+tages.</p></li><li dir=3D"ltr" style=3D"list-style-type:disc;vertical-align=
+:baseline"><p dir=3D"ltr" style=3D"margin-top:0pt;margin-bottom:0pt"><span =
+style=3D"color:rgb(0,0,0);font-family:Arial;font-weight:700;line-height:1.3=
+8;vertical-align:baseline;white-space:pre-wrap;background-color:transparent=
+">Ops coverage update: </span>As we continue through primary season things =
+are only going to get crazier, so the tech ops team has been making rounds =
+through our agile teams to make sure everyone has the support they need. We=
+ now have a complete list of all of our production services and a better un=
+derstanding of how we can help all of our developers keep things running sm=
+oothly during busy times. Coming soon: new ways to contact our on-call engi=
+neers when you have a problem -- look for updates in your inbox this week!<=
+/p></li></ul><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;ma=
+rgin-bottom:0pt"><span style=3D"font-family:Arial;color:rgb(0,0,0);font-wei=
+ght:700;vertical-align:baseline;white-space:pre-wrap;background-color:trans=
+parent">Hiring:</span></p><ul style=3D"margin-top:0pt;margin-bottom:0pt"><l=
+i style=3D"list-style-type:disc;vertical-align:baseline"><p style=3D"margin=
+-top:0pt;margin-bottom:0pt"><span style=3D"color:rgb(0,0,0);font-family:Ari=
+al;font-weight:700;line-height:1.38;vertical-align:baseline;white-space:pre=
+-wrap;background-color:transparent">Welcome Matt Tucker </span><span style=
+=3D"color:rgb(0,0,0);font-family:Arial;line-height:1.38;vertical-align:base=
+line;white-space:pre-wrap;background-color:transparent">(Senior Software En=
+gineer)</span><span style=3D"color:rgb(0,0,0);font-family:Arial;font-weight=
+:700;line-height:1.38;vertical-align:baseline;white-space:pre-wrap;backgrou=
+nd-color:transparent">: </span>Matt is our first backend engineer to join t=
+he Donate team. He will own building new services that extend Groundwork=E2=
+=80=99s functionality in order to continue to grow our online fundraising c=
+apabilities. Before joining HFA, Matt was co-founder of Unfold, an iOS app =
+for sharing, discovering and having conversations about interesting stuff y=
+ou find on the internet. Before Unfold, Matt was a Sr. Backend Engineer at =
+charity: water where he helped build their crowdfunding platform as well as=
+ critical internal systems.</p></li><li><span style=3D"font-family:Arial;co=
+lor:rgb(0,0,0);font-weight:700;vertical-align:baseline;white-space:pre-wrap=
+;background-color:transparent">Welcome James Plummer </span><span style=3D"=
+font-family:Arial;color:rgb(0,0,0);vertical-align:baseline;white-space:pre-=
+wrap;background-color:transparent">(Senior Product Designer):</span><span s=
+tyle=3D"font-family:Arial;color:rgb(0,0,0);vertical-align:baseline;white-sp=
+ace:pre-wrap;background-color:transparent"> James will be working across tw=
+o main product areas -- Fundraising and Organizing. On the Fundraising side=
+, James will be partnering with Deepa and working with the Donation agile t=
+eam to build the highest converting donation (web or native mobile) workflo=
+ws ever seen on a political campaign. He&#39;ll also be applying that same =
+design thinking to signup forms. On the Organizing side, James will be work=
+ing with Gerard on tools to improve life for staff and leadership whether t=
+hat means continuing to build out the Chrome Extension, expanding the power=
+ of the Raiser (aka Palmer) tool, or other upcoming &quot;awesome organizer=
+ dopeness&quot; (his words, not mine!). </span><br></li></ul></span><div cl=
+ass=3D"gmail_extra"><br></div></div></div>
+
+--001a1147149c1b4378052b59b5b4--

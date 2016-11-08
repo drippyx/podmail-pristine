@@ -1,0 +1,569 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.103 with SMTP id o100csp509906lfi;
+        Fri, 29 May 2015 12:42:17 -0700 (PDT)
+X-Received: by 10.42.119.142 with SMTP id b14mr16666966icr.29.1432928536482;
+        Fri, 29 May 2015 12:42:16 -0700 (PDT)
+Return-Path: <kgasperine@hillaryclinton.com>
+Received: from mail-ig0-x232.google.com (mail-ig0-x232.google.com. [2607:f8b0:4001:c05::232])
+        by mx.google.com with ESMTPS id qf9si5559607icb.62.2015.05.29.12.42.15
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 29 May 2015 12:42:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kgasperine@hillaryclinton.com designates 2607:f8b0:4001:c05::232 as permitted sender) client-ip=2607:f8b0:4001:c05::232;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of kgasperine@hillaryclinton.com designates 2607:f8b0:4001:c05::232 as permitted sender) smtp.mail=kgasperine@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-x232.google.com with SMTP id sb11so22565520igb.0
+        for <john.podesta@gmail.com>; Fri, 29 May 2015 12:42:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+         :cc:content-type;
+        bh=YETU1IwlRopT0GGluv7tXAs1PvtviwYRaUJvvFByurA=;
+        b=Zr7iowTmnKBZ5oCqo7PSRIPhfVRD94RDwXcysc5MF1YtCh/jhptJRNEmRANZniuiLN
+         PbsJmIyxRaYxPEVZM78wVyk9WxD0SRyGFklbRhXjwmRY14b6xKuyhQmFVwop8mfAA+fx
+         m9U5JwXlGaiyhJPa6Pk619LinpwKyeMOS3hfo=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type;
+        bh=YETU1IwlRopT0GGluv7tXAs1PvtviwYRaUJvvFByurA=;
+        b=AFWjUfc4+s32bw1mAbd0sKX6O9EZQslSBZ1r68MsNJr1byMF4oEnHW+Ne/LQhfbH6W
+         hPJhk5sOcSHUbP9FpmUzdOK6GJAdHcn+K3ApBKEKvr3KzF4BChogpL1Nbqy+xuQ9RWAL
+         C+wTNeExwZF1ZLgeIwXz7uzGdzh6jvy8yHQrC5QYmQhHrJXYAYxNo+p+nvFlNGmdyQzz
+         Rrn2nWjNnxp/Vh3ePQ88aryO2hWBP4SJNLuJYr7FYMfTzZ0rka0aGKadMn2piis7hYqI
+         kKz06OoTj7K43S1z6b9LQJd4Us6+Hw1tzWCACeBeS4VgO+3omonwZCIsvzCEIoAhanvn
+         O5qA==
+X-Gm-Message-State: ALoCoQkCW9di0pLNPALE+F+SF9jc85NteRyWNxNuPyC29yx3/XCUZnKDcHhL7fXqW8CNlDHuiNud
+MIME-Version: 1.0
+X-Received: by 10.50.30.138 with SMTP id s10mr6089840igh.3.1432928535550; Fri,
+ 29 May 2015 12:42:15 -0700 (PDT)
+Received: by 10.64.225.102 with HTTP; Fri, 29 May 2015 12:42:15 -0700 (PDT)
+In-Reply-To: <EF2C2928-6058-4ECF-A3F8-9C560FED8A4D@gmail.com>
+References: <0EB96CFB-8D44-4654-A9CA-AF420FEE0C14@gmail.com>
+	<CAE6FiQ-wFMbFkvD1nFp+9pPbQOmLHyz7-ju7NFNr+_7pTh8dKg@mail.gmail.com>
+	<BBC3D5F9-B1FC-4762-AE06-28EA51BA8340@gmail.com>
+	<CABPPEnxSnA_dgoMZyuR=yP4+vma=za9Z+2d98qXLVDrLivLHgg@mail.gmail.com>
+	<-4630184635792282535@unknownmsgid>
+	<F046C7F8-D113-488B-B3C5-CBA84A031919@gmail.com>
+	<-2135717540079843650@unknownmsgid>
+	<795A668B-54BF-4436-A726-58A69AB8B0EF@gmail.com>
+	<CABmBifq4cjDTrNtcBdoTRuaFT678jkEDGKkDnTqSbm0KkZ5DgA@mail.gmail.com>
+	<F5DC9547-F62B-46F1-94FA-CD1152322B79@gmail.com>
+	<-5082222146929641472@unknownmsgid>
+	<8D1A0689-5AEA-45E8-B0C0-598C936F1156@gmail.com>
+	<7CBAEB72-61A9-4FEB-B4E5-5FA7AFB1E25A@gmail.com>
+	<7FAA0E34-D38B-464F-99CA-21F950B0D1CE@gmail.com>
+	<CABmBifr2eTcbcSRujk-uH9fS1HJGhAxjzyi3MTPVf2kr+aoQ-A@mail.gmail.com>
+	<EF2C2928-6058-4ECF-A3F8-9C560FED8A4D@gmail.com>
+Date: Fri, 29 May 2015 15:42:15 -0400
+Message-ID: <CABmBifqrEUUKR=tR7jpnHHYoL9nFdAUyvd0nM0OMJkN+b7w5Dw@mail.gmail.com>
+Subject: Re: URGENT--Need your advice
+From: Kathy Gasperine <kgasperine@hillaryclinton.com>
+To: gsf1280 <gsf1280@gmail.com>
+CC: Dennis Cheng <dcheng@hillaryclinton.com>, 
+ John Podesta <john.podesta@gmail.com>
+Content-Type: multipart/alternative; boundary=047d7bdc9f5059b1ff05173dac64
+
+--047d7bdc9f5059b1ff05173dac64
+Content-Type: text/plain; charset=UTF-8
+
+Glen,
+Yes - we have Alan on your list. Please note this should be your webpage
+for Americans living Abroad with an international address.
+
+https://www.hillaryclinton.com/financeabroad/?raiser=54387
+
+Thank you!
+
+On Fri, May 29, 2015 at 3:05 PM, gsf1280 <gsf1280@gmail.com> wrote:
+
+> Thanks. Actually, I'm the one who recruited Allan Smith to contribute. I
+> know Tony and Kathy, so I will invite them as well as some other potential
+> donors.
+>
+> I'm leaving now for San Francisco so will be out of pocket until late
+> tonight. Will send out the invitations over the weekend. It's rather short
+> notice, but I hope we can get a good group together for Neera.
+>
+> Glen
+>
+> Sent from my iPhone
+>
+> On May 29, 2015, at 13:53, Kathy Gasperine <kgasperine@hillaryclinton.com>
+> wrote:
+>
+> Glen,
+> I am so sorry for my delay. We absolutely want to take you up on this
+> offer.  Attached is our quite limited list of Toyko based donors (from 2008
+> and now 2016).  We only have two major donors in Toyko - Allan Smith and
+> Tony Miller.
+>
+> Additionally, I have included the list of Asian based American Abroad
+> Hillraisers that you may know.  Tony Miller should be brought in
+> immediately on this - I know that you have already connected with Robert.
+> Wenchi Wu also suggested that Kathy Matsui may be good for this. Do you
+> know her?
+>
+> Do you want to have a call this afternoon/evening on this?
+>
+> We are so excited that our full time staffer for Americans Abroad is also
+> starting on Monday! She will be a great resource to help you make this a
+> success.
+>
+> Thank you for your help!-
+> Kathy
+>
+>
+>
+> On Fri, May 29, 2015 at 11:24 AM, gsf1280 <gsf1280@gmail.com> wrote:
+>
+>> Kathy,
+>>
+>> We don't have much time to prepare for the fundraiser in Tokyo on June 9,
+>> so I would appreciate your early response to my emails of Tuesday and
+>> yesterday. Thanks!
+>>
+>> Glen
+>>
+>> Sent from my iPhone
+>>
+>> On May 28, 2015, at 13:01, gsf1280 <gsf1280@gmail.com> wrote:
+>>
+>> Kathy,
+>>
+>> Did you receive my email below of Tuesday? Please let me know your
+>> answer, since I need to send out the invitations ASAP. Thanks.
+>>
+>> Glen
+>>
+>> Sent from my iPhone
+>>
+>> On May 26, 2015, at 22:10, gsf1280 <gsf1280@gmail.com> wrote:
+>>
+>> I just got confirmation from Tokyo that the room is available, and I've
+>> reserved it from 7:00-9;00 pm. If there are a total of 15 people (including
+>> Neera Tanden and me), I can keep the cost under $1000.00 if I have a
+>> Japanese meal delivered rather than catered.
+>>
+>> I plan to ask for contributions at the following levels:  $2700 (host),
+>> $1000 (sponsor), and $500 (supporter). Does this make sense?
+>>
+>> Can you send me your list of people to invite?
+>>
+>> Glen
+>>
+>> Sent from my iPhone
+>>
+>> On May 26, 2015, at 19:46, Kathy Gasperine <kgasperine@hillaryclinton.com>
+>> wrote:
+>>
+>> Glen
+>> Hello! Just checking in with you. Were you able to confirm if your event
+>> space is available in your building?
+>>
+>> Thank you!
+>> Kathy
+>>
+>>
+>>
+>> On May 24, 2015, at 1:39 PM, gsf1280 <gsf1280@gmail.com> wrote:
+>>
+>> OK. Please call me at (202) 450-6157 tonight at 10 pm EDT.
+>>
+>> The dinner in Tokyo would be on Tuesday, June 9.
+>>
+>> Glen
+>>
+>> Sent from my iPhone
+>>
+>> On May 24, 2015, at 13:24, Kathy Gasperine <kgasperine@hillaryclinton.com>
+>> wrote:
+>>
+>> Glen,
+>> Lets plan on 10 pm EST tonight. What date would this dinner be in Tokyo?
+>> Do you prefer that I call you on this number -(202) 740-4442?
+>> Thank you!!
+>>
+>>
+>> On Sun, May 24, 2015 at 12:36 PM, gsf1280 <gsf1280@gmail.com> wrote:
+>>
+>>> Can we talk on the phone today (Sunday) at 6 pm or at 10 pm, or tomorrow
+>>> (Monday) sometime between 2-5 pm?
+>>>
+>>> Glen
+>>>
+>>> Sent from my iPhone
+>>>
+>>> On May 23, 2015, at 17:04, Kathy Gasperine <
+>>> kgasperine@hillaryclinton.com> wrote:
+>>>
+>>> Yes- I can do anytime that works for you. Sunday may even be easier if
+>>> that can work for you.
+>>>
+>>> Thank you!
+>>>
+>>>
+>>>
+>>> On May 23, 2015, at 12:50 PM, gsf1280 <gsf1280@gmail.com> wrote:
+>>>
+>>> I'm tied up today with visitors from out of town but could talk on the
+>>> phone tomorrow or Monday in the afternoon. Are you available?
+>>>
+>>> Sent from my iPhone
+>>>
+>>> On May 23, 2015, at 11:44, Kathy Gasperine <
+>>> kgasperine@hillaryclinton.com> wrote:
+>>>
+>>> Glen
+>>>
+>>> Do you have time for a quick call today? I want to pull together our
+>>> universe of prospects/ current donors.
+>>>
+>>> We should loop in our mutual friend, Robert Roche, and a few others if
+>>> we can take advantage of this unique opportunity.
+>>>
+>>> Thank you!
+>>>
+>>>
+>>>
+>>> On May 23, 2015, at 11:06 AM, Dennis Cheng <dcheng@hillaryclinton.com>
+>>> wrote:
+>>>
+>>> Hi Glen (and moving John to bcc),
+>>>
+>>> Great to hear from you and thank you so much for your help! I'm adding
+>>> Kathy Gasperine from my team who can assist and follow up with you directly.
+>>>
+>>> But here are some basic points:
+>>>
+>>> - The maximum contribution we are soliciting right now is $2,700 per
+>>> person.
+>>>
+>>> - If someone has already given the maximum, you can definitely still
+>>> invite them to the event in recognition of their earlier gift. That's at
+>>> your/the campaign's discretion. Typically, if someone who has already maxed
+>>> out and would like to attend a campaign event, we encourage them to recruit
+>>> at least 1 or 2 new donors/attendees.
+>>>
+>>> - Attendees should only be US citizens or green card holders.
+>>>
+>>> - If the event is held at a restaurant or venue that's not a private
+>>> home, then the campaign MUST pay for 100% of the costs and meals. So we
+>>> generally prefer to hold events at private homes - then each household
+>>> resident is able to spend up to $1,000 per resident on food and beverage
+>>> (but they must be US citizens or green card holders). However, if a
+>>> restaurant or club is strongly preferred due to location and convenience,
+>>> we are open to considering it - we just need to know what the budget would
+>>> be and approve all costs before anything is booked or reserved.
+>>>
+>>> Glen, what day will this be and how many people/how much do you think
+>>> the event could raise?
+>>>
+>>> Thank you so much!
+>>>
+>>> Dennis
+>>>
+>>> On Sat, May 23, 2015 at 10:48 AM, gsf1280 <gsf1280@gmail.com> wrote:
+>>>
+>>>> I was planning to host (pay for) the dinner at the ARK Hills Club, a
+>>>> private club located about 5 minutes walk from Neera's hotel in Tokyo. The
+>>>> room can hold up to 14 people in total, so 12 contributors. I was thinking
+>>>> of contribution levels of $500, $1000, and $2000, but I assume I can't do
+>>>> this if they've already maxed out?
+>>>>
+>>>> Dennis, can we discuss this on the phone this Sunday or Monday?
+>>>>
+>>>> Glen
+>>>>
+>>>> Sent from my iPhone
+>>>>
+>>>> On May 23, 2015, at 9:21, John Podesta <john.podesta@gmail.com> wrote:
+>>>>
+>>>> I would invite people who have already maxed out, but the only question
+>>>> becomes who pays for dinner? That's a legal question. Were you thinking of
+>>>> doing that a restaurant? That gets complicated. Dennis can help guide on
+>>>> that.
+>>>>
+>>>> On Friday, May 22, 2015, gsf1280 <gsf1280@gmail.com> wrote:
+>>>>
+>>>>> Neera told me you had suggested that we do a fundraiser for Hillary
+>>>>> when we visit Tokyo next month. It's a great idea, and I've already set
+>>>>> aside a dinner in Tokyo precisely for this purpose.
+>>>>>
+>>>>> I would like some technical advice on setting this up, e.g., is it
+>>>>> permissible to invite as contributors those who have already contributed
+>>>>> $2700 or $5400 to Hillary? Or do I need to invite those expats who have not
+>>>>> yet contributed, etc. Who should I consult for such questions-e -Dennis
+>>>>> Cheng? Or is ththere someone on Hillary's campaign staff who specializes on
+>>>>> fundraising among expats in Asia?
+>>>>>
+>>>>> Glen
+>>>>>
+>>>>>
+>>>>>
+>>>>> Sent from my iPhone
+>>>>
+>>>>
+>>>
+>>>
+>>> --
+>>> *Dennis Cheng*
+>>> National Finance Director
+>>> Hillary for America
+>>> dcheng@hillaryclinton.com
+>>>
+>>>
+>>
+>>
+>> --
+>> Kathleen Gasperine
+>> Deputy National Finance Director- Northeast and Abroad
+>> Hillary for America
+>> 570.660.9100 m
+>> 646.854.1413 o
+>> kgasperine@hillaryclinton.com
+>> www.hillaryclinton.com/finance
+>>
+>>
+>
+>
+> --
+> Kathleen Gasperine
+> Deputy National Finance Director- Northeast and Abroad
+> Hillary for America
+> 570.660.9100 m
+> 646.854.1413 o
+> kgasperine@hillaryclinton.com
+> www.hillaryclinton.com/finance
+>
+> <Neera HFA Toyko Dinner 6.9.15.xlsx>
+>
+>
+
+
+-- 
+Kathleen Gasperine
+Deputy National Finance Director- Northeast and Abroad
+Hillary for America
+570.660.9100 m
+646.854.1413 o
+kgasperine@hillaryclinton.com
+www.hillaryclinton.com/finance
+
+--047d7bdc9f5059b1ff05173dac64
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div>Glen,<br></div>Yes - we have Alan on your list. =
+Please note this should be your webpage for Americans living Abroad with an=
+ international address. <br><a href=3D"https://www.hillaryclinton.com/finan=
+ceabroad/?raiser=3D54387"><br>https://www.hillaryclinton.com/financeabroad/=
+?raiser=3D54387</a><br><br></div>Thank you!<br></div><div class=3D"gmail_ex=
+tra"><br><div class=3D"gmail_quote">On Fri, May 29, 2015 at 3:05 PM, gsf128=
+0 <span dir=3D"ltr">&lt;<a href=3D"mailto:gsf1280@gmail.com" target=3D"_bla=
+nk">gsf1280@gmail.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_q=
+uote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1e=
+x"><div dir=3D"auto"><div>Thanks. Actually, I&#39;m the one who recruited A=
+llan Smith to contribute. I know Tony and Kathy, so I will invite them as w=
+ell as some other potential donors.</div><div><br></div><div>I&#39;m leavin=
+g now for San Francisco so will be out of pocket until late tonight. Will s=
+end out the invitations over the weekend. It&#39;s rather short notice, but=
+ I hope we can get a good group together for Neera.</div><div><br></div><di=
+v>Glen<br><br>Sent from my iPhone</div><div><br>On May 29, 2015, at 13:53, =
+Kathy Gasperine &lt;<a href=3D"mailto:kgasperine@hillaryclinton.com" target=
+=3D"_blank">kgasperine@hillaryclinton.com</a>&gt; wrote:<br><br></div><bloc=
+kquote type=3D"cite"><div><div dir=3D"ltr"><div><div><div><div>Glen,<br></d=
+iv>I am so sorry for my delay. We absolutely want to take you up on this of=
+fer.=C2=A0 Attached is our quite limited list of Toyko based donors (from 2=
+008 and now 2016).=C2=A0 We only have two major donors in Toyko - Allan Smi=
+th and Tony Miller.<br><br></div>Additionally, I have included the list of =
+Asian based American Abroad Hillraisers that you may know.=C2=A0 Tony Mille=
+r should be brought in immediately on this - I know that you have already c=
+onnected with Robert. Wenchi Wu also suggested that Kathy Matsui may be goo=
+d for this. Do you know her?<br><br></div>Do you want to have a call this a=
+fternoon/evening on this?<br><br></div>We are so excited that our full time=
+ staffer for Americans Abroad is also starting on Monday! She will be a gre=
+at resource to help you make this a success.<br><div><div><div><br></div><d=
+iv>Thank you for your help!-<br></div><div>Kathy<br><br></div><div>=C2=A0<b=
+r></div></div></div></div><div class=3D"gmail_extra"><br><div class=3D"gmai=
+l_quote">On Fri, May 29, 2015 at 11:24 AM, gsf1280 <span dir=3D"ltr">&lt;<a=
+ href=3D"mailto:gsf1280@gmail.com" target=3D"_blank">gsf1280@gmail.com</a>&=
+gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 =
+0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"auto"><div>=
+<span></span></div><div><div><span></span></div><div><div>Kathy,</div><div>=
+<br></div><div>We don&#39;t have much time to prepare for the fundraiser in=
+ Tokyo on June 9, so I would appreciate your early response to my emails of=
+ Tuesday and yesterday. Thanks!</div><div><br></div><div>Glen<br><br>Sent f=
+rom my iPhone</div><div><br>On May 28, 2015, at 13:01, gsf1280 &lt;<a href=
+=3D"mailto:gsf1280@gmail.com" target=3D"_blank">gsf1280@gmail.com</a>&gt; w=
+rote:<br><br></div><blockquote type=3D"cite"><div>Kathy,=C2=A0</div><div><b=
+r></div><div>Did you receive my email below of Tuesday? Please let me know =
+your answer, since I need to send out the invitations ASAP. Thanks.</div><d=
+iv><br></div><div>Glen<br><br>Sent from my iPhone</div><div><br>On May 26, =
+2015, at 22:10, gsf1280 &lt;<a href=3D"mailto:gsf1280@gmail.com" target=3D"=
+_blank">gsf1280@gmail.com</a>&gt; wrote:<br><br></div><blockquote type=3D"c=
+ite"><div><div>I just got confirmation from Tokyo that the room is availabl=
+e, and I&#39;ve reserved it from 7:00-9;00 pm. If there are a total of 15 p=
+eople (including Neera Tanden and me), I can keep the cost under $1000.00 i=
+f I have a Japanese meal delivered rather than catered.=C2=A0</div><div><br=
+></div><div>I plan to ask for contributions at the following levels: =C2=A0=
+$2700 (host), $1000 (sponsor), and $500 (supporter). Does this make sense?<=
+/div><div><br></div><div>Can you send me your list of people to invite?</di=
+v><div><br></div><div>Glen<br><br>Sent from my iPhone</div><div><br>On May =
+26, 2015, at 19:46, Kathy Gasperine &lt;<a href=3D"mailto:kgasperine@hillar=
+yclinton.com" target=3D"_blank">kgasperine@hillaryclinton.com</a>&gt; wrote=
+:<br><br></div><blockquote type=3D"cite"><div><div>Glen</div><div>Hello! Ju=
+st checking in with you. Were you able to confirm if your event space is av=
+ailable in your building?=C2=A0</div><div><br></div><div>Thank you!</div><d=
+iv>Kathy=C2=A0<br><br><br></div><div><br>On May 24, 2015, at 1:39 PM, gsf12=
+80 &lt;<a href=3D"mailto:gsf1280@gmail.com" target=3D"_blank">gsf1280@gmail=
+.com</a>&gt; wrote:<br><br></div><div><div>OK. Please call me at <a href=3D=
+"tel:%28202%29%20450-6157" value=3D"+12024506157" target=3D"_blank">(202) 4=
+50-6157</a> tonight at 10 pm EDT.</div><div><br></div><div>The dinner in To=
+kyo would be on Tuesday, June 9.</div><div><br></div><div>Glen<br><br>Sent =
+from my iPhone</div><div><br>On May 24, 2015, at 13:24, Kathy Gasperine &lt=
+;<a href=3D"mailto:kgasperine@hillaryclinton.com" target=3D"_blank">kgasper=
+ine@hillaryclinton.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite=
+"><div><div dir=3D"ltr"><div><div>Glen,<br></div>Lets plan on 10 pm EST ton=
+ight. What date would this dinner be in Tokyo? Do you prefer that I call yo=
+u on this number -<a href=3D"tel:%28202%29%20740-4442" value=3D"+1202740444=
+2" target=3D"_blank">(202) 740-4442</a>?<br></div>Thank you!!<br><div><br><=
+/div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Sun=
+, May 24, 2015 at 12:36 PM, gsf1280 <span dir=3D"ltr">&lt;<a href=3D"mailto=
+:gsf1280@gmail.com" target=3D"_blank">gsf1280@gmail.com</a>&gt;</span> wrot=
+e:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-l=
+eft:1px #ccc solid;padding-left:1ex"><div dir=3D"auto"><div>Can we talk on =
+the phone today (Sunday) at 6 pm or at 10 pm, or tomorrow (Monday) sometime=
+ between 2-5 pm?</div><div><br></div><div>Glen<br><br>Sent from my iPhone</=
+div><div><br>On May 23, 2015, at 17:04, Kathy Gasperine &lt;<a href=3D"mail=
+to:kgasperine@hillaryclinton.com" target=3D"_blank">kgasperine@hillaryclint=
+on.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div><div>Yes-=
+ I can do anytime that works for you. Sunday may even be easier if that can=
+ work for you.=C2=A0</div><div><br></div><div>Thank you!<br><br><br></div><=
+div><br>On May 23, 2015, at 12:50 PM, gsf1280 &lt;<a href=3D"mailto:gsf1280=
+@gmail.com" target=3D"_blank">gsf1280@gmail.com</a>&gt; wrote:<br><br></div=
+><div><div>I&#39;m tied up today with visitors from out of town but could t=
+alk on the phone tomorrow or Monday in the afternoon. Are you available?<br=
+><br>Sent from my iPhone</div><div><br>On May 23, 2015, at 11:44, Kathy Gas=
+perine &lt;<a href=3D"mailto:kgasperine@hillaryclinton.com" target=3D"_blan=
+k">kgasperine@hillaryclinton.com</a>&gt; wrote:<br><br></div><blockquote ty=
+pe=3D"cite"><div><div>Glen</div><div><br></div><div>Do you have time for a =
+quick call today? I want to pull together our universe of prospects/ curren=
+t donors.=C2=A0</div><div><br></div><div>We should loop in our mutual frien=
+d, Robert Roche, and a few others if we can take advantage of this unique o=
+pportunity.</div><div><br></div><div>Thank you!</div><div><br><br></div><di=
+v><br>On May 23, 2015, at 11:06 AM, Dennis Cheng &lt;<a href=3D"mailto:dche=
+ng@hillaryclinton.com" target=3D"_blank">dcheng@hillaryclinton.com</a>&gt; =
+wrote:<br><br></div><div><div dir=3D"ltr">Hi Glen (and moving John to bcc),=
+<div><br></div><div>Great to hear from you and thank you so much for your h=
+elp! I&#39;m adding Kathy Gasperine from my team who can assist and follow =
+up with you directly.</div><div><br></div><div>But here are some basic poin=
+ts:</div><div><br></div><div>- The maximum contribution we are soliciting r=
+ight now is $2,700 per person.</div><div><br></div><div>- If someone has al=
+ready given the maximum, you can definitely still invite them to the event =
+in recognition of their earlier gift. That&#39;s at your/the campaign&#39;s=
+ discretion. Typically, if someone who has already maxed out and would like=
+ to attend a campaign event, we encourage them to recruit at least 1 or 2 n=
+ew donors/attendees.</div><div><br></div><div>- Attendees should only be US=
+ citizens or green card holders.</div><div><br></div><div>- If the event is=
+ held at a restaurant or venue that&#39;s not a private home, then the camp=
+aign MUST pay for 100% of the costs and meals. So we generally prefer to ho=
+ld events at private homes - then each household resident is able to spend =
+up to $1,000 per resident on food and beverage (but they must be US citizen=
+s or green card holders). However, if a restaurant or club is strongly pref=
+erred due to location and convenience, we are open to considering it - we j=
+ust need to know what the budget would be and approve all costs before anyt=
+hing is booked or reserved.</div><div><br></div><div>Glen, what day will th=
+is be and how many people/how much do you think the event could raise?</div=
+><div><br></div><div>Thank you so much!</div><div><br></div><div>Dennis</di=
+v></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Sat, M=
+ay 23, 2015 at 10:48 AM, gsf1280 <span dir=3D"ltr">&lt;<a href=3D"mailto:gs=
+f1280@gmail.com" target=3D"_blank">gsf1280@gmail.com</a>&gt;</span> wrote:<=
+br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
+:1px #ccc solid;padding-left:1ex"><div dir=3D"auto"><div>I was planning to =
+host (pay for) the dinner at the ARK Hills Club, a private club located abo=
+ut 5 minutes walk from Neera&#39;s hotel in Tokyo. The room can hold up to =
+14 people in total, so 12 contributors. I was thinking of contribution leve=
+ls of $500, $1000, and $2000, but I assume I can&#39;t do this if they&#39;=
+ve already maxed out?</div><div><br></div><div>Dennis, can we discuss this =
+on the phone this Sunday or Monday?</div><div><br></div><div>Glen<br><br>Se=
+nt from my iPhone</div><div><br>On May 23, 2015, at 9:21, John Podesta &lt;=
+<a href=3D"mailto:john.podesta@gmail.com" target=3D"_blank">john.podesta@gm=
+ail.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div>I would =
+invite=C2=A0people who have already maxed out, but the only question become=
+s who pays for dinner? That&#39;s a legal question. Were you thinking of do=
+ing that a restaurant? That gets complicated.=C2=A0Dennis can help guide on=
+ that.<div><br>On Friday, May 22, 2015, gsf1280 &lt;<a href=3D"mailto:gsf12=
+80@gmail.com" target=3D"_blank">gsf1280@gmail.com</a>&gt; wrote:<br><blockq=
+uote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc =
+solid;padding-left:1ex">Neera told me you had suggested that we do a fundra=
+iser for Hillary when we visit Tokyo next month. It&#39;s a great idea, and=
+ I&#39;ve already set aside a dinner in Tokyo precisely for this purpose.<b=
+r>
+<br>
+I would like some technical advice on setting this up, e.g., is it permissi=
+ble to invite as contributors those who have already contributed $2700 or $=
+5400 to Hillary? Or do I need to invite those expats who have not yet contr=
+ibuted, etc. Who should I consult for such questions-e=C2=A0-Dennis Cheng? =
+Or is ththere someone on Hillary&#39;s campaign staff who specializes on fu=
+ndraising among expats in Asia?<br>
+<br>
+Glen<br>
+<br>
+<br>
+<br>
+Sent from my iPhone</blockquote></div>
+</div></blockquote></div></blockquote></div><br><br clear=3D"all"><span><fo=
+nt color=3D"#888888"><span><font color=3D"#888888"><div><br></div>-- <br><d=
+iv><div dir=3D"ltr"><font size=3D"2"><b>Dennis Cheng</b></font><div><font s=
+ize=3D"2">National Finance Director</font></div><div><font size=3D"2">Hilla=
+ry for America</font></div><div><a href=3D"mailto:dcheng@hillaryclinton.com=
+" target=3D"_blank"><font size=3D"2">dcheng@hillaryclinton.com</font></a></=
+div></div></div>
+</font></span></font></span></div><span><font color=3D"#888888">
+</font></span></div><span><font color=3D"#888888">
+</font></span></div></blockquote></div><span><font color=3D"#888888">
+</font></span></div></blockquote></div></blockquote></div><span><font color=
+=3D"#888888"><br><br clear=3D"all"><span class=3D"HOEnZb"><font color=3D"#8=
+88888"><br>-- <br><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div><di=
+v><div>Kathleen Gasperine<br></div>Deputy National Finance Director- Northe=
+ast and Abroad<br></div>Hillary for America<br></div><a href=3D"tel:570.660=
+.9100" value=3D"+15706609100" target=3D"_blank">570.660.9100</a> m<br></div=
+><div><a href=3D"tel:646.854.1413" value=3D"+16468541413" target=3D"_blank"=
+>646.854.1413</a> o<br></div><a href=3D"mailto:kgasperine@hillaryclinton.co=
+m" target=3D"_blank">kgasperine@hillaryclinton.com</a><br></div><div><span>=
+<a href=3D"http://www.hillaryclinton.com/finance" target=3D"_blank">www.hil=
+laryclinton.com/finance</a> <br></span></div></div></div></div>
+</font></span></font></span></div><span class=3D"HOEnZb"><font color=3D"#88=
+8888">
+</font></span></div></blockquote></div><span class=3D"HOEnZb"><font color=
+=3D"#888888">
+</font></span></div></blockquote></div></blockquote></blockquote></div></di=
+v></div></blockquote></div><span class=3D"HOEnZb"><font color=3D"#888888"><=
+br><br clear=3D"all"><br>-- <br><div><div dir=3D"ltr"><div><div dir=3D"ltr"=
+><div><div><div><div>Kathleen Gasperine<br></div>Deputy National Finance Di=
+rector- Northeast and Abroad<br></div>Hillary for America<br></div><a href=
+=3D"tel:570.660.9100" value=3D"+15706609100" target=3D"_blank">570.660.9100=
+</a> m<br></div><div><a href=3D"tel:646.854.1413" value=3D"+16468541413" ta=
+rget=3D"_blank">646.854.1413</a> o<br></div><a href=3D"mailto:kgasperine@hi=
+llaryclinton.com" target=3D"_blank">kgasperine@hillaryclinton.com</a><br></=
+div><div><span><a href=3D"http://www.hillaryclinton.com/finance" target=3D"=
+_blank">www.hillaryclinton.com/finance</a> <br></span></div></div></div></d=
+iv>
+</font></span></div><span class=3D"HOEnZb"><font color=3D"#888888">
+</font></span></div></blockquote><span class=3D"HOEnZb"><font color=3D"#888=
+888"><blockquote type=3D"cite"><div>&lt;Neera HFA Toyko Dinner 6.9.15.xlsx&=
+gt;</div></blockquote></font></span></div></blockquote></div><br><br clear=
+=3D"all"><br>-- <br><div class=3D"gmail_signature"><div dir=3D"ltr"><div><d=
+iv dir=3D"ltr"><div><div><div><div>Kathleen Gasperine<br></div>Deputy Natio=
+nal Finance Director- Northeast and Abroad<br></div>Hillary for America<br>=
+</div>570.660.9100 m<br></div><div>646.854.1413 o<br></div><a href=3D"mailt=
+o:kgasperine@hillaryclinton.com" target=3D"_blank">kgasperine@hillaryclinto=
+n.com</a><br></div><div><span><a href=3D"http://www.hillaryclinton.com/fina=
+nce" target=3D"_blank">www.hillaryclinton.com/finance</a> <br></span></div>=
+</div></div></div>
+</div>
+
+--047d7bdc9f5059b1ff05173dac64--

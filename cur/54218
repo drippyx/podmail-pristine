@@ -1,0 +1,579 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp6176041lfb;
+        Mon, 28 Dec 2015 07:38:05 -0800 (PST)
+X-Received: by 10.50.66.197 with SMTP id h5mr50018096igt.16.1451317085292;
+        Mon, 28 Dec 2015 07:38:05 -0800 (PST)
+Return-Path: <speechdrafts+bncBDQJHRPZSYCBBXFOQW2AKGQEEH5F4OI@hillaryclinton.com>
+Received: from mail-ig0-x246.google.com (mail-ig0-x246.google.com. [2607:f8b0:4001:c05::246])
+        by mx.google.com with ESMTPS id ii2si20837478igb.4.2015.12.28.07.38.05
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 28 Dec 2015 07:38:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBDQJHRPZSYCBBXFOQW2AKGQEEH5F4OI@hillaryclinton.com designates 2607:f8b0:4001:c05::246 as permitted sender) client-ip=2607:f8b0:4001:c05::246;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBDQJHRPZSYCBBXFOQW2AKGQEEH5F4OI@hillaryclinton.com designates 2607:f8b0:4001:c05::246 as permitted sender) smtp.mailfrom=speechdrafts+bncBDQJHRPZSYCBBXFOQW2AKGQEEH5F4OI@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-x246.google.com with SMTP id ol4sf487412270igc.0
+        for <john.podesta@gmail.com>; Mon, 28 Dec 2015 07:38:05 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:from:date:message-id
+         :subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=5A6oJTE7CH/scZuVF3mkoJdX/wvP+is1G5TSl/J+ZFI=;
+        b=UXiFekpm/jnF0aghZGyo2AL1t1FbRCaX1X8Omwg5gjArEzVQg/TUKBTB1WVZPrwdMo
+         Qs909oRGyCwBEXTaD8iHq9Wexj6/kwK1xTlO3VrMdLno4XhCgNf8uxm9bcoG50/2VWng
+         R/g3uFJLEFhMhJQafWGIBer6FzUEDd8e4SOLw=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:from
+         :date:message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=5A6oJTE7CH/scZuVF3mkoJdX/wvP+is1G5TSl/J+ZFI=;
+        b=jTXCYtOyPT2ClXmoQNAdrkvANrHgF7Mv2QHimd0gFZOrkv7Prnw7mHcjj7ls2+NfOm
+         eKGFHSA/VQ4cSIUUn/peIyzQOCHgUGlDOfYQaIdBuMT5CZbvHzAd1qP32vxIAq/8wO56
+         hDv+f5j0qHe+bz4SX0gY/h0VcbQ8fQR+eK3FMUZCoM5mpdHFT9Av7tcpvq9rovfR2VCc
+         /dwurSYksIxIpeQ91gbbbztQsEgZxESbQXYzH9P0YxOYowUw9kBou89Lz0W+6VYttXFr
+         BHLcfg+a9b39MYaVNIFJf+8MYtnIEWuu2ncZz+RGl43L4YpV+CGcar7WPoNdBGgkVWqk
+         D31Q==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQmt2Mc39fHw9omRoUOpo+ExnG6Uoji9VCzKfpDgr8YH0vFavSdbmkEgID/zQVca1LN0JJrV81s2uTF7CPxucITaAtQX/g==
+X-Received: by 10.107.33.200 with SMTP id h191mr14777005ioh.9.1451317084994;
+        Mon, 28 Dec 2015 07:38:04 -0800 (PST)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.107.10.169 with SMTP id 41ls2969781iok.51.gmail; Mon, 28 Dec
+ 2015 07:38:04 -0800 (PST)
+X-Received: by 10.107.19.160 with SMTP id 32mr52538524iot.104.1451317084555;
+        Mon, 28 Dec 2015 07:38:04 -0800 (PST)
+Received: from mail-io0-x234.google.com (mail-io0-x234.google.com. [2607:f8b0:4001:c06::234])
+        by mx.google.com with ESMTPS id k131si45063068iof.120.2015.12.28.07.38.04
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 28 Dec 2015 07:38:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of mrooney@hillaryclinton.com designates 2607:f8b0:4001:c06::234 as permitted sender) client-ip=2607:f8b0:4001:c06::234;
+Received: by mail-io0-x234.google.com with SMTP id q126so306876372iof.2
+        for <speechdrafts@hillaryclinton.com>; Mon, 28 Dec 2015 07:38:04 -0800 (PST)
+X-Received: by 10.107.186.3 with SMTP id k3mr63066186iof.43.1451317084359;
+ Mon, 28 Dec 2015 07:38:04 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.64.129.42 with HTTP; Mon, 28 Dec 2015 07:37:44 -0800 (PST)
+In-Reply-To: <9107157722205757493@unknownmsgid>
+References: <CAFcwtWChNbSs3AG+2ORu-mXtzZgmr9fd6wCONVWaKSbGPW2yNQ@mail.gmail.com>
+ <-3629034707044186100@unknownmsgid> <CAFcwtWDWi1i_VsBLertaTQOaj_gBYcnvbjdFahuutFOirCK4WA@mail.gmail.com>
+ <10419800-C637-4482-BD39-E42BEF1EC159@aol.com> <CAFcwtWAhSpvi+4iWj7S98fZ9oNibpqpRTCrEH0C8xd7GNL0ttA@mail.gmail.com>
+ <CACWw=rSssMoPPvt41bVCpjV95gC1SyWC90sGw+VVf_5=-=qqKw@mail.gmail.com>
+ <CANqZgL-gGXdx8-_rqaKBEEgE6+KQ0gAxFTHNJNR6xJBPY5-hCg@mail.gmail.com>
+ <-3132261163823544099@unknownmsgid> <9107157722205757493@unknownmsgid>
+From: Megan Rooney <mrooney@hillaryclinton.com>
+Date: Mon, 28 Dec 2015 10:37:44 -0500
+Message-ID: <CAFcwtWAJagc+QcEby+OEJ60-Q9u5WRjOOjCXuzRJ-FS_ygYzcQ@mail.gmail.com>
+Subject: Re: DRAFT: NH town hall on Alzheimer's
+To: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+CC: Karen Finney <kfinney@hillaryclinton.com>, 
+ Brian Fallon <bfallon@hillaryclinton.com>, 
+ "Ann O'Leary" <aoleary@hillaryclinton.com>, 
+ Mandy Grunwald <gruncom@aol.com>, 
+ Mike Vlacich <mvlacich@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ Vasishth Srivastava <vsrivastava@hillaryclinton.com>, 
+ Emily Aden <eaden@hillaryclinton.com>, 
+ Jesse Ferguson <jferguson@hillaryclinton.com>, 
+ Harrell Kirstein <hkirstein@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=94eb2c070e4c4523e20527f7179a
+X-Original-Sender: mrooney@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of mrooney@hillaryclinton.com designates 2607:f8b0:4001:c06::234 as
+ permitted sender) smtp.mailfrom=mrooney@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <https://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--94eb2c070e4c4523e20527f7179a
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Great -- will delete
+
+On Mon, Dec 28, 2015 at 10:36 AM, Jennifer Palmieri <
+jpalmieri@hillaryclinton.com> wrote:
+
+> Afresh
+>
+> Sent from my iPhone
+>
+> On Dec 28, 2015, at 10:36 AM, Karen Finney <kfinney@hillaryclinton.com>
+> wrote:
+>
+> Agree with Brian, such a very fine line and at this point it's a strong
+> positive, is it worth the risk ?
+>
+> Sent from my iPhone
+>
+> On Dec 28, 2015, at 10:27 AM, Brian Fallon <bfallon@hillaryclinton.com>
+> wrote:
+>
+> In light of Ann's point noting how Republicans in Congress just recently
+> did vote to authorize more funding for Alzheimer's, and separately noting
+> the hornet's nest we may be stepping into by calling out Republican
+> presidential candidates who may have personal connections to the disease,
+> should we let discretion be the better part of valor here and give up the
+> contrast? I think this issue works best as something nonpartisan anyway,
+> like opioid abuse, where we get credit for talking about something becaus=
+e
+> it affects people's lives, not because there is a political angle to it. =
+I
+> think it makes it small to try to turn it into a wedge.
+>
+> On Mon, Dec 28, 2015 at 1:29 AM, Ann O'Leary <aoleary@hillaryclinton.com>
+> wrote:
+>
+>> Great work, Megan.  Just two points here:
+>>
+>> (1) We cannot say that Rs in Congress are continuing to cut NIH funding =
+-
+>> they just raised it by the most in 10 years - and Alzheimer's funding we=
+nt
+>> up significantly. So I'd give them kudos for that and say that the probl=
+em
+>> is that no one running for President on R side willing to step up.  Need=
+ to
+>> fix this section and replace it with the good news on increases:
+>>
+>> And Republicans in Congress aren=E2=80=99t doing anything to reverse the
+>> so-called =E2=80=9Csequester=E2=80=9D in critical areas like this.  The =
+sequester has taken
+>> *billions* of dollars away from the National Institute of Health.
+>> That=E2=80=99s money that was being used to find treatments and cures fo=
+r diseases
+>> like Alzheimer=E2=80=99s =E2=80=93 gone
+>>
+>> (2) Here is an idea - that might make the advocates happy - how about we
+>> lean into bipartisan Congressional support and call out support from New=
+t
+>> Gingrich, and then challenge the R candidates to match her on investing =
+in
+>> a cure by 2025.  That's what the advocates said all last week - that
+>> everyone should have such a plan.
+>>
+>> Vivek and I can reach out to advocates in the morning, but think this
+>> approach might help. Still keep in all the great stuff on hitting them o=
+n
+>> cuts and then pivoting to a challenge.
+>>
+>> Thanks!
+>>
+>> On Sun, Dec 27, 2015 at 5:57 PM, Megan Rooney <mrooney@hillaryclinton.co=
+m
+>> > wrote:
+>>
+>>> Jeb's mother-in-law has it.  I can add:
+>>>
+>>> Of course, they all believe that Alzheimer=E2=80=99s is a terrible dise=
+ase.  *Some
+>>> have seen parents and other loved ones struggle with it.*  And of
+>>> course they all feel deep sympathy for families dealing with it =E2=80=
+=93 I truly
+>>> believe that.  But their sympathy doesn=E2=80=99t translate into action=
+.  And
+>>> that=E2=80=99s what really matters.
+>>>
+>>> On Sun, Dec 27, 2015 at 8:50 PM, Mandy Grunwald <gruncom@aol.com> wrote=
+:
+>>>
+>>>>
+>>>> Be careful of all the personal connections.  Trump's father had
+>>>> Alzheimer's.  It's probably touched other GOP candidates as well.
+>>>>
+>>>> Mandy Grunwald
+>>>> Grunwald Communications
+>>>> 202 973-9400
+>>>>
+>>>>
+>>>> On Dec 27, 2015, at 8:32 PM, Megan Rooney <mrooney@hillaryclinton.com>
+>>>> wrote:
+>>>>
+>>>> Dan just suggested adding that in.  Something like:  "I was pleased to
+>>>> hear several Republicans endorse my plan.  I really believe there's ro=
+om
+>>>> for bipartisan progress here. But the Republican candidates for Presid=
+ent
+>>>> have a different approach."
+>>>>
+>>>> It actually makes the hit on the candidates stronger while appearing
+>>>> somehow less partisan.  Magic.
+>>>>
+>>>>
+>>>>
+>>>> On Sun, Dec 27, 2015 at 8:30 PM, Mike Vlacich <
+>>>> mvlacich@hillaryclinton.com> wrote:
+>>>>
+>>>>> Will Alzheimers advocacy groups back us up if we make this partisan?
+>>>>> Last week we received praise from Gingrich on this?
+>>>>>
+>>>>> Sent from my iPhone
+>>>>>
+>>>>> On Dec 27, 2015, at 8:17 PM, Megan Rooney <mrooney@hillaryclinton.com=
+>
+>>>>> wrote:
+>>>>>
+>>>>> Hi all --
+>>>>>
+>>>>> Here's a draft of her remarks at the town hall in Portsmouth on
+>>>>> Tuesday.  This will be another Alzheimer's-focused event, same as Iow=
+a last
+>>>>> Thursday.  The difference is this event will include a Republican
+>>>>> contrast.  It's in the draft and pasted below.
+>>>>>
+>>>>> If you could please send me edits by 2pm tomorrow, I'd appreciate it.
+>>>>>
+>>>>> Thanks!
+>>>>>
+>>>>> **
+>>>>>
+>>>>> I wish I could say everyone agreed with me on that.  But the truth is=
+,
+>>>>> there=E2=80=99s a very different attitude on the other side of the ai=
+sle.  Just
+>>>>> look at the Republican candidates for President.  Of course, they all
+>>>>> believe that Alzheimer=E2=80=99s is a terrible disease.  And of cours=
+e they all
+>>>>> feel deep sympathy for families dealing with it =E2=80=93 I truly bel=
+ieve that.
+>>>>> But their sympathy doesn=E2=80=99t translate into action.  And that=
+=E2=80=99s what really
+>>>>> matters.
+>>>>>
+>>>>>
+>>>>>
+>>>>> Senator Cruz and Senator Paul voted to *cut* research dollars by
+>>>>> hundreds of millions of dollars.  Senator Rubio did the same for an
+>>>>> Alzheimer=E2=80=99s research center in Florida =E2=80=93 he voted to =
+cut its funding, and
+>>>>> not just by a little, by more than *half*.  Jeb Bush vetoed money for
+>>>>> Alzheimer=E2=80=99s research when he was Governor.  Ben Carson =E2=80=
+=93 a doctor who
+>>>>> should know better =E2=80=93 says he would cut health research dollar=
+s if he were
+>>>>> President.  And Republicans in Congress aren=E2=80=99t doing anything=
+ to reverse
+>>>>> the so-called =E2=80=9Csequester=E2=80=9D in critical areas like this=
+.  The sequester has
+>>>>> taken *billions* of dollars away from the National Institute of
+>>>>> Health.  That=E2=80=99s money that was being used to find treatments =
+and cures for
+>>>>> diseases like Alzheimer=E2=80=99s =E2=80=93 gone.
+>>>>>
+>>>>>
+>>>>>
+>>>>> All these politicians say that they support Alzheimer=E2=80=99s resea=
+rch=E2=80=A6 that
+>>>>> they want to see this disease get more attention=E2=80=A6 that we nee=
+d to do more
+>>>>> to help patients and families.  But when it=E2=80=99s time to actuall=
+y *do*
+>>>>> it =E2=80=93 when it=E2=80=99s time to actually make the commitment =
+=E2=80=93 they say no.  To me,
+>>>>> ultimately, that=E2=80=99s what counts.  Families need more than pret=
+ty words.
+>>>>> They need *action*.  They need real help.  And I wish we could count
+>>>>> on Republicans to deliver it =E2=80=93 but we just can=E2=80=99t.  Be=
+cause when it=E2=80=99s a
+>>>>> choice between investing in things that would help families like your=
+s, or
+>>>>> giving the rich another tax cut =E2=80=93 they choose the tax cut eve=
+ry time.
+>>>>>
+>>>>>
+>>>>>
+>>>>> I=E2=80=99d make a different choice.
+>>>>>
+>>>>>
+>>>>>
+>>>>> If we=E2=80=99re the kind of nation that cares for its citizens and s=
+upports
+>>>>> families =E2=80=93 if we=E2=80=99re the kind of people who respect ou=
+r elders and love our
+>>>>> neighbors =E2=80=93 then we=E2=80=99ve got to do better.  We=E2=80=99=
+ve got to do better on
+>>>>> diseases like Alzheimer=E2=80=99s.  We=E2=80=99ve got to do better fo=
+r families in crisis.
+>>>>> This is about our health and our economy, but it=E2=80=99s also about=
+ our values
+>>>>> and our character.  And there=E2=80=99s nothing more important than t=
+hat.
+>>>>>
+>>>>> <2015-12-27 NH town hall alzheimers 815pm.docx>
+>>>>>
+>>>>>
+>>>>
+>>>
+>>
+>>
+>> --
+>> Ann O'Leary
+>> Senior Policy Advisor
+>> Hillary for America
+>> Cell: 510-717-5518
+>>
+>
+>
+
+--94eb2c070e4c4523e20527f7179a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Great -- will delete</div><div class=3D"gmail_extra"><br><=
+div class=3D"gmail_quote">On Mon, Dec 28, 2015 at 10:36 AM, Jennifer Palmie=
+ri <span dir=3D"ltr">&lt;<a href=3D"mailto:jpalmieri@hillaryclinton.com" ta=
+rget=3D"_blank">jpalmieri@hillaryclinton.com</a>&gt;</span> wrote:<br><bloc=
+kquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #cc=
+c solid;padding-left:1ex"><div dir=3D"auto"><div>Afresh<br><br>Sent from my=
+ iPhone</div><div><div class=3D"h5"><div><br>On Dec 28, 2015, at 10:36 AM, =
+Karen Finney &lt;<a href=3D"mailto:kfinney@hillaryclinton.com" target=3D"_b=
+lank">kfinney@hillaryclinton.com</a>&gt; wrote:<br><br></div><blockquote ty=
+pe=3D"cite"><div><div>Agree with Brian, such a very fine line and at this p=
+oint it&#39;s a strong positive, is it worth the risk ?<br><br>Sent from my=
+ iPhone</div><div><br>On Dec 28, 2015, at 10:27 AM, Brian Fallon &lt;<a hre=
+f=3D"mailto:bfallon@hillaryclinton.com" target=3D"_blank">bfallon@hillarycl=
+inton.com</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div><div d=
+ir=3D"ltr">In light of Ann&#39;s point noting how Republicans in Congress j=
+ust recently did vote to authorize more funding for Alzheimer&#39;s, and se=
+parately noting the hornet&#39;s nest we may be stepping into by calling ou=
+t Republican presidential candidates who may have personal connections to t=
+he disease, should we let discretion be the better part of valor here and g=
+ive up the contrast? I think this issue works best as something nonpartisan=
+ anyway, like opioid abuse, where we get credit for talking about something=
+ because it affects people&#39;s lives, not because there is a political an=
+gle to it. I think it makes it small to try to turn it into a wedge.</div><=
+div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Mon, Dec 28, 20=
+15 at 1:29 AM, Ann O&#39;Leary <span dir=3D"ltr">&lt;<a href=3D"mailto:aole=
+ary@hillaryclinton.com" target=3D"_blank">aoleary@hillaryclinton.com</a>&gt=
+;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 =
+.8ex;border-left:1px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Great wo=
+rk, Megan.=C2=A0 Just two points here:<div><br></div><div>(1) We cannot say=
+ that Rs in Congress are continuing to cut NIH funding - they just raised i=
+t by the most in 10 years - and Alzheimer&#39;s funding went up significant=
+ly. So I&#39;d give them kudos for that and say that the problem is that no=
+ one running for President on R side willing to step up.=C2=A0 Need to fix =
+this section and replace it with the good news on increases:</div><span><di=
+v><br></div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span style=3D"font-size:12pt;font-family:&#39;Times New Roman&#39;;color:r=
+gb(26,26,26)">And Republicans in Congress aren=E2=80=99t doing anything to
+reverse the so-called =E2=80=9Csequester=E2=80=9D in critical areas like th=
+is.=C2=A0 The sequester has taken <u>billions</u> of
+dollars away from the National Institute of Health.=C2=A0 That=E2=80=99s mo=
+ney that was being used to find
+treatments and cures for diseases like Alzheimer=E2=80=99s =E2=80=93 gone</=
+span>=C2=A0 =C2=A0=C2=A0<br></div><div><br></div></span><div>(2) Here is an=
+ idea - that might make the advocates happy - how about we lean into bipart=
+isan Congressional support and call out support from Newt Gingrich, and the=
+n challenge the R candidates to match her on investing in a cure by 2025.=
+=C2=A0 That&#39;s what the advocates said all last week - that everyone sho=
+uld have such a plan.</div><div><br></div><div>Vivek and I can reach out to=
+ advocates in the morning, but think this approach might help. Still keep i=
+n all the great stuff on hitting them on cuts and then pivoting to a challe=
+nge.</div><div><br></div><div>Thanks!</div></div><div class=3D"gmail_extra"=
+><div><div><br><div class=3D"gmail_quote">On Sun, Dec 27, 2015 at 5:57 PM, =
+Megan Rooney <span dir=3D"ltr">&lt;<a href=3D"mailto:mrooney@hillaryclinton=
+.com" target=3D"_blank">mrooney@hillaryclinton.com</a>&gt;</span> wrote:<br=
+><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1=
+px #ccc solid;padding-left:1ex"><div dir=3D"ltr">Jeb&#39;s mother-in-law ha=
+s it.=C2=A0 I can add:<span style=3D"color:rgb(26,26,26);font-family:&#39;T=
+imes New Roman&#39;">=C2=A0</span><div><span style=3D"color:rgb(26,26,26);f=
+ont-family:&#39;Times New Roman&#39;"><br></span></div><div><span style=3D"=
+color:rgb(26,26,26);font-family:&#39;Times New Roman&#39;">Of course, they =
+all believe
+that Alzheimer=E2=80=99s is a terrible disease.</span><span style=3D"color:=
+rgb(26,26,26);font-family:&#39;Times New Roman&#39;">=C2=A0 <b>Some have se=
+en parents and other loved ones struggle with it.</b> =C2=A0</span><span st=
+yle=3D"color:rgb(26,26,26);font-family:&#39;Times New Roman&#39;">And of co=
+urse they all feel deep sympathy for families dealing with it =E2=80=93
+I truly believe that.</span><span style=3D"color:rgb(26,26,26);font-family:=
+&#39;Times New Roman&#39;">=C2=A0 </span><span style=3D"color:rgb(26,26,26)=
+;font-family:&#39;Times New Roman&#39;">But their sympathy
+doesn=E2=80=99t translate into action.</span><span style=3D"color:rgb(26,26=
+,26);font-family:&#39;Times New Roman&#39;">=C2=A0 And that=E2=80=99s
+what really matters.=C2=A0</span></div></div><div><div><div class=3D"gmail_=
+extra"><br><div class=3D"gmail_quote">On Sun, Dec 27, 2015 at 8:50 PM, Mand=
+y Grunwald <span dir=3D"ltr">&lt;<a href=3D"mailto:gruncom@aol.com" target=
+=3D"_blank">gruncom@aol.com</a>&gt;</span> wrote:<br><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex"><div dir=3D"auto"><div><br></div><div>Be careful of all the person=
+al connections.=C2=A0 Trump&#39;s father had Alzheimer&#39;s.=C2=A0 It&#39;=
+s probably touched other GOP candidates as well.<span><font color=3D"#88888=
+8"><br><br>Mandy Grunwald<div>Grunwald Communications</div><div><a href=3D"=
+tel:202%20973-9400" value=3D"+12029739400" target=3D"_blank">202 973-9400</=
+a></div><div><br></div></font></span></div><div><div><div><br>On Dec 27, 20=
+15, at 8:32 PM, Megan Rooney &lt;<a href=3D"mailto:mrooney@hillaryclinton.c=
+om" target=3D"_blank">mrooney@hillaryclinton.com</a>&gt; wrote:<br><br></di=
+v><blockquote type=3D"cite"><div><div dir=3D"ltr">Dan just suggested adding=
+ that in.=C2=A0 Something like: =C2=A0&quot;I was pleased to hear several R=
+epublicans endorse my plan.=C2=A0 I really believe there&#39;s room for bip=
+artisan progress here. But the Republican candidates for President have a d=
+ifferent approach.&quot;<div><br></div><div>It actually makes the hit on th=
+e candidates stronger while appearing somehow less partisan.=C2=A0 Magic.<b=
+r><div><br></div><div>=C2=A0</div></div></div><div class=3D"gmail_extra"><b=
+r><div class=3D"gmail_quote">On Sun, Dec 27, 2015 at 8:30 PM, Mike Vlacich =
+<span dir=3D"ltr">&lt;<a href=3D"mailto:mvlacich@hillaryclinton.com" target=
+=3D"_blank">mvlacich@hillaryclinton.com</a>&gt;</span> wrote:<br><blockquot=
+e class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc sol=
+id;padding-left:1ex"><div dir=3D"auto"><div>Will Alzheimers advocacy groups=
+ back us up if we make this partisan?=C2=A0 Last week we received praise fr=
+om Gingrich on this?<br><br>Sent from my iPhone</div><div><div><div><br>On =
+Dec 27, 2015, at 8:17 PM, Megan Rooney &lt;<a href=3D"mailto:mrooney@hillar=
+yclinton.com" target=3D"_blank">mrooney@hillaryclinton.com</a>&gt; wrote:<b=
+r><br></div><blockquote type=3D"cite"><div><div dir=3D"ltr">Hi all --=C2=A0=
+<div><br></div><div>Here&#39;s a draft of her remarks at the town hall in P=
+ortsmouth on Tuesday.=C2=A0 This will be another Alzheimer&#39;s-focused ev=
+ent, same as Iowa last Thursday.=C2=A0 The difference is this event will in=
+clude a Republican contrast.=C2=A0 It&#39;s in the draft and pasted below.<=
+/div><div><br></div><div>If you could please send me edits by 2pm tomorrow,=
+ I&#39;d appreciate it.=C2=A0</div><div><br></div><div>Thanks!</div><div><s=
+pan style=3D"color:black;font-family:&#39;Times New Roman&#39;">=C2=A0</spa=
+n><br></div><div><font color=3D"#000000" face=3D"Times New Roman">**</font>=
+</div><div><font color=3D"#000000" face=3D"Times New Roman"><br></font></di=
+v><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=3D"MsoNormal"><span style=3D"font-family:&#39;Times New Roman&#39;=
+;color:rgb(26,26,26)"><font size=3D"4">I wish I could say everyone agreed w=
+ith me on
+that.=C2=A0 But the truth is, there=E2=80=99s a very
+different attitude on the other side of the aisle.=C2=A0 Just look at the R=
+epublican candidates for
+President.=C2=A0 Of course, they all believe
+that Alzheimer=E2=80=99s is a terrible disease.=C2=A0
+And of course they all feel deep sympathy for families dealing with it =E2=
+=80=93
+I truly believe that.=C2=A0 But their sympathy
+doesn=E2=80=99t translate into action.=C2=A0 And that=E2=80=99s
+what really matters. </font></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:&#39;Times New Roman&#39;=
+;color:rgb(26,26,26)"><font size=3D"4">=C2=A0</font></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:&#39;Times New Roman&#39;=
+;color:rgb(26,26,26)"><font size=3D"4">Senator Cruz and Senator Paul voted =
+to <u>cut</u> research
+dollars by hundreds of millions of dollars.=C2=A0
+Senator Rubio did the same for an Alzheimer=E2=80=99s research center in Fl=
+orida
+=E2=80=93 he voted to cut its funding, and not just by a little, by more th=
+an <u>half</u>.=C2=A0 Jeb Bush vetoed money for Alzheimer=E2=80=99s researc=
+h
+when he was Governor.=C2=A0 Ben Carson =E2=80=93 a doctor
+who should know better =E2=80=93 says he would cut health research dollars =
+if he were
+President.=C2=A0 And Republicans in Congress
+aren=E2=80=99t doing anything to reverse the so-called =E2=80=9Csequester=
+=E2=80=9D in critical areas
+like this.=C2=A0 The sequester has taken <u>billions</u>
+of dollars away from the National Institute of Health.=C2=A0 That=E2=80=99s=
+ money that was being used to find treatments
+and cures for diseases like Alzheimer=E2=80=99s =E2=80=93 gone.=C2=A0
+</font></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:&#39;Times New Roman&#39;=
+;color:rgb(26,26,26)"><font size=3D"4">=C2=A0</font></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:&#39;Times New Roman&#39;=
+;color:rgb(26,26,26)"><font size=3D"4">All these politicians say that they =
+support
+Alzheimer=E2=80=99s research=E2=80=A6 that they want to see this disease ge=
+t more attention=E2=80=A6 that
+we need to do more to help patients and families.=C2=A0 But when it=E2=80=
+=99s time to actually <u>do</u> it =E2=80=93
+when it=E2=80=99s time to actually make the commitment =E2=80=93 they say n=
+o.=C2=A0 To me, ultimately, that=E2=80=99s what counts.=C2=A0 Families need=
+ more than pretty words.=C2=A0 They need <u>action</u>.=C2=A0 They need rea=
+l help.=C2=A0 And I wish we could count on Republicans to
+deliver it =E2=80=93 but we just can=E2=80=99t.=C2=A0 Because
+when it=E2=80=99s a choice between investing in things that would help fami=
+lies like
+yours, or giving the rich another tax cut =E2=80=93 they choose the tax cut=
+ every
+time.=C2=A0 </font></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:&#39;Times New Roman&#39;=
+;color:rgb(26,26,26)"><font size=3D"4">=C2=A0</font></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:&#39;Times New Roman&#39;=
+;color:rgb(26,26,26)"><font size=3D"4">I=E2=80=99d make a different choice.=
+ </font></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:&#39;Times New Roman&#39;=
+;color:black"><font size=3D"4">=C2=A0</font></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:&#39;Times New Roman&#39;=
+;color:black"><font size=3D"4">If we=E2=80=99re the kind of nation
+that cares for its citizens and supports families =E2=80=93 if we=E2=80=99r=
+e the kind of people
+who respect our elders and love our neighbors =E2=80=93 then we=E2=80=99ve =
+got to do
+better.=C2=A0 We=E2=80=99ve got to do better on diseases
+like Alzheimer=E2=80=99s.=C2=A0 We=E2=80=99ve got to do better
+for families in crisis.=C2=A0 This is about
+our health and our economy, but it=E2=80=99s also about our values and our =
+character.=C2=A0 And there=E2=80=99s nothing more important than that.=C2=
+=A0</font></span></p>
+
+</div></div>
+</div></blockquote></div></div><blockquote type=3D"cite"><div>&lt;2015-12-2=
+7 NH town hall alzheimers 815pm.docx&gt;</div></blockquote></div>
+</blockquote></div><br></div>
+</div></blockquote></div></div></div></blockquote></div><br></div>
+</div></div></blockquote></div><br><br clear=3D"all"><div><br></div></div><=
+/div><span><font color=3D"#888888">-- <br><div><div dir=3D"ltr">Ann O&#39;L=
+eary<div>Senior Policy Advisor</div><div>Hillary for America</div><div>Cell=
+: <a href=3D"tel:510-717-5518" value=3D"+15107175518" target=3D"_blank">510=
+-717-5518</a></div></div></div>
+</font></span></div>
+</blockquote></div><br></div>
+</div></blockquote>
+</div></blockquote></div></div></div>
+</blockquote></div><br></div>
+
+--94eb2c070e4c4523e20527f7179a--

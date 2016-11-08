@@ -1,0 +1,564 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp3580450lfb;
+        Fri, 26 Feb 2016 11:02:17 -0800 (PST)
+X-Received: by 10.66.190.131 with SMTP id gq3mr4243956pac.42.1456513337411;
+        Fri, 26 Feb 2016 11:02:17 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bon0074.outbound.protection.outlook.com. [157.56.111.74])
+        by mx.google.com with ESMTPS id rb5si4642167pab.125.2016.02.26.11.02.16
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 26 Feb 2016 11:02:17 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.74 as permitted sender) client-ip=157.56.111.74;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.74 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=neutral (body hash did not verify) header.i=@bounce.myngp.com
+Received: from BN1PR07CA0050.namprd07.prod.outlook.com (10.255.193.25) by
+ CY1PR0701MB1961.namprd07.prod.outlook.com (10.163.141.158) with Microsoft
+ SMTP Server (TLS) id 15.1.409.15; Fri, 26 Feb 2016 19:02:14 +0000
+Received: from BY2FFO11FD032.protection.gbl (2a01:111:f400:7c0c::113) by
+ BN1PR07CA0050.outlook.office365.com (2a01:111:e400:45::25) with Microsoft
+ SMTP Server (TLS) id 15.1.415.20 via Frontend Transport; Fri, 26 Feb 2016
+ 19:02:14 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.myngp.com;gmail.com; dmarc=none action=none
+ header.from=joselinepenamelnyk.com;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.74;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ BY2FFO11FD032.mail.protection.outlook.com (10.1.14.210) with Microsoft SMTP
+ Server (TLS) id 15.1.422.5 via Frontend Transport; Fri, 26 Feb 2016 19:02:13
+ +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (141.161.191.13)
+ by LAW-CAS1.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Fri, 26 Feb 2016 13:59:52 -0500
+Received: from SN1PR07CA0023.namprd07.prod.outlook.com (10.162.170.161) by
+ DM2PR0701MB1214.namprd07.prod.outlook.com (10.160.247.139) with Microsoft
+ SMTP Server (TLS) id 15.1.409.15; Fri, 26 Feb 2016 18:59:38 +0000
+Received: from BL2FFO11FD013.protection.gbl (2a01:111:f400:7c09::125) by
+ SN1PR07CA0023.outlook.office365.com (2a01:111:e400:3000::33) with Microsoft
+ SMTP Server (TLS) id 15.1.415.20 via Frontend Transport; Fri, 26 Feb 2016
+ 18:59:36 +0000
+Authentication-Results: spf=pass (sender IP is 192.82.209.74)
+ smtp.mailfrom=bounce.myngp.com; law.georgetown.edu; dkim=pass (signature was
+ verified) header.d=bounce.myngp.com;law.georgetown.edu; dmarc=none
+ action=none header.from=joselinepenamelnyk.com;
+Received-SPF: Pass (protection.outlook.com: domain of bounce.myngp.com
+ designates 192.82.209.74 as permitted sender)
+ receiver=protection.outlook.com; client-ip=192.82.209.74;
+ helo=mailout710.ngpweb.com;
+Received: from mailout710.ngpweb.com (192.82.209.74) by
+ BL2FFO11FD013.mail.protection.outlook.com (10.173.160.221) with Microsoft
+ SMTP Server id 15.1.422.5 via Frontend Transport; Fri, 26 Feb 2016 18:59:31
+ +0000
+Return-Path: podesta@law.georgetown.edu
+DKIM-Signature: v=1; a=rsa-sha1; d=bounce.myngp.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; i=@bounce.myngp.com; t=1456513125;
+	h=Sender:From:Subject:List-Unsubscribe:Date:To:Reply-To:Message-ID:MIME-Version:
+	Content-Type;
+	bh=VHRr9biP4e9cgOCqD/PexjeJ+jI=;
+	b=gkU0t5ok6vtyPA7Ce6WXe9/IKXwiejE0nqnRJy2oz5StmAlVj4ASgkR9VeNbFspd
+	/Hd7InWTgbuJ673AkFAdNhMrmmdMBj2lUgJvi03VBf7YPIoJBEQThsVPEaMjtftn
+	mNEJAZNpeGs5/aS4T6deXke3GGMmqaHWYSkLPvIZAqA=;
+X-MSFBL: bUzU97sXvRWZwH8Otj662zMN+/uHrKDVbADhTqQTcwI=|eyJnIjoiZGVmYXVsdGd
+	yb3VwMDEiLCJiIjoibWFpbG91dDcxMCIsInUiOiJib3VuY2VfMjUwMDAwMDEyMDU
+	2NDc3M19wb2QxMiIsInIiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSJ9
+Received: from [10.11.74.253] ([10.11.74.253:49706] helo=NSV11OBMAIL1203)	by
+ asv11mtam003.ngpweb.com (envelope-from
+ <bounce_2500000120564773_pod12@bounce.myngp.com>)	(ecelerity 4.2.1.51032
+ r(Core:4.2.1.4)) with ESMTP	id 74/BC-03510-560A0D65; Fri, 26 Feb 2016
+ 13:58:45 -0500
+Sender: =?UTF-8?B?TW9sbGllIEJpbm90dG8=?= <bounce@bounce.myngp.com>
+X-Binding: default
+Reply-To: <Lamont@joselinepenamelnyk.com>
+From: Mollie Binotto <Mollie@joselinepenamelnyk.com>
+To: John & Mary Podesta <podesta@law.georgetown.edu>
+Message-ID: <624efa33b7dd4712b80e24223acd59e1@joselinepenamelnyk.com>
+Date: Fri, 26 Feb 2016 13:58:39 -0500
+Subject: Did you catch that?
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----94E9BEC9046C4D8A83F4555A1405174B"
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CPI:192.82.209.74;IPV:NLI;CTRY:US;EFV:NLI;SFV:SPM;SFS:(31640200002)(31610200002)(31580200002)(2980300002)(286005)(359002)(199003)(189002)(349012);DIR:INB;SFP:;SCL:9;SRVR:DM2PR0701MB1214;H:mailout710.ngpweb.com;FPR:;SPF:None;MLV:ovrnspm;A:0;MX:1;PTR:mailout710.ngpweb.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD013;1:y6v41etWLdacCMro/AO5ViJPJ2ItL9ZR6ZmxKg6t9H9YnUdc0Myc+tG88yhWUUx8nZSSfB96l4PfdNOBfgAY/gwoyhmJEnG3hGIWfsni3nmKlSf0iXi8CVMr6IsJQneq7bvW+EwP8wBFiJgj7gbg0FMtsvw7rOd05q7MZeYYag8v0mYsQG60NalJx6MAzaNaoN4QSdgt9blvm2wK3amLMPkZenQ6Q5+UbeZWwl+4n5j+hhgG8bB2sFZK+n6DnBJlv8nhQ7o0S80aNxUnMJXM0ue+uzrJZd7Ds5E0u46ktnx/+GdZ7oPeDwrQXE9cthP8IU7/hIrMUk1qH8t1ErAvinRxMwjvUWguNPshm+bgurmMahlryZXg7of+XMOhvAC0vesmmGQ7LZ8MlvpTNtGTwGVZ2nWNp4LvBUyMdBPeatSSn9vi163t+PseVTCtDLX7VK/qm9b0Dnz/GVZ2raVYHtKQZCdkG7aSMX0QHAR+GNs=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM2PR0701MB1214;2:O8f+n7DdPJ968XNj+6BgkQ4Cs4giFNbqWr55u6jjiiQ3hsBK8dQ+a/exBU21/7mLkOkvtTtMpzhRLeXHJlj3Ru+uz7GnGLrS03fBhjdLuVZvA56aNj2Xv+sIt2jD5d7GVqd917TLfxF6d6OqjZsv7g==;3:VmQjFap70nXL4HfOVyJI9b7yxf2CZjnfe4lZrJDX97tB/RjY0xusxf63G8DdB4HvCBLe/R2YNUwkbiD9s1f3F0NKXl8pKlt8aZiS5CJXrSAGXbG+oQNoOMbV92NZYHgtesd9uRJepvDKXURNMT1zQ2xlC7l/lMMBjYk0GfWevORdJskoH+YX4gZrzZhQMwSfBOlfU8xe9gOoe5qAUCV/UfLArpiKUT8STWUDJU0SJIp2B7I3uQ2V0jqGMhpu+y9+;25:ntaCJpXoAO1ZOXSLirt9U0hkVngTJlsnBjl4oJa9rSDZQkmNwZbgafqB0ijcGdNGvCbxe7OMiuvDnBzKEEXGqJr6gHZb9bEQJl111hGhUFzbCHeet6BgSq7uTiRMrncI1ohftsfuHZtKsbvs4k2sO38LUX4+kK+rWkSLTo+U4NAVki36ldFzZIhjvHu4slCjFyCpnFMQ/vSJ1YLnz3IdOQZ6ZnnMKfFG/Y1qUmSN5xokB2X36NAHcejogMzJKQT/iTR74MJQslxLb8jJp/lN1UUupITcO91uV+KSHHxMNm5uxw44/gMazrLs4zcoDLeIY5qQt2wwzAGZaziJHvv1iw==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(42134001)(42139001)(3001015);SRVR:DM2PR0701MB1214;
+X-MS-Office365-Filtering-Correlation-Id: dfd9bd87-cf20-4af5-7198-08d33edf56b5
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM2PR0701MB1214;20:Y11BiFtwqqk2kILAzWy8HFtvDEdRsUCa94n837caI1K6C+rzC8yaRMNj5ACja0s3OQRqv5h+oM3X1imAMdxKVZnsFnnRuiwLpTnuTBW4Fu3MvdWCHmYtIg38mbUahpJUgHf5XzuNgJrS5KM6meYJCM3a2zlA/S382W84EqyHU0UsHG/Xkq4sUsRa7xIbeSNuTWeXY/dqWajJnBDQ1KfKZt/WP9c/I8TbuZdUvdqLqxE0yHTV4YL+KoMXWuNYAESGWNPUs4Z1XjuW5K6PbWh/6/J5CnJaW+A9k4qMMTA3kv/WxQ2mPg/sjU7sDIaFBvTkvn/6cQALzWgI8Y0Q18sAO3KZnmxXQljJw4WB2BnhqAjvYsthIM2JWJVTJahHquWEAnLaeie64urwvlGEDUTgM5qUD6xOpKwqjSOTdq/86hI=;4:zHXHfn3Ah9gm7QD+XEP6O9icc6YcDrce2iJwRPI61LmSABhnUlHZiY7PtcfTdo/p1/Eea+/hzNQJiSk9vp95GOMqIkb3Rcyj2zXbXGuMmVb0V0C1z/k+VLAZI80/oCkLvlDhSeWu4m100TgzVHoi1yO1cD03lwSUqzDZW+ynUJK3FGPxMhXomMlVDA/Zl+DhQ/q94xGsCbmaqrtjzYROw0fEi1VmGy+N7XwwMPDVgjnHaPPFmdsL1xfptR9MHuezMTk4p8GU85UFs0jFE1PJIHHxQMlMbxZSrx/9Z7M8KIfj4XpLnEcgrqGDYeaVXLWDcDvh5Cw9dYo63CQcl8X8tID0AZ9uVZnVBEjXW1mUzCbQDkV9h0IoxqXSFO/Wku8v7garlPHPJO++xg+UEkOeKg==
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(8121501046)(13018025)(13016025)(3002001)(10201501046);SRVR:DM2PR0701MB1214;BCL:8;PCL:0;RULEID:;SRVR:DM2PR0701MB1214;BCL:0;PCL:0;RULEID:(601004)(2401047)(13016025)(8121501046)(5005006)(13018025)(3002001)(10201501046);SRVR:CY1PR0701MB1961;BCL:0;PCL:0;RULEID:;SRVR:CY1PR0701MB1961;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;DM2PR0701MB1214;23:p6ZpakEv0uRWzaBDcrRB6UD0w+8UfEeGmW3GKlJVN8u+tJzmy5TjdOJJ8HhtaKU+Sa2bPID2mUT9gDIpmmIFWpjGyONHES2sNZUfLvZnMgOEELhlYD5XmUjqiiWZIa18VfBSeXw3YnD7o0E5ccLDPJ2qr+HHAeg6PQAbYvR4T0Ov66WkFGHtDmCeJiNiIHxSuv5ecnTy534umucUd6JfrqgRmd63MtDlXF9kCUbtw4wwklDV/YRDYls5CjWUcclnYjVgYVwHE0IK0pZYWrFG2gGhKMvg3Q1LHYdIuC5+OL5SYQoT7KJCjmHPH/28fjWqtM2jTsgUtOsrRUWB+98wn9cMOR5YPO3zbpb1NYKz6wnBXzwCVulWL6SyhAzq+st4GIKzj3P8IU2KYqBR2KhTXg==;5:jbAfAuAM+0EyE4DtMx9GyEJR955Cbzz222/yitKlv8EbWhXTrfXhYO69b1D3SWMhTm3U1t74ey6cWnZYX/Ns251SG0T+r9kYQ22slNhh3MAUltitjMYavvH783IB+oky5I2UCtY1AEnjLa8NsT2kmQ==;24:l1N/tBtTXNoBB1+m9pFa+jCU11RlaBsKZ7B5lIPaN/PLo9tqqKC0vtcLFMiR7bO94f791fg2uKpVQBGSdV9fqA==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM2PR0701MB1214
+X-OrganizationHeadersPreserved: DM2PR0701MB1214.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS1.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BY2FFO11FD032.protection.gbl
+X-Forefront-Antispam-Report:
+	CPI:141.161.191.74;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1109001)(1110001)(339900001)(199003)(504964003)(189002)(50986999)(24736003)(229853001)(4001450100002)(104016004)(54356999)(5001960100002)(107886002)(110136002)(53806999)(75432002)(6806005)(108616004)(5002220100002)(106466001)(15975445007)(189998001)(77096005)(105606002)(85426001)(36756003)(960300001)(2906002)(33646002)(586003)(43066003)(18926405002)(1220700001)(3480700003)(1096002)(512874002)(19580395003)(18206015028)(19622755009)(88552002)(84326002)(11100500001)(956001)(87936001)(4290100001)(2171001)(19617315012)(450100001)(7029013)(7099028)(42882005)(18200335002);DIR:OUT;SFP:1101;SCL:1;SRVR:CY1PR0701MB1961;H:mail.law.georgetown.edu;FPR:;SPF:None;MLV:nov;A:1;MX:1;PTR:InfoDomainNonexistent;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BY2FFO11FD032;1:dLGH0j2J8bmbrR5OPGa8TS97xxRtEQoJ83sQCu36bb4HxvS6xt5vIkWAPTdDdM4tkSvoN/RdH1JFDvQrYw9zP1H4G41cguaTAhnPCpCZjeQ9RVDZ2faHY7SOLs7isFuh5P853Xg+88rGVvNGhOreoTGAL3WTl78zumfOXxj5w7KfKchgB2Em8i1oumKWTSsss03IlJF0hGEOQuqECdP7L9M71ViXSAMgdzdtY7Y9PA9jXKxY3T9bt4gkeTKz8JOtj2aItiexJSQgItCyr3Shuw7R0Tn4jLmmbpXfd2pdDqmcpjtQ2+m3gB1zKKBK/4bdWcJK8I7USL/j4eMgN4Tf8IXU31/6UPYkXE7Of5QapTtyQmWCNvUq5kUUA2BCsj+HpE1lcAzpv9fAPp54DqMleYGcqXTGEB8EMZR/LLHpm5E=
+X-Microsoft-Exchange-Diagnostics:
+	1;CY1PR0701MB1961;2:qDtBbiEQC0lqmlSgsrEjU9xhFzE/u+h2ycoiBcD8RPxI7CZAB+E+/9X3E9w6t+AbyqsGikFTbc7Vvgc4sJbCQ8DRP/njcS3+aXYu52ZqCk6I+KQ0TOkhpXe88ygH305WyoAk5lA5OqgCgx0UqPbqYg==;3:xQ8gdZ939QD7BrawdrWlEbTwE+X7jrDSHU49tbBJ7MWUiLcSEI7mizNkA/rSXWh7zc5w+3Rr5NxZuHlsfwacpShjvW+Jry9zC1Z3HaUgVoliUc0eC/Gn80NhACxmsTelLre6LG0s8urT7zdj1iWyDtjVi27wfj4I03MhPOEkGGrav9IRB56qpQ2fyYzKxlfMGEslG3fN+CTIPZ7XUMPoN3AMYsNdw4BqR1A7mAOtOrU7VFZgO2kGmID0lCP9qm7+;25:j+A1SzwhWrDZEoXB3h7C7AyO+IkPUuU5z1PMRWM/cjX46QWC2Z0rHzeLA7fI7cMTYAehX0QuYELNVGmC3Bx/7YwfbbZgrT+3uPxmRVwhugzR6Uep6Wkw3meXIKnMaYzjPNMYh47lMBaACNQejqEhC1V33QCknfZrwbRTmv/AcoHF6wEU2QWYtoWZ4B+9LMFTtGf2v31Ek2pUddc2eHG5dMVOmujHzCRfJJl1e9DCsZ1BoZvXcyM0Ld2r8Jh0jkDKOVEg8z/KMt+u9964rZxIYPbxPuXbVKAhN4VjyIfygaeCdR/6oZMbAjT7M9rtl1eFVytTcY+gWCce9qFJEcimFQ==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(42134001)(42139001)(3002015);SRVR:CY1PR0701MB1961;
+X-Microsoft-Exchange-Diagnostics:
+	1;CY1PR0701MB1961;20:Wu8olTBl5zv9nKpdvKRpEfiH7QF6QAysdl9Cv/LW7cDdOOZy0bhJHmqHx0QxMG+h/mvsKbO9SqSkrkrODvg3MO3N00hpXaMmbdmjcD79iXSYLHZJee/Zi/sL+mow31ulzRhLOX8Vm1nM9WI5bzMN/sarlLoX6nJLDrOxEUBqCHlC4cKNcgtjzsDaXmKgbdBvEg17HHm28tUcv9yyLbLupldp/sHLr6og+h1EbcS0HGf3h9un4MwHPQIaf3fy1/cIhtcUVaoIRWWgWt9dGaN/r62cdRSDt19VoqGbqWkQIX59L3gYNCTIq++TYwcHlr32zRyGWMS1DDfX0nk9ntnMsYslSHIVbppX9rG3rBBcbyyoSudf+Fn+BhjfIcuzZeuKhEVuVtZ+JbN4GH9BhrGZBzp8w6KF1vQbtfvzhDQwloo=;4:EXuap2pk2uPCElVJ6R17OH3rEniGvVk8wkZqxFEyfdQwg2rj1TXgo/Cg5yrZcDV5u+ejOlK6l0gOTAeMddCD08AFCRk6ggz3kx6ERPFC6m6XBgi0VzNRoQr+gLqlfkh54oReLvzy6gfJyAHcmKqdYbREgpRft3Jn0EpSliodVMb6MhFQu0mVnw5v8PIOCkh1BNSpm7kUw8XbHvMhjkqhMREe8kZNr5+uYM9j/O9ukfA0FcyfLmhKav0QAdO2daHNOa7gOhEg7n1HCB8tL9jst4UhawT3FTcJ9JIw7qMIrnXujH0ZQskIpkcVopLB2RBi7s7eYUZJ6jC2hXemKxyHBjR1GErQA1zqDk7PAjz4LaZMBOycC5Ylk1oPDeVVDpRcdDdqUpuvnrPW+E82jsYRCIIsRef8e5hFRhofxlJd808=
+X-Microsoft-Antispam-PRVS:
+	<CY1PR0701MB19619F8238A6FB230BE3D77393A70@CY1PR0701MB1961.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 0864A36BBF
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;CY1PR0701MB1961;23:0MOgnsxhfNBY+JVmlvx9WcQEJkuE7KBmjoio0jm?=
+ =?us-ascii?Q?QrCPUzFfgqUSX+I5WgLTsCI2hrbUcsQgDOOMJL0lB8HJlMk3BbmKO6CHa7D5?=
+ =?us-ascii?Q?BAIvSDH11AnNu/DKIGwjN+jFZGYs2E+xQp4ktD4TJR4QBnrFrS6xnk+yECCg?=
+ =?us-ascii?Q?XGZA8MIkhGCgN6dYBn3ayLODYh/h0mNoftNlwwu8po1kUHbtLROHF3wkpFUZ?=
+ =?us-ascii?Q?N4Vkfh3jjH+dXIiXYoLYNpQ5tWF15C8guN23nzLaNZpWXjCG4/RhUQEE4m7d?=
+ =?us-ascii?Q?E9z9TH0YryKJDAXlRdluAJKdx2ePRJ0KLKJG1NO4f1ZhTcDtfinrMP5ZH/NR?=
+ =?us-ascii?Q?ndgX61sZxrxZl2EGB7kJNspkrxXekJn5Ta9i7/nSksWB9VErMA6GfXFdQeYD?=
+ =?us-ascii?Q?DCNu7y+F7f0fq/3NgOG+Z9ETSPHYIqDbFovgLMMven8me/IDSL8b+ASX18Bp?=
+ =?us-ascii?Q?0AkjHsDvnaDxdJ/I7s5KlDyYwKCq0pYfBgi5NSxzeqzyCo+tf/r9jwdX3PHY?=
+ =?us-ascii?Q?XSPvkKtYDDW+R0YoovOda7U6yRLOSb0qQiwS8PqAviJv4LgpTG94ZuZnmnLJ?=
+ =?us-ascii?Q?uKMcK56LYNNnmZR22EIdr7RVXpMoju+f0r0jnEAGbrpWeCv30kRhNbNW2LTo?=
+ =?us-ascii?Q?bKTocFqJyTwcM/RzmAQuJDKvTOwqoslIeOoCrasV8VjEauRncJ2d1h7lNj2H?=
+ =?us-ascii?Q?mdLbFrjwifTyl34FIjtG4HWe3YKUp5TjcRBFpcTRP9Rm1vw/xmYX8q5CeWQ2?=
+ =?us-ascii?Q?UiK6qQ4V7mNPcZC2dqNaszPzQSaMVIuVdygAthv4afrH8oQnmG+nxjbYpQq7?=
+ =?us-ascii?Q?pJjHkSpEkKZjfNQ8L0fCPXqm5w0bFxBhgQqXUIAsqLvRYO/z01ruD8657zlC?=
+ =?us-ascii?Q?xHf/sy4WmepVOEzRGSLa59f36axDrmW+VAOjwg5aF16nYPPiBISXD4x0us/g?=
+ =?us-ascii?Q?LRqypwYaVDAGgUq8u15hp3GSCqbguMT8P8BYqfGjJJUNIPP2+mqUjtRmfkUP?=
+ =?us-ascii?Q?cyQlsXCyf3ffoe0jN9eX98BacTEy9LigNF8cJb857ZfdighbFfj5p8IZmMLL?=
+ =?us-ascii?Q?08E5hCjYDC2eM/V8Tw1B4EqdpYupmwxCpO/f5AMTNaGimfAdFoVGUIBsiebK?=
+ =?us-ascii?Q?OvBnayN7/LnUfraTixwM2m6eh7E6Q8/zACYDb1LQGmZqM3r/om0p86OSCDh8?=
+ =?us-ascii?Q?26OdIJDYW+Z8Lz//T9mt1SJmXlgwyijI6rlphQ8fixtDy9NIsBeginGC88xz?=
+ =?us-ascii?Q?5NdqY8pjCNXlgzbkTRo8uK6lZq/mm1otgx9194O3vD2lB+WWqXo061IsuyI4?=
+ =?us-ascii?Q?CQNv/sz9q6B6+V3zSbzvh3xz0QCoguOOd+g6a7SYH69Vdy15d6/kQhNC9K2b?=
+ =?us-ascii?Q?oRZS1z9RQt5DQ8eyK//iwZ59R8q34rpyD+pKU3dyfkMYQzPxL?=
+X-Microsoft-Exchange-Diagnostics:
+	1;CY1PR0701MB1961;5:lQgWxntNVepBsHVwZGBNR1BRUgwiLeWCRsW53ahgr8I2epDQ9zAHHfGaj+yq/BDdTGlml8GF7ADWxqxkWXcgTwWyYh2nX+FHEOHSzfl9+koqPFeC6P6ahxgmZULmnEEeKWwZOuk5x9MoQpy+gtnnOQ==;24:z6/VAjoD7P3jaP3ZwRFXVrSXXnqsw3XWYdSAjQYBfGFsCSW+ZMgmIjGIyYmFsTh2vkCz4Eh8FyVfuIwey6u/m5SJb/h3fbWtF0QcLFov08Q=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 26 Feb 2016 19:02:13.9144
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY1PR0701MB1961
+
+------94E9BEC9046C4D8A83F4555A1405174B
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear=C2=A0John & Mary,
+
+Did you see Joseline=E2=80=99s message yesterday?
+
+Today marks an important milestone in the election, as of now there are=
+ only be 60 days left in this race=2E
+
+We are going to need you to dig a little deeper=2E Will you help us mak=
+e it to our goal before Sunday at midnight by making a contribution tod=
+ay?=C2=A0If you've saved your payment information with ActBlue Express,=
+ your donation will go through immediately:
+
+Thanks for your support,
+
+--Mollie
+
+=C2=A0
+
+
+
+
+_______=C2=A0
+
+Dear=C2=A0John & Mary,
+
+=C2=A0
+
+
+Earlier this week in the Southern Christian Leadership Conference forum=
+ at Bowie State University it was clear to me that there was only one p=
+rogressive fighter in the race=2E
+
+=C2=A0
+
+If you were there you heard what was at stake=2E=C2=A0 There are extrem=
+ists in Congress right now threatening working class families at every =
+turn=2E We don't need someone going to Congress without a strong progre=
+ssive voice; we need someone who will take a stand=2E=C2=A0This is why =
+I need your help to take on the establishment=2E Together we=E2=80=99ll=
+ go to Congress and rock the boat=2E I will not compromise on bad polic=
+ies that will hurt our working families=2E
+
+=C2=A0
+
+Our campaign has an end-of-the-month goal of $3,000, which will help sp=
+read our message across the district=2E=C2=A0 Can you help us out by=C2=
+=A0contributing today?=C2=A0If you've saved your payment information wi=
+th ActBlue Express, your donation will go through immediately:
+
+
+
+=C2=A0
+
+
+
+Express Donate: $5
+
+Express Donate: $10
+
+Express Donate: $25
+
+Or, donate another amount
+
+=C2=A0
+
+
+
+I know you=E2=80=99ve supported us in the past, but taking on the estab=
+lishment will not be easy, but we can do it with your help=2E
+
+=C2=A0
+
+Thank you in advance!
+
+
+
+
+
+=C2=A0
+
+Sincerely,
+
+=C2=A0
+
+
+
+
+
+Joseline
+
+=C2=A0
+
+
+=C2=A0
+
+
+
+
+
+=C2=A0
+
+
+
+=C2=A0
+
+Forward to a Friend: https://act=2Emyngp=2Ecom/el/2732593862016043008/6=
+952983448967514112
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0
+
+
+=C2=A0
+
+
+-------------------------------------------------------
+|    Paid for by Joseline Pe=C3=B1a-Melnyk for Congress    |
+-------------------------------------------------------
+
+Joseline Pe=C3=B1a-Melnyk for Congress
+P=2EO=2E Box 5785
+Hyattsville MD 20782 United States
+
+If you believe you received this message in error or wish to no longer =
+receive email from us, please https://act=2Emyngp=2Ecom/el/273259386201=
+6043008/6880925854929586176=2E
+------94E9BEC9046C4D8A83F4555A1405174B
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D"text-align: center;">
+=09<p>
+=09=09<a href=3D"https://act=2Emyngp=2Ecom/el/2732593862016043008/70970=
+98637043369984"><img height=3D"150" width=3D"337" alt=3D"" src=3D"https=
+://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/9551/images/JPMlogo=2Ejpg"=
+ style=3D" " /></a></p>
+=09<p style=3D"text-align: left;">
+=09=09<span style=3D"color: rgb(0, 0, 0); font-family: arial, helvetica=
+, sans-serif; font-size: 16px; line-height: 18=2E75px;">Dear&nbsp;John =
+& Mary,</span></p>
+=09<div style=3D"text-align: left;">
+=09=09<div>
+=09=09=09<div>
+=09=09=09=09<div>
+=09=09=09=09=09<span style=3D"font-size: 16px;"><span style=3D"font-fam=
+ily: arial, helvetica, sans-serif;">Did you see Joseline&rsquo;s messag=
+e yesterday?<br />
+=09=09=09=09=09&nbsp;<br />
+=09=09=09=09=09Today we are 60 days away from election day=2E&nbsp; Can=
+ you believe it?&nbsp;<br />
+=09=09=09=09=09<br />
+=09=09=09=09=09Because of your support we have built the strongest gras=
+sroots campaign in this race=2E&nbsp; I know we have been asking a lot,=
+ but with only two months to go we need to make sure we are making ever=
+y day and week count=2E&nbsp;</span></span></div>
+=09=09=09=09<div>
+=09=09=09=09=09&nbsp;</div>
+=09=09=09=09<div>
+=09=09=09=09=09<span style=3D"font-size: 16px;"><span style=3D"font-fam=
+ily: arial, helvetica, sans-serif;">Our February deadline is&nbsp;<stro=
+ng><u><span data-term=3D"goog_600101360" tabindex=3D"0">Sunday</span>&n=
+bsp;at&nbsp;<span data-term=3D"goog_600101361" tabindex=3D"0">Midnight<=
+/span></u></strong>; can we count on you to help us reach this crucial =
+goal&nbsp;&nbsp;by making a&nbsp;<a href=3D"https://act=2Emyngp=2Ecom/e=
+l/2732593862016043008/7169156231081297920" target=3D"_blank">contributi=
+on today</a>?&nbsp;If you&#39;ve saved your payment information with Ac=
+tBlue Express, your donation will go through immediately:</span></span>=
+</div>
+=09=09=09</div>
+=09=09=09<div style=3D"text-align: center;">
+=09=09=09=09<div>
+=09=09=09=09=09&nbsp;</div>
+=09=09=09=09<div>
+=09=09=09=09=09<div class=3D"express-lane-links">
+=09=09=09=09=09=09<p class=3D"link amount">
+=09=09=09=09=09=09=09<span style=3D"font-size: 16px;"><strong><a href=3D=
+"https://act=2Emyngp=2Ecom/el/2732593862016043008/7241213825119225856?e=
+xpress_lane=3Dtrue&amp;amount=3D5&amp;refcode=3Dexpress_lane_5">Express=
+ Donate: $5</a></strong></span></p>
+=09=09=09=09=09=09<p class=3D"link amount">
+=09=09=09=09=09=09=09<span style=3D"font-size: 16px;"><strong><a href=3D=
+"https://act=2Emyngp=2Ecom/el/2732593862016043008/7241213825119225856?e=
+xpress_lane=3Dtrue&amp;amount=3D10&amp;refcode=3Dexpress_lane_10">Expre=
+ss Donate: $10</a></strong></span></p>
+=09=09=09=09=09=09<p class=3D"link amount">
+=09=09=09=09=09=09=09<span style=3D"font-size: 16px;"><strong><a href=3D=
+"https://act=2Emyngp=2Ecom/el/2732593862016043008/7241213825119225856?e=
+xpress_lane=3Dtrue&amp;amount=3D25&amp;refcode=3Dexpress_lane_25">Expre=
+ss Donate: $25</a></strong></span></p>
+=09=09=09=09=09=09<p class=3D"link other">
+=09=09=09=09=09=09=09<span style=3D"font-size: 16px;"><strong><a href=3D=
+"https://act=2Emyngp=2Ecom/el/2732593862016043008/7241213825119225856?r=
+efcode=3Dexpress_lane_other">Or, donate another amount</a></strong></sp=
+an></p>
+=09=09=09=09=09</div>
+=09=09=09=09</div>
+=09=09=09</div>
+=09=09=09<div>
+=09=09=09=09&nbsp;</div>
+=09=09=09<div>
+=09=09=09=09<span style=3D"font-size: 16px;"><span style=3D"font-family=
+: arial, helvetica, sans-serif;">Thanks for your support,</span></span>=
+</div>
+=09=09=09<div>
+=09=09=09=09&nbsp;</div>
+=09=09=09<div>
+=09=09=09=09<strong><span style=3D"font-size: 16px;"><span style=3D"fon=
+t-family: arial, helvetica, sans-serif;">--Mollie</span></span></strong=
+></div>
+=09=09=09<div>
+=09=09=09=09<em><span style=3D"text-align: center;">Campaign Manager</s=
+pan></em><br />
+=09=09=09=09Joseline Pe&ntilde;a-Melnyk for Congress</div>
+=09=09=09<div>
+=09=09=09=09&nbsp;</div>
+=09=09</div>
+=09</div>
+=09<div style=3D"text-align: left;">
+=09=09&nbsp;</div>
+=09<hr />
+=09<p>
+=09=09<img alt=3D"" height=3D"200" src=3D"https://d1kxpthy2j2ikk=2Eclou=
+dfront=2Enet/Uploads/9551/images/5815CF1A-9CB5-49AD-89F9-23ADEF2F2F67%2=
+0%281%29=2Epng" style=3D" " width=3D"700" /></p>
+=09<p>
+=09=09&nbsp;</p>
+=09<div style=3D"text-align: left;">
+=09=09<span style=3D"font-size:16px;"><span style=3D"font-family:arial,=
+helvetica,sans-serif;"><font color=3D"#000000"><span style=3D"line-heig=
+ht: 18=2E75px;">Dear&nbsp;John & Mary,</span></font></span></span></div=
+>
+=09<div style=3D"text-align: left;">
+=09=09&nbsp;</div>
+=09<div style=3D"text-align: left;">
+=09=09<div>
+=09=09=09<span style=3D"font-size:16px;"><span style=3D"font-family:ari=
+al,helvetica,sans-serif;">Earlier this week in the Southern Christian L=
+eadership Conference forum at Bowie State University it was clear to me=
+ that there was only one progressive fighter in the race=2E</span></spa=
+n></div>
+=09=09<div>
+=09=09=09&nbsp;</div>
+=09=09<div>
+=09=09=09<span style=3D"font-size:16px;"><span style=3D"font-family:ari=
+al,helvetica,sans-serif;">If you were there you heard what was at stake=
+=2E&nbsp; There are extremists in Congress right now threatening workin=
+g class families at every turn=2E We don&#39;t need someone going to Co=
+ngress without a strong progressive voice; we need someone who will tak=
+e a stand=2E&nbsp;This is why I need your help to take on the establish=
+ment=2E Together we&rsquo;ll go to Congress and rock the boat=2E I will=
+ not compromise on bad policies that will hurt our working families=2E<=
+/span></span></div>
+=09=09<div>
+=09=09=09&nbsp;</div>
+=09=09<div>
+=09=09=09<span style=3D"font-size:16px;"><span style=3D"font-family:ari=
+al,helvetica,sans-serif;">Our campaign has an end-of-the-month goal of =
+$3,000, which will help spread our message across the district=2E&nbsp;=
+ Can you help us out by&nbsp;<a data-form-type=3D"" href=3D"https://act=
+=2Emyngp=2Ecom/el/2732593862016043008/7241213825119225856" target=3D"_b=
+lank">contributing today</a>?&nbsp;If you&#39;ve saved your payment inf=
+ormation with ActBlue Express, your donation will go through immediatel=
+y:</span></span></div>
+=09</div>
+=09<div style=3D"text-align: left;">
+=09=09<div>
+=09=09=09&nbsp;</div>
+=09=09<div>
+=09=09=09<div class=3D"express-lane-links">
+=09=09=09=09<p class=3D"link amount" style=3D"text-align: center;">
+=09=09=09=09=09<span style=3D"font-size:16px;"><strong><a href=3D"https=
+://act=2Emyngp=2Ecom/el/2732593862016043008/7241213825119225856?express=
+_lane=3Dtrue&amp;amount=3D5&amp;refcode=3Dexpress_lane_5">Express Donat=
+e: $5</a></strong></span></p>
+=09=09=09=09<p class=3D"link amount" style=3D"text-align: center;">
+=09=09=09=09=09<span style=3D"font-size:16px;"><strong><a href=3D"https=
+://act=2Emyngp=2Ecom/el/2732593862016043008/7241213825119225856?express=
+_lane=3Dtrue&amp;amount=3D10&amp;refcode=3Dexpress_lane_10">Express Don=
+ate: $10</a></strong></span></p>
+=09=09=09=09<p class=3D"link amount" style=3D"text-align: center;">
+=09=09=09=09=09<span style=3D"font-size:16px;"><strong><a href=3D"https=
+://act=2Emyngp=2Ecom/el/2732593862016043008/7241213825119225856?express=
+_lane=3Dtrue&amp;amount=3D25&amp;refcode=3Dexpress_lane_25">Express Don=
+ate: $25</a></strong></span></p>
+=09=09=09=09<p class=3D"link other" style=3D"text-align: center;">
+=09=09=09=09=09<span style=3D"font-size:16px;"><strong><a href=3D"https=
+://act=2Emyngp=2Ecom/el/2732593862016043008/7241213825119225856?refcode=
+=3Dexpress_lane_other">Or, donate another amount</a></strong></span></p=
+>
+=09=09=09=09<p class=3D"link other" style=3D"text-align: center;">
+=09=09=09=09=09&nbsp;</p>
+=09=09=09</div>
+=09=09</div>
+=09=09<div>
+=09=09=09<span style=3D"font-size:16px;"><span style=3D"font-family:ari=
+al,helvetica,sans-serif;">I know you&rsquo;ve supported us in the past,=
+ but taking on the establishment will not be easy, but we can do it wit=
+h your help=2E</span></span></div>
+=09=09<div>
+=09=09=09&nbsp;</div>
+=09=09<div>
+=09=09=09<span style=3D"font-size:16px;"><span style=3D"font-family:ari=
+al,helvetica,sans-serif;">Thank you in advance!</span></span></div>
+=09</div>
+</div>
+<div dir=3D"ltr" style=3D"color: rgb(0, 0, 0); line-height: 18=2E75px; =
+text-align: left;">
+=09<div dir=3D"ltr" style=3D"font-size: 16px;">
+=09=09<div style=3D"color: rgb(34, 34, 34); font-family: arial, sans-se=
+rif; font-size: small;">
+=09=09=09&nbsp;</div>
+=09=09<div style=3D"color: rgb(34, 34, 34); font-family: arial, sans-se=
+rif; font-size: small;">
+=09=09=09<span style=3D"font-size:16px;"><span style=3D"font-family:ari=
+al,helvetica,sans-serif;">Sincerely,</span></span></div>
+=09=09<div style=3D"color: rgb(34, 34, 34); font-family: arial, sans-se=
+rif; font-size: small;">
+=09=09=09&nbsp;</div>
+=09</div>
+</div>
+<div dir=3D"ltr" style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Hel=
+vetica Neue', Helvetica, sans-serif; line-height: 18=2E75px; font-size:=
+ 15px; text-align: left;">
+=09<span style=3D"font-size:16px;"><span style=3D"font-family:arial,hel=
+vetica,sans-serif;"><img alt=3D"" height=3D"60" src=3D"https://d1kxpthy=
+2j2ikk=2Ecloudfront=2Enet/Uploads/9551/images/signature=2Ejpg" style=3D=
+" " width=3D"100" /></span></span></div>
+<div dir=3D"ltr" style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Hel=
+vetica Neue', Helvetica, sans-serif; line-height: 18=2E75px; font-size:=
+ 15px; text-align: left;">
+=09<span style=3D"font-size:16px;"><span style=3D"font-family:arial,hel=
+vetica,sans-serif;">Joseline</span></span></div>
+<div dir=3D"ltr" style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Hel=
+vetica Neue', Helvetica, sans-serif; line-height: 18=2E75px; font-size:=
+ 15px; text-align: left;">
+=09&nbsp;</div>
+<div dir=3D"ltr" style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Hel=
+vetica Neue', Helvetica, sans-serif; line-height: 18=2E75px; font-size:=
+ 15px;">
+=09<p class=3D"info" style=3D"font-family: Arial, Verdana, sans-serif; =
+font-size: 12px; text-align: center;">
+=09=09&nbsp;</p>
+</div>
+<div dir=3D"ltr" style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Hel=
+vetica Neue', Helvetica, sans-serif; line-height: 18=2E75px; font-size:=
+ 15px;">
+=09<div style=3D"text-align: center;">
+=09=09<a data-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el/27325=
+93862016043008/7241213825119225856"><img alt=3D"" height=3D"45" src=3D"=
+https://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/9551/images/button%20=
+%282%29=2Epng" width=3D"174" /></a></div>
+=09<div style=3D"text-align: center;">
+=09=09&nbsp;</div>
+=09<div style=3D"text-align: center;">
+=09=09<a href=3D"https://act=2Emyngp=2Ecom/el/2732593862016043008/76735=
+59389346793472?subject=3DSign%20Me%20Up!&amp;body=3DPhone%3A%0A%0AAvail=
+ability%3A%0A%0AActivity%3A%20Door%20to%20Door%2C%20Phone%20Calls%2C%20=
+Host%20an%20Meet%20and%20Greet"><img alt=3D"" height=3D"45" src=3D"http=
+s://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/9551/images/button%20%281=
+%29=2Epng" width=3D"167" /></a></div>
+=09<div style=3D"text-align: center;">
+=09=09&nbsp;</div>
+=09<div style=3D"text-align: center;">
+=09=09<a href=3D"https://act=2Emyngp=2Ecom/el/2732593862016043008/69529=
+83448967514112">Forward To A Friend</a></div>
+=09<div style=3D"text-align: center;">
+=09=09&nbsp;</div>
+=09<div style=3D"text-align: center;">
+=09=09&nbsp;</div>
+=09<div style=3D"text-align: center;">
+=09=09<a data-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el/27325=
+93862016043008/7745616983384721408?fref=3Dts"><img alt=3D"" height=3D"4=
+5" src=3D"https://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/9551/images=
+/FB_Logo=2Epng" style=3D" " width=3D"65" /></a>&nbsp; &nbsp;&nbsp;<a da=
+ta-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el/2732593862016043=
+008/7817674577422649344"><img alt=3D"" height=3D"35" src=3D"https://d1k=
+xpthy2j2ikk=2Ecloudfront=2Enet/Uploads/9551/images/twitter=2Epng" width=
+=3D"35" /></a>&nbsp; &nbsp;<img alt=3D"" height=3D"38" src=3D"https://d=
+1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/9551/images/instagram-logo-tra=
+nsparent%281%29=2Epng" width=3D"50" /></div>
+</div>
+<div style=3D"text-align: center;">
+=09&nbsp;</div>
+<div style=3D"text-align: center;">
+=09<div style=3D'text-align: center;' class=3D'disclaimer-info'><table =
+style=3D'border: 1px solid #000; margin: auto;'><tbody><tr><td style=3D=
+'padding: 8px; text-align: center;'>Paid for by Joseline Pe=C3=B1a-Meln=
+yk for Congress</td></tr></tbody></table></div></div>
+<p class=3D"orginfo" style=3D"text-align: center;">
+=09<div style=3D'text-align: center;' class=3D'org-address-info'>Joseli=
+ne Pe=C3=B1a-Melnyk for Congress<br/>P=2EO=2E Box 5785<br/>Hyattsville =
+MD 20782 United States</div></p>
+<p class=3D"unsubscribelink" style=3D"text-align: center;">
+=09If you believe you received this message in error or wish to no long=
+er receive email from us, please  <a href=3D"https://act=2Emyngp=2Ecom/=
+el/2732593862016043008/6880925854929586176" class=3D"unsubscribe-link">=
+unsubscribe</a>=2E</p>
+<img src=3D'https://act=2Emyngp=2Ecom/el/2732593862016043008/5583889162=
+246883328' />
+------94E9BEC9046C4D8A83F4555A1405174B--

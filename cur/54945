@@ -1,0 +1,868 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.64.49.167 with SMTP id v7csp74947ien;
+        Sat, 11 Aug 2012 05:55:55 -0700 (PDT)
+Return-Path: <bigcampaign+bncCPyYu4rnDRDZrJmBBRoE13M_kQ@googlegroups.com>
+Received-SPF: pass (google.com: domain of bigcampaign+bncCPyYu4rnDRDZrJmBBRoE13M_kQ@googlegroups.com designates 10.68.200.170 as permitted sender) client-ip=10.68.200.170
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of bigcampaign+bncCPyYu4rnDRDZrJmBBRoE13M_kQ@googlegroups.com designates 10.68.200.170 as permitted sender) smtp.mail=bigcampaign+bncCPyYu4rnDRDZrJmBBRoE13M_kQ@googlegroups.com; dkim=pass header.i=bigcampaign+bncCPyYu4rnDRDZrJmBBRoE13M_kQ@googlegroups.com
+Received: from mr.google.com ([10.68.200.170])
+        by 10.68.200.170 with SMTP id jt10mr5309751pbc.15.1344689753961 (num_hops = 1);
+        Sat, 11 Aug 2012 05:55:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=beta;
+        h=x-beenthere:received-spf:x-forefront-antispam-report:x-spamscore
+         :x-bigfish:received-spf:from:to:subject:thread-topic:thread-index
+         :date:message-id:references:in-reply-to:accept-language
+         :x-ms-has-attach:x-ms-tnef-correlator:x-originating-ip:mime-version
+         :x-originatororg:x-original-sender:x-original-authentication-results
+         :reply-to:precedence:mailing-list:list-id:x-google-group-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-language:content-type;
+        bh=LIvIJwCInyrnu67AGRJ0PsOWWosPa9Dt5Dp5yQwbdpQ=;
+        b=4GyBplm9rvBuYJ0qyCzPX/X7kAcXxPx+cwY1GJY2Kzh7W9rEAy7impAVGNNvSVdfhr
+         SFJqUYAhZnE+d1OhCHJNVpEAZuq8IhsCs0eAQ8fsbWLdXWl5OMbKiFrm+NrhSsXLbixb
+         76r0BBM4GEv/xXzgCHHnKtWYDFU0V3TJZDLtI=
+Received: by 10.68.200.170 with SMTP id jt10mr1266205pbc.15.1344689753795;
+        Sat, 11 Aug 2012 05:55:53 -0700 (PDT)
+X-BeenThere: bigcampaign@googlegroups.com
+Received: by 10.68.227.136 with SMTP id sa8ls14704919pbc.8.gmail; Sat, 11 Aug
+ 2012 05:55:53 -0700 (PDT)
+Received: by 10.66.77.3 with SMTP id o3mr480980paw.13.1344689753336;
+        Sat, 11 Aug 2012 05:55:53 -0700 (PDT)
+Received: by 10.66.77.3 with SMTP id o3mr480979paw.13.1344689753302;
+        Sat, 11 Aug 2012 05:55:53 -0700 (PDT)
+Received: from co1outboundpool.messaging.microsoft.com (co1ehsobe003.messaging.microsoft.com. [216.32.180.186])
+        by gmr-mx.google.com with ESMTPS id vo7si610994pbc.1.2012.08.11.05.55.53
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sat, 11 Aug 2012 05:55:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jdorner@americanprogress.org designates 216.32.180.186 as permitted sender) client-ip=216.32.180.186;
+Received: from mail157-co1-R.bigfish.com (10.243.78.244) by
+ CO1EHSOBE001.bigfish.com (10.243.66.64) with Microsoft SMTP Server id
+ 14.1.225.23; Sat, 11 Aug 2012 12:55:52 +0000
+Received: from mail157-co1 (localhost [127.0.0.1])	by
+ mail157-co1-R.bigfish.com (Postfix) with ESMTP id EE88FC4029D	for
+ <bigcampaign@googlegroups.com>; Sat, 11 Aug 2012 12:55:52 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:157.56.244.213;KIP:(null);UIP:(null);IPV:NLI;H:CH1PRD0510HT002.namprd05.prod.outlook.com;RD:none;EFVD:NLI
+X-SpamScore: -13
+X-BigFish: PS-13(zf7Iz9371Ic89bh552Ic85bh179cMzz1202hzz122ac1I8275bh30d1K8275dh2ba5I5eeeKc704dhz2fh2a8h668h839hd25he5bhf0ah107ahbe3k)
+Received-SPF: pass (mail157-co1: domain of americanprogress.org designates 157.56.244.213 as permitted sender) client-ip=157.56.244.213; envelope-from=jdorner@americanprogress.org; helo=CH1PRD0510HT002.namprd05.prod.outlook.com ;.outlook.com ;
+Received: from mail157-co1 (localhost.localdomain [127.0.0.1]) by mail157-co1
+ (MessageSwitch) id 1344689749815435_16761; Sat, 11 Aug 2012 12:55:49 +0000
+ (UTC)
+Received: from CO1EHSMHS011.bigfish.com (unknown [10.243.78.250])	by
+ mail157-co1.bigfish.com (Postfix) with ESMTP id C542774004F	for
+ <bigcampaign@googlegroups.com>; Sat, 11 Aug 2012 12:55:49 +0000 (UTC)
+Received: from CH1PRD0510HT002.namprd05.prod.outlook.com (157.56.244.213) by
+ CO1EHSMHS011.bigfish.com (10.243.66.21) with Microsoft SMTP Server (TLS) id
+ 14.1.225.23; Sat, 11 Aug 2012 12:55:49 +0000
+Received: from CH1PRD0510MB379.namprd05.prod.outlook.com ([169.254.6.4]) by
+ CH1PRD0510HT002.namprd05.prod.outlook.com ([10.255.150.37]) with mapi id
+ 14.16.0175.005; Sat, 11 Aug 2012 12:55:47 +0000
+From: Joshua Dorner <jdorner@americanprogress.org>
+To: "'bigcampaign@googlegroups. com'" <bigcampaign@googlegroups.com>
+Subject: [big campaign] Fwd: Bring It -- Statements from CAP Action's Neera
+ Tanden & Tom Perriello
+Thread-Topic: Bring It -- Statements from CAP Action's Neera Tanden & Tom
+ Perriello
+Thread-Index: AQHNd7+VvuMoWWT5+kykvLr0zaU+AJdUkcE0
+Date: Sat, 11 Aug 2012 12:55:47 +0000
+Message-ID: <9754683D-8343-4ABA-9ED0-E97E4CCA3FB9@amprog.org>
+References: <1tfvwbecakrkl4bsgnzrkdgtmtp9xaj.aj.1344689267@bronto.com>
+In-Reply-To: <1tfvwbecakrkl4bsgnzrkdgtmtp9xaj.aj.1344689267@bronto.com>
+Accept-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [198.228.197.39]
+MIME-Version: 1.0
+X-OriginatorOrg: americanprogress.org
+X-Original-Sender: jdorner@americanprogress.org
+X-Original-Authentication-Results: gmr-mx.google.com; spf=pass (google.com:
+ domain of jdorner@americanprogress.org designates 216.32.180.186 as permitted
+ sender) smtp.mail=jdorner@americanprogress.org
+Reply-To: jdorner@americanprogress.org
+Precedence: list
+Mailing-list: list bigcampaign@googlegroups.com; contact bigcampaign+owners@googlegroups.com
+List-ID: <bigcampaign.googlegroups.com>
+X-Google-Group-Id: 329678006109
+List-Post: <http://groups.google.com/group/bigcampaign/post?hl=en_US>, <mailto:bigcampaign@googlegroups.com>
+List-Help: <http://groups.google.com/support/?hl=en_US>, <mailto:bigcampaign+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/bigcampaign?hl=en_US>
+Sender: bigcampaign@googlegroups.com
+List-Unsubscribe: <http://groups.google.com/group/bigcampaign/subscribe?hl=en_US>,
+ <mailto:googlegroups-manage+329678006109+unsubscribe@googlegroups.com>
+Content-Language: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_9754683D83434ABA9ED0E97E4CCA3FB9amprogorg_"
+
+--_000_9754683D83434ABA9ED0E97E4CCA3FB9amprogorg_
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+
+Begin forwarded message:
+
+From: Josh Dorner <jdorner@americanprogress.org<mailto:jdorner@americanprog=
+ress.org>>
+Date: August 11, 2012 8:47:47 AM EDT
+To: <jdorner@amprog.org<mailto:jdorner@amprog.org>>
+Subject: Bring It -- Statements from CAP Action's Neera Tanden & Tom Perrie=
+llo
+
+In response to the announcement of Rep. Paul Ryan (R-WI) as Mitt Romney's v=
+ice-presidential nominee, the Center for American Progress Action Fund rele=
+ased the following statements.
+
+Neera Tanden, Counselor to the Center for American Progress Action Fund and=
+ President of the Center for American Progress:
+
+
+"Just like Sen. John McCain's choice of Sarah Palin and George H.W. Bush's =
+selection of Dan Quayle, Mitt Romney has been cowed by the right wing into =
+choosing an extreme vice presidential nominee who will alienate moderate vo=
+ters. It's now clearer than ever that as president, Mitt Romney would end M=
+edicare as we know it, and will raise taxes on middle class families by mor=
+e than $2,000<http://thinkprogress.org/economy/2012/08/01/620561/tpc-romney=
+-study-taxes/> in order to slash taxes on the wealthiest Americans.  While =
+there is a lot that can be said about Paul Ryan's extreme views, more impor=
+tant is what this choice says about Mitt Romney: that he is unwilling or un=
+able to stand up to the far-right of his party and select a vice-presidenti=
+al candidate that is both able to be president on day one and capable of go=
+verning by reaching across the aisle."
+
+
+Tom Perriello, President and CEO of the Center for American Progress Action=
+ Fund:
+
+=E2=80=9CMitt Romney and Paul Ryan=E2=80=99s extreme plan for America has d=
+rawn the ire of everyone from Ryan=E2=80=99s own constituents<http://thinkp=
+rogress.org/politics/2011/04/20/159895/paul-ryan-wealthy-tax-breaks/> to Ca=
+tholic nuns<http://thinkprogress.org/economy/2012/08/08/658741/nuns-challen=
+ge-romney/>. It=E2=80=99s ironic that Mitt Romney chose the USS Wisconsin f=
+or the announcement, as both Romney and Ryan have put tax breaks for millio=
+naires ahead of funding for our military. Their plan would not only end Med=
+icare as we know it, it takes $500 billion from Medicare<http://thinkprogre=
+ss.org/health/2011/04/06/172017/paul-ryan-medicare-cuts/> to give massive n=
+ew tax breaks to millionaires and huge corporations like Big Oil. And their=
+ plan would not only protect tax breaks for companies that ship American jo=
+bs overseas, it would give companies huge new incentives to outsource Ameri=
+can jobs<http://www.americanprogressaction.org/issues/2012/07/hanlon_outsou=
+rcing.html/> to countries like China and India."
+
+For additional background:
+
+
+http://thinkprogress.org/politics/2012/08/11/677171/12-things-you-should-kn=
+ow-about-vice-presidential-candidate-paul-ryan/
+12 Things You Should Know About Vice Presidential Candidate Paul Ryan<http:=
+//thinkprogress.org/politics/2012/08/11/677171/12-things-you-should-know-ab=
+out-vice-presidential-candidate-paul-ryan/>
+
+By Igor Volsky<http://thinkprogress.org/author/igor/> on Aug 11, 2012 at 8:=
+27 am
+
+Mitt Romney has picked 42-year-old Republican Congressman Paul Ryan (R-WI) =
+to be his running mate, the architect of the GOP budget, which the New York=
+ Times has described as =E2=80=9Cthe most extreme<http://www.nytimes.com/20=
+12/03/21/opinion/the-careless-house-budget.html?_r=3D1> budget plan passed =
+by a house of Congress in modern times.=E2=80=9D Below are 10 things you sh=
+ould know about Ryan and his policies:
+
+1. Embraces extreme individualism. Ryanheaped praise<http://www.tnr.com/blo=
+g/jonathan-chait/80552/paul-ryan-and-ayn-rand> on Ayn Rand, a 20th-century =
+libertarian novelist best known for her philosophy that centered on the ide=
+a that selfishness is =E2=80=9Cvirtue.=E2=80=9D Rand described altruism as =
+=E2=80=9Cevil,=E2=80=9D condemned Christianity for advocating compassion fo=
+r the poor, viewed the feminist movement as =E2=80=9Cphony,=E2=80=9D and ca=
+lled Arabs =E2=80=9Calmost totally primitive savages. Though he publicly<ht=
+tp://thinkprogress.org/politics/2012/04/26/471730/paul-ryan-ayn-rand/> reje=
+cted<http://www.nationalreview.com/articles/297023/ryan-shrugged-robert-cos=
+ta> =E2=80=9Cher philosophy=E2=80=9D in 2012, Ryan had professed himself a =
+strong devotee. =E2=80=9CThe reason I got involved in public service, by an=
+d large, if I had to credit one thinker, one person, it would be Ayn Rand<h=
+ttp://www.tnr.com/blog/jonathan-chait/80552/paul-ryan-and-ayn-rand>,=E2=80=
+=9D he said at a D.C. gathering honoring the author of =E2=80=9CAtlas Shrug=
+ged=E2=80=9D and =E2=80=9CThe Fountainhead.=E2=80=9D =E2=80=9CI give out =
+=E2=80=98Atlas Shrugged=E2=80=99 as Christmas presents, and I make all my i=
+nterns read it. Well=E2=80=A6 I try to make my interns read it<http://www.w=
+eeklystandard.com/Content/Protected/Articles/000/000/002/339ooaxm.asp>.=E2=
+=80=9D Learn more about Ryan=E2=80=99s muse:
+
+ [embedded video: http://www.youtube.com/watch?v=3Ds7zwO88nRH8&feature=3Dpl=
+ayer_embedded]
+
+
+
+2. Raises taxes on the middle class, cuts them for millionaires. Paul Ryan=
+=E2=80=99s infamous budget =E2=80=94 which Romney embraced =E2=80=94 replac=
+es<http://thinkprogress.org/economy/2012/06/20/502695/gop-budget-tax-study/=
+> =E2=80=9Cthe current tax structure with two brackets =E2=80=94 25 percent=
+ and 10 percent =E2=80=94 and cut the top rate from 35 percent.=E2=80=9D Fe=
+deral tax collections would fall =E2=80=9Cby about $4.5 trillion over the n=
+ext decade=E2=80=9D as a result and to avoid increasing the national debt, =
+the budget proposes massive cuts in social programs and =E2=80=9Cspecial-in=
+terest loopholes and tax shelters that litter the code.=E2=80=9D But 62 per=
+cent of the savings would come from programs that benefit the lower- and mi=
+ddle-classes, who would also experience a tax increase<http://www.offthecha=
+rtsblog.org/ryan-budget-would-raise-some-taxes-guess-who-gets-hit/>. That=
+=E2=80=99s because while Ryan =E2=80=9Cwould extend the Bush tax cuts, whic=
+h are due to expire at the end of this year, he would not extend President =
+Obama=E2=80=99s tax cuts for those with the lowest incomes, which will expi=
+re at the same time.=E2=80=9D Households =E2=80=9Cearning more than $1 mill=
+ion a year, meanwhile, could see a net tax cut of about $300,000 annually<h=
+ttp://www.washingtonpost.com/middle-class-would-face-higher-taxes-under-rep=
+ublican-plan/2012/06/19/gJQAD4auoV_story.html>.=E2=80=9D
+
+
+
+
+
+Audiences have booed Ryan for the unfair distribution:
+
+[embedded video: http://www.youtube.com/watch?v=3Dh5kgnE1Xvec&feature=3Dpla=
+yer_embedded]
+
+
+
+3. Dramatically increases Medicare costs for seniors, increases eligibility=
+ age. Ryan=E2=80=99s latest budget transforms the existing Medicare benefit=
+, in which government provides seniors with a guaranteed benefit, into a =
+=E2=80=9Cpremium support=E2=80=9D system. All future retirees would receive=
+ a government contribution to purchase insurance from an exchange of privat=
+e plans or traditional fee-for-service Medicare. But since the premium supp=
+ort voucher does not keep up with increasing health care costs, the Congres=
+sional Budget Offices estimates that new beneficiaries could pay up to $1,2=
+00 more by 2030<http://cbo.gov/sites/default/files/cbofiles/attachments/03-=
+20-Ryan_Specified_Paths_2.pdf> and more than $5,900 more by 2050. A recent =
+study also found that had the plan been implemented in 2009, 24 million ben=
+eficiares enrolled in the program would have paid higher premiums<http://th=
+inkprogress.org/health/2012/08/01/622031/study-seniors-would-pay-more-for-m=
+edicare-under-republican-backed-plan/> to maintain their choice of plan and=
+ doctors. Ryan would also raise Medicare=E2=80=99s age of eligibility to 67=
+.
+
+4. Leaves Social Security to the whims of Wall Street. In September of 2011=
+, Ryan agreed with Rick Perry=E2=80=99s characterization of Social Security=
+ as a =E2=80=9CPonzi scheme<http://thehill.com/blogs/blog-briefing-room/new=
+s/182711-rep-ryan-rick-perry-is-right-on-social-security>=E2=80=9D and has =
+advocated for privatizing the retirement benefit and investing it in stocks=
+ and bonds since 2005<http://thinkprogress.org/economy/2012/07/30/609001/pa=
+ul-ryanhistory-social-securit/>. Conservatives claim that this would =E2=80=
+=9Coutperform the current formula based on wages earned and overall wage ap=
+preciation,=E2=80=9D but the economic crisis of 2008 should serve as a wake=
+-up call for policymakers who seek to hinge Americans=E2=80=99 retirement o=
+n the stock market. In fact, =E2=80=9Ca person with a private Social Securi=
+ty account similar to what President George W. Bush proposed in 2005=E2=80=
+=B3 would have lost much of their retirement savings<http://wonkroom.thinkp=
+rogress.org/wp-content/uploads/2008/10/ss_report.pdf>.
+
+5. Budget would result in 4.1 million lost jobs in 2 years. Ryan=E2=80=99s =
+budget calls for massive reductions in government spending, and has propose=
+d cutting discretionary programs by about $120 billion over the next two ye=
+ars and mandatory programs by $284 billion. The Economic Policy Institute e=
+stimates<http://www.epi.org/blog/paul-ryan-budget-discretionary-cuts-cost-j=
+obs/> that this would suck demand out of the economy and =E2=80=9Creduce em=
+ployment by 1.3 million jobs in fiscal 2013 and 2.8 million jobs in fiscal =
+2014, relative to current budget policies.=E2=80=9D
+
+6. Eliminates Pell Grants for more more than 1 million students. Ryan=E2=80=
+=99s budget claims<http://thinkprogress.org/education/2012/03/28/454043/hou=
+segot-budget-one-million-pell-grants/> both that rising financial aid is dr=
+iving college tuition costs upward and that Pell Grants, which help cover t=
+uition costs for low-income Americans, don=E2=80=99t go to the =E2=80=9Ctru=
+ly needy.=E2=80=9D So he cuts the Pell Grant program by $200 billion, which=
+ could =E2=80=9Cultimately knock more than one million students<http://www.=
+huffingtonpost.com/2012/03/27/pell-grants-paul-ryan-budget_n_1383178.html?r=
+ef=3Deducation> off=E2=80=9D the program over the next 10 years.
+
+7. Keeps $40 billion in subsidies for Big Oil. In 2011, Ryan joined all Hou=
+se Republicans and 13 Democrats in his vote<http://www.govtrack.us/congress=
+/vote.xpd?vote=3Dh2011-153> to keep Big Oil tax loopholes as part of the FY=
+ 2011 spending bill. His budget would retain<http://www.americanprogress.or=
+g/issues/2012/03/ryan_big_oil.html> a decade=E2=80=99s worth of oil tax bre=
+aks worth $40 billion, while cutting =E2=80=9Cbillions of dollars from inve=
+stments to develop alternative fuels and clean energy technologies that wou=
+ld serve as substitutes for oil.=E2=80=9D For instance, it =E2=80=9Ccalls f=
+or a $3 billion cut in energy programs in FY 2013 alone=E2=80=9D and would =
+spend only $150 million over five years =E2=80=94 or 20 percent of what was=
+ invested in 2012 =E2=80=94 on energy programs.
+
+8. Family stands to benefit from oil subsidies. Ryan =E2=80=9Cand his wife,=
+ Janna, own stakes<http://thinkprogress.org/climate/2011/06/17/247570/paul-=
+ryan-family-beneft-subsidies-for-big-oil-in-his-budget/> in four family com=
+panies that lease land in Texas and Oklahoma to the very energy companies t=
+hat benefit from the tax subsidies in Ryan=E2=80=99s budget plan,=E2=80=9D =
+the Daily Beast reported<http://www.thedailybeast.com/articles/2011/06/17/p=
+aul-ryan-s-shrewd-budget-payday-congressman-could-benefit-from-tax-breaks-h=
+e-proposes.html> in June of 2011. =E2=80=9CRyan=E2=80=99s father-in-law, Da=
+niel Little, who runs the companies, told Newsweek and The Daily Beast that=
+ the family companies are currently leasing the land for mining and drillin=
+g to energy giants such as Chesapeake Energy, Devon, and XTO Energy, a rece=
+ntly acquired subsidiary of ExxonMobil.=E2=80=9D
+
+9. Claimed Romneycare has led to =E2=80=9Crationing and benefit cuts.=E2=80=
+=9D =E2=80=9CI=E2=80=99m not a fan of [Romney's health care reform] system,=
+=E2=80=9D Ryan told C-SPAN<http://www.buzzfeed.com/andrewkaczynski/paul-rya=
+n-dinged-romneycare-in-2010-im-not-a-fa> in 2010. He argued that government=
+ is rationing care in the state and claimed that people are =E2=80=9Cseeing=
+ the system bursting by the seams, they=E2=80=99re seeing premium increases=
+, rationing and benefit cuts.=E2=80=9D He called the system =E2=80=9Ca fata=
+l conceit=E2=80=9D and =E2=80=9Cunsustainable.=E2=80=9D Watch it:
+
+[embedded video: http://www.youtube.com/watch?v=3DEnYlx3Rh-Lg&feature=3Dpla=
+yer_embedded]
+
+
+
+10. Believes that Romneycare is =E2=80=9Cnot that dissimilar to Obamacare.=
+=E2=80=9D Though Romney has gone to great lengths to distinguish his Massac=
+husetts health care law from Obamacare, Romney doesn=E2=80=99t see the diff=
+erence. =E2=80=9CIt=E2=80=99s not that dissimilar<http://www.weeklystandard=
+.com/print/blogs/paul-ryan-romneycare-not-dissimilar-obamacare_552746.html>=
+ to Obamacare, and you probably know I=E2=80=99m not a big fan of Obamacare=
+,=E2=80=9D Ryan said at a breakfast meeting sponsored by the American Spect=
+ator in March of 2011. =E2=80=9CI just don=E2=80=99t think the mandates wor=
+k =E2=80=A6 all the regulation they=E2=80=99ve put on it=E2=80=A6I think it=
+=E2=80=99s beginning to death spiral. They=E2=80=99re beginning to have to =
+look at rationing decisions.=E2=80=9D
+
+11. Accused generals of lying about their support for Obama=E2=80=99s milit=
+ary budget. In March, Ryancouldn=E2=80=99t believe<http://thinkprogress.org=
+/security/2012/03/29/454701/ryan-generals-lying-budget/> that Joint Chiefs =
+of Staff chairman Gen. Martin Dempsey supports<http://thinkprogress.org/sec=
+urity/2012/03/20/448315/house-gop-budget-military-spending/> Obama=E2=80=99=
+s Pentagon budget, which incorporates $487 billion in cuts over 10 years. =
+=E2=80=9CWe don=E2=80=99t think the generals are giving us their true advic=
+e,=E2=80=9D Ryan said at a policy summit hosted by the National Journal. =
+=E2=80=9CWe don=E2=80=99t think the generals believe that their budget is r=
+eally the right budget.=E2=80=9D He later apologized<http://thinkprogress.o=
+rg/security/2012/04/01/456192/rep-ryan-i-misspoke-when-i-said-the-generals-=
+were-lying/> for the implication. Watch it:
+
+[embedded video: http://www.youtube.com/watch?v=3DAE4I1rSPrrY&feature=3Dpla=
+yer_embedded]
+
+
+
+12. Co-sponsored a personhood amendment. Ryan joined 62 other Republicans<h=
+ttp://www.govtrack.us/congress/bills/112/hr212> in co-sponsoring the Sancti=
+ty of Human Life Act, which declares that a fertilized egg =E2=80=9Cshall h=
+ave all the legal and constitutional attributes and privileges of personhoo=
+d.=E2=80=9D This would outlaw abortion, some forms of contraception and inv=
+itro fertilization.
+
+
+
+
+
+________________________________
+
+
+--=20
+You received this message because you are subscribed to the "big campaign" =
+group.
+
+To post to this group, send to bigcampaign@googlegroups.com
+
+To unsubscribe, send email to dubois.sara@gmail.com
+
+E-mail dubois.sara@gmail.com with questions or concerns
+=20
+This is a list of individuals. It is not affiliated with any group or organ=
+ization.
+
+--_000_9754683D83434ABA9ED0E97E4CCA3FB9amprogorg_
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dgb2312">
+</head>
+<body bgcolor=3D"#FFFFFF">
+<div><br>
+<br>
+<div><br>
+</div>
+<div><br>
+</div>
+</div>
+<div><br>
+Begin forwarded message:<br>
+<br>
+</div>
+<blockquote type=3D"cite">
+<div><b>From:</b> Josh Dorner &lt;<a href=3D"mailto:jdorner@americanprogres=
+s.org">jdorner@americanprogress.org</a>&gt;<br>
+<b>Date:</b> August 11, 2012 8:47:47 AM EDT<br>
+<b>To:</b> &lt;<a href=3D"mailto:jdorner@amprog.org">jdorner@amprog.org</a>=
+&gt;<br>
+<b>Subject:</b> <b>Bring It -- Statements from CAP Action's Neera Tanden &a=
+mp; Tom Perriello</b><br>
+<br>
+</div>
+</blockquote>
+<div></div>
+<blockquote type=3D"cite">
+<div>
+<div>In response to the announcement of Rep. Paul Ryan (R-WI) as Mitt Romne=
+y's vice-presidential nominee, the Center for American Progress Action Fund=
+ released the following statements.</div>
+<div>&nbsp;</div>
+<div><strong>Neera Tanden, Counselor to the Center for American Progress Ac=
+tion Fund and President of the Center for American Progress:</strong></div>
+<div><strong>&nbsp;</strong></div>
+<div>
+<blockquote>
+<p>&quot;Just like Sen. John McCain's choice of Sarah Palin and George H.W.=
+&nbsp;Bush's selection of Dan Quayle, Mitt Romney has been cowed by the rig=
+ht wing into choosing an extreme vice presidential nominee who will alienat=
+e moderate voters. It's now clearer than ever
+ that as president, Mitt Romney would end Medicare as we know it, and will =
+<a href=3D"http://thinkprogress.org/economy/2012/08/01/620561/tpc-romney-st=
+udy-taxes/">
+raise taxes on middle class families by more than $2,000</a> in order to sl=
+ash taxes on the wealthiest Americans.&nbsp; While there is a lot that can =
+be said about Paul Ryan's extreme views, more important is what this choice=
+ says about Mitt Romney: that he is unwilling
+ or unable to stand up to the far-right of his party and select a vice-pres=
+idential candidate that is both able to be president on day one and capable=
+ of governing by reaching across the aisle.&quot;</p>
+</blockquote>
+</div>
+<div>&nbsp;</div>
+<div><strong>Tom Perriello, President and CEO of the Center for American Pr=
+ogress Action Fund:</strong></div>
+<div><strong>&nbsp;</strong></div>
+<div>
+<blockquote>
+<div>=E2=80=9CMitt Romney and Paul Ryan=E2=80=99s extreme plan for America =
+has drawn the ire of everyone from
+<a href=3D"http://thinkprogress.org/politics/2011/04/20/159895/paul-ryan-we=
+althy-tax-breaks/">
+Ryan=E2=80=99s own constituents</a> to <a href=3D"http://thinkprogress.org/=
+economy/2012/08/08/658741/nuns-challenge-romney/">
+Catholic nuns</a>. It=E2=80=99s ironic that Mitt Romney chose the USS Wisco=
+nsin for the announcement, as both Romney and Ryan have put tax breaks for =
+millionaires ahead of funding for our military. Their plan would not only e=
+nd Medicare as we know it, it
+<a href=3D"http://thinkprogress.org/health/2011/04/06/172017/paul-ryan-medi=
+care-cuts/">
+takes $500 billion from Medicare</a> to give massive new tax breaks to mill=
+ionaires and huge corporations like Big Oil. And their plan would not only =
+protect tax breaks for companies that ship American jobs overseas, it would=
+ give companies
+<a href=3D"http://www.americanprogressaction.org/issues/2012/07/hanlon_outs=
+ourcing.html/">
+huge new incentives to outsource American jobs</a> to countries like China =
+and India.&quot;</div>
+</blockquote>
+</div>
+<div>&nbsp;</div>
+<div>For additional background:</div>
+<div>&nbsp;</div>
+<div>&nbsp;
+<div><a href=3D"http://thinkprogress.org/politics/2012/08/11/677171/12-thin=
+gs-you-should-know-about-vice-presidential-candidate-paul-ryan/">http://thi=
+nkprogress.org/politics/2012/08/11/677171/12-things-you-should-know-about-v=
+ice-presidential-candidate-paul-ryan/</a></div>
+<div><strong>
+<h1 style=3D"font: 1.7em/1.15em Calibri,; font-size-adjust: none; font-stre=
+tch: normal;">
+<a style=3D"color: #1d2875; text-decoration: none;" href=3D"http://thinkpro=
+gress.org/politics/2012/08/11/677171/12-things-you-should-know-about-vice-p=
+residential-candidate-paul-ryan/">12 Things You Should Know About Vice Pres=
+idential Candidate Paul Ryan</a></h1>
+<p style=3D"font: 15px/1.25em Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+By<span class=3D"Apple-converted-space" xml=3D"lang"> </span><a style=3D"co=
+lor: #333333; font-weight: bold; text-decoration: none;" href=3D"http://thi=
+nkprogress.org/author/igor/">Igor Volsky</a><span class=3D"Apple-converted-=
+space" xml=3D"lang">
+</span>on Aug 11, 2012 at 8:27 am</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+Mitt Romney has picked 42-year-old Republican Congressman Paul Ryan (R-WI) =
+to be his running mate, the architect of the GOP budget, which the New York=
+ Times has described as =E2=80=9C<a style=3D"color: #333333; text-decoratio=
+n: underline;" href=3D"http://www.nytimes.com/2012/03/21/opinion/the-carele=
+ss-house-budget.html?_r=3D1">the
+ most extreme</a><span class=3D"Apple-converted-space" xml=3D"lang"> </span=
+>budget plan passed by a house of Congress in modern times.=E2=80=9D Below =
+are 10 things you should know about Ryan and his policies:</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">1. Embraces extreme individua=
+lism.</strong><span class=3D"Apple-converted-space" xml=3D"lang">
+</span>Ryan<a style=3D"color: #333333; text-decoration: underline;" href=3D=
+"http://www.tnr.com/blog/jonathan-chait/80552/paul-ryan-and-ayn-rand">heape=
+d praise</a><span class=3D"Apple-converted-space" xml=3D"lang">
+</span>on Ayn Rand, a 20th-century libertarian novelist best known for her =
+philosophy that centered on the idea that selfishness is =E2=80=9Cvirtue.=
+=E2=80=9D Rand described altruism as =E2=80=9Cevil,=E2=80=9D condemned Chri=
+stianity for advocating compassion for the poor, viewed the feminist
+ movement as =E2=80=9Cphony,=E2=80=9D and called Arabs =E2=80=9Calmost tota=
+lly primitive savages. Though he<span class=3D"Apple-converted-space" xml=
+=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://thinkprogress.org/politics/2012/04/26/471730/paul-ryan-ayn-rand/">publi=
+cly</a><span class=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.nationalreview.com/articles/297023/ryan-shrugged-robert-costa">reje=
+cted</a><span class=3D"Apple-converted-space" xml=3D"lang">
+</span>=E2=80=9Cher philosophy=E2=80=9D in 2012, Ryan had professed himself=
+ a strong devotee. =E2=80=9CThe reason I got involved in public service, by=
+ and large, if I had to credit one thinker, one person,<span class=3D"Apple=
+-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.tnr.com/blog/jonathan-chait/80552/paul-ryan-and-ayn-rand">it would =
+be Ayn Rand</a>,=E2=80=9D he said at a D.C. gathering honoring the author o=
+f =E2=80=9CAtlas Shrugged=E2=80=9D and =E2=80=9CThe Fountainhead.=E2=80=9D =
+=E2=80=9CI
+ give out =E2=80=98Atlas Shrugged=E2=80=99 as Christmas presents, and I mak=
+e all my interns read it. Well=E2=80=A6<span class=3D"Apple-converted-space=
+" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.weeklystandard.com/Content/Protected/Articles/000/000/002/339ooaxm.=
+asp">I try to make my interns read it</a>.=E2=80=9D Learn more about Ryan=
+=E2=80=99s muse:</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+&nbsp;[embedded video: <a href=3D"http://www.youtube.com/watch?v=3Ds7zwO88n=
+RH8&amp;feature=3Dplayer_embedded">
+http://www.youtube.com/watch?v=3Ds7zwO88nRH8&amp;feature=3Dplayer_embedded<=
+/a>]</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+&nbsp;</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">2. Raises taxes on the middle=
+ class, cuts them for millionaires.</strong><span class=3D"Apple-converted-=
+space" xml=3D"lang">
+</span>Paul Ryan=E2=80=99s infamous budget =E2=80=94 which Romney embraced =
+=E2=80=94<span class=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://thinkprogress.org/economy/2012/06/20/502695/gop-budget-tax-study/">repl=
+aces</a><span class=3D"Apple-converted-space" xml=3D"lang">
+</span>=E2=80=9Cthe current tax structure with two brackets =E2=80=94 25 pe=
+rcent and 10 percent =E2=80=94 and cut the top rate from 35 percent.=E2=80=
+=9D Federal tax collections would fall =E2=80=9Cby about $4.5 trillion over=
+ the next decade=E2=80=9D as a result and to avoid increasing the national =
+debt,
+ the budget proposes massive cuts in social programs and =E2=80=9Cspecial-i=
+nterest loopholes and tax shelters that litter the code.=E2=80=9D But 62 pe=
+rcent of the savings would come from programs that benefit the lower- and m=
+iddle-classes, who<span class=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.offthechartsblog.org/ryan-budget-would-raise-some-taxes-guess-who-g=
+ets-hit/">would also experience a tax increase</a>. That=E2=80=99s because =
+while Ryan =E2=80=9Cwould extend the Bush tax cuts,
+ which are due to expire at the end of this year, he would not extend Presi=
+dent Obama=E2=80=99s tax cuts for those with the lowest incomes, which will=
+ expire at the same time.=E2=80=9D Households =E2=80=9Cearning more than $1=
+ million a year, meanwhile,<span class=3D"Apple-converted-space" xml=3D"lan=
+g">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.washingtonpost.com/middle-class-would-face-higher-taxes-under-repub=
+lican-plan/2012/06/19/gJQAD4auoV_story.html">could see a net tax cut of abo=
+ut $300,000 annually</a>.=E2=80=9D</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+&nbsp;</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+&nbsp;</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+Audiences have booed Ryan for the unfair distribution:</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+[embedded video: <a href=3D"http://www.youtube.com/watch?v=3Dh5kgnE1Xvec&am=
+p;feature=3Dplayer_embedded">
+http://www.youtube.com/watch?v=3Dh5kgnE1Xvec&amp;feature=3Dplayer_embedded<=
+/a>]</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+&nbsp;</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">3. Dramatically increases Med=
+icare costs for seniors, increases eligibility age.</strong><span class=3D"=
+Apple-converted-space" xml=3D"lang">
+</span>Ryan=E2=80=99s latest budget transforms the existing Medicare benefi=
+t, in which government provides seniors with a guaranteed benefit, into a =
+=E2=80=9Cpremium support=E2=80=9D system. All future retirees would receive=
+ a government contribution to purchase insurance from an
+ exchange of private plans or traditional fee-for-service Medicare. But sin=
+ce the premium support voucher does not keep up with increasing health care=
+ costs, the Congressional Budget Offices estimates that new beneficiaries c=
+ould<span class=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://cbo.gov/sites/default/files/cbofiles/attachments/03-20-Ryan_Specified_P=
+aths_2.pdf">pay up to $1,200 more by 2030</a><span class=3D"Apple-converted=
+-space" xml=3D"lang">
+</span>and more than $5,900 more by 2050. A recent study also found that ha=
+d the plan been implemented in 2009, 24 million beneficiares enrolled in th=
+e program would have<span class=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://thinkprogress.org/health/2012/08/01/622031/study-seniors-would-pay-more=
+-for-medicare-under-republican-backed-plan/">paid higher premiums</a><span =
+class=3D"Apple-converted-space" xml=3D"lang">
+</span>to maintain their choice of plan and doctors. Ryan would also raise =
+Medicare=E2=80=99s age of eligibility to 67.</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">4. Leaves Social Security to =
+the whims of Wall Street.</strong><span class=3D"Apple-converted-space" xml=
+=3D"lang">
+</span>In September of 2011, Ryan agreed with Rick Perry=E2=80=99s characte=
+rization of Social Security as a =E2=80=9C<a style=3D"color: #333333; text-=
+decoration: underline;" href=3D"http://thehill.com/blogs/blog-briefing-room=
+/news/182711-rep-ryan-rick-perry-is-right-on-social-security">Ponzi
+ scheme</a>=E2=80=9D and has advocated for privatizing the retirement benef=
+it and investing it in stocks and bonds<span class=3D"Apple-converted-space=
+" xml=3D"lang">
+</span><a style=3D"color: #333333;
+text-decoration: underline;" href=3D"http://thinkprogress.org/economy/2012/=
+07/30/609001/paul-ryanhistory-social-securit/">since 2005</a>. Conservative=
+s claim that this would =E2=80=9Coutperform the current formula based on wa=
+ges earned
+ and overall wage appreciation,=E2=80=9D but the economic crisis of 2008 sh=
+ould serve as a wake-up call for policymakers who seek to hinge Americans=
+=E2=80=99 retirement on the stock market. In fact, =E2=80=9Ca person with a=
+ private Social Security account similar to what President
+ George W. Bush proposed in 2005=E2=80=B3 would have<span class=3D"Apple-co=
+nverted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://wonkroom.thinkprogress.org/wp-content/uploads/2008/10/ss_report.pdf">lo=
+st much of their retirement savings</a>.</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">5. Budget would result in 4.1=
+ million lost jobs in 2 years.</strong><span class=3D"Apple-converted-space=
+" xml=3D"lang">
+</span>Ryan=E2=80=99s budget calls for massive reductions in government spe=
+nding, and has proposed cutting discretionary programs by about $120 billio=
+n over the next two years and mandatory programs by $284 billion. The Econo=
+mic Policy Institute<span class=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.epi.org/blog/paul-ryan-budget-discretionary-cuts-cost-jobs/">estima=
+tes</a><span class=3D"Apple-converted-space" xml=3D"lang">
+</span>that this would suck demand out of the economy and =E2=80=9Creduce e=
+mployment by 1.3 million jobs in fiscal 2013 and 2.8 million jobs in fiscal=
+ 2014, relative to current budget policies.=E2=80=9D</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">6. Eliminates Pell Grants for=
+ more more than 1 million students.</strong><span class=3D"Apple-converted-=
+space" xml=3D"lang">
+</span>Ryan=E2=80=99s budget<span class=3D"Apple-converted-space" xml=3D"la=
+ng"> </span><a style=3D"color: #333333; text-decoration: underline;" href=
+=3D"http://thinkprogress.org/education/2012/03/28/454043/housegot-budget-on=
+e-million-pell-grants/">claims</a><span class=3D"Apple-converted-space" xml=
+=3D"lang">
+</span>both that rising financial aid is driving college tuition costs upwa=
+rd and that Pell Grants, which help cover tuition costs for low-income Amer=
+icans, don=E2=80=99t go to the =E2=80=9Ctruly needy.=E2=80=9D So he cuts th=
+e Pell Grant program by $200 billion, which could =E2=80=9Cultimately
+ knock more than<span class=3D"Apple-converted-space" xml=3D"lang"> </span>=
+<a style=3D"color: #333333; text-decoration: underline;" href=3D"http://www=
+.huffingtonpost.com/2012/03/27/pell-grants-paul-ryan-budget_n_1383178.html?=
+ref=3Deducation">one million students</a><span class=3D"Apple-converted-spa=
+ce" xml=3D"lang">
+</span>off=E2=80=9D the program over the next 10 years.</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">7. Keeps $40 billion in subsi=
+dies for Big Oil.</strong><span class=3D"Apple-converted-space" xml=3D"lang=
+">
+</span>In 2011, Ryan joined all House Republicans and 13 Democrats in his<s=
+pan class=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.govtrack.us/congress/vote.xpd?vote=3Dh2011-153">vote</a><span class=
+=3D"Apple-converted-space" xml=3D"lang">
+</span>to keep Big Oil tax loopholes as part of the FY 2011 spending bill. =
+His budget would<span class=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration:
+underline;" href=3D"http://www.americanprogress.org/issues/2012/03/ryan_big=
+_oil.html">retain</a><span class=3D"Apple-converted-space" xml=3D"lang">
+</span>a decade=E2=80=99s worth of oil tax breaks worth $40 billion, while =
+cutting =E2=80=9Cbillions of dollars from investments to develop alternativ=
+e fuels and clean energy technologies that would serve as substitutes for o=
+il.=E2=80=9D For instance, it =E2=80=9Ccalls for a $3 billion cut
+ in energy programs in FY 2013 alone=E2=80=9D and would spend only $150 mil=
+lion over five years =E2=80=94 or 20 percent of what was invested in 2012 =
+=E2=80=94 on energy programs.</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">8. Family stands to benefit f=
+rom oil subsidies.</strong><span class=3D"Apple-converted-space" xml=3D"lan=
+g">
+</span>Ryan =E2=80=9Cand his wife, Janna,<span class=3D"Apple-converted-spa=
+ce" xml=3D"lang"> </span>
+<a style=3D"color: #333333; text-decoration: underline;" href=3D"http://thi=
+nkprogress.org/climate/2011/06/17/247570/paul-ryan-family-beneft-subsidies-=
+for-big-oil-in-his-budget/">own stakes</a><span class=3D"Apple-converted-sp=
+ace" xml=3D"lang">
+</span>in four family companies that lease land in Texas and Oklahoma to th=
+e very energy companies that benefit from the tax subsidies in Ryan=E2=80=
+=99s budget plan,=E2=80=9D the Daily Beast<span class=3D"Apple-converted-sp=
+ace" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.thedailybeast.com/articles/2011/06/17/paul-ryan-s-shrewd-budget-pay=
+day-congressman-could-benefit-from-tax-breaks-he-proposes.html">reported</a=
+><span class=3D"Apple-converted-space" xml=3D"lang">
+</span>in June of 2011. =E2=80=9CRyan=E2=80=99s father-in-law, Daniel Littl=
+e, who runs the companies, told Newsweek and The Daily Beast that the famil=
+y companies are currently leasing the land for mining and drilling to energ=
+y giants such as Chesapeake Energy, Devon, and XTO
+ Energy, a recently acquired subsidiary of ExxonMobil.=E2=80=9D</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">9. Claimed Romneycare has led=
+ to =E2=80=9Crationing and benefit cuts.=E2=80=9D</strong><span class=3D"Ap=
+ple-converted-space" xml=3D"lang">
+</span>=E2=80=9CI=E2=80=99m not a fan of [Romney's health care reform] syst=
+em,=E2=80=9D Ryan<span class=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.buzzfeed.com/andrewkaczynski/paul-ryan-dinged-romneycare-in-2010-im=
+-not-a-fa">told C-SPAN</a><span class=3D"Apple-converted-space" xml=3D"lang=
+">
+</span>in 2010. He argued that government is rationing care in the state an=
+d claimed that people are =E2=80=9Cseeing the system bursting by the seams,=
+ they=E2=80=99re seeing premium increases, rationing and benefit cuts.=E2=
+=80=9D He called the system =E2=80=9Ca fatal conceit=E2=80=9D and =E2=80=9C=
+unsustainable.=E2=80=9D
+ Watch it:</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+[embedded video: <a href=3D"http://www.youtube.com/watch?v=3DEnYlx3Rh-Lg&am=
+p;feature=3Dplayer_embedded">
+http://www.youtube.com/watch?v=3DEnYlx3Rh-Lg&amp;feature=3Dplayer_embedded<=
+/a>]</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+&nbsp;</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">10. Believes that Romneycare =
+is =E2=80=9Cnot that dissimilar to Obamacare.=E2=80=9D</strong><span class=
+=3D"Apple-converted-space" xml=3D"lang">
+</span>Though Romney has gone to great lengths to distinguish his Massachus=
+etts health care law from Obamacare, Romney doesn=E2=80=99t see the differe=
+nce. =E2=80=9CIt=E2=80=99s<span class=3D"Apple-converted-space" xml=3D"lang=
+">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://www.weeklystandard.com/print/blogs/paul-ryan-romneycare-not-dissimilar-=
+obamacare_552746.html">not that dissimilar</a><span class=3D"Apple-converte=
+d-space" xml=3D"lang">
+</span>to Obamacare, and you probably know I=E2=80=99m not a big fan of Oba=
+macare,=E2=80=9D Ryan said at a breakfast meeting sponsored by the American=
+ Spectator in March of 2011. =E2=80=9CI just don=E2=80=99t think the mandat=
+es work =E2=80=A6 all the regulation they=E2=80=99ve put on it=E2=80=A6I th=
+ink it=E2=80=99s beginning
+ to death spiral. They=E2=80=99re beginning to have to look at rationing de=
+cisions.=E2=80=9D</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">11. Accused generals of lying=
+ about their support for Obama=E2=80=99s military budget.</strong><span cla=
+ss=3D"Apple-converted-space" xml=3D"lang">
+</span>In March, Ryan<a style=3D"color: #333333; text-decoration: underline=
+;" href=3D"http://thinkprogress.org/security/2012/03/29/454701/ryan-general=
+s-lying-budget/">couldn=E2=80=99t believe</a><span class=3D"Apple-converted=
+-space" xml=3D"lang">
+</span>that Joint Chiefs of Staff chairman Gen. Martin Dempsey<span class=
+=3D"Apple-converted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://thinkprogress.org/security/2012/03/20/448315/house-gop-budget-military-=
+spending/">supports</a><span class=3D"Apple-converted-space" xml=3D"lang">
+</span>Obama=E2=80=99s Pentagon budget, which incorporates $487 billion in =
+cuts over 10 years. =E2=80=9CWe don=E2=80=99t think the generals are giving=
+ us their true advice,=E2=80=9D Ryan said at a policy summit hosted by the =
+National Journal. =E2=80=9CWe don=E2=80=99t think the generals believe that=
+ their
+ budget is really the right budget.=E2=80=9D He later<span class=3D"Apple-c=
+onverted-space" xml=3D"lang">
+</span><a style=3D"color: #333333; text-decoration: underline;" href=3D"htt=
+p://thinkprogress.org/security/2012/04/01/456192/rep-ryan-i-misspoke-when-i=
+-said-the-generals-were-lying/">apologized</a><span class=3D"Apple-converte=
+d-space" xml=3D"lang">
+</span>for the implication. Watch it:</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+[embedded video: <a href=3D"http://www.youtube.com/watch?v=3DAE4I1rSPrrY&am=
+p;feature=3Dplayer_embedded">
+http://www.youtube.com/watch?v=3DAE4I1rSPrrY&amp;feature=3Dplayer_embedded<=
+/a>]</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+&nbsp;</p>
+<p style=3D"font: 15px/22.5px Calibri,; font-size-adjust: none; font-stretc=
+h: normal;">
+<strong style=3D"margin: 0px; padding: 0px; border: 0px currentColor; font-=
+weight: bold; background-color: transparent;">12. Co-sponsored a personhood=
+ amendment.</strong><span class=3D"Apple-converted-space" xml=3D"lang">
+</span>Ryan<span class=3D"Apple-converted-space" xml=3D"lang"> </span><a st=
+yle=3D"color: #333333; text-decoration: underline;" href=3D"http://www.govt=
+rack.us/congress/bills/112/hr212">joined 62 other Republicans</a><span clas=
+s=3D"Apple-converted-space" xml=3D"lang">
+</span>in co-sponsoring the Sanctity of Human Life Act, which declares that=
+ a fertilized egg =E2=80=9Cshall have all the legal and constitutional attr=
+ibutes and privileges of personhood.=E2=80=9D This would outlaw abortion, s=
+ome forms of contraception and invitro fertilization.</p>
+</strong></div>
+</div>
+<div>&nbsp;</div>
+<div><strong></strong><strong>
+<p style=3D"font: 15px/22.5px Calibri, &quot;Trebuchet MS&quot;, &quot;Luci=
+da Sans&quot;, Arial, sans-serif; margin: 0px; padding: 5px 0px; outline: 0=
+px; border: 0px currentColor; color: #000000; text-transform: none; text-in=
+dent: 0px; letter-spacing: normal; word-spacing: 0px; vertical-align: basel=
+ine; white-space: normal; orphans: 2; widows: 2; font-size-adjust: none; fo=
+nt-stretch: normal; background-color: #ffffff;">
+&nbsp;</p>
+</strong></div>
+<hr>
+<div><font class=3D"Apple-style-span" color=3D"#555555" face=3D"Helvetica, =
+sans-serif" size=3D"1"><br>
+</font></div>
+<img src=3D"https://app.bronto.com/public/open/process/?fn=3DLink&amp;ssid=
+=3D379&amp;id=3D1tfvwbecakrkl4bsgnzrkdgtmtp9x&amp;ceid=3DC7oD6AAAAAAAAAAAAA=
+AG2qFW&amp;deid=3DC7oD7gAAAAAAAAAAAAAAgmiW&amp;meid=3DC7oD6wAAAAAAAAAAAAAAC=
+Qv1&amp;ec=3D0f713b" width=3D"0" height=3D"0" border=3D"0" alt=3D"">
+</div>
+</blockquote>
+</body>
+</html>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the &quot;big campa=
+ign&quot; group.<br />
+&nbsp;<br />
+To post to this group, send to bigcampaign@googlegroups.com<br />
+&nbsp;<br />
+To unsubscribe, send email to dubois.sara@gmail.com<br />
+&nbsp;<br />
+E-mail dubois.sara@gmail.com with questions or concerns<br />
+ <br />
+This is a list of individuals. It is not affiliated with any group or organ=
+ization.<br />
+
+--_000_9754683D83434ABA9ED0E97E4CCA3FB9amprogorg_--

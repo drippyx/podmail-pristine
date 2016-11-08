@@ -1,0 +1,816 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.151.98.20 with SMTP id a20cs52672ybm;
+        Thu, 19 Jun 2008 09:25:33 -0700 (PDT)
+Received: by 10.140.127.13 with SMTP id z13mr6685438rvc.142.1213892732453;
+        Thu, 19 Jun 2008 09:25:32 -0700 (PDT)
+Return-Path: <grbounce-4WpGdQUAAABX6aJFW9GviX2Fxj-sPCbK=john.podesta=gmail.com@googlegroups.com>
+Received: from yx-out-2526.google.com (yx-out-2526.google.com [74.125.44.33])
+        by mx.google.com with ESMTP id 34si1021153yxm.9.2008.06.19.09.25.31;
+        Thu, 19 Jun 2008 09:25:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of grbounce-4WpGdQUAAABX6aJFW9GviX2Fxj-sPCbK=john.podesta=gmail.com@googlegroups.com designates 74.125.44.33 as permitted sender) client-ip=74.125.44.33;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of grbounce-4WpGdQUAAABX6aJFW9GviX2Fxj-sPCbK=john.podesta=gmail.com@googlegroups.com designates 74.125.44.33 as permitted sender) smtp.mail=grbounce-4WpGdQUAAABX6aJFW9GviX2Fxj-sPCbK=john.podesta=gmail.com@googlegroups.com; dkim=pass (test mode) header.i=@googlegroups.com
+Received: by yx-out-2526.google.com with SMTP id 4so2483129yxk.54
+        for <john.podesta@gmail.com>; Thu, 19 Jun 2008 09:25:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=beta;
+        h=domainkey-signature:received:received:x-sender:x-apparently-to
+         :received:received:received-spf:authentication-results:received
+         :received:received:reply-to:from:to:references:in-reply-to:subject
+         :date:organization:message-id:mime-version:content-type:x-mailer
+         :thread-index:content-language:sender:precedence:x-google-loop
+         :mailing-list:list-id:list-post:list-help:list-unsubscribe
+         :x-beenthere;
+        bh=sqgKNn3FlpcZdA3dB9HTjjseYHxmHk4FSGjptxfom9c=;
+        b=F4BoDGoafG+pHIJjBM8PH0ZhyY+Z3DJ6eVidpGGOuowW7IuT/Ti05cyXq0DTsAkj3c
+         MY6+chtXjGsYMhSzx0/ySMYRa3qFKizA1CG09Ly6Aa5op1KIXHPpSzJqOseqBzWaFKKC
+         fD5w66zgKdFMF5ClMAnSa+dwuKCfe1qzFG6F4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=googlegroups.com; s=beta;
+        h=x-sender:x-apparently-to:received-spf:authentication-results
+         :reply-to:from:to:references:in-reply-to:subject:date:organization
+         :message-id:mime-version:content-type:x-mailer:thread-index
+         :content-language:sender:precedence:x-google-loop:mailing-list
+         :list-id:list-post:list-help:list-unsubscribe:x-beenthere;
+        b=AGvV6/ckJRHGpDRCJuapONjMBzVNBha6BnUh/dMDoRq8kqpYkGCzTGFqS53zaSSBP9
+         hGvbA3bKGwrdnUNtAvD9287roFjsORtuoRp6luN+wfTRWC0vrkt4l5AlT4+wVqm/6t3e
+         NcoZ3myS2EBSPg1yYpCPDARO0uIm2uvD+AI0E=
+Received: by 10.150.12.4 with SMTP id 4mr60144ybl.12.1213892725263;
+        Thu, 19 Jun 2008 09:25:25 -0700 (PDT)
+Received: by 10.107.3.34 with SMTP id f34gr947pri.0;
+	Thu, 19 Jun 2008 09:25:15 -0700 (PDT)
+X-Sender: ebaylor@progressivemediausa.org
+X-Apparently-To: bigcampaign@googlegroups.com
+Received: by 10.114.59.1 with SMTP id h1mr1169561waa.19.1213892714858; Thu, 19 Jun 2008 09:25:14 -0700 (PDT)
+Return-Path: <ebaylor@progressivemediausa.org>
+Received: from an-out-0708.google.com (an-out-0708.google.com [209.85.132.241]) by mx.google.com with ESMTP id 39si764882yxd.0.2008.06.19.09.25.14; Thu, 19 Jun 2008 09:25:14 -0700 (PDT)
+Received-SPF: neutral (google.com: 209.85.132.241 is neither permitted nor denied by best guess record for domain of ebaylor@progressivemediausa.org) client-ip=209.85.132.241;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 209.85.132.241 is neither permitted nor denied by best guess record for domain of ebaylor@progressivemediausa.org) smtp.mail=ebaylor@progressivemediausa.org
+Received: by an-out-0708.google.com with SMTP id c3so188827ana.41 for <bigcampaign@googlegroups.com>; Thu, 19 Jun 2008 09:25:14 -0700 (PDT)
+Received: by 10.100.10.15 with SMTP id 15mr3495491anj.131.1213892714527; Thu, 19 Jun 2008 09:25:14 -0700 (PDT)
+Return-Path: <ebaylor@progressivemediausa.org>
+Received: from cdalaptop01 ( [38.104.30.142]) by mx.google.com with ESMTPS id d21sm1713193and.0.2008.06.19.09.25.13 (version=TLSv1/SSLv3 cipher=RC4-MD5); Thu, 19 Jun 2008 09:25:14 -0700 (PDT)
+Reply-To: <ebaylor@progressivemediausa.org>
+From: "Elizabeth Baylor" <ebaylor@progressivemediausa.org>
+To: "'David Donnelly'" <ddonnelly@campaignmoney.org>, 
+ bigcampaign@googlegroups.com
+References: <008f01c8d223$ed4d8cf0$c7e8a6d0$@org> <C47FFE12.27757%ddonnelly@campaignmoney.org>
+In-Reply-To: <C47FFE12.27757%ddonnelly@campaignmoney.org>
+Subject: [big campaign] Re: FW: [big campaign] St Paul Pioneer Press - Want to
+ See McCain? Pay up or hope for an invite
+Date: Thu, 19 Jun 2008 12:25:11 -0400
+Organization: Progressive Media USA
+Message-ID: <00c501c8d229$0c6fe150$254fa3f0$@org>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_NextPart_000_00C6_01C8D207.855E4150"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcjSH9FyVcMNxJsbRmqDHN7RzCu5nwAAjNjgAABL+JwAACHugAAA8SVyAAArdZA=
+Content-Language: en-us
+Sender: bigcampaign@googlegroups.com
+Precedence: bulk
+X-Google-Loop: groups
+Mailing-List: list bigcampaign@googlegroups.com;
+	contact bigcampaign-owner@googlegroups.com
+List-Id: <bigcampaign.googlegroups.com>
+List-Post: <mailto:bigcampaign@googlegroups.com>
+List-Help: <mailto:bigcampaign-help@googlegroups.com>
+List-Unsubscribe: <http://googlegroups.com/group/bigcampaign/subscribe>,
+	<mailto:bigcampaign-unsubscribe@googlegroups.com>
+X-BeenThere: bigcampaign@googlegroups.com
+
+------=_NextPart_000_00C6_01C8D207.855E4150
+Content-Type: text/plain
+
+I would like to also circulate the following quotes from McCain for when
+inevitably goes after Obama on opting out. In 2004, he praised small
+donations similar to Obama's model.  
+
+ 
+
+McCain: "We Want Average Citizens To Contribute Small Amounts of Money. I'm
+For That.  I Think It's A Great Thing."  During an appearance on On the
+Record, McCain said, "I think it's wonderful that Howard Dean was able to
+use the Internet, $50, $75, $100 contributions. That's what we want it to be
+all about. We want average citizens to contribute small amounts of money,
+and that's a commitment to a campaign. So I'm for that. I think it's a great
+thing. I think the Internet is going to change American politics for the
+better." [Fox News, "On the Record," 1/21/04]
+
+ 
+
+McCain: It's "Wonderful" That More People Are Involved in The Political
+Process "With Relatively Small Campaign Contributions."  During an
+appearance on MSNBC's "Hardball," McCain praised the internet's ability to
+raise money in small contributions.  McCain said, "The Internet is
+generating more and more people involved in the political process with
+relatively small campaign contributions, $50, $75. That's wonderful.  No
+longer can an office holder call up a CEO or a trial lawyer or a union
+leader and say, I need $1 million. And, by the way, your legislation is up
+before my committee again." [MSNBC, "Hardball," 6/29/04]
+
+ 
+
+From: bigcampaign@googlegroups.com [mailto:bigcampaign@googlegroups.com] On
+Behalf Of David Donnelly
+Sent: Thursday, June 19, 2008 12:14 PM
+To: bigcampaign@googlegroups.com
+Subject: [big campaign] FW: [big campaign] St Paul Pioneer Press - Want to
+See McCain? Pay up or hope for an invite
+
+ 
+
+
+Speaking of the fundraiser... Also in the Twin Cities, we have an op-ed in
+the Star-Tribune hitting McCain on the fundraising issues and his opposition
+to public financing... And because of today's announcement:
+
+Excerpt from below: "McCain will try to make political hay if Obama chooses
+not to participate in the presidential public financing system in the
+general election. But we shouldn't forget that McCain himself has already
+opted in, and then opted out, of the presidential system this election
+cycle. The only reason he's gone unchecked is the lack of a quorum at the
+dormant Federal Election Commission."
+
+
+http://www.startribune.com/opinion/commentary/20518474.html?location_refer=O
+pinion
+
+Candidates will do most anything for money
+
+By DAVID DONNELLY
+
+June 18, 2008
+
+When Sen. John McCain arrives in Minneapolis for a high-dollar fundraiser
+today, he will have already attended at least seven other fundraising events
+in five cities this week. This circuit is par for the course for our
+presidential candidates, who both are racing around the country as if on a
+giant Monopoly board, scooping up checks from whomever will write them.
+
+And that's recently landed McCain in a bit of hot water.
+
+McCain's campaign was forced to postpone another event this week --
+scheduled in Midland, Texas -- when women's organizations questioned why he
+would hold a fundraiser at the home of oilman Clayton Williams. During his
+1990 campaign for governor against the late Ann Richards, Williams equated
+rape to bad weather. "If it's inevitable, just relax and enjoy it," he said.
+He also promised to treat Richards as if she were a cow, saying he'd "head
+her and hoof her and drag her through the dirt."
+
+The McCain campaign feigned ignorance about Williams' past, but that claim
+rang hollow. These unconscionable comments are widely known in Texan and
+national political circles, and could have been easily found with a quick
+Google search. The most charitable read is that the campaign used the old
+Sergeant Schultz defense -- "I see nothing!" -- so that they could deny ever
+knowing the truth if someone caught them red-handed.
+
+How can the campaign be so oblivious? Perhaps the insatiable drive for cash
+is also to blame. McCain has been asked to rid the campaign of the $300,000
+that Williams raised, but so far he's refused. Returning the money or
+donating it to a charity is the right thing to do in this case. But this
+political penance would only wallpaper over the real problem: Regardless of
+political party, candidates are required to raise ever-increasing large sums
+of money to run for higher office.
+
+Much has been written about McCain's opponent, Sen. Barack Obama, and the
+fundraising machine he's built. The explosion of small donations to his
+campaign is a hopeful sign of political engagement of millions of Americans,
+but it does not, in and of itself, represent an overhaul of the rules for
+everyone else. While small online donors fuel Obama's rise, McCain's run has
+been increasingly dependent on large contributions to his campaign and even
+larger ones to the Republican National Committee. In fact, they've set a
+goal of raising $120 million for the party alone. And that's how most
+candidates do it.
+
+McCain will try to make political hay if Obama chooses not to participate in
+the presidential public financing system in the general election. But we
+shouldn't forget that McCain himself has already opted in, and then opted
+out, of the presidential system this election cycle. The only reason he's
+gone unchecked is the lack of a quorum at the dormant Federal Election
+Commission.
+
+Relatively little has been written about what the candidates intend to do
+about the cash-and-carry system of paying for campaigns. On the surface, one
+would think that the race features two reform candidates. The truth,
+however, is more complex. Like his shift to support President George W.
+Bush's policies on tax cuts and off-shore oil drilling, McCain's record on
+campaign finance reform is decidedly not prologue to what he would support
+as president.
+
+McCain once authored a fix to the broken presidential public financing
+system but now refuses to add his name as cosponsor to the same bipartisan
+legislation. He once called his state's Clean Elections public financing law
+a "national model" but now states he opposes its extension to all federal
+races.
+
+Obama has cosponsored both and has said that their passage would be a
+priority if elected.
+
+McCain's campaign website rightly identifies one aspect of the problem of
+money in politics, stating that "the most influential lobbyists with the
+greatest access in the nation's Capitol are also the most prolific political
+fundraisers," but, according to Public Citizen, McCain has five times the
+number of lobbyists as Obama -- 70 to 14 -- raising money for his campaign.
+
+Under comprehensive public financing systems, like those operating
+successfully in a number of states around the country, candidates would rely
+little if at all on lobbyists and fundraisers like Clayton Williams. Perhaps
+that's the ultimate lesson for McCain from the canceled fundraiser in Texas.
+Don't just vet the fundraisers. Overhaul the system.
+
+David Donnelly is director of Campaign Money Watch, which describes itself
+as a nonpartisan campaign-finance watchdog group based in Washington.
+
+
+
+On 6/19/08 11:36 AM, "Tory Brown" <tbrown@progressivemediausa.org> wrote:
+Want to see McCain? Pay up or hope for an invite
+<http://www.twincities.com/politics/ci_9628845?nclick_check=1>
+<http://www.twincities.com/politics/ci_9628845?nclick_check=1> 
+First, a fundraiser, then a gathering for a select few
+
+
+By Bill Salisbury 
+bsalisbury@pioneerpress.com
+<mailto:bsalisbury@pioneerpress.com?subject=TwinCities.com:%20Want%20to%20se
+e%20McCain?%20Pay%20up%20or%20hope%20for%20an%20invite>
+<mailto:bsalisbury@pioneerpress.com?subject=TwinCities.com:%20Want%20to%20se
+e%20McCain?%20Pay%20up%20or%20hope%20for%20an%20invite> 
+Article Last Updated: 06/18/2008 11:59:35 PM CDT
+
+Republican John McCain will bring his presidential campaign to Minnesota for
+the first time today, holding an early evening town hall meeting in St. Paul
+with a select group of undecided voters after a late afternoon fundraiser in
+Minneapolis. 
+None of the events is open to the public. 
+
+An earlier public event tentatively planned for Eagan has been canceled, a
+campaign aide said. 
+
+Facing a November showdown with Democrat Barack Obama, McCain hopes to push
+purple Minnesota into the red column for the first time in 36 years and pick
+up some much-needed cash in the process. 
+
+Tickets for his fundraising reception, starting at 5:30 p.m. at the Hilton
+Minneapolis, range from $1,000 a person for dinner to a private reception
+for individuals and couples who raise $50,000. 
+
+The Arizona senator needs the money. Through April, Obama had raised $265
+million to McCain's $97 million. 
+
+The town hall meeting will be at the Landmark Center in downtown St. Paul,
+just a block from the Xcel Energy Center where McCain will receive the
+Republican presidential nomination in September. 
+
+The event is by ticket only. The campaign did not say how they selected
+undecided voters to attend the meeting. 
+
+The crowd will not come close to matching the 30,000 people who swarmed the
+"X" on June 3 to hear Obama declare victory in the race for the Democratic
+presidential nomination. 
+
+McCain's visit suggests he considers Minnesota a battleground state.
+Although Democrats have carried it in the past eight elections - their
+longest winning streak in any state - the past two presidential contests
+have been close. In 2000, Al Gore narrowly defeated George W. Bush, 48
+percent to 46 percent, and four years ago, John Kerry topped Bush 51 percent
+to 48 percent. 
+
+Polls suggest McCain is within striking distance in Minnesota. The most
+recent one showed he and Obama are virtually tied. 
+
+Obama led McCain, 47 percent to 46 percent, in a Survey USA poll released
+Monday. That survey, conducted for KSTP-TV and two other Minnesota
+television stations, had a 4.3 percentage point margin of error, making the
+race a dead heat. 
+
+But the average of the three most recent statewide polls gives Obama a
+9-point lead, 50 percent to 41 percent. The Rasmussen Report and the Star
+Tribune's Minnesota Poll conducted the other surveys. 
+
+"It is clearly a dead heat," Ben Golnik, McCain's regional campaign manager,
+said Wednesday. "We think we've out-organized Obama. Our offices opened
+ahead of theirs. We have more staff on the ground, and we feel good about
+it." 
+
+In addition, Gov. Tim Pawlenty is McCain's national campaign co-chairman and
+is frequently mentioned as a possible running mate. But when asked to
+comment on McCain's visit, Pawlenty said ... nothing. He failed to respond
+to a Pioneer Press request for an interview on the event. 
+
+He did, however, find time to publicly criticize Obama before the Democratic
+candidate held his St. Paul rally. 
+
+But the governor has not had a discernible impact on the presidential race
+in Minnesota so far, said Donna Cassutt, associate chair of the state
+Democratic-Farmer-Labor Party. 
+
+"Minnesotans are not buying what John McCain is selling, and Gov. Pawlenty
+is not helping him to close the deal," Cassutt said. "As we recall, Gov.
+Pawlenty couldn't even carry his own party's caucuses for McCain." 
+
+McCain finished a distant second behind former Massachusetts Gov. Mitt
+Romney in Minnesota's Feb. 5 Republican precinct caucuses. 
+
+But McCain won 35 of the 41 Republican National Convention delegates elected
+at GOP conventions around Minnesota this spring.
+
+ 
+ 
+Tory Brown
+Deputy Director of State Media
+Progressive Media USA
+Office: 202-609-7673
+Cell: 703-655-4888
+
+
+
+
+ 
+
+
+
+------ End of Forwarded Message
+
+
+ 
+
+
+--~--~---------~--~----~------------~-------~--~----~
+You received this message because you are subscribed to the "big campaign" group.
+
+To post to this group, send to bigcampaign@googlegroups.com
+
+To unsubscribe, send email to bigcampaign-unsubscribe@googlegroups.com
+
+E-mail ryan@campaigntodefendamerica.org with questions or concerns
+ 
+This is a list of individuals. It is not affiliated with any group or organization.
+-~----------~----~----~----~------~----~------~--~---
+
+
+------=_NextPart_000_00C6_01C8D207.855E4150
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micro=
+soft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" xm=
+lns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http://w=
+ww.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<title>FW: [big campaign] St Paul Pioneer Press - Want to See McCain? Pay up=
+ or
+hope for an invite</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+=2EMsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'>I would like to also circulate the following quotes from McCa=
+in for
+when inevitably goes after Obama on opting out. In 2004, he praised small
+donations similar to Obama&#8217;s model. &nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:11.0pt'>McCain: &#8220;We W=
+ant Average
+Citizens To Contribute Small Amounts of Money&#8230; I&#8217;m For That.&nbs=
+p; I Think It&#8217;s A
+Great Thing.&#8221; </span></b><span style=3D'font-size:11.0pt'>&nbsp;During=
+ an appearance
+on On the Record, McCain said, &#8220;I think it's wonderful that Howard Dea=
+n was
+able to use the Internet, $50, $75, $100 contributions. That's what we want =
+it
+to be all about. We want average citizens to contribute small amounts of mon=
+ey,
+and that's a commitment to a campaign. So I'm for that. I think it's a great
+thing. I think the Internet is going to change American politics for the
+better.&#8221; [Fox News, &quot;On the Record,&quot; 1/21/04]<o:p></o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:11.0pt'>McCain: It's &#8220=
+;Wonderful&#8221;
+That More People Are Involved in The Political Process &#8220;With Relativel=
+y Small
+Campaign Contributions.&#8221;</span></b><span style=3D'font-size:11.0pt'>&n=
+bsp; During an
+appearance on MSNBC&#8217;s &#8220;Hardball,&#8221; McCain praised the inter=
+net's ability to
+raise money in small contributions.&nbsp; McCain said, &quot;The Internet is
+generating more and more people involved in the political process with
+relatively small campaign contributions, $50, $75. That's wonderful.&nbsp; N=
+o longer
+can an office holder call up a CEO or a trial lawyer or a union leader and s=
+ay,
+I need $1 million. And, by the way, your legislation is up before my committ=
+ee
+again.&quot; [MSNBC, &quot;Hardball,&quot; 6/29/04]<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri","=
+sans-serif";
+color:#1F497D'><o:p>&nbsp;</o:p></span></p>
+
+<div>
+
+<div style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in 0=
+in 0in'>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:10.0pt;font-family:"Tahoma"=
+,"sans-serif"'>From:</span></b><span
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>
+bigcampaign@googlegroups.com [mailto:bigcampaign@googlegroups.com] <b>On Beh=
+alf
+Of </b>David Donnelly<br>
+<b>Sent:</b> Thursday, June 19, 2008 12:14 PM<br>
+<b>To:</b> bigcampaign@googlegroups.com<br>
+<b>Subject:</b> [big campaign] FW: [big campaign] St Paul Pioneer Press - Wa=
+nt
+to See McCain? Pay up or hope for an invite<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<blockquote style=3D'margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><span style=3D'font-size=
+:9.0pt;
+font-family:"Verdana","sans-serif"'><br>
+Speaking of the fundraiser... Also in the Twin Cities, we have an op-ed in t=
+he
+Star-Tribune hitting McCain on the fundraising issues and his opposition to
+public financing... And because of today&#8217;s announcement:<br>
+<br>
+Excerpt from below: <b><i>&#8220;McCain will try to make political hay if Ob=
+ama
+chooses not to participate in the presidential public financing system in th=
+e
+general election. But we shouldn't forget that McCain himself has already op=
+ted
+in, and then opted out, of the presidential system this election cycle. The
+only reason he's gone unchecked is the lack of a quorum at the dormant Feder=
+al
+Election Commission.&#8221;<br>
+</i></b></span><span style=3D'font-size:10.5pt;font-family:"Verdana","sans-s=
+erif";
+color:#1E487C'><br>
+</span><span style=3D'font-size:9.0pt;font-family:"Verdana","sans-serif"'><b=
+r>
+<a
+href=3D"http://www.startribune.com/opinion/commentary/20518474.html?location=
+_refer=3DOpinion">http://www.startribune.com/opinion/commentary/20518474.htm=
+l?location_refer=3DOpinion</a><br>
+<br>
+Candidates will do most anything for money<br>
+<br>
+By DAVID DONNELLY<br>
+<br>
+June 18, 2008<br>
+<br>
+When Sen. John McCain arrives in Minneapolis for a high-dollar fundraiser
+today, he will have already attended at least seven other fundraising events=
+ in
+five cities this week. This circuit is par for the course for our presidenti=
+al
+candidates, who both are racing around the country as if on a giant Monopoly
+board, scooping up checks from whomever will write them.<br>
+<br>
+And that's recently landed McCain in a bit of hot water.<br>
+<br>
+McCain's campaign was forced to postpone another event this week -- schedule=
+d
+in Midland, Texas -- when women's organizations questioned why he would hold=
+ a
+fundraiser at the home of oilman Clayton Williams. During his 1990 campaign =
+for
+governor against the late Ann Richards, Williams equated rape to bad weather=
+.
+&quot;If it's inevitable, just relax and enjoy it,&quot; he said. He also
+promised to treat Richards as if she were a cow, saying he'd &quot;head her =
+and
+hoof her and drag her through the dirt.&quot;<br>
+<br>
+The McCain campaign feigned ignorance about Williams' past, but that claim r=
+ang
+hollow. These unconscionable comments are widely known in Texan and national
+political circles, and could have been easily found with a quick Google sear=
+ch.
+The most charitable read is that the campaign used the old Sergeant Schultz
+defense -- &quot;I see nothing!&quot; -- so that they could deny ever knowin=
+g
+the truth if someone caught them red-handed.<br>
+<br>
+How can the campaign be so oblivious? Perhaps the insatiable drive for cash =
+is
+also to blame. McCain has been asked to rid the campaign of the $300,000 tha=
+t
+Williams raised, but so far he's refused. Returning the money or donating it=
+ to
+a charity is the right thing to do in this case. But this political penance
+would only wallpaper over the real problem: Regardless of political party,
+candidates are required to raise ever-increasing large sums of money to run =
+for
+higher office.<br>
+<br>
+Much has been written about McCain's opponent, Sen. Barack Obama, and the
+fundraising machine he's built. The explosion of small donations to his
+campaign is a hopeful sign of political engagement of millions of Americans,
+but it does not, in and of itself, represent an overhaul of the rules for
+everyone else. While small online donors fuel Obama's rise, McCain's run has
+been increasingly dependent on large contributions to his campaign and even
+larger ones to the Republican National Committee. In fact, they've set a goa=
+l
+of raising $120 million for the party alone. And that's how most candidates =
+do
+it.<br>
+<br>
+McCain will try to make political hay if Obama chooses not to participate in
+the presidential public financing system in the general election. But we
+shouldn't forget that McCain himself has already opted in, and then opted ou=
+t,
+of the presidential system this election cycle. The only reason he's gone
+unchecked is the lack of a quorum at the dormant Federal Election Commission=
+.<br>
+<br>
+Relatively little has been written about what the candidates intend to do ab=
+out
+the cash-and-carry system of paying for campaigns. On the surface, one would
+think that the race features two reform candidates. The truth, however, is m=
+ore
+complex. Like his shift to support President George W. Bush's policies on ta=
+x
+cuts and off-shore oil drilling, McCain's record on campaign finance reform =
+is
+decidedly not prologue to what he would support as president.<br>
+<br>
+McCain once authored a fix to the broken presidential public financing syste=
+m
+but now refuses to add his name as cosponsor to the same bipartisan
+legislation. He once called his state's Clean Elections public financing law=
+ a
+&quot;national model&quot; but now states he opposes its extension to all
+federal races.<br>
+<br>
+Obama has cosponsored both and has said that their passage would be a priori=
+ty
+if elected.<br>
+<br>
+McCain's campaign website rightly identifies one aspect of the problem of mo=
+ney
+in politics, stating that &quot;the most influential lobbyists with the grea=
+test
+access in the nation's Capitol are also the most prolific political
+fundraisers,&quot; but, according to Public Citizen, McCain has five times t=
+he
+number of lobbyists as Obama -- 70 to 14 -- raising money for his campaign.<=
+br>
+<br>
+Under comprehensive public financing systems, like those operating successfu=
+lly
+in a number of states around the country, candidates would rely little if at
+all on lobbyists and fundraisers like Clayton Williams. Perhaps that's the
+ultimate lesson for McCain from the canceled fundraiser in Texas. Don't just
+vet the fundraisers. Overhaul the system.<br>
+<br>
+David Donnelly is director of Campaign Money Watch, which describes itself a=
+s a
+nonpartisan campaign-finance watchdog group based in Washington.<br>
+<br>
+<br>
+<br>
+On 6/19/08 11:36 AM, &quot;Tory Brown&quot; &lt;tbrown@progressivemediausa.o=
+rg&gt;
+wrote:<br>
+</span><b><span style=3D'font-size:27.0pt;font-family:"Verdana","sans-serif"=
+'>Want
+to see McCain? Pay up or hope for an invite <a
+href=3D"http://www.twincities.com/politics/ci_9628845?nclick_check=3D1">&lt;=
+http://www.twincities.com/politics/ci_9628845?nclick_check=3D1&gt;</a>
+<br>
+</span></b><b><span style=3D'font-size:9.0pt;font-family:"Verdana","sans-ser=
+if"'>First,
+a fundraiser, then a gathering for a select few<br>
+<span style=3D'color:#1F497D'><br>
+</span></span></b><span style=3D'font-size:9.0pt;font-family:"Verdana","sans=
+-serif"'><br>
+By Bill Salisbury <br>
+bsalisbury@pioneerpress.com <a
+href=3D"mailto:bsalisbury@pioneerpress.com?subject=3DTwinCities.com:%20Want%=
+20to%20see%20McCain?%20Pay%20up%20or%20hope%20for%20an%20invite">&lt;mailto:=
+bsalisbury@pioneerpress.com?subject=3DTwinCities.com:%20Want%20to%20see%20Mc=
+Cain?%20Pay%20up%20or%20hope%20for%20an%20invite&gt;</a>
+<br>
+Article Last Updated: 06/18/2008 11:59:35 PM CDT<br>
+<br>
+Republican John McCain will bring his presidential campaign to Minnesota for
+the first time today, holding an early evening town hall meeting in St. Paul
+with a select group of undecided voters after a late afternoon fundraiser in
+Minneapolis. <br>
+None of the events is open to the public. <br>
+<br>
+An earlier public event tentatively planned for Eagan has been canceled, a
+campaign aide said. <br>
+<br>
+Facing a November showdown with Democrat Barack Obama, McCain hopes to push
+purple Minnesota into the red column for the first time in 36 years and pick=
+ up
+some much-needed cash in the process. <br>
+<br>
+Tickets for his fundraising reception, starting at 5:30 p.m. at the Hilton
+Minneapolis, range from $1,000 a person for dinner to a private reception fo=
+r
+individuals and couples who raise $50,000. <br>
+<br>
+<b>The Arizona senator needs the money. Through April, Obama had raised $265
+million to McCain's $97 million. <br>
+</b><br>
+The town hall meeting will be at the Landmark Center in downtown St. Paul, j=
+ust
+a block from the Xcel Energy Center where McCain will receive the Republican
+presidential nomination in September. <br>
+<br>
+<b>The event is by ticket only. The campaign did not say how they selected
+undecided voters to attend the meeting. <br>
+</b><br>
+<b>The crowd will not come close to matching the 30,000 people who swarmed t=
+he
+&quot;X&quot; on June 3 to hear Obama declare victory in the race for the
+Democratic presidential nomination. <br>
+</b><br>
+McCain's visit suggests he considers Minnesota a battleground state. Althoug=
+h
+Democrats have carried it in the past eight elections &#8212; their longest =
+winning
+streak in any state &#8212; the past two presidential contests have been clo=
+se. In
+2000, Al Gore narrowly defeated George W. Bush, 48 percent to 46 percent, an=
+d
+four years ago, John Kerry topped Bush 51 percent to 48 percent. <br>
+<br>
+Polls suggest McCain is within striking distance in Minnesota. The most rece=
+nt
+one showed he and Obama are virtually tied. <br>
+<br>
+Obama led McCain, 47 percent to 46 percent, in a Survey USA poll released
+Monday. That survey, conducted for KSTP-TV and two other Minnesota televisio=
+n
+stations, had a 4.3 percentage point margin of error, making the race a dead
+heat. <br>
+<br>
+But the average of the three most recent statewide polls gives Obama a 9-poi=
+nt
+lead, 50 percent to 41 percent. The Rasmussen Report and the Star Tribune's
+Minnesota Poll conducted the other surveys. <br>
+<br>
+&quot;It is clearly a dead heat,&quot; Ben Golnik, McCain's regional campaig=
+n
+manager, said Wednesday. &quot;We think we've out-organized Obama. Our offic=
+es
+opened ahead of theirs. We have more staff on the ground, and we feel good
+about it.&quot; <br>
+<br>
+In addition, Gov. Tim Pawlenty is McCain's national campaign co-chairman and=
+ is
+frequently mentioned as a possible running mate. But when asked to comment o=
+n
+McCain's visit, Pawlenty said ... nothing. He failed to respond to a Pioneer
+Press request for an interview on the event. <br>
+<br>
+He did, however, find time to publicly criticize Obama before the Democratic
+candidate held his St. Paul rally. <br>
+<br>
+But the governor has not had a discernible impact on the presidential race i=
+n
+Minnesota so far, said Donna Cassutt, associate chair of the state
+Democratic-Farmer-Labor Party. <br>
+<br>
+&quot;Minnesotans are not buying what John McCain is selling, and Gov. Pawle=
+nty
+is not helping him to close the deal,&quot; Cassutt said. &quot;As we recall=
+,
+Gov. Pawlenty couldn't even carry his own party's caucuses for McCain.&quot;=
+ <br>
+<br>
+McCain finished a distant second behind former Massachusetts Gov. Mitt Romne=
+y
+in Minnesota's Feb. 5 Republican precinct caucuses. <br>
+<br>
+But McCain won 35 of the 41 Republican National Convention delegates elected=
+ at
+GOP conventions around Minnesota this spring.<br>
+<br>
+&nbsp;<br>
+&nbsp;<br>
+</span><span style=3D'font-size:10.0pt;font-family:"Verdana","sans-serif"'>T=
+ory
+Brown<br>
+Deputy Director of State Media<br>
+Progressive Media USA<br>
+Office: 202-609-7673<br>
+Cell: 703-655-4888<br>
+</span><span style=3D'font-size:9.0pt;font-family:"Verdana","sans-serif"'><b=
+r>
+<br>
+<br>
+<br>
+&nbsp;</span><o:p></o:p></p>
+
+</blockquote>
+
+<p class=3DMsoNormal><span style=3D'font-size:9.0pt;font-family:"Verdana","s=
+ans-serif"'><br>
+<br>
+------ End of Forwarded Message<br>
+</span><br>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+<br>
+--~--~---------~--~----~------------~-------~--~----~<br>
+You received this message because you are subscribed to the &quot;big campai=
+gn&quot; group.
+ <br> <p>To post to this group, send to bigcampaign@googlegr=
+oups.com
+ <br> <p>To unsubscribe, send email to bigcampaign-unsubscribe@goog=
+legroups.com
+ <br> <p>E-mail ryan@campaigntodefendamerica.org with questions=
+ or concerns
+ <br> <p>This is a list of individuals. It is not affiliated wi=
+th any group or organization. <br> -~----------~----~----~----~------~----~-=
+-----~--~---<br>
+</body>
+
+</html>
+<br>
+
+------=_NextPart_000_00C6_01C8D207.855E4150--

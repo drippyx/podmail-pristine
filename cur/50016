@@ -1,0 +1,527 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.68 with SMTP id r65csp389689lfr;
+        Sat, 17 Oct 2015 07:16:51 -0700 (PDT)
+X-Received: by 10.107.151.195 with SMTP id z186mr9899482iod.8.1445091411657;
+        Sat, 17 Oct 2015 07:16:51 -0700 (PDT)
+Return-Path: <speechdrafts+bncBD7ZBPMEVEHBBU5QRGYQKGQECB5CHQQ@hillaryclinton.com>
+Received: from mail-ig0-x246.google.com (mail-ig0-x246.google.com. [2607:f8b0:4001:c05::246])
+        by mx.google.com with ESMTPS id kd7si7061976igb.42.2015.10.17.07.16.51
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 17 Oct 2015 07:16:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBD7ZBPMEVEHBBU5QRGYQKGQECB5CHQQ@hillaryclinton.com designates 2607:f8b0:4001:c05::246 as permitted sender) client-ip=2607:f8b0:4001:c05::246;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBD7ZBPMEVEHBBU5QRGYQKGQECB5CHQQ@hillaryclinton.com designates 2607:f8b0:4001:c05::246 as permitted sender) smtp.mailfrom=speechdrafts+bncBD7ZBPMEVEHBBU5QRGYQKGQECB5CHQQ@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-ig0-x246.google.com with SMTP id ui1sf91906788igc.2
+        for <john.podesta@gmail.com>; Sat, 17 Oct 2015 07:16:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:from:mime-version:references:in-reply-to:date:message-id
+         :subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=dGqs+v0FEAT9w94Ws6MuVeuSaK41pnrCpkHNy94VkwY=;
+        b=HUL1HJMbnLAuNeTsIov3VgoGoRaF+vAGaEie83i8ruWNewyrkNGPnXIixK8i1uj1uD
+         NwjjIHOfYFdIdp85vc4rU4AoUZ5bSMAQ57rleMZ6+DYQ2ouBoy4a/7jDfYHIeiYUjwmr
+         EijjFV+Qkoeco/wsmGypulIJ+MiK/dF+4Dpcs=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:from:mime-version:references:in-reply-to
+         :date:message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=dGqs+v0FEAT9w94Ws6MuVeuSaK41pnrCpkHNy94VkwY=;
+        b=nE3PGlj+znbwTkciEyDFij5MO0xsajrpJPpPxAMG3uMmTlp1ZDV5pKWci2o+dMOgv3
+         5p+OPw69FG6lbc9dPl4GZHUPttQQFw13FFvqQZl/bIfCz1jwbUPtulf4Nr4CmM3fbTwk
+         DFwsGFrpunDREw11LbLkAG5v3GFtzP4ZuOzSBIjW5s97+LeAfbkopFao/UmUQcwKGxmf
+         ou6qqeNr70RdwW86BiI47klNpJG9tvxfsNVV6hVNCraCiSwx/rlXJOUbI04vrE0m0Zg5
+         d3COf5xhs3J+kbtN5J/qxKYNaxYaUqLHlSsB5ZIA2WWHJ1Nnj3aEHKiGY9LZ4PonvLkl
+         55Ow==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQkqOjrmXxB39qPRifAXu8NUmvY4/Z8QyPcT+RLwYkJo0eWA6r3O82XSPMge7UJIfjIwwIkz
+X-Received: by 10.182.104.137 with SMTP id ge9mr18384858obb.49.1445091411298;
+        Sat, 17 Oct 2015 07:16:51 -0700 (PDT)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.50.85.10 with SMTP id d10ls451722igz.44.canary; Sat, 17 Oct
+ 2015 07:16:51 -0700 (PDT)
+X-Received: by 10.50.62.68 with SMTP id w4mr10180362igr.75.1445091410845;
+        Sat, 17 Oct 2015 07:16:50 -0700 (PDT)
+Received: from mail-pa0-x231.google.com (mail-pa0-x231.google.com. [2607:f8b0:400e:c03::231])
+        by mx.google.com with ESMTPS id v89si20056691iov.45.2015.10.17.07.16.50
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 17 Oct 2015 07:16:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of isams@hillaryclinton.com designates 2607:f8b0:400e:c03::231 as permitted sender) client-ip=2607:f8b0:400e:c03::231;
+Received: by pacfv9 with SMTP id fv9so49433830pac.3
+        for <speechdrafts@hillaryclinton.com>; Sat, 17 Oct 2015 07:16:50 -0700 (PDT)
+X-Received: by 10.68.131.6 with SMTP id oi6mr23401393pbb.3.1445091410418; Sat,
+ 17 Oct 2015 07:16:50 -0700 (PDT)
+From: Ian Sams <isams@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CA+C_h81UL+nRK3Gc0mznT-dfbGv5JK-cNVTCfzN=G9XZ52Cv3g@mail.gmail.com>
+ <CAE_=YH-EvYCJPxShX9mVviNxW0eC33FOk5TOF9FnOeVqydhX0g@mail.gmail.com> <1759324983373935337@unknownmsgid>
+In-Reply-To: <1759324983373935337@unknownmsgid>
+Date: Sat, 17 Oct 2015 10:18:04 -0400
+Message-ID: <-6495888177615782912@unknownmsgid>
+Subject: Re: DRAFT: Birmingham News Op-Ed
+To: Lauren Peterson <lpeterson@hillaryclinton.com>
+CC: Nick Merrill <nmerrill@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ Karen Finney <kfinney@hillaryclinton.com>, 
+ LaDavia Drane <ldrane@hillaryclinton.com>, 
+ Tyrone Gayle <tgayle@hillaryclinton.com>, 
+ Emily Aden <eaden@hillaryclinton.com>, 
+ Brynne Craig <bcraig@hillaryclinton.com>, 
+ Christina Reynolds <creynolds@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=047d7b15fb232fb1a905224d9095
+X-Original-Sender: isams@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of isams@hillaryclinton.com designates 2607:f8b0:400e:c03::231 as
+ permitted sender) smtp.mailfrom=isams@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--047d7b15fb232fb1a905224d9095
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Just to clarify -- the op-ed had already been sent to print for the Sunday
+edition by the time the announcement occurred and we were able to take it
+into effect. But as Lauren said, it'll be reflected in the online version.
+
+--
+Ian Sams
+(423) 915-6592
+
+On Oct 17, 2015, at 10:11 AM, Lauren Peterson <lpeterson@hillaryclinton.com=
+>
+wrote:
+
+In the op ed or the speech?
+
+The change we requested in the op ed for the online version is this:
+
+But for every Republican governor working to dismantle voting rights across
+our country, there are Americans determined to keep marching forward.
+I=E2=80=99m proud
+of everyone in Alabama who leapt to confront this injustice. The outcry has
+been so strong, it=E2=80=99s forced politicians in Montgomery to reconsider=
+.  Governor
+Bentley and the legislature should listen to their constituents.  Those
+offices should stay open =E2=80=93 and not just one day a month.
+
+
+
+On Oct 17, 2015, at 10:04 AM, Nick Merrill <nmerrill@hillaryclinton.com>
+wrote:
+
+Sitting here with the Op Ed Writer-in-Chief (not you Lauren) talking about
+this.  Given Bentley's Friday attempts to walk this back with monthly
+visits, should we consider inserting a line that says his proposal doesn't
+go far enough, so this is fresh and accounts for this most recent
+pronouncements?
+
+
+
+On Thu, Oct 15, 2015 at 12:49 AM, Lauren Peterson <
+lpeterson@hillaryclinton.com> wrote:
+
+> Hi everyone,
+>
+> Sending around this Birmingham News op-ed to coincide with Hillary's trip
+> to Alabama. The op-ed will run this weekend.
+>
+> Please take a look and let me know your thoughts - this reflects
+> preliminary input from many of you, which has been much appreciated! I
+> could definitely use research's eyes on the statistics and the GOP contra=
+st.
+>
+> Thanks!
+> Lauren
+>
+> ###
+>
+> This month, Alabama announced the closing of 31 driver=E2=80=99s license =
+offices
+> in counties across the state, including those in eight of the 10 counties
+> with the highest percentage of African Americans.  Despite Governor
+> Bentley=E2=80=99s insistence that the decision=E2=80=94which came a year =
+after the state=E2=80=99s
+> voter ID law took effect=E2=80=94has nothing to do with race, the paralle=
+ls are
+> inescapable: Alabama is living through a blast from the Jim Crow past.
+>
+>
+>
+> It=E2=80=99s hard to believe that 50 years after Dr. Martin Luther King, =
+Jr.
+> marched and Rosa Parks sat and John Lewis bled, Americans are still
+> fighting to exercise the most fundamental right in our democracy.
+> Meanwhile, Governor Bentley is offering the same excuses we=E2=80=99ve he=
+ard for
+> half a century to justify laws that disproportionately affect people of
+> color, low-income people, women, young people, and seniors.  It reminds m=
+e
+> of a saying from Arkansas: =E2=80=9CYou find a turtle on a fence post, it=
+ did not
+> get there on its own.=E2=80=9D
+>
+>
+>
+> But for every Republican governor working to dismantle voting rights,
+> there are Americans determined to keep marching forward.  I=E2=80=99m pro=
+ud of the
+> outcry in Alabama from people who have come together to demand better.  I=
+t=E2=80=99s
+> time for Governor Bentley to listen to your voices and reverse the decisi=
+on
+> to close DMV offices in the Black Belt and other rural counties.  But the
+> reforms shouldn=E2=80=99t stop there.  Alabama is one of a handful of sta=
+tes with
+> no early voting=E2=80=94that needs to change.  Alabama should also elimin=
+ate the
+> discriminatory and demeaning state requirement that people provide proof =
+of
+> citizenship along with their voter registration forms=E2=80=94a law model=
+ed on one
+> that has stopped more than 30,000 would-be voters from registering in
+> Kansas.  And they should make sure that Americans who have served time
+> should have their voting rights restored once they=E2=80=99re released.
+>
+>
+>
+> Unfortunately (but not surprisingly), Alabama isn=E2=80=99t an outlier.  =
+Over the
+> past few years, many states have passed laws that make it harder to vote.
+> Since the Supreme Court gutted a key provision of the Voting Rights Act, =
+a
+> dire situation has gotten even worse.  And there are those=E2=80=94includ=
+ing many
+> of the Republican candidates for president=E2=80=94who would continue to =
+push our
+> country in this shameful direction.
+>
+>
+>
+> Jeb Bush says he wouldn=E2=80=99t reauthorize the Voting Rights Act=E2=80=
+=94because it=E2=80=99s
+> gotten easier to vote since it was passed.  As Justice Ginsburg has said,
+> that=E2=80=99s like throwing away your umbrella in a rainstorm because yo=
+u=E2=80=99re not
+> getting wet.  Marco Rubio has supported harsh voter ID laws.  John Kasich
+> restricted early voting in Ohio=E2=80=94a state where 77 percent of early=
+ voters in
+> 2008 were African American.  What part of democracy are they so afraid of=
+?
+>
+>
+>
+> Many of the people who fought and sacrificed for the right to vote are no
+> longer alive to witness these abuses.  But we are.  And we have an
+> obligation to stop the systematic and deliberate effort to disenfranchise
+> voters.
+>
+>
+>
+> First, Congress should put principle ahead of politics and pass the Votin=
+g
+> Rights Advancement Act=E2=80=94a bipartisan bill that would restore the f=
+ull
+> protections of the Voting Rights Act.
+>
+>
+>
+> Second, we should set a standard across this country of at least 20 days
+> of early, in-person voting=E2=80=94including opportunities for weekend an=
+d evening
+> voting.
+>
+>
+>
+> Third, we should go even further.  We need universal, automatic voter
+> registration=E2=80=94so that every young person in every state is automat=
+ically
+> registered to vote when they turn 18, unless they choose to opt out.  I
+> applaud California for implementing this measure last week=E2=80=94an inc=
+redible
+> victory in our most populous state.
+>
+>
+>
+> These steps alone won=E2=80=99t solve all of the challenges we face.  But=
+ we owe
+> it to future generations to fight back against attacks on voting, and to
+> meet this moment with the bravery and determination of those who have com=
+e
+> before us.  It=E2=80=99s time for leaders in every party, at every level =
+of
+> government, to be on the right side of history.
+>
+>
+>
+
+--047d7b15fb232fb1a905224d9095
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=
+=3Dutf-8"></head><body dir=3D"auto"><div>Just to clarify -- the op-ed had a=
+lready been sent to print for the Sunday edition by the time the announceme=
+nt occurred and we were able to take it into effect. But as Lauren said, it=
+&#39;ll be reflected in the online version.=C2=A0<br><br><div><span style=
+=3D"background-color:rgba(255,255,255,0)">--</span></div><div><span style=
+=3D"background-color:rgba(255,255,255,0)">Ian Sams</span></div><div><span s=
+tyle=3D"background-color:rgba(255,255,255,0)">(423) 915-6592</span></div></=
+div><div><br>On Oct 17, 2015, at 10:11 AM, Lauren Peterson &lt;<a href=3D"m=
+ailto:lpeterson@hillaryclinton.com">lpeterson@hillaryclinton.com</a>&gt; wr=
+ote:<br><br></div><div><meta http-equiv=3D"content-type" content=3D"text/ht=
+ml; charset=3Dutf-8"><div>In the op ed or the speech?</div><div><br></div><=
+div>The change we requested in the op ed for the online version is this:=C2=
+=A0</div><div><br></div><div><p class=3D"s4" style=3D"margin-top:0px;margin=
+-bottom:0px"><span style=3D"background-color:rgba(255,255,255,0)"><span cla=
+ss=3D"s5"><span class=3D"bumpedFont15">But for every=C2=A0</span></span><sp=
+an class=3D"s5"><span class=3D"bumpedFont15">Republican governor working to=
+ dismantle voting rights</span></span><span class=3D"s5"><span class=3D"bum=
+pedFont15">=C2=A0across our country</span></span><span class=3D"s5"><span c=
+lass=3D"bumpedFont15">, there are Americans=C2=A0</span></span><span class=
+=3D"s5"><span class=3D"bumpedFont15">determined to keep marching forward. =
+=C2=A0</span></span><span class=3D"s5"><span class=3D"bumpedFont15">I=E2=80=
+=99m p</span></span><span class=3D"s5"><span class=3D"bumpedFont15">roud of=
+=C2=A0</span></span><span class=3D"s5"><span class=3D"bumpedFont15">everyon=
+e in=C2=A0</span></span><span class=3D"s5"><span class=3D"bumpedFont15">Ala=
+bama who=C2=A0</span></span><span class=3D"s5"><span class=3D"bumpedFont15"=
+>leapt to confront=C2=A0</span></span><span class=3D"s5"><span class=3D"bum=
+pedFont15">this=C2=A0</span></span><span class=3D"s5"><span class=3D"bumped=
+Font15">injustice.</span></span><span class=3D"s5"><span class=3D"bumpedFon=
+t15">=C2=A0</span></span><span class=3D"s5"><span class=3D"bumpedFont15"></=
+span></span><span class=3D"s5"><span class=3D"bumpedFont15">The outcry has =
+been so strong, it=E2=80=99s forced politicians in Montgomery to reconsider=
+. =C2=A0</span></span><span class=3D"s5"><span class=3D"bumpedFont15">Gover=
+nor Bentley=C2=A0</span></span><span class=3D"s5"><span class=3D"bumpedFont=
+15">and the legislature=C2=A0</span></span><span class=3D"s5"><span class=
+=3D"bumpedFont15">should=C2=A0</span></span><span class=3D"s5"><span class=
+=3D"bumpedFont15">listen to=C2=A0</span></span><span class=3D"s5"><span cla=
+ss=3D"bumpedFont15">th</span></span><span class=3D"s5"><span class=3D"bumpe=
+dFont15">eir constituents</span></span><span class=3D"s5"><span class=3D"bu=
+mpedFont15">.=C2=A0 Those offices should stay open =E2=80=93 and not just o=
+ne day a month.</span></span></span></p><br><br></div><div><br>On Oct 17, 2=
+015, at 10:04 AM, Nick Merrill &lt;<a href=3D"mailto:nmerrill@hillaryclinto=
+n.com">nmerrill@hillaryclinton.com</a>&gt; wrote:<br><br></div><blockquote =
+type=3D"cite"><div><div dir=3D"ltr">Sitting here with the Op Ed Writer-in-C=
+hief (not you Lauren) talking about this.=C2=A0 Given Bentley&#39;s Friday =
+attempts to walk this back with monthly visits, should we consider insertin=
+g a line that says his proposal doesn&#39;t go far enough, so this is fresh=
+ and accounts for this most recent pronouncements?<div><br></div><div><br><=
+/div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Thu=
+, Oct 15, 2015 at 12:49 AM, Lauren Peterson <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:lpeterson@hillaryclinton.com" target=3D"_blank">lpeterson@hillar=
+yclinton.com</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" sty=
+le=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div d=
+ir=3D"ltr">Hi everyone,<div><br></div><div>Sending around this Birmingham N=
+ews op-ed to coincide with Hillary&#39;s trip to Alabama. The op-ed will ru=
+n this weekend.</div><div><br></div><div>Please take a look and let me know=
+ your thoughts - this reflects preliminary input from many of you, which ha=
+s been much appreciated! I could definitely use research&#39;s eyes on the =
+statistics and the GOP contrast.</div><div><br></div><div>Thanks!</div><div=
+>Lauren</div><div><br></div><div>###</div><div><br></div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">This month, Al=
+abama announced the closing of 31
+driver=E2=80=99s license offices in counties across the state, including th=
+ose in eight
+of the 10 counties with the highest percentage of African Americans.=C2=A0 =
+Despite Governor Bentley=E2=80=99s insistence that
+the decision=E2=80=94which came a year after the state=E2=80=99s voter ID l=
+aw took effect=E2=80=94has
+nothing to do with race, the parallels are inescapable: Alabama is living
+through a blast from the Jim Crow past.</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">It=E2=80=99s h=
+ard to believe that 50 years after Dr. Martin
+Luther King, Jr. marched and Rosa Parks sat and John Lewis bled, Americans =
+are
+still fighting to exercise the most fundamental right in our democracy.=C2=
+=A0 Meanwhile, Governor Bentley is offering the
+same excuses we=E2=80=99ve heard for half a century to justify laws that di=
+sproportionately
+affect people of color, low-income people, women, young people, and seniors=
+.=C2=A0 It reminds me of a saying from Arkansas: =E2=80=9CYou
+find a turtle on a fence post, it did not get there on its own.=E2=80=9D</s=
+pan></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">But for every =
+Republican governor working to dismantle
+voting rights, there are Americans determined to keep marching forward.=C2=
+=A0 I=E2=80=99m proud of the outcry in Alabama from
+people who have come together to demand better. </span><span style=3D"font-=
+size:13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0It=
+=E2=80=99s time for Governor Bentley to listen to your
+voices and reverse the decision to close DMV offices in the Black Belt and
+other rural counties.=C2=A0 But the reforms
+shouldn=E2=80=99t stop there.=C2=A0 Alabama is one of
+a handful of states with no early voting=E2=80=94that needs to change.=C2=
+=A0 Alabama should also eliminate the discriminatory
+and demeaning state requirement that people provide proof of citizenship al=
+ong
+with their voter registration forms=E2=80=94a law modeled on one that has s=
+topped more
+than 30,000 would-be voters from registering in Kansas.=C2=A0 And they shou=
+ld make sure that Americans who
+have served time should have their voting rights restored once they=E2=80=
+=99re
+released. =C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">Unfortunately =
+(but not
+surprisingly), Alabama isn=E2=80=99t an outlier.=C2=A0
+Over the past few years, many states have passed laws that make it
+harder to vote.=C2=A0 Since the Supreme Court
+gutted a key provision of the Voting Rights Act, a dire situation has gotte=
+n
+even worse.=C2=A0 And there are
+those=E2=80=94including many of the Republican candidates for president=E2=
+=80=94who would
+continue to push our country in this shameful direction.</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">Jeb Bush says =
+he wouldn=E2=80=99t reauthorize the
+Voting Rights Act=E2=80=94because it=E2=80=99s gotten easier to vote since =
+it was passed.=C2=A0 As Justice Ginsburg has said, that=E2=80=99s like
+throwing away your umbrella in a rainstorm because you=E2=80=99re not getti=
+ng wet.=C2=A0 Marco Rubio has supported harsh voter ID
+laws.=C2=A0 John Kasich restricted early
+voting in Ohio=E2=80=94a state where 77 percent of early voters in 2008 wer=
+e African
+American.=C2=A0 What part of democracy are
+they so afraid of?</span><span style=3D"font-size:13pt;line-height:150%;fon=
+t-family:&#39;Times New Roman&#39;"></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">M</span><span =
+style=3D"font-size:13pt;line-height:150%;font-family:&#39;Times New Roman&#=
+39;">any of the people who fought
+and sacrificed for the right to vote are no longer alive to witness these
+abuses.=C2=A0 But we are.=C2=A0 And we have an obligation to stop the syste=
+matic
+and deliberate effort to disenfranchise voters.=C2=A0
+</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">First, Congres=
+s should put
+principle ahead of politics and pass the Voting Rights Advancement Act=E2=
+=80=94a
+bipartisan bill that would restore the full protections of the Voting Right=
+s
+Act.</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">Second, we sho=
+uld set a
+standard across this country of at least 20 days of early, in-person
+voting=E2=80=94including opportunities for weekend and evening voting. </sp=
+an></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">Third, we shou=
+ld go even further.=C2=A0 We need universal, automatic voter
+registration=E2=80=94so that every young person in every state is automatic=
+ally
+registered to vote when they turn 18, unless they choose to opt out.=C2=A0 =
+I applaud California for implementing this
+measure last week=E2=80=94an incredible victory in our most populous state.=
+ </span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">These steps al=
+one won=E2=80=99t solve
+all of the challenges we face.=C2=A0 But we
+owe it to future generations to fight back against attacks on voting, and t=
+o
+meet this moment with the bravery and determination of those who have come
+before us. </span><span style=3D"font-size:13pt;line-height:150%;font-famil=
+y:&#39;Times New Roman&#39;">=C2=A0It=E2=80=99s time for leaders in
+every party, at every level of government, to be on the right side of histo=
+ry.</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:150%"><span style=3D"font-size:=
+13pt;line-height:150%;font-family:&#39;Times New Roman&#39;">=C2=A0</span><=
+/p>
+
+</div></div>
+</blockquote></div><br></div>
+</div></blockquote>
+</div></body></html>
+
+--047d7b15fb232fb1a905224d9095--

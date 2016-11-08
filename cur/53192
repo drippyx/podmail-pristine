@@ -1,0 +1,526 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp137778lfb;
+        Mon, 14 Mar 2016 10:29:58 -0700 (PDT)
+X-Received: by 10.66.144.4 with SMTP id si4mr39892148pab.0.1457976598784;
+        Mon, 14 Mar 2016 10:29:58 -0700 (PDT)
+Return-Path: <3FvXmVgQSDFkI5VY89CC1IP3C9EKFE.3FDAF8E.GF45JK17D19C.3FD@calendar-server.bounces.google.com>
+Received: from mail-pa0-x24a.google.com (mail-pa0-x24a.google.com. [2607:f8b0:400e:c03::24a])
+        by mx.google.com with ESMTPS id sk6si3730845pab.138.2016.03.14.10.29.58
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 14 Mar 2016 10:29:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3FvXmVgQSDFkI5VY89CC1IP3C9EKFE.3FDAF8E.GF45JK17D19C.3FD@calendar-server.bounces.google.com designates 2607:f8b0:400e:c03::24a as permitted sender) client-ip=2607:f8b0:400e:c03::24a;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 3FvXmVgQSDFkI5VY89CC1IP3C9EKFE.3FDAF8E.GF45JK17D19C.3FD@calendar-server.bounces.google.com designates 2607:f8b0:400e:c03::24a as permitted sender) smtp.mailfrom=3FvXmVgQSDFkI5VY89CC1IP3C9EKFE.3FDAF8E.GF45JK17D19C.3FD@calendar-server.bounces.google.com;
+       dkim=pass header.i=@google.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=QUARANTINE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pa0-x24a.google.com with SMTP id hj7so9599791pac.0
+        for <john.podesta@gmail.com>; Mon, 14 Mar 2016 10:29:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to;
+        bh=rWo/+X1X3BoESbUU9QPXqT20Jcu4i6nH3/Y8Dod3gmY=;
+        b=kKgewYZcsHtY/3hXlAzEZ1kGaot7R/ZEJn5kLGixZjZZx7TIdRTOKqGZy5xLMg4e7e
+         uyF6koCZgoh4KVGYYT5R88e/AUP/zfhsdKLpwqLmWA2687n3Xq02yWbXpGEqH09+uG7M
+         SdzNdKFs2sZ7hZkuBL1kbsLF1VSEOmPYDgDenbyArB/bsck5K9PBPmpMZmSSiLENEDvR
+         22XhduQ3CS7SeiGLSfluEt1ANHE4gtkFWiKSkDpFgM7RXK5tvnSS3D4OG9rWjXFSVwNT
+         LGUTm6Ro1qvhkdZX2C+0s88Tc8lMo+ysDQczn08r5X2cKKkj35SuYsAW4k/I4bO96TF3
+         ftfQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=mime-version:reply-to:sender:auto-submitted:message-id:date:subject
+         :from:to;
+        bh=rWo/+X1X3BoESbUU9QPXqT20Jcu4i6nH3/Y8Dod3gmY=;
+        b=KZxQ9Xwx3QyrCgDMEaVoX6EOFBKHxhikIue5QZ5Bq0JS5R/HH/8K3zOY2jcT5Ggis6
+         HscI4k4qT/LdbCR5xEJtmvagNhaBqczWknCLHSSEQdtmni/SfeOVt4dxEeyLhhZ8xSh6
+         NRv8zp3BdGYgPlgmjm8Pd+27v0GApuvhf4sWo=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:auto-submitted
+         :message-id:date:subject:from:to;
+        bh=rWo/+X1X3BoESbUU9QPXqT20Jcu4i6nH3/Y8Dod3gmY=;
+        b=C2pG7s2b4zDVY75CRheo0eWCXAtt0i/PtE7oW0GH4TCJAgJEKklu41KpDhBwwGDZ2z
+         nyd8FLXHEYoiMo7ETbaV/CZ5Jyws8zUNWQxe2yzWk7IT7iA9o9UZWTts3Yharc8DSyW6
+         addCHJeKlITN5ojat4WROeJI4YYd2dxvxV9BmsqXLL7d3QgA3PRDWZMXG/gfnypDZnUO
+         ASlOtNUHL4m1U9zEXQTPyW6zuQzVGYJZNcYLiAMU1uPPGBNZX8CItwEtJvqUcd3y3iXU
+         6o3R/pP/1fpy1zzrZT9cpZBq5NYNowSK3gABXR9P7Ww5wXpfHCCJi+IBWpbMhsfx5tsJ
+         RQnw==
+X-Gm-Message-State: AD7BkJLVy/X0r3MdCO+vt+wG3w+e6kIwnMylZPmGoXVvhj7oJPhVUdyE+L0uZKcbV3w/Ku2Yo9MFapPkfgE9UW5T6w==
+MIME-Version: 1.0
+X-Received: by 10.66.142.230 with SMTP id rz6mr19126066pab.31.1457976598420;
+ Mon, 14 Mar 2016 10:29:58 -0700 (PDT)
+Reply-To: kofferdahl@hillaryclinton.com
+Sender: Google Calendar <calendar-notification@google.com>
+Auto-Submitted: auto-generated
+Message-ID: <001a11343bc63d7dc6052e05a187@google.com>
+Date: Mon, 14 Mar 2016 17:29:58 +0000
+Subject: Invitation: Message Call @ Mon Mar 14, 2016 9:30pm - 10:30pm (john.podesta@gmail.com)
+From: re47@hillaryclinton.com
+To: john.podesta@gmail.com, jbenenson@bsgco.com, mona@algpolling.com, 
+ oshur@hillaryclinton.com, ha16@hillaryclinton.com, 
+ dschwerin@hillaryclinton.com, jpalmieri@hillaryclinton.com, 
+ caitlin@grunwald-communications.com, gruncom@aol.com, 
+ jsullivan@hillaryclinton.com, ellen.esterhay@gmmb.com, 
+ nnayak@hillaryclinton.com, sbay@hillaryclinton.com, john@algpolling.com, 
+ scurrie@bsgco.com, David Binder <david@db-research.com>, 
+ jim.margolis@gmmb.com, tgoff@hillaryclinton.com
+Content-Type: multipart/mixed; boundary=001a11343bc63d7d7e052e05a186
+
+--001a11343bc63d7d7e052e05a186
+Content-Type: multipart/alternative; boundary=001a11343bc63d7d78052e05a184
+
+
+--001a11343bc63d7d78052e05a184
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+
+You have been invited to the following event.
+
+Title: Message Call
+When: Mon Mar 14, 2016 9:30pm - 10:30pm Eastern Time
+Where: 718-441-3763, no pin
+Video call:  
+https://plus.google.com/hangouts/_/hillaryclinton.com/message-call  
+<https://plus.google.com/hangouts/_/hillaryclinton.com/message-call?hceid=cmU0N0BoaWxsYXJ5Y2xpbnRvbi5jb20.2m3387q96i4ulbovtut98cesbg>
+Calendar: john.podesta@gmail.com
+Who:
+     * re47@hillaryclinton.com - organizer
+     * kofferdahl@hillaryclinton.com - creator
+     * jbenenson@bsgco.com
+     * mona@algpolling.com
+     * oshur@hillaryclinton.com
+     * ha16@hillaryclinton.com
+     * dschwerin@hillaryclinton.com
+     * jpalmieri@hillaryclinton.com
+     * caitlin@grunwald-communications.com
+     * gruncom@aol.com
+     * jsullivan@hillaryclinton.com
+     * ellen.esterhay@gmmb.com
+     * nnayak@hillaryclinton.com
+     * John Podesta
+     * sbay@hillaryclinton.com
+     * john@algpolling.com
+     * scurrie@bsgco.com
+     * David Binder
+     * jim.margolis@gmmb.com
+     * tgoff@hillaryclinton.com
+
+Event details:  
+https://www.google.com/calendar/event?action=VIEW&eid=Mm0zMzg3cTk2aTR1bGJvdnR1dDk4Y2VzYmcgam9obi5wb2Rlc3RhQG0&tok=MjMjcmU0N0BoaWxsYXJ5Y2xpbnRvbi5jb201Mzk2MTkzMzhlMTkwNmQ1M2M3NTBhYzEwMzBlN2E3OTFjZDUxMzNh&ctz=America/New_York&hl=en
+
+Invitation from Google Calendar: https://www.google.com/calendar/
+
+You are receiving this email at the account john.podesta@gmail.com because  
+you are subscribed for invitations on calendar john.podesta@gmail.com.
+
+To stop receiving these emails, please log in to  
+https://www.google.com/calendar/ and change your notification settings for  
+this calendar.
+
+Forwarding this invitation could allow any recipient to modify your RSVP  
+response. Learn more at  
+https://support.google.com/calendar/answer/37135#forwarding
+
+--001a11343bc63d7d78052e05a184
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<span itemscope itemtype=3D"http://schema.org/InformAction"><span style=3D"=
+display:none" itemprop=3D"about" itemscope itemtype=3D"http://schema.org/Pe=
+rson"><meta itemprop=3D"description" content=3D"Invitation from re47@hillar=
+yclinton.com"/></span><span itemprop=3D"object" itemscope itemtype=3D"http:=
+//schema.org/Event"><div style=3D""><table cellspacing=3D"0" cellpadding=3D=
+"8" border=3D"0" summary=3D"" style=3D"width:100%;font-family:Arial,Sans-se=
+rif;border:1px Solid #ccc;border-width:1px 2px 2px 1px;background-color:#ff=
+f;"><tr><td><meta itemprop=3D"eventStatus" content=3D"http://schema.org/Eve=
+ntScheduled"/><div style=3D"padding:2px"><span itemprop=3D"publisher" items=
+cope itemtype=3D"http://schema.org/Organization"><meta itemprop=3D"name" co=
+ntent=3D"Google Calendar"/></span><meta itemprop=3D"eventId/googleCalendar"=
+ content=3D"2m3387q96i4ulbovtut98cesbg"/><div style=3D"float:right;font-wei=
+ght:bold;font-size:13px"> <a href=3D"https://www.google.com/calendar/event?=
+action=3DVIEW&amp;eid=3DMm0zMzg3cTk2aTR1bGJvdnR1dDk4Y2VzYmcgam9obi5wb2Rlc3R=
+hQG0&amp;tok=3DMjMjcmU0N0BoaWxsYXJ5Y2xpbnRvbi5jb201Mzk2MTkzMzhlMTkwNmQ1M2M3=
+NTBhYzEwMzBlN2E3OTFjZDUxMzNh&amp;ctz=3DAmerica/New_York&amp;hl=3Den" style=
+=3D"color:#20c;white-space:nowrap" itemprop=3D"url">more details &raquo;</a=
+><br></div><h3 style=3D"padding:0 0 6px 0;margin:0;font-family:Arial,Sans-s=
+erif;font-size:16px;font-weight:bold;color:#222"><span itemprop=3D"name">Me=
+ssage Call</span></h3><table cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" summary=3D"Event details"><tr><td style=3D"padding:0 1em 10px 0;font-fam=
+ily:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap" valign=
+=3D"top"><div><i style=3D"font-style:normal">When</i></div></td><td style=
+=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#=
+222" valign=3D"top"><time itemprop=3D"startDate" datetime=3D"20160315T01300=
+0Z"></time><time itemprop=3D"endDate" datetime=3D"20160315T023000Z"></time>=
+Mon Mar 14, 2016 9:30pm &ndash; 10:30pm <span style=3D"color:#888">Eastern =
+Time</span></td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Aria=
+l,Sans-serif;font-size:13px;color:#888;white-space:nowrap" valign=3D"top"><=
+div><i style=3D"font-style:normal">Where</i></div></td><td style=3D"padding=
+-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=
+=3D"top"><span itemprop=3D"location" itemscope itemtype=3D"http://schema.or=
+g/Place"><span itemprop=3D"name">718-441-3763, no pin</span><span dir=3D"lt=
+r"> (<a href=3D"https://maps.google.com/maps?q=3D718-441-3763,+no+pin&amp;h=
+l=3Den" style=3D"color:#20c;white-space:nowrap" target=3D"_blank" itemprop=
+=3D"map">map</a>)</span></span></td></tr><tr><td style=3D"padding:0 1em 10p=
+x 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowr=
+ap" valign=3D"top"><div><i style=3D"font-style:normal">Video call</i></div>=
+</td><td style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-siz=
+e:13px;color:#222" valign=3D"top"><span itemprop=3D"potentialaction" itemsc=
+ope itemtype=3D"http://schema.org/JoinAction"><span itemprop=3D"name" conte=
+nt=3D"https://plus.google.com/hangouts/_/hillaryclinton.com/message-call"/>=
+<span itemprop=3D"target" itemscope itemtype=3D"http://schema.org/EntryPoin=
+t"><span itemprop=3D"url" content=3D"https://plus.google.com/hangouts/_/hil=
+laryclinton.com/message-call?hceid=3DcmU0N0BoaWxsYXJ5Y2xpbnRvbi5jb20.2m3387=
+q96i4ulbovtut98cesbg"/><span itemprop=3D"httpMethod" content=3D"GET"/><a hr=
+ef=3D"https://plus.google.com/hangouts/_/hillaryclinton.com/message-call?hc=
+eid=3DcmU0N0BoaWxsYXJ5Y2xpbnRvbi5jb20.2m3387q96i4ulbovtut98cesbg" style=3D"=
+color:#20c;white-space:nowrap" target=3D"_blank">https://plus.google.com/ha=
+ngouts/_/hillaryclinton.com/message-call</a></span></span></td></tr><tr><td=
+ style=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;=
+color:#888;white-space:nowrap" valign=3D"top"><div><i style=3D"font-style:n=
+ormal">Calendar</i></div></td><td style=3D"padding-bottom:10px;font-family:=
+Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top">john.podesta@gma=
+il.com</td></tr><tr><td style=3D"padding:0 1em 10px 0;font-family:Arial,San=
+s-serif;font-size:13px;color:#888;white-space:nowrap" valign=3D"top"><div><=
+i style=3D"font-style:normal">Who</i></div></td><td style=3D"padding-bottom=
+:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top=
+"><table cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"padding-right=
+:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style=
+=3D"font-family:Courier New,monospace">&#x2022;</span></td><td style=3D"pad=
+ding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><di=
+v><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope i=
+temtype=3D"http://schema.org/Person"><span itemprop=3D"name">re47@hillarycl=
+inton.com</span><meta itemprop=3D"email" content=3D"re47@hillaryclinton.com=
+"/></span><span itemprop=3D"organizer" itemscope itemtype=3D"http://schema.=
+org/Person"><meta itemprop=3D"name" content=3D"re47@hillaryclinton.com"/><m=
+eta itemprop=3D"email" content=3D"re47@hillaryclinton.com"/></span><span st=
+yle=3D"font-size:11px;color:#888"> - organizer</span></div></div></td></tr>=
+<tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:=
+13px;color:#222"><span style=3D"font-family:Courier New,monospace">&#x2022;=
+</span></td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;fo=
+nt-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemp=
+rop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><span item=
+prop=3D"name">kofferdahl@hillaryclinton.com</span><meta itemprop=3D"email" =
+content=3D"kofferdahl@hillaryclinton.com"/></span><span style=3D"font-size:=
+11px;color:#888"> - creator</span></div></div></td></tr><tr><td style=3D"pa=
+dding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><s=
+pan style=3D"font-family:Courier New,monospace">&#x2022;</span></td><td sty=
+le=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:=
+#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" it=
+emscope itemtype=3D"http://schema.org/Person"><span itemprop=3D"name">jbene=
+nson@bsgco.com</span><meta itemprop=3D"email" content=3D"jbenenson@bsgco.co=
+m"/></span></div></div></td></tr><tr><td style=3D"padding-right:10px;font-f=
+amily:Arial,Sans-serif;font-size:13px;color:#222"><span style=3D"font-famil=
+y:Courier New,monospace">&#x2022;</span></td><td style=3D"padding-right:10p=
+x;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style=
+=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope itemtype=3D"h=
+ttp://schema.org/Person"><span itemprop=3D"name">mona@algpolling.com</span>=
+<meta itemprop=3D"email" content=3D"mona@algpolling.com"/></span></div></di=
+v></td></tr><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-seri=
+f;font-size:13px;color:#222"><span style=3D"font-family:Courier New,monospa=
+ce">&#x2022;</span></td><td style=3D"padding-right:10px;font-family:Arial,S=
+ans-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"=
+><span itemprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person=
+"><span itemprop=3D"name">oshur@hillaryclinton.com</span><meta itemprop=3D"=
+email" content=3D"oshur@hillaryclinton.com"/></span></div></div></td></tr><=
+tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:1=
+3px;color:#222"><span style=3D"font-family:Courier New,monospace">&#x2022;<=
+/span></td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;fon=
+t-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itempr=
+op=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><span itemp=
+rop=3D"name">ha16@hillaryclinton.com</span><meta itemprop=3D"email" content=
+=3D"ha16@hillaryclinton.com"/></span></div></div></td></tr><tr><td style=3D=
+"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"=
+><span style=3D"font-family:Courier New,monospace">&#x2022;</span></td><td =
+style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;col=
+or:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee"=
+ itemscope itemtype=3D"http://schema.org/Person"><span itemprop=3D"name">ds=
+chwerin@hillaryclinton.com</span><meta itemprop=3D"email" content=3D"dschwe=
+rin@hillaryclinton.com"/></span></div></div></td></tr><tr><td style=3D"padd=
+ing-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><spa=
+n style=3D"font-family:Courier New,monospace">&#x2022;</span></td><td style=
+=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#2=
+22"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" item=
+scope itemtype=3D"http://schema.org/Person"><span itemprop=3D"name">jpalmie=
+ri@hillaryclinton.com</span><meta itemprop=3D"email" content=3D"jpalmieri@h=
+illaryclinton.com"/></span></div></div></td></tr><tr><td style=3D"padding-r=
+ight:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span sty=
+le=3D"font-family:Courier New,monospace">&#x2022;</span></td><td style=3D"p=
+adding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><=
+div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope=
+ itemtype=3D"http://schema.org/Person"><span itemprop=3D"name">caitlin@grun=
+wald-communications.com</span><meta itemprop=3D"email" content=3D"caitlin@g=
+runwald-communications.com"/></span></div></div></td></tr><tr><td style=3D"=
+padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222">=
+<span style=3D"font-family:Courier New,monospace">&#x2022;</span></td><td s=
+tyle=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;colo=
+r:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" =
+itemscope itemtype=3D"http://schema.org/Person"><span itemprop=3D"name">gru=
+ncom@aol.com</span><meta itemprop=3D"email" content=3D"gruncom@aol.com"/></=
+span></div></div></td></tr><tr><td style=3D"padding-right:10px;font-family:=
+Arial,Sans-serif;font-size:13px;color:#222"><span style=3D"font-family:Cour=
+ier New,monospace">&#x2022;</span></td><td style=3D"padding-right:10px;font=
+-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style=3D"marg=
+in:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope itemtype=3D"http://sc=
+hema.org/Person"><span itemprop=3D"name">jsullivan@hillaryclinton.com</span=
+><meta itemprop=3D"email" content=3D"jsullivan@hillaryclinton.com"/></span>=
+</div></div></td></tr><tr><td style=3D"padding-right:10px;font-family:Arial=
+,Sans-serif;font-size:13px;color:#222"><span style=3D"font-family:Courier N=
+ew,monospace">&#x2022;</span></td><td style=3D"padding-right:10px;font-fami=
+ly:Arial,Sans-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 =
+0 0.3em 0"><span itemprop=3D"attendee" itemscope itemtype=3D"http://schema.=
+org/Person"><span itemprop=3D"name">ellen.esterhay@gmmb.com</span><meta ite=
+mprop=3D"email" content=3D"ellen.esterhay@gmmb.com"/></span></div></div></t=
+d></tr><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;fon=
+t-size:13px;color:#222"><span style=3D"font-family:Courier New,monospace">&=
+#x2022;</span></td><td style=3D"padding-right:10px;font-family:Arial,Sans-s=
+erif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><spa=
+n itemprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><sp=
+an itemprop=3D"name">nnayak@hillaryclinton.com</span><meta itemprop=3D"emai=
+l" content=3D"nnayak@hillaryclinton.com"/></span></div></div></td></tr><tr>=
+<td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px=
+;color:#222"><span style=3D"font-family:Courier New,monospace">&#x2022;</sp=
+an></td><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;font-s=
+ize:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=
+=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><span itempro=
+p=3D"name">John Podesta</span><meta itemprop=3D"email" content=3D"john.pode=
+sta@gmail.com"/></span></div></div></td></tr><tr><td style=3D"padding-right=
+:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><span style=
+=3D"font-family:Courier New,monospace">&#x2022;</span></td><td style=3D"pad=
+ding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><di=
+v><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope i=
+temtype=3D"http://schema.org/Person"><span itemprop=3D"name">sbay@hillarycl=
+inton.com</span><meta itemprop=3D"email" content=3D"sbay@hillaryclinton.com=
+"/></span></div></div></td></tr><tr><td style=3D"padding-right:10px;font-fa=
+mily:Arial,Sans-serif;font-size:13px;color:#222"><span style=3D"font-family=
+:Courier New,monospace">&#x2022;</span></td><td style=3D"padding-right:10px=
+;font-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style=3D=
+"margin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope itemtype=3D"http=
+://schema.org/Person"><span itemprop=3D"name">john@algpolling.com</span><me=
+ta itemprop=3D"email" content=3D"john@algpolling.com"/></span></div></div><=
+/td></tr><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;f=
+ont-size:13px;color:#222"><span style=3D"font-family:Courier New,monospace"=
+>&#x2022;</span></td><td style=3D"padding-right:10px;font-family:Arial,Sans=
+-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><s=
+pan itemprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person"><=
+span itemprop=3D"name">scurrie@bsgco.com</span><meta itemprop=3D"email" con=
+tent=3D"scurrie@bsgco.com"/></span></div></div></td></tr><tr><td style=3D"p=
+adding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color:#222"><=
+span style=3D"font-family:Courier New,monospace">&#x2022;</span></td><td st=
+yle=3D"padding-right:10px;font-family:Arial,Sans-serif;font-size:13px;color=
+:#222"><div><div style=3D"margin:0 0 0.3em 0"><span itemprop=3D"attendee" i=
+temscope itemtype=3D"http://schema.org/Person"><span itemprop=3D"name">Davi=
+d Binder</span><meta itemprop=3D"email" content=3D"david@db-research.com"/>=
+</span></div></div></td></tr><tr><td style=3D"padding-right:10px;font-famil=
+y:Arial,Sans-serif;font-size:13px;color:#222"><span style=3D"font-family:Co=
+urier New,monospace">&#x2022;</span></td><td style=3D"padding-right:10px;fo=
+nt-family:Arial,Sans-serif;font-size:13px;color:#222"><div><div style=3D"ma=
+rgin:0 0 0.3em 0"><span itemprop=3D"attendee" itemscope itemtype=3D"http://=
+schema.org/Person"><span itemprop=3D"name">jim.margolis@gmmb.com</span><met=
+a itemprop=3D"email" content=3D"jim.margolis@gmmb.com"/></span></div></div>=
+</td></tr><tr><td style=3D"padding-right:10px;font-family:Arial,Sans-serif;=
+font-size:13px;color:#222"><span style=3D"font-family:Courier New,monospace=
+">&#x2022;</span></td><td style=3D"padding-right:10px;font-family:Arial,San=
+s-serif;font-size:13px;color:#222"><div><div style=3D"margin:0 0 0.3em 0"><=
+span itemprop=3D"attendee" itemscope itemtype=3D"http://schema.org/Person">=
+<span itemprop=3D"name">tgoff@hillaryclinton.com</span><meta itemprop=3D"em=
+ail" content=3D"tgoff@hillaryclinton.com"/></span></div></div></td></tr></t=
+able></td></tr></table></div><p style=3D"color:#222;font-size:13px;margin:0=
+"><span style=3D"color:#888">Going?&nbsp;&nbsp;&nbsp;</span><wbr><strong><s=
+pan itemprop=3D"potentialaction" itemscope itemtype=3D"http://schema.org/Rs=
+vpAction"><meta itemprop=3D"attendance" content=3D"http://schema.org/RsvpAt=
+tendance/Yes"/><span itemprop=3D"handler" itemscope itemtype=3D"http://sche=
+ma.org/HttpActionHandler"><link itemprop=3D"method" href=3D"http://schema.o=
+rg/HttpRequestMethod/GET"/><a href=3D"https://www.google.com/calendar/event=
+?action=3DRESPOND&amp;eid=3DMm0zMzg3cTk2aTR1bGJvdnR1dDk4Y2VzYmcgam9obi5wb2R=
+lc3RhQG0&amp;rst=3D1&amp;tok=3DMjMjcmU0N0BoaWxsYXJ5Y2xpbnRvbi5jb201Mzk2MTkz=
+MzhlMTkwNmQ1M2M3NTBhYzEwMzBlN2E3OTFjZDUxMzNh&amp;ctz=3DAmerica/New_York&amp=
+;hl=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">Yes</a><=
+/span></span><span style=3D"margin:0 0.4em;font-weight:normal"> - </span><s=
+pan itemprop=3D"potentialaction" itemscope itemtype=3D"http://schema.org/Rs=
+vpAction"><meta itemprop=3D"attendance" content=3D"http://schema.org/RsvpAt=
+tendance/Maybe"/><span itemprop=3D"handler" itemscope itemtype=3D"http://sc=
+hema.org/HttpActionHandler"><link itemprop=3D"method" href=3D"http://schema=
+.org/HttpRequestMethod/GET"/><a href=3D"https://www.google.com/calendar/eve=
+nt?action=3DRESPOND&amp;eid=3DMm0zMzg3cTk2aTR1bGJvdnR1dDk4Y2VzYmcgam9obi5wb=
+2Rlc3RhQG0&amp;rst=3D3&amp;tok=3DMjMjcmU0N0BoaWxsYXJ5Y2xpbnRvbi5jb201Mzk2MT=
+kzMzhlMTkwNmQ1M2M3NTBhYzEwMzBlN2E3OTFjZDUxMzNh&amp;ctz=3DAmerica/New_York&a=
+mp;hl=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">Maybe<=
+/a></span></span><span style=3D"margin:0 0.4em;font-weight:normal"> - </spa=
+n><span itemprop=3D"potentialaction" itemscope itemtype=3D"http://schema.or=
+g/RsvpAction"><meta itemprop=3D"attendance" content=3D"http://schema.org/Rs=
+vpAttendance/No"/><span itemprop=3D"handler" itemscope itemtype=3D"http://s=
+chema.org/HttpActionHandler"><link itemprop=3D"method" href=3D"http://schem=
+a.org/HttpRequestMethod/GET"/><a href=3D"https://www.google.com/calendar/ev=
+ent?action=3DRESPOND&amp;eid=3DMm0zMzg3cTk2aTR1bGJvdnR1dDk4Y2VzYmcgam9obi5w=
+b2Rlc3RhQG0&amp;rst=3D2&amp;tok=3DMjMjcmU0N0BoaWxsYXJ5Y2xpbnRvbi5jb201Mzk2M=
+TkzMzhlMTkwNmQ1M2M3NTBhYzEwMzBlN2E3OTFjZDUxMzNh&amp;ctz=3DAmerica/New_York&=
+amp;hl=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=3D"url">No</a=
+></span></span></strong>&nbsp;&nbsp;&nbsp;&nbsp;<wbr><a href=3D"https://www=
+.google.com/calendar/event?action=3DVIEW&amp;eid=3DMm0zMzg3cTk2aTR1bGJvdnR1=
+dDk4Y2VzYmcgam9obi5wb2Rlc3RhQG0&amp;tok=3DMjMjcmU0N0BoaWxsYXJ5Y2xpbnRvbi5jb=
+201Mzk2MTkzMzhlMTkwNmQ1M2M3NTBhYzEwMzBlN2E3OTFjZDUxMzNh&amp;ctz=3DAmerica/N=
+ew_York&amp;hl=3Den" style=3D"color:#20c;white-space:nowrap" itemprop=3D"ur=
+l">more options &raquo;</a></p></td></tr><tr><td style=3D"background-color:=
+#f6f6f6;color:#888;border-top:1px Solid #ccc;font-family:Arial,Sans-serif;f=
+ont-size:11px"><p>Invitation from <a href=3D"https://www.google.com/calenda=
+r/" target=3D"_blank" style=3D"">Google Calendar</a></p><p>You are receivin=
+g this email at the account john.podesta@gmail.com because you are subscrib=
+ed for invitations on calendar john.podesta@gmail.com.</p><p>To stop receiv=
+ing these emails, please log in to https://www.google.com/calendar/ and cha=
+nge your notification settings for this calendar.</p><p>Forwarding this inv=
+itation could allow any recipient to modify your RSVP response. <a href=3D"=
+https://support.google.com/calendar/answer/37135#forwarding">Learn More</a>=
+.</p></td></tr></table></div></span></span>
+--001a11343bc63d7d78052e05a184
+Content-Type: text/calendar; charset=UTF-8; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20160315T013000Z
+DTEND:20160315T023000Z
+DTSTAMP:20160314T172958Z
+ORGANIZER;CN=re47@hillaryclinton.com:mailto:re47@hillaryclinton.com
+UID:2m3387q96i4ulbovtut98cesbg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jbenenson@bsgco.com;X-NUM-GUESTS=0:mailto:jbenenson@bsgco.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=mona@algpolling.com;X-NUM-GUESTS=0:mailto:mona@algpolling.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=oshur@hillaryclinton.com;X-NUM-GUESTS=0:mailto:oshur@hillaryclinton
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=ha16@hillaryclinton.com;X-NUM-GUESTS=0:mailto:ha16@hillaryclinton.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=dschwerin@hillaryclinton.com;X-NUM-GUESTS=0:mailto:dschwerin@hillar
+ yclinton.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jpalmieri@hillaryclinton.com;X-NUM-GUESTS=0:mailto:jpalmieri@hillar
+ yclinton.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=caitlin@grunwald-communications.com;X-NUM-GUESTS=0:mailto:caitlin@g
+ runwald-communications.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=gruncom@aol.com;X-NUM-GUESTS=0:mailto:gruncom@aol.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jsullivan@hillaryclinton.com;X-NUM-GUESTS=0:mailto:jsullivan@hillar
+ yclinton.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=ellen.esterhay@gmmb.com;X-NUM-GUESTS=0:mailto:ellen.esterhay@gmmb.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=nnayak@hillaryclinton.com;X-NUM-GUESTS=0:mailto:nnayak@hillaryclint
+ on.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=John Podesta;X-NUM-GUESTS=0:mailto:john.podesta@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sbay@hillaryclinton.com;X-NUM-GUESTS=0:mailto:sbay@hillaryclinton.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=john@algpolling.com;X-NUM-GUESTS=0:mailto:john@algpolling.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=scurrie@bsgco.com;X-NUM-GUESTS=0:mailto:scurrie@bsgco.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=David Binder;X-NUM-GUESTS=0:mailto:david@db-research.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=re47@hillaryclinton.com;X-NUM-GUESTS=0:mailto:re47@hillaryclinton.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jim.margolis@gmmb.com;X-NUM-GUESTS=0:mailto:jim.margolis@gmmb.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=tgoff@hillaryclinton.com;X-NUM-GUESTS=0:mailto:tgoff@hillaryclinton
+ .com
+CREATED:20160314T172956Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?action
+ =VIEW&eid=Mm0zMzg3cTk2aTR1bGJvdnR1dDk4Y2VzYmcgam9obi5wb2Rlc3RhQG0&tok=MjMjc
+ mU0N0BoaWxsYXJ5Y2xpbnRvbi5jb201Mzk2MTkzMzhlMTkwNmQ1M2M3NTBhYzEwMzBlN2E3OTFj
+ ZDUxMzNh&ctz=America/New_York&hl=en.
+LAST-MODIFIED:20160314T172957Z
+LOCATION:718-441-3763\, no pin
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Message Call
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--001a11343bc63d7d78052e05a184--
+
+--001a11343bc63d7d7e052e05a186
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpQUk9ESUQ6LS8vR29vZ2xlIEluYy8vR29vZ2xlIENhbGVuZGFyIDcw
+LjkwNTQvL0VODQpWRVJTSU9OOjIuMA0KQ0FMU0NBTEU6R1JFR09SSUFODQpNRVRIT0Q6UkVRVUVT
+VA0KQkVHSU46VkVWRU5UDQpEVFNUQVJUOjIwMTYwMzE1VDAxMzAwMFoNCkRURU5EOjIwMTYwMzE1
+VDAyMzAwMFoNCkRUU1RBTVA6MjAxNjAzMTRUMTcyOTU4Wg0KT1JHQU5JWkVSO0NOPXJlNDdAaGls
+bGFyeWNsaW50b24uY29tOm1haWx0bzpyZTQ3QGhpbGxhcnljbGludG9uLmNvbQ0KVUlEOjJtMzM4
+N3E5Nmk0dWxib3Z0dXQ5OGNlc2JnQGdvb2dsZS5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklE
+VUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRS
+VUU7Q049amJlbmVuc29uQGJzZ2NvLmNvbTtYLU5VTS1HVUVTVFM9MDptYWlsdG86amJlbmVuc29u
+QGJzZ2NvLmNvbQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBB
+TlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1tb25hQGFsZ3BvbGxpbmcu
+Y29tO1gtTlVNLUdVRVNUUz0wOm1haWx0bzptb25hQGFsZ3BvbGxpbmcuY29tDQpBVFRFTkRFRTtD
+VVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJ
+T047UlNWUD0NCiBUUlVFO0NOPW9zaHVyQGhpbGxhcnljbGludG9uLmNvbTtYLU5VTS1HVUVTVFM9
+MDptYWlsdG86b3NodXJAaGlsbGFyeWNsaW50b24NCiAuY29tDQpBVFRFTkRFRTtDVVRZUEU9SU5E
+SVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0N
+CiBUUlVFO0NOPWhhMTZAaGlsbGFyeWNsaW50b24uY29tO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpo
+YTE2QGhpbGxhcnljbGludG9uLmMNCiBvbQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9M
+RT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1k
+c2Nod2VyaW5AaGlsbGFyeWNsaW50b24uY29tO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpkc2Nod2Vy
+aW5AaGlsbGFyDQogeWNsaW50b24uY29tDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xF
+PVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPWpw
+YWxtaWVyaUBoaWxsYXJ5Y2xpbnRvbi5jb207WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmpwYWxtaWVy
+aUBoaWxsYXINCiB5Y2xpbnRvbi5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9
+UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049Y2Fp
+dGxpbkBncnVud2FsZC1jb21tdW5pY2F0aW9ucy5jb207WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmNh
+aXRsaW5AZw0KIHJ1bndhbGQtY29tbXVuaWNhdGlvbnMuY29tDQpBVFRFTkRFRTtDVVRZUEU9SU5E
+SVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0N
+CiBUUlVFO0NOPWdydW5jb21AYW9sLmNvbTtYLU5VTS1HVUVTVFM9MDptYWlsdG86Z3J1bmNvbUBh
+b2wuY29tDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQ
+QVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPWpzdWxsaXZhbkBoaWxsYXJ5Y2xp
+bnRvbi5jb207WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmpzdWxsaXZhbkBoaWxsYXINCiB5Y2xpbnRv
+bi5jb20NCkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BB
+UlRTVEFUPU5FRURTLUFDVElPTjtSU1ZQPQ0KIFRSVUU7Q049ZWxsZW4uZXN0ZXJoYXlAZ21tYi5j
+b207WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmVsbGVuLmVzdGVyaGF5QGdtbWIuYw0KIG9tDQpBVFRF
+TkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVE
+Uy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPW5uYXlha0BoaWxsYXJ5Y2xpbnRvbi5jb207WC1OVU0t
+R1VFU1RTPTA6bWFpbHRvOm5uYXlha0BoaWxsYXJ5Y2xpbnQNCiBvbi5jb20NCkFUVEVOREVFO0NV
+VFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElP
+TjtSU1ZQPQ0KIFRSVUU7Q049Sm9obiBQb2Rlc3RhO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpqb2hu
+LnBvZGVzdGFAZ21haWwuY29tDQpBVFRFTkRFRTtDVVRZUEU9SU5ESVZJRFVBTDtST0xFPVJFUS1Q
+QVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD0NCiBUUlVFO0NOPXNiYXlAaGls
+bGFyeWNsaW50b24uY29tO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpzYmF5QGhpbGxhcnljbGludG9u
+LmMNCiBvbQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7
+UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1qb2huQGFsZ3BvbGxpbmcuY29t
+O1gtTlVNLUdVRVNUUz0wOm1haWx0bzpqb2huQGFsZ3BvbGxpbmcuY29tDQpBVFRFTkRFRTtDVVRZ
+UEU9SU5ESVZJRFVBTDtST0xFPVJFUS1QQVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047
+UlNWUD0NCiBUUlVFO0NOPXNjdXJyaWVAYnNnY28uY29tO1gtTlVNLUdVRVNUUz0wOm1haWx0bzpz
+Y3VycmllQGJzZ2NvLmNvbQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFS
+VElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj1EYXZpZCBCaW5k
+ZXI7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmRhdmlkQGRiLXJlc2VhcmNoLmNvbQ0KQVRURU5ERUU7
+Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9QUNDRVBURUQ7
+UlNWUD1UUlVFDQogO0NOPXJlNDdAaGlsbGFyeWNsaW50b24uY29tO1gtTlVNLUdVRVNUUz0wOm1h
+aWx0bzpyZTQ3QGhpbGxhcnljbGludG9uLmNvbQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7
+Uk9MRT1SRVEtUEFSVElDSVBBTlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtD
+Tj1qaW0ubWFyZ29saXNAZ21tYi5jb207WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmppbS5tYXJnb2xp
+c0BnbW1iLmNvbQ0KQVRURU5ERUU7Q1VUWVBFPUlORElWSURVQUw7Uk9MRT1SRVEtUEFSVElDSVBB
+TlQ7UEFSVFNUQVQ9TkVFRFMtQUNUSU9OO1JTVlA9DQogVFJVRTtDTj10Z29mZkBoaWxsYXJ5Y2xp
+bnRvbi5jb207WC1OVU0tR1VFU1RTPTA6bWFpbHRvOnRnb2ZmQGhpbGxhcnljbGludG9uDQogLmNv
+bQ0KQ1JFQVRFRDoyMDE2MDMxNFQxNzI5NTZaDQpERVNDUklQVElPTjpWaWV3IHlvdXIgZXZlbnQg
+YXQgaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci9ldmVudD9hY3Rpb24NCiA9VklFVyZl
+aWQ9TW0wek16ZzNjVGsyYVRSMWJHSnZkblIxZERrNFkyVnpZbWNnYW05b2JpNXdiMlJsYzNSaFFH
+MCZ0b2s9TWpNamMNCiBtVTBOMEJvYVd4c1lYSjVZMnhwYm5SdmJpNWpiMjAxTXprMk1Ua3pNemhs
+TVRrd05tUTFNMk0zTlRCaFl6RXdNekJsTjJFM09URmoNCiBaRFV4TXpOaCZjdHo9QW1lcmljYS9O
+ZXdfWW9yayZobD1lbi4NCkxBU1QtTU9ESUZJRUQ6MjAxNjAzMTRUMTcyOTU3Wg0KTE9DQVRJT046
+NzE4LTQ0MS0zNzYzXCwgbm8gcGluDQpTRVFVRU5DRTowDQpTVEFUVVM6Q09ORklSTUVEDQpTVU1N
+QVJZOk1lc3NhZ2UgQ2FsbA0KVFJBTlNQOk9QQVFVRQ0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRB
+Ug0K
+--001a11343bc63d7d7e052e05a186--

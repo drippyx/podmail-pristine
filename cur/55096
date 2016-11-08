@@ -1,0 +1,560 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp2246540lfb;
+        Mon, 7 Dec 2015 09:14:05 -0800 (PST)
+X-Received: by 10.141.0.194 with SMTP id b185mr40189669qhd.23.1449508445660;
+        Mon, 07 Dec 2015 09:14:05 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bl2-obe.outbound.protection.outlook.com (mail-bl2on0078.outbound.protection.outlook.com. [65.55.169.78])
+        by mx.google.com with ESMTPS id b49si27625441qge.10.2015.12.07.09.14.05
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 07 Dec 2015 09:14:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 65.55.169.78 as permitted sender) client-ip=65.55.169.78;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 65.55.169.78 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=neutral (body hash did not verify) header.i=@bounce.myngp.com
+Received: from SN1PR0701CA0014.namprd07.prod.outlook.com (10.162.96.24) by
+ DM2PR07MB542.namprd07.prod.outlook.com (10.141.157.142) with Microsoft SMTP
+ Server (TLS) id 15.1.331.20; Mon, 7 Dec 2015 17:14:04 +0000
+Received: from BN1BFFO11FD020.protection.gbl (2a01:111:f400:7c10::1:113) by
+ SN1PR0701CA0014.outlook.office365.com (2a01:111:e400:5173::24) with Microsoft
+ SMTP Server (TLS) id 15.1.337.19 via Frontend Transport; Mon, 7 Dec 2015
+ 17:14:03 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.myngp.com;gmail.com; dmarc=none action=none
+ header.from=iowademocrats.org;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BN1BFFO11FD020.mail.protection.outlook.com (10.58.144.83) with Microsoft SMTP
+ Server (TLS) id 15.1.337.8 via Frontend Transport; Mon, 7 Dec 2015 17:14:03
+ +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bl2-obe.outbound.protection.outlook.com (141.161.191.14)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Mon, 7 Dec 2015 12:13:47 -0500
+Received: from SN1PR07CA0014.namprd07.prod.outlook.com (10.162.170.152) by
+ BY2PR07MB108.namprd07.prod.outlook.com (10.242.46.154) with Microsoft SMTP
+ Server (TLS) id 15.1.331.20; Mon, 7 Dec 2015 17:13:46 +0000
+Received: from BL2FFO11OLC003.protection.gbl (2a01:111:f400:7c09::111) by
+ SN1PR07CA0014.outlook.office365.com (2a01:111:e400:3000::24) with Microsoft
+ SMTP Server (TLS) id 15.1.337.19 via Frontend Transport; Mon, 7 Dec 2015
+ 17:13:46 +0000
+Authentication-Results: spf=pass (sender IP is 8.21.238.165)
+ smtp.mailfrom=bounce.myngp.com; law.georgetown.edu; dkim=pass (signature was
+ verified) header.d=bounce.myngp.com;law.georgetown.edu; dmarc=none
+ action=none header.from=iowademocrats.org;
+Received-SPF: Pass (protection.outlook.com: domain of bounce.myngp.com
+ designates 8.21.238.165 as permitted sender) receiver=protection.outlook.com;
+ client-ip=8.21.238.165; helo=mailout291.ngpweb.com;
+Received: from mailout291.ngpweb.com (8.21.238.165) by
+ BL2FFO11OLC003.mail.protection.outlook.com (10.173.161.187) with Microsoft
+ SMTP Server id 15.1.337.8 via Frontend Transport; Mon, 7 Dec 2015 17:13:46
+ +0000
+Return-Path: podesta@law.georgetown.edu
+DKIM-Signature: v=1; a=rsa-sha1; d=bounce.myngp.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; i=@bounce.myngp.com; t=1449508426;
+	h=Sender:From:Subject:List-Unsubscribe:Date:To:Reply-To:Message-ID:MIME-Version:
+	Content-Type;
+	bh=Hbee2qPIu1jzfP6KDFxPlnO52ig=;
+	b=/gwOdNqx8uzicWj2WSy6PpmSBJZlTlCgNkPav31ut4BPmTuwGpTbe1NbIiOnhwDD
+	dg85/B5FQ1PsxRu5kEn13c9/OeMXm+6ptxxhvDIhrX37W6bJ9V/8N/uieyDa4Jcq
+	n++VlAeMCAZtj44jJZnpesvINtl0Ue3RxeajDn0iPd8=;
+X-MSFBL: cG9kZXN0YUBsYXcuZ2VvcmdldG93bi5lZHVAbWFpbG91dDI5MUBkZWZhdWx0Z3Jv
+	dXAwNkBib3VuY2VfMjQwMDAwMDEzMTQxODg5Nl9wb2Qy
+Received: from [10.0.1.172] ([10.0.1.172:59921] helo=OBPROD13)	by nvmta03
+ (envelope-from <bounce_2400000131418896_pod2@bounce.myngp.com>)	(ecelerity
+ 3.6.3.44158 r(Platform:3.6.3.2)) with ESMTP	id 84/A2-03400-A4EB5665; Mon, 07
+ Dec 2015 12:13:46 -0500
+Sender: =?UTF-8?B?TWlrZSBGcm9zb2xvbmU=?= <bounce@bounce.myngp.com>
+X-Binding: default
+Reply-To: <iowahouse@iowademocrats.org>
+From: Mike Frosolone <mikefrosolone@iowademocrats.org>
+To: John Podesta <podesta@law.georgetown.edu>
+Message-ID: <976d6115595b47e3bd15d22c6a048731@iowademocrats.org>
+Date: Mon, 7 Dec 2015 12:13:46 -0500
+Subject: Re: Scandal
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----7A87C40FDFB44EFCA2382462F03E2BDD"
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11OLC003;1:21DZQ+EvWpFC8nZvIcD41FsabUQMn7qVcGwlok9RfL7MVWrtih0ldC6dHd/MaMNqXeJGYPFiLexnteiTRJsSnOgUL0YZJYVBsrwXs8GZo6+eInquGRAKSUhh2jZSt8kSjKXmQEQWZROztnfZt4jA0Ouqrj7ONsmLjZqZbzFXpS2ZjBnfefYA9eSk0wOSJBK6k8kY8qCyg8GM3lZ2K8Ag+7q0U0JT/NDYp6PuGYeE21ZMneXqZ8TAmjl5zWMEn48X2FIMcmsBhzUThy7W2LQMZfIJfPcXsJ8cBF8Fsv1o+UkR25U+AQTAHF+uqvPowoEHo45uazAgNv88A9+bP55O/hvY0IuhmvAmMok7wHbgIetCaGIfUKmh5Hfr6C1tnvoT3QKKhpqYNNzUY36fSPkKmkdai7YKhUap63tsAil9Yw4=
+X-Forefront-Antispam-Report-Untrusted: CIP:8.21.238.165;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31640200002)(2980300002)(438002)(359002)(189002)(199003)(349900001)(377454003)(349012);DIR:INB;SFP:;SCL:9;SRVR:BY2PR07MB108;H:mailout291.ngpweb.com;FPR:;SPF:Pass;PTR:mailout291.ngpweb.com;MX:1;A:0;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB108;2:2N2+eRAz6BAuVbmv6WF7DbP8dASOLRSeJt/CrXo6TIq0pj3apaAQZahpOQ0ob0llYd55ZiHpJFUIjwYsDu5yVBuP7MZlL/BK+NKqTEzeWNmOXba9XrMEhd2IRBOVDMBX4NnBlS8R35I1ee70OkZ0SA==;3:4spYVS6c8JRdZP9YdOqyvgdKUz8h/CKE1xeZ6dQzemwvzWB2ap08rZhs2E85DR2KBqN3Fh6kyEw26Sev6JJo6gklNNXYsIqmeIBVgYx84v+YY+S3lX7MH/DpHRk4WM+ueOa7OhsD3/QrAlMgNYLkdOckEWWeyzTnMq5AO/+QrpaiTQ1gVG7X7yypA36Xwaxu9iib8U9KxhLxltrDeZz7kfCTtxuVTQRHvkbE/E9BwmAaOxoZzVzb5UjNBXqp0KxHtRAfCe4vltwgfIVdX5HT1mIqn8rqJZH50ZFLHZUQ5VkmMf/Zn5OOiajgEoLlEZ1mDngaNcSAj0oUDVBo5UOWiw==;25:lYhubic0QPsfM3DvEH+Vth+g7YPUvXD0Rw3nSDSXhp5xtCQy70ovt1/Zpkqq/0GYJWS+UsOoLeLyZE5iyRKRfGw4qlKr5R+/g1wxMTNeZCDsO22GqQgd8wxwRD67iBvCgowSxTjGBbBrlVaCK/3bv1FeXNZWuB+/KdONuOuZvGWbr2WD2XGZeRg4/ago0V55G1J17LDkvRDPEBEDJ2YaeXLwckYUrKXtvK7/vyQ8sCVUebdT6pPDybD0jr3GZwH0rgT6s9/LyOCh4xvBZWi3tQ==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(42134001)(42139001)(3001015)(71701003)(71702001);SRVR:BY2PR07MB108;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB108;20:xuLJxEiBKN36SOrQ7pDGUyXQ+22RlI6LooZVw9R5LScy1fX0apQI9qroCt++kLUFJEl+FgUH5nkf1FY8SrayxflqO6Tj1wXNGeHMG5vgYT6UMdLcHEAoxpD7G4sEWxDHyuXZ9g1z6br4aSLv0NdXG6PXJd5z3oS76sY6XR74UVt2Lo+Y8F7Vh0Fr74282t1+EEQ0jvvjrpYxceDtjPaY6MFuAlTaM48GRhVWqZFGmg/eU82c+C4G+tTawuvCTFSGYmsX1ps+IsXiwhxW97S0yisHkX3T4xse1YZbS4xQmDRotnh+K9/cAiM/0wi4FY4I0M3p1QKPwHK1nikP42FwthGfi5vj2yrV3TzHD5tEZYqECX5uy3QmAjzhCil7kO3HqbFgSMji+X/+Ms6ook/IHYo/sYFX1WZ4aHVrWHi58qc=;4:T60Hc764uJKX+V7M0jzuQ7tXuTUgObHzC5dAI0I5thxXxH9c/y3kXniLx5HZWUyk0hZtl7dipLftsKUndpVgFI0zQfiZFl/kOazY89mqc2n7zQRZcvDWb8j6bgixFOSH40oOg5ndI8i9ezzKvvwJeKf+m/gX9Rkokk8ZFWyjnQYBfUwlCOaRo0U4i3uD696p5IvrrW66IZwI2cjln+e69H31PXWbF+dgFxT6SckIOb/hZsmc4xU6FC2BjNcqgQ821Gauq5LydVT5EAvEEq/yAejWoJ0Btk09vC3L68OGt7SsyR2EQofEzC+wpGfN/Vr/93K+o7VFgYAHVe61xVgxkMgdbX55h5+UuACQmCEjKd2ibSOyUriHQ/tyZN71Ogpd
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(3002001)(10201501046);SRVR:BY2PR07MB108;BCL:8;PCL:0;RULEID:;SRVR:BY2PR07MB108;BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(3002001)(10201501046);SRVR:DM2PR07MB542;BCL:0;PCL:0;RULEID:;SRVR:DM2PR07MB542;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BY2PR07MB108;23:ra5h7aveNTTNmsXmmpWL9sBUIKDh9Ug6PiTlc4pp+bMLpiBk5IKncu18fKZtvhNBJMDyeRVq8VlPCiWvLWzZOoYhwIR7hWCgUpYumRvjFd/IcVz3m9TIP/RKwSacpliahC9NcziTbAn501VMLWmKLhPPANqwWBaH/3mvHR9SVhT1sfQA+x9kRBWOXY1h/qruY1llpHFLLm+ISQcniGl6ztplvZkUxFGlCXTGYzE3asK38BzJFbxEU3rAsOcWa4uvRz7gCcF/U7tqf7VkrAqNC0Fm2TQ/vZH2l4vT9C3COLZLDmY0hFgYPm5iaRdj9xWFYSAO8Pomzf07KeOTiwfInPlt5nPakVzb3QaXqMpUdFlAD8jQhM1zT+v6umPDIEEXw98H/LjAJVeetoanrz3Jpg==;5:3T0u5FeG1Kz8jP7C48LJdfa1ucQSrwY2AI8eEObknkfugBLPJ4GS8msW3RC5zXjCa/nKSGj3L6VEncR+WdUqkAZLtIXHf7WLIyn/DQyQXlYmR81oWyuEvu+zwnAdPmlcrc/078mJSBIKsSiZXi/imA==;24:DbsL1UBX8J0Jo7Qen7wbvHs3QDLDMiTO2z+GFQtvkaIbr/WoId1wSHqbP/CFG4lDKypkPfedWNj5/QPVJtApVw==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY2PR07MB108
+X-OrganizationHeadersPreserved: BY2PR07MB108.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1BFFO11FD020.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD020;1:RRP6bFKzRjDH0W8YvrGX0SzU3TX+vVHR5VVE7/IVJGJ+RP3lHrKzw8ett8S2DiO4vIv9GU+8cdActCMatJIq3hZYVbYcAH1UpFvKp8EHJ1rWQrTGGWWdytclE1qCIXFgMwsexsuxeRgq65KQKY0t0NtVR6VL24dKvSBs+E5p3cl/eO3BKkR0QaF00waISGy97HdP9rX/KKRX+7jEFzWD0e5ePrTkB6MhbETo7YkL5KhAei8yqiuabgjomPQH31kgHQDAfEIiOWur+QDHouZubTJyVmhOcipn+21sSK1AXD5x95wB8MZJgvTpXxluwr1TNd2vg6HavrY2ViUxc1Hv4rYBoM6m+Nipry8ZE5ImdO3DXqh18sim/kxHD72USSK9Z7L4SbGuFgP5FoG0GzCjWw4lEv8goQwvjHxbWWRr6XQ=
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1110001)(1109001)(339900001)(377454003)(22974007)(199003)(189002)(956001)(84326002)(85426001)(960300001)(37156001)(4001450100002)(4290100001)(19580395003)(18206015028)(43066003)(512874002)(53806999)(2171001)(221733001)(19580405001)(88552001)(87936001)(33646002)(586003)(54356999)(450100001)(75432002)(105606002)(104016004)(19617315012)(108616004)(15975445007)(36756003)(106466001)(18926405002)(22756006)(77096005)(22746007)(107886002)(1096002)(24736003)(5001960100002)(6806005)(19622755009)(81156007)(1220700001)(189998001)(5002220100002)(110136002)(11100500001)(97736004)(50986999)(114696002)(7099028)(42882005)(79686003)(18200335002);DIR:OUT;SFP:1101;SCL:1;SRVR:DM2PR07MB542;H:mail.law.georgetown.edu;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics:
+	1;DM2PR07MB542;2:MvuFqm7MRKdU8bjuAfayLBdvnpcfJsicu/k+DEkRl/W5M2sH6+9Yy6aqrbckZ8nm6ki5XbncVDEAKR/hx8RPq+paEhOYq4sFinHHOmT17w0aai+wctCIkiZEcRPYpkxjLVWmIRSpPRdSNHoSsLEyVA==;3:Z/QaqCG3YJh3eCdOYjnxAVHi1AFADGxF4DI5rjq2j0/ebsOZf18z/zTle1jqqNGGozt33fKwb0+X9TYWB7M4OJO7BHBPOBoTvThoFeNg17mX5qH2mkKEDDaY+pFpQ+AFreUXXJtFfdHpo2iUncIdXBsLYYuiXJZv92iFzCbkIgK78ESyvTaU+ACb0aAl0/lVud7F0HRm6YDR727NNRCQ3mVQgaiZg/oBMEU/SNY9ObN3qysuaPwfzw/sxX2ydeZhcEt1cquOVuoArygGe8aIb/3q2QAMJbFB3u5cdmPkiGs=;25:waCA4LedMAj4+Z2N5LQ5rDSff0Yce/c4vNeWe30u1PmF9WZ1Qs1eegwOebiE7Gz4zceK9eCb4fQI85ipmrtg4JGo+VPN5/0BHMf34y4dhSdP7lt4pJWfwcyKrbEbHGOpzw2YbRLBACRZzhaBPKyXyOcpuqbeZjJ808DChzMgfm9seutvYvTAavWKQ1hutygo8ocEbss3APjQApxKddg0AmqTzKzlDYzXPLG9KgWlrPOS2yhRyEQY3JypVgO0gq270XJvMKwoS90+gc32ake3Ow==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(42134001)(42139001)(3002015);SRVR:DM2PR07MB542;
+X-Microsoft-Exchange-Diagnostics:
+	1;DM2PR07MB542;20:tZKGkEMe953MIBYiYh8T/WBGFREtNyzehW4fCDM1tXeP9XW8QLGIb79erj9679Pha/NhuZtSeWgb3/GsEofNahgTekwHdGE49vlN82YXYW9yPfh6R+nsAmp7n6rqVY4LO3igJ07USRH11Vhf1k5oFTuO488G8MKIbxIuoohkmwdgiI1KwBncvDfpmi3HJszkHbQP7POtOXx7B6Qq8RVv0yP7/2n+azQR4/a76xoRkyvvSnpbZHN2kWlKb4BVhlT/CrXezLpQV6qE62QoxnuqTiM9/dMB1HZzjRS3ksHxUCgci3jTdNfA4ZlOJXaFDkt9q97W9snj3pn4lSepgVcLqIIqKRqh2XT8Slk9KPwo9v5Z95lsxRsQPvIIdXg+ISricOenO2hCwmmvb1ElAw07621sODKiAnmd5Cy2HBBgkhw=;4:1i5UmXTg107oWuIaxQU17gq84u+jmp3+jK4BQbTT2o4kcJjgYMvFRYFDlM/jx2qxxi+6qSxvcsZuP+cfuE/Qr+QdKPTDxHebzxz3LlkJhFSNfFVjvunWhjjthr7HzAL1vlNHmCcTUkbUqDKepJECFE9qZFXSqJ1uiwrsVDZ66+fm1uuv7DnQR4Rm6BsCHmvAlzHI5yUkNEfyl6L5ReDSiu2+A44Ip65KzPgvBgAfz6fe/yH2Icnml8VNiKdjZk8eLy7bdttYQ2rgJJy7hzLUfXoUkK6lPXB70ZeRu0spocsBibrzoraxVFNUo3mc7XcvXfyGKm3a0KOcp4i04sGLFH/Pu2R+fSRgfJBgcwiZ8CDNZJw6Kc0+s//cUh1FiWfC
+X-Microsoft-Antispam-PRVS:
+	<DM2PR07MB5420501ECDFF9365F70C37693090@DM2PR07MB542.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 078310077C
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;DM2PR07MB542;23:EGGyT312iZSK0di8PIaxdukfdQPafna//wSTiM/3Gn?=
+ =?us-ascii?Q?9JL+qLbM3LEgv/sJhnzKpjETRKiCi+RSW7EZUxoTVeBqyP0ZMq82xMOYG5Un?=
+ =?us-ascii?Q?468QBoqH+Mm2kEWKBXkObY+R53gTPOSpN0ZpwTehNjHoOwhepB3BGUYzKVcY?=
+ =?us-ascii?Q?cJTxyeQaMNLLuiEb9Sbfq0WGmPDJzL1StIu2n8Z+tsGXf8KfhGpe5fYAEB1s?=
+ =?us-ascii?Q?ApaOy2Rek8VsdAl5jaauuFAjOIUHEf7sIz4jS5e5IyMowBZzLUtDeZB9k9lH?=
+ =?us-ascii?Q?9H+9cfquNo6mP8iBJ4rSCNpYshrFKtbs1cJWNO83NURhja1LbPRwpz+Wc+LX?=
+ =?us-ascii?Q?n7fUGnHkd3yjIBmUuk9D1/2yE6ZjzM/qDvBVQFvNAZIGjNg6DvyC2j5myiNF?=
+ =?us-ascii?Q?/0P4V+usYi66XoOqGaumElls61/852zQMs6pdpcNKQbKjevhDm4JgqsTW4f8?=
+ =?us-ascii?Q?NjYGYvWh8vOliira0MKiqYlrlrm7RRHnsZLUoGjwhPkiUn4wepLwSA8/N4ke?=
+ =?us-ascii?Q?rp6RYRs+pj9lnriuq7JOArJQnnk6wf67On/NkHNUufenCAaHUN0f5TQLDHhh?=
+ =?us-ascii?Q?yHXwa8BDlFWFBCkWdR4IKk/FM83p4Bf22axVNfkYzQSQLepd2nPdHljKVksW?=
+ =?us-ascii?Q?xLtmA7Jp4S119/LNOT5q7DjNvemi9tFw4FdeTK67Fyr43Wg1sQETBHOk/C//?=
+ =?us-ascii?Q?kgif5fjenSYPayqvcpbLyAdliBdkOX7FN7s3CB0ccbcazT9MTT/jl/hYxsHb?=
+ =?us-ascii?Q?KBD+mQfPfjQouY/i6h1uJTfUqoaS2VoLncO7UDRy67XICQ99vJan5f+OfrLe?=
+ =?us-ascii?Q?Jcepyg5QuZtc23qiHRHsQNb4+E2bXe4Cwmy6YSLjC/T9TjfRbtxE6ru4+zI/?=
+ =?us-ascii?Q?R1ztblxbOzSHZtgkrK2geTPe73UnNO2AfrYxQjlVZr0SsGwH2BMVicDMp9jk?=
+ =?us-ascii?Q?Fa0N3/edNJStUftRpuc0IysekJEyMvUBsNGLjEcA0k0E8CtpSeWkwnW4tn9e?=
+ =?us-ascii?Q?KDzi0nbcfXoFh6/qPXy9iSaNjaU9pZGEmO+sZ0lJR4LMBc3Zfz27dcDq70n6?=
+ =?us-ascii?Q?xAHasDYTbTl29gz0pmtfQHdowrehAKmGalnm4Epd5qtWeqoVI4ugKPpOt3y8?=
+ =?us-ascii?Q?dtL8sFfZzsCsxHGHX3g7FV5v8sUl72PDZxvn4fqACHASQ8NCTyJ2gNP3VS1C?=
+ =?us-ascii?Q?h7iTxI4TcMhyTMJh3IEhNp6x+GfUlyAzOJTlWId92Gz8srVrBYarTuTgbSgW?=
+ =?us-ascii?Q?ZS9ZflDsF5HOV4JZBrukaUzvboeL0YCi5qXJ37T5n97zZn0OpNT+WjphVh9s?=
+ =?us-ascii?Q?nILwuBzDSw3dJ+hq+Gg1bpmLDTrmA1FPmOItWNRpolSf8BJOu++Go6QkPqce?=
+ =?us-ascii?Q?w8wp+kakrbqxTDB7jNB2CPYGIKVrKH4k1Arxcyj9RhpVWdGsPgIoo9WIbeev?=
+ =?us-ascii?Q?8BLxFDVCCI376gZH5MK637u/pxvWtR7SNKCJOca21sAUuXBuKnfjO7/wPJpw?=
+ =?us-ascii?Q?7TQCCTbNLRpZ9lq6idwHm9BRbbdVMZsoeCDfAgInr/CI0KLtwB1A6S?=
+X-Microsoft-Exchange-Diagnostics:
+	1;DM2PR07MB542;5:K3j9p8SKh27xFbkrwaasGRrHmYB0XhMrfD5ys9uiI/kD60Y4p/4Y2TEgxZPGYEh5BGftdV/uulstw0EH4g/iRQyIGqSlkyWYX34iopIGXlwrZtNkwGZJEbAS8nzLeOTdcWx0I93v2I3bPTqpansKbQ==;24:03Q5jFCwlpaSVn7shiWy6EUkE9X6fELXCVMbMwZ2aNgWJK8dsJ2ydmMLaESXv8nMyccE+76FDq5WfiEgg5FKVZpLSFNwXUeLjlCWiLqhaWU=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Dec 2015 17:14:03.2999
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM2PR07MB542
+
+------7A87C40FDFB44EFCA2382462F03E2BDD
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+John,
+
+=C2=A0
+
+=C2=A0
+
+Right now, Iowans from across the state are at the state capitol demand=
+ing answers to Gov=2E Branstad's Medicaid=C2=A0disaster=2E Iowa House D=
+emocrats are standing up to Gov=2E Branstad and fighting to stop his ef=
+forts to=C2=A0privatize Medicaid=2E=20
+
+=C2=A0
+
+Chip in $10 or more right now, and help us stop Gov=2E Branstad=2E
+
+=C2=A0
+
+Mike Frosolone=C2=A0
+
+Iowa House Democrats=C2=A0
+
+Caucus Director=C2=A0
+
+=C2=A0
+
+
+
+=C2=A0
+
+---------- Forwarded message ----------
+From:=C2=A0Mark Smith=C2=A0<marksmithiowa@gmail=2Ecom>
+Date: Fri, Dec 4, 2015 at 10:22 AM
+Subject: Scandal
+
+To: Mike Frosolone <mikefrosolone@iowademocrats=2Eorg>=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+John,
+
+=C2=A0
+
+
+The GOP=E2=80=99s Medicaid mess has turned into a scandal=2E
+
+A judge caught Branstad and his GOP friends cheating the system and thr=
+ew out the WellCare contract for Medicaid privatization=2E It turns out=
+ Branstad's Chief of Staff and former GOP lawmakers=C2=A0who now work a=
+t WellCare had secret communications to make sure WellCare landed one o=
+f the Medicaid contracts worth $1 billion=2E
+
+With $4 billion in taxpayer money at stake, the insider dealings are fi=
+t for a DC television drama=2E
+
+Join Iowa House Democrats in our fight to hold Governor Branstad and Io=
+wa Republicans accountable=2E Make a $10, $25, or $50 contribution toda=
+y and help House Democrats win back the majority!
+
+
+
+
+If you've saved your payment information with ActBlue Express, your don=
+ation will go through immediately:
+
+>>> Express Donate: $10 Today!
+
+>>> Express Donate: $25 Today!
+
+>>> Express Donate: $50 Today!
+
+Or, donate another amount
+
+Unfortunately, this scandal is just the latest chapter in the GOP=E2=80=
+=99s Medicaid mess that will put health care for over 565,000 seniors, =
+expecting moms, and Iowans with chronic diseases or disabilities at ris=
+k starting January 1=2E
+
+While the GOP=E2=80=99s Medicaid mess is playing out like a DC drama, i=
+t has real world consequences for 565,000 Iowans=2E
+
+=C2=A0
+
+Mark Smith
+
+Democratic Leader
+
+Iowa House of Representatives
+
+=C2=A0
+
+
+=E2=80=8BP=2ES=2E You can make a difference in this next election by he=
+lping to elect Democrats who will take on Governor Branstad and his dis=
+astrous policies=E2=80=8B, click here to chip in $10 today!
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+
+Forward to a Friend: https://act=2Emyngp=2Ecom/el/1174115225973426176/-=
+5558713474747070464
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+
+=C2=A0
+
+
+--------------------------------------------
+|    Paid for by Iowa House Truman Fund    |
+--------------------------------------------
+
+Iowa House Truman Fund
+5661 Fleur Drive
+Des Moines IA 50321 United States
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+If you believe you received this message in error or wish to no longer =
+receive email from us, please https://act=2Emyngp=2Ecom/el/117411522597=
+3426176/-5630771068784998400=2E
+------7A87C40FDFB44EFCA2382462F03E2BDD
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div>
+=09<span style=3D"color: rgb(0, 0, 0); font-size: 16px;">John,</span></=
+div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<font size=3D"3">Right now, Iowans from across the state are at the =
+state capitol demanding answers to Gov=2E Branstad&#39;s Medicaid&nbsp;=
+disaster=2E Iowa House Democrats are standing up to Gov=2E Branstad and=
+ fighting to stop his efforts to&nbsp;privatize Medicaid=2E </font></di=
+v>
+<div>
+=09&nbsp;</div>
+<div>
+=09<font size=3D"3"><a data-form-type=3D"" href=3D"https://act=2Emyngp=2E=
+com/el/1174115225973426176/-5414598286671214592"><strong>Chip in $10 or=
+ more right now, and help us stop Gov=2E Branstad=2E</strong></a></font=
+></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<font size=3D"3">Mike Frosolone&nbsp;</font></div>
+<div>
+=09<font size=3D"3">Iowa House Democrats&nbsp;</font></div>
+<div>
+=09<font size=3D"3">Caucus Director&nbsp;</font></div>
+<div>
+=09&nbsp;</div>
+<div style=3D"text-align: center;">
+=09<font size=3D"3"><a href=3D"https://act=2Emyngp=2Ecom/el/11741152259=
+73426176/-5342540692633286656" target=3D"_top"><img alt=3D"" height=3D"=
+84" src=3D"https://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/4305/image=
+s/Donate-Button_1=2Epng" style=3D" " width=3D"250" /></a></font></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:14px;"><span style=3D"font-family: arial, s=
+ans-serif;">---------- Forwarded message ----------</span><br style=3D"=
+font-family: arial, sans-serif;" />
+=09<span style=3D"font-family: arial, sans-serif;">From:&nbsp;</span><b=
+ class=3D"gmail_sendername" style=3D"font-family: arial, sans-serif;">M=
+ark Smith</b><span style=3D"font-family: arial, sans-serif;">&nbsp;</sp=
+an><span dir=3D"ltr" style=3D"font-family: arial, sans-serif;">&lt;mark=
+smithiowa@gmail=2Ecom&gt;</span><br style=3D"font-family: arial, sans-s=
+erif;" />
+=09<span style=3D"font-family: arial, sans-serif;">Date: Fri, Dec 4, 20=
+15 at 10:22 AM</span><br style=3D"font-family: arial, sans-serif;" />
+=09<span style=3D"font-family: arial, sans-serif;">Subject: Scandal</sp=
+an></span></div>
+<div>
+=09<span style=3D"font-size:14px;"><span style=3D"font-family: arial, s=
+ans-serif;">To: Mike Frosolone &lt;mikefrosolone@iowademocrats=2Eorg&gt=
+;</span>&nbsp;</span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"color: rgb(0, 0, 0); font-size: 16px;">John,</span></=
+div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<p dir=3D"ltr" style=3D"line-height:1=2E7999999999999998;margin-top:=
+0pt;margin-bottom:11pt;">
+=09=09<span style=3D"font-size:16px;"><span id=3D"docs-internal-guid-b9=
+289a65-68d7-8fa7-23da-2c6e5461fdb0"><span style=3D"color: rgb(0, 0, 0);=
+ vertical-align: baseline; white-space: pre-wrap;">The GOP&rsquo;s Medi=
+caid mess has turned into a scandal=2E</span></span></span></p>
+=09<p dir=3D"ltr" style=3D"line-height:1=2E7999999999999998;margin-top:=
+0pt;margin-bottom:11pt;">
+=09=09<span style=3D"vertical-align: baseline;"><font color=3D"#000000"=
+ size=3D"3"><span style=3D"white-space: pre-wrap;">A judge caught Brans=
+tad and his GOP friends cheating the system and threw out the WellCare =
+contract for Medicaid privatization=2E It turns out Branstad&#39;s Chie=
+f of Staff and former GOP lawmakers</span>&nbsp;who now work at WellCar=
+e had secret communications to make sure WellCare landed one of the Med=
+icaid contracts worth $1 billion=2E</font></span></p>
+=09<p dir=3D"ltr" style=3D"line-height:1=2E7999999999999998;margin-top:=
+0pt;margin-bottom:11pt;">
+=09=09<span style=3D"font-size:16px;"><span id=3D"docs-internal-guid-b9=
+289a65-68d7-8fa7-23da-2c6e5461fdb0"><span style=3D"color: rgb(0, 0, 0);=
+ vertical-align: baseline; white-space: pre-wrap;">With $4 billion in t=
+axpayer money at stake, the insider dealings are fit for a DC televisio=
+n drama=2E</span></span></span></p>
+=09<p dir=3D"ltr" style=3D"line-height:1=2E38;margin-top:0pt;margin-bot=
+tom:0pt;">
+=09=09<span style=3D"font-size:16px;"><strong><span id=3D"docs-internal=
+-guid-b9289a65-68d7-8fa7-23da-2c6e5461fdb0"><span style=3D"color: rgb(0=
+, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Join Iowa Ho=
+use Democrats in our fight to hold Governor Branstad and Iowa Republica=
+ns accountable=2E <a data-form-type=3D"" href=3D"https://act=2Emyngp=2E=
+com/el/1174115225973426176/-5270483098595358720">Make a $10, $25, or $5=
+0 contribution today and help House Democrats win back the majority!</a=
+></span></span></strong></span></p>
+=09<br />
+=09<div>
+=09=09<img alt=3D"" height=3D"175" src=3D"https://d1kxpthy2j2ikk=2Eclou=
+dfront=2Enet/Uploads/4305/images/BranstadScandal-2-350x245-2=2Epng" sty=
+le=3D"text-align: center;   border-width: 6px; border-style: solid; mar=
+gin: 6px; float: right;" width=3D"349" /></div>
+=09<p dir=3D"ltr" style=3D"line-height:1=2E38;margin-top:0pt;margin-bot=
+tom:0pt;">
+=09=09<span style=3D"font-size:16px;"><em><span style=3D"color: rgb(58,=
+ 135, 173); font-family: Roboto, Helvetica, Arial, Verdana, sans-serif;=
+ background-color: rgba(255, 255, 255, 0=2E498039);">If you&#39;ve save=
+d your payment information with ActBlue Express, your donation will go =
+through immediately:</span></em></span></p>
+=09<p class=3D"link amount" style=3D"margin: 1em 0px; line-height: 1=2E=
+5em; color: rgb(58, 135, 173); font-family: Roboto, Helvetica, Arial, V=
+erdana, sans-serif; font-size: 14px; background-color: rgba(255, 255, 2=
+55, 0=2E498039);">
+=09=09<span style=3D"font-size:16px;"><u><strong><a href=3D"https://act=
+=2Emyngp=2Ecom/el/1174115225973426176/-5270483098595358720?express_lane=
+=3Dtrue&amp;amount=3D10&amp;refcode=3Dexpress_lane_10" style=3D"color: =
+rgb(0, 156, 222); text-decoration: none; transition: all 0=2E25s ease; =
+-webkit-transition: all 0=2E25s ease;">&gt;&gt;&gt; Express Donate: $10=
+ Today!</a></strong></u></span></p>
+=09<p class=3D"link amount" style=3D"margin: 1em 0px; line-height: 1=2E=
+5em; color: rgb(58, 135, 173); font-family: Roboto, Helvetica, Arial, V=
+erdana, sans-serif; font-size: 14px; background-color: rgba(255, 255, 2=
+55, 0=2E498039);">
+=09=09<span style=3D"font-size:16px;"><u><strong><a href=3D"https://act=
+=2Emyngp=2Ecom/el/1174115225973426176/-5270483098595358720?express_lane=
+=3Dtrue&amp;amount=3D25&amp;refcode=3Dexpress_lane_25" style=3D"color: =
+rgb(0, 156, 222); text-decoration: none; transition: all 0=2E25s ease; =
+-webkit-transition: all 0=2E25s ease;">&gt;&gt;&gt; Express Donate: $25=
+ Today!</a></strong></u></span></p>
+=09<p class=3D"link amount" style=3D"margin: 1em 0px; line-height: 1=2E=
+5em; color: rgb(58, 135, 173); font-family: Roboto, Helvetica, Arial, V=
+erdana, sans-serif; font-size: 14px; background-color: rgba(255, 255, 2=
+55, 0=2E498039);">
+=09=09<span style=3D"font-size:16px;"><u><strong><a href=3D"https://act=
+=2Emyngp=2Ecom/el/1174115225973426176/-5270483098595358720?express_lane=
+=3Dtrue&amp;amount=3D50&amp;refcode=3Dexpress_lane_50" style=3D"color: =
+rgb(0, 156, 222); text-decoration: none; transition: all 0=2E25s ease; =
+-webkit-transition: all 0=2E25s ease;">&gt;&gt;&gt; Express Donate: $50=
+ Today!</a></strong></u></span></p>
+=09<p class=3D"link other" style=3D"margin: 1em 0px; line-height: 1=2E5=
+em; color: rgb(58, 135, 173); font-family: Roboto, Helvetica, Arial, Ve=
+rdana, sans-serif; font-size: 14px; background-color: rgba(255, 255, 25=
+5, 0=2E498039);">
+=09=09<span style=3D"font-size:16px;"><u><strong><a href=3D"https://act=
+=2Emyngp=2Ecom/el/1174115225973426176/-5270483098595358720?refcode=3Dex=
+press_lane_other" style=3D"color: rgb(0, 156, 222); text-decoration: no=
+ne; transition: all 0=2E25s ease; -webkit-transition: all 0=2E25s ease;=
+">Or, donate another amount</a></strong></u></span></p>
+=09<p dir=3D"ltr" style=3D"line-height:1=2E7999999999999998;margin-top:=
+0pt;margin-bottom:11pt;">
+=09=09<span style=3D"font-size:16px;"><span id=3D"docs-internal-guid-b9=
+289a65-68d7-8fa7-23da-2c6e5461fdb0"><span style=3D"color: rgb(0, 0, 0);=
+ vertical-align: baseline; white-space: pre-wrap;">Unfortunately, this =
+scandal is just the latest chapter in the GOP&rsquo;s Medicaid mess tha=
+t will put health care for over 565,000 seniors, expecting moms, and Io=
+wans with chronic diseases or disabilities at risk starting January 1=2E=
+</span></span></span></p>
+=09<p>
+=09=09<span style=3D"font-size:16px;"><span id=3D"docs-internal-guid-b9=
+289a65-68d7-8fa7-23da-2c6e5461fdb0"><span style=3D"color: rgb(0, 0, 0);=
+ vertical-align: baseline; white-space: pre-wrap;">While the GOP&rsquo;=
+s Medicaid mess is playing out like a DC drama, it has real world conse=
+quences for 565,000 Iowans=2E</span></span></span></p>
+=09<p>
+=09=09&nbsp;</p>
+=09<p style=3D"text-align: justify;">
+=09=09<span style=3D"font-size:16px;"><span><span style=3D"color: rgb(0=
+, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Mark Smith</=
+span></span></span></p>
+=09<p style=3D"text-align: justify;">
+=09=09<span style=3D"font-size:16px;"><span><span style=3D"color: rgb(0=
+, 0, 0); vertical-align: baseline; white-space: pre-wrap;">Democratic L=
+eader</span></span></span></p>
+=09<p>
+=09=09<span style=3D"color: rgb(0, 0, 0); font-size: medium; white-spac=
+e: pre-wrap;">Iowa House of Representatives</span></p>
+=09<p>
+=09=09&nbsp;</p>
+</div>
+<div>
+=09<strong><a data-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el/=
+1174115225973426176/-5270483098595358720"><span style=3D"color:#0000ff;=
+"><span style=3D"font-size:16px;"><span style=3D"text-align: justify; w=
+hite-space: pre-wrap;">=E2=80=8BP=2ES=2E You can make a difference in t=
+his next election by helping to elect Democrats who will take on Govern=
+or Branstad and his disastrous policies=E2=80=8B, click here to chip in=
+ $10 today!</span></span></span></a></strong></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<div style=3D"text-align: center;">
+=09=09<strong><span style=3D"font-size:16px;"><a href=3D"https://act=2E=
+myngp=2Ecom/el/1174115225973426176/-5558713474747070464">Forward To A F=
+riend</a></span></strong></div>
+=09<div>
+=09=09&nbsp;</div>
+=09<div>
+=09=09&nbsp;</div>
+=09<div>
+=09=09&nbsp;</div>
+=09<div>
+=09=09&nbsp;</div>
+=09<div>
+=09=09&nbsp;</div>
+=09<div>
+=09=09&nbsp;</div>
+=09<div>
+=09=09&nbsp;</div>
+=09<div>
+=09=09&nbsp;</div>
+</div>
+<div align=3D"center">
+=09&nbsp;</div>
+<div align=3D"center">
+=09<span style=3D"font-size:16px;"><span style=3D"color:#000000;"><div =
+style=3D'text-align: center;' class=3D'disclaimer-info'><table style=3D=
+'border: 1px solid #000; margin: auto;'><tbody><tr><td style=3D'padding=
+: 8px; text-align: center;'>Paid for by Iowa House Truman Fund</td></tr=
+></tbody></table></div></span></span></div>
+<p align=3D"center" class=3D"orginfo" style=3D"text-align:center">
+=09<span style=3D"color: rgb(0, 0, 0); font-size: 16px;"><div style=3D'=
+text-align: center;' class=3D'org-address-info'>Iowa House Truman Fund<=
+br/>5661 Fleur Drive<br/>Des Moines IA 50321 United States</div></span>=
+</p>
+<p align=3D"center" class=3D"orginfo" style=3D"text-align:center">
+=09&nbsp;</p>
+<p align=3D"center" class=3D"orginfo" style=3D"text-align:center">
+=09&nbsp;</p>
+<p align=3D"center" class=3D"orginfo" style=3D"text-align:center">
+=09&nbsp;</p>
+<p align=3D"center" class=3D"orginfo" style=3D"text-align:center">
+=09&nbsp;</p>
+<p align=3D"center" class=3D"unsubscribelink" style=3D"text-align:cente=
+r">
+=09<span style=3D"font-size:16px;"><span style=3D"color:#000000;">If yo=
+u believe you received this message in error or wish to no longer recei=
+ve email from us, please  <a href=3D"https://act=2Emyngp=2Ecom/el/11741=
+15225973426176/-5630771068784998400" class=3D"unsubscribe-link">unsubsc=
+ribe</a>=2E</span></span></p>
+<img src=3D'https://act=2Emyngp=2Ecom/el/1174115225973426176/-692780776=
+1467701248' />
+------7A87C40FDFB44EFCA2382462F03E2BDD--

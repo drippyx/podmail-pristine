@@ -1,0 +1,1004 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.226 with SMTP id 95csp1646765lfy;
+        Sun, 10 Jan 2016 16:56:16 -0800 (PST)
+X-Received: by 10.25.44.205 with SMTP id s196mr26984188lfs.0.1452473776943;
+        Sun, 10 Jan 2016 16:56:16 -0800 (PST)
+Return-Path: <speechdrafts+bncBCZIR3NHW4GBBMH3ZO2AKGQEZSW42YA@hillaryclinton.com>
+Received: from mail-lf0-x248.google.com (mail-lf0-x248.google.com. [2a00:1450:4010:c07::248])
+        by mx.google.com with ESMTPS id 3si51029144lfh.11.2016.01.10.16.56.16
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 10 Jan 2016 16:56:16 -0800 (PST)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBCZIR3NHW4GBBMH3ZO2AKGQEZSW42YA@hillaryclinton.com designates 2a00:1450:4010:c07::248 as permitted sender) client-ip=2a00:1450:4010:c07::248;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBCZIR3NHW4GBBMH3ZO2AKGQEZSW42YA@hillaryclinton.com designates 2a00:1450:4010:c07::248 as permitted sender) smtp.mailfrom=speechdrafts+bncBCZIR3NHW4GBBMH3ZO2AKGQEZSW42YA@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-lf0-x248.google.com with SMTP id m196sf224lfe.0
+        for <john.podesta@gmail.com>; Sun, 10 Jan 2016 16:56:16 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:from:mime-version:references:in-reply-to:date:message-id
+         :subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=gW+3jnN46kTKjJgMYwT2soYRy+1eyXSpFGkTi4NfYwM=;
+        b=IkcXHIFRGVzzGnxyYImnqoXZkW1Xm149mZc/QV33mX+8wuXoBhu0sfZvAkVptlVzf1
+         rFimqrJR2LwNkTuUu6h9jG9eGyjWu/k2xXAlr1XAg/tWZS7Vrd2k1Hgt2WGG+BXtJaa8
+         BEhQF7WT/inylZLp843xgZWNwuTLWh7+Kx5gw=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:from:mime-version:references:in-reply-to
+         :date:message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=gW+3jnN46kTKjJgMYwT2soYRy+1eyXSpFGkTi4NfYwM=;
+        b=C2QGDP16/ssM3vPMgChM0ZwJoEmNeSxRMtqMOdfGNI1QEfFN7OBI0mg0IWXzMnMiGX
+         0i+Pp88hpWIbhwvpWR5zVdbMBhMNmfgs2uD8w60N8mZ9VMa+NJvjH0yL596vSMBXEdYU
+         p5rXn2IR3Tyb0sfqGDmfOdfUEpTwUVLvNhGbgjVZgFmBL4Tp7zXkGZ97Quy03XrsVT+/
+         OeQryK0gzIrg/Dnjv40Vy54REZALPG4nRY/n7JTRG2RDN3w5p2d9ILUazIWCWtXqyq9m
+         oL/b8YL5fjT6SZx4R1GCrvRs/B853tFF4JLNOz7xxgnsOAP77YvQUFMyx0/c/bZSiqXh
+         728Q==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQnLRn75a72HJPssdMx1O3t20Kz2jZeQ1+I873dnNRj41W29H1TWNUoomapfJbpapHlKgYd/6S2LrhonX+2OXbCtr7JUGg==
+X-Received: by 10.25.153.145 with SMTP id b139mr13015160lfe.0.1452473776459;
+        Sun, 10 Jan 2016 16:56:16 -0800 (PST)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.28.136.73 with SMTP id k70ls306069wmd.40.canary; Sun, 10 Jan
+ 2016 16:56:16 -0800 (PST)
+X-Received: by 10.28.218.81 with SMTP id r78mr10920085wmg.91.1452473775912;
+        Sun, 10 Jan 2016 16:56:15 -0800 (PST)
+Received: from mail-wm0-x235.google.com (mail-wm0-x235.google.com. [2a00:1450:400c:c09::235])
+        by mx.google.com with ESMTPS id b76si19017150wmd.47.2016.01.10.16.56.15
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 10 Jan 2016 16:56:15 -0800 (PST)
+Received-SPF: pass (google.com: domain of jpalmieri@hillaryclinton.com designates 2a00:1450:400c:c09::235 as permitted sender) client-ip=2a00:1450:400c:c09::235;
+Received: by mail-wm0-x235.google.com with SMTP id f206so193589765wmf.0
+        for <speechdrafts@hillaryclinton.com>; Sun, 10 Jan 2016 16:56:15 -0800 (PST)
+X-Received: by 10.194.111.232 with SMTP id il8mr152021938wjb.150.1452473775685;
+ Sun, 10 Jan 2016 16:56:15 -0800 (PST)
+From: Jennifer Palmieri <jpalmieri@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CAAEwKfzo9FDbJGZSSd6e3FJVZ_w1MvJDzpLfitdjLoo5_OvXeQ@mail.gmail.com>
+ <CAFjSERBZfkaizfkoXC6TW5_+GYKC0E5qdvNQ=r7RLZxekUD2+A@mail.gmail.com>
+ <CA+xFL8edMoZ9yzD8fBQcQgZoTQAoeWa8ohd9Cg2X9vi=d+f7Pw@mail.gmail.com>
+ <EF7A5F7C-F1CD-4CCE-A21C-0E6A21D8C7F9@aol.com> <2052640963728586180@unknownmsgid>
+ <CA+xFL8fFiS_OWsC-AULgKQNYLbAnXOsvpUpyw3QWvyXQRhOLQg@mail.gmail.com>
+ <3275649557572582856@unknownmsgid> <CA+xFL8dR0evbKBdkueT-dvxz9aHdA1iCrOfHi33t_xFif4CJZg@mail.gmail.com>
+ <CA+xFL8dXd37b+1dn9+xvjviwDpc3TsSc6Wakfp+SmH2nBeTvfQ@mail.gmail.com> <1A484C9C32B526468802B7C2E6FD1BCEB56FE89C@mbx031-w1-co-2.exch031.domain.local>
+In-Reply-To: <1A484C9C32B526468802B7C2E6FD1BCEB56FE89C@mbx031-w1-co-2.exch031.domain.local>
+Date: Sun, 10 Jan 2016 19:56:14 -0500
+Message-ID: <-578910451566918665@unknownmsgid>
+Subject: Re: DRAFT: Stump Inserts for Iowa on Monday
+To: Joel Benenson <jbenenson@bsgco.com>
+CC: Lily Adams <ladams@hillaryclinton.com>, 
+ Dan Schwerin <dschwerin@hillaryclinton.com>, 
+ Robby Mook <re47@hillaryclinton.com>, Mandy Grunwald <gruncom@aol.com>, 
+ Emily Aden <eaden@hillaryclinton.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ Matt Paul <mpaul@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a1130cf4a721ad805290467a5
+X-Original-Sender: jpalmieri@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of jpalmieri@hillaryclinton.com designates 2a00:1450:400c:c09::235 as
+ permitted sender) smtp.mailfrom=jpalmieri@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <https://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--001a1130cf4a721ad805290467a5
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+I gotta say I think it's weird for her to say Bernie is attacking her. That
+will be what press focuses on.  It also sets up everything she says after
+that comment as an attack on Bernie.  So would not do.
+
+Sent from my iPhone
+
+On Jan 10, 2016, at 7:29 PM, Joel Benenson <jbenenson@bsgco.com> wrote:
+
+I would say he=E2=80=99s drawing contrasts more than attacking and that=E2=
+=80=99s we we=E2=80=99re
+doing.
+
+
+
+*From:* speechdrafts@hillaryclinton.com [
+mailto:speechdrafts@hillaryclinton.com <speechdrafts@hillaryclinton.com>] *=
+On
+Behalf Of *Lily Adams
+*Sent:* Sunday, January 10, 2016 6:27 PM
+*To:* Dan Schwerin <dschwerin@hillaryclinton.com>
+*Cc:* Robby Mook <re47@hillaryclinton.com>; Mandy Grunwald <gruncom@aol.com=
+>;
+Emily Aden <eaden@hillaryclinton.com>; Speech Drafts <
+speechdrafts@hillaryclinton.com>; Matt Paul <mpaul@hillaryclinton.com>
+*Subject:* Re: DRAFT: Stump Inserts for Iowa on Monday
+
+
+
+Here are the quotes by category.
+
+
+
+<https://twitter.com/kevinmhardy>
+
+*Guns <https://twitter.com/kevinmhardy>*
+
+
+
+<https://twitter.com/LGamGam>
+
+
+* Lauren Gambino  @LGamGam <https://twitter.com/LGamGam>*
+
+
+
+Bernie Sanders says Clinton's attacks are coming as her "panicky" campaign
+is getting "nervous" about losing in Iowa and New Hampshire
+
+
+
+*Kevin Hardy*  @kevinmhardy
+
+In addressing guns, Sanders brought up Obama calling @HillaryClinton
+<https://twitter.com/HillaryClinton/> Annie Oakley in 2008, days there's
+been some "vacillating" from her.
+
+
+
+*MaryAlice Parks*  @maryaliceparks
+
+.@BernieSanders <https://twitter.com/BernieSanders/> says on Cinton's gun
+record: "I think we have seen some vacillation there" talks about her
+record in 2008 -Marshalltown Iowa
+
+
+
+*Electability *
+
+
+
+*Iowa Starting Line*  @IAStartingLine
+
+"What happens when suddenly the candidate who was ordained by the
+establishment to win ... suddenly finds her position is not so strong?"
+
+
+
+*Kevin Hardy*  @kevinmhardy
+
+On @HillaryClinton <https://twitter.com/HillaryClinton/> electability
+argument, @BernieSanders <https://twitter.com/BernieSanders/> says "Well,
+she's wrong and the facts tell us she is wrong."
+
+
+
+*Keystone *
+
+
+
+*Danny Freeman*  @DannyEFreeman
+
+Asked to contrast his views on climate issues with Hillary Clinton, Sanders
+hits hard on her delayed opposition to Keystone Pipeline.
+
+
+
+*Kevin Hardy*  @kevinmhardy
+
+On @HillaryClinton <https://twitter.com/HillaryClinton/> opposition to
+Keystone Pipeline, @BernieSanders <https://twitter.com/BernieSanders/>
+tells Boone crowd "I don't think it should have taken quite so long.
+
+
+
+*Paid Leave*
+
+
+
+*Rebecca Morin @RebeccaMorin_*Sanders said he supports legislation for 12
+week paid family and medical leave legislation, that he says Clinton
+doesn't support. #iacaucus
+
+
+
+On Sun, Jan 10, 2016 at 5:12 PM, Lily Adams <ladams@hillaryclinton.com>
+wrote:
+
+Defer to you all on how she'd be comfortable characterizing it but by any
+reasonable definition he's been attacking her this week throughout Iowa.
+
+
+
+On Sun, Jan 10, 2016 at 5:02 PM, Dan Schwerin <dschwerin@hillaryclinton.com=
+>
+wrote:
+
+Well, we could do something like this:
+
+
+
+=E2=80=A2 But Senator Sanders and I *do* have differences.  *He hasn't been=
+ shy
+about pointing them out recently.  So let me tell you how I see it. * I=E2=
+=80=99m a
+progressive who likes to get things done.
+
+
+
+
+
+
+On Jan 10, 2016, at 5:58 PM, Lily Adams <ladams@hillaryclinton.com> wrote:
+
+Having her reference that he's been attacking her.
+
+
+
+On Sun, Jan 10, 2016 at 4:48 PM, Robby Mook <re47@hillaryclinton.com> wrote=
+:
+
+Are you saying she personally make that point or that we make sure
+reporters know that?
+
+
+On Jan 10, 2016, at 5:46 PM, 'Mandy Grunwald' via Speech Drafts <
+speechdrafts@hillaryclinton.com> wrote:
+
+
+
+I totally agree with Lily.  Joel and I were just discussing this.  The
+Sanders team plays victim very well.  Let's not let them.  He's been
+attacking HRC for weeks.
+
+Mandy Grunwald
+
+Grunwald Communications
+
+202 973-9400
+
+
+
+
+On Jan 10, 2016, at 5:30 PM, Lily Adams <ladams@hillaryclinton.com> wrote:
+
+I wonder if it's worth noting anywhere that Sanders has been attacking her
+in Iowa - which he has been throughout this trip.
+
+
+
+On Sun, Jan 10, 2016 at 3:52 PM, Emily Aden <eaden@hillaryclinton.com>
+wrote:
+
+research edits attached
+
+
+
+On Sun, Jan 10, 2016 at 4:31 PM, Dan Schwerin <dschwerin@hillaryclinton.com=
+>
+wrote:
+
+Team, attached are inserts for HRC to add to her normal stump in Iowa on
+Monday.  It includes:
+
+
+
+-- Anthony Foxx endorsing and a brief riff building on the progress we've
+made on infrastructure and not letting GOP rip it away.
+
+-- A riff on her differences with Sanders on health care and taxes and that
+he's a risky choice (thanks to Podesta and Robby for their suggestions on
+this)
+
+-- A preview of the millionaire's surcharge and a hit on GOP tax plans
+
+-- Re-upping guns contrast and the Giffords endorsement.
+
+-- "First line of defense" call to action
+
+
+
+Covering a lot of ground here, so please take a look.
+
+Thanks
+
+Dan
+
+
+
+
+
+
+
+--=20
+
+Lily Adams
+
+Iowa Communications Director
+
+Hillary for America
+
+c: 202-368-4013
+
+
+
+
+
+--=20
+
+Lily Adams
+
+Iowa Communications Director
+
+Hillary for America
+
+c: 202-368-4013
+
+
+
+
+
+--=20
+
+Lily Adams
+
+Iowa Communications Director
+
+Hillary for America
+
+c: 202-368-4013
+
+
+
+
+
+--=20
+
+Lily Adams
+
+Iowa Communications Director
+
+Hillary for America
+
+c: 202-368-4013
+
+--001a1130cf4a721ad805290467a5
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=
+=3Dutf-8"></head><body dir=3D"auto"><div>I gotta say I think it&#39;s weird=
+ for her to say Bernie is attacking her. That will be what press focuses on=
+.=C2=A0 It also sets up everything she says after that comment as an attack=
+ on Bernie.=C2=A0 So would not do.=C2=A0<br><br>Sent from my iPhone</div><d=
+iv><br>On Jan 10, 2016, at 7:29 PM, Joel Benenson &lt;<a href=3D"mailto:jbe=
+nenson@bsgco.com">jbenenson@bsgco.com</a>&gt; wrote:<br><br></div><blockquo=
+te type=3D"cite"><div>
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Arial",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+
+
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Arial&quot;,sans-se=
+rif;color:#1f497d">I would say he=E2=80=99s drawing contrasts more than att=
+acking and that=E2=80=99s we we=E2=80=99re doing.
+</span></p>
+<p class=3D"MsoNormal"><a name=3D"_MailEndCompose"><span style=3D"font-fami=
+ly:&quot;Arial&quot;,sans-serif;color:#1f497d">=C2=A0</span></a></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif"> <a href=3D"mailto:speechdrafts=
+@hillaryclinton.com">speechdrafts@hillaryclinton.com</a> [<a href=3D"mailto=
+:speechdrafts@hillaryclinton.com">mailto:speechdrafts@hillaryclinton.com</a=
+>]
+<b>On Behalf Of </b>Lily Adams<br>
+<b>Sent:</b> Sunday, January 10, 2016 6:27 PM<br>
+<b>To:</b> Dan Schwerin &lt;<a href=3D"mailto:dschwerin@hillaryclinton.com"=
+>dschwerin@hillaryclinton.com</a>&gt;<br>
+<b>Cc:</b> Robby Mook &lt;<a href=3D"mailto:re47@hillaryclinton.com">re47@h=
+illaryclinton.com</a>&gt;; Mandy Grunwald &lt;<a href=3D"mailto:gruncom@aol=
+.com">gruncom@aol.com</a>&gt;; Emily Aden &lt;<a href=3D"mailto:eaden@hilla=
+ryclinton.com">eaden@hillaryclinton.com</a>&gt;; Speech Drafts &lt;<a href=
+=3D"mailto:speechdrafts@hillaryclinton.com">speechdrafts@hillaryclinton.com=
+</a>&gt;; Matt Paul &lt;<a href=3D"mailto:mpaul@hillaryclinton.com">mpaul@h=
+illaryclinton.com</a>&gt;<br>
+<b>Subject:</b> Re: DRAFT: Stump Inserts for Iowa on Monday</span></p>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">Here are the quotes by category.</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"https://twitter.com/kevinmhardy" target=
+=3D"_blank"><span style=3D"font-size:9.5pt"></span></a></p>
+<div>
+<p class=3D"MsoNormal"><b><u><span style=3D"font-size:9.5pt;font-family:&qu=
+ot;Arial&quot;,sans-serif;color:black"><a href=3D"https://twitter.com/kevin=
+mhardy" target=3D"_blank"><span style=3D"color:black">Guns</span><span styl=
+e=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;color:w=
+indowtext;font-weight:normal;text-decoration:none"></span></a></span></u></=
+b></p>
+</div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal"><a href=3D"https://twitter.com/LGamGam" target=3D"_b=
+lank"><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-ser=
+if;text-decoration:none"></span></a></p>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.5pt;font-family:&quot;=
+Arial&quot;,sans-serif;color:black"><a href=3D"https://twitter.com/LGamGam"=
+ target=3D"_blank"><span style=3D"color:black;text-decoration:none"><br>
+Lauren Gambino</span><span style=3D"color:black;font-weight:normal;text-dec=
+oration:none">=C2=A0=C2=A0@LGamGam</span><span style=3D"font-size:12.0pt;fo=
+nt-family:&quot;Times New Roman&quot;,serif;color:windowtext;font-weight:no=
+rmal;text-decoration:none"></span></a></span></b></p>
+</div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<div>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt"><span sty=
+le=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black"=
+>Bernie Sanders says Clinton&#39;s attacks are coming as her &quot;panicky&=
+quot; campaign is getting &quot;nervous&quot; about losing in Iowa and
+ New Hampshire</span><span style=3D"font-size:9.5pt;font-family:&quot;Arial=
+&quot;,sans-serif"></span></p>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif">=
+=C2=A0</span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.5pt;font-family:&quot;=
+Arial&quot;,sans-serif;color:black">Kevin Hardy</span></b><span style=3D"fo=
+nt-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black">=C2=A0=
+=C2=A0@kevinmhardy</span><span style=3D"font-size:9.5pt"></span></p>
+</div>
+<div>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:black">In addressing guns, Sanders brought up Obama calling
+<a href=3D"https://twitter.com/HillaryClinton/" target=3D"_blank"><span sty=
+le=3D"text-decoration:none">@HillaryClinton</span></a> Annie Oakley in 2008=
+, days there&#39;s been some &quot;vacillating&quot; from her.</span><span =
+style=3D"font-size:9.5pt"></span></p>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt">=C2=A0</span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:11.55pt"><b><span style=3D"font=
+-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black">MaryAlice=
+ Parks</span></b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quo=
+t;,sans-serif;color:black">=C2=A0=C2=A0@maryaliceparks</span><span style=3D=
+"font-size:9.5pt"></span></p>
+</div>
+<div>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:black">.<a href=3D"https://twitter.com/BernieSanders/" target=3D"_blank"=
+><span style=3D"text-decoration:none">@BernieSanders</span></a> says on Cin=
+ton&#39;s gun record: &quot;I think we have seen some vacillation
+ there&quot; talks about her record in 2008 -Marshalltown Iowa</span><span =
+style=3D"font-size:9.5pt"></span></p>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt">=C2=A0</span></p>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<b><u><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-ser=
+if;color:black">Electability
+</span></u></b><span style=3D"font-size:9.5pt"></span></p>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt">=C2=A0</span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:11.55pt"><b><span style=3D"font=
+-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Iowa Star=
+ting Line</span></b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&=
+quot;,sans-serif;color:black">=C2=A0=C2=A0@IAStartingLine</span><span style=
+=3D"font-size:9.5pt"></span></p>
+</div>
+<div>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:black">&quot;What happens when suddenly the candidate who was ordained b=
+y the establishment to win ... suddenly finds her position is not so strong=
+?&quot;</span><span style=3D"font-size:9.5pt"></span></p>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt">=C2=A0</span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:11.55pt"><b><span style=3D"font=
+-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Kevin Har=
+dy</span></b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,s=
+ans-serif;color:black">=C2=A0=C2=A0@kevinmhardy</span><span style=3D"font-s=
+ize:9.5pt"></span></p>
+</div>
+<div>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:black">On <a href=3D"https://twitter.com/HillaryClinton/" target=3D"_bla=
+nk">
+<span style=3D"text-decoration:none">@HillaryClinton</span></a> electabilit=
+y argument,
+<a href=3D"https://twitter.com/BernieSanders/" target=3D"_blank"><span styl=
+e=3D"text-decoration:none">@BernieSanders</span></a> says &quot;Well, she&#=
+39;s wrong and the facts tell us she is wrong.&quot;</span><span style=3D"f=
+ont-size:9.5pt"></span></p>
+</div>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt">=C2=A0</span></p>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<b><u><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-ser=
+if;color:black">Keystone
+</span></u></b><span style=3D"font-size:9.5pt"></span></p>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt">=C2=A0</span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:11.55pt"><b><span style=3D"font=
+-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Danny Fre=
+eman</span></b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;=
+,sans-serif;color:black">=C2=A0=C2=A0@DannyEFreeman</span><span style=3D"fo=
+nt-size:9.5pt"></span></p>
+</div>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:black">Asked to contrast his views on climate issues with Hillary Clinto=
+n, Sanders hits hard on her delayed opposition to Keystone Pipeline.</span>=
+<span style=3D"font-size:9.5pt"></span></p>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt">=C2=A0</span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"line-height:11.55pt"><b><span style=3D"font=
+-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Kevin Har=
+dy</span></b><span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,s=
+ans-serif;color:black">=C2=A0=C2=A0@kevinmhardy</span><span style=3D"font-s=
+ize:9.5pt"></span></p>
+</div>
+<div>
+<p style=3D"margin:0in;margin-bottom:.0001pt;line-height:11.55pt;white-spac=
+e:pre-wrap">
+<span style=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif;col=
+or:black">On <a href=3D"https://twitter.com/HillaryClinton/" target=3D"_bla=
+nk">
+<span style=3D"text-decoration:none">@HillaryClinton</span></a> opposition =
+to Keystone Pipeline,
+<a href=3D"https://twitter.com/BernieSanders/" target=3D"_blank"><span styl=
+e=3D"text-decoration:none">@BernieSanders</span></a> tells Boone crowd &quo=
+t;I don&#39;t think it should have taken quite so long.</span><span style=
+=3D"font-size:9.5pt"></span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.5pt">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><u><span style=3D"font-size:9.5pt;font-family:&qu=
+ot;Arial&quot;,sans-serif">Paid Leave</span></u></b><span style=3D"font-siz=
+e:9.5pt"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.5pt">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.5pt;font-family:&quot;=
+Arial&quot;,sans-serif">Rebecca Morin @RebeccaMorin_</span></b><span style=
+=3D"font-size:9.5pt;font-family:&quot;Arial&quot;,sans-serif">Sanders said =
+he supports legislation for 12 week paid family and medical
+ leave legislation, that he says Clinton doesn&#39;t support. #iacaucus</sp=
+an><span style=3D"font-size:9.5pt"></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Sun, Jan 10, 2016 at 5:12 PM, Lily Adams &lt;<a h=
+ref=3D"mailto:ladams@hillaryclinton.com" target=3D"_blank">ladams@hillarycl=
+inton.com</a>&gt; wrote:</p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">Defer to you all on how she&#39;d be comfortable cha=
+racterizing it but by any reasonable definition he&#39;s been attacking her=
+ this week throughout Iowa.=C2=A0</p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Sun, Jan 10, 2016 at 5:02 PM, Dan Schwerin &lt;<a=
+ href=3D"mailto:dschwerin@hillaryclinton.com" target=3D"_blank">dschwerin@h=
+illaryclinton.com</a>&gt; wrote:</p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<div>
+<p class=3D"MsoNormal">Well, we could do something like this:</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=E2=80=A2=C2=A0But=C2=A0Senator Sanders and I=C2=A0<=
+u>do</u>=C2=A0have differences. =C2=A0<b>He hasn&#39;t been shy about point=
+ing them out recently.=C2=A0 So let me tell you how I see it.
+</b>=C2=A0I=E2=80=99m a progressive who likes to get things done.=C2=A0</p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>
+On Jan 10, 2016, at 5:58 PM, Lily Adams &lt;<a href=3D"mailto:ladams@hillar=
+yclinton.com" target=3D"_blank">ladams@hillaryclinton.com</a>&gt; wrote:</p=
+>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<div>
+<p class=3D"MsoNormal">Having her reference that he&#39;s been attacking he=
+r.</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Sun, Jan 10, 2016 at 4:48 PM, Robby Mook &lt;<a h=
+ref=3D"mailto:re47@hillaryclinton.com" target=3D"_blank">re47@hillaryclinto=
+n.com</a>&gt; wrote:</p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<div>
+<p class=3D"MsoNormal">Are you saying she personally make that point or tha=
+t we make sure reporters know that?</p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>
+On Jan 10, 2016, at 5:46 PM, &#39;Mandy Grunwald&#39; via Speech Drafts &lt=
+;<a href=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">speec=
+hdrafts@hillaryclinton.com</a>&gt; wrote:</p>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">I totally agree with Lily.=C2=A0 Joel and I were jus=
+t discussing this.=C2=A0 The Sanders team plays victim very well.=C2=A0 Let=
+&#39;s not let them.=C2=A0 He&#39;s been attacking HRC for weeks.<br>
+<br>
+Mandy Grunwald</p>
+<div>
+<p class=3D"MsoNormal">Grunwald Communications</p>
+</div>
+<div>
+<p class=3D"MsoNormal"><a href=3D"tel:202%20973-9400" target=3D"_blank">202=
+ 973-9400</a></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>
+On Jan 10, 2016, at 5:30 PM, Lily Adams &lt;<a href=3D"mailto:ladams@hillar=
+yclinton.com" target=3D"_blank">ladams@hillaryclinton.com</a>&gt; wrote:</p=
+>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<div>
+<p class=3D"MsoNormal">I wonder if it&#39;s worth noting anywhere that Sand=
+ers has been attacking her in Iowa - which he has been throughout this trip=
+.</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Sun, Jan 10, 2016 at 3:52 PM, Emily Aden &lt;<a h=
+ref=3D"mailto:eaden@hillaryclinton.com" target=3D"_blank">eaden@hillaryclin=
+ton.com</a>&gt; wrote:</p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">research edits attached=C2=A0</p>
+</div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">On Sun, Jan 10, 2016 at 4:31 PM, Dan Schwerin &lt;<a=
+ href=3D"mailto:dschwerin@hillaryclinton.com" target=3D"_blank">dschwerin@h=
+illaryclinton.com</a>&gt; wrote:</p>
+<blockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0i=
+n 0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in">
+<div>
+<p class=3D"MsoNormal">Team, attached are inserts for HRC to add to her nor=
+mal stump in Iowa on Monday.=C2=A0 It includes:</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">-- Anthony Foxx endorsing and a brief riff building =
+on the progress we&#39;ve made on infrastructure and not letting GOP rip it=
+ away.</p>
+</div>
+<div>
+<p class=3D"MsoNormal">-- A riff on her differences with Sanders on health =
+care and taxes and that he&#39;s a risky choice (thanks to Podesta and Robb=
+y for their suggestions on this)</p>
+</div>
+<div>
+<p class=3D"MsoNormal">-- A preview of the millionaire&#39;s surcharge and =
+a hit on GOP tax plans</p>
+</div>
+<div>
+<p class=3D"MsoNormal">-- Re-upping guns contrast and the Giffords endorsem=
+ent.=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">-- &quot;First line of defense&quot; call to action<=
+/p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Covering a lot of ground here, so please take a look=
+.</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Thanks</p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:#888888">Dan</span></p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><br>
+<br clear=3D"all">
+</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<p class=3D"MsoNormal">-- </p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">Lily Adams</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Iowa Communications Director</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Hillary for America</p>
+</div>
+<div>
+<p class=3D"MsoNormal">c: <a href=3D"tel:202-368-4013" target=3D"_blank">20=
+2-368-4013</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><br>
+<br clear=3D"all">
+</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<p class=3D"MsoNormal">-- </p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">Lily Adams</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Iowa Communications Director</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Hillary for America</p>
+</div>
+<div>
+<p class=3D"MsoNormal">c: <a href=3D"tel:202-368-4013" target=3D"_blank">20=
+2-368-4013</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><br>
+<br clear=3D"all">
+</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<p class=3D"MsoNormal">-- </p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">Lily Adams</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Iowa Communications Director</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Hillary for America</p>
+</div>
+<div>
+<p class=3D"MsoNormal">c: <a href=3D"tel:202-368-4013" target=3D"_blank">20=
+2-368-4013</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+</div>
+<p class=3D"MsoNormal"><br>
+<br clear=3D"all">
+</p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<p class=3D"MsoNormal">-- </p>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal">Lily Adams</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Iowa Communications Director</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Hillary for America</p>
+</div>
+<div>
+<p class=3D"MsoNormal">c: 202-368-4013</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div></blockquote></body></html>
+
+--001a1130cf4a721ad805290467a5--

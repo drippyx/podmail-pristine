@@ -1,0 +1,3229 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.200 with SMTP id r191csp865039lfr;
+        Sat, 8 Aug 2015 08:15:58 -0700 (PDT)
+X-Received: by 10.66.186.39 with SMTP id fh7mr1496566pac.136.1439046957868;
+        Sat, 08 Aug 2015 08:15:57 -0700 (PDT)
+Return-Path: <speechdrafts+bncBDNJJWOWTQLBBLF2TCXAKGQENS5R3WA@hillaryclinton.com>
+Received: from mail-pd0-x245.google.com (mail-pd0-x245.google.com. [2607:f8b0:400e:c02::245])
+        by mx.google.com with ESMTPS id pu4si11533071pbb.18.2015.08.08.08.15.57
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 08 Aug 2015 08:15:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBDNJJWOWTQLBBLF2TCXAKGQENS5R3WA@hillaryclinton.com designates 2607:f8b0:400e:c02::245 as permitted sender) client-ip=2607:f8b0:400e:c02::245;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBDNJJWOWTQLBBLF2TCXAKGQENS5R3WA@hillaryclinton.com designates 2607:f8b0:400e:c02::245 as permitted sender) smtp.mail=speechdrafts+bncBDNJJWOWTQLBBLF2TCXAKGQENS5R3WA@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-pd0-x245.google.com with SMTP id f1sf136325472pdm.2
+        for <john.podesta@gmail.com>; Sat, 08 Aug 2015 08:15:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:in-reply-to:references:date:message-id:subject
+         :from:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=uxUVoez4VvjiIAWBaTVgFnxe+ICp1H62dl6Rnnjw8k4=;
+        b=VJiRu7cFHo//8tvAWyqfKauLhfm37708r0bGw7iAoaSndAFia2mQ0eHwYTfpdd+Vuz
+         SGDE6rC1FXShJ87Tp4Ye2wH5+nW143w1AotcXPUdgkC1mE7bQyKzd6oeLid+ASimLa0x
+         N9tOudf/b+SXVzfJhYr8uACmGa7P5f+lOQFmQ=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:in-reply-to:references:date
+         :message-id:subject:from:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=uxUVoez4VvjiIAWBaTVgFnxe+ICp1H62dl6Rnnjw8k4=;
+        b=l2dDbiHWjLRGZOJiSELBM+Q8PDCgFF0BccXotznnmJtrmCr9cs6I6YyIezVq7PNBUE
+         NsJaGutdSNQE+rsRRemQqyRk7HLtwWa52AxZTRUFxpdWSpnF/mKRAGDKpW3znoSEe93L
+         6VdwHtA8BPcIKHwjI+jn9nCb/ACCAuuHiFiTl+6yCVYwx0kRp9lcHnNgw+9WdIhN4Ulg
+         jcC5lfnirwjkoWFDwxRP20cQwDNcHRYUuQaEZdnhkfxyN528ztWzLghIlfplDP8qM8AC
+         coakLwaVDTGaPd+9Ir4943u/11u9sPqkwzWjU2oEI6H8tLMiDBUSXiNJKNQoqN36/0a6
+         rh/w==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQlICVzKkx3mb4GqvXuSoaNcaLnUI83drAqeRqjQBa9B5DzvxWiWnVQOmPGSIBMqEyIiBLT+
+X-Received: by 10.68.217.170 with SMTP id oz10mr11280554pbc.3.1439046956946;
+        Sat, 08 Aug 2015 08:15:56 -0700 (PDT)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.140.35.199 with SMTP id n65ls2302521qgn.21.gmail; Sat, 08 Aug
+ 2015 08:15:56 -0700 (PDT)
+X-Received: by 10.129.138.129 with SMTP id a123mr13162034ywg.139.1439046956186;
+        Sat, 08 Aug 2015 08:15:56 -0700 (PDT)
+Received: from mail-yk0-x235.google.com (mail-yk0-x235.google.com. [2607:f8b0:4002:c07::235])
+        by mx.google.com with ESMTPS id q185si8470942ywc.101.2015.08.08.08.15.56
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 08 Aug 2015 08:15:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of aoleary@hillaryclinton.com designates 2607:f8b0:4002:c07::235 as permitted sender) client-ip=2607:f8b0:4002:c07::235;
+Received: by ykeo23 with SMTP id o23so109560319yke.3
+        for <speechdrafts@hillaryclinton.com>; Sat, 08 Aug 2015 08:15:56 -0700 (PDT)
+MIME-Version: 1.0
+X-Received: by 10.13.245.69 with SMTP id e66mr12726220ywf.176.1439046955889;
+ Sat, 08 Aug 2015 08:15:55 -0700 (PDT)
+Received: by 10.129.147.69 with HTTP; Sat, 8 Aug 2015 08:15:55 -0700 (PDT)
+In-Reply-To: <E14D5FDE08E02D4BBDA429F9E1ACB86F193343@S2376M11.CDSmail.pvt>
+References: <74D69E90-D575-4903-A2B0-5B95D0714A5C@bsgco.com>
+	<14f0d6af912-49fc-4239d@webprd-a61.mail.aol.com>
+	<D1EB7CD7.33B2C%jim.margolis@gmmb.com>
+	<B2F2A423-7230-45ED-9D1E-E8024FCC7B68@bsgco.com>
+	<465F60FEFFCDAB418B64CC10C81664C89D34B28C@mbx031-w1-co-2.exch031.domain.local>
+	<E14D5FDE08E02D4BBDA429F9E1ACB86F193343@S2376M11.CDSmail.pvt>
+Date: Sat, 8 Aug 2015 08:15:55 -0700
+Message-ID: <CACWw=rSOhwkwbRhnCmyfgH4+eYWvQ3xMe18t+0hvK+FxKZuPEw@mail.gmail.com>
+Subject: Re: REVISED DRAFT: college rollout
+From: "Ann O'Leary" <aoleary@hillaryclinton.com>
+To: "Margolis, Jim" <Jim.Margolis@gmmb.com>
+CC: Katie Connolly <kconnolly@bsgco.com>, Joel Benenson <jbenenson@bsgco.com>, 
+ Mandy Grunwald <gruncom@aol.com>, 
+ "mrooney@hillaryclinton.com" <mrooney@hillaryclinton.com>, 
+ "speechdrafts@hillaryclinton.com" <speechdrafts@hillaryclinton.com>
+Content-Type: multipart/mixed; boundary=94eb2c0885be9f6e8f051cce3a71
+X-Original-Sender: aoleary@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of aoleary@hillaryclinton.com designates 2607:f8b0:4002:c07::235 as
+ permitted sender) smtp.mail=aoleary@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--94eb2c0885be9f6e8f051cce3a71
+Content-Type: multipart/alternative; boundary=94eb2c0885be9f6e8a051cce3a6f
+
+
+--94eb2c0885be9f6e8a051cce3a6f
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+On California time so just getting working this morning.  Jim/Katie - Like
+your resolution and incorporated it. Mandy - I like your edits and think
+they make it stronger.  The only one I changed was deleting "prefer"
+community college - some go b/c they can't get into 4 years.  I also want
+to double check just how high existing student loans go (e.g. are they
+really as high as 10 percent from some students?).  But I've attached my
+final edits on top of yours as tracked changes. And for those who are doing
+this all on their iPhones, I am pasting a clean version here:
+
+*HILLARY RODHAM CLINTON*
+
+*REMARKS ON COLLEGE AFFORDABILITY AND STUDENT DEBT*
+
+*EXETER, NEW HAMPSHIRE*
+
+*MONDAY, AUGUST 10, 2015*
+
+
+
+It=E2=80=99s wonderful to be back in Exeter.  Thank you, Danny, for that
+introduction.  And thank you all for coming out today.  I=E2=80=99ve been t=
+raveling
+all over New Hampshire, and everywhere I go =E2=80=93 from Dover to Nashua =
+to Glen
+to Windham =E2=80=93 people ask great questions.  It must come from being t=
+he first
+primary state.  So today, I want to talk for just a little bit, and then I
+want to hear what=E2=80=99s on your mind.
+
+
+
+This election is about the choices we have to make as a country, and how
+they=E2=80=99ll shape our children=E2=80=99s and grandchildren=E2=80=99s fu=
+tures.  I believe that,
+in America, if you work hard and do your part, you should be able to get
+ahead and stay ahead.  That=E2=80=99s the basic bargain that=E2=80=99s alwa=
+ys set our
+nation apart.  And I want to make sure we keep that bargain and strengthen
+it, so it holds true for this generation and the next.
+
+
+
+Thanks to your hard work =E2=80=93 and the hard work of people across the c=
+ountry =E2=80=93
+America has come back from the worst recession of our lifetimes.  We=E2=80=
+=99re
+standing again.  But we=E2=80=99re not yet running the way we should.  Corp=
+orate
+profits are near record highs =E2=80=93 but most paychecks have barely budg=
+ed.
+Costs for everything from childcare to prescription drugs are rising faster
+than wages. It=E2=80=99s no wonder so many Americans feel like the deck is =
+stacked
+in favor of those at the top.
+
+
+
+We=E2=80=99ve got to do better.  We=E2=80=99ve got to get incomes rising ag=
+ain, so more
+hard-working families can afford a middle-class life.  We need strong
+growth=E2=80=A6 fair growth=E2=80=A6 and long-term growth.  *That=E2=80=99s=
+* how we=E2=80=99ll achieve
+lasting prosperity =E2=80=93 by building an economy that we *all* have a st=
+ake in,
+and that works for *everyone*.
+
+
+
+Today, I want to talk about one way we can help ease the burden on
+families:  *by making college affordable and available to every American.*
+
+
+
+For millions of Americans, a college degree has been the ticket to a better
+life.  My grandfather worked his entire life in a lace mill =E2=80=93 but m=
+y dad
+made it to college and was able to start his own small business, and that
+made a huge difference in our lives.  Then my parents scrimped and saved
+for years, so they could send me to a school across the country.  They knew
+that they were setting me on the path to a better future.  College still
+holds that promise today.  A lot has changed in this country =E2=80=93 but =
+that
+hasn=E2=80=99t.
+
+
+
+Across America, parents who never had a chance to go to college themselves
+dream of that aspiration the moment their kids are born.  High-schoolers =
+=E2=80=93
+even middle-schoolers =E2=80=93 are taking college prep courses and studyin=
+g for
+the SAT.  Full-time workers are spending time at night taking course
+on-line to earn certificates or badges, or going to community college at
+night, to increase their knowledge and skills so they can move up the job
+ladder, even if that means heading straight from an eight-hour shift to a
+pile of homework.  If that=E2=80=99s what it takes to get a better job =E2=
+=80=93 to give
+their kids better than they had =E2=80=93 then they=E2=80=99ll do it.
+
+
+
+But here=E2=80=99s the problem.  States are slashing education budgets.  Co=
+lleges
+keep raising prices.  In-state tuition and fees for public colleges
+increased by *55 percent *between 2003 and 2012.  But your incomes didn=E2=
+=80=99t
+rise by that much, did they?  So families are left facing a painful
+choice.  Either you say, =E2=80=9CWe just can=E2=80=99t afford it,=E2=80=9D=
+ and pass up on all the
+opportunities that a degree can offer =E2=80=93 or you do whatever it takes=
+ to pay
+for it, even if that means going deeply into debt.
+
+
+
+And while the return on investment of a college degree is still worth it
+over a person=E2=80=99s lifetime, more and more, student debt is holding pe=
+ople
+back from getting a strong start.  Forty million Americans have student
+loans.  Together, they owe more than a trillion dollars.  New Hampshire=E2=
+=80=99s
+students are carrying the highest debt in the country.  And millions of
+Americans are delinquent or in default.  Even if they=E2=80=99re doing ever=
+ything
+they can to pay their loans, they just can=E2=80=99t keep up.
+
+
+
+The cost of this debt is real =E2=80=93 not just on balance sheets, but in =
+people=E2=80=99s
+lives and futures.  I=E2=80=99ve talked to people who have so much student =
+debt,
+they=E2=80=99ve put off buying a house, changing jobs, starting a business =
+=E2=80=93 even
+getting married.  I=E2=80=99ve met parents and grandparents who=E2=80=99ve =
+co-signed loans
+and end up draining their savings or ruining their credit =E2=80=93 all bec=
+ause
+they did what parents and grandparents are supposed to do =E2=80=93 help ou=
+t the
+next generation.
+
+
+
+There are students who take out loans to pay for an expensive degree from a
+for-profit institution =E2=80=93 only to find little support to help them c=
+omplete
+the degree or they graduate and discover that, when it comes to finding a
+job, their degree isn=E2=80=99t worth what they thought it was.
+
+
+
+The 40 percent of students who never finish college are left with debt and
+no degree to show for it =E2=80=93 the worst of both worlds.  And that
+non-completion rate should trouble to all of us.  It=E2=80=99s the highest =
+in the
+developed world. It is time for us to show some tough love with our
+colleges and universities that year after year allow more of their students
+to fail than to graduate.
+
+
+
+College is supposed to help people achieve their dreams.  But more and
+more, it=E2=80=99s pushing people=E2=80=99s dreams further out of reach.  A=
+nd that=E2=80=99s just
+wrong.  It=E2=80=99s a betrayal of everything college is supposed to repres=
+ent =E2=80=93
+and everything families have worked so hard to achieve.
+
+
+
+This is also about our national competitiveness.  The rest of the world is
+working as hard as they can to out-do us.  China plans to double the number
+of students enrolled in college by 2030, which means they=E2=80=99ll have n=
+early
+200 million college graduates.  That=E2=80=99s more than our entire workfor=
+ce!
+American workers can out-work and out-innovate anyone in the world =E2=80=
+=93 as
+long as they get the training and education they need to compete.
+
+
+
+So we need to make some big changes.  We need to transform how much higher
+education costs =E2=80=93 and how those costs get paid.  For too long, the =
+burden
+has been left to families to bear the crushing cost of soaring  prices,
+underinvestment, and too little accountability.
+
+
+
+*It=E2=80=99s time for a new college compact, where everyone does their par=
+t.  We
+need to make a quality education affordable and available to everyone
+willing to work for it **=E2=80=93 without saddling them with decades of de=
+bt.*
+
+
+
+I=E2=80=99ve been traveling the country for months, talking to students and
+families, educators, legislators, and experts of every stripe =E2=80=93 inc=
+luding
+young progressive activists who=E2=80=99ve put the issue of debt-free colle=
+ge and
+college affordability at the top of the national agenda.
+
+
+
+And today, I=E2=80=99m announcing my plan to put college within reach for
+everyone.  We=E2=80=99re calling it the New College Compact.  And we=E2=80=
+=99re posting it
+on our website, Facebook, Medium, Snapchat =E2=80=93 just about everywhere =
+we can
+think of.  I hope you=E2=80=99ll check it out.  But for now, here are the b=
+asics.
+
+
+
+Under the New College Compact, no family =E2=80=93 and no student =E2=80=93=
+ will have to
+borrow to pay tuition at a public college.
+
+
+
+Schools will have to control their costs and show more accountability to
+their students.
+
+
+
+States will have to meet their obligation to invest in higher education.
+
+
+
+The federal government will make a major new investment in this promise and
+will never again profit off student loans.
+
+
+
+And everyone who has student debt will be able to refinance it at lower
+rates.
+
+
+
+That=E2=80=99s my plan.  It=E2=80=99s ambitious =E2=80=93 and we should be =
+ambitious.  But it=E2=80=99s
+also achievable.  And it would make a big difference in people=E2=80=99s li=
+ves.
+
+
+
+My College Compact comes down to two main goals.
+
+
+
+*First, we=E2=80=99ll make sure that cost won=E2=80=99t be a barrier**. *
+
+
+
+Under my plan, you=E2=80=99ll never have to take out a loan to pay for tuit=
+ion at
+an in-state public university to get a 4-year degree.  Tuition will be
+affordable for every family. We will make sure the federal government and
+the states step up and pay the costs, so the burden doesn=E2=80=99t fall on
+families alone.
+
+
+
+But these days, tuition isn=E2=80=99t enough.  The cost of living at colleg=
+e has
+been creeping up too.  So students who qualify for Pell Grants will be able
+to use them for living expenses and students that have to take out loans to
+pay for living expenses will be assured that the rates will be reduced
+because the federal government will no longer be allowed to profit from
+their student loans.
+
+
+
+For those who go to community college, it will be free=E2=80=93 that=E2=80=
+=99s President
+Obama=E2=80=99s plan and we=E2=80=99re making it ours too. If students star=
+t at a community
+college and then transfer to a 4-year school, we=E2=80=99ll make sure their=
+ credits
+count towards a 4-year degree and the transition is seamless. We=E2=80=99re=
+ also
+offering special help to college students who are parents, because when you
+help a parent get an education, you=E2=80=99re helping their kids, too.
+
+
+
+We=E2=80=99re going to work with historically black colleges and universiti=
+es,
+because they serve some of America=E2=80=99s brightest students, who need t=
+he most
+support and too often have gotten the least of it.  And we=E2=80=99re going=
+ to help
+pay for college for students who agree to national service.  If you=E2=80=
+=99re
+willing to tutor America=E2=80=99s kids or clean up our parks, the least we=
+ can do
+is support your education.
+
+
+
+*Our second big goal is to make sure that debt won=E2=80=99t hold anyone ba=
+ck. *
+
+
+
+For the millions of Americans who already have student debt, my plan will
+give you the chance to refinance at lower interest rates.  If you can
+refinance your mortgage or your car loan, you should be able to refinance
+your student loan.  It=E2=80=99s just wrong that people are locked into col=
+lege
+loans at 8, 9, even 10 percent.
+
+
+
+If you do still end up taking out a loan =E2=80=93 for example, to go to a =
+private
+college or graduate school=E2=80=93 we=E2=80=99ll cut your interest rates, =
+so the
+government never makes a profit off your loan.
+
+
+
+We=E2=80=99ll make it easier to enroll in income-based repayment programs, =
+so
+you=E2=80=99ll never have to pay more than 10 percent of what you make.
+
+
+
+We=E2=80=99re going to help borrowers who are in default get back on their =
+feet.
+And we=E2=80=99ll crack down on predatory schools and lenders and bill coll=
+ectors.
+If you defraud students, overcharge veterans, or mislead borrowers, we=E2=
+=80=99re
+going to do everything we can to stop you.
+
+
+
+There=E2=80=99s a lot more in my College Compact =E2=80=93 from encouraging=
+ innovations
+like online learning and apprenticeships, so students can earn their degree
+in less time and move straight into a job, and can refresh their skills
+throughout their lifetimes =E2=80=A6 to strengthening the G.I. Bill, so mor=
+e of our
+veterans can get their degree... to making sure colleges spending federal
+dollars on things that benefit students, like teaching and research =E2=80=
+=93 not
+marketing campaigns or big salaries for administrators.
+
+
+
+I plan to make college affordability a major issue in this campaign =E2=80=
+=93
+because it=E2=80=99s a major issue for millions of American families.  Here=
+=E2=80=99s the
+bottom line.  An education shouldn=E2=80=99t be something just for those at=
+ the
+top.  And it shouldn't be a burden.  An education should be affordable =E2=
+=80=93
+and available =E2=80=93 to everyone.
+
+
+
+I remember how proud my parents were when I graduated college.  I remember
+how proud Bill and I were to see Chelsea graduate =E2=80=93 I=E2=80=99ll ne=
+ver forget how
+grown-up she looked that day.  And even though my new granddaughter is
+already growing up faster than I=E2=80=99d like, I can=E2=80=99t wait to se=
+e her walk
+across a stage someday and receive her diploma. And I know that mothers and
+fathers and grandparents across the country feel the exact same way.
+
+
+
+I want every young person in America to have their shot at that moment.  I
+want every hard-working parent out there to get the chance to see his or
+her child cross a stage =E2=80=93 or to cross it themselves.  America shoul=
+d be a
+place where those achievements are possible for anyone who=E2=80=99s willin=
+g to
+work hard to do their part.  That=E2=80=99s the country I want to help buil=
+d =E2=80=93 for
+this generation and all the generations to come.
+
+
+
+Thank you very much.  And now, let=E2=80=99s hear from you.
+
+
+
+On Sat, Aug 8, 2015 at 7:53 AM, Margolis, Jim <Jim.Margolis@gmmb.com> wrote=
+:
+
+> our emails crossed.  this is exactly my point.  thanks katie
+> ------------------------------
+> *From:* Katie Connolly [kconnolly@bsgco.com]
+> *Sent:* Saturday, August 08, 2015 10:49 AM
+> *To:* Joel Benenson; Margolis, Jim
+> *Cc:* Mandy Grunwald; aoleary@hillaryclinton.com;
+> mrooney@hillaryclinton.com; speechdrafts@hillaryclinton.com
+> *Subject:* RE: REVISED DRAFT: college rollout
+>
+> One thing I like about Jim=E2=80=99s though is that it does include a dir=
+ect
+> reference to getting rid of =E2=80=9Cdecades of debt=E2=80=9D, which is t=
+he central pain
+> point people are feeling. I believe that the takeaway/quotable grafs have
+> to invoke debt because that=E2=80=99s the way we connect what she is doin=
+g directly
+> back to their lives.
+>
+>
+>
+> Maybe it=E2=80=99s as simple as: *It=E2=80=99s time for a new college com=
+pact,
+> where everyone does their part.  We need to make a quality
+> education affordable and available to everyone willing to work for it =E2=
+=80=93
+> without saddling them with decades of debt.*
+>
+>
+>
+>
+>
+>
+>
+> *From:* Joel Benenson
+> *Sent:* Saturday, August 08, 2015 10:36 AM
+> *To:* Jim Margolis
+> *Cc:* Mandy Grunwald; aoleary@hillaryclinton.com;
+> mrooney@hillaryclinton.com; speechdrafts@hillaryclinton.com; Katie
+> Connolly
+> *Subject:* Re: REVISED DRAFT: college rollout
+>
+>
+>
+> I think Jim's expansion risks sounding like an entitlement program too
+> much.
+>
+>
+>
+> I think we have to make our language true to the core of her plan and who
+> she is in demanding responsibility and accountability from everyone
+> participating and wanting to participate in the college system.
+>
+>
+>
+>  I don't think it's bad at all to say where Everyone does their part.
+>
+> Compact works because it demands things from multiple place and echoing
+> language of basic bargain still feels right here.
+>
+> And this isn't an entitlement so I think the affordable for everyone
+> willing to work for it gets at responsibility - which I think is a
+> substantive difference implicitly with Sanders and pushing against "free"=
+.
+>
+>
+>
+>
+>
+>
+>
+> Sent from my iPhone
+>
+>
+> On Aug 8, 2015, at 9:36 AM, Margolis, Jim <Jim.Margolis@gmmb.com> wrote:
+>
+> Megan/Ann:
+>
+> Sorry, I did one more read through.  I=E2=80=99m a little worried the tak=
+e-away
+> bite in the text doesn=E2=80=99t do enough for us.
+>
+> (current) *It=E2=80=99s time for a new college compact, where everyone do=
+es their
+> part.  We need to make a quality education affordable and available to
+> everyone willing to work for it.*
+>
+>
+>
+> Maybe something more like this:
+>
+> *It=E2=80=99**s time for a new college compact that allows everyone  to g=
+et ahead
+> by getting a college degree =E2=80=94 a degree that doesn=E2=80=99t come =
+with decades of
+> debt but rather a quality education that=E2=80=99s finally affordable and=
+ available
+> to every family in America.  That*=E2=80=99*s** the way forward.*
+>
+>
+>
+> *From: *'Mandy Grunwald' via Speech Drafts <
+> speechdrafts@hillaryclinton.com>
+> *Reply-To: *Mandy Grunwald <gruncom@aol.com>
+> *Date: *Saturday, August 8, 2015 at 9:05 AM
+> *To: *Joel Benenson <jbenenson@bsgco.com>, Ann O'Leary <
+> aoleary@hillaryclinton.com>
+> *Cc: *"mrooney@hillaryclinton.com" <mrooney@hillaryclinton.com>, "
+> speechdrafts@hillaryclinton.com" <speechdrafts@hillaryclinton.com>, Katie
+> Connolly <kconnolly@bsgco.com>
+> *Subject: *Re: REVISED DRAFT: college rollout
+>
+>
+>
+> I like Ann's additions too but I have some concerns about the policy
+> description in our first point.
+>
+>
+>
+> Ann or Megan, could one of you please call me on my cell?
+>
+>
+>
+> 202 669-2899
+>
+>
+>
+> thanks
+>
+> *Mandy Grunwald*
+>
+> *Grunwald Communications*
+>
+> *202 973-9400 <202%20973-9400>*
+>
+>
+>
+> -----Original Message-----
+> From: Joel Benenson <jbenenson@bsgco.com>
+> To: Ann O'Leary <aoleary@hillaryclinton.com>
+> Cc: Megan Rooney <mrooney@hillaryclinton.com>; Speech Drafts <
+> speechdrafts@hillaryclinton.com>; Katie Connolly <kconnolly@bsgco.com>
+> Sent: Sat, Aug 8, 2015 7:18 am
+> Subject: Re: REVISED DRAFT: college rollout
+>
+> Like the adds Ann has made.
+>
+> Sent from my iPhone
+>
+>
+> On Aug 8, 2015, at 2:10 AM, Ann O'Leary < aoleary@hillaryclinton.com>
+> wrote:
+>
+> This is really good, Megan.  I've offered a few suggestions to make sure
+> we are a bit stronger on accountability, we lead with our promise to
+> families and students when we describe our compact, and we highlight
+> innovation and on-line learning a bit more.
+>
+>
+>
+> Thanks to Mandy and Joel - agree their framing and feedback was very
+> helpful - I tried not to wonk it up, just refined at the edges.
+>
+>
+>
+> On Fri, Aug 7, 2015 at 4:46 PM, Megan Rooney <mrooney@hillaryclinton.com>
+> wrote:
+>
+> Hi all!  Attached is a revised draft for Monday=E2=80=99s college rollout=
+ event in
+> NH.  You=E2=80=99ll see it=E2=80=99s a lot leaner and meaner than the dra=
+ft I sent around
+> this morning.  I spent a really helpful hour-plus on the phone with Mandy
+> and Joel and they had great guidance.
+>
+>
+>
+> If you could get me any edits by noon tomorrow, I=E2=80=99d appreciate it=
+.  Thanks!
+>
+>
+>
+> **
+>
+>
+>
+> *HILLARY RODHAM CLINTON*
+>
+> *REMARKS ON COLLEGE AFFORDABILITY AND STUDENT DEBT*
+>
+> *EXETER, NEW HAMPSHIRE*
+>
+> *MONDAY, AUGUST 10, 2015*
+>
+>
+>
+> It=E2=80=99s wonderful to be back in Exeter.  Thank you, Danny, for that
+> introduction.  And thank you all for coming out today.  I=E2=80=99ve been=
+ traveling
+> all over New Hampshire, and everywhere I go =E2=80=93 from Dover to Nashu=
+a to Glen
+> to Windham =E2=80=93 people ask great questions.  It must come from being=
+ the first
+> primary state.  So today, I want to talk for just a little bit, and then =
+I
+> want to hear what=E2=80=99s on your mind.
+>
+>
+>
+> This election is about the choices we have to make as a country, and how
+> they=E2=80=99ll shape our children=E2=80=99s and grandchildren=E2=80=99s =
+futures.  I believe that,
+> in America, if you work hard and do your part, you should be able to get
+> ahead and stay ahead.  That=E2=80=99s the basic bargain that=E2=80=99s al=
+ways set our
+> nation apart.  And I want to make sure we keep that bargain and strengthe=
+n
+> it, so it holds true for this generation and the next.
+>
+>
+>
+> Thanks to your hard work =E2=80=93 and the hard work of people across the=
+ country
+> =E2=80=93 America has come back from the worst recession of our lifetimes=
+.  We=E2=80=99re
+> standing again.  But we=E2=80=99re not yet running the way we should.  Co=
+rporate
+> profits are near record highs =E2=80=93 but most paychecks have barely bu=
+dged.
+> Costs for everything from childcare to prescription drugs are rising fast=
+er
+> than wages. It=E2=80=99s no wonder so many Americans feel like the deck i=
+s stacked
+> in favor of those at the top.
+>
+>
+>
+> We=E2=80=99ve got to do better.  We=E2=80=99ve got to get incomes rising =
+again, so more
+> hard-working families can afford a middle-class life.  We need strong
+> growth=E2=80=A6 fair growth=E2=80=A6 and long-term growth.  *That=E2=80=
+=99s* how we=E2=80=99ll achieve
+> lasting prosperity =E2=80=93 by building an economy that we *all* have a =
+stake
+> in, and that works for *everyone*.
+>
+>
+>
+> Today, I want to talk about one way we do that:  *by making college
+> affordable and available to every American.*
+>
+>
+>
+> For millions of Americans, a college degree has been the ticket to a
+> better life.  My grandfather worked his entire life in a lace mill =E2=80=
+=93 but my
+> dad made it to college and was able to start his own small business, and
+> that made a huge difference in our lives.  Then my parents scrimped and
+> saved for years, so they could send me to a school across the country.
+> They knew that they were setting me on the path to a better future.
+> College still holds that promise today.  A lot has changed in this countr=
+y
+> =E2=80=93 but that hasn=E2=80=99t.
+>
+>
+>
+> Across America, parents are starting college funds the day their kids are
+> born.  High-schoolers =E2=80=93 even middle-schoolers =E2=80=93 are takin=
+g college prep
+> courses and studying for the SAT.  Full-time workers are going to night
+> school, even if that means heading straight from an eight-hour shift to a
+> pile of homework.  If that=E2=80=99s what it takes to get a better job =
+=E2=80=93 to give
+> their kids better than they had =E2=80=93 then they=E2=80=99ll do it.
+>
+>
+>
+> But here=E2=80=99s the problem.  States are slashing education budgets.  =
+Colleges
+> keep raising prices.  In-state tuition and fees for public colleges
+> increased by *55 percent *between 2003 and 2012.  But your incomes didn=
+=E2=80=99t
+> rise by that much, did they?  So families are left facing a painful
+> choice.  Either you say, =E2=80=9CWe just can=E2=80=99t afford it,=E2=80=
+=9D and pass up on all the
+> opportunities that a degree can offer =E2=80=93 or you do whatever it tak=
+es to pay
+> for it, even if that means going deeply into debt.
+>
+>
+>
+> And more and more, that debt is holding people back.  Forty million
+> Americans have student loans.  Together, they owe more than a trillion
+> dollars.  New Hampshire=E2=80=99s students are carrying the highest debt =
+in the
+> country.  And millions of Americans are delinquent or in default.  Even i=
+f
+> they=E2=80=99re doing everything they can to pay their loans, they just c=
+an=E2=80=99t keep
+> up.
+>
+>
+>
+> The cost of this debt is real =E2=80=93 not just on balance sheets, but i=
+n
+> people=E2=80=99s lives and futures.  I=E2=80=99ve talked to people who ha=
+ve so much student
+> debt, they=E2=80=99ve put off buying a house, changing jobs, starting a b=
+usiness =E2=80=93
+> even getting married.  I=E2=80=99ve met parents and grandparents who=E2=
+=80=99ve co-signed
+> loans and end up draining their savings or ruining their credit =E2=80=93=
+ all
+> because they did what parents and grandparents are supposed to do =E2=80=
+=93 help
+> out the next generation.
+>
+>
+>
+> There are students who take out loans to pay for an expensive degree from
+> a for-profit institution =E2=80=93 then graduate and discover that, when =
+it comes
+> to finding a job, their degree isn=E2=80=99t worth what they thought it w=
+ould.
+>
+>
+>
+> And the 40 percent of students who never finish college are left with deb=
+t
+> and no degree to show for it =E2=80=93 the worst of both worlds.  And tha=
+t
+> non-completion rate should trouble to all of us.  It=E2=80=99s the highes=
+t in the
+> developed world.
+>
+>
+>
+> College is supposed to help people achieve their dreams.  But more and
+> more, it=E2=80=99s pushing people=E2=80=99s dreams further out of reach. =
+ And that=E2=80=99s just
+> wrong.  It=E2=80=99s a betrayal of everything college is supposed to repr=
+esent =E2=80=93
+> and everything families have worked so hard to achieve.
+>
+>
+>
+> This is also about our national competitiveness.  The rest of the world i=
+s
+> working as hard as they can to out-do us.  China plans to double the numb=
+er
+> of students enrolled in college by 2030, which means they=E2=80=99ll have=
+ nearly
+> 200 million college graduates.  That=E2=80=99s more than our entire workf=
+orce!
+> American workers can out-work and out-innovate anyone in the world =E2=80=
+=93 as
+> long as they get the training and education they need to compete.
+>
+>
+>
+> So we need to make some big changes.  We need to transform how much highe=
+r
+> education costs =E2=80=93 and how those costs get paid.  For too long, fa=
+milies
+> have had to bear the burden of soaring prices, underinvestment, and too
+> little accountability.
+>
+>
+>
+> *It=E2=80=99s time for a new college compact, where everyone does their p=
+art.  We
+> need to make a quality education affordable and available to everyone
+> willing to work for it.*
+>
+>
+>
+> I=E2=80=99ve been traveling the country for months, talking to students a=
+nd
+> families, educators, legislators, and experts of every stripe =E2=80=93 i=
+ncluding
+> young progressive activists who=E2=80=99ve put the issue of debt-free col=
+lege and
+> college affordability at the top of the national agenda.
+>
+>
+>
+> And today, I=E2=80=99m announcing my plan to put college within reach for
+> everyone.  We=E2=80=99re calling it the New College Compact.  And we=E2=
+=80=99re posting it
+> on our website, Facebook, Medium, Snapchat =E2=80=93 just about everywher=
+e we can
+> think of.  I hope you=E2=80=99ll check it out.  But for now, here are the=
+ basics.
+>
+>
+>
+> Under the New College Compact, schools will have to control their costs
+> and show more accountability to their students.
+>
+>
+>
+> States will have to meet their obligation to invest in higher education.
+>
+>
+>
+> The federal government will never profit off student loans.
+>
+>
+>
+> No family =E2=80=93 and no student =E2=80=93 should have to borrow to pay=
+ tuition at a
+> public college.
+>
+>
+>
+> And everyone who has student debt will be able to refinance it at lower
+> rates.
+>
+>
+>
+> That=E2=80=99s my plan.  It=E2=80=99s ambitious =E2=80=93 and we should b=
+e ambitious.  But it=E2=80=99s
+> also achievable.  And it would make a big difference in people=E2=80=99s =
+lives.
+>
+>
+>
+> My College Compact comes down to two main goals.
+>
+>
+>
+> *First, we=E2=80=99ll make sure that cost won=E2=80=99t be a barrier. *
+>
+>
+>
+> Under my plan, you=E2=80=99ll never have to take out a loan to pay for tu=
+ition at
+> an in-state public university.  We=E2=80=99re going to make community col=
+lege free
+> =E2=80=93 that=E2=80=99s President Obama=E2=80=99s plan and we=E2=80=99re=
+ making it ours too.  We=E2=80=99re
+> reforming Pell Grants, so students can use them for living costs as well =
+as
+> tuition.  We=E2=80=99re offering special help to college students who are=
+ parents,
+> because when you help a parent get an education, you=E2=80=99re helping t=
+heir kids,
+> too.
+>
+>
+>
+> We=E2=80=99re going to work with historically black colleges and universi=
+ties,
+> because they serve some of America=E2=80=99s brightest students, who need=
+ the most
+> support and too often have gotten the least of it.  And we=E2=80=99re goi=
+ng to help
+> pay for college for students who agree to national service.  If you=E2=80=
+=99re
+> willing to tutor America=E2=80=99s kids or clean up our parks, the least =
+we can do
+> is support your education.
+>
+>
+>
+> *And second, we=E2=80=99ll make sure that debt won=E2=80=99t hold anyone =
+back. *
+>
+>
+>
+> Under my plan, every borrower in America who already has student debt wil=
+l
+> get the chance to refinance at lower interest rates.  If you can refinanc=
+e
+> your mortgage or your car loan, you should be able to refinance your
+> student loan.
+>
+>
+>
+> If you do still end up taking out a loan =E2=80=93 for example, to go to =
+a private
+> college =E2=80=93 we=E2=80=99ll cut your interest rates, so the governmen=
+t never makes a
+> profit off your loan.
+>
+>
+>
+> We=E2=80=99ll make it easier to enroll in income-based repayment programs=
+, so
+> you=E2=80=99ll never have to pay more than 10 percent of what you make.
+>
+>
+>
+> We=E2=80=99re going to help borrowers who are in default get back on thei=
+r feet.
+> And we=E2=80=99ll crack down on predatory schools and lenders and bill co=
+llectors.
+> If you defraud students, overcharge veterans, or mislead borrowers, we=E2=
+=80=99re
+> going to do everything we can to stop you.
+>
+>
+>
+> There=E2=80=99s a lot more in my College Compact =E2=80=93 from encouragi=
+ng innovations
+> like online learning and apprenticeships, so students can earn their degr=
+ee
+> in less time and move straight into a job=E2=80=A6 to strengthening the G=
+.I. Bill,
+> so more of our veterans can get their degree... to making sure colleges
+> spending federal dollars on things that benefit students, like teaching a=
+nd
+> research =E2=80=93 not marketing campaigns or big salaries for administra=
+tors.
+>
+>
+>
+> I plan to make college affordability a major issue in this campaign =E2=
+=80=93
+> because it=E2=80=99s a major issue for millions of American families.  He=
+re=E2=80=99s the
+> bottom line.  An education shouldn=E2=80=99t be something just for those =
+at the
+> top.  And it shouldn't be a burden.  An education should be affordable =
+=E2=80=93
+> and available =E2=80=93 to everyone.
+>
+>
+>
+> I remember how proud my parents were when I graduated college.  I remembe=
+r
+> how proud Bill and I were to see Chelsea graduate =E2=80=93 I=E2=80=99ll =
+never forget how
+> grown-up she looked that day.  And even though my new granddaughter is
+> already growing up faster than I=E2=80=99d like, I can=E2=80=99t wait to =
+see her walk
+> across a stage someday and receive her diploma. And I know that mothers a=
+nd
+> fathers and grandparents across the country feel the exact same way.
+>
+>
+>
+> I want every young person in America to have their shot at that moment.  =
+I
+> want every hard-working parent out there to get the chance to see his or
+> her child cross a stage =E2=80=93 or to cross it themselves.  America sho=
+uld be a
+> place where those achievements are possible for anyone who=E2=80=99s will=
+ing to
+> work hard to do their part.  That=E2=80=99s the country I want to help bu=
+ild =E2=80=93 for
+> this generation and all the generations to come.
+>
+>
+>
+> Thank you very much.  And now, let=E2=80=99s hear from you.
+>
+>
+>
+>
+>
+>
+>
+> --
+>
+> Ann O'Leary
+>
+> Senior Policy Advisor
+>
+> Hillary for America
+>
+> Cell: 510-717-5518
+>
+> <8-7-15 draft NH college town hall 730pm - AOL.docx>
+>
+>
+>
+> This email is intended only for the named addressee. It may contain
+> information that is confidential/private, legally privileged, or
+> copyright-protected, and you should handle it accordingly. If you are not
+> the intended recipient, you do not have legal rights to retain, copy, or
+> distribute this email or its contents, and should promptly delete the ema=
+il
+> and all electronic copies in your system; do not retain copies in any
+> media. If you have received this email in error, please notify the sender
+> promptly. Thank you.
+>
+>
+
+
+--=20
+Ann O'Leary
+Senior Policy Advisor
+Hillary for America
+Cell: 510-717-5518
+
+--94eb2c0885be9f6e8a051cce3a6f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">On California time so just getting working this morning.=
+=C2=A0 Jim/Katie - Like your resolution and incorporated it. Mandy - I like=
+ your edits and think they make it stronger.=C2=A0 The only one I changed w=
+as deleting &quot;prefer&quot; community college - some go b/c they can&#39=
+;t get into 4 years.=C2=A0 I also want to double check just how high existi=
+ng student loans go (e.g. are they really as high as 10 percent from some s=
+tudents?).=C2=A0 But I&#39;ve attached my final edits on top of yours as tr=
+acked changes. And for those who are doing this all on their iPhones, I am =
+pasting a clean version here:<div><br></div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><u>H=
+ILLARY RODHAM CLINTON</u></b></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><u>R=
+EMARKS ON COLLEGE AFFORDABILITY AND STUDENT DEBT</u></b></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><u>E=
+XETER, NEW HAMPSHIRE</u></b></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><u>M=
+ONDAY, AUGUST 10, 2015</u></b></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">=C2=A0<=
+/p>
+
+<p class=3D"MsoNormal">It=E2=80=99s wonderful to be back in Exeter.=C2=A0 T=
+hank you, Danny, for that introduction.=C2=A0 And thank you all for coming =
+out today.=C2=A0 I=E2=80=99ve been traveling all over New Hampshire, and
+everywhere I go =E2=80=93 from Dover to Nashua to Glen to Windham =E2=80=93=
+ people ask great
+questions.=C2=A0 It must come from being the
+first primary state.=C2=A0 So today, I want to
+talk for just a little bit, and then I want to hear what=E2=80=99s on your =
+mind.=C2=A0 </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">This election is about the choices we have to make a=
+s a
+country, and how they=E2=80=99ll shape our children=E2=80=99s and grandchil=
+dren=E2=80=99s futures.=C2=A0 I believe that, in America, if you work hard
+and do your part, you should be able to get ahead and stay ahead.=C2=A0 Tha=
+t=E2=80=99s the basic bargain that=E2=80=99s always set
+our nation apart.=C2=A0 And I want to make
+sure we keep that bargain and strengthen it, so it holds true for this
+generation and the next. </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">Thanks to your hard work =E2=80=93 and the hard work=
+ of people
+across the country =E2=80=93 America has come back from the worst recession=
+ of our lifetimes.=C2=A0 We=E2=80=99re standing again.=C2=A0 But we=E2=80=
+=99re not yet running the way we
+should.=C2=A0 Corporate profits are near
+record highs =E2=80=93 but most paychecks have barely budged.=C2=A0 Costs f=
+or everything from childcare to prescription
+drugs are rising faster than wages. It=E2=80=99s no wonder so many American=
+s feel like
+the deck is stacked in favor of those at the top.=C2=A0 </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">We=E2=80=99ve got to do better.=C2=A0
+We=E2=80=99ve got to get incomes rising again, so more hard-working familie=
+s can
+afford a middle-class life.=C2=A0 We need
+strong growth=E2=80=A6 fair growth=E2=80=A6 and long-term growth.=C2=A0 <u>=
+That=E2=80=99s</u> how we=E2=80=99ll achieve lasting
+prosperity =E2=80=93 by building an economy that we <u>all</u> have a stake=
+ in, and that
+works for <u>everyone</u>. </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">Today, I want to talk about one way we can help ease=
+ the
+burden on families:=C2=A0 <u>by making college
+affordable and available to every American.</u>=C2=A0
+</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">For millions of Americans, a college degree has been=
+ the
+ticket to a better life.=C2=A0 My grandfather
+worked his entire life in a lace mill =E2=80=93 but my dad made it to colle=
+ge and was
+able to start his own small business, and that made a huge difference in ou=
+r
+lives.=C2=A0 Then my parents scrimped and
+saved for years, so they could send me to a school across the country.=C2=
+=A0 They knew that they were setting me on the
+path to a better future.=C2=A0 College still
+holds that promise today.=C2=A0 A lot has
+changed in this country =E2=80=93 but that hasn=E2=80=99t.=C2=A0
+</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">Across America, parents who never had a chance to go=
+ to
+college themselves dream of that aspiration the moment their kids are born.=
+=C2=A0 High-schoolers =E2=80=93 even middle-schoolers =E2=80=93 are
+taking college prep courses and studying for the SAT.=C2=A0 Full-time worke=
+rs are spending time at night
+taking course on-line to earn certificates or badges, or going to community
+college at night, to increase their knowledge and skills so they can move u=
+p
+the job ladder, even if that means heading straight from an eight-hour shif=
+t to
+a pile of homework.=C2=A0 If that=E2=80=99s what it
+takes to get a better job =E2=80=93 to give their kids better than they had=
+ =E2=80=93 then
+they=E2=80=99ll do it.=C2=A0 </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">But here=E2=80=99s the problem.=C2=A0
+States are slashing education budgets.=C2=A0
+Colleges keep raising prices.=C2=A0
+In-state tuition and fees for public colleges increased by <u>55 percent
+</u>between 2003 and 2012.=C2=A0 But your
+incomes didn=E2=80=99t rise by that much, did they?=C2=A0
+So families are left facing a painful choice.=C2=A0 Either you say, =E2=80=
+=9CWe just can=E2=80=99t afford it,=E2=80=9D
+and pass up on all the opportunities that a degree can offer =E2=80=93 or y=
+ou do
+whatever it takes to pay for it, even if that means going deeply into debt.=
+</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">And while the return on investment of a college degr=
+ee is
+still worth it over a person=E2=80=99s lifetime, more and more, student deb=
+t is holding
+people back from getting a strong start.=C2=A0
+Forty million
+Americans have student loans.=C2=A0 Together,
+they owe more than a trillion dollars.=C2=A0
+New Hampshire=E2=80=99s students are carrying the highest debt in the
+country.=C2=A0 And millions of Americans are
+delinquent or in default.=C2=A0 Even if
+they=E2=80=99re doing everything they can to pay their loans, they just can=
+=E2=80=99t keep
+up.=C2=A0 </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">The cost of this debt is real =E2=80=93 not just on =
+balance sheets,
+but in people=E2=80=99s lives and futures.=C2=A0 I=E2=80=99ve
+talked to people who have so much student debt, they=E2=80=99ve put off buy=
+ing a house,
+changing jobs, starting a business =E2=80=93 even getting married.=C2=A0 I=
+=E2=80=99ve met parents and grandparents who=E2=80=99ve
+co-signed loans and end up draining their savings or ruining their credit =
+=E2=80=93 all
+because they did what parents and grandparents are supposed to do =E2=80=93=
+ help out
+the next generation.=C2=A0 </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">There are students who take out loans to pay for an
+expensive degree from a for-profit institution =E2=80=93 only to find littl=
+e support to
+help them complete the degree or they graduate and discover that, when it c=
+omes
+to finding a job, their degree isn=E2=80=99t worth what they thought it was=
+. </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"Normal1"><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;">The 40 percent of students who never finish
+college are left with debt and no degree to show for it =E2=80=93 the worst=
+ of both
+worlds.=C2=A0 And that non-completion rate
+should trouble to all of us.=C2=A0 It=E2=80=99s the
+highest in the developed world. It is time for us to show some tough love w=
+ith
+our colleges and universities that year after year allow more of their stud=
+ents
+to fail than to graduate.</span></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">College is supposed to help people achieve their dre=
+ams.=C2=A0 But more and more, it=E2=80=99s pushing people=E2=80=99s
+dreams further out of reach.=C2=A0 And that=E2=80=99s
+just wrong.=C2=A0 It=E2=80=99s a betrayal of
+everything college is supposed to represent =E2=80=93 and everything famili=
+es have
+worked so hard to achieve.=C2=A0 </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">This is also about our national competitiveness.=C2=
+=A0 The rest of the world is working as hard as
+they can to out-do us.=C2=A0 China plans to
+double the number of students enrolled in college by 2030, which means they=
+=E2=80=99ll
+have nearly 200 million college graduates.=C2=A0
+That=E2=80=99s more than our entire workforce!=C2=A0
+American workers can out-work and out-innovate anyone in the world =E2=80=
+=93 as
+long as they get the training and education they need to compete.=C2=A0 </p=
+>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">So we need to make some big changes.=C2=A0 We need t=
+o transform how much higher
+education costs =E2=80=93 and how those costs get paid.=C2=A0
+For too long, the burden has been left to families to bear the crushing
+cost of soaring =C2=A0prices, underinvestment,
+and too little accountability.=C2=A0 </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><b><span style=3D"color:black">It=E2=80=99s time for=
+ a new college compact, where <u>everyone</u>
+does their part.=C2=A0=C2=A0We need to make a quality education=C2=A0afford=
+able
+and available to everyone willing to work for it </span></b><b>=E2=80=93
+without saddling them with decades of debt.</b><b><span style=3D"color:blac=
+k"></span></b></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span></p>
+
+<p class=3D"MsoNormal">I=E2=80=99ve been traveling the country for months, =
+talking to
+students and families, educators, legislators, and experts of every stripe =
+=E2=80=93
+including young progressive activists who=E2=80=99ve put the issue of debt-=
+free college
+and college affordability at the top of the national agenda.=C2=A0 </p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Tahoma;color:black">=C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal">And today, I=E2=80=99m announcing my plan to put col=
+lege within
+reach for everyone.=C2=A0 We=E2=80=99re calling it the
+New College Compact.=C2=A0 And we=E2=80=99re posting
+it on our website, Facebook, Medium, Snapchat =E2=80=93 just about everywhe=
+re we can
+think of.=C2=A0 I hope you=E2=80=99ll check it out.=C2=A0 But for now, here=
+ are the basics. <span style=3D"color:black"></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">Under the New College Co=
+mpact, no=C2=A0family
+=E2=80=93 and no student =E2=80=93 will have to borrow to pay tuition=C2=A0=
+at a public college.
+</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">Schools will have to con=
+trol their
+costs and show more accountability to their students</span><span style=3D"f=
+ont-family:Tahoma;color:black">.=C2=A0
+</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Tahoma;color:black">=C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">States will=C2=A0have to=
+ meet
+their obligation to invest in higher education.</span><span style=3D"font-f=
+amily:Tahoma;color:black">=C2=A0 </span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Tahoma;color:black">=C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">The federal government w=
+ill make a
+major new investment in this promise and will never again profit off studen=
+t
+loans.</span><span style=3D"font-family:Tahoma;color:black"></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span><span style=
+=3D"font-family:Tahoma;color:black"></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">And everyone who has stu=
+dent debt will
+be able to refinance it at lower rates.</span><span style=3D"font-family:Ta=
+homa;color:black"></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span><span style=
+=3D"font-family:Tahoma;color:black"></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">That=E2=80=99s my plan.=
+=C2=A0 It=E2=80=99s ambitious =E2=80=93 and we should be
+ambitious.=C2=A0 But it=E2=80=99s also
+achievable.=C2=A0 And it would make a big
+difference in people=E2=80=99s lives. </span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"color:black">My College Compact comes=
+ down to
+two main goals.</span></p>
+
+<p class=3D"MsoNormal"><u>=C2=A0</u></p>
+
+<p class=3D"MsoNormal"><u>First, we=E2=80=99ll make sure that cost won=E2=
+=80=99t be a barrier</u><i><u>. </u></i></p>
+
+<p class=3D"MsoNormal"><i>=C2=A0</i></p>
+
+<p class=3D"MsoNormal">Under
+my plan, you=E2=80=99ll never have to take out a loan to pay for tuition at=
+ an in-state
+public university to get a 4-year degree.=C2=A0
+Tuition will be affordable for every family. We will make sure the
+federal government and the states step up and pay the costs, so the burden =
+doesn=E2=80=99t
+fall on families alone.</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">But these
+days, tuition isn=E2=80=99t enough.=C2=A0 The cost of
+living at college has been creeping up too.=C2=A0
+So students who qualify for Pell Grants will be able to use them for
+living expenses and students that have to take out loans to pay for living
+expenses will be assured that the rates will be reduced because the federal
+government will no longer be allowed to profit from their student loans. =
+=C2=A0</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">For
+those who go to community college, it will be free=E2=80=93 that=E2=80=99s =
+President Obama=E2=80=99s
+plan and we=E2=80=99re making it ours too. If students start at a community=
+ college and
+then transfer to a 4-year school, we=E2=80=99ll make sure their credits cou=
+nt towards a
+4-year degree and the transition is seamless. We=E2=80=99re also offering s=
+pecial help
+to college students who are parents, because when you help a parent get an
+education, you=E2=80=99re helping their kids, too.=C2=A0
+</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">We=E2=80=99re going to work with historically black =
+colleges and
+universities, because they serve some of America=E2=80=99s brightest studen=
+ts, who need
+the most support and too often have gotten the least of it.=C2=A0 And we=E2=
+=80=99re going to help pay for college for
+students who agree to national service.=C2=A0 If you=E2=80=99re willing to =
+tutor
+America=E2=80=99s kids or clean up our parks, the least we can do is suppor=
+t your
+education.=C2=A0 </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><u>Our
+second big goal is to make sure that debt won=E2=80=99t hold anyone back. <=
+/u></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">For
+the millions of Americans who already have student debt, my plan will give =
+you the
+chance to refinance at lower interest rates.=C2=A0
+If you can refinance your mortgage or your car loan, you should be able
+to refinance your student loan.=C2=A0 It=E2=80=99s
+just wrong that people are locked into college loans at 8, 9, even 10 perce=
+nt.</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">If
+you do still end up taking out a loan =E2=80=93 for example, to go to a pri=
+vate college
+or graduate school=E2=80=93 we=E2=80=99ll cut your interest rates, so the g=
+overnment
+never makes a profit off your loan.=C2=A0 </p>
+
+<p class=3D"Normal1"><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"Normal1"><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;">We=E2=80=99ll make it easier to enroll in income-based
+repayment programs, so you=E2=80=99ll never have to pay more than 10 percen=
+t of what
+you make.=C2=A0 </span></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"Normal1"><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;">We=E2=80=99re going to help borrowers who are in default
+get back on their feet.=C2=A0 And we=E2=80=99ll crack
+down on predatory schools and lenders and bill collectors.=C2=A0 If you def=
+raud students, overcharge veterans,
+or mislead borrowers, we=E2=80=99re going to do everything we can to stop y=
+ou.=C2=A0 </span></p>
+
+<p class=3D"Normal1"><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal">There=E2=80=99s a lot more in my College Compact =E2=
+=80=93 from encouraging
+innovations like online learning and apprenticeships, so students can earn
+their degree in less time and move straight into a job, and can refresh the=
+ir
+skills throughout their lifetimes =E2=80=A6 to strengthening the G.I. Bill,=
+ so more of
+our veterans can get their degree... to making sure colleges spending feder=
+al
+dollars on things that benefit students, like teaching and research =E2=80=
+=93 not
+marketing campaigns or big salaries for administrators.=C2=A0 </p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">I plan to make college affordability a major issue i=
+n this campaign
+=E2=80=93 because it=E2=80=99s a major issue for millions of American famil=
+ies.=C2=A0 Here=E2=80=99s the bottom line.=C2=A0 <span style=3D"color:black=
+">An education
+shouldn=E2=80=99t be something just for those at the top.=C2=A0 And it shou=
+ldn&#39;t be a
+burden.=C2=A0 An education=C2=A0should be
+affordable =E2=80=93 and available =E2=80=93 to everyone.</span></p>
+
+<p class=3D"Normal1"><span style=3D"font-size:12.0pt;font-family:&quot;Time=
+s New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal">I remember how proud my parents were when I graduate=
+d
+college.=C2=A0 I remember how proud Bill and I
+were to see Chelsea graduate =E2=80=93 I=E2=80=99ll never forget how grown-=
+up she looked that
+day.=C2=A0 And even though my new
+granddaughter is already growing up faster than I=E2=80=99d like, I can=E2=
+=80=99t wait to see her
+walk across a stage someday and receive her diploma. And I know that mother=
+s
+and fathers and grandparents across the country feel the exact same way.</p=
+>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">I want every young person in America to have their s=
+hot at
+that moment.=C2=A0 I want every hard-working
+parent out there to get the chance to see his or her child cross a stage =
+=E2=80=93 or
+to cross it themselves.=C2=A0 America should
+be a place where those achievements are possible for anyone who=E2=80=99s w=
+illing to
+work hard to do their part.=C2=A0 That=E2=80=99s the
+country I want to help build =E2=80=93 for this generation and all the gene=
+rations to
+come.</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">Thank you very much.=C2=A0
+And now, let=E2=80=99s hear from you.</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+</div></div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">On Sa=
+t, Aug 8, 2015 at 7:53 AM, Margolis, Jim <span dir=3D"ltr">&lt;<a href=3D"m=
+ailto:Jim.Margolis@gmmb.com" target=3D"_blank">Jim.Margolis@gmmb.com</a>&gt=
+;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 =
+.8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+
+
+
+<div lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div style=3D"direction:ltr;font-family:Tahoma;color:#000000;font-size:10pt=
+">our emails crossed.=C2=A0 this is exactly my point.=C2=A0 thanks katie<br=
+>
+<div style=3D"font-family:Times New Roman;color:#000000;font-size:16px">
+<hr>
+<div style=3D"direction:ltr"><font size=3D"2" color=3D"#000000" face=3D"Tah=
+oma"><b>From:</b> Katie Connolly [<a href=3D"mailto:kconnolly@bsgco.com" ta=
+rget=3D"_blank">kconnolly@bsgco.com</a>]<br>
+<b>Sent:</b> Saturday, August 08, 2015 10:49 AM<br>
+<b>To:</b> Joel Benenson; Margolis, Jim<span class=3D""><br>
+<b>Cc:</b> Mandy Grunwald; <a href=3D"mailto:aoleary@hillaryclinton.com" ta=
+rget=3D"_blank">aoleary@hillaryclinton.com</a>; <a href=3D"mailto:mrooney@h=
+illaryclinton.com" target=3D"_blank">mrooney@hillaryclinton.com</a>; <a hre=
+f=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">speechdrafts=
+@hillaryclinton.com</a><br>
+</span><b>Subject:</b> RE: REVISED DRAFT: college rollout<br>
+</font><br>
+</div><div><div class=3D"h5">
+<div></div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">One thing I like about Ji=
+m=E2=80=99s though is that it does include a direct reference to getting ri=
+d of =E2=80=9Cdecades of debt=E2=80=9D, which is the central pain point peo=
+ple
+ are feeling. I believe that the takeaway/quotable grafs have to invoke deb=
+t because that=E2=80=99s the way we connect what she is doing directly back=
+ to their lives.
+</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">Maybe it=E2=80=99s as sim=
+ple as:
+</span><b>It=E2=80=99s time for a new college compact, where=C2=A0<u>everyo=
+ne</u>=C2=A0does their part.=C2=A0=C2=A0We need to make a quality education=
+=C2=A0affordable and available to everyone willing to work for it =E2=80=93=
+ without saddling them with decades of debt.</b></p>
+<p class=3D"MsoNormal"><b>=C2=A0</b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span></p>
+<div>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Joel Ben=
+enson
+<br>
+<b>Sent:</b> Saturday, August 08, 2015 10:36 AM<br>
+<b>To:</b> Jim Margolis<br>
+<b>Cc:</b> Mandy Grunwald; <a href=3D"mailto:aoleary@hillaryclinton.com" ta=
+rget=3D"_blank">aoleary@hillaryclinton.com</a>; <a href=3D"mailto:mrooney@h=
+illaryclinton.com" target=3D"_blank">mrooney@hillaryclinton.com</a>; <a hre=
+f=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">speechdrafts=
+@hillaryclinton.com</a>; Katie Connolly<br>
+<b>Subject:</b> Re: REVISED DRAFT: college rollout</span></p>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<div>
+<p class=3D"MsoNormal">I think Jim&#39;s expansion risks sounding like an e=
+ntitlement program too much.=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">I think we have to make our language true to the cor=
+e of her plan and who she is in demanding responsibility and accountability=
+ from everyone participating and wanting to participate in the college syst=
+em.=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0I don&#39;t think it&#39;s bad at all to say w=
+here Everyone does their part.=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Compact works because it demands things from multipl=
+e place and echoing language of basic bargain still feels right here.=C2=A0=
+</p>
+</div>
+<div>
+<p class=3D"MsoNormal">And this isn&#39;t an entitlement so I think the aff=
+ordable for everyone willing to work for it gets at responsibility - which =
+I think is a substantive difference implicitly with Sanders and pushing aga=
+inst &quot;free&quot;.=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<p class=3D"MsoNormal"><br>
+<br>
+Sent from my iPhone</p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>
+On Aug 8, 2015, at 9:36 AM, Margolis, Jim &lt;<a href=3D"mailto:Jim.Margoli=
+s@gmmb.com" target=3D"_blank">Jim.Margolis@gmmb.com</a>&gt; wrote:</p>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<div>
+<p class=3D"MsoNormal">Megan/Ann:</p>
+</div>
+<div>
+<p class=3D"MsoNormal">Sorry, I did one more read through.=C2=A0 I=E2=80=99=
+m a little worried the take-away bite in the text doesn=E2=80=99t do enough=
+ for us.</p>
+</div>
+<div>
+<p class=3D"MsoNormal">(current)=C2=A0<b>It=E2=80=99s time for a new colleg=
+e compact, where=C2=A0<u>everyone</u>=C2=A0does their part.=C2=A0=C2=A0We n=
+eed to make a quality education=C2=A0affordable and available to everyone w=
+illing to work for it.</b></p>
+</div>
+<p class=3D"MsoNormal">=C2=A0</p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri&quot;,&quot=
+;sans-serif&quot;">Maybe something more like this:</span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;">It</span>=E2=80=99</b><b><span style=3D"font-family:&=
+quot;Calibri&quot;,&quot;sans-serif&quot;">s time for a new college compact=
+ that allows everyone =C2=A0to get ahead by getting a college degree =E2=80=
+=94 a degree that doesn=E2=80=99t
+ come with decades of debt but rather a=C2=A0quality education that=E2=80=
+=99s finally affordable and available to every family in America.=C2=A0=C2=
+=A0That</span></b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;">=E2=80=99<u>s</u><b>=C2=A0the way forward.</b></span></p>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;;color:black">From:
+</span></b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,=
+&quot;sans-serif&quot;;color:black">&#39;Mandy Grunwald&#39; via Speech Dra=
+fts &lt;<a href=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank=
+">speechdrafts@hillaryclinton.com</a>&gt;<br>
+<b>Reply-To: </b>Mandy Grunwald &lt;<a href=3D"mailto:gruncom@aol.com" targ=
+et=3D"_blank">gruncom@aol.com</a>&gt;<br>
+<b>Date: </b>Saturday, August 8, 2015 at 9:05 AM<br>
+<b>To: </b>Joel Benenson &lt;<a href=3D"mailto:jbenenson@bsgco.com" target=
+=3D"_blank">jbenenson@bsgco.com</a>&gt;, Ann O&#39;Leary &lt;<a href=3D"mai=
+lto:aoleary@hillaryclinton.com" target=3D"_blank">aoleary@hillaryclinton.co=
+m</a>&gt;<br>
+<b>Cc: </b>&quot;<a href=3D"mailto:mrooney@hillaryclinton.com" target=3D"_b=
+lank">mrooney@hillaryclinton.com</a>&quot; &lt;<a href=3D"mailto:mrooney@hi=
+llaryclinton.com" target=3D"_blank">mrooney@hillaryclinton.com</a>&gt;, &qu=
+ot;<a href=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">spe=
+echdrafts@hillaryclinton.com</a>&quot;
+ &lt;<a href=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">s=
+peechdrafts@hillaryclinton.com</a>&gt;, Katie Connolly &lt;<a href=3D"mailt=
+o:kconnolly@bsgco.com" target=3D"_blank">kconnolly@bsgco.com</a>&gt;<br>
+<b>Subject: </b>Re: REVISED DRAFT: college rollout</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal">=C2=A0</p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black">I like Ann&#39;s additions t=
+oo but I have some concerns about the policy description in our first point=
+.
+</span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black">Ann or Megan, could one of y=
+ou please call me on my cell?</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black"><a href=3D"tel:202%20669-289=
+9" value=3D"+12026692899" target=3D"_blank">202 669-2899</a></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;color:blac=
+k">thanks</span></p>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;;color:royalblue">Mandy Grunwald</span>=
+</b><span style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sa=
+ns-serif&quot;;color:black">
+</span></p>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;;color:royalblue">Grunwald Communicatio=
+ns</span></b><span style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;=
+,&quot;sans-serif&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;;color:royalblue"><a href=3D"tel:202%20=
+973-9400" value=3D"+12029739400" target=3D"_blank">202 973-9400</a></span><=
+/b><span style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;san=
+s-serif&quot;;color:black"></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;color:blac=
+k">=C2=A0</span></p>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;color:b=
+lack">-----Original Message-----<br>
+From: Joel Benenson &lt;<a href=3D"mailto:jbenenson@bsgco.com" target=3D"_b=
+lank">jbenenson@bsgco.com</a>&gt;<br>
+To: Ann O&#39;Leary &lt;<a href=3D"mailto:aoleary@hillaryclinton.com" targe=
+t=3D"_blank">aoleary@hillaryclinton.com</a>&gt;<br>
+Cc: Megan Rooney &lt;<a href=3D"mailto:mrooney@hillaryclinton.com" target=
+=3D"_blank">mrooney@hillaryclinton.com</a>&gt;; Speech Drafts &lt;<a href=
+=3D"mailto:speechdrafts@hillaryclinton.com" target=3D"_blank">speechdrafts@=
+hillaryclinton.com</a>&gt;; Katie Connolly &lt;<a href=3D"mailto:kconnolly@=
+bsgco.com" target=3D"_blank">kconnolly@bsgco.com</a>&gt;<br>
+Sent: Sat, Aug 8, 2015 7:18 am<br>
+Subject: Re: REVISED DRAFT: college rollout</span></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Like the adds Ann has mad=
+e.=C2=A0
+<br>
+<br>
+Sent from my iPhone </span></p>
+</div>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;color:b=
+lack"><br>
+On Aug 8, 2015, at 2:10 AM, Ann O&#39;Leary &lt; <a href=3D"mailto:aoleary@=
+hillaryclinton.com" target=3D"_blank">
+aoleary@hillaryclinton.com</a>&gt; wrote: </span></p>
+</div>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">This is really good, Mega=
+n.=C2=A0 I&#39;ve offered a few suggestions to make sure we are a bit stron=
+ger on accountability, we lead with our promise to families and
+ students when we describe our compact, and we highlight innovation and on-=
+line learning a bit more.
+</span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Thanks to Mandy and Joel =
+- agree their framing and feedback was very helpful - I tried not to wonk i=
+t up, just refined at the edges.
+</span></p>
+</div>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">On Fri, Aug 7, 2015 at 4:=
+46 PM, Megan Rooney &lt;<a href=3D"mailto:mrooney@hillaryclinton.com" targe=
+t=3D"_blank">mrooney@hillaryclinton.com</a>&gt; wrote:
+</span></p>
+<div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Hi all!=C2=A0 Attached is=
+ a revised draft for Monday=E2=80=99s college rollout event in NH.=C2=A0 Yo=
+u=E2=80=99ll see it=E2=80=99s a lot leaner and meaner than the draft I sent=
+ around this
+ morning.=C2=A0 I spent a really helpful hour-plus on the phone with Mandy =
+and Joel and they had great guidance.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">If you could get me any e=
+dits by noon tomorrow, I=E2=80=99d appreciate it.=C2=A0 Thanks!</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">**</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<p class=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><b><u><=
+span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans=
+-serif&quot;;color:black">HILLARY RODHAM CLINTON</span></u></b><span style=
+=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quo=
+t;;color:black"></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><b><u><=
+span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans=
+-serif&quot;;color:black">REMARKS ON COLLEGE AFFORDABILITY AND STUDENT DEBT=
+</span></u></b><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&=
+quot;,&quot;sans-serif&quot;;color:black"></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><b><u><=
+span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans=
+-serif&quot;;color:black">EXETER, NEW HAMPSHIRE</span></u></b><span style=
+=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quo=
+t;;color:black"></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><b><u><=
+span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans=
+-serif&quot;;color:black">MONDAY, AUGUST 10, 2015</span></u></b><span style=
+=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quo=
+t;;color:black"></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:center" align=3D"center"><span s=
+tyle=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif=
+&quot;;color:black">=C2=A0</span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">It=E2=80=99s wonderful to=
+ be back in Exeter.=C2=A0 Thank you, Danny, for that introduction.=C2=A0 An=
+d thank you all for coming out today.=C2=A0 I=E2=80=99ve been traveling all=
+ over New
+ Hampshire, and everywhere I go =E2=80=93 from Dover to Nashua to Glen to W=
+indham =E2=80=93 people ask great questions.=C2=A0 It must come from being =
+the first primary state.=C2=A0 So today, I want to talk for just a little b=
+it, and then I want to hear what=E2=80=99s on your mind.=C2=A0
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">This election is about th=
+e choices we have to make as a country, and how they=E2=80=99ll shape our c=
+hildren=E2=80=99s and grandchildren=E2=80=99s futures.=C2=A0 I believe that=
+, in America,
+ if you work hard and do your part, you should be able to get ahead and sta=
+y ahead.=C2=A0 That=E2=80=99s the basic bargain that=E2=80=99s always set o=
+ur nation apart.=C2=A0 And I want to make sure we keep that bargain and str=
+engthen it, so it holds true for this generation and the next.
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Thanks to your hard work =
+=E2=80=93 and the hard work of people across the country =E2=80=93 America =
+has come back from the worst recession of our lifetimes.=C2=A0 We=E2=80=99r=
+e standing
+ again.=C2=A0 But we=E2=80=99re not yet running the way we should.=C2=A0 Co=
+rporate profits are near record highs =E2=80=93 but most paychecks have bar=
+ely budged.=C2=A0 Costs for everything from childcare to prescription drugs=
+ are rising faster than wages. It=E2=80=99s no wonder so many Americans
+ feel like the deck is stacked in favor of those at the top.=C2=A0 </span><=
+/p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">We=E2=80=99ve got to do b=
+etter.=C2=A0 We=E2=80=99ve got to get incomes rising again, so more hard-wo=
+rking families can afford a middle-class life.=C2=A0 We need strong growth=
+=E2=80=A6 fair
+ growth=E2=80=A6 and long-term growth.=C2=A0 <u>That=E2=80=99s</u> how we=
+=E2=80=99ll achieve lasting prosperity =E2=80=93 by building an economy tha=
+t we
+<u>all</u> have a stake in, and that works for <u>everyone</u>. </span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Today, I want to talk abo=
+ut one way we do that:=C2=A0
+<u>by making college affordable and available to every American.</u>=C2=A0 =
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">For millions of Americans=
+, a college degree has been the ticket to a better life.=C2=A0 My grandfath=
+er worked his entire life in a lace mill =E2=80=93 but my dad made
+ it to college and was able to start his own small business, and that made =
+a huge difference in our lives.=C2=A0 Then my parents scrimped and saved fo=
+r years, so they could send me to a school across the country.=C2=A0 They k=
+new that they were setting me on the path
+ to a better future.=C2=A0 College still holds that promise today.=C2=A0 A =
+lot has changed in this country =E2=80=93 but that hasn=E2=80=99t.=C2=A0
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Across America, parents a=
+re starting college funds the day their kids are born.=C2=A0 High-schoolers=
+ =E2=80=93 even middle-schoolers =E2=80=93 are taking college prep courses
+ and studying for the SAT.=C2=A0 Full-time workers are going to night schoo=
+l, even if that means heading straight from an eight-hour shift to a pile o=
+f homework.=C2=A0 If that=E2=80=99s what it takes to get a better job =E2=
+=80=93 to give their kids better than they had =E2=80=93 then they=E2=80=99=
+ll
+ do it.=C2=A0 </span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">But here=E2=80=99s the pr=
+oblem.=C2=A0 States are slashing education budgets.=C2=A0 Colleges keep rai=
+sing prices.=C2=A0 In-state tuition and fees for public colleges increased =
+by
+<u>55 percent </u>between 2003 and 2012.=C2=A0 But your incomes didn=E2=80=
+=99t rise by that much, did they?=C2=A0 So families are left facing a painf=
+ul choice.=C2=A0 Either you say, =E2=80=9CWe just can=E2=80=99t afford it,=
+=E2=80=9D and pass up on all the opportunities that a degree can offer =E2=
+=80=93 or you do
+ whatever it takes to pay for it, even if that means going deeply into debt=
+.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">And more and more, that d=
+ebt is holding people back.=C2=A0 Forty million Americans have student loan=
+s.=C2=A0 Together, they owe more than a trillion dollars.=C2=A0 New Hampshi=
+re=E2=80=99s
+ students are carrying the highest debt in the country.=C2=A0 And millions =
+of Americans are delinquent or in default.=C2=A0 Even if they=E2=80=99re do=
+ing everything they can to pay their loans, they just can=E2=80=99t keep up=
+.=C2=A0
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">The cost of this debt is =
+real =E2=80=93 not just on balance sheets, but in people=E2=80=99s lives an=
+d futures.=C2=A0 I=E2=80=99ve talked to people who have so much student deb=
+t, they=E2=80=99ve
+ put off buying a house, changing jobs, starting a business =E2=80=93 even =
+getting married.=C2=A0 I=E2=80=99ve met parents and grandparents who=E2=80=
+=99ve co-signed loans and end up draining their savings or ruining their cr=
+edit =E2=80=93 all because they did what parents and grandparents are
+ supposed to do =E2=80=93 help out the next generation.=C2=A0 </span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">There are students who ta=
+ke out loans to pay for an expensive degree from a for-profit institution =
+=E2=80=93 then graduate and discover that, when it comes to finding
+ a job, their degree isn=E2=80=99t worth what they thought it would. </span=
+></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">And the 40 percent of st=
+udents who never finish college are left with debt and no degree to show fo=
+r it =E2=80=93 the worst of both worlds.=C2=A0 And that non-completion rate=
+ should trouble to all of us.=C2=A0 It=E2=80=99s the highest in
+ the developed world.</span><span style=3D"font-size:10.0pt;font-family:&qu=
+ot;Helvetica&quot;,&quot;sans-serif&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span><span style=
+=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quo=
+t;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">College is supposed to he=
+lp people achieve their dreams.=C2=A0 But more and more, it=E2=80=99s pushi=
+ng people=E2=80=99s dreams further out of reach.=C2=A0 And that=E2=80=99s j=
+ust wrong.=C2=A0 It=E2=80=99s
+ a betrayal of everything college is supposed to represent =E2=80=93 and ev=
+erything families have worked so hard to achieve.=C2=A0
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">This is also about our na=
+tional competitiveness.=C2=A0 The rest of the world is working as hard as t=
+hey can to out-do us.=C2=A0 China plans to double the number of
+ students enrolled in college by 2030, which means they=E2=80=99ll have nea=
+rly 200 million college graduates.=C2=A0 That=E2=80=99s more than our entir=
+e workforce!=C2=A0 American workers can out-work and out-innovate anyone in=
+ the world =E2=80=93 as long as they get the training and education
+ they need to compete.=C2=A0 </span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">So we need to make some b=
+ig changes.=C2=A0 We need to transform how much higher education costs =E2=
+=80=93 and how those costs get paid.=C2=A0 For too long, families have had
+ to bear the burden of soaring prices, underinvestment, and too little acco=
+untability.=C2=A0
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Helvetica&quot;,&quot;sans-serif&quot;;color:black">It=E2=80=99s time for =
+a new college compact, where
+<u>everyone</u> does their part.=C2=A0=C2=A0We need to make a quality educa=
+tion=C2=A0affordable and available to everyone willing to work for it.</spa=
+n></b><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&qu=
+ot;sans-serif&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">I=E2=80=99ve been traveli=
+ng the country for months, talking to students and families, educators, leg=
+islators, and experts of every stripe =E2=80=93 including young progressive
+ activists who=E2=80=99ve put the issue of debt-free college and college af=
+fordability at the top of the national agenda.=C2=A0
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span><span style=3D"=
+font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;c=
+olor:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">And today, I=E2=80=99m an=
+nouncing my plan to put college within reach for everyone.=C2=A0 We=E2=80=
+=99re calling it the New College Compact.=C2=A0 And we=E2=80=99re posting i=
+t on our website,
+ Facebook, Medium, Snapchat =E2=80=93 just about everywhere we can think of=
+.=C2=A0 I hope you=E2=80=99ll check it out.=C2=A0 But for now, here are the=
+ basics.
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Under the New College Com=
+pact, schools will have to control their costs and show more accountability=
+ to their students</span><span style=3D"font-size:10.0pt;font-family:&quot;=
+Tahoma&quot;,&quot;sans-serif&quot;;color:black">.=C2=A0
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&q=
+uot;sans-serif&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span><span style=3D"=
+font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;c=
+olor:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">States will=C2=A0have to =
+meet their obligation to invest in higher education.</span><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;color=
+:black">=C2=A0
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&q=
+uot;sans-serif&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span><span style=3D"=
+font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;c=
+olor:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">The federal government wi=
+ll never profit off student loans.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;Ta=
+homa&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span><span style=3D"=
+font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;c=
+olor:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">No=C2=A0family =E2=80=93 =
+and no student =E2=80=93 should have to borrow to pay tuition=C2=A0at a pub=
+lic college.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">And everyone who has stud=
+ent debt will be able to refinance it at lower rates.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">That=E2=80=99s my plan.=
+=C2=A0 It=E2=80=99s ambitious =E2=80=93 and we should be ambitious.=C2=A0 B=
+ut it=E2=80=99s also achievable.=C2=A0 And it would make a big difference i=
+n people=E2=80=99s lives.
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">My College Compact comes =
+down to two main goals.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u><span style=3D"font-size:10.0pt;font-family:&quot=
+;Helvetica&quot;,&quot;sans-serif&quot;;color:black">First, we=E2=80=99ll m=
+ake sure that cost won=E2=80=99t be a barrier<i>.
+</i></span></u><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&=
+quot;,&quot;sans-serif&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><i><span style=3D"font-size:10.0pt;font-family:&quot=
+;Helvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></i><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-ser=
+if&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Under my plan, you=E2=80=
+=99ll never have to take out a loan to pay for tuition at an in-state publi=
+c university.=C2=A0 We=E2=80=99re going to make community college free =E2=
+=80=93 that=E2=80=99s
+ President Obama=E2=80=99s plan and we=E2=80=99re making it ours too.=C2=A0=
+ We=E2=80=99re reforming Pell Grants, so students can use them for living c=
+osts as well as tuition.=C2=A0 We=E2=80=99re offering special help to colle=
+ge students who are parents, because when you help a parent get an educatio=
+n,
+ you=E2=80=99re helping their kids, too.=C2=A0 </span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">We=E2=80=99re going to wo=
+rk with historically black colleges and universities, because they serve so=
+me of America=E2=80=99s brightest students, who need the most support
+ and too often have gotten the least of it.=C2=A0 And we=E2=80=99re going t=
+o help pay for college for students who agree to national service.=C2=A0 If=
+ you=E2=80=99re willing to tutor America=E2=80=99s kids or clean up our par=
+ks, the least we can do is support your education.=C2=A0
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><u><span style=3D"font-size:10.0pt;font-family:&quot=
+;Helvetica&quot;,&quot;sans-serif&quot;;color:black">And second, we=E2=80=
+=99ll make sure that debt won=E2=80=99t hold anyone back.
+</span></u><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot=
+;,&quot;sans-serif&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Under my plan, every borr=
+ower in America who already has student debt will get the chance to refinan=
+ce at lower interest rates.=C2=A0 If you can refinance your
+ mortgage or your car loan, you should be able to refinance your student lo=
+an.=C2=A0 </span>
+</p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">If you do still end up ta=
+king out a loan =E2=80=93 for example, to go to a private college =E2=80=93=
+ we=E2=80=99ll cut your interest rates, so the government never makes a pro=
+fit
+ off your loan.=C2=A0 </span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span><span style=
+=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quo=
+t;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">We=E2=80=99ll make it ea=
+sier to enroll in income-based repayment programs, so you=E2=80=99ll never =
+have to pay more than 10 percent of what you make.=C2=A0
+</span><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&q=
+uot;sans-serif&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span><span style=
+=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quo=
+t;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">We=E2=80=99re going to h=
+elp borrowers who are in default get back on their feet.=C2=A0 And we=E2=80=
+=99ll crack down on predatory schools and lenders and bill collectors.=C2=
+=A0 If you defraud students, overcharge veterans, or mislead borrowers,
+ we=E2=80=99re going to do everything we can to stop you.=C2=A0 </span><spa=
+n style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-se=
+rif&quot;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span><span style=
+=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quo=
+t;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">There=E2=80=99s a lot mor=
+e in my College Compact =E2=80=93 from encouraging innovations like online =
+learning and apprenticeships, so students can earn their degree in less
+ time and move straight into a job=E2=80=A6 to strengthening the G.I. Bill,=
+ so more of our veterans can get their degree... to making sure colleges sp=
+ending federal dollars on things that benefit students, like teaching and r=
+esearch =E2=80=93 not marketing campaigns or big
+ salaries for administrators.=C2=A0 </span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">I plan to make college af=
+fordability a major issue in this campaign =E2=80=93 because it=E2=80=99s a=
+ major issue for millions of American families.=C2=A0 Here=E2=80=99s the bo=
+ttom line.=C2=A0
+ An education shouldn=E2=80=99t be something just for those at the top.=C2=
+=A0 And it shouldn&#39;t be a burden.=C2=A0 An education=C2=A0should be aff=
+ordable =E2=80=93 and available =E2=80=93 to everyone.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span><span style=
+=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,&quot;sans-serif&quo=
+t;;color:black"></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">I remember how proud my p=
+arents were when I graduated college.=C2=A0 I remember how proud Bill and I=
+ were to see Chelsea graduate =E2=80=93 I=E2=80=99ll never forget how grown=
+-up
+ she looked that day.=C2=A0 And even though my new granddaughter is already=
+ growing up faster than I=E2=80=99d like, I can=E2=80=99t wait to see her w=
+alk across a stage someday and receive her diploma. And I know that mothers=
+ and fathers and grandparents across the country feel
+ the exact same way.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">I want every young person=
+ in America to have their shot at that moment.=C2=A0 I want every hard-work=
+ing parent out there to get the chance to see his or her child
+ cross a stage =E2=80=93 or to cross it themselves.=C2=A0 America should be=
+ a place where those achievements are possible for anyone who=E2=80=99s wil=
+ling to work hard to do their part.=C2=A0 That=E2=80=99s the country I want=
+ to help build =E2=80=93 for this generation and all the generations to com=
+e.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Thank you very much.=C2=
+=A0 And now, let=E2=80=99s hear from you.</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black"><br>
+<br clear=3D"all">
+</span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">--
+</span></p>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Ann O&#39;Leary
+</span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Senior Policy Advisor
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Hillary for America
+</span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">Cell: <a href=3D"tel:510-=
+717-5518" value=3D"+15107175518" target=3D"_blank">510-717-5518</a>
+</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</blockquote>
+<blockquote style=3D"margin-top:5.0pt;margin-bottom:5.0pt">
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:&quot;He=
+lvetica&quot;,&quot;sans-serif&quot;;color:black">&lt;8-7-15 draft NH colle=
+ge town hall 730pm - AOL.docx&gt;
+</span></p>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class=3D"MsoNormal">=C2=A0 </p>
+<p style=3D"margin-top:30.0pt"><span style=3D"font-size:8.0pt;font-family:&=
+quot;Arial&quot;,&quot;sans-serif&quot;;color:#7f7f7f">This email is intend=
+ed only for the named addressee. It may contain information that is confide=
+ntial/private, legally privileged, or copyright-protected,
+ and you should handle it accordingly. If you are not the intended recipien=
+t, you do not have legal rights to retain, copy, or distribute this email o=
+r its contents, and should promptly delete the email and all electronic cop=
+ies in your system; do not retain
+ copies in any media. If you have received this email in error, please noti=
+fy the sender promptly. Thank you.</span></p>
+</div>
+</blockquote>
+</div>
+</div>
+</div></div></div>
+</div>
+</div>
+
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br><div class=
+=3D"gmail_signature"><div dir=3D"ltr">Ann O&#39;Leary<div>Senior Policy Adv=
+isor</div><div>Hillary for America</div><div>Cell: 510-717-5518</div></div>=
+</div>
+</div>
+
+--94eb2c0885be9f6e8a051cce3a6f--
+
+--94eb2c0885be9f6e8f051cce3a71
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document; 
+	name="8-7-15 draft NH college town hall 730pm - AOLMGAOL.docx"
+Content-Disposition: attachment; 
+	filename="8-7-15 draft NH college town hall 730pm - AOLMGAOL.docx"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_id37eccx0
+
+UEsDBBQABgAIAAAAIQA4SX1H1AEAAB8JAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0
+lk9vnDAQxe+V+h2QrxF4k0NVVcvm0KbHNFK3aq9ee1is+g+yZ5Pst+8AG5Q2K0xDuCCBmfd+ftiM
+19eP1mT3EKL2rmSXxYpl4KRX2u1L9mP7Nf/IsojCKWG8g5IdIbLrzft36+2xgZhRtYslqxGbT5xH
+WYMVsfANOBqpfLAC6TbseSPkb7EHfrVafeDSOwSHObYabLP+ApU4GMxuHulxT0LlLPvcv9dalUw0
+jdFSIIHydpSfrQtg4kjhvVP/0OUnsoIqO/FY6yZenBy+UTRBK8juRMBbYYmDP/iguPLyYGkOxTjo
+GT9fVVrCUN+qNcFLiJEyt6YYRqzQboxDHiJ6+8sarhHsXfBNvJyNM4i2ehBQQzoLd7A7CEQ/2/1F
+GIP0WBDdB4l4NBDfnqDXnWj/U2N9U1UgadWnF4aNeYte9BbPatNugEh5TzH5ey/mqdUXT8pJhAfY
+fV+M4pl4EqTyHp3HJb79IJ2EAKcWYnhSTiLUIBSE+X+AF3uwF076t2Et4t8LT/S/mrDv/nNLTPZ3
+uBU7A0sQnKSTISA1YODddf5K6GTGLKlVdW2HGnp4xbSfOm9bnVMPnNBvBkc6DczOGdrjhgJ1xpt3
+x5vNHwAAAP//AwBQSwMEFAAGAAgAAAAhAMJgmvP0AAAATgIAAAsACAJfcmVscy8ucmVscyCiBAIo
+oAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AACMksFKAzEQhu+C7xDm3p1tBRFpthcRehOpDzAk092lu0lIRm3f3kFUXFhrj0lmvvnmJ+vNcRzM
+G+fSx2BhWdVgOLjo+9BaeNk9Lu7AFKHgaYiBLZy4wKa5vlo/80CiTaXrUzFKCcVCJ5LuEYvreKRS
+xcRBX/YxjyR6zC0mcgdqGVd1fYv5NwOaCdNsvYW89Uswu1PSyf+z437fO36I7nXkIDMjcFqhZMot
+i4X3mD36r8ZKlQHnbVaX2/y9KY4s5EkIXcy8SFlzytJrsj9C6vKk1+Wz4pzQzeVC0+Xn4uGjcPDs
+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
+--94eb2c0885be9f6e8f051cce3a71--

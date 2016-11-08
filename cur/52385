@@ -1,0 +1,691 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.10 with SMTP id r10csp133215lfr;
+        Wed, 8 Jul 2015 15:26:03 -0700 (PDT)
+X-Received: by 10.170.82.131 with SMTP id y125mr14064843yky.115.1436394362828;
+        Wed, 08 Jul 2015 15:26:02 -0700 (PDT)
+Return-Path: <hrcrapid+bncBCEK7XXBYEPBB6WG62WAKGQED3L42AA@hillaryclinton.com>
+Received: from mail-yk0-x248.google.com (mail-yk0-x248.google.com. [2607:f8b0:4002:c07::248])
+        by mx.google.com with ESMTPS id 79si1114967yks.56.2015.07.08.15.26.02
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 08 Jul 2015 15:26:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of hrcrapid+bncBCEK7XXBYEPBB6WG62WAKGQED3L42AA@hillaryclinton.com designates 2607:f8b0:4002:c07::248 as permitted sender) client-ip=2607:f8b0:4002:c07::248;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hrcrapid+bncBCEK7XXBYEPBB6WG62WAKGQED3L42AA@hillaryclinton.com designates 2607:f8b0:4002:c07::248 as permitted sender) smtp.mail=hrcrapid+bncBCEK7XXBYEPBB6WG62WAKGQED3L42AA@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-yk0-x248.google.com with SMTP id n195sf12615838yke.1
+        for <john.podesta@gmail.com>; Wed, 08 Jul 2015 15:26:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:mime-version:from:date:message-id:subject:to:content-type
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-subscribe:list-unsubscribe;
+        bh=KM4ruRKlwd8KrPM4bj1R7ptPpSfe0indeRoMMRrc90Q=;
+        b=ZLWdt92dyXMkGRusf+lsItWLgIvD83sgcM+X5M2v/R6CiHQbvvL9N0yaOLFaCP2JfK
+         wEv9jyTMzfA2E1uji1c6/C9u42797o+II2B4mdy/1rX73e7vXzLvhGHkexG2S38dvzRD
+         twu+8kC1IPE2TfwFQbAn5EGapB+iTAACRuIgQ=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:mime-version:from:date:message-id:subject
+         :to:content-type:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-spam-checked-in-group:list-post
+         :list-help:list-archive:list-subscribe:list-unsubscribe;
+        bh=KM4ruRKlwd8KrPM4bj1R7ptPpSfe0indeRoMMRrc90Q=;
+        b=RjF9Q4KnoIhUVgbK9JlYprgqLFBUyFK7jkwfxP/1MtInKK04bI9D1y7i2rwSsiFO48
+         tdAmxGYwksjGg7I6PKfJIfzjfPnFS11T7tzlCsnkWcI22TG/GM3MJNMRdw1LEZBaomYT
+         KMcUsJ2pyTywz7MZF3dRtm0JstcuUuhgx2XttTu0vLIyvpkkE3Qb7fOPlj3WuNw6dkqp
+         z872DJ12n7+02YmVP/SQlxMGDmi8pxJDJ0/EesyzXijaxKvZRqhzii8t9LyqnR9M04I5
+         uFrf1nL+hsojdU6egcTRGjuJ9U9fdQSDZ0CK4vZpYe6wIOMwkuq95/Ypk+VZ+Mlrpll+
+         y6hg==
+Sender: hrcrapid@hillaryclinton.com
+X-Gm-Message-State: ALoCoQk+i053g2i9PPfeFGsZcE5Lcoww0a/hwPjF+v9TRMV7NAHPfkCVHOqnVqoCYgNG13LRrmDu
+X-Received: by 10.13.217.81 with SMTP id b78mr15576760ywe.25.1436394362230;
+        Wed, 08 Jul 2015 15:26:02 -0700 (PDT)
+X-BeenThere: hrcrapid@hillaryclinton.com
+Received: by 10.107.167.136 with SMTP id q130ls2810665ioe.3.gmail; Wed, 08 Jul
+ 2015 15:26:01 -0700 (PDT)
+X-Received: by 10.107.138.20 with SMTP id m20mr22479452iod.40.1436394361819;
+        Wed, 08 Jul 2015 15:26:01 -0700 (PDT)
+Received: from mail-ig0-x235.google.com (mail-ig0-x235.google.com. [2607:f8b0:4001:c05::235])
+        by mx.google.com with ESMTPS id r2si3817582ioe.21.2015.07.08.15.26.01
+        for <HRCRapid@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 08 Jul 2015 15:26:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mcantrell@hillaryclinton.com designates 2607:f8b0:4001:c05::235 as permitted sender) client-ip=2607:f8b0:4001:c05::235;
+Received: by igcqs7 with SMTP id qs7so67158156igc.0
+        for <HRCRapid@hillaryclinton.com>; Wed, 08 Jul 2015 15:26:01 -0700 (PDT)
+X-Received: by 10.107.135.22 with SMTP id j22mr21264948iod.20.1436394361640;
+ Wed, 08 Jul 2015 15:26:01 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.107.16.106 with HTTP; Wed, 8 Jul 2015 15:25:42 -0700 (PDT)
+From: Melissa Cantrell <mcantrell@hillaryclinton.com>
+Date: Wed, 8 Jul 2015 18:25:42 -0400
+Message-ID: <CAGTda=BU2o9Bixg+dgj_aW7BXBind21MAeXMavKrTQ3yHYCDew@mail.gmail.com>
+Subject: Daily Media Report 7.8.15
+To: HRC Rapid <HRCRapid@hillaryclinton.com>, 
+ Jennifer Palmieri <jpalmieri@hillaryclinton.com>, 
+ Julie McClain <jmcclain@hillaryclinton.com>, 
+ Kristina Schake <kschake@hillaryclinton.com>, 
+ Meredith Thatcher <mthatcher@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a113f993eaef388051a649f6c
+X-Original-Sender: mcantrell@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of mcantrell@hillaryclinton.com designates 2607:f8b0:4001:c05::235 as
+ permitted sender) smtp.mail=mcantrell@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list HRCRapid@hillaryclinton.com; contact HRCRapid+owners@hillaryclinton.com
+List-ID: <HRCRapid.hillaryclinton.com>
+X-Spam-Checked-In-Group: HRCRapid@hillaryclinton.com
+X-Google-Group-Id: 301712100758
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/post>,
+ <mailto:HRCRapid@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:HRCRapid+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/>
+List-Subscribe: <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/subscribe>,
+ <mailto:HRCRapid+subscribe@hillaryclinton.com>
+List-Unsubscribe: <mailto:googlegroups-manage+301712100758+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/HRCRapid/subscribe>
+
+--001a113f993eaef388051a649f6c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+*States: *
+
+*South Carolina:*
+
+
+--Report on HRC and San Francisco shooting: HRC has claimed that HRC has no
+support for a city that ignores the strong evidence of deportation that is
+not acted upon. WBTW(CBS)=E2=80=99s News 13 NOW, Myrtle Beach (SC).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D236e8e2d-8251-4a3a=
+-b723-809a2c9c4bdf>
+ 2015.07.08., Hillary Clinton, Clips, National, HRC deportation
+interview.mp4
+
+
+
+*Nevada:*
+
+
+--Report on HRC and trust: HRC spoke in a national interview about the
+thousands of people that care about the issues, and that they trust HRC
+about having a plan and being committed to carrying out that plan. HRC
+speaks about Trump=E2=80=99s comments about immigrants, and that she feels =
+very
+disappointed with Trump and the Republican Party for not saying anything
+right away. KSNV(NBC)=E2=80=99s Wake up with the Wagners
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D575bfdfd-4d49-4e49=
+-bcc7-99914d0f3d00>,
+Las Vegas (NV). 2015.07.07., Hillary Clinton, Clips, National, HRC national
+interview.mp4
+
+
+
+*Iowa:*
+
+
+--Report on HRC in Iowa: HRC visited with voters in Iowa City, where she
+said that she was disappointed in Donald Trump=E2=80=99s recent comments. S=
+he then
+went to Ottumwa, where she met one on one with everyone attending the
+private event. WHO-DM(NBC)=E2=80=99s Today, Des Moines (IA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D7431ef0b-822d-4e7f=
+-b442-84ae21c1fb5f>
+ 2015.07.08., Hillary Clinton, Clips, National, HRC Trump Iowa.mp4
+
+
+
+--Report on HRC in Iowa: HRC has been touching on local issues as she meets
+with voters in eastern Iowa. She spoke about last year=E2=80=99s closure ab=
+out the
+state=E2=80=99s mental health institutes, and the deadly shooting at the Co=
+ral
+Ridge mall linking it to gun control and the need for background checks for
+people buying guns. KCRG-IOW(ABC)=E2=80=99s Good Morning America, Iowa City=
+ (IA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D7bcb51f1-b604-4cac=
+-9802-89517bc1f783>
+ 2015.07.08., Hillary Clinton, Clips, National, HRC Iowa mental health
+shooting.mp4
+
+
+
+--Report on HRC and Trump comments: In HRC=E2=80=99s national interview, re=
+porters
+claim that she was taking shots at Trump and the Republican party by
+stating that she is very disappointed in the Republican party for not
+standing up, and for Donald Trump for making those comments about
+immigration and immigrants. HRC is still on top of the polls that include
+both Republicans and Democrats. KTNV-LV(ABC)=E2=80=99s Good Morning Las Veg=
+as at 5am,
+Las Vegas (NV).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Df0717966-d8c9-4c4b=
+-99da-392b7a2ee900>
+2015.07.08., Hillary Clinton, Clips, National, HRC Republican party
+immigration.mp4
+
+
+
+--Report on HRC at Iowa City: HRC expects a competitive fight before the
+Iowa caucus next year. HRC claimed that she wants every candidate to work
+hard and run their campaigns. KWQC-DAV(NBC)=E2=80=99s KWQC TV6 News at Noon=
+,
+Davenport (IA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D80d0c6de-3634-4604=
+-b52a-855b5d163cc6>
+ 2015.07.08., Hillary Clinton, Clips, National, HRC Iowa caucus.mp4
+
+
+
+
+*Martin O'Malley:*
+
+
+
+--Report on MOM in New Hampshire: MOM will be in New Hampshire today. MOM
+will outline his plan for debt free tuition for college costs. Reporters
+claim that his speech could help him to connect with the younger generation
+of voters who are dealing with college tuitions. New Hampshire has the
+highest student loan debt burden in the nation. New England Cable News=E2=
+=80=99
+NECN Today, Boston (MA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D56a99962-52fe-448b=
+-9298-9402829f1f3f>
+ 2015.07.08., Martin O=E2=80=99Malley, Clips, National, MOM in NH debt.mp4
+
+
+
+*Bernie Sanders:*
+
+
+--Report on HRC and Sanders competition: HRC claimed that she welcomes
+competition. Reporters claim that HRC has been losing a lot of ground to
+Bernie Sanders in recent polls. KWWL-IOW(NBC)=E2=80=99s Today in Iowa at 6,=
+ Iowa
+City (IA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D6788f484-1527-4f5c=
+-b08a-861655e91f9d>
+2015.07.08., Hillary Clinton, Clips, National, HRC in Iowa losing ground.mp=
+4
+
+
+
+--Report on HRC and Sanders competition: Reporters claim that Sanders had a
+solid Quinnipiac poll in May, but that Sanders has nearly doubled his
+support in the recent poll. Reporters say that Bernie Sanders is gaining
+ground. However, reporters say that Sanders could actually help HRC and it
+provides her with news coverage. Reporters claim that it may also boost her
+campaign because it provides discussion in the Democratic race. Reporters
+question that Sanders could possibly choose to run as an independent if he
+does not win the Democratic nomination. Reporters think that Sanders is too
+far left to be part of a successful presidential campaign in the general
+election. KCRG-IOW(ABC)=E2=80=99s KCRG TV9 Morning News, Iowa City (IA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dd96a8d80-3d1d-4b8e=
+-8740-345726f0bbe1>
+ 2015.07.08., Hillary Clinton; Bernie Sanders, Clips, Sanders as
+Independent.mp4
+
+
+
+--Report on Bernie Sanders and HRC: Reporters claim that HRC stated in her
+national interview that she welcomes competition, and that she believes
+everyone has a right to carry out their campaign the best way that they see
+fit. Reporters claim that the support for Bernie Sanders is surprising and
+very enormous. Reporters claim that officials are having to move Sanders
+campaign events to bigger venues. WOI-DM(ABC)=E2=80=99s Good Morning Iowa, =
+Des
+Moines (IA).
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dd086acb5-8251-4b78=
+-aa1b-f797d26ff56a>
+2015.07.08., Hillary Clinton, Clips, National, HRC Sanders competition.mp4
+
+
+
+--Report on HRC=E2=80=99s view on Bernie Sanders: Reporters claim that HRC =
+spoke
+about her Democratic rival, Sanders, by stating that she welcomes
+competition. MSNBC=E2=80=99s News Nation
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Db39c34bc-a59e-476d=
+-b679-ca35c818bb1f>
+. 2015.07.08., Hillary Clinton; Bernie Sanders, Clips, National, HRC
+Sanders interview.mp4
+
+
+
+--Report on Sanders=E2=80=99 lead: Reporters claim that HRC=E2=80=99s Commu=
+nications
+Director has claimed that they are worried about Sanders, and that he is
+gaining a lot of ground. Reporters claim that the campaign is very highly
+organized, and that HRC is connecting with voters in ways that Reporters
+claim that HRC is doing the door to door, grassroots kind of campaigning,
+and that the campaign is very highly organized, and that it does not
+necessarily draw as much media attention. CNN=E2=80=99s CNN Newsroom with C=
+arol
+Costello
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D9203afbe-373c-4b44=
+-a9f7-cf68b220d4c4>
+. 2015.07.08., Hillary Clinton, Clips, National, HRC Sanders grassroots.mp4
+
+
+
+--Report on Sanders winning Democrats: Reporters claim that Sanders is
+going to make HRC answer a lot of questions about her viability. Bernie is
+not attacking HRC, and that he may push her more to the left. CNN=E2=80=99s=
+ New Day
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D41770051-84aa-4c8a=
+-87cc-3136be36f5cf>
+.2015.07.08., Bernie Sanders, Clips, National, HRC democrats Sanders.mp4
+
+
+
+--Report on HRC doing more interviews: Reporters claim that HRC is doing
+more interviews because she is feeling threatened by Bernie Sanders. Fox
+News=E2=80=99 The Kelly File
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D907128e5-2e0b-417c=
+-b081-1fd41d32fac1>
+. 2015.07.08., Hillary Clinton; Bernie Sanders, Clips, National.mp4
+
+
+
+--Report on Sanders and Warren: Reporters claim that the success of Sanders
+and his momentum could potentially lead Warren to get in the race.
+Reporters claim that Sanders will not beat HRC. However, people find him
+very interesting because he is authentic, and that he speaks to issues in
+ways that HRC does not. HRC will begin addressing the concerns that Sanders
+is addressing to bring some voters back to supporting her. MSNBC=E2=80=99s =
+Hardball
+with Chris Matthews
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Df9f21780-5d9a-4b68=
+-b8a9-b16ef47be2ed>
+.2015.07.08., Bernie Sanders; Hillary Clinton, Clips, National.mp4
+
+
+
+--Report on Sanders during Obama=E2=80=99s meeting with Senate Democrats: S=
+anders
+prioritized social security, and ways that we can work together to
+strengthen social security. President Obama joked with Sanders about
+spending more time with Obama than on the campaign trail. When the issue of
+trade arose, Sanders was not necessarily adversarial. MSNBC=E2=80=99s The L=
+ast
+World with Lawrence O=E2=80=99Donnell.
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D70ca8fd7-2bf4-4f5a=
+-981b-641afce65c12>
+ 2015.07.08., Bernie Sanders, Clips, National, Sanders meeting with
+Obama.mp4
+
+
+
+--Report on Sanders question during HRC interview: HRC knows that Sanders
+is a threat, but that she should have at least addressed Sanders in her
+interview. CNN=E2=80=99s CNN Special Report
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Da30489c4-5f62-41fd=
+-bd2e-33f599bce7cf>
+. 2015.07.08., Hillary Clinton; Bernie Sanders, Clips, National, Sanders
+HRC thrat.mp4
+
+
+
+--Report on HRC and Bernie Sanders=E2=80=99 question: Brianna Keilar claims=
+ that
+HRC ducked Sanders=E2=80=99 question by just saying that they are both goin=
+g to
+play separate games. CNN=E2=80=99s Anderson Cooper 360
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Ddfb1a017-3745-418b=
+-a7f3-0ced88a4b236>
+. 2015.07.08., Hillary Clinton; Bernie Sanders, Clips, National, Sanders
+games.mp4
+
+
+
+--Report on HRC in Iowa: HRC had strong words for Republicans who do not
+support immigration. HRC spoke vividly about not deporting undocumented
+immigrants that are residing in the United States. HRC claims that she is
+intentionally holding smaller events. Her talk focused on children and
+supporting schools. WHO-DM(NBC)=E2=80=99s Channel 13 News at Noon, Des Moin=
+es (IA)
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D291dbe81-c953-48c9=
+-9818-05bcdc6669b5>
+. 2015.07.08., Hillary Clinton, Clips, National, HRC event iowa.mp4
+
+
+
+--Report on HRC=E2=80=99s Bernie Sanders problem: Reporters claim that her =
+matchups
+against oppositions and within Democrats is incredibly strong. Reporters
+claim that it is important for Democrats to engage in how to fix issues
+affecting Americans. Reporters from the Republican Party claim that HRC has
+an HRC problem, not a Sanders problem. MSNBC=E2=80=99s News Nation
+<http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Deb2a5f06-cbfd-4b2e=
+-a224-c5ceb3199849>
+. 2015.07.08., Hillary Clinton, Clips, National, HRC Sanders problem.mp4
+
+--001a113f993eaef388051a649f6c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><b><font face=3D"arial, helvetica, sans-serif" color=3D"#0=
+00000" size=3D"4">States:=C2=A0</font></b><div><font face=3D"arial, helveti=
+ca, sans-serif" color=3D"#000000"><br></font></div><div><p class=3D"MsoNorm=
+al"><b><span style=3D"line-height:13.5533332824707px;background-image:initi=
+al;background-repeat:initial"><font face=3D"arial, helvetica, sans-serif" c=
+olor=3D"#000000">South Carolina:</font></span></b></p><p class=3D"MsoNormal=
+"><b><span style=3D"line-height:13.5533332824707px;background-image:initial=
+;background-repeat:initial"><font face=3D"arial, helvetica, sans-serif" col=
+or=3D"#000000"><br></font></span></b></p><p class=3D"MsoNormal"><span style=
+=3D"line-height:13.5533332824707px;background-image:initial;background-repe=
+at:initial"><font face=3D"arial, helvetica, sans-serif" color=3D"#000000">-=
+-Report on HRC and San Francisco shooting: HRC has claimed that HRC has no =
+support for a city that ignores the strong evidence of deportation that is =
+not acted upon.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?S=
+avedEditID=3D236e8e2d-8251-4a3a-b723-809a2c9c4bdf" target=3D"_blank">WBTW(C=
+BS)=E2=80=99s News 13 NOW, Myrtle Beach (SC).</a>=C2=A0<span class=3D"" tab=
+index=3D"0"><span class=3D"">2015.07.08</span></span>., Hillary Clinton, Cl=
+ips, National, HRC deportation interview.mp4</font></span></p><p class=3D"M=
+soNormal"><b><span style=3D"line-height:13.5533332824707px;background-image=
+:initial;background-repeat:initial"><font face=3D"arial, helvetica, sans-se=
+rif" color=3D"#000000">=C2=A0</font></span></b></p><p class=3D"MsoNormal"><=
+b><span style=3D"line-height:13.5533332824707px;background-image:initial;ba=
+ckground-repeat:initial"><font face=3D"arial, helvetica, sans-serif" color=
+=3D"#000000">Nevada:</font></span></b></p><p class=3D"MsoNormal"><b><span s=
+tyle=3D"line-height:13.5533332824707px;background-image:initial;background-=
+repeat:initial"><font face=3D"arial, helvetica, sans-serif" color=3D"#00000=
+0"><br></font></span></b></p><p class=3D"MsoNormal"><span style=3D"line-hei=
+ght:13.5533332824707px;background-image:initial;background-repeat:initial">=
+<font face=3D"arial, helvetica, sans-serif" color=3D"#000000">--Report on H=
+RC and trust: HRC spoke in a national interview about the thousands of peop=
+le that care about the issues, and that they trust HRC about having a plan =
+and being committed to carrying out that plan. HRC speaks about Trump=E2=80=
+=99s comments about immigrants, and that she feels very disappointed with T=
+rump and the Republican Party for not saying anything right away.=C2=A0<a h=
+ref=3D"http://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3D575bfdfd-4d4=
+9-4e49-bcc7-99914d0f3d00" target=3D"_blank">KSNV(NBC)=E2=80=99s Wake up wit=
+h the Wagners</a>, Las Vegas (NV). 2015.07.07., Hillary Clinton, Clips, Nat=
+ional, HRC national interview.mp4</font></span></p><p class=3D"MsoNormal"><=
+b><span style=3D"line-height:13.5533332824707px;background-image:initial;ba=
+ckground-repeat:initial"><font face=3D"arial, helvetica, sans-serif" color=
+=3D"#000000">=C2=A0</font></span></b></p><p class=3D"MsoNormal"><b><span st=
+yle=3D"line-height:13.5533332824707px;background-image:initial;background-r=
+epeat:initial"><font face=3D"arial, helvetica, sans-serif" color=3D"#000000=
+">Iowa:</font></span></b></p><p class=3D"MsoNormal"><b><span style=3D"line-=
+height:13.5533332824707px;background-image:initial;background-repeat:initia=
+l"><font face=3D"arial, helvetica, sans-serif" color=3D"#000000"><br></font=
+></span></b></p><p class=3D"MsoNormal"><font face=3D"arial, helvetica, sans=
+-serif" color=3D"#000000"><span style=3D"line-height:13.5533332824707px;bac=
+kground:yellow">--Report on HRC in Iowa: HRC visited with voters in Iowa Ci=
+ty, where she said that she was disappointed in Donald Trump=E2=80=99s rece=
+nt comments. She then went to Ottumwa, where she met one on one with everyo=
+ne attending the private event.=C2=A0<a href=3D"http://mms.tveyes.com/Playb=
+ackPortal.aspx?SavedEditID=3D7431ef0b-822d-4e7f-b442-84ae21c1fb5f" target=
+=3D"_blank">WHO-DM(NBC)=E2=80=99s Today, Des Moines (IA).</a>=C2=A0<span cl=
+ass=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</span></span>., Hillary=
+ Clinton, Clips, National, HRC Trump Iowa.mp4</span><span style=3D"line-hei=
+ght:13.5533332824707px;background-image:initial;background-repeat:initial">=
+</span></font></p><p class=3D"MsoNormal"><span style=3D"line-height:13.5533=
+332824707px;background-image:initial;background-repeat:initial"><font face=
+=3D"arial, helvetica, sans-serif" color=3D"#000000">=C2=A0</font></span></p=
+><p class=3D"MsoNormal"><font face=3D"arial, helvetica, sans-serif" color=
+=3D"#000000"><span style=3D"line-height:13.5533332824707px;background:yello=
+w">--Report on HRC in Iowa: HRC has been touching on local issues as she me=
+ets with voters in eastern Iowa. She spoke about last year=E2=80=99s closur=
+e about the state=E2=80=99s mental health institutes, and the deadly shooti=
+ng at the Coral Ridge mall linking it to gun control and the need for backg=
+round checks for people buying guns.=C2=A0<a href=3D"http://mms.tveyes.com/=
+PlaybackPortal.aspx?SavedEditID=3D7bcb51f1-b604-4cac-9802-89517bc1f783" tar=
+get=3D"_blank">KCRG-IOW(ABC)=E2=80=99s Good Morning America, Iowa City (IA)=
+.</a>=C2=A0<span class=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</spa=
+n></span>., Hillary Clinton, Clips, National, HRC Iowa mental health shooti=
+ng.mp4</span><span style=3D"line-height:13.5533332824707px;background-image=
+:initial;background-repeat:initial"></span></font></p><p class=3D"MsoNormal=
+"><span style=3D"line-height:13.5533332824707px;background-image:initial;ba=
+ckground-repeat:initial"><font face=3D"arial, helvetica, sans-serif" color=
+=3D"#000000">=C2=A0</font></span></p><p class=3D"MsoNormal"><font face=3D"a=
+rial, helvetica, sans-serif" color=3D"#000000"><span style=3D"line-height:1=
+3.5533332824707px;background:yellow">--Report on HRC and Trump comments: In=
+ HRC=E2=80=99s national interview, reporters claim that she was taking shot=
+s at Trump and the Republican party by stating that she is very disappointe=
+d in the Republican party for not standing up, and for Donald Trump for mak=
+ing those comments about immigration and immigrants. HRC is still on top of=
+ the polls that include both Republicans and Democrats.=C2=A0<a href=3D"htt=
+p://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Df0717966-d8c9-4c4b-99d=
+a-392b7a2ee900" target=3D"_blank">KTNV-LV(ABC)=E2=80=99s Good Morning Las V=
+egas at=C2=A0<span class=3D""><span class=3D"">5am</span></span>, Las Vegas=
+ (NV).</a><span class=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</span=
+></span>., Hillary Clinton, Clips, National, HRC Republican party immigrati=
+on.mp4</span><span style=3D"line-height:13.5533332824707px;background-image=
+:initial;background-repeat:initial"></span></font></p><p class=3D"MsoNormal=
+"><span style=3D"line-height:13.5533332824707px;background-image:initial;ba=
+ckground-repeat:initial"><font face=3D"arial, helvetica, sans-serif" color=
+=3D"#000000">=C2=A0</font></span></p><p class=3D"MsoNormal"><span style=3D"=
+line-height:13.5533332824707px;background-image:initial;background-repeat:i=
+nitial"><font face=3D"arial, helvetica, sans-serif" color=3D"#000000">--Rep=
+ort on HRC at Iowa City: HRC expects a competitive fight before the Iowa ca=
+ucus next year. HRC claimed that she wants every candidate to work hard and=
+ run their campaigns.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPortal.=
+aspx?SavedEditID=3D80d0c6de-3634-4604-b52a-855b5d163cc6" target=3D"_blank">=
+KWQC-DAV(NBC)=E2=80=99s KWQC TV6 News at=C2=A0<span class=3D""><span class=
+=3D"">Noon</span></span>, Davenport (IA).</a>=C2=A0<span class=3D"" tabinde=
+x=3D"0"><span class=3D"">2015.07.08</span></span>., Hillary Clinton, Clips,=
+ National, HRC Iowa caucus.mp4</font></span></p><p class=3D"MsoNormal"><spa=
+n style=3D"line-height:13.5533332824707px;background-image:initial;backgrou=
+nd-repeat:initial"><font face=3D"arial, helvetica, sans-serif" color=3D"#00=
+0000"><br></font></span></p><p class=3D"MsoNormal"><span style=3D"line-heig=
+ht:13.5533332824707px;background-image:initial;background-repeat:initial"><=
+font face=3D"arial, helvetica, sans-serif" color=3D"#000000">=C2=A0</font><=
+/span></p><p class=3D"MsoNormal"><b><span style=3D"line-height:13.553333282=
+4707px;background-image:initial;background-repeat:initial"><font face=3D"ar=
+ial, helvetica, sans-serif" color=3D"#000000" size=3D"4">Martin O&#39;Malle=
+y:</font></span></b></p><p class=3D"MsoNormal"><span style=3D"line-height:1=
+3.5533332824707px;background-image:initial;background-repeat:initial"><font=
+ face=3D"arial, helvetica, sans-serif" color=3D"#000000">=C2=A0</font></spa=
+n></p><p class=3D"MsoNormal"><font face=3D"arial, helvetica, sans-serif" co=
+lor=3D"#000000"><span style=3D"line-height:13.5533332824707px;background:ye=
+llow">--Report on MOM in New Hampshire: MOM will be in New Hampshire today.=
+ MOM will outline his plan for debt free tuition for college costs. Reporte=
+rs claim that his speech could help him to connect with the younger generat=
+ion of voters who are dealing with college tuitions. New Hampshire has the =
+highest student loan debt burden in the nation.=C2=A0<a href=3D"http://mms.=
+tveyes.com/PlaybackPortal.aspx?SavedEditID=3D56a99962-52fe-448b-9298-940282=
+9f1f3f" target=3D"_blank">New England Cable News=E2=80=99 NECN Today, Bosto=
+n (MA).</a>=C2=A0<span class=3D"" tabindex=3D"0"><span class=3D"">2015.07.0=
+8</span></span>., Martin O=E2=80=99Malley, Clips, National, MOM in NH debt.=
+mp4</span><span style=3D"line-height:13.5533332824707px;background-image:in=
+itial;background-repeat:initial"></span></font></p><p class=3D"MsoNormal"><=
+font face=3D"arial, helvetica, sans-serif" color=3D"#000000"><br></font></p=
+><p class=3D"MsoNormal"><font face=3D"arial, helvetica, sans-serif" color=
+=3D"#000000"><br></font></p><p class=3D"MsoNormal"><b><span style=3D"line-h=
+eight:13.5533332824707px;background-image:initial;background-repeat:initial=
+"><font face=3D"arial, helvetica, sans-serif" color=3D"#000000" size=3D"4">=
+Bernie Sanders:</font></span></b></p><p class=3D"MsoNormal"><span style=3D"=
+line-height:13.5533332824707px;background-image:initial;background-repeat:i=
+nitial"><font face=3D"arial, helvetica, sans-serif" color=3D"#000000"><br>-=
+-Report on HRC and Sanders competition: HRC claimed that she welcomes compe=
+tition. Reporters claim that HRC has been losing a lot of ground to Bernie =
+Sanders in recent polls.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPort=
+al.aspx?SavedEditID=3D6788f484-1527-4f5c-b08a-861655e91f9d" target=3D"_blan=
+k">KWWL-IOW(NBC)=E2=80=99s Today in Iowa at 6, Iowa City (IA).</a><span cla=
+ss=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</span></span>., Hillary =
+Clinton, Clips, National, HRC in Iowa losing ground.mp4</font></span></p><p=
+ class=3D"MsoNormal"><span style=3D"line-height:13.5533332824707px;backgrou=
+nd-image:initial;background-repeat:initial"><font face=3D"arial, helvetica,=
+ sans-serif" color=3D"#000000">=C2=A0</font></span></p><p class=3D"MsoNorma=
+l"><font face=3D"arial, helvetica, sans-serif" color=3D"#000000"><span styl=
+e=3D"line-height:13.5533332824707px;background:yellow">--Report on HRC and =
+Sanders competition: Reporters claim that Sanders had a solid Quinnipiac po=
+ll in May, but that Sanders has nearly doubled his support in the recent po=
+ll. Reporters say that Bernie Sanders is gaining ground. However, reporters=
+ say that Sanders could actually help HRC and it provides her with news cov=
+erage. Reporters claim that it may also boost her campaign because it provi=
+des discussion in the Democratic race. Reporters question that Sanders coul=
+d possibly choose to run as an independent if he does not win the Democrati=
+c nomination. Reporters think that Sanders is too far left to be part of a =
+successful presidential campaign in the general election.=C2=A0<a href=3D"h=
+ttp://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dd96a8d80-3d1d-4b8e-8=
+740-345726f0bbe1" target=3D"_blank">KCRG-IOW(ABC)=E2=80=99s KCRG TV9 Mornin=
+g News, Iowa City (IA).=C2=A0</a>=C2=A0<span class=3D"" tabindex=3D"0"><spa=
+n class=3D"">2015.07.08</span></span>., Hillary Clinton; Bernie Sanders, Cl=
+ips, Sanders as Independent.mp4</span><span style=3D"line-height:13.5533332=
+824707px;background-image:initial;background-repeat:initial"></span></font>=
+</p><p class=3D"MsoNormal"><span style=3D"line-height:13.5533332824707px;ba=
+ckground-image:initial;background-repeat:initial"><font face=3D"arial, helv=
+etica, sans-serif" color=3D"#000000">=C2=A0</font></span></p><p class=3D"Ms=
+oNormal"><span style=3D"line-height:13.5533332824707px;background-image:ini=
+tial;background-repeat:initial"><font face=3D"arial, helvetica, sans-serif"=
+ color=3D"#000000">--Report on Bernie Sanders and HRC: Reporters claim that=
+ HRC stated in her national interview that she welcomes competition, and th=
+at she believes everyone has a right to carry out their campaign the best w=
+ay that they see fit. Reporters claim that the support for Bernie Sanders i=
+s surprising and very enormous. Reporters claim that officials are having t=
+o move Sanders campaign events to bigger venues.=C2=A0<a href=3D"http://mms=
+.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Dd086acb5-8251-4b78-aa1b-f797d=
+26ff56a" target=3D"_blank">WOI-DM(ABC)=E2=80=99s Good Morning Iowa, Des Moi=
+nes (IA).</a><span class=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</s=
+pan></span>., Hillary Clinton, Clips, National, HRC Sanders competition.mp4=
+</font></span></p><p class=3D"MsoNormal"><span style=3D"line-height:13.5533=
+332824707px;background-image:initial;background-repeat:initial"><font face=
+=3D"arial, helvetica, sans-serif" color=3D"#000000">=C2=A0</font></span></p=
+><p class=3D"MsoNormal"><span style=3D"line-height:13.5533332824707px;backg=
+round-image:initial;background-repeat:initial"><font face=3D"arial, helveti=
+ca, sans-serif" color=3D"#000000">--Report on HRC=E2=80=99s view on Bernie =
+Sanders: Reporters claim that HRC spoke about her Democratic rival, Sanders=
+, by stating that she welcomes competition.=C2=A0<a href=3D"http://mms.tvey=
+es.com/PlaybackPortal.aspx?SavedEditID=3Db39c34bc-a59e-476d-b679-ca35c818bb=
+1f" target=3D"_blank">MSNBC=E2=80=99s News Nation</a>.=C2=A0<span class=3D"=
+" tabindex=3D"0"><span class=3D"">2015.07.08</span></span>., Hillary Clinto=
+n; Bernie Sanders, Clips, National, HRC Sanders interview.mp4</font></span>=
+</p><p class=3D"MsoNormal"><span style=3D"line-height:13.5533332824707px;ba=
+ckground-image:initial;background-repeat:initial"><font face=3D"arial, helv=
+etica, sans-serif" color=3D"#000000">=C2=A0</font></span></p><p class=3D"Ms=
+oNormal"><font face=3D"arial, helvetica, sans-serif" color=3D"#000000"><spa=
+n style=3D"line-height:13.5533332824707px;background:yellow">--Report on Sa=
+nders=E2=80=99 lead: Reporters claim that HRC=E2=80=99s Communications Dire=
+ctor has claimed that they are worried about Sanders, and that he is gainin=
+g a lot of ground. Reporters claim that the campaign is very highly organiz=
+ed, and that HRC is connecting with voters in ways that Reporters claim tha=
+t HRC is doing the door to door, grassroots kind of campaigning, and that t=
+he campaign is very highly organized, and that it does not necessarily draw=
+ as much media attention.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPor=
+tal.aspx?SavedEditID=3D9203afbe-373c-4b44-a9f7-cf68b220d4c4" target=3D"_bla=
+nk">CNN=E2=80=99s CNN Newsroom with Carol Costello</a>.=C2=A0<span class=3D=
+"" tabindex=3D"0"><span class=3D"">2015.07.08</span></span>., Hillary Clint=
+on, Clips, National, HRC Sanders grassroots.mp4</span><span style=3D"line-h=
+eight:13.5533332824707px;background-image:initial;background-repeat:initial=
+"></span></font></p><p class=3D"MsoNormal"><span style=3D"line-height:13.55=
+33332824707px;background-image:initial;background-repeat:initial"><font fac=
+e=3D"arial, helvetica, sans-serif" color=3D"#000000">=C2=A0</font></span></=
+p><p class=3D"MsoNormal"><span style=3D"line-height:13.5533332824707px;back=
+ground-image:initial;background-repeat:initial"><font face=3D"arial, helvet=
+ica, sans-serif" color=3D"#000000">--Report on Sanders winning Democrats: R=
+eporters claim that Sanders is going to make HRC answer a lot of questions =
+about her viability. Bernie is not attacking HRC, and that he may push her =
+more to the left.=C2=A0<a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx=
+?SavedEditID=3D41770051-84aa-4c8a-87cc-3136be36f5cf" target=3D"_blank">CNN=
+=E2=80=99s New Day</a>.<span class=3D"" tabindex=3D"0"><span class=3D"">201=
+5.07.08</span></span>., Bernie Sanders, Clips, National, HRC democrats Sand=
+ers.mp4</font></span></p><p class=3D"MsoNormal"><span style=3D"line-height:=
+13.5533332824707px;background-image:initial;background-repeat:initial"><fon=
+t face=3D"arial, helvetica, sans-serif" color=3D"#000000">=C2=A0</font></sp=
+an></p><p class=3D"MsoNormal"><span style=3D"line-height:13.5533332824707px=
+;background-image:initial;background-repeat:initial"><font face=3D"arial, h=
+elvetica, sans-serif" color=3D"#000000">--Report on HRC doing more intervie=
+ws: Reporters claim that HRC is doing more interviews because she is feelin=
+g threatened by Bernie Sanders.=C2=A0<a href=3D"http://mms.tveyes.com/Playb=
+ackPortal.aspx?SavedEditID=3D907128e5-2e0b-417c-b081-1fd41d32fac1" target=
+=3D"_blank">Fox News=E2=80=99 The Kelly File</a>.=C2=A0<span class=3D"" tab=
+index=3D"0"><span class=3D"">2015.07.08</span></span>., Hillary Clinton; Be=
+rnie Sanders, Clips, National.mp4</font></span></p><p class=3D"MsoNormal"><=
+span style=3D"line-height:13.5533332824707px;background-image:initial;backg=
+round-repeat:initial"><font face=3D"arial, helvetica, sans-serif" color=3D"=
+#000000">=C2=A0</font></span></p><p class=3D"MsoNormal"><span style=3D"line=
+-height:13.5533332824707px;background-image:initial;background-repeat:initi=
+al"><font face=3D"arial, helvetica, sans-serif" color=3D"#000000">--Report =
+on Sanders and Warren: Reporters claim that the success of Sanders and his =
+momentum could potentially lead Warren to get in the race. Reporters claim =
+that Sanders will not beat HRC. However, people find him very interesting b=
+ecause he is authentic, and that he speaks to issues in ways that HRC does =
+not. HRC will begin addressing the concerns that Sanders is addressing to b=
+ring some voters back to supporting her.=C2=A0<a href=3D"http://mms.tveyes.=
+com/PlaybackPortal.aspx?SavedEditID=3Df9f21780-5d9a-4b68-b8a9-b16ef47be2ed"=
+ target=3D"_blank">MSNBC=E2=80=99s Hardball with Chris Matthews</a>.<span c=
+lass=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</span></span>., Bernie=
+ Sanders; Hillary Clinton, Clips, National.mp4</font></span></p><p class=3D=
+"MsoNormal"><span style=3D"line-height:13.5533332824707px;background-image:=
+initial;background-repeat:initial"><font face=3D"arial, helvetica, sans-ser=
+if" color=3D"#000000">=C2=A0</font></span></p><p class=3D"MsoNormal"><font =
+face=3D"arial, helvetica, sans-serif" color=3D"#000000"><span style=3D"line=
+-height:13.5533332824707px;background:yellow">--Report on Sanders during Ob=
+ama=E2=80=99s meeting with Senate Democrats: Sanders prioritized social sec=
+urity, and ways that we can work together to strengthen social security. Pr=
+esident Obama joked with Sanders about spending more time with Obama than o=
+n the campaign trail. When the issue of trade arose, Sanders was not necess=
+arily adversarial<a href=3D"http://mms.tveyes.com/PlaybackPortal.aspx?Saved=
+EditID=3D70ca8fd7-2bf4-4f5a-981b-641afce65c12" target=3D"_blank">. MSNBC=E2=
+=80=99s The Last World with Lawrence O=E2=80=99Donnell.</a>=C2=A0<span clas=
+s=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</span></span>., Bernie Sa=
+nders, Clips, National, Sanders meeting with Obama.mp4</span><span style=3D=
+"line-height:13.5533332824707px;background-image:initial;background-repeat:=
+initial"></span></font></p><p class=3D"MsoNormal"><span style=3D"line-heigh=
+t:13.5533332824707px;background-image:initial;background-repeat:initial"><f=
+ont face=3D"arial, helvetica, sans-serif" color=3D"#000000">=C2=A0</font></=
+span></p><p class=3D"MsoNormal"><span style=3D"line-height:13.5533332824707=
+px;background-image:initial;background-repeat:initial"><font face=3D"arial,=
+ helvetica, sans-serif" color=3D"#000000">--Report on Sanders question duri=
+ng HRC interview: HRC knows that Sanders is a threat, but that she should h=
+ave at least addressed Sanders in her interview.=C2=A0<a href=3D"http://mms=
+.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Da30489c4-5f62-41fd-bd2e-33f59=
+9bce7cf" target=3D"_blank">CNN=E2=80=99s CNN Special Report</a>.=C2=A0<span=
+ class=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</span></span>., Hill=
+ary Clinton; Bernie Sanders, Clips, National, Sanders HRC thrat.mp4</font><=
+/span></p><p class=3D"MsoNormal"><span style=3D"line-height:13.553333282470=
+7px;background-image:initial;background-repeat:initial"><font face=3D"arial=
+, helvetica, sans-serif" color=3D"#000000">=C2=A0</font></span></p><p class=
+=3D"MsoNormal"><span style=3D"line-height:13.5533332824707px;background-ima=
+ge:initial;background-repeat:initial"><font face=3D"arial, helvetica, sans-=
+serif" color=3D"#000000">--Report on HRC and Bernie Sanders=E2=80=99 questi=
+on: Brianna Keilar claims that HRC ducked Sanders=E2=80=99 question by just=
+ saying that they are both going to play separate games.=C2=A0<a href=3D"ht=
+tp://mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Ddfb1a017-3745-418b-a7=
+f3-0ced88a4b236" target=3D"_blank">CNN=E2=80=99s Anderson Cooper 360</a>.=
+=C2=A0<span class=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</span></s=
+pan>., Hillary Clinton; Bernie Sanders, Clips, National, Sanders games.mp4<=
+/font></span></p><p class=3D"MsoNormal"><span style=3D"line-height:13.55333=
+32824707px;background-image:initial;background-repeat:initial"><font face=
+=3D"arial, helvetica, sans-serif" color=3D"#000000">=C2=A0</font></span></p=
+><p class=3D"MsoNormal"><span style=3D"line-height:13.5533332824707px;backg=
+round-image:initial;background-repeat:initial"><font face=3D"arial, helveti=
+ca, sans-serif" color=3D"#000000">--Report on HRC in Iowa: HRC had strong w=
+ords for Republicans who do not support immigration. HRC spoke vividly abou=
+t not deporting undocumented immigrants that are residing in the United Sta=
+tes. HRC claims that she is intentionally holding smaller events. Her talk =
+focused on children and supporting schools.=C2=A0<a href=3D"http://mms.tvey=
+es.com/PlaybackPortal.aspx?SavedEditID=3D291dbe81-c953-48c9-9818-05bcdc6669=
+b5" target=3D"_blank">WHO-DM(NBC)=E2=80=99s Channel 13 News at=C2=A0<span c=
+lass=3D""><span class=3D"">Noon</span></span>, Des Moines (IA)</a>.=C2=A0<s=
+pan class=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</span></span>., H=
+illary Clinton, Clips, National, HRC event iowa.mp4</font></span></p><p cla=
+ss=3D"MsoNormal"><span style=3D"line-height:13.5533332824707px;background-i=
+mage:initial;background-repeat:initial"><font face=3D"arial, helvetica, san=
+s-serif" color=3D"#000000">=C2=A0</font></span></p><p class=3D"MsoNormal"><=
+span style=3D"line-height:13.5533332824707px;background-image:initial;backg=
+round-repeat:initial"><font face=3D"arial, helvetica, sans-serif" color=3D"=
+#000000">--Report on HRC=E2=80=99s Bernie Sanders problem: Reporters claim =
+that her matchups against oppositions and within Democrats is incredibly st=
+rong. Reporters claim that it is important for Democrats to engage in how t=
+o fix issues affecting Americans. Reporters from the Republican Party claim=
+ that HRC has an HRC problem, not a Sanders problem.=C2=A0<a href=3D"http:/=
+/mms.tveyes.com/PlaybackPortal.aspx?SavedEditID=3Deb2a5f06-cbfd-4b2e-a224-c=
+5ceb3199849" target=3D"_blank">MSNBC=E2=80=99s News Nation</a>.=C2=A0<span =
+class=3D"" tabindex=3D"0"><span class=3D"">2015.07.08</span></span>., Hilla=
+ry Clinton, Clips, National, HRC Sanders problem.mp4</font></span></p><p cl=
+ass=3D"MsoNormal"><font face=3D"arial, helvetica, sans-serif" color=3D"#000=
+000"><br></font></p><p class=3D"MsoNormal"><span style=3D"line-height:13.55=
+33332824707px;background-image:initial;background-repeat:initial"><font fac=
+e=3D"arial, helvetica, sans-serif" color=3D"#000000">=C2=A0</font></span></=
+p></div></div>
+
+--001a113f993eaef388051a649f6c--

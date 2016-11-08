@@ -1,0 +1,441 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.24.94 with SMTP id o91csp2272269lfi;
+        Tue, 14 Apr 2015 15:41:29 -0700 (PDT)
+X-Received: by 10.202.61.215 with SMTP id k206mr13204573oia.78.1429051288553;
+        Tue, 14 Apr 2015 15:41:28 -0700 (PDT)
+Return-Path: <hrcrapid+bncBDL5DAEHWENRBF5PW2UQKGQEGDWCEBA@googlegroups.com>
+Received: from mail-oi0-x23f.google.com (mail-oi0-x23f.google.com. [2607:f8b0:4003:c06::23f])
+        by mx.google.com with ESMTPS id cq1si816527oeb.74.2015.04.14.15.41.27
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Apr 2015 15:41:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of hrcrapid+bncBDL5DAEHWENRBF5PW2UQKGQEGDWCEBA@googlegroups.com designates 2607:f8b0:4003:c06::23f as permitted sender) client-ip=2607:f8b0:4003:c06::23f;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of hrcrapid+bncBDL5DAEHWENRBF5PW2UQKGQEGDWCEBA@googlegroups.com designates 2607:f8b0:4003:c06::23f as permitted sender) smtp.mail=hrcrapid+bncBDL5DAEHWENRBF5PW2UQKGQEGDWCEBA@googlegroups.com;
+       dkim=pass header.i=@googlegroups.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-oi0-x23f.google.com with SMTP id x69sf1439288oia.1;
+        Tue, 14 Apr 2015 15:41:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20120806;
+        h=from:references:in-reply-to:mime-version:thread-index:date
+         :message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe;
+        bh=QZZHtw/hyjTRlRKA2Bdr6Cttx2ULJsPaYbPe453/9tc=;
+        b=U83nsVVWAwtkhdrSY79Zln6BOF5WrrpCU8s7DJ9TMd9KbjBzqvexZ+hVLeqHjUuagY
+         YeJLdyKtlZsT6STtgEJyrDGR7wGjSJc3ZCPhnur5zHDhci8npml1CyFMWbwrjyaCJG+Q
+         j8GDhtQigaMyOOfefpCeJFfWWthzFwwX5o5wHAp/w0nM6KlHmCSPWJOhfErenuH6dhsm
+         fcwGthIqbEclopxC5uV8R81Whdjl1Fd+DD68B6qsb0uXnN4JD/khE/Uv+fVSVfEZqBkR
+         DZhvYoMxCvr0Dt9YO/dBV6gU0WEn7yJtUYXJ2JdqpJBqbKjeXzx6icKrriAbjbZC0Uk/
+         14yQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:references:in-reply-to:mime-version
+         :thread-index:date:message-id:subject:to:cc:content-type
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive:sender
+         :list-unsubscribe;
+        bh=QZZHtw/hyjTRlRKA2Bdr6Cttx2ULJsPaYbPe453/9tc=;
+        b=NzVzB8N8sdyZ7TfEUAJIMKCf5mImdVkvtb/WHD4rSqmlIxbHxEKT3NZGGXTrwBZnHR
+         J/C/ySVHV55mEyd5nQJ1YlsZmZEPsSQp6BL4i+GLSboHNeLhfUtScou9+NLniy/oyowS
+         olN15NUC68F8+5SLxXSe/PklyRO1hUVFp2pop8EFcd/CFFW1AQhrBZm6i2pXlgZGoN1D
+         ztEXCUySBGGtbg9MclQSCjSaO1Ztjx6MlSYwRwxMe7X694imiwAxQMzlV8KK1oAeOzp6
+         J8FQJ7hUMltW0HiEFscB+ukJ3ib2/ZTRnQGmnNKBvDtgyw24OwYdS7Mik+xdvxx2YJx3
+         YriA==
+X-Received: by 10.50.148.98 with SMTP id tr2mr376315igb.3.1429051287378;
+        Tue, 14 Apr 2015 15:41:27 -0700 (PDT)
+X-BeenThere: hrcrapid@googlegroups.com
+Received: by 10.50.50.4 with SMTP id y4ls1241831ign.33.canary; Tue, 14 Apr
+ 2015 15:41:27 -0700 (PDT)
+X-Received: by 10.42.254.202 with SMTP id nf10mr32490526icb.23.1429051287153;
+        Tue, 14 Apr 2015 15:41:27 -0700 (PDT)
+Received: from mail-ig0-f179.google.com (mail-ig0-f179.google.com. [209.85.213.179])
+        by gmr-mx.google.com with ESMTPS id t6si314754igz.3.2015.04.14.15.41.27
+        for <hrcrapid@googlegroups.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 14 Apr 2015 15:41:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jferguson@hillaryclinton.com designates 209.85.213.179 as permitted sender) client-ip=209.85.213.179;
+Received: by mail-ig0-f179.google.com with SMTP id yr2so52159946igb.0
+        for <hrcrapid@googlegroups.com>; Tue, 14 Apr 2015 15:41:27 -0700 (PDT)
+X-Gm-Message-State: ALoCoQmWYO9TQkdnbiAgIvo/lt4YWLhncwHw3QyBJTGJSmnOgtEhxI0oDgwsPuMMENRIawCgmhwR
+X-Received: by 10.107.134.23 with SMTP id i23mr31613278iod.90.1429051286988;
+ Tue, 14 Apr 2015 15:41:26 -0700 (PDT)
+From: Jesse Ferguson <jferguson@hillaryclinton.com>
+References: <CALbF9hWBT+rNFvQ2OfPrULOiWXJbkhCp0fLzE5RJSqJeh5kcYA@mail.gmail.com>
+ <61b8ea3c1bcf98e0e8163e49e71e1d3f@mail.gmail.com> <CALbF9hXoK6soXs9e6j7-KC+j4zMJ=6xbYSJer6avfm0n3aFF0w@mail.gmail.com>
+ <D1530F83.5300B%creynolds@gpg.com>
+In-Reply-To: <D1530F83.5300B%creynolds@gpg.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQHldFaoV58GWVYWcolkbeh21YxjpAMJ9FXBAchCKKUB2rYzxpztuCqw
+Date: Tue, 14 Apr 2015 18:41:28 -0400
+Message-ID: <674148a5daa1cebed8ccf34bb6539629@mail.gmail.com>
+Subject: RE: Tampa Bay Times| FL Organization
+To: Christina Reynolds <creynolds@gpg.com>, 
+ Tyrone Gayle <tgayle@hillaryclinton.com>
+CC: hrcrapid <hrcrapid@googlegroups.com>, 
+ Marlon Marshall <mmarshall@hillaryclinton.com>, 
+ Tracey Lewis <tlewis@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=001a113ecba653afec0513b6eeec
+X-Original-Sender: jferguson@hillaryclinton.com
+X-Original-Authentication-Results: gmr-mx.google.com;       spf=pass
+ (google.com: domain of jferguson@hillaryclinton.com designates 209.85.213.179
+ as permitted sender) smtp.mail=jferguson@hillaryclinton.com;       dmarc=pass
+ (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list hrcrapid@googlegroups.com; contact hrcrapid+owners@googlegroups.com
+List-ID: <hrcrapid.googlegroups.com>
+X-Google-Group-Id: 612515467801
+List-Post: <http://groups.google.com/group/hrcrapid/post>, <mailto:hrcrapid@googlegroups.com>
+List-Help: <http://groups.google.com/support/>, <mailto:hrcrapid+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/hrcrapid
+Sender: hrcrapid@googlegroups.com
+List-Unsubscribe: <mailto:googlegroups-manage+612515467801+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/group/hrcrapid/subscribe>
+
+--001a113ecba653afec0513b6eeec
+Content-Type: text/plain; charset=UTF-8
+
++Tracy
+
+
+
+*From:* Christina Reynolds [mailto:creynolds@gpg.com]
+*Sent:* Tuesday, April 14, 2015 6:41 PM
+*To:* Tyrone Gayle; Jesse Ferguson
+*Cc:* hrcrapid; Marlon Marshall
+*Subject:* Re: Tampa Bay Times| FL Organization
+
+
+
+Minor change below.
+
+
+
+*From a Clinton spokesma*n: "Hillary Clinton is focused on working hard to
+earn every vote, run hard in early primary and caucus states and not take
+anything for granted. She looks forward to talking to Florida voters in the
+months to come and competing in the Florida primary."
+
+
+
+*From: *Tyrone Gayle <tgayle@hillaryclinton.com>
+*Date: *Tuesday, April 14, 2015 at 6:38 PM
+*To: *Jesse Ferguson <jferguson@hillaryclinton.com>
+*Cc: *hrcrapid <hrcrapid@googlegroups.com>, Marlon Marshall <
+mmarshall@hillaryclinton.com>
+*Subject: *Re: Tampa Bay Times| FL Organization
+
+
+
+How about this?
+
+
+
+*From a Clinton spokesma*n: "Hillary Clinton is focused on working hard to
+earn every vote, run hard in early primary and caucus states and not take
+anything for granted. She looks forward to competing in the Florida
+primary."
+
+
+
+On Tue, Apr 14, 2015 at 3:50 PM, Jesse Ferguson <
+jferguson@hillaryclinton.com> wrote:
+
+Vomit
+
+
+
+*From:*hrcrapid@googlegroups.com [mailto:hrcrapid@googlegroups.com] *On
+Behalf Of *Tyrone Gayle
+*Sent:* Tuesday, April 14, 2015 3:50 PM
+*To:* hrcrapid; Marlon Marshall
+*Subject:* Tampa Bay Times| FL Organization
+
+
+
+Alex Leary for TB Times writing a Sunday story: "We want to do a story --
+granted things are early -- on what her organization might look like in the
+state, etc. When she might visit, who might help on the ground in Florida."
+
+
+
+
+
+
+
+-- 
+
+Tyrone Gayle
+
+Regional Communications Desk
+
+Hillary For America
+
+904.612.3495
+
+@TyroneGayle
+
+-- 
+You received this message because you are subscribed to the Google Groups
+"HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an
+email to hrcrapid+unsubscribe@googlegroups.com.
+To post to this group, send email to hrcrapid@googlegroups.com.
+To view this discussion on the web visit
+https://groups.google.com/d/msgid/hrcrapid/CALbF9hWBT%2BrNFvQ2OfPrULOiWXJbkhCp0fLzE5RJSqJeh5kcYA%40mail.gmail.com
+<https://groups.google.com/d/msgid/hrcrapid/CALbF9hWBT%2BrNFvQ2OfPrULOiWXJbkhCp0fLzE5RJSqJeh5kcYA%40mail.gmail.com?utm_medium=email&utm_source=footer>
+.
+For more options, visit https://groups.google.com/d/optout.
+
+
+
+
+
+-- 
+
+Tyrone Gayle
+
+Regional Communications Desk
+
+Hillary For America
+
+904.612.3495
+
+@TyroneGayle
+
+-- 
+You received this message because you are subscribed to the Google Groups
+"HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an
+email to hrcrapid+unsubscribe@googlegroups.com.
+To post to this group, send email to hrcrapid@googlegroups.com.
+To view this discussion on the web visit
+https://groups.google.com/d/msgid/hrcrapid/CALbF9hXoK6soXs9e6j7-KC%2Bj4zMJ%3D6xbYSJer6avfm0n3aFF0w%40mail.gmail.com
+<https://groups.google.com/d/msgid/hrcrapid/CALbF9hXoK6soXs9e6j7-KC%2Bj4zMJ%3D6xbYSJer6avfm0n3aFF0w%40mail.gmail.com?utm_medium=email&utm_source=footer>
+.
+For more options, visit https://groups.google.com/d/optout.
+
+-- 
+You received this message because you are subscribed to the Google Groups "HRCRapid" group.
+To unsubscribe from this group and stop receiving emails from it, send an email to hrcrapid+unsubscribe@googlegroups.com.
+To post to this group, send email to hrcrapid@googlegroups.com.
+To view this discussion on the web visit https://groups.google.com/d/msgid/hrcrapid/674148a5daa1cebed8ccf34bb6539629%40mail.gmail.com.
+For more options, visit https://groups.google.com/d/optout.
+
+--001a113ecba653afec0513b6eeec
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dus-ascii"><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtere=
+d medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.hoenzb
+	{mso-style-name:hoenzb;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3D"EN-US" link=3D"blue" vlink=3D"purple"><div =
+class=3D"WordSection1"><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1f497d">+T=
+racy</span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-=
+family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</sp=
+an></p><div><div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;paddin=
+g:3.0pt 0in 0in 0in"><p class=3D"MsoNormal"><b><span style=3D"font-size:11.=
+0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">From:</span></b=
+><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;"> Christina Reynolds [mailto:<a href=3D"mailto:creynolds@gpg.c=
+om">creynolds@gpg.com</a>] <br><b>Sent:</b> Tuesday, April 14, 2015 6:41 PM=
+<br><b>To:</b> Tyrone Gayle; Jesse Ferguson<br><b>Cc:</b> hrcrapid; Marlon =
+Marshall<br><b>Subject:</b> Re: Tampa Bay Times| FL Organization</span></p>=
+</div></div><p class=3D"MsoNormal">=C2=A0</p><div><p class=3D"MsoNormal"><s=
+pan style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,&quot;sans-se=
+rif&quot;;color:black">Minor change below.</span></p></div><div><p class=3D=
+"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;=
+,&quot;sans-serif&quot;;color:black">=C2=A0</span></p></div><div><p class=
+=3D"MsoNormal"><b><span style=3D"font-size:10.5pt;font-family:&quot;Calibri=
+&quot;,&quot;sans-serif&quot;;color:black">From a Clinton spokesma</span></=
+b><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,&quot;san=
+s-serif&quot;;color:black">n: &quot;Hillary Clinton is focused on working h=
+ard to earn every vote, run hard in early primary and caucus states and not=
+ take anything for granted. She looks forward to talking to Florida voters =
+in the months to come and competing in the Florida primary.&quot;</span></p=
+></div><div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-fam=
+ily:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></=
+p></div><div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.=
+0pt 0in 0in 0in"><p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black">From: <=
+/span></b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&=
+quot;sans-serif&quot;;color:black">Tyrone Gayle &lt;<a href=3D"mailto:tgayl=
+e@hillaryclinton.com">tgayle@hillaryclinton.com</a>&gt;<br><b>Date: </b>Tue=
+sday, April 14, 2015 at 6:38 PM<br><b>To: </b>Jesse Ferguson &lt;<a href=3D=
+"mailto:jferguson@hillaryclinton.com">jferguson@hillaryclinton.com</a>&gt;<=
+br><b>Cc: </b>hrcrapid &lt;<a href=3D"mailto:hrcrapid@googlegroups.com">hrc=
+rapid@googlegroups.com</a>&gt;, Marlon Marshall &lt;<a href=3D"mailto:mmars=
+hall@hillaryclinton.com">mmarshall@hillaryclinton.com</a>&gt;<br><b>Subject=
+: </b>Re: Tampa Bay Times| FL Organization</span></p></div><div><p class=3D=
+"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;=
+,&quot;sans-serif&quot;;color:black">=C2=A0</span></p></div><div><div><div>=
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:black">How about this? </span></p>=
+<div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&qu=
+ot;Calibri&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span></p></div=
+><div><p class=3D"MsoNormal"><b><span style=3D"font-size:10.5pt;font-family=
+:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black">From a Clinton spo=
+kesma</span></b><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&q=
+uot;,&quot;sans-serif&quot;;color:black">n: &quot;Hillary Clinton is focuse=
+d on working hard to earn every vote, run hard in early primary and caucus =
+states and not take anything for granted. She looks forward to competing in=
+ the Florida primary.&quot;</span></p></div></div><div><p class=3D"MsoNorma=
+l"><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,&quot;sa=
+ns-serif&quot;;color:black">=C2=A0</span></p><div><p class=3D"MsoNormal"><s=
+pan style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,&quot;sans-se=
+rif&quot;;color:black">On Tue, Apr 14, 2015 at 3:50 PM, Jesse Ferguson &lt;=
+<a href=3D"mailto:jferguson@hillaryclinton.com" target=3D"_blank">jferguson=
+@hillaryclinton.com</a>&gt; wrote:</span></p><blockquote style=3D"border:no=
+ne;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.=
+8pt;margin-right:0in"><div><div><p class=3D"MsoNormal" style><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;co=
+lor:#1f497d">Vomit</span><span style=3D"color:black"></span></p><p class=3D=
+"MsoNormal" style><span style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span><span style=3D"co=
+lor:black"></span></p><p class=3D"MsoNormal" style><b><span style=3D"font-s=
+ize:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:bla=
+ck">From:</span></b><span style=3D"font-size:11.0pt;font-family:&quot;Calib=
+ri&quot;,&quot;sans-serif&quot;;color:black"><a href=3D"mailto:hrcrapid@goo=
+glegroups.com" target=3D"_blank">hrcrapid@googlegroups.com</a> [mailto:<a h=
+ref=3D"mailto:hrcrapid@googlegroups.com" target=3D"_blank">hrcrapid@googleg=
+roups.com</a>] <b>On Behalf Of </b>Tyrone Gayle<br><b>Sent:</b> Tuesday, Ap=
+ril 14, 2015 3:50 PM<br><b>To:</b> hrcrapid; Marlon Marshall<br><b>Subject:=
+</b> Tampa Bay Times| FL Organization</span><span style=3D"color:black"></s=
+pan></p><div><div><p class=3D"MsoNormal" style><span style=3D"color:black">=
+=C2=A0</span></p><div><p class=3D"MsoNormal" style><span style=3D"color:bla=
+ck">Alex Leary for TB Times writing a Sunday story: &quot;</span><span styl=
+e=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black">We=
+ want to do a story -- granted things are early -- on what her organization=
+ might look like in the state, etc. When she might visit, who might help on=
+ the ground in Florida.&quot;</span><span style=3D"color:black"></span></p>=
+<div><p class=3D"MsoNormal" style><span style=3D"color:black">=C2=A0</span>=
+</p></div><div><p class=3D"MsoNormal" style><span style=3D"color:black">=C2=
+=A0</span></p></div><div><div><p class=3D"MsoNormal" style><span style=3D"c=
+olor:black">=C2=A0</span></p></div><p class=3D"MsoNormal" style><span style=
+=3D"color:black">-- </span></p><div><div><p class=3D"MsoNormal" style><span=
+ style=3D"font-size:9.5pt;color:blue">Tyrone Gayle</span><span style=3D"col=
+or:black"></span></p><div><p class=3D"MsoNormal" style><span style=3D"font-=
+size:9.5pt;color:blue">Regional Communications Desk</span><span style=3D"co=
+lor:black"></span></p></div><div><p class=3D"MsoNormal" style><span style=
+=3D"font-size:9.5pt;color:blue">Hillary For America</span><span style=3D"co=
+lor:black"></span></p></div><div><p class=3D"MsoNormal" style><span style=
+=3D"font-size:9.5pt;color:blue"><a href=3D"tel:904.612.3495" target=3D"_bla=
+nk">904.612.3495</a></span><span style=3D"color:black"></span></p></div><di=
+v><p class=3D"MsoNormal" style><span style=3D"font-size:9.5pt;color:blue">@=
+TyroneGayle</span><span style=3D"color:black"></span></p></div></div></div>=
+</div></div></div></div><p class=3D"MsoNormal" style><span style=3D"color:#=
+888888">-- <br>You received this message because you are subscribed to the =
+Google Groups &quot;HRCRapid&quot; group.<br>To unsubscribe from this group=
+ and stop receiving emails from it, send an email to <a href=3D"mailto:hrcr=
+apid+unsubscribe@googlegroups.com" target=3D"_blank">hrcrapid+unsubscribe@g=
+ooglegroups.com</a>.<br>To post to this group, send email to <a href=3D"mai=
+lto:hrcrapid@googlegroups.com" target=3D"_blank">hrcrapid@googlegroups.com<=
+/a>.<br>To view this discussion on the web visit <a href=3D"https://groups.=
+google.com/d/msgid/hrcrapid/CALbF9hWBT%2BrNFvQ2OfPrULOiWXJbkhCp0fLzE5RJSqJe=
+h5kcYA%40mail.gmail.com?utm_medium=3Demail&amp;utm_source=3Dfooter" target=
+=3D"_blank">https://groups.google.com/d/msgid/hrcrapid/CALbF9hWBT%2BrNFvQ2O=
+fPrULOiWXJbkhCp0fLzE5RJSqJeh5kcYA%40mail.gmail.com</a>.<br>For more options=
+, visit <a href=3D"https://groups.google.com/d/optout" target=3D"_blank">ht=
+tps://groups.google.com/d/optout</a>.</span></p></div></div></blockquote></=
+div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quo=
+t;Calibri&quot;,&quot;sans-serif&quot;;color:black"><br><br clear=3D"all"><=
+/span></p><div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-=
+family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black">=C2=A0</span=
+></p></div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-fami=
+ly:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black">-- </span></p><d=
+iv><div><p class=3D"MsoNormal"><span style=3D"font-size:9.5pt;font-family:&=
+quot;Calibri&quot;,&quot;sans-serif&quot;;color:blue">Tyrone Gayle</span><s=
+pan style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,&quot;sans-se=
+rif&quot;;color:black"> </span></p><div><p class=3D"MsoNormal"><span style=
+=3D"font-size:9.5pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;=
+color:blue">Regional Communications Desk</span><span style=3D"font-size:9.5=
+pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black"></sp=
+an></p></div><div><p class=3D"MsoNormal"><span style=3D"font-size:9.5pt;fon=
+t-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:blue">Hillary For=
+ America</span><span style=3D"font-size:9.5pt;font-family:&quot;Calibri&quo=
+t;,&quot;sans-serif&quot;;color:black"></span></p></div><div><p class=3D"Ms=
+oNormal"><span style=3D"font-size:9.5pt;font-family:&quot;Calibri&quot;,&qu=
+ot;sans-serif&quot;;color:blue">904.612.3495</span><span style=3D"font-size=
+:9.5pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:black">=
+</span></p></div><div><p class=3D"MsoNormal"><span style=3D"font-size:9.5pt=
+;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:blue">@Tyrone=
+Gayle</span><span style=3D"font-size:9.5pt;font-family:&quot;Calibri&quot;,=
+&quot;sans-serif&quot;;color:black"></span></p></div></div></div></div><p c=
+lass=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Calibr=
+i&quot;,&quot;sans-serif&quot;;color:black">-- <br>You received this messag=
+e because you are subscribed to the Google Groups &quot;HRCRapid&quot; grou=
+p.<br>To unsubscribe from this group and stop receiving emails from it, sen=
+d an email to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com">hrcr=
+apid+unsubscribe@googlegroups.com</a>.<br>To post to this group, send email=
+ to <a href=3D"mailto:hrcrapid@googlegroups.com">hrcrapid@googlegroups.com<=
+/a>.<br>To view this discussion on the web visit <a href=3D"https://groups.=
+google.com/d/msgid/hrcrapid/CALbF9hXoK6soXs9e6j7-KC%2Bj4zMJ%3D6xbYSJer6avfm=
+0n3aFF0w%40mail.gmail.com?utm_medium=3Demail&amp;utm_source=3Dfooter">https=
+://groups.google.com/d/msgid/hrcrapid/CALbF9hXoK6soXs9e6j7-KC%2Bj4zMJ%3D6xb=
+YSJer6avfm0n3aFF0w%40mail.gmail.com</a>.<br>For more options, visit <a href=
+=3D"https://groups.google.com/d/optout">https://groups.google.com/d/optout<=
+/a>.</span></p></div></div></div></body></html>
+
+<p></p>
+
+-- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;HRCRapid&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to <a href=3D"mailto:hrcrapid+unsubscribe@googlegroups.com">hrcrapid+u=
+nsubscribe@googlegroups.com</a>.<br />
+To post to this group, send email to <a href=3D"mailto:hrcrapid@googlegroup=
+s.com">hrcrapid@googlegroups.com</a>.<br />
+To view this discussion on the web visit <a href=3D"https://groups.google.c=
+om/d/msgid/hrcrapid/674148a5daa1cebed8ccf34bb6539629%40mail.gmail.com?utm_m=
+edium=3Demail&utm_source=3Dfooter">https://groups.google.com/d/msgid/hrcrap=
+id/674148a5daa1cebed8ccf34bb6539629%40mail.gmail.com</a>.<br />
+For more options, visit <a href=3D"https://groups.google.com/d/optout">http=
+s://groups.google.com/d/optout</a>.<br />
+
+--001a113ecba653afec0513b6eeec--

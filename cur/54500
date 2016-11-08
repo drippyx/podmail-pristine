@@ -1,0 +1,553 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp6776716lfb;
+        Tue, 29 Dec 2015 09:49:01 -0800 (PST)
+X-Received: by 10.55.74.9 with SMTP id x9mr79779837qka.81.1451411341416;
+        Tue, 29 Dec 2015 09:49:01 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1on0087.outbound.protection.outlook.com. [157.56.110.87])
+        by mx.google.com with ESMTPS id b76si20157166qkb.51.2015.12.29.09.49.01
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 29 Dec 2015 09:49:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.87 as permitted sender) client-ip=157.56.110.87;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.87 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=neutral (body hash did not verify) header.i=@bounce.myngp.com
+Received: from BY2PR07CA057.namprd07.prod.outlook.com (10.141.251.32) by
+ BN1PR07MB103.namprd07.prod.outlook.com (10.242.216.17) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Tue, 29 Dec 2015 17:48:59 +0000
+Received: from BN1AFFO11FD028.protection.gbl (2a01:111:f400:7c10::125) by
+ BY2PR07CA057.outlook.office365.com (2a01:111:e400:2c61::32) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Tue, 29 Dec 2015
+ 17:48:59 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.myngp.com;gmail.com; dmarc=none action=none
+ header.from=iowademocrats.org;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BN1AFFO11FD028.mail.protection.outlook.com (10.58.52.88) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Tue, 29 Dec 2015 17:48:58
+ +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-by2-obe.outbound.protection.outlook.com (141.161.191.14)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Tue, 29 Dec 2015 12:48:57 -0500
+Received: from BLUPR07CA095.namprd07.prod.outlook.com (10.160.24.50) by
+ BLUPR07MB097.namprd07.prod.outlook.com (10.242.200.23) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Tue, 29 Dec 2015 17:48:51 +0000
+Received: from BN1BFFO11FD009.protection.gbl (2a01:111:f400:7c10::1:181) by
+ BLUPR07CA095.outlook.office365.com (2a01:111:e400:8ae::50) with Microsoft
+ SMTP Server (TLS) id 15.1.365.9 via Frontend Transport; Tue, 29 Dec 2015
+ 17:48:51 +0000
+Authentication-Results: spf=pass (sender IP is 192.82.209.171)
+ smtp.mailfrom=bounce.myngp.com; law.georgetown.edu; dkim=pass (signature was
+ verified) header.d=bounce.myngp.com;law.georgetown.edu; dmarc=none
+ action=none header.from=iowademocrats.org;
+Received-SPF: Pass (protection.outlook.com: domain of bounce.myngp.com
+ designates 192.82.209.171 as permitted sender)
+ receiver=protection.outlook.com; client-ip=192.82.209.171;
+ helo=mailout807.ngpweb.com;
+Received: from mailout807.ngpweb.com (192.82.209.171) by
+ BN1BFFO11FD009.mail.protection.outlook.com (10.58.144.72) with Microsoft SMTP
+ Server id 15.1.355.15 via Frontend Transport; Tue, 29 Dec 2015 17:48:50 +0000
+Return-Path: podesta@law.georgetown.edu
+DKIM-Signature: v=1; a=rsa-sha1; d=bounce.myngp.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; i=@bounce.myngp.com; t=1451411330;
+	h=Sender:From:Subject:List-Unsubscribe:Date:To:Reply-To:Message-ID:MIME-Version:
+	Content-Type;
+	bh=1RbfmrD2RzSeCIX35gI6Cnn4jRk=;
+	b=7f1BQ0afFWHl4OJypEE+Swbw97TpX0/THXxuJxcv4+N3/BlQ97DFFq/cfYTQlcJs
+	/1uJ9NCAYRGvsoWsFcx8zhX/suFEaJzYJC4H0nylKllscSavzmVeGlQPhwVxbnXy
+	Zh4U5tUBaJ+teYOOP4xBdY47N/FMXPA4m2G8b8IhxjY=;
+X-MSFBL: OmT7J3l7ypXhMZw9TGZS7cjxFsgQ7IHsqT+gN1MLGu8=|eyJyIjoicG9kZXN0YUB
+	sYXcuZ2VvcmdldG93bi5lZHUiLCJiIjoibWFpbG91dDgwNyIsInUiOiJib3VuY2V
+	fMjQwMDAwMDE0MDkwODc4Ml9wb2QxMiIsImciOiJkZWZhdWx0Z3JvdXAwMiJ9
+Received: from [10.11.74.253] ([10.11.74.253:50013] helo=NSV11OBMAIL1203)	by
+ asv11mtam003.ngpweb.com (envelope-from
+ <bounce_2400000140908782_pod12@bounce.myngp.com>)	(ecelerity 4.2.1.51032
+ r(Core:4.2.1.4)) with ESMTP	id 03/31-07108-287C2865; Tue, 29 Dec 2015
+ 12:48:50 -0500
+Sender: =?UTF-8?B?TWlrZSBGcm9zb2xvbmU=?= <bounce@bounce.myngp.com>
+X-Binding: default
+Reply-To: <marksmithiowa@gmail.com>
+From: Mike Frosolone <mike.frosolone@iowademocrats.org>
+To: John Podesta <podesta@law.georgetown.edu>
+Message-ID: <ca50397b58ec49c0ac91e0de93b59bd3@iowademocrats.org>
+Date: Tue, 29 Dec 2015 12:48:50 -0500
+Subject: Fwd: here are my top 3
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----19EE2D8922BE4B6783B2C1294ACF6BA1"
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1BFFO11FD009;1:8xZd7eVlMusaRPThTElh7jksWxjDyEd+8mh9+FrG96ua4UseE/BTzSLYB4ZKKvU6yv/LEceGzm2b/f9x4fF3lNVXuqT6nGIqBSLQcB0llVCFLBXWnWz7i7Ehp2Ndea1bxcDl3pLnpm0U4NVCA+8E8THWJrxaw7BRKVFL4p66s/OLbST8+Zf7thiyh4kTDDLVw+vu5R40WnsAoCAxjvAFe/Lx7Nhf2x1eqt0Hsbm+oMjy4ExyIN/jcjiPT0bQxf/xk89M6twDsR1oqDT3Wz8qy3JpgOZCfskqKRf8pcrP9M1EFTWCQk7+O6g67cw1d9ZwLFNiz61WcPUtqYrVU+Fa68bpbnmxtXigxmkNbNFEWsjmkngnaJ/AyEnzJpoKLBtMz6aERa0sY3NJHy3vTNPQdw==
+X-Forefront-Antispam-Report-Untrusted: CIP:192.82.209.171;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31640200002)(2980300002)(438002)(359002)(2473001)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR07MB097;H:mailout807.ngpweb.com;FPR:;SPF:Pass;PTR:mailout807.ngpweb.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB097;2:u8pU/jYWQUFDfSHhtsNvBytUyaAsW3yF76sA3ZY657trDIMfjqdokIM+T04Uj5JKrwe7Y44BPrddzC1aFlXTzJHH+BXh7hf02+/3v69jbtlcqSSgKk19whm3y3b/jtXkJJh+GONVCQC4Us52uLsk2w==;3:ar/ywB0Zzswyo8jPv79tbBeO90b/jiNLQfmWwfThK2EnFoZWXYUucD58oLo0afmYG572T/NjnlI6fVOJjPpg8CBQwnsYTmGgK2gI+bYudb2PWkaQqI+At94ME68o5SupY6ZNMXnfdw0dt90IbKP2Rb1etMlpSI5J1Y3y2drHYe/HaGLJ+P6OJbgIZYe99dZkhkj7bqihmcRf34NV8CgozprNLTg4WCRnCXy8UrNWlvUk/Pz+/Ak1xFFAXnL7Xxfvydbtj7EC4bVEEnDzsLBc8NFwKxQeOyTvbfRpvebaWUAunBm2wdNXkuvE4KD7uk9IbXu3g/0y29VQvSRMXmBmfA==;25:nmOcrni0bS1jyZGBafDLnXauMNJK851/NrHWOPw/OKhSMqIIEepfkHHrtQNRP1E526zzvVEP9dGYUY5HtuMLHr6/0zwEOjo5cQRvebB26cc86OeeyUDNy9c9ILd9TrX6nXyPn2MZWtERjmlbdK/xkYzfPg19P4IgaA5d1G1cdROtW9n1GT6wKIhMHVt4mRDjKyu5ekJmLLrTab6aCkrYofg65ZCJrxJHsSiGz7aaY0bNiwae+NWI/kqxSW6ZEbea
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(42134001)(42139001)(3001015)(71701003)(71702001);SRVR:BLUPR07MB097;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB097;20:VNVRSOK4Mh4Z2rQ58bnMShdZsSlAQlixK9KzJ4FBK7tOrNFLhDMH1jqjTsz/Fqf53zvMZoxr9UkDeVtO4t7EF4WIfOo46C8EWBenA1fgD38edH7ZrdyvGo7/r9afCy0hdDQ5KUR/hg25DDzty5KaIyLpjJF36BdeLrv2fEQEwnADBdB0qP3HLc7ygHhTokIgs9lTtOsXJtDPND3W9aRVFoX5Vp8WhDZmhaN1GUrtqiFIb7C2NSZY2rGCOTQqRgoGTjhDRYk5QQdB6EhywY44qmBci3gv2pPX8aKlulfzm6yqeWf59hdCh75ia8PbaTxZiD5LbErFy0Vn7JF+PGRE1nFqOk+6u+4fEug0HesllAiJcpAOgK0BQ6XyH+7dhUFpz76hG6ywRjKR/ogwEhDD+H3r2reXSxUAabUjtj4O7vs=;4:7geXu2uq1kdCLkfSI55ugiMomJ0SiSr/gthQMRH6ZXVWbeHRe44Sbt5irWKLHooVh3UkiSktC+oTMIE/YsXnKbacY3RlmhSWBTQVayHBOCYeTQdwOI0C6BmAyoIUAb8ebSDKo68VF1o6mj4Z+Wgw53mLYA9c6v7xA4bsUPtKY2GMxzs90XFUjIuX71nV4BFLopQ8pcGyhmZgTzGLjVHnlriqli6ajLVauDgmeKYEKsWJH6rquzAEtKziKAulcgwyfwQExBqBFQuVjrJGxmdzs9Hlxh8Lw0r5QadoFVn4Ld/10FNuPGifv48wjY033q0maWf0x+octCiabV0IFlo9j+svRMg7IbjKq31fnLR2rtI=
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(3002001)(10201501046);SRVR:BLUPR07MB097;BCL:8;PCL:0;RULEID:;SRVR:BLUPR07MB097;BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(8121501046)(520078)(3002001)(10201501046);SRVR:BN1PR07MB103;BCL:0;PCL:0;RULEID:;SRVR:BN1PR07MB103;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR07MB097;23:B4cqy92093xd6P4Ds++4sdtDZ27c2e+VxApBh/fzRDPRv22ZgU9gOYXxIUL+IqdjkBJBdJM2avmj0LJtPMnjJrNsSePHFluYNXkSnkT7A7s0oniXZznfqzT1bM2DWxEZe6zA8poMHF9A6/O2S9+0A+ZPlUh3lQy4IeiR2/e+ICiPLIKWFZeM7JhjFbbohwZTRdpiDlU6jdWR5c4dEoP4v8TLtmAjo9bt1kpLHSJjzQqrpLCpcD5v1WvGG/ifS+ocWnXGz8w3G3aHLHj58mzimzEHHPApo1smUF/pQQITsx/Yk7e/I9CWdIob6k4oMtBjJBihWLIeK1/O3V4wPN7czA==;5:I3wpx6YrD5/Hv1FWlyFLtBloaDJDpuelcrtn9T8gzpvYoRC7LzqAFTCdM/NUtThduSIwWe1p5QJkhFTEdf21NR37FYb8z/rVb1K9cxUxkVRGOgrF65ZlX2lMek52qyEkBSaY/7bWeo3ZEDzV0pYkrg==;24:QS9cgS4WJ0LIkskBwg7dN7TrvN6e9tXltV9ASNRuQGRm8d9HlFQCZbUGutBiCLxKwj4K4Ctq4M41g+k+nGX9ZA==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB097
+X-OrganizationHeadersPreserved: BLUPR07MB097.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1AFFO11FD028.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1AFFO11FD028;1:r7S6RslfRUDaNSPH1vZ1stIWw+zc6cFMmLHi2wJLoJ7nqH73DHnr8xrW4MtyKOPewad0B1Dfj0J84g2rLAw7Ru+YVWF6Rgfaw8JpJmdGHhefhh0l5avoAAbCWaavJ2hPB1nmrRSZnAmw11ATcIpAaSqKmpGHPRJoVTm4vzg25Tl1I2yV8LUYDg145UXig5kOWKNCxsFcZ6Q+5lI/NBE835WTH8YrpEf/PTsVVyOZyotNf/1brweQPW4SkMXlsRdVcU5fjdPMpWs3bpHx62nrDP3Qq5IYZobOA3vlS/tWXa6MP28tUBZf8ambgpn7Fm2vWXiuSZV4ux/tainxq6F++BMgDlEPp0VU3x90baDrOJ1wl1zujNNOtcH98qcsb0lFjx4a40LP+kyN41+7faiLCQ==
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1109001)(1110001)(339900001)(377454003)(189002)(2473001)(22974007)(69224002)(199003)(6806005)(1096002)(33646002)(108616004)(4001450100002)(19617315012)(75432002)(50986999)(53806999)(512874002)(36756003)(104016004)(18926405002)(586003)(11100500001)(24736003)(1220700001)(19622755009)(105606002)(106466001)(81156007)(956001)(77096005)(97736004)(18206015028)(88552001)(5001960100002)(4001600100001)(2171001)(450100001)(107886002)(110136002)(15975445007)(5002220100002)(87936001)(19580405001)(85426001)(19580395003)(54356999)(960300001)(189998001)(84326002)(43066003)(4290100001)(7099028)(42882005)(18200335002);DIR:OUT;SFP:1101;SCL:1;SRVR:BN1PR07MB103;H:mail.law.georgetown.edu;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics:
+	1;BN1PR07MB103;2:hdxNlc8hCqWbMexJKcIJtw+PvslvJZQi+9u6l91bStfiRScTvFChGPFevOXmXd1RuqNMFMhZEX/D7D3AQBkfBvZP1zbaxNDP17F3pZMo0kj2b6NW/xalw3XnJHWpGR2+9zsPc3fMxp/Wk6uIiEvLjg==;3:iAnzs6WAjGQwM/7GEsAfQsqen6upbekZmekjg/1bEFugghyLzcSkU6Qmpp1RA/MROVkmrOjAF9NF30CfQ8Eig2JKXa2NfuwcnhkbbwXkgwcn7lLtVcNpUgvJ7hiXpGFk9LuamJvFnBLe5L+X0A1DFNIWlrc+VtXZhJxOFUjvYWuxj1dhEJcgN+GyleKrjtg92vMH5FzXSBWZR5KYH5Z7nHv3TN5Z3/hzJyPXneRN06NfLXP/4IW5fStEp5wl0jAZfu765YhidAKR+0tMbQfGikxve4xvLDN2pbJ8LDiqf0U=;25:V6ylSF7Oj5h5H9eaHcqXBpEWfuj6hpKc/e3vG31ZJovzwFBz3hgswclWvHz3vswMhOkKgZ/Tcj5tFdWIcXaORn5O+EoNSy0gABX6a0vDn5TXEG9LDOlhRCnro3drBb6u98NMv/hjPNXfe8gQLccTrA814SaM7MIrCLnZ9FnLKBUWVPr3ZUeb9NXcusgGqT046OUOg7Ua7RZfq6QZy14T4fi4z9fdypaz6zggPMagPoUWm07ZKQet5wXPlUWGGZEo
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(42134001)(42139001)(3002015);SRVR:BN1PR07MB103;
+X-Microsoft-Exchange-Diagnostics:
+	1;BN1PR07MB103;20:PUBZZbwG5yyjiJgMlerIO5Q5LQXy3koSQG0UTkLklHAh9CwDLrCJulB/+vISa+Xg3fVEEylFg1yeyAUizTKFUwPRD0q0D+sWepKMR8avb8Wr8tXCLh9NKtZPBZnc+qlPcdSoISZnaAWGvD4aWfbi5Y4etwBqOJmZYkIjl4DuCIHk/PyG5Fad+N71xCGEar8HOGXSNO8p/T6+eHNbk8whQz2XIQfTHEq/IstUnPixzDZtnBcq5K5KkSiKG5voR2FVms5NhNki72qVQaKuGr+Hib4VOx4o83bP6VWviDacV79a6RAKQisyGLxGMqP8bRq738Z5ojotadH2kGbJOXcsGmiF2pvvleicDNUyxvfTZ7K3Dti6Lf/nEO31G2//rVGBHlHxMrOdL5aK99nP1ix3JzKRhiKXVPdoFh0hRWNFGDc=;4:l2hPKMGXQoxzqN1MwTZVUmIvBN/9ck2ig61lQWCpHAUMATIntMHVKXE1JdrXoki7UkltB4gex7Et+JdBH7cW7ptvSRsEPfI5eekKmGcZOFsg1+F7yn9howGEzQ0D33DjjQHSmOXZBNB8PiKe4Logy4ZskeR5rkIfGfpdZFVDTXaXV4mtUhsDm7bp8FjjiZa5n0nBqJpf1ZyniDxD7y6W8FsvpDDGxsR0Hqn0jVqLQ136yEUuLdx4M9dhBFuuH/IRjZfFcGbRu/FC4QMOvt89GnBteFTu5xgme5eP1IogxnxR7MT3nNdEBhb5PHY596+wZBDnzeQTaYDZxmLm4QQJiIi2AlK1dvtwSwZPLvDKJGyHWaL/ajD4/AwzgPC23LQ8
+X-Microsoft-Antispam-PRVS:
+	<BN1PR07MB103C220094199A7AD81280A93FC0@BN1PR07MB103.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 0805EC9467
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BN1PR07MB103;23:7eF+5eg4MJA6O97Gm7NXZs49u5/hOxg5zFxIO+8ws3?=
+ =?us-ascii?Q?8cDcoUSNnriusilaEX9gdoIWbMPBD9pa3lw7uSZor91C9XEse9L3lI4PwKWD?=
+ =?us-ascii?Q?jjm9XbGq2NqK09tyTzSnzAfk9Eu+l8KdHD3Pr1mqeR6KNip/DGQlIsbBZycE?=
+ =?us-ascii?Q?ewB8HXVPghbPeShUBr/A31U6La5507pLyFdsZJggiiIrgD+tv3lNcVUh6h56?=
+ =?us-ascii?Q?mxOuubFLMBadrvfyvGw6KnRCjnpnVh8DOXS4bmI9n7GL3BrDiBvcNmu4aILN?=
+ =?us-ascii?Q?f5w5SVhsOrPjxfPXGEc6wkegAkUYs+PwyaIXJfGUOPJlwurnIBQTD60gOKvD?=
+ =?us-ascii?Q?5zfVBHTUt3Dl4ZKq6lNc+PPMg5ewehljrDupEJpeXS16ERkwO96CZOlGYH7V?=
+ =?us-ascii?Q?M75P+B3Qb6uxu+v2BskXO4qLvL23SS5GFrB4Qh/xiEhl5NxUjuMxctkIlzkO?=
+ =?us-ascii?Q?IYHm04f99Ds56mk0qGjWveAFt27mcIAiqVgPpLudG8gB5OlqT1c8Lo3grrEp?=
+ =?us-ascii?Q?NFpw6nvotXHncWZhaL4dMnZzZkN+zix7avQQnLMD0ndFX+GEKakNy2EpLAhO?=
+ =?us-ascii?Q?+pEJ7WRUiEZT9nTb0ZPuMB9b1U5mNIG44CMSb0uGh0RfAFrKzLDwnaaBUnnR?=
+ =?us-ascii?Q?9eHJl+I0Zr/h9Yh3FxFFJTDLrlUMf4jAp0PYVvh8ycSl+0kg06nyLud8Vzcd?=
+ =?us-ascii?Q?8r4g4WX3p+k5n++dQVv6kc3FVzfD1t27rfy8Q7YlnmMkxawRI8ZqKqdoXgao?=
+ =?us-ascii?Q?35Akx6yXwolHrdmhybgz5asJ5/OJj6qfzTt04yTidJw62MTJ9/YLnd70toqm?=
+ =?us-ascii?Q?8vaMhyN+NfpLlNxALPSvM+roKPj2Yl++4499JMm7o4MwVi3ZqZADfpqLb0O0?=
+ =?us-ascii?Q?3ObLX7c2D+qWoPq2okoxYs+qTRBRQjh5g8UNZ8BJPyJ96k1TMxBocOXTg3mH?=
+ =?us-ascii?Q?y5A5YptQQZBk/S0U6ThygzHO+fGfUKTo3brYZ0NbUm5XOqvOC0+y28eZk3JN?=
+ =?us-ascii?Q?AVrJCGUp1blVdHgnIBw/f5oc/r2YzyamG2K+PfDtn1/ruWVMBtCG+qJ9eYJp?=
+ =?us-ascii?Q?rf5/QAL7+MkJIU3AmZZIqcTRtsElJbx0WLuNNB/C37v3+xwI2LN/ZSh695Ti?=
+ =?us-ascii?Q?FEQS22bI7wQF23OjMfF6ifomlWDjk7vgI7Lc+5Mqngp3x87mw/KzBKuKkKYD?=
+ =?us-ascii?Q?ArGcMvRgD0m2Lke92WJdLZRwrCW7ip3uZiNtWaToLVjr7XUzipDyAw9agkqr?=
+ =?us-ascii?Q?J12Gkn7eyXsD8GJnRvXoV8l7yn7l6a6sQGTWvYpg2AOTuezF7n558+oh1zZX?=
+ =?us-ascii?Q?dsVC3sntknm6h4ZXePJcPd+e0GnNVCD7xTQohXFBK+6ofcr4j63BjIChLAmZ?=
+ =?us-ascii?Q?pcgW3V6geJeUfbXvVOMN8hLnjC0QjjV4rOhA/d8H7+q6pSXt3vQJC1hdI2tC?=
+ =?us-ascii?Q?uwCuFrHQR4qXNVehZhOUbJpcdueH4joObIVWwcGXd12d5nDAYx?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BN1PR07MB103;5:/fv1PsX6q4MPMFbyAXvelC9l6Tkpbw0dY8rciHdxMz4On4isvyBg5O0yZFXTo7IWkltS7ygJQw5FFYXPpIEaMRPNKRBfcU4ZTzWGOsmWho/rT0Jl1eA9D+Da+ai9IY46GWWpyO5C2KrViBKkcdhVTQ==;24:febpRGvLCIbjmEM3HxvWXVFTPtHDUMX9ff1+vavbgGIq9qxYus4ROr3iQm6hOUw/BImILzG8CbkYFs87OKzcKFYqHiqmdFJNIjeh67O1In4=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Dec 2015 17:48:58.6526
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN1PR07MB103
+
+------19EE2D8922BE4B6783B2C1294ACF6BA1
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+John
+
+=C2=A0
+
+I wanted to make sure you saw Mark's email yesterday, because it's impo=
+rtant=2E Our biggest fundraising deadline of 2015 is just 2 days away a=
+nd we're still $2530 behind where we need to be=2E=C2=A0Can you chip in=
+ $10 or more right now?
+
+=C2=A0
+
+Meeting our end of year fundraising goal is critical if we're going to =
+compete with the House Republican's deep pocketed donors and conservati=
+ve super pacs friends=2E We have a lot going for us in 2016, but to win=
+ in November our candidates need your help today=2E=C2=A0ActBlue Expres=
+s=C2=A0Donate: $10
+
+=C2=A0
+
+Thanks for your support,
+
+Mike Frosolone=C2=A0
+
+=C2=A0
+
+---------- Forwarded message ----------
+From:=C2=A0Mark Smith=C2=A0<marksmithiowa@gmail=2Ecom>
+Date: Mon, Dec 28, 2015 at 5:43 PM
+Subject: here are my top 3
+To: Mike Frosolone <mike=2Efrosolone@iowademocrats=2Eorg>
+
+
+
+=C2=A0
+
+John,
+
+=C2=A0
+
+December 31st isn't just New Years Eve, it's also our biggest fundraisi=
+ng deadline of the year=2E So, I wanted to let your know why you should=
+ make an investment in Iowa House Democrats before the end of the year=2E
+
+=C2=A0
+
+Top 3 Reasons Democrats Are Going To Retake The Iowa House In 2016=C2=A0
+
+=C2=A0
+
+1: There are 19=C2=A0highly=C2=A0competitive seats with vulnerable Repu=
+blican and Tea Party incumbents (Obama won all but three of these distr=
+icts, and we need to win just 8 to retake the majority)=C2=A0
+
+=C2=A0
+
+2: The Iowa GOP's legacy of scandal is catching up with them -- Gov=2E =
+Branstad's approval rating is at an all time low
+
+=C2=A0
+
+3:=C2=A0=E2=80=8BAn=C2=A0unprecedented number of House Republicans are =
+not seeking re-election next year -- The Iowa House Speaker has already=
+ stepped down and Terry Branstad's=C2=A0scandals keep piling up=C2=A0
+
+=C2=A0
+
+=E2=80=8BI hope you'll=C2=A0agree that we need leader's who will put wo=
+rking families first -- from funding our public schools to making colle=
+ge more affordable, House Democrats are ready to lead=2E=C2=A0Click her=
+e to chip in $5 or more right now=2E
+
+=C2=A0
+
+If you've saved your payment information with ActBlue Express, your don=
+ation will go through immediately:
+
+Express Donate: $5
+
+Express Donate: $10
+
+Express Donate: $25
+
+Or, donate another amount
+
+=C2=A0
+
+=C2=A0
+
+Thanks for all you do,
+
+Mark Smith
+
+Democratic Leader
+
+=C2=A0
+
+P=2ES=2E Having great candidates is only just the start, we need your h=
+elp today to make sure they have the resources to take on the Republica=
+ns and win=2E=C2=A0
+
+=C2=A0
+
+
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0
+
+
+--------------------------------------------
+|    Paid for by Iowa House Truman Fund    |
+--------------------------------------------
+
+Iowa House Truman Fund
+5661 Fleur Drive
+Des Moines IA 50321 United States
+
+=C2=A0
+
+Communicating with our supporters is critical to The Iowa House Truman =
+Fund=E2=80=99s continued success, and email is one of the best tools we=
+ have to do it=2E However, If you wish to unsubscribe you can do so her=
+e=C2=A0 https://act=2Emyngp=2Ecom/el/-1290038765942339584/6356404863903=
+336448=2E
+------19EE2D8922BE4B6783B2C1294ACF6BA1
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div>
+=09<span style=3D"font-size:14px;">John,</span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:14px;">I wanted to make sure you saw Mark&#=
+39;s email yesterday, it&#39;s important=2E <strong><u><span style=3D"b=
+ackground-color:#ffff00;">Our biggest fundraising deadline of 2015 is j=
+ust 2 days away</span></u></strong> and we&#39;re still $2530 behind wh=
+ere we need to be=2E&nbsp;<strong><a data-form-type=3D"" href=3D"https:=
+//act=2Emyngp=2Ecom/el/-1290038765942339584/6428462457941264384?refcode=
+=3D122915">Can you chip in $10 or more right now?</a></strong></span></=
+div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:14px;">Meeting our end of year fundraising =
+goal is critical if we&#39;re going to compete with the House Republica=
+n&#39;s deep pocketed donors and conservative super PAC friends=2E We h=
+ave a lot going for us in 2016, but to win in November our candidates n=
+eed your help today=2E&nbsp;<u><strong><a href=3D"https://act=2Emyngp=2E=
+com/el/-1290038765942339584/6428462457941264384?express_lane=3Dtrue&amp=
+;amount=3D10&amp;refcode=3Del=2E122715_10" style=3D"-webkit-transition:=
+ all 0=2E25s ease; transition: all 0=2E25s ease;">ActBlue Express&nbsp;=
+Donate: $10</a></strong></u></span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:14px;">Thanks for your support,</span></div=
+>
+<div>
+=09<span style=3D"font-size:14px;">Mike Frosolone&nbsp;</span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:14px;">---------- Forwarded message -------=
+---<br style=3D"font-family: arial, sans-serif;" />
+=09From:&nbsp;<b class=3D"gmail_sendername" style=3D"font-family: arial=
+, sans-serif;">Mark Smith</b>&nbsp;<span dir=3D"ltr">&lt;marksmithiowa@=
+gmail=2Ecom&gt;</span><br style=3D"font-family: arial, sans-serif;" />
+=09Date: Mon, Dec 28, 2015 at 5:43 PM<br style=3D"font-family: arial, s=
+ans-serif;" />
+=09Subject: here are my top 3<br style=3D"font-family: arial, sans-seri=
+f;" />
+=09To: Mike Frosolone &lt;mike=2Efrosolone@iowademocrats=2Eorg&gt;</spa=
+n></div>
+<div style=3D"text-align: center;">
+=09<span style=3D"font-size:14px;"><a href=3D"https://act=2Emyngp=2Ecom=
+/el/-1290038765942339584/6428462457941264384?refcode=3D122715"><img alt=
+=3D"" height=3D"84" src=3D"https://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Up=
+loads/4305/images/IowaHouseDemocratsHeader-2=2Epng" style=3D" " width=3D=
+"400" /></a></span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><span style=3D=
+"font-size: 20px;">John,</span></span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><span style=3D=
+"font-size:20px;">December 31st isn&#39;t just New Years Eve, it&#39;s =
+also our biggest fundraising deadline of the year=2E So, I wanted to le=
+t your know why you should make an investment in Iowa House Democrats b=
+efore the end of the year=2E</span></span></div>
+<div>
+=09&nbsp;</div>
+<div style=3D"text-align: center;">
+=09<u><span style=3D"font-family:tahoma,geneva,sans-serif;"><span style=
+=3D"font-size:26px;"><strong>Top 3 Reasons Democrats Are Going To Retak=
+e The Iowa House In 2016&nbsp;</strong></span></span></u></div>
+<div style=3D"text-align: center;">
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:20px;"><span style=3D"font-family:tahoma,ge=
+neva,sans-serif;"><strong>1:</strong> There are 19&nbsp;highly&nbsp;com=
+petitive seats with vulnerable Republican and Tea Party incumbents (Oba=
+ma won all but three of these districts, and we need to win just 8 to r=
+etake the majority)&nbsp;</span></span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:20px;"><span style=3D"font-family:tahoma,ge=
+neva,sans-serif;"><strong>2:</strong> The Iowa GOP&#39;s legacy of scan=
+dal is catching up with them -- Gov=2E Branstad&#39;s approval rating i=
+s at an all time low</span></span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:20px;"><strong style=3D"font-family: tahoma=
+, geneva, sans-serif;">3:&nbsp;</strong><font face=3D"tahoma, geneva, s=
+ans-serif">=E2=80=8BAn&nbsp;unprecedented number of House Republicans a=
+re not seeking re-election next year -- The Iowa House Speaker has alre=
+ady stepped down and Terry Branstad&#39;s&nbsp;scandals keep piling up&=
+nbsp;</font></span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<font><font face=3D"tahoma, geneva, sans-serif"><span style=3D"font-=
+size: 20px;">=E2=80=8BI hope you&#39;ll&nbsp;agree that we need leader&=
+#39;s who will put working families first -- from funding our public sc=
+hools to making college more affordable, House Democrats are ready to l=
+ead=2E&nbsp;</span></font></font><a data-form-type=3D"" href=3D"https:/=
+/act=2Emyngp=2Ecom/el/-1290038765942339584/6428462457941264384?refcode=3D=
+122715" style=3D"font-family: tahoma, geneva, sans-serif; font-size: 20=
+px;"><strong>Click here to chip in $5 or more right now=2E</strong></a>=
+</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"color:#696969;"><span style=3D"font-family:tahoma,gen=
+eva,sans-serif;"><em><span style=3D"font-size: 14px; background-color: =
+rgba(255, 255, 255, 0=2E498039);">If you&#39;ve saved your payment info=
+rmation with ActBlue Express, your donation will go through immediately=
+:</span></em></span></span></div>
+<p class=3D"link amount" style=3D"margin: 1em 0px; line-height: 1=2E5em=
+; color: rgb(58, 135, 173); font-family: Roboto, Helvetica, Arial, Verd=
+ana, sans-serif; font-size: 14px; background-color: rgba(255, 255, 255,=
+ 0=2E498039);">
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><u><span style=
+=3D"font-size:18px;"><strong><a data-form-type=3D"" href=3D"https://act=
+=2Emyngp=2Ecom/el/-1290038765942339584/6428462457941264384?express_lane=
+=3Dtrue&amp;amount=3D5&amp;refcode=3Del=2E122715_5" style=3D"color: rgb=
+(0, 156, 222); text-decoration: none; transition: all 0=2E25s ease; -we=
+bkit-transition: all 0=2E25s ease;">Express Donate: $5</a></strong></sp=
+an></u></span></p>
+<p class=3D"link amount" style=3D"margin: 1em 0px; line-height: 1=2E5em=
+; color: rgb(58, 135, 173); font-family: Roboto, Helvetica, Arial, Verd=
+ana, sans-serif; font-size: 14px; background-color: rgba(255, 255, 255,=
+ 0=2E498039);">
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><u><span style=
+=3D"font-size:18px;"><strong><a href=3D"https://act=2Emyngp=2Ecom/el/-1=
+290038765942339584/6428462457941264384?express_lane=3Dtrue&amp;amount=3D=
+10&amp;refcode=3Del=2E122715_10" style=3D"color: rgb(0, 156, 222); text=
+-decoration: none; transition: all 0=2E25s ease; -webkit-transition: al=
+l 0=2E25s ease;">Express Donate: $10</a></strong></span></u></span></p>
+<p class=3D"link amount" style=3D"margin: 1em 0px; line-height: 1=2E5em=
+; color: rgb(58, 135, 173); font-family: Roboto, Helvetica, Arial, Verd=
+ana, sans-serif; font-size: 14px; background-color: rgba(255, 255, 255,=
+ 0=2E498039);">
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><u><span style=
+=3D"font-size:18px;"><strong><a href=3D"https://act=2Emyngp=2Ecom/el/-1=
+290038765942339584/6428462457941264384?express_lane=3Dtrue&amp;amount=3D=
+25&amp;refcode=3Del=2E122715_25" style=3D"color: rgb(0, 156, 222); text=
+-decoration: none; transition: all 0=2E25s ease; -webkit-transition: al=
+l 0=2E25s ease;">Express Donate: $25</a></strong></span></u></span></p>
+<p class=3D"link other" style=3D"margin: 1em 0px; line-height: 1=2E5em;=
+ color: rgb(58, 135, 173); font-family: Roboto, Helvetica, Arial, Verda=
+na, sans-serif; font-size: 14px; background-color: rgba(255, 255, 255, =
+0=2E498039);">
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><u><span style=
+=3D"font-size:18px;"><strong><a href=3D"https://act=2Emyngp=2Ecom/el/-1=
+290038765942339584/6428462457941264384?refcode=3Del=2E122715_other" sty=
+le=3D"color: rgb(0, 156, 222); text-decoration: none; transition: all 0=
+=2E25s ease; -webkit-transition: all 0=2E25s ease;">Or, donate another =
+amount</a></strong></span></u></span></p>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:20px;"><span style=3D"font-family:tahoma,ge=
+neva,sans-serif;">Thanks for all you do,</span></span></div>
+<div>
+=09<span style=3D"font-size:20px;"><span style=3D"font-family:tahoma,ge=
+neva,sans-serif;">Mark Smith</span></span></div>
+<div>
+=09<span style=3D"font-size:20px;"><span style=3D"font-family:tahoma,ge=
+neva,sans-serif;">Democratic Leader</span></span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09<span style=3D"font-size:20px;"><span style=3D"font-family:tahoma,ge=
+neva,sans-serif;">P=2ES=2E Having great candidates is only just the sta=
+rt, we need your help today to make sure they have the resources to tak=
+e on the Republicans and win=2E&nbsp;</span></span></div>
+<div style=3D"text-align: center;">
+=09&nbsp;</div>
+<div style=3D"text-align: center;">
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><a data-form-t=
+ype=3D"" href=3D"https://act=2Emyngp=2Ecom/el/-1290038765942339584/6428=
+462457941264384?refcode=3D122715"><img alt=3D"" height=3D"100" src=3D"h=
+ttps://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/4305/images/Donate-But=
+ton_1(1)=2Epng" style=3D" " width=3D"300" /></a></span></div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div>
+=09&nbsp;</div>
+<div align=3D"center">
+=09&nbsp;</div>
+<div align=3D"center">
+=09&nbsp;</div>
+<div align=3D"center">
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><div style=3D'=
+text-align: center;' class=3D'disclaimer-info'><table style=3D'border: =
+1px solid #000; margin: auto;'><tbody><tr><td style=3D'padding: 8px; te=
+xt-align: center;'>Paid for by Iowa House Truman Fund</td></tr></tbody>=
+</table></div></span></div>
+<p align=3D"center" class=3D"orginfo" style=3D"text-align:center">
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><div style=3D'=
+text-align: center;' class=3D'org-address-info'>Iowa House Truman Fund<=
+br/>5661 Fleur Drive<br/>Des Moines IA 50321 United States</div></span>=
+</p>
+<p align=3D"center" class=3D"orginfo" style=3D"text-align:center">
+=09&nbsp;</p>
+<p align=3D"center" class=3D"unsubscribelink" style=3D"text-align:cente=
+r">
+=09<span style=3D"font-family:tahoma,geneva,sans-serif;"><span style=3D=
+"font-size:10px;">Communicating with our supporters is critical to The =
+Iowa House Truman Fund&rsquo;s continued success, and email is one of t=
+he best tools we have to do it=2E However, If you wish to unsubscribe y=
+ou can do so here&nbsp;  <a href=3D"https://act=2Emyngp=2Ecom/el/-12900=
+38765942339584/6356404863903336448" class=3D"unsubscribe-link">unsubscr=
+ibe</a>=2E</span></span></p>
+<img src=3D'https://act=2Emyngp=2Ecom/el/-1290038765942339584/505936817=
+1220633600' />
+------19EE2D8922BE4B6783B2C1294ACF6BA1--

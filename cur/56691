@@ -1,0 +1,618 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.43.207 with SMTP id r198csp533534lfr;
+        Tue, 22 Sep 2015 10:07:13 -0700 (PDT)
+X-Received: by 10.180.12.195 with SMTP id a3mr20205720wic.71.1442941633873;
+        Tue, 22 Sep 2015 10:07:13 -0700 (PDT)
+Return-Path: <speechdrafts+bncBDQJHRPZSYCBBQMVQ2YAKGQE5EIDRXI@hillaryclinton.com>
+Received: from mail-wi0-x246.google.com (mail-wi0-x246.google.com. [2a00:1450:400c:c05::246])
+        by mx.google.com with ESMTPS id bz9si23480763wib.8.2015.09.22.10.07.13
+        for <john.podesta@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 22 Sep 2015 10:07:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of speechdrafts+bncBDQJHRPZSYCBBQMVQ2YAKGQE5EIDRXI@hillaryclinton.com designates 2a00:1450:400c:c05::246 as permitted sender) client-ip=2a00:1450:400c:c05::246;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of speechdrafts+bncBDQJHRPZSYCBBQMVQ2YAKGQE5EIDRXI@hillaryclinton.com designates 2a00:1450:400c:c05::246 as permitted sender) smtp.mailfrom=speechdrafts+bncBDQJHRPZSYCBBQMVQ2YAKGQE5EIDRXI@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wi0-x246.google.com with SMTP id gb1sf5342870wic.3
+        for <john.podesta@gmail.com>; Tue, 22 Sep 2015 10:07:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=sender:from:references:in-reply-to:mime-version:thread-index:date
+         :message-id:subject:to:cc:content-type:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-spam-checked-in-group:list-post:list-help:list-archive
+         :list-unsubscribe;
+        bh=1Ach+XUw3K8cGb4XQDuGClauC9W+9XwNm1i6lQAlyR0=;
+        b=e9QPpF/d+/eHy8EjpXwIJd87VrV3duLon/M8SYem14iFDOGqwOB7hQ8Ma326EdK1O6
+         yiHoMQ5j7PAHP4lPi+sRt63gJgX8KJ9evkAlghcL5kEH64mT0Bw8rLIbM5SBq65k5dtD
+         3IDxymbIlcdibBceg7UYNIIzEL8A424UegpGY=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=sender:x-gm-message-state:from:references:in-reply-to:mime-version
+         :thread-index:date:message-id:subject:to:cc:content-type
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-unsubscribe;
+        bh=1Ach+XUw3K8cGb4XQDuGClauC9W+9XwNm1i6lQAlyR0=;
+        b=VIDhxUZDLMGe8bNKZQpe6bZ4V1ZQjZRJRVu4cpAU1tK8GpI3IUJrvBnTWqtRm3SrZp
+         EviF1yzlYoMLYjMxQeFTRb+nzVQD35EJKHOyliaBFwdtwg3ezAEdZtHrZpAmYxKoDp+E
+         SonRO9pTeuSVdNlEoM4/1r93ZStIf6RWTl3lvur50KzxrPfDOUTvOKQ70apVFjOoN7/G
+         Pky+4lK/va+vO5hLi2X0dMeuau2FxrPJRWjZO7mhrVAG1tyjkiYiKM4rKaJ1lwE/dkEq
+         y8m1JtxhqAA/BXpT05wM4105HRCem2c/9o12HzIlvoKjBq4ZVKtcEEQLrxEumZbhbEBH
+         PKYQ==
+Sender: speechdrafts@hillaryclinton.com
+X-Gm-Message-State: ALoCoQnKR7IJsLGO7OwD4KkmRwsSnO09DfiijQi+hDDem3cN41g+KEYqShvuziKTZ4DaYLgVjVYo
+X-Received: by 10.112.89.228 with SMTP id br4mr4438610lbb.3.1442941633585;
+        Tue, 22 Sep 2015 10:07:13 -0700 (PDT)
+X-BeenThere: speechdrafts@hillaryclinton.com
+Received: by 10.180.102.34 with SMTP id fl2ls160619wib.21.gmail; Tue, 22 Sep
+ 2015 10:07:13 -0700 (PDT)
+X-Received: by 10.180.198.142 with SMTP id jc14mr4723296wic.32.1442941633072;
+        Tue, 22 Sep 2015 10:07:13 -0700 (PDT)
+Received: from mail-wi0-x22f.google.com (mail-wi0-x22f.google.com. [2a00:1450:400c:c05::22f])
+        by mx.google.com with ESMTPS id gt4si5326826wib.57.2015.09.22.10.07.13
+        for <speechdrafts@hillaryclinton.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 22 Sep 2015 10:07:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mrooney@hillaryclinton.com designates 2a00:1450:400c:c05::22f as permitted sender) client-ip=2a00:1450:400c:c05::22f;
+Received: by wicgb1 with SMTP id gb1so169554977wic.1
+        for <speechdrafts@hillaryclinton.com>; Tue, 22 Sep 2015 10:07:12 -0700 (PDT)
+X-Received: by 10.180.99.66 with SMTP id eo2mr22158798wib.88.1442941632701;
+ Tue, 22 Sep 2015 10:07:12 -0700 (PDT)
+From: Megan Rooney <mrooney@hillaryclinton.com>
+References: <d48e8bb8e1047bb45cb6367f05e9fd6c@mail.gmail.com>
+ <14ff5f3fa5c-46e2-1a5d8@webprd-m23.mail.aol.com> <7e14adc1e23c8f7258234cd8b2544e2c@mail.gmail.com>
+ <CAPWwyw39ewnRDTrO3BQcE9sVGTkbkeYwTpZER-KiBsVWXZ9K_w@mail.gmail.com> <D22701DB.10C8A%jim.margolis@gmmb.com>
+In-Reply-To: <D22701DB.10C8A%jim.margolis@gmmb.com>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQGCyKz5CTA+nd6JhZTtpnmE5uiJbwHCSz/hASG53lcCBGeAtAIbHQv6nq0D+LA=
+Date: Tue, 22 Sep 2015 13:07:16 -0400
+Message-ID: <11b9aa71581a17ed9c0b1a5176b27d2a@mail.gmail.com>
+Subject: RE: REVISED: Iowa health speech
+To: "Margolis, Jim" <Jim.Margolis@gmmb.com>, 
+ Michael Shapiro <mshapiro@hillaryclinton.com>
+CC: Mandy Grunwald <gruncom@aol.com>, 
+ Speech Drafts <speechdrafts@hillaryclinton.com>, 
+ Chris Jennings <ccj@jenningsps.com>, Sara Solow <ssolow@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=f46d044283327302b50520590747
+X-Original-Sender: mrooney@hillaryclinton.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of mrooney@hillaryclinton.com designates 2a00:1450:400c:c05::22f as
+ permitted sender) smtp.mailfrom=mrooney@hillaryclinton.com;       dkim=pass
+ header.i=@hillaryclinton.com;       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Precedence: list
+Mailing-list: list speechdrafts@hillaryclinton.com; contact speechdrafts+owners@hillaryclinton.com
+List-ID: <speechdrafts.hillaryclinton.com>
+X-Spam-Checked-In-Group: speechdrafts@hillaryclinton.com
+X-Google-Group-Id: 112021531214
+List-Post: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/post>,
+ <mailto:speechdrafts@hillaryclinton.com>
+List-Help: <http://support.google.com/a/hillaryclinton.com/bin/topic.py?topic=25838>,
+ <mailto:speechdrafts+help@hillaryclinton.com>
+List-Archive: <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/>
+List-Unsubscribe: <mailto:googlegroups-manage+112021531214+unsubscribe@googlegroups.com>,
+ <http://groups.google.com/a/hillaryclinton.com/group/speechdrafts/subscribe>
+
+--f46d044283327302b50520590747
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Here are my revised grafs on Medicare and advertising.  What do you think?
+
+
+
+
+
+Then there=E2=80=99s Medicare.  The more than 40 million Americans enrolled=
+ in the
+program represent a huge market for Big Pharma.  I believe Medicare should
+be able to negotiate for lower prices for its members =E2=80=93 a lot like =
+the VA
+does now.  This is a basic feature of a free market =E2=80=93 and it=E2=80=
+=99ll help drive
+down costs for everyone.  It=E2=80=99s actually against the law for Medicar=
+e to do
+this.  That makes no sense.  I=E2=80=99ve been fighting to change that law =
+this for
+years, and as President, I=E2=80=99ll get it done.  And I=E2=80=99ll requir=
+e drug companies
+to provide higher rebates for prescription drugs to low-income Medicare
+patients, just like they do for *Medicaid* patients.  That would save more
+than $100 billion in Medicare costs every year.
+
+
+
+I also want to do something about direct-to-consumer advertising.  I=E2=80=
+=99m
+guessing a lot of you would be shocked to learn that your taxpayer dollars
+actually help pay for those ads.  Other countries ban these kinds of ads
+because they=E2=80=99re so often misleading.  At the very least, we shouldn=
+=E2=80=99t be
+encouraging them with corporate write-offs.  Under my plan, we=E2=80=99ll u=
+se that
+taxpayer money to fund innovation instead.  I=E2=80=99d rather see more tre=
+atment,
+more cures, and way fewer ads =E2=80=93 and I know a lot of consumers feel =
+the same
+way.  And let=E2=80=99s make sure any ads the drug industry *does* run are =
+approved
+by FDA, so we=E2=80=99ll know that they=E2=80=99re accurate and understanda=
+ble.
+
+
+
+
+
+*From:* Margolis, Jim [mailto:Jim.Margolis@gmmb.com]
+*Sent:* Tuesday, September 22, 2015 1:04 PM
+*To:* Michael Shapiro <mshapiro@hillaryclinton.com>; Megan Rooney <
+mrooney@hillaryclinton.com>
+*Cc:* Mandy Grunwald <gruncom@aol.com>; Speech Drafts <
+speechdrafts@hillaryclinton.com>; Chris Jennings <ccj@jenningsps.com>; Sara
+Solow <ssolow@hillaryclinton.com>
+*Subject:* Re: REVISED: Iowa health speech
+
+
+
+I don=E2=80=99t have a problem on the innovation=E2=80=A6 I think its fine =
+to throw them a
+bone there.
+
+But totally agree on advertising and Medicare.  Particularly advertising.
+People hate the ads and know they cost a fortune to run.  We should dig in
+there
+
+
+
+*From: *Michael Shapiro <mshapiro@hillaryclinton.com>
+*Date: *Tuesday, September 22, 2015 at 12:56 PM
+*To: *Megan Rooney <mrooney@hillaryclinton.com>
+*Cc: *Mandy Grunwald <gruncom@aol.com>, Speech Drafts <
+speechdrafts@hillaryclinton.com>, Chris Jennings <ccj@jenningsps.com>, Sara
+Solow <ssolow@hillaryclinton.com>
+*Subject: *Re: REVISED: Iowa health speech
+
+
+
+If I remember correctly, Chris had concerns earlier this week about
+explicitly linking to VA, which is a different kind of closed system than
+we're necessarily suggesting for Medicare. Defer to him but might not
+include until he weighs in.
+
+
+
+On Tue, Sep 22, 2015 at 12:53 PM, Megan Rooney <mrooney@hillaryclinton.com>
+wrote:
+
+On Medicare and advertising =E2=80=93 thank you, those are easy fixes and I=
+=E2=80=99ll make
+them.
+
+
+
+On innovation =E2=80=93 Dan spoke to HRC this morning, not me, so he can be=
+tter
+convey her concerns, but she was concerned about how hard the speech came
+down on those industries in the earlier draft and asked for the innovation
+stuff to be added.  I=E2=80=99m going to change the line =E2=80=9COur pharm=
+aceutical and
+bio-technology industries are leading the way,=E2=80=9D since that seems ov=
+er the
+top.  Otherwise I=E2=80=99m not sure how much more to change, since this ca=
+me from
+the boss.
+
+
+
+*From:* Mandy Grunwald [mailto:gruncom@aol.com]
+*Sent:* Tuesday, September 22, 2015 12:48 PM
+*To:* mrooney@hillaryclinton.com; speechdrafts@hillaryclinton.com;
+mshapiro@hillaryclinton.com; ccj@jenningsps.com; ssolow@hillaryclinton.com
+*Subject:* Re: REVISED: Iowa health speech
+
+
+
+On Medicare, it's not clear that it is actually against the law for
+Medicare to use its purchasing power to negotiate for lower prices -- the
+way the VA does.  That's what's completely crazy.
+
+
+
+On Advertising, you're missing the outrage that taxpayers are helping to
+pay for those ads we all hate.
+
+
+
+On innovation -- boy I think you've gone too far in sucking up to these
+companies.  Remember Joel and Anzo's polling shows that people think these
+guys are bigger villains than Wall Street bankers.
+
+
+
+We should take it as a point of pride that they are going to attack her --
+but her belief is that all companies should be held accountable if they're
+ripping off the American people -- whether its drug companies or oil
+companies or for profit colleges or wall street=E2=80=A6.
+
+
+
+thx
+
+*Mandy Grunwald*
+
+*Grunwald Communications*
+
+*202 973-9400* <202%20973-9400>
+
+
+
+-----Original Message-----
+From: Megan Rooney <mrooney@hillaryclinton.com>
+To: Speech Drafts <speechdrafts@hillaryclinton.com>; Michael Shapiro <
+mshapiro@hillaryclinton.com>; Chris Jennings <ccj@jenningsps.com>; Sara
+Solow <ssolow@hillaryclinton.com>
+Sent: Tue, Sep 22, 2015 12:37 pm
+Subject: REVISED: Iowa health speech
+
+Hey guys.  H had some concerns about how hard the draft went after
+industry.  So we=E2=80=99ve softened a bit.  She=E2=80=99s reviewing this n=
+ow=E2=80=A6 hopefully
+this is final or close to it.  Changes tracked.  Thanks.
+
+
+
+
+
+--=20
+
+Michael Shapiro
+
+Hillary for America
+
+Policy
+
+860-306-5849
+
+
+
+This email is intended only for the named addressee. It may contain
+information that is confidential/private, legally privileged, or
+copyright-protected, and you should handle it accordingly. If you are not
+the intended recipient, you do not have legal rights to retain, copy, or
+distribute this email or its contents, and should promptly delete the email
+and all electronic copies in your system; do not retain copies in any
+media. If you have received this email in error, please notify the sender
+promptly. Thank you.
+
+--f46d044283327302b50520590747
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered m=
+edium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.BodyAA, li.BodyAA, div.BodyAA
+	{mso-style-name:"Body A A";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3D"EN-US" link=3D"blue" vlink=3D"purple"><div =
+class=3D"WordSection1"><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">Here are my re=
+vised grafs on Medicare and advertising.=C2=A0 What do you think?</span></p=
+><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;C=
+alibri&quot;,sans-serif;color:#1f497d">=C2=A0</span></p><p class=3D"MsoNorm=
+al"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-se=
+rif;color:#1f497d">=C2=A0</span></p><p class=3D"BodyAA"><span style=3D"font=
+-size:12.0pt">Then there=E2=80=99s Medicare.=C2=A0 The more than 40 million=
+ Americans enrolled in the program represent a huge market for Big Pharma.=
+=C2=A0 I believe Medicare should be able to negotiate for lower prices for =
+its members <span style=3D"background:yellow">=E2=80=93 a lot like the VA d=
+oes now</span>.=C2=A0 This is a basic feature of a free market =E2=80=93 an=
+d it=E2=80=99ll help drive down costs for everyone.=C2=A0 <span style=3D"ba=
+ckground:yellow">It=E2=80=99s actually against the law for Medicare to do t=
+his.=C2=A0 That makes no sense.</span>=C2=A0 I=E2=80=99ve been fighting to =
+change <span style=3D"background:yellow">that law</span> this for years, an=
+d as President, I=E2=80=99ll get it done.=C2=A0 And I=E2=80=99ll require dr=
+ug companies to provide higher rebates for prescription drugs to low-income=
+ Medicare patients, just like they do for <u>Medicaid</u> patients.=C2=A0 T=
+hat would save more than $100 billion in Medicare costs every year. </span>=
+</p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quo=
+t;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span></p><p class=3D"Body=
+AA"><span style=3D"font-size:12.0pt">I also <span style=3D"background:yello=
+w">want to do something about</span> direct-to-consumer advertising.=C2=A0 =
+<span style=3D"background:yellow">I=E2=80=99m guessing a lot of you would b=
+e shocked to learn that your taxpayer dollars actually help pay for those a=
+ds.</span> =C2=A0Other countries ban these kinds of ads because they=E2=80=
+=99re so often misleading.=C2=A0 At the very least, we shouldn=E2=80=99t be=
+ encouraging them with corporate write-offs.=C2=A0 Under my plan, we=E2=80=
+=99ll use that taxpayer money to fund innovation instead.=C2=A0 I=E2=80=99d=
+ rather see more treatment, more cures, and <span style=3D"background:yello=
+w">way</span> fewer ads =E2=80=93 and I know a lot of consumers feel the sa=
+me way.=C2=A0 And let=E2=80=99s make sure any ads the drug industry <u>does=
+</u> run are approved by FDA, so we=E2=80=99ll know that they=E2=80=99re ac=
+curate and understandable. </span></p><p class=3D"MsoNormal"><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d"=
+>=C2=A0</span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span></p><d=
+iv><div style=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0=
+in 0in 0in"><p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-=
+family:&quot;Calibri&quot;,sans-serif">From:</span></b><span style=3D"font-=
+size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"> Margolis, Jim [mai=
+lto:<a href=3D"mailto:Jim.Margolis@gmmb.com">Jim.Margolis@gmmb.com</a>] <br=
+><b>Sent:</b> Tuesday, September 22, 2015 1:04 PM<br><b>To:</b> Michael Sha=
+piro &lt;<a href=3D"mailto:mshapiro@hillaryclinton.com">mshapiro@hillarycli=
+nton.com</a>&gt;; Megan Rooney &lt;<a href=3D"mailto:mrooney@hillaryclinton=
+.com">mrooney@hillaryclinton.com</a>&gt;<br><b>Cc:</b> Mandy Grunwald &lt;<=
+a href=3D"mailto:gruncom@aol.com">gruncom@aol.com</a>&gt;; Speech Drafts &l=
+t;<a href=3D"mailto:speechdrafts@hillaryclinton.com">speechdrafts@hillarycl=
+inton.com</a>&gt;; Chris Jennings &lt;<a href=3D"mailto:ccj@jenningsps.com"=
+>ccj@jenningsps.com</a>&gt;; Sara Solow &lt;<a href=3D"mailto:ssolow@hillar=
+yclinton.com">ssolow@hillaryclinton.com</a>&gt;<br><b>Subject:</b> Re: REVI=
+SED: Iowa health speech</span></p></div></div><p class=3D"MsoNormal">=C2=A0=
+</p><div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family=
+:&quot;Calibri&quot;,sans-serif;color:black">I don=E2=80=99t have a problem=
+ on the innovation=E2=80=A6 I think its fine to throw them a bone there.</s=
+pan></p></div><div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;f=
+ont-family:&quot;Calibri&quot;,sans-serif;color:black">But totally agree on=
+ advertising and Medicare.=C2=A0 Particularly advertising.=C2=A0 People hat=
+e the ads and know they cost a fortune to run.=C2=A0 We should dig in there=
+</span></p></div><div><p class=3D"MsoNormal"><span style=3D"font-size:10.5p=
+t;font-family:&quot;Calibri&quot;,sans-serif;color:black">=C2=A0</span></p>=
+</div><div style=3D"border:none;border-top:solid #b5c4df 1.0pt;padding:3.0p=
+t 0in 0in 0in"><p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Calibri&quot;,sans-serif;color:black">From: </span></b><spa=
+n style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;colo=
+r:black">Michael Shapiro &lt;</span><a href=3D"mailto:mshapiro@hillaryclint=
+on.com"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,san=
+s-serif">mshapiro@hillaryclinton.com</span></a><span style=3D"font-size:11.=
+0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black">&gt;<br><b>Date=
+: </b>Tuesday, September 22, 2015 at 12:56 PM<br><b>To: </b>Megan Rooney &l=
+t;</span><a href=3D"mailto:mrooney@hillaryclinton.com"><span style=3D"font-=
+size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">mrooney@hillaryclin=
+ton.com</span></a><span style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,sans-serif;color:black">&gt;<br><b>Cc: </b>Mandy Grunwald &lt;</span=
+><a href=3D"mailto:gruncom@aol.com"><span style=3D"font-size:11.0pt;font-fa=
+mily:&quot;Calibri&quot;,sans-serif">gruncom@aol.com</span></a><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black=
+">&gt;, Speech Drafts &lt;</span><a href=3D"mailto:speechdrafts@hillaryclin=
+ton.com"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif">speechdrafts@hillaryclinton.com</span></a><span style=3D"font-siz=
+e:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black">&gt;, Chri=
+s Jennings &lt;</span><a href=3D"mailto:ccj@jenningsps.com"><span style=3D"=
+font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">ccj@jenningsps=
+.com</span></a><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;color:black">&gt;, Sara Solow &lt;</span><a href=3D"mailto:s=
+solow@hillaryclinton.com"><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif">ssolow@hillaryclinton.com</span></a><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black=
+">&gt;<br><b>Subject: </b>Re: REVISED: Iowa health speech</span></p></div><=
+div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quo=
+t;Calibri&quot;,sans-serif;color:black">=C2=A0</span></p></div><div><div><d=
+iv><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:black">If I remember correctly, Chris had c=
+oncerns earlier this week about explicitly linking to VA, which is a differ=
+ent kind of closed system than we&#39;re necessarily suggesting for Medicar=
+e. Defer to him but might not include until he weighs in.</span></p></div><=
+div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quo=
+t;Calibri&quot;,sans-serif;color:black">=C2=A0</span></p><div><p class=3D"M=
+soNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,s=
+ans-serif;color:black">On Tue, Sep 22, 2015 at 12:53 PM, Megan Rooney &lt;<=
+/span><a href=3D"mailto:mrooney@hillaryclinton.com" target=3D"_blank"><span=
+ style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,sans-serif">mroo=
+ney@hillaryclinton.com</span></a><span style=3D"font-size:10.5pt;font-famil=
+y:&quot;Calibri&quot;,sans-serif;color:black">&gt; wrote:</span></p><blockq=
+uote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0in 0in 0=
+in 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-bottom:=
+5.0pt"><div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;ms=
+o-margin-bottom-alt:auto"><span style=3D"font-size:11.0pt;font-family:&quot=
+;Calibri&quot;,sans-serif;color:#1f497d">On Medicare and advertising =E2=80=
+=93 thank you, those are easy fixes and I=E2=80=99ll make them.</span><span=
+ style=3D"color:black"></span></p><p class=3D"MsoNormal" style=3D"mso-margi=
+n-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:11.0pt;=
+font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">=C2=A0</span><spa=
+n style=3D"color:black"></span></p><p class=3D"MsoNormal" style=3D"mso-marg=
+in-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:11.0pt=
+;font-family:&quot;Calibri&quot;,sans-serif;color:#1f497d">On innovation =
+=E2=80=93 Dan spoke to HRC this morning, not me, so he can better convey he=
+r concerns, but she was concerned about how hard the speech came down on th=
+ose industries in the earlier draft and asked for the innovation stuff to b=
+e added.=C2=A0 I=E2=80=99m going to change the line =E2=80=9C</span><span s=
+tyle=3D"color:black">Our pharmaceutical and bio-technology industries are l=
+eading the way,=E2=80=9D since that seems over the top.=C2=A0 Otherwise I=
+=E2=80=99m not sure how much more to change, since this came from the boss.=
+</span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-marg=
+in-bottom-alt:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Calib=
+ri&quot;,sans-serif;color:#1f497d">=C2=A0</span><span style=3D"color:black"=
+></span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-mar=
+gin-bottom-alt:auto"><b><span style=3D"font-size:11.0pt;font-family:&quot;C=
+alibri&quot;,sans-serif;color:black">From:</span></b><span style=3D"font-si=
+ze:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black"> Mandy Gr=
+unwald [mailto:</span><a href=3D"mailto:gruncom@aol.com" target=3D"_blank">=
+<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif"=
+>gruncom@aol.com</span></a><span style=3D"font-size:11.0pt;font-family:&quo=
+t;Calibri&quot;,sans-serif;color:black">] <br><b>Sent:</b> Tuesday, Septemb=
+er 22, 2015 12:48 PM<br><b>To:</b> </span><a href=3D"mailto:mrooney@hillary=
+clinton.com" target=3D"_blank"><span style=3D"font-size:11.0pt;font-family:=
+&quot;Calibri&quot;,sans-serif">mrooney@hillaryclinton.com</span></a><span =
+style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:=
+black">; </span><a href=3D"mailto:speechdrafts@hillaryclinton.com" target=
+=3D"_blank"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;=
+,sans-serif">speechdrafts@hillaryclinton.com</span></a><span style=3D"font-=
+size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black">; </spa=
+n><a href=3D"mailto:mshapiro@hillaryclinton.com" target=3D"_blank"><span st=
+yle=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">mshapir=
+o@hillaryclinton.com</span></a><span style=3D"font-size:11.0pt;font-family:=
+&quot;Calibri&quot;,sans-serif;color:black">; </span><a href=3D"mailto:ccj@=
+jenningsps.com" target=3D"_blank"><span style=3D"font-size:11.0pt;font-fami=
+ly:&quot;Calibri&quot;,sans-serif">ccj@jenningsps.com</span></a><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black=
+">; </span><a href=3D"mailto:ssolow@hillaryclinton.com" target=3D"_blank"><=
+span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">=
+ssolow@hillaryclinton.com</span></a><span style=3D"font-size:11.0pt;font-fa=
+mily:&quot;Calibri&quot;,sans-serif;color:black"><br><b>Subject:</b> Re: RE=
+VISED: Iowa health speech</span><span style=3D"color:black"></span></p><p c=
+lass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:a=
+uto"><span style=3D"color:black">=C2=A0</span></p><p class=3D"MsoNormal" st=
+yle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"f=
+ont-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:black">On M=
+edicare, it&#39;s not=C2=A0clear that it is actually against the law for Me=
+dicare to use its purchasing power to negotiate for lower prices -- the way=
+ the VA does.=C2=A0 That&#39;s what&#39;s completely crazy. </span><span st=
+yle=3D"color:black"></span></p><div><div><div><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font=
+-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:black">=C2=A0<=
+/span><span style=3D"color:black"></span></p></div><div><p class=3D"MsoNorm=
+al" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span styl=
+e=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:black=
+">On Advertising, you&#39;re missing the outrage that taxpayers are helping=
+ to pay for those ads we all hate.</span><span style=3D"color:black"></span=
+></p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso=
+-margin-bottom-alt:auto"><span style=3D"font-size:10.0pt;font-family:&quot;=
+Tahoma&quot;,sans-serif;color:black">=C2=A0</span><span style=3D"color:blac=
+k"></span></p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt=
+:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:10.0pt;font-fami=
+ly:&quot;Tahoma&quot;,sans-serif;color:black">On innovation -- boy I think=
+=C2=A0you&#39;ve gone too far in sucking up to these companies.=C2=A0 Remem=
+ber Joel and Anzo&#39;s polling shows that people think these guys are bigg=
+er villains than Wall Street bankers.</span><span style=3D"color:black"></s=
+pan></p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;=
+mso-margin-bottom-alt:auto"><span style=3D"font-size:10.0pt;font-family:&qu=
+ot;Tahoma&quot;,sans-serif;color:black">=C2=A0</span><span style=3D"color:b=
+lack"></span></p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-=
+alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:10.0pt;font-f=
+amily:&quot;Tahoma&quot;,sans-serif;color:black">We should take it as a poi=
+nt of pride that they are going to attack her -- but her=C2=A0belief is tha=
+t all companies should be held accountable if=C2=A0they&#39;re ripping off =
+the American people -- whether its drug companies or oil companies or for=
+=C2=A0profit colleges or wall street=E2=80=A6.</span><span style=3D"color:b=
+lack"></span></p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-=
+alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:10.0pt;font-f=
+amily:&quot;Tahoma&quot;,sans-serif;color:black">=C2=A0</span><span style=
+=3D"color:black"></span></p></div><div><p class=3D"MsoNormal" style=3D"marg=
+in-bottom:12.0pt"><span style=3D"font-size:10.0pt;font-family:&quot;Tahoma&=
+quot;,sans-serif;color:black">thx</span><span style=3D"color:black"></span>=
+</p><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin=
+-bottom-alt:auto"><b><span style=3D"font-size:10.0pt;font-family:&quot;Taho=
+ma&quot;,sans-serif;color:royalblue">Mandy Grunwald</span></b><span style=
+=3D"color:black"></span></p><div><p class=3D"MsoNormal" style=3D"mso-margin=
+-top-alt:auto;mso-margin-bottom-alt:auto"><b><span style=3D"font-size:10.0p=
+t;font-family:&quot;Tahoma&quot;,sans-serif;color:royalblue">Grunwald Commu=
+nications</span></b><span style=3D"color:black"></span></p></div><div><p cl=
+ass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:au=
+to"><a href=3D"tel:202%20973-9400" target=3D"_blank"><b><span style=3D"font=
+-size:10.0pt;font-family:&quot;Tahoma&quot;,sans-serif">202 973-9400</span>=
+</b></a><span style=3D"color:black"></span></p></div></div><p class=3D"MsoN=
+ormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-size:10.0pt;font-=
+family:&quot;Tahoma&quot;,sans-serif;color:black">=C2=A0</span><span style=
+=3D"color:black"></span></p><div><p class=3D"MsoNormal" style=3D"margin-bot=
+tom:12.0pt"><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quo=
+t;,sans-serif;color:black">-----Original Message-----<br>From: Megan Rooney=
+ &lt;</span><a href=3D"mailto:mrooney@hillaryclinton.com" target=3D"_blank"=
+><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,sans-ser=
+if;color:windowtext">mrooney@hillaryclinton.com</span></a><span style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:black">&g=
+t;<br>To: Speech Drafts &lt;</span><a href=3D"mailto:speechdrafts@hillarycl=
+inton.com" target=3D"_blank"><span style=3D"font-size:10.0pt;font-family:&q=
+uot;Helvetica&quot;,sans-serif;color:windowtext">speechdrafts@hillaryclinto=
+n.com</span></a><span style=3D"font-size:10.0pt;font-family:&quot;Helvetica=
+&quot;,sans-serif;color:black">&gt;; Michael Shapiro &lt;</span><a href=3D"=
+mailto:mshapiro@hillaryclinton.com" target=3D"_blank"><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:windowtext">m=
+shapiro@hillaryclinton.com</span></a><span style=3D"font-size:10.0pt;font-f=
+amily:&quot;Helvetica&quot;,sans-serif;color:black">&gt;; Chris Jennings &l=
+t;</span><a href=3D"mailto:ccj@jenningsps.com" target=3D"_blank"><span styl=
+e=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:wi=
+ndowtext">ccj@jenningsps.com</span></a><span style=3D"font-size:10.0pt;font=
+-family:&quot;Helvetica&quot;,sans-serif;color:black">&gt;; Sara Solow &lt;=
+</span><a href=3D"mailto:ssolow@hillaryclinton.com" target=3D"_blank"><span=
+ style=3D"font-size:10.0pt;font-family:&quot;Helvetica&quot;,sans-serif;col=
+or:windowtext">ssolow@hillaryclinton.com</span></a><span style=3D"font-size=
+:10.0pt;font-family:&quot;Helvetica&quot;,sans-serif;color:black">&gt;<br>S=
+ent: Tue, Sep 22, 2015 12:37 pm<br>Subject: REVISED: Iowa health speech</sp=
+an><span style=3D"color:black"></span></p><div><div><div><p class=3D"MsoNor=
+mal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span sty=
+le=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:bla=
+ck">Hey guys.=C2=A0 H had some concerns about how hard the draft went after=
+ industry.=C2=A0 So we=E2=80=99ve softened a bit.=C2=A0 She=E2=80=99s revie=
+wing this now=E2=80=A6 hopefully this is final or close to it.=C2=A0 Change=
+s tracked.=C2=A0 Thanks.</span><span style=3D"color:black"></span></p></div=
+></div></div></div></div></div></div></div></div></blockquote></div><p clas=
+s=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&q=
+uot;,sans-serif;color:black"><br><br clear=3D"all"></span></p><div><p class=
+=3D"MsoNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&qu=
+ot;,sans-serif;color:black">=C2=A0</span></p></div><p class=3D"MsoNormal"><=
+span style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,sans-serif;c=
+olor:black">-- </span></p><div><div><div><div><div><div><div><p class=3D"Ms=
+oNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif;color:black">Michael Shapiro</span></p></div><div><p class=3D"MsoN=
+ormal"><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,sans=
+-serif;color:black">Hillary for America</span></p></div><div><p class=3D"Ms=
+oNormal"><span style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,sa=
+ns-serif;color:black">Policy</span></p></div><div><p class=3D"MsoNormal"><s=
+pan style=3D"font-size:10.5pt;font-family:&quot;Calibri&quot;,sans-serif;co=
+lor:black">860-306-5849</span></p></div></div></div></div></div></div></div=
+></div></div></div><p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;f=
+ont-family:&quot;Calibri&quot;,sans-serif;color:black">=C2=A0 </span></p><p=
+ style=3D"margin-top:30.0pt"><span style=3D"font-size:8.0pt;font-family:&qu=
+ot;Arial&quot;,sans-serif;color:#7f7f7f">This email is intended only for th=
+e named addressee. It may contain information that is confidential/private,=
+ legally privileged, or copyright-protected, and you should handle it accor=
+dingly. If you are not the intended recipient, you do not have legal rights=
+ to retain, copy, or distribute this email or its contents, and should prom=
+ptly delete the email and all electronic copies in your system; do not reta=
+in copies in any media. If you have received this email in error, please no=
+tify the sender promptly. Thank you.</span></p></div></body></html>
+
+--f46d044283327302b50520590747--

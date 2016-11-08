@@ -1,0 +1,541 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp1987163lfb;
+        Tue, 23 Feb 2016 14:38:32 -0800 (PST)
+X-Received: by 10.194.7.195 with SMTP id l3mr35239032wja.43.1456267112698;
+        Tue, 23 Feb 2016 14:38:32 -0800 (PST)
+Return-Path: <kcosta@hillaryclinton.com>
+Received: from mail-wm0-x235.google.com (mail-wm0-x235.google.com. [2a00:1450:400c:c09::235])
+        by mx.google.com with ESMTPS id j83si42119722wmj.84.2016.02.23.14.38.32
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Feb 2016 14:38:32 -0800 (PST)
+Received-SPF: pass (google.com: domain of kcosta@hillaryclinton.com designates 2a00:1450:400c:c09::235 as permitted sender) client-ip=2a00:1450:400c:c09::235;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of kcosta@hillaryclinton.com designates 2a00:1450:400c:c09::235 as permitted sender) smtp.mailfrom=kcosta@hillaryclinton.com;
+       dkim=pass header.i=@hillaryclinton.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=hillaryclinton.com
+Received: by mail-wm0-x235.google.com with SMTP id g62so244233236wme.1
+        for <john.podesta@gmail.com>; Tue, 23 Feb 2016 14:38:32 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hillaryclinton.com; s=google;
+        h=from:mime-version:references:in-reply-to:date:message-id:subject:to
+         :cc:content-type;
+        bh=r2QwrfQ8x95wX5HDLcK4XEe1+sXOlt7pqYVcZ6VhHFs=;
+        b=NYE+0Ou4pS7IqXi8eqlAl88SlJJ4swBUCXygsqBrxZUqfbipym5Df4oo3IULo79oXh
+         f3pSJjq3W5hzKyLd8N94PBUJDDsc2tIOZO9KpiUromAJ+NPPDbaiSAiGe/olDKwuAjfZ
+         MZmyAB7X6kP3LcZ3/aeUh5rOmWSAbZkmK3W9U=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:mime-version:references:in-reply-to:date
+         :message-id:subject:to:cc:content-type;
+        bh=r2QwrfQ8x95wX5HDLcK4XEe1+sXOlt7pqYVcZ6VhHFs=;
+        b=c1dBgcT6ig895dAmHi+WDs6Qn6lvSBUXjHKKTJCJco0FXl9Yjc7sDS5auk16RlYcvC
+         QJQ81vCRwvIDWa+MRHk3xEAFCviIDokeHGwatqwF8LCpE7FkTLQw8kD8EiQf7c3pcThB
+         ys+DjYw0m0f8AtOSo/NxHI/R1+hH+uHcOT5iyh+lUGf2PYv5+MTrtn2wfc3L3MvC9CtP
+         /YKj6pVxhL7+vdXpJ0pObuazFnP9Pzx0nYOrHAdRi0GJmpBRGoMSj0cxI40AGrUpWpxD
+         UulJ4VTJqmOap4IeHdbVyqfXuT1ROvuvbjJ+EcHMrB+1WTcr0sHQ1OXgvWmx6HlgFNtL
+         /uPg==
+X-Gm-Message-State: AG10YOTdGksSVEgpV9XfpIGyhqVr95d8+UJhhcwr9fW14v3AJbjz2BNQwWUhbeEHixlIQOWpR13FXX8aorRA5Yez
+X-Received: by 10.194.92.107 with SMTP id cl11mr42085728wjb.21.1456267112036;
+ Tue, 23 Feb 2016 14:38:32 -0800 (PST)
+From: Kristina Costa <kcosta@hillaryclinton.com>
+Mime-Version: 1.0 (1.0)
+References: <CAEoe_PqDvvaYxjLzc9jtoG0B1R32-BjJ7LqbvU3-JmqVO32eFw@mail.gmail.com>
+ <CAA0yz6ygeB6LuL1sqdeqz9vg6L-u5LEihd_getE7q2k8D3Aqkw@mail.gmail.com>
+ <CAMGPAas2r_n=nBMD1ZWcF-c200m1EgdRQDB2ufqcKESsQFjeSw@mail.gmail.com>
+ <67a2f5594dab1015fe0e7cf3b2332963@mail.gmail.com> <CAA0yz6yZPTLJbYtL1ZM77TzTYm5WhLjD0u_eo-YEGv00HMpUCQ@mail.gmail.com>
+ <-8687706040617569247@unknownmsgid> <bb8979dd92cbf7dd566a1cccd954f9f4@mail.gmail.com>
+ <020e01d16e86$848a6370$8d9f2a50$@gmail.com> <CAA0yz6znmhDkQ_0zaZTu2bDnOWMW_WkrGGBpM1C4zyrMBhTnzw@mail.gmail.com>
+ <022901d16e8a$bef9a8f0$3cecfad0$@gmail.com>
+In-Reply-To: <022901d16e8a$bef9a8f0$3cecfad0$@gmail.com>
+Date: Tue, 23 Feb 2016 17:38:30 -0500
+Message-ID: <4936537081775873294@unknownmsgid>
+Subject: Re: NEW AD: Bernie Sanders - "Frack"
+To: Trevor Houser <tghouser.hrc@gmail.com>
+CC: Bradley Komar <bkomar@hillaryclinton.com>, 
+ Jake Sullivan <jsullivan@hillaryclinton.com>, 
+ Sara Latham <slatham@hillaryclinton.com>, 
+ John Podesta <john.podesta@gmail.com>, 
+ Tyson Brody <tbrody@hillaryclinton.com>, 
+ Samantha McClain <smcclain@hillaryclinton.com>, 
+ "Mr. Pete Ogden" <progden@gmail.com>, Ben Kobren <benkobren@gmail.com>, 
+ Josh Schwerin <jschwerin@hillaryclinton.com>
+Content-Type: multipart/alternative; boundary=047d7bf0d2d4e95127052c779be7
+
+--047d7bf0d2d4e95127052c779be7
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Brad, do you think we can get polis?
+
+We also lost comms. +
+
+/KLC
+
+On Feb 23, 2016, at 5:37 PM, Trevor Houser <tghouser.hrc@gmail.com> wrote:
+
+Just got off with Brad and filled him in on LiUNA/labor drama. LCV isn=E2=
+=80=99t
+willing to hit Bernie on this. Sounds like Polis is the best bet if press
+stats asking, otherwise better to duck and cover.
+
+
+
+*From:* Bradley Komar [mailto:bkomar@hillaryclinton.com
+<bkomar@hillaryclinton.com>]
+*Sent:* Tuesday, February 23, 2016 2:21 PM
+*To:* Trevor Houser
+*Cc:* Kristina Costa; Jake Sullivan; Sara Latham; John Podesta; Tyson
+Brody; Samantha McClain; Mr. Pete Ogden; Ben Kobren
+*Subject:* NEW AD: Bernie Sanders - "Frack"
+
+
+
+I would prefer an ally (congressman polis and/or LCV) Who have strong bone
+fides on the environment to whack sander's for taking an irresponsible
+position and in doing so, threatening real progress on frack fluid
+disclosure and air quality regulations. This is yet another promise he
+can't keep.
+
+
+
+I think we will be forced to weigh in by sanders and of course we have to
+state our position: it's a transitional energy--and we need to go green.
+But that is a very soft response that sounds better if Bernie is being hit
+by the left.
+
+
+
+I would watch our tone and not sound too pro-fracking. A reluctant tone is
+a better fit for dem caucus goers (it's a transition energy. It's not great
+but it allows us to get to where we want to be)
+
+On Tuesday, February 23, 2016, Trevor Houser <tghouser.hrc@gmail.com
+<javascript:_e(%7B%7D,'cvml','tghouser.hrc@gmail.com');>> wrote:
+
+++ John and Sara on this chain.
+
+
+
+Brad and I just chatted. We think the following posture makes sense:
+
+
+
+=E2=80=9CBernie=E2=80=99s call for banning all hydraulic fracturing is, ext=
+reme, unfeasible
+and ignores the contribution natural gas has made to our economy and our
+efforts to reduce carbon pollution. What we need to focus on is putting in
+place common sense safeguards to protect our air and water, like mandatory
+disclosure of fracking chemicals, closing the Halliburton loophole,
+regulations to reduce methane emissions from both new and existing sources.
+Hillary has called for all of these things to make sure that those
+communities that choose to pursue natural gas development do so safely and
+responsibly. And she will stand by those communities that decide they don=
+=E2=80=99t
+want natural gas production to occur.=E2=80=9D
+
+
+
+Did I capture it Brad? We are seeing if some progressive allies can hit
+Bernie for being too extreme on this.
+
+
+
+*From:* Kristina Costa [mailto:kcosta@hillaryclinton.com
+<kcosta@hillaryclinton.com>]
+*Sent:* Tuesday, February 23, 2016 1:48 PM
+*To:* Jake Sullivan; Bradley Komar
+*Cc:* Tyson Brody; Samantha McClain; Clips; Trevor Houser; Mr. Pete Ogden;
+Ben Kobren
+*Subject:* RE: NEW AD: Bernie Sanders - "Frack"
+
+
+
+Trevor and Brad are connecting now to discuss.
+
+
+
+*From:* Jake Sullivan [mailto:jsullivan@hillaryclinton.com
+<jsullivan@hillaryclinton.com>]
+*Sent:* Tuesday, February 23, 2016 4:38 PM
+*To:* Bradley Komar <bkomar@hillaryclinton.com>
+*Cc:* Kristina Costa <kcosta@hillaryclinton.com>; Tyson Brody <
+tbrody@hillaryclinton.com>; Samantha McClain <smcclain@hillaryclinton.com>;
+Clips <clips@hillaryclinton.com>; Trevor Houser <tghouser.hrc@gmail.com>;
+Mr. Pete Ogden <progden@gmail.com>; Ben Kobren <benkobren@gmail.com>
+*Subject:* Re: NEW AD: Bernie Sanders - "Frack"
+
+
+
+Should we try to do anything with this?
+
+
+On Feb 23, 2016, at 4:07 PM, Bradley Komar <bkomar@hillaryclinton.com>
+wrote:
+
+"The only candidate to oppose fracking"
+
+
+
+What does that mean?  A complete 100% fracking ban.  There is no elected
+dem and I believe no enviro group that takes this position.  In fact, such
+an extreme position threatens the progress of common-sense safety measures
+like frack fluid disclosure and methane capture/air quality regulations.
+
+
+
+The Denver Post Editorial Board could really smack him for this.  This is
+tricky waters for caucus goers but his language may leave him vulnerable.
+
+
+
+Jared Polis is a regarded as a leader of the regulating fracking team in CO
+and his argument is reforms, not a ban.
+
+
+
+"Fracking can endanger our drinking water and threaten our climate"
+
+
+
+For the fact check:  The threaten our climate is based on methane released
+in the air when extracting  natural gas from the ground.  Colorado mandates
+oil and gas pay for methane capture technology to prevent the potent green
+house gas from escaping and the state issues large fines to bad actors.
+Natural gas burns cleaner than other traditional energies so the "threatens
+our climate" is about methane released during extraction which Colorado has
+already addressed.
+
+
+
+Still really tough for us to talk about.
+
+
+
+On Tue, Feb 23, 2016 at 2:00 PM, Kristina Costa <kcosta@hillaryclinton.com>
+wrote:
+
++ for awareness
+
+
+
+*From:* clips@hillaryclinton.com [mailto:clips@hillaryclinton.com
+<clips@hillaryclinton.com>] *On Behalf Of *Tyson Brody
+*Sent:* Tuesday, February 23, 2016 3:45 PM
+*To:* Bradley Komar <bkomar@hillaryclinton.com>
+*Cc:* Samantha McClain <smcclain@hillaryclinton.com>; Clips <
+clips@hillaryclinton.com>
+*Subject:* Re: NEW AD: Bernie Sanders - "Frack"
+
+
+
+at the very least in Colorado:
+https://www.youtube.com/watch?v=3D0gALQGCrjZs&feature=3Dem-uploademail
+
+
+
+On Tue, Feb 23, 2016 at 3:43 PM, Bradley Komar <bkomar@hillaryclinton.com>
+wrote:
+
+Do we know where this is playing?
+
+
+On Tuesday, February 23, 2016, Samantha McClain <smcclain@hillaryclinton.co=
+m>
+wrote:
+
+https://www.youtube.com/watch?v=3D0gALQGCrjZs
+
+
+
+v/o: Bernie Sanders. The courage to stand up to Big Oil, because he won't
+take their money.
+
+
+
+That's why Sanders said no to the Keystone pipeline, and never waffled.
+
+
+
+He's also the only candidate to oppose fracking, because fracking can
+endanger our drinking water and threaten our climate.
+
+
+
+Sanders has the most far reaching plan to fight climate change and build a
+clean energy future.
+
+
+
+Bernie Sanders. People before polluters.
+
+
+
+Sanders: I'm Bernie Sanders and I approve this message.
+
+--047d7bf0d2d4e95127052c779be7
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=
+=3Dutf-8"></head><body dir=3D"auto"><div>Brad, do you think we can get poli=
+s?</div><div><br></div><div>We also lost comms. +<br><br>/KLC</div><div><br=
+>On Feb 23, 2016, at 5:37 PM, Trevor Houser &lt;<a href=3D"mailto:tghouser.=
+hrc@gmail.com">tghouser.hrc@gmail.com</a>&gt; wrote:<br><br></div><blockquo=
+te type=3D"cite"><div><meta http-equiv=3D"Content-Type" content=3D"text/htm=
+l; charset=3Dutf-8"><meta name=3D"Generator" content=3D"Microsoft Word 15 (=
+filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><div class=3D"WordSection1"><p class=3D"MsoNormal"><span style=
+=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;=
+;color:#1f497d">Just got off with Brad and filled him in on LiUNA/labor dra=
+ma. LCV isn=E2=80=99t willing to hit Bernie on this. Sounds like Polis is t=
+he best bet if press stats asking, otherwise better to duck and cover. </sp=
+an></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&=
+quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span></p><=
+p class=3D"MsoNormal"><b><span style=3D"font-size:11.0pt;font-family:&quot;=
+Calibri&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"> Bradley=
+ Komar [<a href=3D"mailto:bkomar@hillaryclinton.com">mailto:bkomar@hillaryc=
+linton.com</a>] <br><b>Sent:</b> Tuesday, February 23, 2016 2:21 PM<br><b>T=
+o:</b> Trevor Houser<br><b>Cc:</b> Kristina Costa; Jake Sullivan; Sara Lath=
+am; John Podesta; Tyson Brody; Samantha McClain; Mr. Pete Ogden; Ben Kobren=
+<br><b>Subject:</b> NEW AD: Bernie Sanders - &quot;Frack&quot;</span></p><p=
+ class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">I would prefer an all=
+y (congressman polis and/or LCV) Who have strong bone fides on the environm=
+ent to whack sander&#39;s for taking an irresponsible position and in doing=
+ so, threatening real progress on frack fluid disclosure and air quality re=
+gulations. This is yet another promise he can&#39;t keep.=C2=A0</p><div><p =
+class=3D"MsoNormal">=C2=A0</p></div><div><p class=3D"MsoNormal">I think we =
+will be forced to weigh in by sanders=C2=A0and of course we have to state=
+=C2=A0our position:=C2=A0it&#39;s a transitional energy--and we=C2=A0need t=
+o go green. But that is a very soft response that sounds better if Bernie i=
+s being hit by the left.=C2=A0</p></div><div><p class=3D"MsoNormal">=C2=A0<=
+/p></div><div><p class=3D"MsoNormal">I would watch our tone and not sound t=
+oo pro-fracking. A reluctant tone is a better fit for dem caucus goers (it&=
+#39;s a transition energy. It&#39;s not great but it allows us to get to wh=
+ere we want to be)=C2=A0<br><br>On Tuesday, February 23, 2016, Trevor House=
+r &lt;<a href=3D"javascript:_e(%7B%7D,&#39;cvml&#39;,&#39;tghouser.hrc@gmai=
+l.com&#39;);" target=3D"_blank">tghouser.hrc@gmail.com</a>&gt; wrote:</p><b=
+lockquote style=3D"border:none;border-left:solid #cccccc 1.0pt;padding:0in =
+0in 0in 6.0pt;margin-left:4.8pt;margin-right:0in"><div><div><p class=3D"Mso=
+Normal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span =
+style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&=
+quot;;color:#1f497d">++ John and Sara on this chain. </span></p><p class=3D=
+"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><s=
+pan style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-se=
+rif&quot;;color:#1f497d">=C2=A0</span></p><p class=3D"MsoNormal" style=3D"m=
+so-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size=
+:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1f497=
+d">Brad and I just chatted. We think the following posture makes sense:</sp=
+an></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-b=
+ottom-alt:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&q=
+uot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span></p><p class=3D"Mso=
+Normal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span =
+style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&=
+quot;;color:#1f497d">=E2=80=9CBernie=E2=80=99s call for banning all hydraul=
+ic fracturing is, extreme, unfeasible and ignores the contribution natural =
+gas has made to our economy and our efforts to reduce carbon pollution. Wha=
+t we need to focus on is putting in place common sense safeguards to protec=
+t our air and water, like mandatory disclosure of fracking chemicals, closi=
+ng the Halliburton loophole, regulations to reduce methane emissions from b=
+oth new and existing sources. Hillary has called for all of these things to=
+ make sure that those communities that choose to pursue natural gas develop=
+ment do so safely and responsibly. And she will stand by those communities =
+that decide they don=E2=80=99t want natural gas production to occur.=E2=80=
+=9D</span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-m=
+argin-bottom-alt:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span></p><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;;color:#1f497d">Did I capture it Brad? We are seeing if some pr=
+ogressive allies can hit Bernie for being too extreme on this. </span></p><=
+p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-al=
+t:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&qu=
+ot;sans-serif&quot;;color:#1f497d">=C2=A0</span></p><div><div style=3D"bord=
+er:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0in 0in 0in"><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+><b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;s=
+ans-serif&quot;">From:</span></b><span style=3D"font-size:11.0pt;font-famil=
+y:&quot;Calibri&quot;,&quot;sans-serif&quot;"> Kristina Costa [<a href=3D"m=
+ailto:kcosta@hillaryclinton.com">mailto:kcosta@hillaryclinton.com</a>] <br>=
+<b>Sent:</b> Tuesday, February 23, 2016 1:48 PM<br><b>To:</b> Jake Sullivan=
+; Bradley Komar<br><b>Cc:</b> Tyson Brody; Samantha McClain; Clips; Trevor =
+Houser; Mr. Pete Ogden; Ben Kobren<br><b>Subject:</b> RE: NEW AD: Bernie Sa=
+nders - &quot;Frack&quot;</span></p></div></div><p class=3D"MsoNormal" styl=
+e=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;;color:#1f497d">Trevor and Brad are connecting now to discuss. =
+</span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-marg=
+in-bottom-alt:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Calib=
+ri&quot;,&quot;sans-serif&quot;;color:#1f497d">=C2=A0</span></p><div><div s=
+tyle=3D"border:none;border-top:solid #e1e1e1 1.0pt;padding:3.0pt 0in 0in 0i=
+n"><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-botto=
+m-alt:auto"><b><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-size:11.0pt=
+;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"> Jake Sullivan [<a=
+ href=3D"mailto:jsullivan@hillaryclinton.com">mailto:jsullivan@hillaryclint=
+on.com</a>] <br><b>Sent:</b> Tuesday, February 23, 2016 4:38 PM<br><b>To:</=
+b> Bradley Komar &lt;<a href=3D"mailto:bkomar@hillaryclinton.com">bkomar@hi=
+llaryclinton.com</a>&gt;<br><b>Cc:</b> Kristina Costa &lt;<a href=3D"mailto=
+:kcosta@hillaryclinton.com">kcosta@hillaryclinton.com</a>&gt;; Tyson Brody =
+&lt;<a href=3D"mailto:tbrody@hillaryclinton.com">tbrody@hillaryclinton.com<=
+/a>&gt;; Samantha McClain &lt;<a href=3D"mailto:smcclain@hillaryclinton.com=
+">smcclain@hillaryclinton.com</a>&gt;; Clips &lt;<a href=3D"mailto:clips@hi=
+llaryclinton.com">clips@hillaryclinton.com</a>&gt;; Trevor Houser &lt;<a hr=
+ef=3D"mailto:tghouser.hrc@gmail.com">tghouser.hrc@gmail.com</a>&gt;; Mr. Pe=
+te Ogden &lt;<a href=3D"mailto:progden@gmail.com">progden@gmail.com</a>&gt;=
+; Ben Kobren &lt;<a href=3D"mailto:benkobren@gmail.com">benkobren@gmail.com=
+</a>&gt;<br><b>Subject:</b> Re: NEW AD: Bernie Sanders - &quot;Frack&quot;<=
+/span></p></div></div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:au=
+to;mso-margin-bottom-alt:auto">=C2=A0</p><div><p class=3D"MsoNormal" style=
+=3D"margin-bottom:12.0pt">Should we try to do anything with this?</p></div>=
+<div><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><br>On Feb 23, 2=
+016, at 4:07 PM, Bradley Komar &lt;<a href=3D"mailto:bkomar@hillaryclinton.=
+com">bkomar@hillaryclinton.com</a>&gt; wrote:</p></div><blockquote style=3D=
+"margin-top:5.0pt;margin-bottom:5.0pt"><div><div><p class=3D"MsoNormal" sty=
+le=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&quot;The only ca=
+ndidate to oppose fracking&quot;</p><div><p class=3D"MsoNormal" style=3D"ms=
+o-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p c=
+lass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:a=
+uto">What does that mean?=C2=A0 A complete 100% fracking ban.=C2=A0 There i=
+s no elected dem and I believe no enviro group that takes this position.=C2=
+=A0 In fact, such an extreme position threatens the progress of common-sens=
+e safety measures like frack fluid disclosure and methane capture/air quali=
+ty regulations.</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-to=
+p-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"Mso=
+Normal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">The De=
+nver Post Editorial Board could really smack him for this.=C2=A0 This is tr=
+icky waters for caucus goers but his language may leave him vulnerable.</p>=
+</div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-marg=
+in-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"ms=
+o-margin-top-alt:auto;mso-margin-bottom-alt:auto">Jared Polis is a regarded=
+ as a leader of the regulating fracking team in CO and his argument is refo=
+rms, not a ban. =C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-ma=
+rgin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"=
+>&quot;Fracking can endanger our drinking water and threaten our climate&qu=
+ot; =C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt=
+:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNorma=
+l" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">For the fac=
+t check: =C2=A0The threaten our climate is based on methane released in the=
+ air when extracting =C2=A0natural gas from the ground.=C2=A0 Colorado mand=
+ates oil and gas pay for methane capture technology to prevent the potent g=
+reen house gas from escaping and the state issues large fines to bad actors=
+.=C2=A0 Natural gas burns cleaner than other traditional energies so the &q=
+uot;threatens our climate&quot; is about methane released during extraction=
+ which Colorado has already addressed. =C2=A0</p></div><div><p class=3D"Mso=
+Normal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0=
+</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-=
+margin-bottom-alt:auto">Still really tough for us to talk about.</p></div><=
+/div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margi=
+n-bottom-alt:auto">=C2=A0</p><div><p class=3D"MsoNormal" style=3D"mso-margi=
+n-top-alt:auto;mso-margin-bottom-alt:auto">On Tue, Feb 23, 2016 at 2:00 PM,=
+ Kristina Costa &lt;<a href=3D"mailto:kcosta@hillaryclinton.com">kcosta@hil=
+laryclinton.com</a>&gt; wrote:</p><blockquote style=3D"border:none;border-l=
+eft:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;margin-=
+top:5.0pt;margin-right:0in;margin-bottom:5.0pt"><div><div><p class=3D"MsoNo=
+rmal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span st=
+yle=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&qu=
+ot;;color:#1f497d">+ for awareness</span></p><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font=
+-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#=
+1f497d">=C2=A0</span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt=
+:auto;mso-margin-bottom-alt:auto"><b><span style=3D"font-size:11.0pt;font-f=
+amily:&quot;Calibri&quot;,&quot;sans-serif&quot;">From:</span></b><span sty=
+le=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quo=
+t;"> <a href=3D"mailto:clips@hillaryclinton.com">clips@hillaryclinton.com</=
+a> [<a href=3D"mailto:clips@hillaryclinton.com">mailto:clips@hillaryclinton=
+.com</a>] <b>On Behalf Of </b>Tyson Brody<br><b>Sent:</b> Tuesday, February=
+ 23, 2016 3:45 PM<br><b>To:</b> Bradley Komar &lt;<a href=3D"mailto:bkomar@=
+hillaryclinton.com">bkomar@hillaryclinton.com</a>&gt;<br><b>Cc:</b> Samanth=
+a McClain &lt;<a href=3D"mailto:smcclain@hillaryclinton.com">smcclain@hilla=
+ryclinton.com</a>&gt;; Clips &lt;<a href=3D"mailto:clips@hillaryclinton.com=
+">clips@hillaryclinton.com</a>&gt;<br><b>Subject:</b> Re: NEW AD: Bernie Sa=
+nders - &quot;Frack&quot;</span></p><div><div><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p><div><p c=
+lass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:a=
+uto">at the very least in Colorado:=C2=A0<a href=3D"https://www.youtube.com=
+/watch?v=3D0gALQGCrjZs&amp;feature=3Dem-uploademail" target=3D"_blank">http=
+s://www.youtube.com/watch?v=3D0gALQGCrjZs&amp;feature=3Dem-uploademail</a><=
+/p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-m=
+argin-bottom-alt:auto">=C2=A0</p><div><p class=3D"MsoNormal" style=3D"mso-m=
+argin-top-alt:auto;mso-margin-bottom-alt:auto">On Tue, Feb 23, 2016 at 3:43=
+ PM, Bradley Komar &lt;<a href=3D"mailto:bkomar@hillaryclinton.com">bkomar@=
+hillaryclinton.com</a>&gt; wrote:</p><blockquote style=3D"border:none;borde=
+r-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-left:4.8pt;marg=
+in-top:5.0pt;margin-right:0in;margin-bottom:5.0pt"><p class=3D"MsoNormal" s=
+tyle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Do we know wher=
+e this is playing? =C2=A0</p><div><div><div><p class=3D"MsoNormal" style=3D=
+"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><br>On Tuesday, Februa=
+ry 23, 2016, Samantha McClain &lt;<a href=3D"mailto:smcclain@hillaryclinton=
+.com">smcclain@hillaryclinton.com</a>&gt; wrote:</p><blockquote style=3D"bo=
+rder:none;border-left:solid #cccccc 1.0pt;padding:0in 0in 0in 6.0pt;margin-=
+left:4.8pt;margin-top:5.0pt;margin-right:0in;margin-bottom:5.0pt"><div><div=
+><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-=
+alt:auto"><a href=3D"https://www.youtube.com/watch?v=3D0gALQGCrjZs" target=
+=3D"_blank">https://www.youtube.com/watch?v=3D0gALQGCrjZs</a></p></div><div=
+><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-=
+alt:auto">=C2=A0</p></div><p class=3D"MsoNormal" style=3D"mso-margin-top-al=
+t:auto;mso-margin-bottom-alt:auto">v/o: Bernie Sanders. The courage to stan=
+d up to Big Oil, because he won&#39;t take their money.</p><div><p class=3D=
+"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=
+=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:aut=
+o;mso-margin-bottom-alt:auto">That&#39;s why Sanders said no to the Keyston=
+e pipeline, and never waffled.=C2=A0</p></div><div><p class=3D"MsoNormal" s=
+tyle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div=
+><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bo=
+ttom-alt:auto">He&#39;s also the only candidate to oppose fracking, because=
+ fracking can endanger our drinking water and threaten our climate.</p></di=
+v><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-b=
+ottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"mso-ma=
+rgin-top-alt:auto;mso-margin-bottom-alt:auto">Sanders has the most far reac=
+hing plan to fight climate change and build a clean energy future.=C2=A0</p=
+></div><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-mar=
+gin-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"MsoNormal" style=3D"m=
+so-margin-top-alt:auto;mso-margin-bottom-alt:auto">Bernie Sanders. People b=
+efore polluters.</p></div><div><p class=3D"MsoNormal" style=3D"mso-margin-t=
+op-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div><div><p class=3D"Ms=
+oNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Sande=
+rs: I&#39;m Bernie Sanders and I approve this message.</p></div></div></blo=
+ckquote></div></div></div></blockquote></div><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div></d=
+iv></div></div></div></blockquote></div><p class=3D"MsoNormal" style=3D"mso=
+-margin-top-alt:auto;mso-margin-bottom-alt:auto">=C2=A0</p></div></div></bl=
+ockquote></div></div></blockquote></div></div></div></blockquote></body></h=
+tml>
+
+--047d7bf0d2d4e95127052c779be7--

@@ -1,0 +1,550 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.204.130.12 with SMTP id q12csp95309bks;
+        Mon, 11 Feb 2013 09:30:50 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=received-spf:x-received:dkim-signature:x-received:x-beenthere
+         :x-received:x-received:received-spf:mime-version:x-received
+         :in-reply-to:references:date:message-id:subject:from:to
+         :x-gm-message-state:x-original-sender
+         :x-original-authentication-results:reply-to:precedence:mailing-list
+         :list-id:x-google-group-id:list-post:list-help:list-archive:sender
+         :list-unsubscribe:content-type;
+        bh=SUdvOI1lpQTt/495+2JQI7/oZvetyYQg3/8r5nWIIg4=;
+        b=juDrIQdzeZI4hx5R9OdHylAmWs8c9VgEurm0WkmovLlkureYEvV3BT3eupqpiJV4N1
+         41OH7P8TWjOkeaC5nvBo7O2JtHXaja8TDxnFqUtUcl4pLi9Fe6dxw6wWW+7XGvgmz7N8
+         R2WHUE1F53x6ohbAELuG4DPTPDI6Ay83xBgjdeHfHmqrIu43sDkFQHRXH1OumtjPfLD7
+         uNMWJsCtibWVZhIzYX9fpmk+3XFTdZ/9fWGocwFpn7GHfMJB4LNdS2kr6a6FSFsMOt/m
+         KeG4q3ZkK/tUpnKiNKRHPGIE3OBM+7xAmg6trtKA7KCL4KkHVH3iUH+aK57fBieuEUdU
+         A+dA==
+Return-Path: <bigcampaign+bncBCR7PBHARYCBBSGV4SEAKGQEMUZQQVY@googlegroups.com>
+Received-SPF: pass (google.com: domain of bigcampaign+bncBCR7PBHARYCBBSGV4SEAKGQEMUZQQVY@googlegroups.com designates 10.180.82.230 as permitted sender) client-ip=10.180.82.230
+Authentication-Results: mr.google.com;
+       spf=pass (google.com: domain of bigcampaign+bncBCR7PBHARYCBBSGV4SEAKGQEMUZQQVY@googlegroups.com designates 10.180.82.230 as permitted sender) smtp.mail=bigcampaign+bncBCR7PBHARYCBBSGV4SEAKGQEMUZQQVY@googlegroups.com;
+       dkim=pass header.i=@googlegroups.com
+X-Received: from mr.google.com ([10.180.82.230])
+        by 10.180.82.230 with SMTP id l6mr3576743wiy.0.1360603849860 (num_hops = 1);
+        Mon, 11 Feb 2013 09:30:49 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlegroups.com; s=20120806;
+        h=x-received:x-beenthere:x-received:x-received:received-spf
+         :mime-version:x-received:in-reply-to:references:date:message-id
+         :subject:from:to:x-original-sender:x-original-authentication-results
+         :reply-to:precedence:mailing-list:list-id:x-google-group-id
+         :list-post:list-help:list-archive:sender:list-unsubscribe
+         :content-type;
+        bh=SUdvOI1lpQTt/495+2JQI7/oZvetyYQg3/8r5nWIIg4=;
+        b=JM0UaggJzYaRyF2770IgrhuYDP2v+O7878Yc6sBq3CAGAR16jfBqCw9bTGqNK0VujG
+         XJDkG/7Uex1uV2d7MNbMkZ+GtGpkaPxO9esI0/zKwiX7KDmMUAQANdMjCRq5rkh6S4VE
+         JY8OL7pzo4nxLDbos8uiO4azoLjzfsExKOImLD+Pz/pE3XS10pCi0hOXgWR7O8FJQX05
+         OwWMcrU04v3zbHKmvXw08u4leITRkQBGvWgjIm/HLZpuFgAdAg9661Ua03elrmM76hhR
+         Ef5YnC0fl9nnCtKOCVVpzTW1dJ4pfiT4IlqkAc+gM/Qe3AlRV8mobWr4YNo1u4cqTXPR
+         DQmg==
+X-Received: by 10.180.82.230 with SMTP id l6mr500297wiy.0.1360603848803;
+        Mon, 11 Feb 2013 09:30:48 -0800 (PST)
+X-BeenThere: bigcampaign@googlegroups.com
+Received: by 10.180.91.18 with SMTP id ca18ls892027wib.46.canary; Mon, 11 Feb
+ 2013 09:30:47 -0800 (PST)
+X-Received: by 10.180.8.4 with SMTP id n4mr3175134wia.0.1360603847834;
+        Mon, 11 Feb 2013 09:30:47 -0800 (PST)
+X-Received: by 10.180.8.4 with SMTP id n4mr3175131wia.0.1360603847738;
+        Mon, 11 Feb 2013 09:30:47 -0800 (PST)
+Received: from mail-wi0-f173.google.com (mail-wi0-f173.google.com [209.85.212.173])
+        by gmr-mx.google.com with ESMTPS id fs5si2110686wib.1.2013.02.11.09.30.47
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 11 Feb 2013 09:30:47 -0800 (PST)
+Received-SPF: neutral (google.com: 209.85.212.173 is neither permitted nor denied by best guess record for domain of jsalt@catholics-united.org) client-ip=209.85.212.173;
+Received: by mail-wi0-f173.google.com with SMTP id hq4so3429722wib.12
+        for <bigcampaign@googlegroups.com>; Mon, 11 Feb 2013 09:30:47 -0800 (PST)
+MIME-Version: 1.0
+X-Received: by 10.194.21.163 with SMTP id w3mr2752398wje.56.1360603835541;
+ Mon, 11 Feb 2013 09:30:35 -0800 (PST)
+Received: by 10.194.63.77 with HTTP; Mon, 11 Feb 2013 09:30:35 -0800 (PST)
+In-Reply-To: <5119283F.2060903@catholics-united.org>
+References: <5119283F.2060903@catholics-united.org>
+Date: Mon, 11 Feb 2013 12:30:35 -0500
+Message-ID: <CAH-d7OmTmzm0xt4OLifpOgJ7Yo0-hwTMx+L=QqqngfET7X+jqA@mail.gmail.com>
+Subject: =?windows-1252?Q?=5Bbig_campaign=5D_Catholics_United_Statement_on_Pope_Be?=
+	=?windows-1252?Q?nedict_XVI=92s_Announcement_of_Resignation?=
+From: James Salt <jsalt@catholics-united.org>
+To: Bigcampaign <bigcampaign@googlegroups.com>
+X-Gm-Message-State: ALoCoQmYA6IHkW6fl40aNI4RPiaKITjGh2ypJqmRrtT0Oz8CrvyaoUKwLpI2MiPmpwaDdRkYH8+l
+X-Original-Sender: jsalt@catholics-united.org
+X-Original-Authentication-Results: gmr-mx.google.com;       spf=neutral
+ (google.com: 209.85.212.173 is neither permitted nor denied by best guess
+ record for domain of jsalt@catholics-united.org) smtp.mail=jsalt@catholics-united.org
+Reply-To: jsalt@catholics-united.org
+Precedence: list
+Mailing-list: list bigcampaign@googlegroups.com; contact bigcampaign+owners@googlegroups.com
+List-ID: <bigcampaign.googlegroups.com>
+X-Google-Group-Id: 329678006109
+List-Post: <http://groups.google.com/group/bigcampaign/post?hl=en-US>, <mailto:bigcampaign@googlegroups.com>
+List-Help: <http://groups.google.com/support/?hl=en-US>, <mailto:bigcampaign+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/bigcampaign?hl=en-US>
+Sender: bigcampaign@googlegroups.com
+List-Unsubscribe: <http://groups.google.com/group/bigcampaign/subscribe?hl=en-US>,
+ <mailto:googlegroups-manage+329678006109+unsubscribe@googlegroups.com>
+Content-Type: multipart/related; boundary=047d7b5d344c4c2a0504d57644a8
+
+--047d7b5d344c4c2a0504d57644a8
+Content-Type: multipart/alternative; boundary=047d7b5d344c4c2a0204d57644a7
+
+
+--047d7b5d344c4c2a0204d57644a7
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Here's our statement on the Pope's announcement.
+
+---------- Forwarded message ----------
+From: Chris Pumpelly <cpumpelly@catholics-united.org>
+Date: Mon, Feb 11, 2013 at 12:19 PM
+Subject: Catholics United Statement on Pope Benedict XVI=92s Announcement o=
+f
+Resignation
+To: cpumpelly@catholics-united.org
+
+
+
+
+ FOR MORE INFORMATION:
+Chris Pumpelly,
+Communications Director, Catholics United
+cpumpelly@catholics-united.org
+316-519-3266
+ *
+Catholics United Statement on Pope Benedict XVI=92s Announcement of
+Resignation**
+
+*
+ WASHINGTON =96 Catholics United Executive Director James Salt made the
+following statement today upon hearing Pope Benedict XVI=92s announcement h=
+e
+will resign effective Feb. 28:
+
+=93Today=92s surprising announcement from Pope Benedict XVI is a sign of
+humility from the aging Holy Father. In light of his decision, we must take
+the opportunity to reflect on the challenges of this papacy. To many, the
+Catholic church hierarchy has been seen as an institution overly focused on
+issues of human sexuality, such as opposition to access to birth control
+and marriage equality, rather than first serving the poor as Christ
+commanded.
+
+=93The next pope has a unique opportunity to radically shift the agenda of
+the church. Increasingly, the Catholic church is one that represents
+interests far removed from Europe or North America. The cardinals can and
+should consider opening their horizons toward a successor from the global
+south, such as Latin America or Africa, whose experience represents a
+vastly different worldview than many church leaders.
+
+=93Catholics know the heavy burden of the papacy is wrought with challenges=
+.
+The next pope will have to face the greatest moral challenge of our day:
+the imminent threat of global climate change and its effect on the poorest.
+He must protect and expand equality and the role of women and those
+affected by oppression. Finally, and perhaps most importantly, he must
+dedicate himself to protecting the least among us, especially children, who
+have been affected by the shameful scourge of abuse.
+
+=93We pray the next pope has the wisdom to lead us in a bold direction towa=
+rd
+hope and unity, and away from oppression and division.=94
+
+Salt is available for comment or appearances today.
+
+Founded in 2004, Catholics United, and its educational arm, Catholics
+United Education Fund, are non-profit, non-partisan organizations dedicated
+to promoting the message of justice and the common good found at the heart
+of the Catholic Social Tradition.
+
+For more information about Catholics United, =93like=94 us on our Facebook =
+page
+(www.facebook.com/CatholicsUnited), follow us on Twitter (
+www.twitter.com/CatholicsUnited) or on our blog at www.OurDailyThread.org.
+
+###
+
+
+
+--=20
+James Salt
+Catholics United Executive Director
+Catholics United Education Fund Executive Director
+202-246-2583
+jsalt@catholics-united.org
+
+--=20
+--=20
+You received this message because you are subscribed to the "big campaign" =
+group. Moderated by Aniello, Lori and Sara.=20
+
+This is a list of individuals. It is not affiliated with any group or organ=
+ization.
+---=20
+You received this message because you are subscribed to the Google Groups "=
+big campaign" group.
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to bigcampaign+unsubscribe@googlegroups.com.
+To post to this group, send email to bigcampaign@googlegroups.com.
+For more options, visit https://groups.google.com/groups/opt_out.
+
+
+
+--047d7b5d344c4c2a0204d57644a7
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Here&#39;s our statement on the Pope&#39;s announcement.<br><br><div class=
+=3D"gmail_quote">---------- Forwarded message ----------<br>From: <b class=
+=3D"gmail_sendername">Chris Pumpelly</b> <span dir=3D"ltr">&lt;<a href=3D"m=
+ailto:cpumpelly@catholics-united.org">cpumpelly@catholics-united.org</a>&gt=
+;</span><br>
+Date: Mon, Feb 11, 2013 at 12:19 PM<br>Subject: Catholics United Statement =
+on Pope Benedict XVI=92s Announcement of Resignation<br>To: <a href=3D"mail=
+to:cpumpelly@catholics-united.org">cpumpelly@catholics-united.org</a><br><b=
+r>
+<br>
+ =20
+   =20
+ =20
+  <div text=3D"#000000" bgcolor=3D"#FFFFFF">
+    <div lang=3D"x-western">
+      <div lang=3D"x-western">
+        <div lang=3D"x-western">
+          <div lang=3D"x-western">
+            <div lang=3D"x-western">
+              <div lang=3D"x-western">
+                <div align=3D"center"><font face=3D"Garamond"><img src=3D"c=
+id:part1.06000300.09040504@catholics-united.org" alt=3D""></font><br>
+                </div>
+                <font face=3D"Garamond"> <br>
+                </font> <font face=3D"Garamond"><big>FOR MORE
+                    INFORMATION:<br>
+                    Chris Pumpelly,<br>
+                    Communications Director, Catholics United<br>
+                    <a href=3D"mailto:cpumpelly@catholics-united.org" targe=
+t=3D"_blank">cpumpelly@catholics-united.org</a><br>
+                    <a href=3D"tel:316-519-3266" value=3D"+13165193266" tar=
+get=3D"_blank">316-519-3266</a></big><small><small><small><small><br>
+                        </small></small></small></small></font><small><smal=
+l><small><small>
+                      </small></small></small></small>
+                <div align=3D"center"><font face=3D"Garamond"><big><big><bi=
+g><big><b><small><br>
+                              </small>Catholics United Statement on Pope
+                              Benedict XVI=92s Announcement of Resignation<=
+/b></big></big></big></big></font><font face=3D"Garamond"><big><big><i><big=
+><br>
+                            <br>
+                          </big></i></big></big></font> </div>
+                <font face=3D"Garamond"><big><big> WASHINGTON =96 Catholics
+                      United Executive Director James Salt made the
+                      following statement today upon hearing Pope
+                      Benedict XVI=92s announcement he will resign
+                      effective Feb. 28:<br>
+                      <br>
+                      =93Today=92s surprising announcement from Pope
+                      Benedict XVI is a sign of humility from the aging
+                      Holy Father. In light of his decision, we must
+                      take the opportunity to reflect on the challenges
+                      of this papacy. To many, the Catholic church
+                      hierarchy has been seen as an institution overly
+                      focused on issues of human sexuality, such as opposit=
+ion
+                      to access to birth control and marriage equality,
+                      rather than first serving the poor as Christ
+                      commanded.<br>
+                      <br>
+                      =93The next pope has a unique opportunity to
+                      radically shift the agenda of the church.
+                      Increasingly, the Catholic church is one that
+                      represents interests far removed from Europe or
+                      North America. The cardinals can and should
+                      consider opening their horizons toward a successor
+                      from the global south, such as Latin America or
+                      Africa, whose experience represents a vastly
+                      different worldview than many church leaders.<br>
+                      <br>
+                      =93Catholics know the heavy burden of the papacy is
+                      wrought with challenges. The next pope will have
+                      to face the greatest moral challenge of our day:
+                      the imminent threat of global climate change and
+                      its effect on the poorest. He must protect and
+                      expand equality and the role of women and those
+                      affected by oppression. Finally, and perhaps most
+                      importantly, he must dedicate himself to
+                      protecting the least among us, especially
+                      children, who have been affected by the shameful
+                      scourge of abuse.<br>
+                      <br>
+                      =93We pray the next pope has the wisdom to lead us
+                      in a bold direction toward hope and unity, and
+                      away from oppression and division.=94<br>
+                      <br>
+                      Salt is available for comment or appearances
+                      today.<br>
+                      <br>
+                      Founded in 2004, Catholics United, and its
+                      educational arm, Catholics United Education Fund,
+                      are non-profit, non-partisan organizations
+                      dedicated to promoting the message of justice and
+                      the common good found at the heart of the Catholic
+                      Social Tradition.<br>
+                      <br>
+                      For more information about Catholics United,
+                      =93like=94 us on our Facebook page
+                      (<a href=3D"http://www.facebook.com/CatholicsUnited" =
+target=3D"_blank">www.facebook.com/CatholicsUnited</a>), follow us on
+                      Twitter (<a href=3D"http://www.twitter.com/CatholicsU=
+nited" target=3D"_blank">www.twitter.com/CatholicsUnited</a>) or on
+                      our blog at <a href=3D"http://www.OurDailyThread.org"=
+ target=3D"_blank">www.OurDailyThread.org</a>.<br>
+                    </big></big></font>
+                <div align=3D"center"><font face=3D"Garamond"><big><big></b=
+ig></big></font><font face=3D"Garamond"><big><big><br>
+                        ###</big></big></font></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><br><br clear=3D"all"><div><br></div>-- <br>James Salt<br>Catholics U=
+nited Executive Director<br>Catholics United Education Fund Executive Direc=
+tor<br>202-246-2583<br><a href=3D"mailto:jsalt@catholics-united.org" target=
+=3D"_blank">jsalt@catholics-united.org</a>
+
+<p></p>
+
+-- <br />
+-- <br />
+You received this message because you are subscribed to the &quot;big campa=
+ign&quot; group. Moderated by Aniello, Lori and Sara. <br />
+&nbsp;<br />
+This is a list of individuals. It is not affiliated with any group or organ=
+ization.<br />
+--- <br />
+You received this message because you are subscribed to the Google Groups &=
+quot;big campaign&quot; group.<br />
+To unsubscribe from this group and stop receiving emails from it, send an e=
+mail to bigcampaign+unsubscribe@googlegroups.com.<br />
+To post to this group, send email to bigcampaign@googlegroups.com.<br />
+For more options, visit <a href=3D"https://groups.google.com/groups/opt_out=
+">https://groups.google.com/groups/opt_out</a>.<br />
+&nbsp;<br />
+&nbsp;<br />
+
+--047d7b5d344c4c2a0204d57644a7--
+
+--047d7b5d344c4c2a0504d57644a8
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-ID: <part1.06000300.09040504@catholics-united.org>
+X-Attachment-Id: 81e54d48e3689f81_0.1.1
+
+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
+--047d7b5d344c4c2a0504d57644a8--

@@ -1,0 +1,653 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp6861218lfb;
+        Tue, 29 Dec 2015 13:14:15 -0800 (PST)
+X-Received: by 10.98.13.14 with SMTP id v14mr89162230pfi.21.1451423655698;
+        Tue, 29 Dec 2015 13:14:15 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bhn0245.outbound.protection.outlook.com. [157.56.111.245])
+        by mx.google.com with ESMTPS id s20si58809899pfi.215.2015.12.29.13.14.14
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 29 Dec 2015 13:14:15 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.245 as permitted sender) client-ip=157.56.111.245;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.245 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=neutral (body hash did not verify) header.i=@bounce.myngp.com
+Received: from BLUPR07CA0044.namprd07.prod.outlook.com (10.255.223.157) by
+ CO2PR07MB554.namprd07.prod.outlook.com (10.141.199.150) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Tue, 29 Dec 2015 21:14:13 +0000
+Received: from BL2FFO11FD021.protection.gbl (2a01:111:f400:7c09::128) by
+ BLUPR07CA0044.outlook.office365.com (2a01:111:e400:841::29) with Microsoft
+ SMTP Server (TLS) id 15.1.365.9 via Frontend Transport; Tue, 29 Dec 2015
+ 21:14:12 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.myngp.com;gmail.com; dmarc=none action=none
+ header.from=mikehonda.com;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.74;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ BL2FFO11FD021.mail.protection.outlook.com (10.173.161.100) with Microsoft
+ SMTP Server (TLS) id 15.1.355.15 via Frontend Transport; Tue, 29 Dec 2015
+ 21:14:12 +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bl2-obe.outbound.protection.outlook.com (141.161.191.13)
+ by LAW-CAS1.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Tue, 29 Dec 2015 16:14:12 -0500
+Received: from BLUPR07CA0038.namprd07.prod.outlook.com (10.255.223.151) by
+ CO2PR07MB540.namprd07.prod.outlook.com (10.141.199.21) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Tue, 29 Dec 2015 21:14:10 +0000
+Received: from BN1AFFO11FD056.protection.gbl (2a01:111:f400:7c10::153) by
+ BLUPR07CA0038.outlook.office365.com (2a01:111:e400:841::23) with Microsoft
+ SMTP Server (TLS) id 15.1.365.9 via Frontend Transport; Tue, 29 Dec 2015
+ 21:14:10 +0000
+Authentication-Results: spf=pass (sender IP is 192.82.209.185)
+ smtp.mailfrom=bounce.myngp.com; law.georgetown.edu; dkim=pass (signature was
+ verified) header.d=bounce.myngp.com;law.georgetown.edu; dmarc=none
+ action=none header.from=mikehonda.com;
+Received-SPF: Pass (protection.outlook.com: domain of bounce.myngp.com
+ designates 192.82.209.185 as permitted sender)
+ receiver=protection.outlook.com; client-ip=192.82.209.185;
+ helo=mailout821.ngpweb.com;
+Received: from mailout821.ngpweb.com (192.82.209.185) by
+ BN1AFFO11FD056.mail.protection.outlook.com (10.58.53.71) with Microsoft SMTP
+ Server id 15.1.355.15 via Frontend Transport; Tue, 29 Dec 2015 21:14:10 +0000
+Return-Path: podesta@law.georgetown.edu
+DKIM-Signature: v=1; a=rsa-sha1; d=bounce.myngp.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; i=@bounce.myngp.com; t=1451423649;
+	h=Sender:From:Subject:List-Unsubscribe:Date:To:Reply-To:Message-ID:MIME-Version:
+	Content-Type;
+	bh=bx/XMb4JMB5HguHL4soJyQ+ssZM=;
+	b=oNEvqDWUkSJBdqAy11nuK0AC4OnNb/Kz35FTQpJcttvs3zVnGZGsAlEiK2TekFDD
+	PjENyJoO6vO9BVGP2BcEpvzTLAF1fqlsCUXAVP7KVpUNMz1k+zQP2JPhcurHZJYo
+	XmcTINZoo+D9kCHSZ8UmNHoGhUDqCKWz3nvUT5DMRd8=;
+X-MSFBL: Y7d/ktvaI+hMPv2LBBuQpnaGSH3pBIyvYGIpV8S3DNI=|eyJyIjoicG9kZXN0YUB
+	sYXcuZ2VvcmdldG93bi5lZHUiLCJ1IjoiYm91bmNlXzIyMDAwMDAzNzI0MTE4MDN
+	fcG9kMTIiLCJiIjoibWFpbG91dDgyMSIsImciOiJkZWZhdWx0Z3JvdXAwMiJ9
+Received: from [10.11.74.252] ([10.11.74.252:63795] helo=NSV11OBMAIL1202)	by
+ asv11mtam002.ngpweb.com (envelope-from
+ <bounce_2200000372411803_pod12@bounce.myngp.com>)	(ecelerity 4.2.1.51032
+ r(Core:4.2.1.4)) with ESMTP	id 7A/4B-06660-1A7F2865; Tue, 29 Dec 2015
+ 16:14:09 -0500
+Sender: =?UTF-8?B?VGVhbSBIb25kYQ==?= <bounce@bounce.myngp.com>
+X-Binding: default
+Reply-To: <campaign@mikehonda.com>
+From: Team Honda <campaign@mikehonda.com>
+To: John Podesta <podesta@law.georgetown.edu>
+Message-ID: <ae3d5a190f3544b0bd8c416ab572dfad@mikehonda.com>
+Date: Tue, 29 Dec 2015 16:14:09 -0500
+Subject: Fwd: History repeats itself
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----573C2E9ADF294F348B3B7F3A661FDF36"
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD056;1:hlgpfTNjA/canuuZ3XjMjBTuR2I8Cto/fQbpdrdwbb4WVKTBMMYGk9ES51eRqYiPXtIxtEjpc1bd2Xj8u4fUGI2BJA+PHZAwHqm6A9oydA/2PrqjwPcfSJw4cpCN4BZ++omKbpIpX4T+Mw9CSZA0MAlo7zkEN+ZIsWzCvfz2XmV5LYte5fSI7NP6iCIULtVzNVbF9tTCkUexSdaSGpf25zyVKZV3wjSYVqPiAKkbIs+9XSl/gxsOg1qfsRPquvIjijOO2+vlZFAUZ2p8Mq1EWMqcm1nZ9c1okE5+nHlxkL6Cbxe51YOa79A777mRunTPSuZMG3G57GHYs6qvERQsQbM3HoTpFlZdq4vep7ib9AhImO1DRTUP8IJVscuN4dQ8C6SEgmAIzufGxLOYtb1MDsiOZAlxKEPxMbC7GVDyFr3Tjf5GeGVHbURgTu0pwlO4tHy1vsU9EgWE3V4eLqgjxg==
+X-Forefront-Antispam-Report-Untrusted: CIP:192.82.209.185;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31640200002)(2980300002)(1120300003)(438002)(359002)(164054003)(2473001)(349900001)(199003)(189002)(349012);DIR:INB;SFP:;SCL:9;SRVR:CO2PR07MB540;H:mailout821.ngpweb.com;FPR:;SPF:Pass;PTR:mailout821.ngpweb.com;A:0;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB540;2:EVyjUgMq94xz4XF0GtxF7odrdb1wmjVkKGzu/AZ7jOw9IAqoqwdhkJq/9sx5a6jTVbLsSDNUoo+evJPaofm7ApVqODykZ8KxPFerZz0j3P9eX1rhj1zcqUU+wmdndVSbNNQxQVanOndCABFTNLDiBw==;3:oMc7WTdOXHfyrrIqDAHxTnDiULucQdS1lR6CQK/3xLGh4jochSCcBElgCgy247HL5nah5iwXk9NEFI8AaAzoHfInZk2oeY+yA3WlPXEGHdrqBPU3+Gn3cw40tNggBmnSRVPSWoG3wZIzvDGs+qz83DuODAcHWChA7RBsP8hJvVmZchHTcwYY4z4QBKCrq4dcuFWTh7yZ2d/amE4riZ+ZqCVH0BKpPvGpN7Hia703eNSiILSMKMAM8ZD77ULxuYXs5oQI+Yiod4WYWFk/bwV4C3KAcdHConYXqck/ntJQvvDeJRqTJ4juujgqiEz0xFJMcnoNBhqyYLAOnW1E+F6s7A==;25:BV2KtklPQorpzC+0QqP0RXu/9mG/XWZvZgwWV29B+wB10EZMH9olD0A8iLTLUq4r5NDD7sSEpbi+hQB4gpB0TN6xfsOjTVQPAHKVubioLf957No4QI0wr/vbSeJpvtYwvCq7lkPOKYYpbyJ8NfiFZc7buG1CK5KZi/KjX30bc00aabjoPAnShrjRKxEJLD6n9cBAbxtblRJweZEMuTbb3iee7vMyCpV4IVaMGeIZLnF5cveX5/5mjiyLZE1iuRz8qkmmcqCiDfplMXGAgiWp1A==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(42134001)(42139001)(3001015)(71701003)(71702001);SRVR:CO2PR07MB540;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB540;20:OYWRjDuT9yyHGyywnkFoYN71sROvFkxdGXziWT8hHNgu9a9uQdpqULhullkI7eNJjjGqyeqUvBW62mZoSAMJW4wc85NEx3t/+731QBSm8fUB7PhSPIjbnDWlLwMf12+/zWwb53xr4mu78ts0EPtZpkxlr7VSR3j13zqFuhGAE0Gq9I6z/wj+eC10hnfYLIZcH+S6cVUIPg+qLhjJdtoKLwxkaWJXIHnXsHvvhU7+gM7UEWhTxadqlzbyL+ccgKGh19qJVBoQn6Ea8EBqWZU6gNEthqcOCX8KvYyg8WJHp3xFd01XAWJhcR0XDEngRus776r53ZauvXhOVDDBbFb7JIazNrMYw/UFUhzN6pHSQERKV7ANavePO8u8W601NOtKEQKFFlr+rl+VgRYsNc1Hiohd1ENOckhYozxPwhrz5X8=;4:KoNALgAyeDkeR8LDgXSYk1pbaxN6/oH4GHSXZLBvljShrpOvnHRtv25BPbk3Zdfc/jgTKhPHbfVAgQPOgOek+idFQhmdRFd7wilIB3wP3bt+7kUY/pnCm5v2JJy+lyJ94hfrjwJlJ84OeAvCS350ErjDHsWwN2GTfSrDOicedTDJnv5bUn7GA6pFMXO6emTKkIDquPamiszLTZJz5r/pxa96hflOMX6z8FgyvI+WFWd2uG91slGMczB4DqYH5gl4OZj6ZzyOOhtOpwqmCkz4FEfMBZh+CL/QT9WkA3EeFifiukyDim72iP71UEJWjxSj57lUvNycXwIUGMeFPbzDPSFR50/mXv8e2ANjLb88GHrH7jKD/h2gGbRlZ1AJxZeA
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(8121501046)(520078)(10201501046)(3002001);SRVR:CO2PR07MB540;BCL:8;PCL:0;RULEID:;SRVR:CO2PR07MB540;BCL:9;PCL:0;RULEID:(601004)(2401047)(5005006)(8121501046)(520078)(3002001)(10201501046);SRVR:CO2PR07MB554;BCL:9;PCL:0;RULEID:;SRVR:CO2PR07MB554;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB540;23:D6V/Wd/rdJ8Tsk9/H9GwJU4RFmB5iaFNo0xiegafcVSadK+MnG8jEROV+glnZLWtAnvZUhX7IOzP8XvCDDNLUk1ooeNrgva5UVtjDHJ/22XOyjWlQx0QmOpxCY3sHH4HuVCT5nWNz3uxF06UnJha5lho+hFcHZuBFo1s5tAUzXvRPKJPn1HNe6vdp3zk1YEB9d6OzkIEnZO0B+90HxwiQgIeaq0msnGWJMFozq5H1fwbeQ7aRswK1Nx9zdc+gcecMq34S7ECn1XIOYUAicTcFKQkUoifh5Y7Ux22AODxq6yePjp813066BJw3cXpfzJmllJNl6dCaqrJXdaEe7mjSNIWga5wpD1RIs0ahpqcHjspYPeyH3K98fuJAGF2G6+sIYhDYHLTj7OQwdnkpqb5GadY9BHPi7sW6AIqaL7r6CIqHVDzibXWvlnXtsVxUfAp;5:UiRrloDeocrH2XNtf1s7lrchQUJ0q4Jcje1lxUoMebTL2ThYVwY3AbPtRJh7aqT8hnCQaBjoZEiQ99RaW5HjUVK9JXPkXArzu9/3T6L4h8cx7c3mCwZnaQ2XLFX8ecdd1YlO46B3CMDIY5DSjSQySg==;24:fjg1aqSAqzcUvbW6ObQO6nEMWCyM26MBWQhISZljsHfaERsWsHuWhjIj0JiSSu+V3galfGuLtNiq03MkBcpqZw==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB540
+X-OrganizationHeadersPreserved: CO2PR07MB540.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS1.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BL2FFO11FD021.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11FD021;1:++faHAl937f7ANmh8x0nmzSeDYoC95Go8zuou2FeVHnqbyksBcDyVlxQHUwz591cp0VSrpL3Rn+5t4Qf61/1YcBkz2Un0TxCibgBA4edAv3kW/1Kc8minBzx5Efz5W6TqjejFnqt5fpII7vFSpLQOj/dd4oqOZTmSmXGf6cjEKHg0Pp4QT4yc2koWAcbgHzoC4ybNvsNtYSFtstgJP1niCKSIfuPwfyHNDp024g18PYvi0MNTSLv9vSvJF5Wp0y30WmwISrwAjhbkthIMCDrvNZ7hs0HAq9PMGADtL3wcF23aKYE2ckXar0JnV+M91G02neMgDvUKOAajIs/xErOiS4ui2G82tJlEDAiAHfGej3Go141mrH8dEfGrH89u2Ho1reNHAB6I+VW1A2ywOcSGAQGwOh+YWTV0EMBl5lHhOs=
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(10009020)(2980300002)(1120300003)(1110001)(1109001)(339900001)(359002)(164054003)(349012);DIR:OUT;SFP:1501;SCL:9;SRVR:CO2PR07MB554;H:mail.law.georgetown.edu;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;LANG:en;
+X-Microsoft-Exchange-Diagnostics:
+	1;CO2PR07MB554;2:nUR0/GLM5K9kPuMwh1Kb++/O7M/DKZvHLjd4WjR5iLyC2bHEnBZknxjkJNE9qjT7P8vfAkhUvCplTFLlnGFST8svT5K60AGefKMVvj3iSl6JbGVfIrAqq/WiaGb46tTgk+wnT/slWNKe06jCB9u4fg==;3:PHmgZPoMzNE/E9GMGzx+LUS/j2mdyCwN9MMBX2kY/vZALcBn/EANZG6Nzr5+/cJD09+2asSb1ciZ05IZxci6P4ALgBZKbOoMfipXbnNjHkGIArgKvwzSGUV+musHyClSE3UbwAOFwE4EQYulYRIwKgRiLFaWAvP6mJvGyoIozu5hy176e+t96G5InbILvhJgpltZGDAFb54Xhn7Sg0dvjhh+eFa6/SRhgXORSHah9UeK1k4ceVlaKjmJeIn0NhvL2ZEJPBBRvVDxK5QDM7pkAcodKNxRiHBElWYdyBGRFoE=;25:Q2kFMFwMEZ+yHuZeftIrcnKO6v2gvy7peHyjbyflRHBhlVbiW61vvzjlDJipo+dLqSLTcD9gXHCvAt0A1ic2F3hnI59qAq3KsuSGl8bpshjo9fADxVnesoOb24CB40i7v6iGvwGyVEuq70u5Ery3OdS4ZOOgsEnTmQ5FvHwoqmsPlV7xDqCIm6QTRM/L35cR/S0rwIDQrV8U24rIZbJJ15utUZxyTkjYTazWWQw9brmCMJ/dsYdggMd3bKZe1ckPMou85qxIV33F55JoxYrQGg==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:9;PCL:0;RULEID:(42134001)(42139001)(3002015);SRVR:CO2PR07MB554;
+X-Microsoft-Exchange-Diagnostics:
+	1;CO2PR07MB554;20:BsQmGKs3NtjMvAvCqUvw9a1dpApbMLk3J8qioMR363/7uKWDe4kKQi8csCmtv82+8zOhbq5DomDhmCkcwqcSX+uVvs31HqTvyF++iRw/tRm/CflXSI9c2kZOTEVnM0yz04SRD7QQ06GJQ/dAHnhNpsUVMsQljZahtwy0LdnudCAagkLRQ1LDvSXCi3AZgiENtcriB69mH5cpFnPeWrSzO5C79ZRoaMCWfxXXoWwwssZiUxFNhoVIhvCOVmZdvoxm4a8X9UwpEBUUpxufry1uQ6WF1WItg4gb/Fa1Tj7qvc5X1GRFgxioThsD0iFCCd08asVrT+o0SqmGiytBx06fDdsKt77jtzvJ6B7yZEaMzy74UhxYRxQ2s9Z5Tre2B5LDlVTtQMJt0LWE9YY9WtcwdASigb12Y5INrG5+1PcIo68=;4:QzgA6Oh5P/A4a8xmGoi1SRtjtk2pMReAfNXVB1foJ+e+na2q/xojIRJANwQyY/xfQ1DpaXKXvX3PCaFxr1Rz07+2MiXc77LzaLo7SS5bK8OqMZiNzvH+TUaBfG6lFEMPlpT7TKUyJEe1m4Ie9675u5NVE9g9+C5igY9QGQytCxgntmr5AEFrHOguxjKquwMQBJQO7JO+Em2yv1+VLzHL/dJzVtZM1uu537TDkwlvppk0cpv0927DBJGE7l0q2H18gMfEmcByAg2FU6nP7/qj2wV8WqSJZlnEvLMjEmm7I8oTkMGFj0hj/QcGYwzZGbClm0JfyoJFdFCI1g09hXRUck5uXLTnPLQDwOeuBiYTTDKhl5j0mgL/ec5ItGb9HvQH
+X-Microsoft-Antispam-PRVS:
+	<CO2PR07MB554D7458B675DF5D1A3541C93FC0@CO2PR07MB554.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 0805EC9467
+X-Microsoft-Exchange-Diagnostics:
+	1;CO2PR07MB554;23:mFvfc0ugupnWLGeSi0UAE0kmT0R60Q6XwvApcA8A1lneiPVWGJAQ+qsc6dTbCaqFx/csSmbtLwdXdQpKK06vIKJLA2R9FyQtQMWYoqo6a3krohSk5EDkinXZDGvbyuxkg8FKM/X10Iw85ctXt4YaQ7xb//Ca2Es8u8julUgqn7lYOkiUOaAgot6o1+mMnGWyG/R87zYOk6i5cYSkYNyfikq/hE0jP1De9R3XMBRn6RGnfZDHJA6qHWb5ahX9Yl5X2Up/K8+hg90+WbiAfHA7US0mzenYLPtGHKrEdtoCOinDKSw3ajTzyhXFKiOTNbNLlIlFH4NUEkpMyr7tGAKRYYf4u7ii7yZMAlBmsRJJKQHJpd9cJjTeFSTgw07cE15r;5:bj7xi1qzK/Wgp4qK6CF+OMUdwWySUVZ0R/t3zAOAmaYnj5e8xdrbJ9wWvykx6d40x58p41yZl7KP7lcR89DE+ctBiyWv/2ElX0BQQL4XbG6VY399FPnNH6MysljgYRSCXXC6fT2YnLn0kTJ+/wQ/rg==;24:dQ/fsunDZXWHbi4SXiF1odSAIZyl7bEDcbG2I6BIvj/PN8qDxk/YozssWUu+cCvId2Ebjn1V/55bavPbe8QCug==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 9
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 Dec 2015 21:14:12.5038
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB554
+
+------573C2E9ADF294F348B3B7F3A661FDF36
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear John,=20
+
+We don=E2=80=99t want you to miss Mike=E2=80=99s message from earlier i=
+n the week=2E
+
+He=E2=80=99s right=2E Donald Trump may not win the nomination, but his =
+policies are taking hold in the Republican Party=2E Should they win, ou=
+r Muslim brothers and sisters are going to need a leader who has faced =
+this kind of evil before=2E They=E2=80=99re going to need Congressman H=
+onda standing up in Congress to make sure no group of people in America=
+ ever has to live in fear=2E=20
+
+Make a donation of $3 =E2=80=94 or whatever you can afford =E2=80=94 to=
+ support Mike=E2=80=99s re-election campaign before Thursday=E2=80=99s =
+FEC fundraising deadline=2E https:/secure=2Eactblue=2Ecom/contribute/pa=
+ge/dec2015_eoq_honda?refcode=3Dem20151229&amount=3D3=2E00&recurring=3Dy=
+es
+
+Thanks,
+
+Team Honda=20
+
+
+
+Dear John,=20
+
+I can=E2=80=99t help but fear that history could be on the verge of rep=
+eating itself=2E
+
+In 1941, President Roosevelt signed Executive Order 9066, which confine=
+d over one hundred thousand Japanese-Americans =E2=80=94 myself include=
+d =E2=80=94 into internment camps=2E It forever changed our lives and o=
+ur country=2E Now, the same fear dominates the Republican Party with ca=
+ndidates like Donald Trump proposing similar policies for our Muslim br=
+others and sisters=2E=20
+
+The truth is, I don=E2=80=99t know if Donald Trump is going to be the R=
+epublican nominee, but I believe his policies are now firmly in control=
+ of the GOP=2E And should any of the Republican candidates win in 2016,=
+ I want to be there in Washington to fight back against their hate and =
+bigotry=2E=20
+
+Make a $3 contribution right now to help us meet our FEC fundraising go=
+al =E2=80=94 and tell the Republicans (especially Donald Trump) we won=E2=
+=80=99t let fear win in 2016 >> https:/secure=2Eactblue=2Ecom/contribut=
+e/page/dec2015_eoq_honda?refcode=3Dem20151229&amount=3D3=2E00&recurring=
+=3Dyes
+
+Our government had told us our relocation was for our safety and protec=
+tion=2E But when we saw soldiers with M1s or other rifles coming to our=
+ house to take us away, there was no doubt in our minds that they would=
+ shoot us if we made the tiniest false move=2E
+
+No American citizen should be made to feel this way ever again =E2=80=94=
+ and as long as I remain in the U=2ES=2E Congress, I=E2=80=99ll fight t=
+o make sure no citizen ever has to=2E=20
+
+If you can, please make a contribution of $3 or more to my campaign bef=
+ore Thursday=E2=80=99s FEC fundraising deadline >> https://secure=2Eact=
+blue=2Ecom/contribute/page/dec2015_eoq_honda?refcode=3Dem20151229&amoun=
+t=3D3=2E00&recurring=3Dyes
+
+In solidarity,=20
+
+Mike
+=C2=A0
+
+
+
+---------------------------------------------
+|    Paid For By Mike Honda for Congress    |
+---------------------------------------------
+
+=C2=A0
+
+Honda for Congress
+2050 Gateway Pl
+Suite 100, PMB 218
+San Jose CA 95110 United States
+
+=C2=A0
+
+If you believe you received this message in error or wish to no longer =
+receive email from us, please https://act=2Emyngp=2Ecom/el/-72739593574=
+62608128/5991064496491202304=2E
+------573C2E9ADF294F348B3B7F3A661FDF36
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div align=3D"center">
+=09<div style=3D"color: rgb(0, 0, 0); text-align: left;">
+=09=09<div align=3D"center">
+=09=09=09<div style=3D"font-family: 'Times New Roman'; font-size: mediu=
+m; text-align: center;">
+=09=09=09=09<a data-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el=
+/-7273959357462608128/4549912615732643584?refcode=3Dem20151229&amp;amou=
+nt=3D3=2E00&amp;recurring=3Dyes"><span style=3D"font-family:tahoma,gene=
+va,sans-serif;"><img alt=3D"" height=3D"116" src=3D"https://d1kxpthy2j2=
+ikk=2Ecloudfront=2Enet/Uploads/777/images/1447_1_338_NGPServices_Banner=
+(1)=2Ejpg" style=3D" " width=3D"750" /></span></a></div>
+=09=09=09<div style=3D"font-family: 'Times New Roman'; font-size: 11=2E=
+9999990463257px; text-align: center;">
+=09=09=09=09&nbsp;</div>
+=09=09=09<div style=3D"text-align: left;">
+=09=09=09=09<p dir=3D"ltr" style=3D"line-height: 1=2E38; margin-top: 0p=
+t; margin-bottom: 0pt; text-align: left;">
+=09=09=09=09=09&nbsp;</p>
+=09=09=09=09<div style=3D"text-align: left;">
+=09=09=09=09=09&nbsp;</div>
+=09=09=09=09<div style=3D"text-align: left;">
+=09=09=09=09=09&nbsp;</div>
+=09=09=09=09<p dir=3D"ltr" style=3D"font-family: arial, sans-serif; fon=
+t-size: 12=2E8px; line-height: 1=2E38; margin-top: 0pt; margin-bottom: =
+0pt;">
+=09=09=09=09=09<span style=3D"font-family: georgia, serif; font-size: 2=
+0px; line-height: 27=2E6px; white-space: pre-wrap;">Dear John, </span><=
+/p>
+=09=09=09=09<p dir=3D"ltr" style=3D"font-family: arial, sans-serif; fon=
+t-size: 12=2E8px; line-height: 1=2E38; margin-top: 0pt; margin-bottom: =
+0pt;">
+=09=09=09=09=09&nbsp;</p>
+=09=09=09=09<p dir=3D"ltr" style=3D"font-family: arial, sans-serif; fon=
+t-size: 12=2E8px; line-height: 1=2E38; margin-top: 0pt; margin-bottom: =
+0pt;">
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-fami=
+ly:georgia,serif;"><span style=3D"vertical-align: baseline; white-space=
+: pre-wrap; background-color: transparent;">We don&rsquo;t want you to =
+miss Mike&rsquo;s message from earlier in the week=2E</span></span></sp=
+an></p>
+=09=09=09=09<br style=3D"font-family: arial, sans-serif; font-size: 12=2E=
+8px;" />
+=09=09=09=09<p dir=3D"ltr" style=3D"font-family: arial, sans-serif; fon=
+t-size: 12=2E8px; line-height: 1=2E38; margin-top: 0pt; margin-bottom: =
+0pt;">
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-fami=
+ly:georgia,serif;"><span style=3D"vertical-align: baseline; white-space=
+: pre-wrap; background-color: transparent;">He&rsquo;s right=2E Donald =
+Trump may not win the nomination, but his policies are taking hold in t=
+he Republican Party=2E Should they win, our Muslim brothers and sisters=
+ are going to need a leader who has faced this kind of evil before=2E</=
+span><span style=3D"font-weight: 700; vertical-align: baseline; white-s=
+pace: pre-wrap; background-color: transparent;"> They&rsquo;re going to=
+ need Congressman Honda standing up in Congress to make sure no group o=
+f people in America ever has to live in fear=2E </span></span></span></=
+p>
+=09=09=09=09<br style=3D"font-family: arial, sans-serif; font-size: 12=2E=
+8px;" />
+=09=09=09=09<p dir=3D"ltr" style=3D"font-family: arial, sans-serif; fon=
+t-size: 12=2E8px; line-height: 1=2E38; margin-top: 0pt; margin-bottom: =
+0pt;">
+=09=09=09=09=09<a data-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom=
+/el/-7273959357462608128/4549912615732643584?refcode=3Dem20151229&amp;a=
+mount=3D3=2E00&amp;recurring=3Dyes"><span style=3D"font-size:20px;"><sp=
+an style=3D"font-family:georgia,serif;"><span style=3D"font-weight: 700=
+; vertical-align: baseline; white-space: pre-wrap; background-color: tr=
+ansparent;">Make a donation of $3 &mdash; or whatever you can afford &m=
+dash;&nbsp;to support Mike&rsquo;s re-election campaign before Thursday=
+&rsquo;s FEC fundraising deadline=2E </span></span></span></a></p>
+=09=09=09=09<br style=3D"font-family: arial, sans-serif; font-size: 12=2E=
+8px;" />
+=09=09=09=09<p dir=3D"ltr" style=3D"font-family: arial, sans-serif; fon=
+t-size: 12=2E8px; line-height: 1=2E38; margin-top: 0pt; margin-bottom: =
+0pt;">
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-fami=
+ly:georgia,serif;"><span style=3D"vertical-align: baseline; white-space=
+: pre-wrap; background-color: transparent;">Thanks,</span></span></span=
+></p>
+=09=09=09=09<br style=3D"font-family: arial, sans-serif; font-size: 12=2E=
+8px;" />
+=09=09=09=09<p dir=3D"ltr" style=3D"font-family: arial, sans-serif; fon=
+t-size: 12=2E8px; line-height: 1=2E38; margin-top: 0pt; margin-bottom: =
+0pt;">
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-fami=
+ly:georgia,serif;"><span style=3D"vertical-align: baseline; white-space=
+: pre-wrap; background-color: transparent;">Team Honda </span></span></=
+span></p>
+=09=09=09=09<p dir=3D"ltr" style=3D"font-family: arial, sans-serif; fon=
+t-size: 12=2E8px; line-height: 1=2E38; margin-top: 0pt; margin-bottom: =
+0pt;">
+=09=09=09=09=09&nbsp;</p>
+=09=09=09=09<p dir=3D"ltr" style=3D"font-family: arial, sans-serif; fon=
+t-size: 12=2E8px; line-height: 1=2E38; margin-top: 0pt; margin-bottom: =
+0pt;">
+=09=09=09=09=09&nbsp;</p>
+=09=09=09=09<hr />
+=09=09=09=09<div style=3D"text-align: left;">
+=09=09=09=09=09&nbsp;</div>
+=09=09=09=09<div style=3D"text-align: left;">
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-fami=
+ly:georgia,serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"=
+white-space: pre-wrap; background-color: transparent;">Dear John, </spa=
+n></span></span></span></div>
+=09=09=09=09<br />
+=09=09=09=09<div style=3D"text-align: left;">
+=09=09=09=09=09<p dir=3D"ltr" style=3D"color: rgb(34, 34, 34); font-fam=
+ily: arial, sans-serif; font-size: 12=2E8px; line-height: 1=2E38; margi=
+n-top: 0pt; margin-bottom: 0pt;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-f=
+amily:georgia,serif;"><span style=3D"color: rgb(0, 0, 0); vertical-alig=
+n: baseline; white-space: pre-wrap; background-color: transparent;">I c=
+an&rsquo;t help but fear that history could be on the verge of repeatin=
+g itself=2E</span></span></span></p>
+=09=09=09=09=09<br style=3D"color: rgb(34, 34, 34); font-family: arial,=
+ sans-serif; font-size: 12=2E8px;" />
+=09=09=09=09=09<p dir=3D"ltr" style=3D"color: rgb(34, 34, 34); font-fam=
+ily: arial, sans-serif; font-size: 12=2E8px; line-height: 1=2E38; margi=
+n-top: 0pt; margin-bottom: 0pt;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-f=
+amily:georgia,serif;"><span style=3D"color: rgb(0, 0, 0); vertical-alig=
+n: baseline; white-space: pre-wrap; background-color: transparent;">In =
+1941, President Roosevelt signed Executive Order 9066, which confined o=
+ver one hundred thousand Japanese-Americans &mdash;&nbsp;myself include=
+d &mdash; into internment camps=2E It forever changed our lives and our=
+ country=2E Now, the same fear dominates the Republican Party with cand=
+idates like Donald Trump proposing similar policies for our Muslim brot=
+hers and sisters=2E </span></span></span></p>
+=09=09=09=09=09<br style=3D"color: rgb(34, 34, 34); font-family: arial,=
+ sans-serif; font-size: 12=2E8px;" />
+=09=09=09=09=09<p dir=3D"ltr" style=3D"color: rgb(34, 34, 34); font-fam=
+ily: arial, sans-serif; font-size: 12=2E8px; line-height: 1=2E38; margi=
+n-top: 0pt; margin-bottom: 0pt;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-f=
+amily:georgia,serif;"><span style=3D"color: rgb(0, 0, 0); vertical-alig=
+n: baseline; white-space: pre-wrap; background-color: transparent;">The=
+ truth is, I don&rsquo;t know if Donald Trump is going to be the Republ=
+ican nominee, but I believe his policies are now firmly in control of t=
+he GOP=2E And should any of the Republican candidates win in 2016, I wa=
+nt to be there in Washington to fight back against their hate and bigot=
+ry=2E </span></span></span></p>
+=09=09=09=09=09<br style=3D"color: rgb(34, 34, 34); font-family: arial,=
+ sans-serif; font-size: 12=2E8px;" />
+=09=09=09=09=09<p dir=3D"ltr" style=3D"color: rgb(34, 34, 34); font-fam=
+ily: arial, sans-serif; font-size: 12=2E8px; line-height: 1=2E38; margi=
+n-top: 0pt; margin-bottom: 0pt;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-f=
+amily:georgia,serif;"><span style=3D"color: rgb(17, 85, 204); text-deco=
+ration: underline; font-weight: 700; vertical-align: baseline; white-sp=
+ace: pre-wrap; background-color: transparent;"><a data-form-type=3D"" h=
+ref=3D"https://act=2Emyngp=2Ecom/el/-7273959357462608128/45499126157326=
+43584?refcode=3Dem20151229&amp;amount=3D3=2E00&amp;recurring=3Dyes">Mak=
+e a $3 contribution right now to help us meet our FEC fundraising goal =
+&mdash; and tell the Republicans (especially Donald Trump) we won&rsquo=
+;t let fear win in 2016 &gt;&gt;</a></span></span></span></p>
+=09=09=09=09=09<br style=3D"color: rgb(34, 34, 34); font-family: arial,=
+ sans-serif; font-size: 12=2E8px;" />
+=09=09=09=09=09<p dir=3D"ltr" style=3D"color: rgb(34, 34, 34); font-fam=
+ily: arial, sans-serif; font-size: 12=2E8px; line-height: 1=2E38; margi=
+n-top: 0pt; margin-bottom: 0pt;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-f=
+amily:georgia,serif;"><span style=3D"color: rgb(0, 0, 0); vertical-alig=
+n: baseline; white-space: pre-wrap; background-color: transparent;">Our=
+ government had told us our relocation was for our safety and protectio=
+n=2E But when we saw soldiers with M1s or other rifles coming to our ho=
+use to take us away, there was no doubt in our minds that they would sh=
+oot us if we made the tiniest false move=2E</span></span></span></p>
+=09=09=09=09=09<br style=3D"color: rgb(34, 34, 34); font-family: arial,=
+ sans-serif; font-size: 12=2E8px;" />
+=09=09=09=09=09<p dir=3D"ltr" style=3D"color: rgb(34, 34, 34); font-fam=
+ily: arial, sans-serif; font-size: 12=2E8px; line-height: 1=2E38; margi=
+n-top: 0pt; margin-bottom: 0pt;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-f=
+amily:georgia,serif;"><span style=3D"color: rgb(0, 0, 0); font-weight: =
+700; vertical-align: baseline; white-space: pre-wrap; background-color:=
+ transparent;">No American citizen should be made to feel this way ever=
+ again</span><span style=3D"color: rgb(0, 0, 0); vertical-align: baseli=
+ne; white-space: pre-wrap; background-color: transparent;"> &mdash; and=
+ as long as I remain in the U=2ES=2E Congress, I&rsquo;ll fight to make=
+ sure no citizen ever has to=2E </span></span></span></p>
+=09=09=09=09=09<br style=3D"color: rgb(34, 34, 34); font-family: arial,=
+ sans-serif; font-size: 12=2E8px;" />
+=09=09=09=09=09<p dir=3D"ltr" style=3D"color: rgb(34, 34, 34); font-fam=
+ily: arial, sans-serif; font-size: 12=2E8px; line-height: 1=2E38; margi=
+n-top: 0pt; margin-bottom: 0pt;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-f=
+amily:georgia,serif;"><span style=3D"color: rgb(17, 85, 204); text-deco=
+ration: underline; font-weight: 700; vertical-align: baseline; white-sp=
+ace: pre-wrap; background-color: transparent;"><a data-form-type=3D"" h=
+ref=3D"https://act=2Emyngp=2Ecom/el/-7273959357462608128/46219702097705=
+71520?refcode=3Dem20151229&amp;amount=3D3=2E00&amp;recurring=3Dyes">If =
+you can, please make a contribution of $3 or more to my campaign before=
+ Thursday&rsquo;s FEC fundraising deadline &gt;&gt;</a></span></span></=
+span></p>
+=09=09=09=09</div>
+=09=09=09=09<br />
+=09=09=09=09<div style=3D"text-align: left;">
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-size=
+:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"=
+><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><span =
+style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"><s=
+pan style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap=
+; background-color: transparent;"><span style=3D"font-size:20px;"><span=
+ style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E3=
+8;"><span style=3D"white-space: pre-wrap; background-color: transparent=
+;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,s=
+erif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space:=
+ pre-wrap; background-color: transparent;">In solidarity, </span></span=
+></span></span></span></span></span></span></span></span></span></span>=
+</span></span></span></span></span></span></div>
+=09=09=09=09<br />
+=09=09=09=09<p>
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-size=
+:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"=
+><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><span =
+style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"><s=
+pan style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap=
+; background-color: transparent;"><span style=3D"font-size:20px;"><span=
+ style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E3=
+8;"><span style=3D"white-space: pre-wrap; background-color: transparent=
+;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,s=
+erif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space:=
+ pre-wrap; background-color: transparent;"><span style=3D"font-size:20p=
+x;"><span style=3D"font-family:georgia,serif;"><span style=3D"line-heig=
+ht: 1=2E38;"><span style=3D"font-size:20px;"><span style=3D"font-family=
+:georgia,serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"wh=
+ite-space: pre-wrap; background-color: transparent;"><span style=3D"fon=
+t-size:20px;"><span style=3D"font-family:georgia,serif;"><span style=3D=
+"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap; background=
+-color: transparent;"><span style=3D"font-size:20px;"><span style=3D"fo=
+nt-family:georgia,serif;"><img alt=3D"" height=3D"91" src=3D"https://d1=
+kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/777/images/signature_mh_short=2E=
+png" style=3D" " width=3D"156" /></span></span></span></span></span></s=
+pan></span></span></span></span></span></span></span></span></span></sp=
+an></span></span></span></span></span></span></span></span></span></spa=
+n></span></span></span></span></span></p>
+=09=09=09=09<p>
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-size=
+:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"=
+><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><span =
+style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"><s=
+pan style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap=
+; background-color: transparent;"><span style=3D"font-size:20px;"><span=
+ style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E3=
+8;"><span style=3D"white-space: pre-wrap; background-color: transparent=
+;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,s=
+erif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space:=
+ pre-wrap; background-color: transparent;"><span style=3D"font-size:20p=
+x;"><span style=3D"font-family:georgia,serif;"><span style=3D"line-heig=
+ht: 1=2E38;"><span style=3D"font-size:20px;"><span style=3D"font-family=
+:georgia,serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"wh=
+ite-space: pre-wrap; background-color: transparent;"><span style=3D"fon=
+t-size:20px;"><span style=3D"font-family:georgia,serif;"><span style=3D=
+"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap; background=
+-color: transparent;"><span style=3D"font-size:20px;"><span style=3D"fo=
+nt-family:georgia,serif;">Mike</span></span><br />
+=09=09=09=09=09&nbsp;</span></span></span></span></span></span></span><=
+/span></span></span></span></span></span></span></span></span></span></=
+span></span></span></span></span></span></span></span></span></span></s=
+pan></span></p>
+=09=09=09=09<p dir=3D"ltr" style=3D"line-height: 1=2E38; margin-top: 0p=
+t; margin-bottom: 0pt; text-align: center;">
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-size=
+:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"=
+><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><span =
+style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"><s=
+pan style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap=
+; background-color: transparent;"><span style=3D"font-size:20px;"><span=
+ style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E3=
+8;"><span style=3D"white-space: pre-wrap; background-color: transparent=
+;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,s=
+erif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space:=
+ pre-wrap; background-color: transparent;"><span style=3D"font-size:20p=
+x;"><span style=3D"font-family:georgia,serif;"><span style=3D"line-heig=
+ht: 1=2E38;"><span style=3D"font-size:20px;"><span style=3D"font-family=
+:georgia,serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"wh=
+ite-space: pre-wrap; background-color: transparent;"><span style=3D"fon=
+t-size:20px;"><span style=3D"font-family:georgia,serif;"><span style=3D=
+"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap; background=
+-color: transparent;"><span style=3D"font-family:tahoma,geneva,sans-ser=
+if;"><a data-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el/-72739=
+59357462608128/4621970209770571520?refcode=3Dem20151229&amp;amount=3D3=2E=
+00&amp;recurring=3Dyes"><img alt=3D"" height=3D"100" src=3D"https://d1k=
+xpthy2j2ikk=2Ecloudfront=2Enet/Uploads/777/images/Honda_Contribute=2Epn=
+g" style=3D" " width=3D"300" /></a></span></span></span></span></span><=
+/span></span></span></span></span></span></span></span></span></span></=
+span></span></span></span></span></span></span></span></span></span></s=
+pan></span></span></span></span></p>
+=09=09=09=09<div style=3D"font-family: 'Times New Roman'; font-size: 11=
+=2E9999990463257px; text-align: center;">
+=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-size=
+:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"=
+><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><span =
+style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"><s=
+pan style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap=
+; background-color: transparent;"><span style=3D"font-size:20px;"><span=
+ style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E3=
+8;"><span style=3D"white-space: pre-wrap; background-color: transparent=
+;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,s=
+erif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space:=
+ pre-wrap; background-color: transparent;"><span style=3D"font-size:20p=
+x;"><span style=3D"font-family:georgia,serif;"><span style=3D"line-heig=
+ht: 1=2E38;"><span style=3D"font-size:20px;"><span style=3D"font-family=
+:georgia,serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"wh=
+ite-space: pre-wrap; background-color: transparent;"><span style=3D"fon=
+t-size:20px;"><span style=3D"font-family:georgia,serif;"><span style=3D=
+"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap; background=
+-color: transparent;">&nbsp;</span></span></span></span></span></span><=
+/span></span></span></span></span></span></span></span></span></span></=
+span></span></span></span></span></span></span></span></span></span></s=
+pan></span></span></div>
+=09=09=09=09<div style=3D"font-family: 'Times New Roman'; font-size: 11=
+=2E9999990463257px;">
+=09=09=09=09=09<div style=3D"text-align: center;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-s=
+ize:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20p=
+x;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><sp=
+an style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"=
+><span style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-w=
+rap; background-color: transparent;"><span style=3D"font-size:20px;"><s=
+pan style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E=
+38;"><span style=3D"white-space: pre-wrap; background-color: transparen=
+t;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,=
+serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space=
+: pre-wrap; background-color: transparent;"><span style=3D"font-size:20=
+px;"><span style=3D"font-family:georgia,serif;"><span style=3D"font-siz=
+e: 20px;"><div style=3D'text-align: center;' class=3D'disclaimer-info'>=
+<table style=3D'border: 1px solid #000; margin: auto;'><tbody><tr><td s=
+tyle=3D'padding: 8px; text-align: center;'>Paid For By Mike Honda for C=
+ongress</td></tr></tbody></table></div></span></span></span></span></sp=
+an></span></span></span></span></span></span></span></span></span></spa=
+n></span></span></span></span></span></span></div>
+=09=09=09=09=09<div style=3D"text-align: center;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-s=
+ize:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20p=
+x;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><sp=
+an style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"=
+><span style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-w=
+rap; background-color: transparent;"><span style=3D"font-size:20px;"><s=
+pan style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E=
+38;"><span style=3D"white-space: pre-wrap; background-color: transparen=
+t;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,=
+serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space=
+: pre-wrap; background-color: transparent;"><span style=3D"font-size:20=
+px;"><span style=3D"font-family:georgia,serif;"><span style=3D"line-hei=
+ght: 1=2E38;"><span style=3D"font-size:20px;"><span style=3D"font-famil=
+y:georgia,serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"w=
+hite-space: pre-wrap; background-color: transparent;"><span style=3D"fo=
+nt-size:20px;"><span style=3D"font-family:georgia,serif;"><span style=3D=
+"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap; background=
+-color: transparent;">&nbsp;</span></span></span></span></span></span><=
+/span></span></span></span></span></span></span></span></span></span></=
+span></span></span></span></span></span></span></span></span></span></s=
+pan></span></span></div>
+=09=09=09=09=09<div style=3D"text-align: center;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-s=
+ize:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20p=
+x;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><sp=
+an style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"=
+><span style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-w=
+rap; background-color: transparent;"><span style=3D"font-size:20px;"><s=
+pan style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E=
+38;"><span style=3D"white-space: pre-wrap; background-color: transparen=
+t;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,=
+serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space=
+: pre-wrap; background-color: transparent;"><span style=3D"font-size:20=
+px;"><span style=3D"font-family:georgia,serif;"><span style=3D"font-siz=
+e: 20px;"><div style=3D'text-align: center;' class=3D'org-address-info'=
+>Honda for Congress<br/>2050 Gateway Pl<br/>Suite 100, PMB 218<br/>San =
+Jose CA 95110 United States</div></span></span></span></span></span></s=
+pan></span></span></span></span></span></span></span></span></span></sp=
+an></span></span></span></span></span></div>
+=09=09=09=09=09<div style=3D"text-align: center;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-s=
+ize:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20p=
+x;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><sp=
+an style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"=
+><span style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-w=
+rap; background-color: transparent;"><span style=3D"font-size:20px;"><s=
+pan style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E=
+38;"><span style=3D"white-space: pre-wrap; background-color: transparen=
+t;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,=
+serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space=
+: pre-wrap; background-color: transparent;"><span style=3D"font-size:20=
+px;"><span style=3D"font-family:georgia,serif;"><span style=3D"line-hei=
+ght: 1=2E38;"><span style=3D"font-size:20px;"><span style=3D"font-famil=
+y:georgia,serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"w=
+hite-space: pre-wrap; background-color: transparent;"><span style=3D"fo=
+nt-size:20px;"><span style=3D"font-family:georgia,serif;"><span style=3D=
+"line-height: 1=2E38;"><span style=3D"white-space: pre-wrap; background=
+-color: transparent;">&nbsp;</span></span></span></span></span></span><=
+/span></span></span></span></span></span></span></span></span></span></=
+span></span></span></span></span></span></span></span></span></span></s=
+pan></span></span></div>
+=09=09=09=09=09<div style=3D"text-align: center;">
+=09=09=09=09=09=09<span style=3D"font-size:20px;"><span style=3D"font-s=
+ize:20px;"><span style=3D"font-size:20px;"><span style=3D"font-size:20p=
+x;"><span style=3D"font-size:20px;"><span style=3D"font-size:20px;"><sp=
+an style=3D"font-size:20px;"><span style=3D"font-family:georgia,serif;"=
+><span style=3D"line-height: 1=2E38;"><span style=3D"white-space: pre-w=
+rap; background-color: transparent;"><span style=3D"font-size:20px;"><s=
+pan style=3D"font-family:georgia,serif;"><span style=3D"line-height: 1=2E=
+38;"><span style=3D"white-space: pre-wrap; background-color: transparen=
+t;"><span style=3D"font-size:20px;"><span style=3D"font-family:georgia,=
+serif;"><span style=3D"line-height: 1=2E38;"><span style=3D"white-space=
+: pre-wrap; background-color: transparent;"><span style=3D"font-size:20=
+px;"><span style=3D"font-family:georgia,serif;"><span style=3D"font-siz=
+e: 20px;">If you believe you received this message in error or wish to =
+no longer receive email from us, please  <a href=3D"https://act=2Emyngp=
+=2Ecom/el/-7273959357462608128/5991064496491202304" class=3D"unsubscrib=
+e-link">unsubscribe</a>=2E</span></span></span></span></span></span></s=
+pan></span></span></span></span></span></span></span></span></span></sp=
+an></span></span></span></span></div>
+=09=09=09=09</div>
+=09=09=09</div>
+=09=09</div>
+=09</div>
+=09<div style=3D"font-size: 11=2E9999990463257px;">
+=09=09<div>
+=09=09=09&nbsp;</div>
+=09</div>
+=09<p>
+=09=09&nbsp;</p>
+=09<p>
+=09=09&nbsp;</p>
+</div>
+<p>
+=09&nbsp;</p>
+<img src=3D'https://act=2Emyngp=2Ecom/el/-7273959357462608128/469402780=
+3808499456' />
+------573C2E9ADF294F348B3B7F3A661FDF36--

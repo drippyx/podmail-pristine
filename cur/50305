@@ -1,0 +1,695 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp3295899lfb;
+        Tue, 22 Dec 2015 10:50:20 -0800 (PST)
+X-Received: by 10.66.164.70 with SMTP id yo6mr38009452pab.36.1450810220728;
+        Tue, 22 Dec 2015 10:50:20 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1bon0094.outbound.protection.outlook.com. [157.56.111.94])
+        by mx.google.com with ESMTPS id cm4si4954287pad.81.2015.12.22.10.50.20
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Tue, 22 Dec 2015 10:50:20 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.94 as permitted sender) client-ip=157.56.111.94;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.111.94 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=neutral (body hash did not verify) header.i=@bounce.bluestatedigital.com
+Received: from DM2PR07CA0042.namprd07.prod.outlook.com (10.141.52.170) by
+ CO2PR07MB538.namprd07.prod.outlook.com (10.141.199.15) with Microsoft SMTP
+ Server (TLS) id 15.1.355.16; Tue, 22 Dec 2015 18:50:17 +0000
+Received: from BN1BFFO11FD012.protection.gbl (2a01:111:f400:7c10::1:117) by
+ DM2PR07CA0042.outlook.office365.com (2a01:111:e400:2414::42) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Tue, 22 Dec 2015
+ 18:50:17 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.bluestatedigital.com;gmail.com; dmarc=permerror
+ action=none header.from=turnoutpac.org;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BN1BFFO11FD012.mail.protection.outlook.com (10.58.144.75) with Microsoft SMTP
+ Server (TLS) id 15.1.355.15 via Frontend Transport; Tue, 22 Dec 2015 18:50:16
+ +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (141.161.191.14)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Tue, 22 Dec 2015 13:49:46 -0500
+Received: from SN1PR0701CA0003.namprd07.prod.outlook.com (10.162.96.13) by
+ CO2PR07MB539.namprd07.prod.outlook.com (10.141.199.16) with Microsoft SMTP
+ Server (TLS) id 15.1.355.16; Tue, 22 Dec 2015 18:49:45 +0000
+Received: from BL2FFO11FD013.protection.gbl (2a01:111:f400:7c09::143) by
+ SN1PR0701CA0003.outlook.office365.com (2a01:111:e400:5173::13) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Tue, 22 Dec 2015
+ 18:49:44 +0000
+Authentication-Results: spf=pass (sender IP is 69.25.202.75)
+ smtp.mailfrom=bounce.bluestatedigital.com; law.georgetown.edu; dkim=pass
+ (signature was verified)
+ header.d=bounce.bluestatedigital.com;law.georgetown.edu; dmarc=permerror
+ action=none header.from=turnoutpac.org;
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.bluestatedigital.com designates 69.25.202.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=69.25.202.75;
+ helo=mta-dock-front-4.bluestatedigital.com;
+Received: from mta-dock-front-4.bluestatedigital.com (69.25.202.75) by
+ BL2FFO11FD013.mail.protection.outlook.com (10.173.160.221) with Microsoft
+ SMTP Server (TLS) id 15.1.355.15 via Frontend Transport; Tue, 22 Dec 2015
+ 18:49:44 +0000
+Received: from bounce.bluestatedigital.com (unknown [10.0.200.94])	by
+ mta-dock-front-4.bluestatedigital.com (Postfix) with ESMTP id
+ 3pQ6Cr20N6z1spWf	for <podesta@law.georgetown.edu>; Tue, 22 Dec 2015 18:49:44
+ +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=bounce.bluestatedigital.com; s=bsdkey; t=1450810184;
+	bh=s25YLV/iqk7F3QBfzSoNOvhyIt5DySX3cUBV76FWv+A=;
+	h=Date:To:From:Reply-to:Subject:List-Unsubscribe;
+	b=fKoCTc6kcQ2VRvp4HiM6CGw8G+jPEdQcxXDibJLes6RM9lDKZdl4cyEAkWkIgyA+W
+	 IcQvR8xL0GB0FvpaHbjv8X0QjnIvUVEQq9N4hYk0PUGtlV9x0IFVt4M1Itr/dsN4qB
+	 lOZf9/8Di7QZBSOizbeP9ekFeanBOeBCjBA9mXiY=
+Received: from phpmailer 	by bounce.bluestatedigital.com with local
+ (PHPMailer);	Tue, 22 Dec 2015 18:49:44 +0000
+Date: Tue, 22 Dec 2015 18:49:44 +0000
+To: John Podesta <podesta@law.georgetown.edu>
+From: "Harry Pascal, TurnoutPAC.org" <admin@turnoutpac.org>
+Reply-To: <admin@turnoutpac.org>
+Subject: checking in -- wanted to share this with you John
+Message-ID: <a9d0b9ce4f758ff5f10e29b51f7e267d@bounce.bluestatedigital.com>
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 663e0ac303909aab
+X-rpcampaign: rp_2607
+X-maillist-guid: ERBEWwwREj1TBQNQAQRQUlMKCQINVgRRa0ldB1NHQQUlCVdCTQMDWxdUVUFeEl1PBl1FOwAAXA
+List-Unsubscribe: <http://go.turnoutpac.org/unsubscribe?email=podesta%40law.georgetown.edu>, <mailto:ERBEWwwREj1TBQNQAQRQUlMKCQINVgRRa0ldB1NHQQUlCVdCTQMDWxdUVUFeEl1PBl1FOwAAXA@bounce.bluestatedigital.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_a9d0b9ce4f758ff5f10e29b51f7e267d"
+Return-Path: podesta@law.georgetown.edu
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD013;1:8mV31ljmuZeKQHivM46kbu3Qy2W66tgW/j4zBY2ncDwYMNjDlY3zh4Sq63MSSKYZxoEAGYBQ1HcCXOLqk1LMNKxvXpKZvNMfHm7R6ep/5uHMsnoCjlDSoUD8tXfG5vI4hngYW0eAYTifNUEO7/U4gd3N3PxMFymL/2m0Jw+EU5yOc39p7RTEatlL0Zq/uFAm2mUbzqr+IpdU2TsTihaImUcoYeflb9avCVjp+k1/IcZfBEtyOvc6bHFX0pM2HgF5HsakqbGcXlXlc87WGOx4rnbiTLnk89zH/upEnY8/4QNYi2JTnrSsEdIWLv5S7oq8zqnEWL11epTf/VwwfO21/F5Ts73f3kChhlc7CUtxsgjUGoxV4WZ8MsWM9Q0saqWQe3SHf/UtZ+AWLYfZd5S0HieD2cSM+a6kUlgyughGCDs=
+X-Forefront-Antispam-Report-Untrusted: CIP:69.25.202.75;CTRY:US;IPV:NLI;EFV:NLI;SRV:BULK;SFV:SPM;SFS:(31640200002)(2980300002)(438002)(359002)(36882002)(349900001)(349012);DIR:INB;SFP:;SCL:9;SRVR:CO2PR07MB539;H:mta-dock-front-4.bluestatedigital.com;FPR:;SPF:Pass;PTR:mta-dock-front-4.bluestatedigital.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB539;2:uD8NCVUYvPwDCFUZ5prSUdORLjjHpHOlux+XMzPo62Zw2FSuk4goaNMRT6ZYzPqHFDFD0bLRPLkHRp22NvhoV4/72kW77OGNrT8Nzs9S1TNGSmD4xPsweXaGVY0bahhBlNUeZ74AE7rIYeL3Hf31rQ==;3:hS2tfaS9JiRVYEzNTgSF60SSMwO+FZ54PtegOZ35mXpcGS0qYXRr/GmnZRustE3xdMZveiaGcm8d60EGlM4lRkiV0tg2sRyyxuh/HSpkm79C3oT9uOevLUx/eV6pFwFxv/7K5Zjih1EU9ix/hGKQAbVlYH5IDYXAzWCJhJ0Its91Ze19VpJG2suq7JZ7I5Vymc1z+R3SvY9iqpsROFNh4DiWzrQFDQ89C3ex64+8alkF1d7KRNKfPTQCElEPivE+S5fgMARWamNKhG6Wnt83eaynuSckSGGHOB+9Z8+GPWGysS3rFD91ASBj6ZrrnbINOLHiqlB4kN29WuZp6d3B5nZ19h2EcAM9fsxriVeax9pGJt+OpC1VgclNkMQ2CXiwCW1Mf8jHEbpri2lvAmxlPw==;25:AxrfiIZe0DBd9buD6CbwLpw4PybTp5dolr5Gr3kmrlUWlwxh4zuOb550YS0Z8nWyGAebvueO7ocDZGvMc0H0KpjS4hUpZNnTfgejYphV4L/V6HDFhJ67ZoJ+kkPMOZpXvOF89Vx/IC/bX70jlGpMmnS/iS+YJvQOjwVlVvVWMjmDgZXmzT4Pp7O8GYHud8nFW/BxecKE+fGUSpcwBgl6C6oMHLsImM3kkZXutgfyPd88GCzo1sLH5Efjj5w3cJGfRXrfBLtO96kzZK6fUu0tcA==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(421252001)(42134001)(42139001)(240001)(3001015)(116001)(71701003)(71702001);SRVR:CO2PR07MB539;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB539;20:7iX0InWFZARlZFq/cIPbJTUL5Fdp9QecwxLgKFgKaafPrGp4Y2o3Ph8mQBu1Wt9BPKWXhny5XCHkroFBfsh1MtbvSUYKv5Mbun3cz45MmpYA8GrLj5HP+tw/GN9PC14lC+7oDS8ANDqmC76xIEEjyB8JVxdOG7EKV+WnZnR3VVH0YOJCOG8SFqouvziVP+08+bMXffJKJbVeDH3Sg2Az6mo+FRgIJp5hg4QgkhD13McQZERUkp9v4cGsna/HxIdJaeLm2HvqKj/Yk5rXcRUwPsobIkBsj73VAqI49UWpw/5ZmUsR75kCO+vtDAi4uma3uCrvBeevtT8BPT9yA0TLXffvOVLCr3mf9uzmH6t/W7qf6IGP3UHFE320zZpwywsfDPScMNL6t6L0Iu1m5IW7x3NCjdv7qwPjlXO7ctKZD1w=;4:MGfgVU6TvNduZbM6o7/0T/haV9rPn9IS1ZuwoPsTVnyWGG/64Hpbw6TiEJUFHJrgoKOTK0empsGNWsCLOz6z5ceW92BH6OWQP6WXT8xRIvQPjqyWhscEJCyPUF77Vyf7p1ut6Cuzst9RRDFaQnUlmszGrZmLCeeUtzvN8T7OJoQ9i6npCETJIbEa1qw4jUIV61HUBVKQXyujktxvdRuAAaX/NZUMuc1QdqIMnyMZAcyjVKf/s97qGkNVgMgyLo9gd7nyNZu/V1z/WvDODC8MO0uSEpAOZYGgrOl9bZTCm1aJSU4TBuRlHmEK931MMm3puoAtUu60IWd/yaT33QW6Uh4hjI7U2sTlEr9NO4N6JUF2gbUeYFdztR+Pn+op9LNsrQ08P3/J5fnTEYLcFSyLVVfHw3orEzni58r9Vzsl1mOFgkaYnqWtZWWsfRMPde//g+ypDhZ/hYkUOGckT2JNvNaxxLsd103/DSIeeZg/dEw=
+X-Exchange-Antispam-Report-Test:
+	UriScan:(76009858676777)(6594202986349);UriScan:(76009858676777)(6594202986349);
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(5011007)(5010005)(520078)(8121501046)(3002001)(10201501046);SRVR:CO2PR07MB539;BCL:8;PCL:0;RULEID:;SRVR:CO2PR07MB539;BCL:0;PCL:0;RULEID:(601004)(2401047)(520078)(5005006)(8121501046)(3002001)(10201501046);SRVR:CO2PR07MB538;BCL:0;PCL:0;RULEID:;SRVR:CO2PR07MB538;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB539;23:hzSt2gi2LVoxj0gCEH+49EkEZvwws8QXY6hWQL/K6vzeoB4w6Gao44UuIhp4jjm6sqfNT0hFoyFcFjhcwO/j878d4meaoGtWDDcP1HTaqn8R9F25QLO/6bmA8x8ydS6TfviDPneXbm4jHf2Q8sWJKJ4VtsCZfvJkNTBtkNeZiJhA6cFNK/BkGJRCW65PpEHWk3x4mC5XD7Tq/UXlJq8CBSXbCfVftZuKTD1h8npzDlkoHBKXkWTHnNVuDlhTzdzMld0671gUgnH00fRuUbzmM0OMhnoQnUBBBYit0fYpila+OybYerXYiwF+NP2605sthJHyCCdvMNCrkls7nRWfUjtAyJrpouzx/3IqgqZuZr8=;5:JySqYO3Cx2Bnx60iyic/3Qx+uSe017jnWF6J/dEKIQb1M2Zg7wBBtsZIxpBEdikJ4920WvdgR09pSHWx6EQXGU105HQhcffrgLqqZsKL2hfrXSqfb2mhf7t0U0OyeW9xinuxZPP6b2E1ZfyzZuFtbA==;24:NPUTjl6LHA5fHh0KopqdY4TIdKLLJ2Ae6OLa/eYNrGGoj61CesL7bARPkcB1wHLgN3Ecaozfk/HWYbn3zMjaLw==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB539
+X-OrganizationHeadersPreserved: CO2PR07MB539.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1BFFO11FD012.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD012;1:uliBEa/KLaqbJZ4+0pPFpo7QLIR4AGOM+2QrriHenfYZmsSuZSIZRqJCsBhPE0l0js4vGlUZphDV+ThPvz2Gx0VfxVyGLlwP6UWRmKgGy9+nne/Zq8hhh8pOVecazEtDJD+5H8hESYFC+wRVi2D/ntlA04sJMGuoDqKu30mEDliGCB+FY9rRX/Y4b7G9PZ6nbVKRW5I7F3GwwX+vJVFpeIpuvcQWyoeAZH4DsW9VxKEi2uvz+/u7g+b+Zdps1M9nBlgWSdkjEOHvwB+5URjdDNRoghClTGHEexPF0SRrm+MBPu9VWlMgB+jjjD6xRr+HczMKObq633UDRZV4K0nvDQYpYa6TuJ7M2LLR8/qa3qqthLPLoa/TwRQ/z4Rdlr5why1TcHcLegw7c83ooeolhg==
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.75;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1110001)(1109001)(339900001)(36882002)(199003)(189002)(1096002)(5008740100001)(6806005)(960300001)(586003)(1220700001)(46656002)(53806999)(24736003)(84326002)(19625735002)(75432002)(1720100001)(88552001)(85426001)(33646002)(19617315012)(15975445007)(18926415007)(1860700003)(15395725005)(229853001)(110136002)(23466002)(43066003)(50226001)(189998001)(146001)(956001)(50986999)(19580395003)(107886002)(5001960100002)(19580405001)(5002220100002)(2171001)(19618635001)(89996002)(87936001)(512874002)(4290100001)(18206015028)(3820100002)(450100001)(19630485002)(105606002)(57986006)(4001450100002)(19625215002)(106466001)(81156007)(11100500001)(97736004)(108616004)(47976999)(7029013)(7099028)(95576001)(42882005);DIR:OUT;SFP:1101;SCL:1;SRVR:CO2PR07MB538;H:mail.law.georgetown.edu;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics:
+	1;CO2PR07MB538;2:A/vNUjgeEb7wTEUSCsHxk14ftF3KFFBPN4R8uAu6Z6qdheqXVDsGQfwk5VPIrwvLzjLU9yp0czpcqys7Ni3NzuPfx+pYPPOnrsD9kcEAaW1IjwUJgstzR+3n14Q3V/NkI94sOohb3sAlUrt41ozJnw==;3:TSWW9oRK4dAvzNgVjHbMWVu95zOCDClEN9rpt2p7TKb25aNqcY94bp8Q0y8vOfA7ufNQMYkwwHlzD5cN5KlMSYCLaVD6LDFcR9bAfjx/kLU6myPVqAuqNioF2W67FiISX2lOUgVXF37Y1cYEn7YLHILWnKuayc/ASceH+BEwrVg2Nq/vtLy0wDaRdYdbB10Jle5Rzrc//j6z6uM7q44KFyDBNGBm0K0KDJ0gqp7O69myUqpmsZfUwGOKuaJQxem4px/R2Mc4XwDNpxNbksNRIohNycUBNDnxUbvMt9S/sMw5EpYpalk1Eh2v1Duy4e/h;25:O2Dva4NjbwAEot8Xm7DidVFhV1U6enXfYUIZod4HbqFDSLTi24RPx7icyzLSk9Jtbqz88i2QX+cT10iu7JYpnRHmVJeRPDZnAbBbXTkZr2hX23AnXaIqBPh8R42W206pMcvyJ9QwVDmH/IZnIDjxj4RcSGiCa+K7q3xITKeucE3beMXHhQjsBQ+GeyWdDFFj09TyO/F30E5t3fB/ng9gBbBSRi+jrGHokSY1bNEWeynXrBiLE21Ay+Z847iShJgJ91XPu0AgnFDMct8ET/VIOg==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(421252001)(42134001)(42139001)(3002015);SRVR:CO2PR07MB538;
+X-Microsoft-Exchange-Diagnostics:
+	1;CO2PR07MB538;20:EUDjkGY6tEYHF8IVvUM0hdwLP7VHemvtUr8dbUA00ChCLzBq1X8fF/lsgxBGTOwG1cHWz9Okb1+wd7GnJANhhM5ie0Jxs/R4hfiwUdFUMhwaWI73Pf//avaf0xuL7KATZ8cpL65Mue2hoP2f0uO2L730pLgpFDLPTs9APxUk9QFsGMe3Dddk6Pn7YO7ruc9qFJALVDO99AT6f3xZY+R5sAZ0tAnqy329DL/ZQoLaMacea+/P0ktnlg53/MvYYEzbmF68gXZ4pE3OHZKFfyRJ5C8LABPZYZu72uAF0d4g+jhD6wz/2xsPdw3EljugfrhwRjy2QWorRq4oJvPMT/2crjTo+r4DN/pCaOVBVNgq/kw1LeC6G+AxJ9/4/kjlrGr/9e+a4yNYgqR8Hhn8GL+Ek6GNWe0V8+UZpvxBUN5cn1I=;4:DXWurIJq1mw9dFSBnIJC1KnxMboG/3O1ohEvvKAzg8bdK4ZSCXUQaQjnFJxNdIkQ4PNZdKSndc+cD6vtW5dnzKDtmVXyKwhrRb5r+bx0qwgZ+Chvz9ZQVB1n6vulJT3VOYs9enSFKcW3vN7vvr/yoD2B0GkLNBq271852gXzp435l3c/npzl98NXErntUwpu8iXFlA5G1OmcUx6YuPbWwlKWHb23sW9xCtHjYjLFJYFv4yhLqTHHJorQcj04u8doOm10ND9zfzaurmaspCjcwD6LcOcw9Hb8dVhb27srtOU61Xqgcc+7TZo89m1yOj1THaLS6aQ6P1Cjx3cUNzaPnUfhlcog15RqGofMByBk0MqgPilrU7pQUoAmdzm76aPJkLGaG84MqliJTzFWIiTVNcEMk4WKk6bwqfncI0b+qYbrRuSXgB6Rc4GFGeFcQfP0Nagjgb4wJOe5jpk5vW3wWA==
+X-Microsoft-Antispam-PRVS:
+	<CO2PR07MB53887DA5C122E3D81B6654293E50@CO2PR07MB538.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 0798146F16
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;CO2PR07MB538;23:V5cOxTllZV/Q5mRxVQQfSM+lMEnxmjX5i2r5w6w7F4?=
+ =?us-ascii?Q?3opB/feOxiIre89wXk9/HADAnCeDgPQgne2D5PkEcgegRkia0SBQhIX+g+L0?=
+ =?us-ascii?Q?srG7VTSdh92EAfpt6yp+U60HilCL0YZav3KyJGIkc+wBJJUSrkalxxkLZKv9?=
+ =?us-ascii?Q?D2/4jykqb3J5fMjnSj90JpRSYIvzR7n14Jd3dKM9rkmufgMT2HzpgD1RfX4Q?=
+ =?us-ascii?Q?E22X0m6kGUohTm56eOqCcpgJH64khc6waHV4NKiq1bal999aBlW3zei4dyrZ?=
+ =?us-ascii?Q?fz3YpqLMzfRk3ApU7g+rErgEjFKKzr6G042kKJ3rVl7oYEyTVFq6qjndgTe0?=
+ =?us-ascii?Q?ACqkxnRHzGmQ6IMq89aIDRZ6DwBzQSSIhYtyhyeawQp5w0M6CagVAy06GRB7?=
+ =?us-ascii?Q?BaTE7z6N1wo4F/dzwwDq6yq5Rm4Kl0MVsMyaDhNtfvkZ0g4xaVvWZQYyc6XY?=
+ =?us-ascii?Q?DuI6ygDiiGRmXg+F+x8IV4JM4IN2vcPpLo4wjTY4VaLsqz3bRdlfkVGwjm22?=
+ =?us-ascii?Q?6tk3ynfeSRm1Gzc7e73qh3cgy9w41bq1nXGGfEop1MUeQq3XEgY6MHrTEQOK?=
+ =?us-ascii?Q?uWbfOIFF9FZzwud+F/3J8dZUDcu59xHz+NZ3JIUshs0ge8XtdbNdeF9t1NSL?=
+ =?us-ascii?Q?/+bT8iVOhsVXziQLYWwhVJ4D2lLbx1iYouKT/xcptxBO57idN1OOI2EQCCrv?=
+ =?us-ascii?Q?cY8hPPNPO53N1E4aE0HlnOLQoCpUVufP+/syeWwBeDCXaCuMKY8XORIN1WiL?=
+ =?us-ascii?Q?0nKp4gm3JbvEhl+i5506OmWhRXuvH1LAUbew2clgIgzi4FWrcv85gTGywU6O?=
+ =?us-ascii?Q?O5AL1Xt5DYI0IhSIsOuItMPlYk0PIoqoWHUpot50vjKoOIWde8NUeeb+KJfD?=
+ =?us-ascii?Q?MeUwjSv7rrZuibOxAdchoqgXJTKj+/YTRMUkcNwb6dl7huYlQTJJ929gPXjz?=
+ =?us-ascii?Q?HwhqrDTuldtN+vAo4CkePX9tzJcGwISK/eAUhBTTM6LAP2HVYSapGBqvAWxz?=
+ =?us-ascii?Q?a9sWPQji3dRzTPTlQGr8fALDSuvPavd7HrKdD9fHDRes1o6bpy31ERrND3e4?=
+ =?us-ascii?Q?Mz7zUmVFjv/naiJas8nM0jwe+1LPzmwSTKXvji11Z293ehNzt3LgLMG7JynT?=
+ =?us-ascii?Q?jsvRGlHzwqPH7Koz69cr+6oH5pNF68kSXozcVNDQ1mLn7U3EOzVY7YdGMoeD?=
+ =?us-ascii?Q?cMVR9ex1+swWLIaxEPsmRH/mEHt9lTpvh9qa0ZsBqJvthH7Kws1lzvNZ629x?=
+ =?us-ascii?Q?g2eJi+bLRqeHA76iSB/RtAZbxx5NpfH5I4L7xZ0goviY9lXgxrw/GpXE5Xam?=
+ =?us-ascii?Q?nNDbPJxaRNQwqIs0tnxIFr+Mzg2+M0sOhjLYlEEt1QClxV5l7AZ6D9kRlFV7?=
+ =?us-ascii?Q?j2FkyOmjc78MYwfli7xOGm61V7gyw1XN842o2Tls9ZRkKAeAlxEYoCZUAXdi?=
+ =?us-ascii?Q?DuTU8ePxFpz9Ynabmy2qjCRnh/OSvelNKLQh5TtLttPe83pAEknMjYSUq8Fc?=
+ =?us-ascii?Q?jcm/WTQYj+fW67XMwjEeBx4F2OQtK4XuJ2NMnB190hVM6cNyqhy6pahOfXiT?=
+ =?us-ascii?Q?MMCMpXKjxB/oTgpaTjKXH1CFsNdzXajIV0t2rvRuolYvGtJy6WhBcojT/t//?=
+ =?us-ascii?Q?4cz3hRM7z/efFPIwY8oO5KcADjU/l+9q1ZpWEDP8Qtk/9Ciw/pwZeYOnFPkT?=
+ =?us-ascii?Q?wLFVZk/kdb/zi5AVAa59EmKA=3D=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;CO2PR07MB538;5:8naOCt1BEHflhM1mTbiRj074JTRmv/fUkuMYhtulpMK+lO0W2FL/ZxpR7ocqWd7g/gg69pngfn3kU1YBjtfbVEVI16weM/dd4goYwGZmNSMj1/KxlYkjQdquugffyRdcwVjl4+YgfleWmQhPCnJfgg==;24:3bhbd79p6Ni0lk+pv9Z9oyc1VWhgyC5vXvM7/cySzf81C/WDdNlosTsmg1LD6NrhGrTXCR7FoBZgvfz8opoMgBKg9rkN2RUNQJiUoqtoZe8=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Dec 2015 18:50:16.6150
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB538
+
+--b1_a9d0b9ce4f758ff5f10e29b51f7e267d
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+John,
+
+I've been reflecting on the hard work and incredible rewards that have =
+defined this year for our new organization.
+
+I can't tell you how much I value you being a part of it.
+
+Together, we're building a grassroots organization with the power to boost =
+Democratic voter turnout in 2016 -- and to protect the progressive values =
+we believe in for years to come.
+
+But this won't be easy, and success will only come if you continue to =
+stand with us. I'd be thrilled to see you become an Original Member of our =
+organization before 2015 comes to a close.
+
+Will you join this select team of supporters who are committed to building =
+our organization from the ground up? Chip in $5 right now and become an =
+Original Member:
+
+http://go.turnoutpac.org/Donate
+
+Original Founding Member
+
+JOHN PODESTA
+PENDING
+http://go.turnoutpac.org/Donate
+
+Thank you so much for helping us build this organization,
+
+- Harry
+
+--
+
+Harry Pascal
+
+Co-founder
+
+Progressive Turnout Project----
+
+This email was sent to podesta@law.georgetown.edu.
+
+To unsubscribe, go to:=20
+  http://go.turnoutpac.org/unsubscribe
+
+Paid for by Progressive Turnout Project and not authorized by any =
+candidate or candidate's committee.
+
+
+--b1_a9d0b9ce4f758ff5f10e29b51f7e267d
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<?xml encoding=3D"UTF-8"??>
+<html><head><meta content=3D"text/html; charset=3Dutf-8" =
+http-equiv=3D"Content-Type"><meta content=3D"width=3Ddevice-width, =
+initial-scale=3D1.0" name=3D"viewport"><title>Progressive Turnout =
+Project</title><style type=3D"text/css">
+        p, li, ol, ul, table, tr, td {font-size:15px; =
+color:#000000;font-family:tahoma,sans-serif}
+       =20
+        /* Based on The MailChimp Reset INLINE: Yes. */ =20
+        /* Client-specific Styles */
+        #outlook a {padding:0;} /* Force Outlook to provide a "view in =
+browser" menu link. */
+        body{width:100% !important; -webkit-text-size-adjust:100%; =
+-ms-text-size-adjust:100%; margin:0; padding:0;}=20
+        /* Prevent Webkit and Windows Mobile platforms from changing =
+default font sizes.*/=20
+        .ExternalClass {width:100%;} /* Force Hotmail to display emails at =
+full width */ =20
+        .ExternalClass, .ExternalClass p, .ExternalClass span, =
+.ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: =
+normal;}
+        /* Forces Hotmail to display normal line spacing.  More on that: =
+http://www.emailonacid.com/forum/viewthread/43/ */=20
+        #backgroundTable {margin:0; padding:0; width:100% !important; =
+line-height: normal !important;}
+        /* End reset */
+        /* Some sensible defaults for images
+        Bring inline: Yes. */
+        img {outline:none; text-decoration:none; -ms-interpolation-mode: =
+bicubic;}=20
+        a img {border:none;}=20
+        .image_fix {display:block;}
+        /* Yahoo paragraph fix
+        Bring inline: Yes. */
+        p {margin: 1em 0;}
+        /* Hotmail header color reset
+        Bring inline: Yes. */
+        h1, h2, h3, h4, h5, h6 {color: black !important;}
+        /* Outlook 07, 10 Padding issue fix
+        Bring inline: No.*/
+        table td {border-collapse: collapse;}
+        /* Remove spacing around Outlook 07, 10 tables
+        Bring inline: Yes */
+        table { border-collapse:collapse; mso-table-lspace:0pt; =
+mso-table-rspace:0pt; }
+        /* Styling your links has become much simpler with the new Yahoo.  =
+In fact, it falls in line with the main credo of styling in email and make =
+sure to bring your styles inline.  Your link colors will be uniform across =
+clients when brought inline.
+        Bring inline: Yes. */
+        /***************************************************
+        ****************************************************
+        MOBILE TARGETING
+        ****************************************************
+        ***************************************************/
+        @media only screen and (max-device-width: 480px) {
+            /* Part one of controlling phone number linking for mobile. */
+            a[href^=3D"tel"], a[href^=3D"sms"] {
+                        text-decoration: none;
+                        color: blue; /* or whatever your want */
+                        pointer-events: none;
+                        cursor: default;
+                    }
+            .mobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {
+                        text-decoration: default;
+                        pointer-events: auto;
+                        cursor: default;
+                    }
+        }
+        /* More Specific Targeting */
+        @media only screen and (min-device-width: 768px) and =
+(max-device-width: 1024px) {
+        /* You guessed it, ipad (tablets, smaller screens, etc) */
+            /* repeating for the ipad */
+            a[href^=3D"tel"], a[href^=3D"sms"] {
+                        text-decoration: none;
+                        color: blue; /* or whatever your want */
+                        pointer-events: none;
+                        cursor: default;
+                    }
+            .mobile_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {
+                        text-decoration: default;
+                        pointer-events: auto;
+                        cursor: default;
+                    }
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        /* Put your iPhone 4g styles in here */=20
+        }
+        /* Android targeting */
+        @media only screen and (-webkit-device-pixel-ratio:.75){
+        /* Put CSS for low density (ldpi) Android layouts in here */
+        }
+        @media only screen and (-webkit-device-pixel-ratio:1){
+        /* Put CSS for medium density (mdpi) Android layouts in here */
+        }
+        @media only screen and (-webkit-device-pixel-ratio:1.5){
+        /* Put CSS for high density (hdpi) Android layouts in here */
+        }
+        /* end Android targeting */
+    </style><!-- Targeting Windows Mobile --><!--[if IEMobile 7]>
+    <style type=3D"text/css">
+   =20
+    </style>
+    <![endif]--><!-- ***********************************************
+    ****************************************************
+    END MOBILE TARGETING
+    ****************************************************
+    ************************************************ --><!--[if gte mso =
+9]>
+        <style>
+        /* Target Outlook 2007 and 2010 */
+        </style>
+    <![endif]--></head><body>
+    <!-- Wrapper/Container Table: Use a wrapper table to control the width =
+and the background color consistently of your email. Use this approach =
+instead of setting attributes on the body tag. -->
+<table style=3D"width:100%;" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" id=3D"backgroundTable"><tbody><!-- START HEADER =
+--><tr><td align=3D"left">
+<img src=3D"https://s.bsd.net/turnout/main/page/-/PTP_Side-Logo2.png" =
+style=3D"padding-top:10px; padding-left:10px; max-width:400px; width: =
+90%;" alt=3D"Progressive Turnout Project"></td>
+            </tr><!-- END HEADER --><!-- START BODY --><tr><td =
+style=3D"padding: 0px 10px 10px 10px; font-size:15px; =
+font-family:tahoma,sans-serif; color:#000000" width=3D"90%">
+                  =20
+
+
+<p style=3D"font-size:16px;font-family:Tahoma, Arial, Sans-serif;">
+	John,<br><br>
+	I&rsquo;ve been reflecting on the hard work and incredible rewards that =
+have defined this year for our new organization.<br><br>
+	I can&rsquo;t tell you how much I value you being a part of it.<br><br>
+	Together, we&rsquo;re building a grassroots organization with the power =
+to boost Democratic voter turnout in 2016 -- and to protect the =
+progressive values we believe in for years to come.<br><br>
+	But this won&rsquo;t be easy, and success will only come if you continue =
+to stand with us. I&rsquo;d be thrilled to see you become an Original =
+Member of our organization before 2015 comes to a close.</p>
+<center>
+	<table cellspacing=3D"0" style=3D"max-width: 700px;"><tbody><tr><td =
+style=3D"max-width: 700px, width: 100%;" valign=3D"center">
+					<center>
+						<strong><a href=3D"http://go.turnoutpac.org/page/m/14fa5a47/1c3ac3e8=
+/798fa02f/21c304bd/358455070/VEsH/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3RhQGxhdy=
+5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk1ZWE4w=
+Ym1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpTVlRWRU=
+ZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMDFGVUVo=
+UFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQxbEZVaV=
+VsIjoiIn0=3D/" style=3D"font-size:19px;font-family:Tahoma, Arial, =
+Sans-serif;text-decoration:none;color:black;" title=3D"https://secure.actb=
+lue.com/contribute/page/turnoutq42015?refcode=3DMS_EM_FR_2015.12.22_B1_har=
+ry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&amp;amount=3D25&amp;amounts=3D1=
+5,25,50,100,250,500,1000&amp;email=3Dpodesta@law.georgetown.edu&amp;firstn=
+ame=3DJohn&amp;lastname=3DPodesta&amp;city=3DWashington&amp;state=3DDC&amp=
+;zip=3D20005&amp;phone=3D&amp;occupation=3D&amp;employer=3D">Will you join =
+this select team of supporters who are committed to building our =
+organization from the ground up? Chip in $5 right now and become an =
+Original Member:</a></strong></center>
+				</td>
+			</tr></tbody></table><br><center>
+		<table cellspacing=3D"0" style=3D"max-width: 600px;"><tbody><tr><td =
+background=3D"https://s.bsd.net/turnout/main/page/-/ptp_confirmed-member-c=
+ard_bg2.jpg" bgcolor=3D"#1261b3" height=3D"250" style=3D"border-radius: =
+6px;" valign=3D"top" width=3D"448">
+						<!--[if gte mso 9]>
+  <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" =
+stroke=3D"false" style=3D"width:450px;height:250px;">
+    <v:fill type=3D"tile" src=3D"https://s.bsd.net/turnout/main/page/-/ptp=
+_confirmed-member-card_bg2.jpg" color=3D"#1261b3" />
+    <v:textbox inset=3D"0,0,0,0">
+  <![endif]-->
+						<div style=3D"padding: 2px; text-align: center;  border-radius: =
+15px;">
+							<center>
+								<center>
+									<table cellpadding=3D"5" cellspacing=3D"1" =
+style=3D"border-collapse: collapse; width: 100%"><tbody><tr><td =
+align=3D"center" style=3D"padding: 15px 10px 0px 10px; display: =
+table-cell;">
+													<a href=3D"http://go.turnoutpac.org/page/m/14fa5a47/1c3ac3e8/=
+798fa02f/21c304bd/358455070/VEsE/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3RhQGxhdy5=
+nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk1ZWE4wY=
+m1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpTVlRWRUZ=
+VUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMDFGVUVoU=
+FRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQxbEZVaVV=
+sIjoiIn0=3D/" style=3D"color:#ffffff;text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta@=
+law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=3D=
+Washington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=3D&a=
+mp;employer=3D"><img src=3D"https://s.bsd.net/turnout/main/page/-/PTP_Pend=
+ing-Member-Card_Logo.png" style=3D"max-width:100%;padding-top:10px" =
+width=3D"422"><br><br><img alt=3D"Original Founding Member" =
+src=3D"https://s.bsd.net/turnout/main/page/-/PTP_Pending-Member-Card_Banne=
+r.png" style=3D"font-family: courier new, sans-serif; margin: 0; padding: =
+0; max-width: 100%; display: inline-block;color: #ffffff; font-size: 25pt; =
+background-color: &euro;; " title=3D"Original Member =
+Stats"></a><br><br><table cellpadding=3D"5" cellspacing=3D"1" =
+style=3D"border-collapse: collapse; width: 100%"><tbody><tr><td =
+align=3D"center" style=3D"padding: 0px 10px 0px 10px;max-width: 375px">
+																	<a href=3D"http://go.turnoutpac.org/page/m/14fa5a47/1c3ac=
+3e8/798fa02f/21c304bd/358455070/VEsF/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3RhQGx=
+hdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk1ZW=
+E4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpTVlR=
+WRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMDFGV=
+UVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQxbEZ=
+VaVVsIjoiIn0=3D/" style=3D"color:#ffffff;text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta@=
+law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=3D=
+Washington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=3D&a=
+mp;employer=3D"><img alt=3D"JOHN PODESTA" =
+src=3D"http://imggen.elasticbeanstalk.com/?text=3DJOHN =
+PODESTA&amp;font_name=3Dgeared&amp;font_type=3Dlight&amp;font_size=3D50&am=
+p;font_color=3Dffffff&amp;padding_x=3D6&amp;padding_y=3D5&amp;extension=3D=
+png" style=3D"font-family: Verdana, sans-serif; margin: 0; padding: 0; =
+max-width: 100%; display: inline-block;color: #ffffff; font-size: 50px; =
+border-style:none; " title=3D"JOHN PODESTA"></a></td>
+															</tr><tr><td align=3D"center" style=3D"padding: 10px 10px =
+0px 10px;">
+																	<a href=3D"http://go.turnoutpac.org/page/m/14fa5a47/1c3ac=
+3e8/798fa02f/21c304bd/358455070/VEsC/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc3RhQGx=
+hdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkpTVk1ZW=
+E4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsIkpTVlR=
+WRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVklUMDFGV=
+UVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCTVQxbEZ=
+VaVVsIjoiIn0=3D/" style=3D"color:#ffffff;text-decoration:none;" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta@=
+law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=3D=
+Washington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=3D&a=
+mp;employer=3D"><img alt=3D"PENDING" src=3D"https://s.bsd.net/turnout/main=
+/page/-/PTP_Pending-Member-Card_Button.gif" style=3D"font-family: courier =
+new, sans-serif; margin: 0; padding: 0; max-width: 100%; display: =
+inline-block;color: #ffffff; font-size: 25pt; background-color: &euro;; =
+"></a></td>
+															</tr></tbody></table></td>
+											</tr></tbody></table></center>
+							</center>
+						</div>
+						<!--[if gte mso 9]>
+    </v:textbox>
+  </v:rect>
+  <![endif]--></td>
+				</tr></tbody></table></center>
+	<br><table align=3D"center" cellpadding=3D"0" cellspacing=3D"10" =
+style=3D"border-collapse:separate;border-spacing: 10px;padding:0px 0px 5px =
+0px"><tbody><tr><td align=3D"center" bgcolor=3D"#2d8ccf" height=3D"70" =
+style=3D"-webkit-border-radius: 100%; border:2px solid #0f75bc; =
+-moz-border-radius: 100%; border:2px solid #0f75bc; border-radius: 100%; =
+border:2px solid #0f75bc; color: #ffffff; display: table-cell;" =
+width=3D"70">
+					<strong><b r=3D""><a href=3D"http://go.turnoutpac.org/page/m/14fa5a47=
+/1c3ac3e8/798fa02f/21c304bc/358455070/VEsD/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc=
+3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkp=
+TVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsI=
+kpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVkl=
+UMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCT=
+VQxbEZVaVVsIjoiIn0=3D/" style=3D"color: #ffffff; font-size:24PX; =
+font-weight: bold; text-decoration: none; font-family: Avenir, Helvetica, =
+Arial, sans-serif; line-height:70px; width:100%; display:inline-block" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D5&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta@l=
+aw.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=3DW=
+ashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=3D&am=
+p;employer=3D">$5</a></b></strong></td>
+				<td align=3D"center" bgcolor=3D"#2d8ccf" height=3D"70" =
+style=3D"-webkit-border-radius: 100%; border:2px solid #0f75bc; =
+-moz-border-radius: 100%; border:2px solid #0f75bc; border-radius: 100%; =
+border:2px solid #0f75bc; color: #ffffff; display: table-cell;" =
+width=3D"70">
+					<strong><b r=3D""><a href=3D"http://go.turnoutpac.org/page/m/14fa5a47=
+/1c3ac3e8/798fa02f/21c304bf/358455070/VEsA/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc=
+3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkp=
+TVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsI=
+kpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVkl=
+UMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCT=
+VQxbEZVaVVsIjoiIn0=3D/" style=3D"color: #ffffff; font-size:24PX; =
+font-weight: bold; text-decoration: none; font-family: Avenir, Helvetica, =
+Arial, sans-serif; line-height:70px; width:100%; display:inline-block" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D35&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta@=
+law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=3D=
+Washington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=3D&a=
+mp;employer=3D">$35</a></b></strong></td>
+				<td align=3D"center" bgcolor=3D"#2d8ccf" height=3D"70" =
+style=3D"-webkit-border-radius: 100%; border:2px solid #0f75bc; =
+-moz-border-radius: 100%; border:2px solid #0f75bc; border-radius: 100%; =
+border:2px solid #0f75bc; color: #ffffff; display: table-cell;" =
+width=3D"70">
+					<strong><b r=3D""><a href=3D"http://go.turnoutpac.org/page/m/14fa5a47=
+/1c3ac3e8/798fa02f/21c304be/358455070/VEsB/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc=
+3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkp=
+TVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsI=
+kpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVkl=
+UMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCT=
+VQxbEZVaVVsIjoiIn0=3D/" style=3D"color: #ffffff; font-size:24PX; =
+font-weight: bold; text-decoration: none; font-family: Avenir, Helvetica, =
+Arial, sans-serif; line-height:70px; width:100%; display:inline-block" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D50&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta@=
+law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=3D=
+Washington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=3D&a=
+mp;employer=3D">$50</a></b></strong></td>
+			</tr><tr><td align=3D"center" bgcolor=3D"#2d8ccf" height=3D"70" =
+style=3D"-webkit-border-radius: 100%; border:2px solid #0f75bc; =
+-moz-border-radius: 100%; border:2px solid #0f75bc; border-radius: 100%; =
+border:2px solid #0f75bc; color: #ffffff; display: table-cell;" =
+width=3D"70">
+					<strong><b r=3D""><a href=3D"http://go.turnoutpac.org/page/m/14fa5a47=
+/1c3ac3e8/798fa02f/21c304b1/358455070/VEsO/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc=
+3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkp=
+TVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsI=
+kpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVkl=
+UMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCT=
+VQxbEZVaVVsIjoiIn0=3D/" style=3D"color: #ffffff; font-size:24PX; =
+font-weight: bold; text-decoration: none; font-family: Avenir, Helvetica, =
+Arial, sans-serif; line-height:70px; width:100%; display:inline-block" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D100&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta=
+@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">$100</a></b></strong></td>
+				<td align=3D"center" bgcolor=3D"#2d8ccf" height=3D"70" =
+style=3D"-webkit-border-radius: 100%; border:2px solid #0f75bc; =
+-moz-border-radius: 100%; border:2px solid #0f75bc; border-radius: 100%; =
+border:2px solid #0f75bc; color: #ffffff; display: table-cell;" =
+width=3D"70">
+					<strong><b r=3D""><a href=3D"http://go.turnoutpac.org/page/m/14fa5a47=
+/1c3ac3e8/798fa02f/21c304b0/358455070/VEsP/p/eyJKU1ZGYldGcGJDVWwiOiJwb2Rlc=
+3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsIkp=
+TVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiIsI=
+kpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTVkl=
+UMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZCT=
+VQxbEZVaVVsIjoiIn0=3D/" style=3D"color: #ffffff; font-size:24PX; =
+font-weight: bold; text-decoration: none; font-family: Avenir, Helvetica, =
+Arial, sans-serif; line-height:70px; width:100%; display:inline-block" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D250&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta=
+@law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=
+=3DWashington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=
+=3D&amp;employer=3D">$250</a></b></strong></td>
+				<td align=3D"center" bgcolor=3D"#2d8ccf" height=3D"70" =
+style=3D"-webkit-border-radius: 100%; border:2px solid #0f75bc; =
+-moz-border-radius: 100%; border:2px solid #0f75bc; border-radius: 100%; =
+border:2px solid #0f75bc; color: #ffffff; display: table-cell;" =
+width=3D"70">
+					<strong><b r=3D""><a href=3D"http://go.turnoutpac.org/page/m/14fa5a47=
+/1c3ac3e8/798fa02f/21c304bd/358455070/VEsHBQ/p/eyJKU1ZGYldGcGJDVWwiOiJwb2R=
+lc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aGJXVWxKUT09IjoiSm9obiIsI=
+kpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVKU1U9IjoiV2FzaGluZ3RvbiI=
+sIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbEpRPT0iOiIyMDAwNSIsIkpTV=
+klUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5T0pTVT0iOiIiLCJKU1ZGVFZ=
+CTVQxbEZVaVVsIjoiIn0=3D/" style=3D"color: #ffffff; font-size:22PX; =
+font-weight: bold; text-decoration: none; font-family: Avenir, Helvetica, =
+Arial, sans-serif; line-height:70px; width:100%; display:inline-block" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta@=
+law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=3D=
+Washington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=3D&a=
+mp;employer=3D">Other</a></b></strong></td>
+			</tr></tbody></table></center>
+<p style=3D"font-size:16px;font-family:Tahoma, Arial, Sans-serif;">
+	<span style=3D"font-size:16px;font-family:tahoma, arial, =
+sans-serif;"><strong style=3D"font-size:20px"><a href=3D"http://go.turnout=
+pac.org/page/m/14fa5a47/1c3ac3e8/798fa02f/21c304bd/358455070/VEsHBA/p/eyJK=
+U1ZGYldGcGJDVWwiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsIkpTVkdhWEp6ZEc1aG=
+JXVWxKUT09IjoiSm9obiIsIkpTVk1ZWE4wYm1GdFpTVWwiOiJQb2Rlc3RhIiwiSlNWRGFYUjVK=
+U1U9IjoiV2FzaGluZ3RvbiIsIkpTVlRWRUZVUlY5QlFrSlNKU1U9IjoiREMiLCJKU1ZhYVhBbE=
+pRPT0iOiIyMDAwNSIsIkpTVklUMDFGVUVoUFRrVWxKUT09IjoiIiwiSlNWUFEwTlZVRUZVU1U5=
+T0pTVT0iOiIiLCJKU1ZGVFZCTVQxbEZVaVVsIjoiIn0=3D/" style=3D"color: #1b96eb;" =
+title=3D"https://secure.actblue.com/contribute/page/turnoutq42015?refcode=
+=3DMS_EM_FR_2015.12.22_B1_harry_X__F1_S2_C1__nd_t2&amp;recurring=3Dauto&am=
+p;amount=3D25&amp;amounts=3D15,25,50,100,250,500,1000&amp;email=3Dpodesta@=
+law.georgetown.edu&amp;firstname=3DJohn&amp;lastname=3DPodesta&amp;city=3D=
+Washington&amp;state=3DDC&amp;zip=3D20005&amp;phone=3D&amp;occupation=3D&a=
+mp;employer=3D">http://go.turnoutpac.org/Donate</a></strong></span></p>
+<p style=3D"font-size:16px;font-family:Tahoma, Arial, Sans-serif;">
+	Thank you so much for helping us build this organization,<br><br><em>- =
+Harry</em><br><br><span style=3D"color:#808080;">--<br>
+	Harry Pascal<br>
+	Co-founder<br>
+	Progressive Turnout Project</span></p>                </td>
+            </tr><!-- END BODY --><!-- START SPACING --><tr><td>
+
+
+                    <br><br><br><br><br><br><br><br><br><br><br><br></td>
+            </tr><!-- END SPACING --><!-- START FOOTER --><tr><td =
+valign=3D"top">
+                    <!-- START PAID FOR BY BOX -->
+   =20
+                    <table align=3D"center" border=3D"0" =
+style=3D"max-width: 550px;"><tbody><tr><td align=3D"center">
+    <span style=3D"font-size:12px;">Progressive Turnout Project
+<br>
+P.O. Box 215
+<br>
+Northbrook, IL 60065-0215<br><br></span>
+</td></tr><td>
+                                    <div style=3D"border-color: #666666; =
+border-style: solid; border-width: 1px; font-family: Verdana, Helvetica =
+sans-serif; font-size: 12px; padding: 3px; text-align: center;">
+                                        <span style=3D"color: =
+#666666">Paid for by the Progressive Turnout Project and not authorized by =
+any candidate or candidate's committee.</span>
+                                    </div>
+                                </td>
+                           =20
+                        </tbody></table><!-- END PAID FOR BY BOX =
+--><br><!-- START UNSUBSCRIBE TEXT --><table align=3D"center" border=3D"0" =
+style=3D"max-width: 550px;"><tbody><tr><td align=3D"center">
+                                    <p style=3D"font-size:9px;line-height: =
+100%;">
+                                        <span =
+style=3D"color:#666666;">This message was sent to: <a =
+href=3D"http://go.turnoutpac.org/page/m/14fa5a47/1c3ac3e8/798fa02f/21c304b=
+3/358455070/VEsHBw/" style=3D" color: #666666;" title=3D"http://go.turnout=
+pac.org/page/s/update-your-information">podesta@law.georgetown.edu</a> | =
+Change or update your email address by clicking </span> <a =
+href=3D"http://go.turnoutpac.org/page/m/14fa5a47/1c3ac3e8/798fa02f/21c304b=
+3/358455070/VEsHBg/" style=3D" color: #666666;" =
+title=3D"http://go.turnoutpac.org/page/s/update-your-information"><span =
+style=3D"color:#666666;">here.</span></a><br><br><span =
+style=3D"color:#666666;">The Progressive Turnout Project is proudly =
+dedicated to doing what we do best -- <em>connecting with voters one on =
+one and getting Democrats to the polls.</em> To learn more click <a =
+href=3D"http://go.turnoutpac.org/page/m/14fa5a47/1c3ac3e8/798fa02f/21c304b=
+2/358455070/VEsHAQ/" style=3D"color: #666666;" =
+title=3D"http://turnoutpac.org/">here</a>.</span>
+                                        <br><br><span =
+style=3D"color:#666666;">Emails are a crucial way to stay in touch with =
+our top supporters. If we're going to increase turnout in 2016, we need =
+you with us every step of the way.</span>
+                                        <br><br><span =
+style=3D"color:#666666;">If you'd still like to unsubscribe from our =
+emails, click <a href=3D"http://go.turnoutpac.org/page/m/14fa5a47/1c3ac3e8=
+/798fa02f/21c304b5/358455070/VEsHAA/p/eyJKU1ZGVFVGSlRDVWwiOiJwb2Rlc3RhQGxh=
+dy5nZW9yZ2V0b3duLmVkdSJ9/" style=3D" color: #666666;" =
+title=3D"http://go.turnoutpac.org/page/s/less-emails?email=3Dpodesta@law.g=
+eorgetown.edu"><span style=3D"color:#666666;">here</span></a>. If you'd =
+like to receive fewer emails, you can click <a href=3D"http://go.turnoutpa=
+c.org/page/m/14fa5a47/1c3ac3e8/798fa02f/21c304b5/358455070/VEsHAw/p/eyJKU1=
+ZGVFVGSlRDVWwiOiJwb2Rlc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSJ9/" style=3D" color: =
+#666666;" title=3D"http://go.turnoutpac.org/page/s/less-emails?email=3Dpod=
+esta@law.georgetown.edu"><span style=3D"color:#666666;">here</span></a>. =
+If you'd like to donate to help fund our efforts to increase Democratic =
+and Progressive turnout in the 2016 Election, please click <a =
+href=3D"http://go.turnoutpac.org/page/m/14fa5a47/1c3ac3e8/798fa02f/21c304b=
+4/358455070/VEsHAg/" style=3D" color: #666666;" title=3D"https://secure.ac=
+tblue.com/contribute/page/turnoutq32015?refcode=3Dfooter&amp;recurring=3Da=
+uto&amp;amount=3D25"><span style=3D"color: color: =
+#666666;">here</span></a>.</span>
+                                 =20
+                                    </p>
+                                </td>
+                            </tr></tbody></table><!-- END UNSUBSCRIBE TEXT =
+--></td>
+            </tr><!-- END FOOTER --></tbody></table><!-- End of wrapper =
+table --><img src=3D"http://go.turnoutpac.org/page/o/14fa5a47/1c3ac3e8/798=
+fa02f/21c304b7/358455070/open.gif" width=3D"1" height=3D"1"></body></html>
+
+
+
+--b1_a9d0b9ce4f758ff5f10e29b51f7e267d--

@@ -1,0 +1,515 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.81.205 with SMTP id f196csp6195560lfb;
+        Mon, 28 Dec 2015 08:16:47 -0800 (PST)
+X-Received: by 10.66.139.234 with SMTP id rb10mr78503112pab.82.1451319407084;
+        Mon, 28 Dec 2015 08:16:47 -0800 (PST)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1on0055.outbound.protection.outlook.com. [157.56.110.55])
+        by mx.google.com with ESMTPS id yu1si3316171pac.9.2015.12.28.08.16.46
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 28 Dec 2015 08:16:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.55 as permitted sender) client-ip=157.56.110.55;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.55 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=neutral (body hash did not verify) header.i=@mta-bbcspool.convio.net;
+       dmarc=fail (p=NONE dis=NONE) header.from=nature.org
+Received: from SN1PR0701CA0055.namprd07.prod.outlook.com (10.163.126.23) by
+ BLUPR07MB532.namprd07.prod.outlook.com (10.141.204.154) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Mon, 28 Dec 2015 16:16:44 +0000
+Received: from BL2FFO11FD041.protection.gbl (2a01:111:f400:7c09::179) by
+ SN1PR0701CA0055.outlook.office365.com (2a01:111:e400:52fd::23) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Mon, 28 Dec 2015
+ 16:16:44 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=mta-bbcspool.convio.net;gmail.com; dmarc=fail action=none
+ header.from=nature.org;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.74;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ BL2FFO11FD041.mail.protection.outlook.com (10.173.161.137) with Microsoft
+ SMTP Server (TLS) id 15.1.355.15 via Frontend Transport; Mon, 28 Dec 2015
+ 16:16:43 +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (141.161.191.13)
+ by LAW-CAS1.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.248.2; Mon, 28 Dec 2015 11:16:42 -0500
+Received: from BY2PR07CA068.namprd07.prod.outlook.com (10.141.251.43) by
+ CO2PR07MB540.namprd07.prod.outlook.com (10.141.199.21) with Microsoft SMTP
+ Server (TLS) id 15.1.361.13; Mon, 28 Dec 2015 16:16:41 +0000
+Received: from BN1BFFO11FD041.protection.gbl (2a01:111:f400:7c10::1:183) by
+ BY2PR07CA068.outlook.office365.com (2a01:111:e400:2c61::43) with Microsoft
+ SMTP Server (TLS) id 15.1.361.13 via Frontend Transport; Mon, 28 Dec 2015
+ 16:16:41 +0000
+Authentication-Results: spf=pass (sender IP is 64.244.127.139)
+ smtp.mailfrom=bbcsreturn.convio.net; law.georgetown.edu; dkim=pass (signature
+ was verified) header.d=mta-bbcspool.convio.net;law.georgetown.edu; dmarc=fail
+ action=none header.from=nature.org;
+Received-SPF: Pass (protection.outlook.com: domain of bbcsreturn.convio.net
+ designates 64.244.127.139 as permitted sender)
+ receiver=protection.outlook.com; client-ip=64.244.127.139;
+ helo=mta-poolbbcs05.cluster2.convio.net;
+Received: from mta-poolbbcs05.cluster2.convio.net (64.244.127.139) by
+ BN1BFFO11FD041.mail.protection.outlook.com (10.58.144.104) with Microsoft
+ SMTP Server id 15.1.355.15 via Frontend Transport; Mon, 28 Dec 2015 16:16:40
+ +0000
+Received: from blackbaud.com ([10.64.116.28])	by
+ mta-poolbbcs05.cluster2.convio.net (-); Mon, 28 Dec 2015 10:16:06 -0600
+X-VirtualServer: Bulk0, mta-poolbbcs05.cluster2.convio.net, 10.64.117.170
+X-SMHeaderMap: mid="X-MailingID"
+X-Destination-ID: podesta@law.georgetown.edu
+X-SMFBL: cG9kZXN0YUBsYXcuZ2VvcmdldG93bi5lZHU=
+X-VirtualServerGroup: Bulk0
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=mta-bbcspool.convio.net; s=selector1; t=1451319366;
+	i=@mta-bbcspool.convio.net; h=FROM:SUBJECT:TO:X-MailingID:
+	Return-Path:Reply-To:Message-ID:X-Gateway:Organization:
+	X-campaignid:Date:MIME-Version:Content-Type; bh=glKh9m57RSQlhK5r
+	NpFSlodlfJI=; b=lT3f6uq4F0Zx/PEm5aodQP1iVjLvFrcaOh19oZuPtJC37dZs
+	lusFej8C8i9Ys/fMzp4bFVbu2Xae/VNZpTArbEYpvVOr7yWsqWd4cgMeGgGbmoTx
+	MYt6fx67jmWfC2DivGhpN5/MVnL25iUZSBM5xt1Ewlv8tjWblT2XQwif6xw=
+From: The Nature Conservancy <member@nature.org>
+Subject: John, We Miss You!
+To: John Podesta <podesta@law.georgetown.edu>
+X-MailingID: 00000::Bulk::e4d7cb1f-11d3-418c-a683-4e8f0beb2fff::ba8aced8-f7da-4ac2-9ec0-089d581d29c2::4250277_116237_1316_E-mail-2::0
+Return-Path: podesta@law.georgetown.edu
+Reply-To: The Nature Conservancy <member@nature.org>
+Message-ID: <7bfe00250e104b19b64d8a697581930a@nature.org>
+X-Gateway: poola1
+Organization: The Nature Conservancy
+X-campaignid: Convio-poola-tnc-133085
+Date: Mon, 28 Dec 2015 10:17:33 -0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="NextPart_3b96ffa7_cb4c_450e_8828_2a1c726ba2b3"
+X-EOPAttributedMessage: 1
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1BFFO11FD041;1:kTNH8j2D/eXmE/xHBKb15zVxEOppHLT1cKQNaJROk5MzdlmC22gdiEf+ghV3o4VYhR8wkOYqtExfG2HkjlvYLoxr2SbPFtH3vIa+wKShimwJTlF0OQ5I6O/9c+wfbE+uMSOPq9D6K0WxGRNJCdU2c97XEK36xMgqzOBSiwwj/fJTvSlDucl08+htKWOP0m+3jFElEie1HUznsuvCR29ISFMlIBMehg0EeNa+4AYBR5UsZUnTwvoDmTUVd8TprK/FHRlRzD696j4XOxj0PC2cUawKAW1CuF/l0EM1dBGattVuWgDT79yLr/wjlGAA+TCVj4gwPj6LCmCAyTt5qpfXK4YM7qfwPZOOLmMQyMExFTvmTE2PK5gwpqYhbFpDz/FTIoXT1HNJQGuZndOBgPAkSCHG1FxEMUZsoEsDTmZIcRjnjrJHcwptc9Kmpoda5ZvH
+X-Forefront-Antispam-Report-Untrusted: CIP:64.244.127.139;CTRY:US;IPV:NLI;EFV:NLI;SFV:SPM;SFS:(31620200002)(1080300003)(2980300002)(438002)(359002)(349900001)(69224002)(199003)(189002)(349012);DIR:INB;SFP:;SCL:9;SRVR:CO2PR07MB540;H:mta-poolbbcs05.cluster2.convio.net;FPR:;SPF:Pass;PTR:mta-poolbbcs05.cluster2.convio.net;A:0;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB540;2:z3T1UCBqSX27DqSxT1bkPvotwFWQ+AkrabrQZKTPAzoZiMmNfokFv3fhszdg6OM4CkF0DdmFvPsTMEvXdJEqxrDtbp9OK20VbBEt+rZ8JeIp03HD89mk11Q+TR855zxP9CpiBofsjCZDxYMra13fIQ==;3:kqWKJgw9Ib7Hb3ucjlndiZrjrQRSim3CeVgh0cEhNnm1LORfducjtPiE9dtSkHJ4xZjXqGH9K0mTPjIvtFwS8jDmRxmNLCJjIzbgvP1YbBXbJmSqcJzeV08W0377MNxmgh3MuyFrlSMnKt4Y5c8ocr1m6dVuL0GI22QRLn98nwPD5SoFfhI9Qk4ueKDoVUzvjUNjaQKDo/HFd0H1R1J7VM9ajOYyKZcfQ9SXfwL9z0QNASqt8pFLrdghrSmhZ4Bij+Zin0j6h2Rmq8xCpwu1zCfIisadzeAiPk6vVo8sZnFQDcTDL2SwbHK6gO7D4ThCCkRmAsxyOJlnxoOc8U1nyUDj7Z2nh9mjG6FkPgz/QF0ZvVcB3PAittABGFqCw3ac;25:4mYbvr06VahKCneR9vTTDV6E9m9igDDI3rIHUJOy79+3i9OW50QFxdeXHqG8CbNPb2WHOTmTzz0SF3gEcF079Mpi54BkcOfxUfTFaX6O59m4IjAywTIVmenSa1WYMDAGajHh0ihIChI69PAUWxRE+Lw+H8+v0LzsPKqMmjpw7lJpDJMBbbrx5oOFAtQTQXfJVpgUwePbAzL1pysPDka6QkSVs9adEHOVi9kZwdj6mwISGq74CvsAWvhol5JGwMDrL6cYzfIxDiEUvsOVT/EKOQ==
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:6;PCL:0;RULEID:(42134001)(42139001)(4216001)(3001015)(3010001)(71701003)(71702001);SRVR:CO2PR07MB540;
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB540;20:4/wCTyOHz7nUIh/CZkFwblrgqEiFwGOuEfQatz9eUmi6Wyuh2EFD8tpEy/KzXT0OCQZkkPlscHWtzfffsyER02XktrqCBqZCSk8p+WU8OpQu+NQD7uQxVaDyfOG0D/sIY2VG2rfm/pw/Zqmf8If3hf6kteiZqRNDIgzyr6lvChU0nC0QzGQqvsT235teqxncx2Zd7CrQYs/ZHomZqhTg9DFuSzqYXLILwJyNtLACoE+BKEvckPV5RH2QVKEM59p6N5Jj4iqdVuG6hUvoOcsEUBI7fbMGsG/KnNVaHrISqflzv+hWerCVVikAW2E53Z23lkLFQKcCHxkOBpTt3DZLgTKxPHFK5ya9SCg3ney5/beTg70aaD1TS90o58NjOtAbXd23UfVVo5ZFHihtxWKFNgQfX2RL5Hpommnv1PC96sw=;4:sSByUTJviRuxXrezYPWjzku/bA+RFmVatlkNE6c3xAU+XNdtC7RoK4+QEWLRqYcw4vBXc0yXYdMkt5ojG4ecewHt7K23Dzas8pT4B9d61JqfcsX3NbPJkB+JLyEK6LppHFVefN7zD21jFTCHDlqLlnDEeWuTTwRzDrujpLcfW/E3Qn8euROu5q5z2zwtLrxeFyP3axCcFjUUYiruQ08dGvm1QMMRGwzvYPMOKvCILsLb/x64rFANSXR+F+aZee+n26NfLEtzGPUfKDuVOH0JPQSrDWMFZbTx2mtS+M0U0YoPZ5neKyZkAeW9Bn0KrzRjkqSWXJ58+GgpoF5oC5z6KkNNbTQMk6GvgEauyrN6rH48cWLQaKv5vm8xfc5D95n4
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:6;PCL:0;RULEID:(601004)(2401047)(520078)(8121501046)(3002001)(10201501046);SRVR:CO2PR07MB540;BCL:6;PCL:0;RULEID:;SRVR:CO2PR07MB540;BCL:4;PCL:0;RULEID:(601004)(2401047)(5005006)(520078)(8121501046)(10201501046)(3002001);SRVR:BLUPR07MB532;BCL:4;PCL:0;RULEID:;SRVR:BLUPR07MB532;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;CO2PR07MB540;23:WVzMSDd18Ojzmsa/kZ6LqWdc5RxD4Uxyxz2oW7KE9y7/K5ztb35EVkmyWcaz4cxTEpzsVCobYz1BqOb0PpZuS+0EBI0+gBSKtmHR00KptX9gIu3ax+ihm0jFsLmVVrr2DozZ+poyV+P12WDA1K83fyQjh7OzT+oPwSU02qtwpFzM+mgcpBQU+v0x3yqqzy5f2Iu60IeAXnfgRLggITa7nAez5MgmAw7ua+UBwqgEdq+8hz5syiLw3jVFt2nDJ3niCIJxGx4NN9Lwxp10PNXPwB18UAC246dG8GlPy8Dl2RHrOwXehRqgc73dwpPmXySdLN0wyQVOkB7LRkZdCRjV+uF4WWTvE42TBr4/T0uWums6y3UCkFPCxWCPcuaBzQBHSzY5N5xqu5dRiPjpDRvg9E8bN8KvRW+zxG9Vvbvac4I=;5:QnmwwzSHQEuwteZtti5J4UBMyyoOQVCC3MvUowI3RQNE3v4lfDpGUvNw79ZTDFiA3Q62gfm2XVjZwVmi4K1228rurOwu9JsWU9KiVPfLDVxrdICKgrSswesEcSPLE25OCFkaV/HBRNiclWD3gaaPLA==;24:ZVvVWsoJvOjKNWJlsjYu0IdPynYoaiABfRUcykJzsMYmJeJk4GYQHC3kHiNii1QmrIUxz0pLF1x8EBEp3igAJQ==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 6
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO2PR07MB540
+X-OrganizationHeadersPreserved: CO2PR07MB540.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS1.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BL2FFO11FD041.protection.gbl
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11FD041;1:5H5KxtEzcFgaHjYxSbNYrG8cjhR1ygOMnZMUPlNrb4PLbKHLcOIuZFjaWsdUyVDKDthYJaCWtp+M+AU7cE7WtwDoASYCSkWdV11poipJy/AcI3czsmMl02JeMCLloRQZ12PHGQwf06y12u2ULtcpVVNvN90lftEH/G0Bk36lw6cmos5NY5T6dtvy7nUAIjIkQnL5eSUfsBB+PLE4WBrblQKPmu0q+gJ+WUhdajU984EfbWk82JH7inA7C50k0ess5Pxx0bqYDbWra66r/8pD6HVkSibmu/uZWk0b6d1oKvec+XinfqD+bn5ahbDq9kgLCro+IU8p/lgW3uzCaYgGhLrPekGWiFLgphmeuf2TMq/likVxe3DjnBRwgc7nIU8gc6qf9DqIGaM6zCR6Uy+ArPEfrnqQNjyWh/h5cl5JBDw=
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.74;CTRY:US;IPV:NLI;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1080300003)(1109001)(1110001)(339900001)(52604005)(199003)(69224002)(189002)(4001450100002)(551544002)(15187005004)(18926405002)(108616004)(19580395003)(36756003)(4290100001)(18926415007)(19622755009)(24736003)(19617315012)(11100500001)(6806005)(19627405001)(229853001)(110466001)(960300001)(33646002)(43066003)(1220700001)(110136002)(85426001)(54356999)(226693001)(1096002)(567944001)(2171001)(15975445007)(19618635001)(107886002)(84326002)(5001960100002)(512874002)(53806999)(106466001)(104016004)(88552001)(18206015028)(77096005)(575784001)(105606002)(81156007)(1600100001)(75432002)(450100001)(50986999)(87936001)(5008740100001)(97736004)(5002220100002)(956001)(606003)(116076001)(7099028)(18265965002)(42882005)(17308445002);DIR:OUT;SFP:1101;SCL:1;SRVR:BLUPR07MB532;H:mail.law.georgetown.edu;FPR:;SPF:Fail;PTR:InfoDomainNonexistent;A:1;MX:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB532;2:Fvqyi/c38vEeyu59rAKcd40zrDA5vgggGQsAkb5hJYoNxTTNlLf92dO/sh1crsjHvyNhb33VAGm4XicqExiBv7v5+oXx0doPZGp5xLXUlUfGvlHXVIpm5nBj8qmBvrGbTdIEq1+oCGm6YJKjY6tRvQ==;3:80A0cHiaygXs+1DFCeAVS3HB9wBWcg1euG8xoaKj+nqxexUsr4unkMCzV4WT3Qz6C0jI2In43pIHxwtdIL0XsZyY+WsJZCmWJzP5QY5Y1ukK9FAR5LI3wJbXs+4MF/v0JpQ9tL2PiDAz9HVQp+j3Ddlid+ldDdLvB0JhQndMqCrbKGY7IlrN3KR1zr11rYF2dElFvDhhTTifJmkXJppD5fgIreIIqfq98tIC8fp68tAxUmLY9p46TcnPuJtbntDL7aEOTXGJfNEbRfCMb6AYAb0Y8h5Gh74/c/uCWg5um51lSKBGxIFMwhFkYMJxCpk5;25:GwKRmcRRujWj62L4mc0D0lRS3iCPCaaNm5YxNG8/ySOJeAGGPHeopGYV18aIJVEWjGEwjHrRyo8rFi9B+HexgjQmRPbJG4cWxyrONu7jrNSRfjuNMH2amP//Wk7tEQlGABgTBf8cjLRGKw2avTFke4C722zrLKkGCUtjASfghmnP8CbBu+7qZ4RxQoVxZonE0Jr8y/35rLxFXKm0JWbXs/vq4bE/UfXZf72IVzr0LtqGJPkH36q/Hy006Oi+vFGtJVTyc/a9WKxpvWkyjBrJxg==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:4;PCL:0;RULEID:(42134001)(42139001)(4216001)(3002015);SRVR:BLUPR07MB532;
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB532;20:TtnJ/JkD1ATxVO/M8OGua/xUzWN0DClgP0D5xtTpyzIBuQspZW9emeBu6Wk8FOI8f3I+fcWNRc4uTsYqfsfQlPuaZtmSIVTdy3hcY1/VTeIcutHH8AeaxO+dhqPQIsgHY85IlgWgmUIJiatCqZi4TqEHtrBUWhmWZemnJf/KuYBCZdj8Y0iFZY+aqPw31UONzH9rd89+kzRjT6fkX1J6Q11UnBgulmkmgebGs0+z+M4JCnieXC6EY6Wrfs0NqiQR+q9/G8RV7eGFfKnIVSMava06zhNlXwoeUG+yOaYRzTjoafwP+yXCShq8d6+RzHBxuw1qlvpYO+eOHIroGwv44bEUgpsSKQFFOmbS8DRlMY0KrioPZPlXh54WiVC3JL/UBw5TiZG+gSYBKGqQH8Z+JOVDadx7ykyE1BZqqqXcFvc=;4:GnyRoknpP5MY7uLlFPUbQTWSvgLm80cYcgCVFkT7nIyEtkdQivZOqxwGBifnRfZOXDSyE5guCLtMKrQX/9a6b3JZhcu9JnaODvhQfvXlJXlMzQ/b0vpyKc9+v40KJwrSnjq5dbLSS26i/nL34xgghPBBo2jfQlSw4DcDWH+pEAWhHCWLO0us90qdAiHJZh48aKyhHrw4If0tVVMDoYO4P7eQ8dukEe9WBWtn5oc0eXNl2M3iItlunIP+DKi32s3l4nnZmOs73xLDpopjYBp06XYa1TuOIaXCwYDpAYLryKJjd901atJLf9+cUAkrJbwpgtA/KXnj01+MZkPdi4YpakOZ0+zhZD6JIB10jUtEJz2fMp/W26Z7HFrPZxmNKStO
+X-Microsoft-Antispam-PRVS:
+	<BLUPR07MB5323816E18D8E9278147B8F93FB0@BLUPR07MB532.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 08041D247D
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BLUPR07MB532;23:2yKYZlbZHcsOc5m1dVFmuavTl+9gtBkzTtZT5QQ5kS?=
+ =?us-ascii?Q?/tCva7tU3rAcwXK9n+o4OCXxP11lJ1MVYArVmDRk9S2VAhQ8kxkp7Dlb1pm+?=
+ =?us-ascii?Q?qdHs/a4MI1g+BcC6E+DjbViSUY2qDHllQ+Gh9pj/Qh7cwPEpsV6/mvQXiZ55?=
+ =?us-ascii?Q?fu4L+AENifNlSawpX9qfhTiwG/+uD/M8vy6t5Ac8+mfaTgCuTfc2GOk3KKb0?=
+ =?us-ascii?Q?VI28QknQGyawqcZAoM05a6wTyzmCzWSuGBRPRGrORuRvOCVbuvtiIbYcOGFd?=
+ =?us-ascii?Q?+HiCP5VFbfpki/3302qaPESGMllbPIWO8u6zuN6JSCb6rkUuJKYBE8goHb5z?=
+ =?us-ascii?Q?aCinws3Txjs1PZJY3+cBeScK+tmeNNyfGGJAGYL6DXyVFPG6zaoowyZgNvmr?=
+ =?us-ascii?Q?i4Jf/wuRULF3u6+aarmGC+IhRR/eHjzs7U8GBJf+kiBvyafDHmr3vrem2akQ?=
+ =?us-ascii?Q?yVVNU6WLLU1exDPzNhop3Uo06B6a+4YB+7ixnL3Dg33YMOtIiZZw3GtF8dud?=
+ =?us-ascii?Q?7BpudNNUmrAewxKELeSzJjK5FoorCSNQB5uauvPKBsKgjtqCGoMapHUC3FOF?=
+ =?us-ascii?Q?0Oi8xcnRq4fjClmYDAAAs9y21O0chIfeaZOoawNuGN4ahdv8Eytq7ilXAloJ?=
+ =?us-ascii?Q?CwdiuPDzo+h+srw4acIb7Lt3Xr8xnRKJ2ykQv29aZCRGgTu/9M9YhEOPHOvp?=
+ =?us-ascii?Q?1R8ZX3cB4V5YjhYfWC2IQ/VnVP2kZwEH0UrXdtUXRzkai4Oabmz3m5RKg4Y5?=
+ =?us-ascii?Q?rv7WRkbv+6Urd5ESaQlSN29R0zw2SJfnv683U6O2UbL8dD5IODqvHQBGziOo?=
+ =?us-ascii?Q?wY/y5d/BlsjtOQBxHGxwqbk9hiLBGsQRWgT0UZ2jHqJ+IDCSa1rH28do1Len?=
+ =?us-ascii?Q?WqQV028VNtreBT674Ur1f3LnYFdSlHsZJgrJQDiODVLMlXZMJg4hMZNPIPvM?=
+ =?us-ascii?Q?ENIbESvFuzU4xQ7wRF9jwEPlEkMC8BmAH1rzVeTg+gIBCrTNYb2nO8s0vEBp?=
+ =?us-ascii?Q?x29mkc+ukZGIwR0N1PBqIWKy/staVMb/uNfkrEhCYIFaCYc3uVqmzouok1Ud?=
+ =?us-ascii?Q?aTWwJNOmQlwkSFi7JTL+5R33wCjf0ZfLupgZOCBh29FEO1QV2qgSXjVgUPBl?=
+ =?us-ascii?Q?a9S5qhlRtuwP+BsU4RijOFefAVYA5ndmHcJG4mh92FF2/Gd8XqbYzfTSMOmy?=
+ =?us-ascii?Q?Fpld64nGHFBmFkKh54hwk9kyGST3e0VYNKQVjQ1C1cMpndPFC3SYoKZ7qDMB?=
+ =?us-ascii?Q?wgiFYBNcRGWCQQ2UVmlqaYxazhFvpnEjX9nu0zdJo9r0c388X2HArI1QpGOO?=
+ =?us-ascii?Q?KEpAPUH6+Pk2IgoN95ck3p5A09HJdGwGYzyRhJTxD5Y02vG7QGGSnGtVw2/3?=
+ =?us-ascii?Q?aOk4r+PiTw6Gg5gB6tQrC7/QLr6589ei9jdxbH3DgLbn6t3+PuUfCb1M9MC6?=
+ =?us-ascii?Q?VeE4oQ/5g33U5mGaqwDw5ZMcPIm/4islTLeNaj4nc9PoMayYQUmeMx9IaK8C?=
+ =?us-ascii?Q?YQ62XoDtvFGlNP7qFfx4uZcDjzoXddI4CgtfE3USE6gzsTplT7yS84qFj9qc?=
+ =?us-ascii?Q?Y6LHf753tBt00Z5bc//jEPdnPZokEjtk8mj+rj2T+e7UfZtU8QHo23nAFswn?=
+ =?us-ascii?Q?OkVxGJuSsXXt1fjMIOuBSaAhOtcVnHFwCxtF2z6sPCyYsM0gZLoLSibFSjtf?=
+ =?us-ascii?Q?BZoy0q77a9N5+NDANleRxMaWEopYCWLdbk2/xTna1UDvnN9nfNyGtOMwrh7C?=
+ =?us-ascii?Q?UgW51b?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR07MB532;5:OatscXreKBAPdYe3TMeFbePCpwTZGD7JXFiroBwRPf5J+/13pn0TlSc2GbRVpIfNNDnz5vB5O6/fKysYK+OdigmquLY8rug/c6Zp4UZsS3i2Kx+ZKPaPrsWIRz1OdswDBcaXQlGrAwx5Ia8E17SP8A==;24:Hk5T4oeC/XjhZw/ehSzstOfZoPD6hQelqBSCt5ouWrqKywrnvAReASMejnBbpneAVDjRWeZdYjJhx/yGIMY7/4g+XlUBgLYl0coXD/BGo/4=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 4
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Dec 2015 16:16:43.9809
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR07MB532
+
+--NextPart_3b96ffa7_cb4c_450e_8828_2a1c726ba2b3
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+The Nature Conservancy
+
+
+
+Trouble viewing this email? Click here
+http://support.nature.org/site/R?i=3D2G1728JKS4_Mzt0IndBkqQ
+
+We Miss You!
+
+Dear Mr.
+Podesta,
+
+It's been a while since you've opened one of our emails and we
+miss you!
+
+We need you with us because you are the only way we can continue
+to protect the lands and waters on which all life depends.
+
+John, are you
+still with us? Click the button below to show your support by taking a
+stand with The Nature Conservancy today!
+
+http://support.nature.org/site/R?i=3D3egUj_Fca_jYSwJnKYJZwQ
+
+I support the protection of the lands and waters on which all life
+depends.
+
+I want to make sure we're doing our best to reach the people who
+want to be hearing from us and are ready to take a stand for nature.
+So if you no longer want to receive emails from the Conservancy, click
+here to unsubscribe.
+
+http://support.nature.org/site/CO?i=3DfDdxydV6jQzzn5YLQM4bS7wE3aY_6-L0&cid=3D1221&autologin=3Dtrue&src=3De.welcome&lu=3D4250277
+
+But I hope=
+ that you stick with
+us, John, because you
+make our conservation work possible. You helped us secure the first
+nature reserve in China -- ever. You helped us reach 1 million acres
+of land conserved in Montana -- that's one acre for every resident!
+And you are the driving force, every day, behind making our goals and
+aspirations for a healthy world a reality.
+
+We need you -- it's up to all of us to protect nature. So let us
+know that you care and pledge to take a stand with the Conservancy and
+our work around the globe today!
+
+http://support.nature.org/site/R?i=3D77_8qEWH6x8qNa611zvR0w
+
+John, I hope you
+come back to us today. But whether you take a stand for nature or
+
+http://support.nature.org/site/R?i=3DgtXGxuC-IbP6EwKgjSHkrg
+
+choose to unsubscribe, thanks for all you do to support the protection
+of our precious natural places.
+
+http://support.nature.org/site/CO?i=3DkCikr2-A8zQ0gZal3UBMbOKpCAV4TQ1g&cid=3D1221&autologin=3Dtrue&src=3De.welcome&lu=3D4250277
+
+Thanks for showing=
+ your support for nature!
+
+Sincerely,
+
+Sarah Bradley
+Online Community Manager
+The Nature Conservancy
+
+Nature.org | http://support.nature.org/site/R?i=3D5JWiU3q5cjU1Z3wniImr5g
+Where We Work | http://support.nature.org/site/R?i=3DTlz9f1shxJkqM7wC7evTxg
+How We Work | http://support.nature.org/site/R?i=3DX_WQg3cAqtu4vxcwDDDf1g
+Science in Action |http://support.nature.org/site/R?i=3DjHdyPOTV5mnAhHh3XqRINQ
+Donate | http://support.nature.org/site/R?i=3D1IRxPJwebmfIeCbpEecbLw
+Photos & Videos | http://support.nature.org/site/R?i=3DWtAH0RysUkDhfhgB95tPBQ
+About Us | http://support.nature.org/site/R?i=3DoF2jlN7GutC9Dnwqq2YBnA
+
+Find Us On:
+
+Facebook
+http://support.nature.org/site/R?i=3DHsFFxJIjk2KQXjbnk3aoRQ
+
+Twitter
+http://support.nature.org/site/R?i=3D7XE6VBzFhS10QrjFrDtzHw
+
+Google+
+http://support.nature.org/site/R?i=3DwdPIdNTOIvTaykHULTu2UA
+
+Flickr
+http://support.nature.org/site/R?i=3Di4-We5fg9fo37Ndl59JbQw
+
+LinkedIn
+http://support.nature.org/site/R?i=3DG6xU7z9o4mhgWy9tkpdQpg
+
+Instagr=
+am
+http://support.nature.org/site/R?i=3DVV2YSz6ZDoMbpgUuActGkw
+
+WeChat
+http://support.nature.org/site/R?i=3DHLYgscRIINDqPTKhY9Hu1g
+
+The Nature Conservancy Holds High Charity
+Ratings
+
+Our Ratings | http://support.nature.org/site/R?i=3DCFROsppdufzpeHIgA1Xxig
+Terms of User | http://support.nature.org/site/R?i=3DJVMvqVsOBZkjeVuIwRJNZQ
+Privacy Statement | http://support.nature.org/site/R?i=3DxoknC-uG97upD20d3zE6gw
+
+Copyright =C2=A9 2015 | The Nature Conservancy
+4245 North Fairfax Drive, Suite 100,
+Arlington, Virginia 22203-1606
+
+Questions or Comments? Call us toll-free at
+(800) 628-6860
+tel:1-800-628-6860
+
+Change Email Address | http://support.nature.org/site/R?i=3D95fhebOE18NfeuC0-8yg9A
+Request Password | http://support.nature.org/site/R?i=3DpAhXmbQBMB6PZpgNlQlMfQ
+Unsubscribe | http://support.nature.org/site/CO?i=3DUch1QZnbQT3LP6IokdJMTTaMzOD6aOcp&cid=3D1221&autologin=3Dtrue&src=3De.all.footer&lu=3D4250277=00
+--NextPart_3b96ffa7_cb4c_450e_8828_2a1c726ba2b3
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3DISO-8859-1">
+<title>The Nature Conservancy</title>
+
+<link href=3D"http://support.nature.org/css/UserGlobalStyle.css" rel=3D"stylesheet" type=3D"text/css" />
+<link href=3D"http://support.nature.org/css/CustomStyle.css" rel=3D"stylesheet" type=3D"text/css" />
+
+</head>
+<body>
+
+<style type=3D"text/css">
+
+</style>
+
+<head>
+<title>The Nature Conservancy</title>
+<style type=3D"text/css">
+.ReadMsgBody { width: 100%; background-color: #ffffff; }
+.ExternalClass { width: 100%; background-color: #ffffff; }
+body { width: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased;font-family: Corbel, Verdana, Frutiger, Helvetica, sans-serif; }
+table { border-collapse: collapse; margin-bottom:0; }
+ul { list-style-type: disc; margin: 1em 0; padding-left: 40px; }
+ol { margin: 1em 0; padding-left:40px; font-size:16px; }
+ul li { padding:0; margin: .5em 0; }
+ol li { padding:0; margin: .=
+5em 0; font:normal 16px Corbel, Verdana, Frutiger, Helvetica,sans-serif;color:#361a0a; }
+ul li:before { content:""; }
+.tab { margin-left: 2em; }
+@media only screen and (max-width: 800px)  {
+	body[yahoo=3D"fix"] .deviceWidth { max-width:600px!important; padding:0; width:100%; }
+	body[yahoo=3D"fix"] .deviceWidth2 { width: 260px!important; margin-bottom:16px!important; }
+	body[yahoo=3D"fix"] .center {text-align: center!important; }
+}
+@media only screen and (max-width: 640px)  {
+	body[yahoo=3D"fix"] .deviceWidth { max-width:440px!important; padding:0; }	
+	body[yahoo=3D"fix"] .center { text-align: center!important; }
+	body[yahoo=3D"fix"] table.footerCol { width:100%!important; }	 
+	body[yahoo=3D"fix"] table.footerCol p { text-align:left!important; }	 
+	body[yahoo=3D"fix"] span.findUs{ font-size:16px!important; line-height:inherit!important; white-space:nowrap!important; }	 
+	body[yahoo=3D"fix"] table.socialCol img { width:27px!important; }
+	body[yahoo=3D"fix"] img.headerAmazonLog=
+o { display:none!important; width:0px!important; height:0px!important; }
+	*[class=3Dmobile-hide] { display:none!important; }
+}
+@media only screen and (max-width: 479px) {
+	body[yahoo=3D"fix"] .deviceWidth { max-width:280px!important; padding:0; }
+	body[yahoo=3D"fix"] .center { text-align: center!important; }
+	body[yahoo=3D"fix"] table.socialCol p { text-align: center!important; }
+	body[yahoo=3D"fix"] table.socialCol { width:96%!important; margin:0 2%; }
+	body[yahoo=3D"fix"] .headerLogo{ max-width:280px!important; }
+}
+</style>
+<!--[if gte mso 9]>
+<style>
+ul, ol { margin: 0 0 0 40px; padding: 0; list-style-position: inside; }
+.deviceWidth { width:600px!important; padding:0; }
+</style>
+<![endif]-->
+</head>
+
+<body leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" marginheight=3D"0" yahoo=3D"fix" style=3D"font-family:Corbel, Verdana, Frutiger, Helvetica, sans-serif;">
+
+<!-- Wrapper -->
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+  <tr=
+>
+	<td width=3D"100%" valign=3D"top" bgcolor=3D"#ffffff" style=3D"padding-top:20px">
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+          <td>
+			<!--start body here-->
+<IMG SRC=3D"http://ad.doubleclick.net/ddm/ad/N9539.1847385NATURE.ORG/B8638269.117013663;sz=3D1x1;ord=3D1?" BORDER=3D0 WIDTH=3D1 HEIGHT=3D1>
+
+<table width=3D"780"  class=3D"deviceWidth" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" bgcolor=3D"#eeeeed">
+  <tr>
+    <td valign=3D"top" style=3D"padding:0;" bgcolor=3D"#ffffff"><p style=3D"text-align:center;"><a href=3D"http://support.nature.org/site/R?i=3D3w7zhKWgMPHbdKfconQ7-g" style=3D"text-decoration:none;color:#361a0a;font-size:13px;">Trouble viewing this email? Click here</a></p>
+          <a href=3D"http://support.nature.org/site/R?i=3DTxJi-0kUgxqGyUxd6yM9_g" target=3D"_blank"><img class=3D"headerLogo" style=3D"display: block; margin: 0px; float: left;" src=3D"http://support.nature.org/imag=
+es/content/pagebuilder/2015/TNCLogo_RGB.png" border=3D"0" alt=3D"The Nature Conservancy" /></a></td>
+  </tr>
+  <tr>
+    <td valign=3D"top" style=3D"padding:0;" bgcolor=3D"#ffffff"><a href=3D""><img class=3D"deviceWidth" src=3D"http://support.nature.org/images/Appeals/201407/exitseries/header2.jpg" alt=3D"We Miss You!" border=3D"0" style=3D"display: block;margin:0;" /></a></td>
+  </tr>
+</table>
+<table width=3D"780"  class=3D"deviceWidth" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+  <tr>
+    <td valign=3D"top"><br />
+      <span style=3D"font:normal 18px Corbel, Verdana, Frutiger, Helvetica,sans-serif;color:#361a0a;">Dear Mr. Podesta,</span></font><br />
+      <br />
+      <span style=3D"font:normal 16px Corbel, Verdana, Frutiger, Helvetica,sans-serif;color:#361a0a;">It's been a while since you've opened one of our emails and we miss you!<br />
+      <br />
+      We need you with us because <strong>you</strong> are the only way we can continue to protec=
+t the lands and waters on which all life depends.<br /><br />
+      <strong>John, are you still with us? Click the button below to show your support by taking a stand with The Nature Conservancy today!</strong><br /><br />
+                          <table width=3D"55%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center"><tr><td style=3D" text-align: center; border-radius: 16px; background-color: #C85C19; color: #fff; margin: 0 auto;"><a href=3D"http://support.nature.org/site/R?i=3D6Kfakt4ArghcAQ-i0n42hw" style=3D"display: block; color:#fff; padding:10px 20px; font-size: 11pt; font-weight: bold;text-decoration: none;"><p style=3D"margin:0; padding:0;">I support the protection of the lands and waters on which all life depends.<br></p></a></td></tr></table><br />
+      I want to make sure we're doing our best to reach the people who want to be hearing from us and are ready to take a stand for nature. So if you no longer want to receive emails from the Conservancy,=
+ <a href=3D"http://support.nature.org/site/CO?i=3DI6tXwzAI4DdhwvU7Pk8fFjYbFdwcghRx&cid=3D1221&autologin=3Dtrue&src=3De.welcome&lu=3D4250277" target=3D"_blank" style=3D"color:#c85c19;"><strong>click here to unsubscribe</strong></a>.<br />
+      <br />
+      But I hope that you stick with us, John, because you make our conservation work possible. <strong>You helped us secure the first nature reserve in China -- ever. You helped us reach 1 million acres of land conserved in Montana -- that's one acre for every resident!</strong> And you are the driving force, every day, behind making our goals and aspirations for a healthy world a reality.<br />
+      <br />
+      We need you -- it's up to all of us to protect nature. <a href=3D"http://support.nature.org/site/R?i=3DitshVm76b3cMH-I2E6Xzvw" target=3D"_blank" style=3D"color:#c85c19;"><strong>So let us know that you care and pledge to take a stand with the Conservancy and our work around the globe today!</strong></a><br />
+      <b=
+r />
+      John, I hope you come back to us today. But whether you <a href=3D"http://support.nature.org/site/R?i=3D5i3KZSZIq3DHgon3DdVWuQ" target=3D"_blank" style=3D"color:#c85c19;"><strong>take a stand for nature</strong></a> or <a href=3D"http://support.nature.org/site/CO?i=3DhACB4d_1SzJ8euh43AZ_skulReH7ZOc0&cid=3D1221&autologin=3Dtrue&src=3De.welcome&lu=3D4250277" target=3D"_blank" style=3D"color:#c85c19;"><strong>choose to unsubscribe</strong></a>, thanks for all you do to support the protection of our precious natural places.<br />
+      <br />
+      Thanks for showing your support for nature!<br />
+      <br />
+      Sincerely,<br />
+      <img alt=3D"[Signature]" src=3D"http://support.nature.org/images/Appeals/Signatures/sbradley.gif" width=3D"250"/><br />
+      Sarah Bradley<br />
+      Online Community Manager<br />
+      The Nature Conservancy <br />
+      <br />
+      </span>
+      <div style=3D"font:normal 12px Corbel, Verdana, Frutiger, Helvetica,sans-serif;colo=
+r:#666666;"><em>PHOTOS: The Nature Conservancy's Piney Grove Preserve in Sussex County, Virginia =C2=A9 Robert B. Clontz/TNC.</em><br />
+        <br />
+      </div></td>
+  </tr>
+</table>
+
+<!--end body here--><img src=3D"http://support.nature.org/site/PixelServer?j=3D1VYV7rebHM0-RkMyLkupsQ" height=3D"1" width=3D"1" alt=3D""/>
+
+            <!-- 2 Column -->
+            <table width=3D"780"  class=3D"deviceWidth" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+              <tr>
+                <td valign=3D"top" style=3D"font:bold 24px Corbel, Verdana, Frutiger, Helvetica,sans-serif;color:#361a0a;padding:1em 0 0.5em;" bgcolor=3D"#dfeac2">
+                  <table align=3D"left" width=3D"42%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"socialCol">
+                    <tr>
+                      <td>
+                        <p style=3D"padding:0;margin:0 .5em;text-align:right;"><span style=3D"display:inline-block;line-height:33px;vertical-align:to=
+p;text-align:right;" class=3D"findUs">Find Us On:</span></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table align=3D"left" width=3D"43%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"socialCol">
+                    <tr>
+                      <td width=3D"33" align=3D"left" style=3D"min-width: 22px;"><a href=3D"http://support.nature.org/site/R?i=3D_WzJKgY_g-xEz0hN38XHPw"><img src=3D"http://support.nature.org/images/content/pagebuilder/tnc-facebook.png" width=3D"33" border=3D"0" alt=3D"Facebook" /></a></td>
+                      <td width=3D"33" align=3D"left" style=3D"min-width: 22px;"><a href=3D"http://support.nature.org/site/R?i=3D83DGQHgCNR1IVs0AR5w9Mg"><img src=3D"http://support.nature.org/images/content/pagebuilder/tnc-twitter.png" width=3D"33" border=3D"0" alt=3D"Twitter" /></a></td>
+                      <td width=3D"33" align=3D"left" style=3D"min-width: 22px;"><a href=3D"http://support.nature.org/=
+site/R?i=3DiqZw4ZfzIv2z-7IjtZFwRQ"><img src=3D"http://support.nature.org/images/content/pagebuilder/tnc-google-plus.png" width=3D"33" border=3D"0" alt=3D"Google+" /></a></td>
+                      <td width=3D"33" align=3D"left" style=3D"min-width: 22px;"><a href=3D"http://support.nature.org/site/R?i=3DO-wnhP_hsdTXlrcfvkaQ_A"><img src=3D"http://support.nature.org/images/content/pagebuilder/tnc-flickr.png" width=3D"33" border=3D"0" alt=3D"Flickr" /></a></td>
+                      <td width=3D"33" align=3D"left" style=3D"min-width: 22px;"><a href=3D"http://support.nature.org/site/R?i=3D0_oyKQPINuDQw7hgSplFMw"><img src=3D"http://support.nature.org/images/content/pagebuilder/tnc-linkedin.png" width=3D"33" border=3D"0" alt=3D"LinkedIn" /></a></td>
+                      <td width=3D"33" align=3D"left" style=3D"min-width: 22px;"><a href=3D"http://support.nature.org/site/R?i=3DDQRRkUuRnd1mIbHBTI3QYQ"><img src=3D"http://support.nature.org/images/content/pagebuilder/tnc-instagram.png"=
+ width=3D"33" border=3D"0" alt=3D"Instagram" /></a></td>
+                      <td width=3D"33" align=3D"left" style=3D"min-width: 22px;"><a href=3D"http://support.nature.org/site/R?i=3DnlCUW7ygxOwBdv6DyzncIw"><img src=3D"http://support.nature.org/images/content/pagebuilder/tnc-we-chat.png" width=3D"33" border=3D"0" alt=3D"WeChat" /></a></td>
+                    </tr>
+                  </table>         
+                </td>
+              </tr>
+              <tr>
+                <td valign=3D"top" style=3D"font:bold 24pxCorbel, Verdana, Frutiger, Helvetica,sans-serif;color:#361a0a;padding:0 0 1.5em;text-align:center;" bgcolor=3D"#dfeac2">
+                  <p style=3D"font-size:13px;padding:0;margin:0 .5em;">
+                    <a href=3D"http://support.nature.org/site/R?i=3DLMLinBU0i30E6sjLDRuheg" style=3D"text-decoration:none;color:#00703c;">Nature.org</a> | 
+                    <a href=3D"http://support.nature.org/site/R?i=3DK5-xdZ4S8-bVog1iuLYr0w" style=3D"text-decorati=
+on:none;color:#00703c;">Where=C2=A0We=C2=A0Work</a> | 
+                    <a href=3D"http://support.nature.org/site/R?i=3DJWgHeAUEr3LBX1jeVy6bvw" style=3D"text-decoration:none;color:#00703c;">How=C2=A0We=C2=A0Work</a> |  
+                    <a href=3D"http://support.nature.org/site/R?i=3DP8FnM-DULrVzE0BkQnS7pg" style=3D"text-decoration:none;color:#00703c;">Science=C2=A0in=C2=A0Action</a> | 
+                    <a href=3D"http://support.nature.org/site/R?i=3DkMeS0fzlHX8DzDwL_aJUYw" style=3D"text-decoration:none;color:#00703c;">Donate</a> | 
+                    <a href=3D"http://support.nature.org/site/R?i=3DL-TFGI-FtlFKIe6WKdkhyw" style=3D"text-decoration:none;color:#00703c;">Photos=C2=A0&=C2=A0Videos</a> | 
+                    <a href=3D"http://support.nature.org/site/R?i=3DxqJXYVsvMTwy3ZKYIquS_Q" style=3D"text-decoration:none;color:#00703c;">About=C2=A0Us</a>              
+                  </p>          
+                </td>
+              </tr>
+            </table>
+    =
+        <!-- End 2 Column -->
+            <!-- 2 Column Images & Text Side by Side -->
+            <table width=3D"780" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" bgcolor=3D"#ffffff" class=3D"deviceWidth">
+              <tr>
+                <td style=3D"margin-bottom:1em;padding:10px 0;padding-bottom:1em; border-bottom:dotted 1px #beb5b0;">
+                  <table align=3D"left" width=3D"49%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"footerCol">
+                    <tr>
+                      <td bgcolor=3D"#FFFFFF">
+                        <p style=3D"font:normal 13px Corbel, Verdana, Frutiger, Helvetica,sans-serif;margin:1em;">
+                          <img src=3D"http://support.nature.org/images/content/pagebuilder/tnc-bbb.png" alt=3D"The Nature Conservancy" border=3D"0" align=3D"left" style=3D"float:left;display: inline;margin:0 0 10px 0;" />
+                          <span style=3D"color:#361a0a; line-height:18px;">The=C2=A0Nature=
+=C2=A0Conservancy=C2=A0Holds<br/>High=C2=A0Charity=C2=A0Ratings</span><br /><br />
+                          <a href=3D"http://support.nature.org/site/R?i=3DboUkS109Ri_Ds0ZeTF6e8A" style=3D"text-decoration:none;color:#00703c;">Our Ratings</a> | 
+                          <a href=3D"http://support.nature.org/site/R?i=3DYJwoRlO7_pzP092ceQwebg" style=3D"text-decoration:none;color:#00703c;">Terms=C2=A0of=C2=A0Use</a> | 
+                          <a href=3D"http://support.nature.org/site/R?i=3D5numcTR8VuCBtGjfEvDtYg" style=3D"text-decoration:none;color:#00703c;">Privacy=C2=A0Statement</a>
+                        </p>
+                      </td>
+                    </tr>
+                  </table>                       
+                  <table align=3D"left" width=3D"49%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"footerCol">
+                    <tr>
+                      <td style=3D"text-align: left; font:Corbel, Verdana, Frutiger, Helvetica, sans-serif; line-hei=
+ght: 24px;color:#361a0a;">
+                        <p style=3D"font:normal 13px Corbel, Verdana, Frutiger, Helvetica,sans-serif;margin:1em 1.5em;color:#361a0a;text-align:right;">Copyright =C2=A9 2015 | The Nature Conservancy<br />
+                          4245 North Fairfax Drive, Suite 100, <br />
+                          Arlington, Virginia 22203-1606<br />
+                          Questions or Comments? Call us toll-free at <a href=3D"http://support.nature.org/site/R?i=3DhDpOH18vThtH_soH0qekTw" style=3D"text-decoration:underline;color:#361a0a;">(800) 628-6860</a></p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>               
+            </table><!-- End 2 Column Images & Text Side by Side -->
+            <table width=3D"780"  class=3D"deviceWidth" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+              <tr>
+                <td valign=3D"top" style=3D"font:bold 11px C=
+orbel, Verdana, Frutiger, Helvetica,sans-serif;color:#361a0a;padding:1.5em 0 0;text-align:center;padding-top:0.5em; border-top:dotted 1px #beb5b0;" bgcolor=3D"#ffffff">
+                  <p style=3D"font:normal 11px Corbel, Verdana, Frutiger, Helvetica,sans-serif;margin:1em;">
+                    <a href=3D"http://support.nature.org/site/R?i=3DNXIO9iKpMSmjl8CTEVVm-Q" style=3D"text-decoration:none;color:#00703c;">Change=C2=A0Email=C2=A0Address</a> | 
+                    <a href=3D"http://support.nature.org/site/R?i=3DTTxplW9ZAI5TkVDVCecd8w" style=3D"text-decoration:none;color:#00703c;">Request=C2=A0Password</a> | 
+                    <a href=3D"http://support.nature.org/site/CO?i=3Dg6CL0zvy58YlH3dzMNwd00sBiYzBj53x&cid=3D1221&autologin=3Dtrue&src=3De.all.footer&lu=3D4250277" style=3D"text-decoration:none;color:#00703c;">Unsubscribe</a>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  =
+</tr>
+</table> <!-- End Wrapper -->
+
+</body>
+
+</body>
+</html>=00
+--NextPart_3b96ffa7_cb4c_450e_8828_2a1c726ba2b3--

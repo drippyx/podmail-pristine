@@ -1,0 +1,339 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp116825lfb;
+        Fri, 18 Mar 2016 13:17:52 -0700 (PDT)
+X-Received: by 10.98.87.4 with SMTP id l4mr5156963pfb.15.1458332272775;
+        Fri, 18 Mar 2016 13:17:52 -0700 (PDT)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bl2-obe.outbound.protection.outlook.com (mail-bl2on0054.outbound.protection.outlook.com. [65.55.169.54])
+        by mx.google.com with ESMTPS id t13si3187337pas.225.2016.03.18.13.17.52
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 18 Mar 2016 13:17:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 65.55.169.54 as permitted sender) client-ip=65.55.169.54;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 65.55.169.54 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=pass header.i=@gulaw.onmicrosoft.com;
+       dkim=neutral (body hash did not verify) header.i=@bounce.bluestatedigital.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gulaw.onmicrosoft.com;
+ s=selector1-law-georgetown-edu;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=TqJnPwla3vLBQ8zuEgKHxiH8rchTJlqvdiyyKOyB2uA=;
+ b=JXVcXWISZ9Vy6yUDUFlDIkHqtNPMNft8h1lWyoXCkaThEAf4uF6whuPK2tq4rfIWmEnZzfXapy8/FNPH4UWtAK/fSno8IDI4q31K9gDPDM/Mr+6eZQqIAoTZQL/ZEPKPB2zGg663Fe8RpmQnaowVHNrZou2EE6juoS2z6vAimnc=
+Received: from SN1PR0701CA0007.namprd07.prod.outlook.com (10.162.96.17) by
+ BY1PR0701MB1783.namprd07.prod.outlook.com (10.162.141.21) with Microsoft SMTP
+ Server (TLS) id 15.1.434.16; Fri, 18 Mar 2016 20:17:50 +0000
+Received: from BL2FFO11OLC005.protection.gbl (2a01:111:f400:7c09::128) by
+ SN1PR0701CA0007.outlook.office365.com (2a01:111:e400:5173::17) with Microsoft
+ SMTP Server (TLS) id 15.1.443.12 via Frontend Transport; Fri, 18 Mar 2016
+ 20:17:50 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.75)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.bluestatedigital.com;gmail.com; dmarc=none
+ action=none header.from=mikehonda.com;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.75 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.75;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.75) by
+ BL2FFO11OLC005.mail.protection.outlook.com (10.173.160.91) with Microsoft
+ SMTP Server (TLS) id 15.1.443.6 via Frontend Transport; Fri, 18 Mar 2016
+ 20:17:49 +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-by2-obe.outbound.protection.outlook.com (141.161.191.13)
+ by LAW-CAS2.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.279.2; Fri, 18 Mar 2016 16:16:37 -0400
+Received: from BY2PR07CA047.namprd07.prod.outlook.com (10.141.251.22) by
+ BLUPR0701MB1777.namprd07.prod.outlook.com (10.162.87.147) with Microsoft SMTP
+ Server (TLS) id 15.1.443.12; Fri, 18 Mar 2016 20:16:30 +0000
+Received: from BN1AFFO11FD035.protection.gbl (2a01:111:f400:7c10::133) by
+ BY2PR07CA047.outlook.office365.com (2a01:111:e400:2c61::22) with Microsoft
+ SMTP Server (TLS) id 15.1.443.12 via Frontend Transport; Fri, 18 Mar 2016
+ 20:16:30 +0000
+Authentication-Results: spf=pass (sender IP is 69.25.74.172)
+ smtp.mailfrom=bounce.bluestatedigital.com; law.georgetown.edu; dkim=pass
+ (signature was verified)
+ header.d=bounce.bluestatedigital.com;law.georgetown.edu; dmarc=none
+ action=none header.from=mikehonda.com;
+Received-SPF: Pass (protection.outlook.com: domain of
+ bounce.bluestatedigital.com designates 69.25.74.172 as permitted sender)
+ receiver=protection.outlook.com; client-ip=69.25.74.172;
+ helo=mta-dock-front-1.bluestatedigital.com;
+Received: from mta-dock-front-1.bluestatedigital.com (69.25.74.172) by
+ BN1AFFO11FD035.mail.protection.outlook.com (10.58.52.159) with Microsoft SMTP
+ Server (TLS) id 15.1.443.6 via Frontend Transport; Fri, 18 Mar 2016 20:16:28
+ +0000
+Received: from bounce.bluestatedigital.com (unknown [10.0.200.60])	by
+ mta-dock-front-1.bluestatedigital.com (Postfix) with ESMTP id 3qRc1m4K3SzyRb
+	for <podesta@law.georgetown.edu>; Fri, 18 Mar 2016 20:16:28 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=bounce.bluestatedigital.com; s=bsdkey; t=1458332188;
+	bh=Fenph0Xpi3DvbEgNFUDE2nAI6r3EVnbDnUzfyQWTDqc=;
+	h=Date:To:From:Reply-to:Subject:List-Unsubscribe;
+	b=w9UCOfL8J8WxZyinp8BsTsbfunDDBcoHiaWD0dijvj+VHVoqpqyeZqLA/OMZIePSG
+	 IFohMSg8DFFEvuT79lgBgVjvsAnyrHAqTpeiwJ6hcrxQu+GQE/bsBIoZ1ak9Xo6wsn
+	 WrI28p49SKmQZZz4H3cUIzZawplMr3TkNEJXmr3c=
+Received: from phpmailer 	by bounce.bluestatedigital.com with local
+ (PHPMailer);	Fri, 18 Mar 2016 20:16:28 +0000
+Date: Fri, 18 Mar 2016 20:16:28 +0000
+To: John Podesta <podesta@law.georgetown.edu>
+From: Michael Beckendorf <info@mikehonda.com>
+Reply-To: <campaign@mikehonda.com>
+Subject: California is Trump country?
+Message-ID: <7fad9e82dc2739c57b79cc54449ce3f2@bounce.bluestatedigital.com>
+X-Mailer: PHPMailer [version 1.71-blue_mailer]
+X-maillist-id: 67fce671b32f2d85
+X-rpcampaign: rp_502
+X-maillist-guid: DQpYUQJtUAMDUFUDBlRRUlFfAlYMAmxDDV1XEEJVdQgEEhhSBgsUUwBHX0JfS1YFFjABBw0
+List-Unsubscribe: <http://action.mikehonda.com/unsubscribe?email=podesta%40law.georgetown.edu>, <mailto:DQpYUQJtUAMDUFUDBlRRUlFfAlYMAmxDDV1XEEJVdQgEEhhSBgsUUwBHX0JfS1YFFjABBw0@bounce.bluestatedigital.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_7fad9e82dc2739c57b79cc54449ce3f2"
+Return-Path: podesta@law.georgetown.edu
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CIP:69.25.74.172;IPV:NLI;CTRY:US;EFV:NLI;SRV:BULK;SFV:SPM;SFS:(31640200002)(2980300002)(438002)(359002)(286005)(189002)(199003)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR0701MB1777;H:mta-dock-front-1.bluestatedigital.com;FPR:;SPF:Pass;MLV:ovrnspm;MX:1;A:1;PTR:mta-dock-front-1.bluestatedigital.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BN1AFFO11FD035;1:XFoiwH+4smAy8b1GbYj7StzYEDU3IpuArJcJeBs2sE+tbrmPg7UMDMVkFlyzC6u+BrjIIRLZ8dEJSwNEVi3xbjgEezF/61+FpZVoSLri20tDnsefMELElTzaraQZLv19c9CMEkoAMMFTUQqtDgaZ30UdQqw34w9BAyfgjx21RVpcycKgH4XmBM9Cu1JVG4i8Q0Ktzi5fOCuDgr0AesyJIIFmWiVvQA3ZbOzbPNqGjQPB4saGQ8gblXEl14GSgnJiNUx+dHZm3HsjD0CmvsvQqjMU39RfWq7t5dvXGhRtAbtWN98RPEELleetao1kmjVcuoF1KhZMez5RdnvtFhe0CwLiKzrLHoYMJg+9dkpqkri8060QEQuj/6681JPtLg75XlavxycP0uPtEAOlijLltmeIfFaSTlz8Jj5+VL1GeOcjSIaZ7Ii9GvBUfQ5vVJFkhuxO6NBqUr1nrlaMP8HqnUtQ/J7qqQEyhDL3wFLkjs4=
+X-MS-Office365-Filtering-Correlation-Id: 1b0c0996-1b8f-44e7-5db9-08d34f6a60e4
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR0701MB1777;2:SjbQRlvrr5iqCPlDj8WbCzF4HhJwmrb8m3E1GjU0aM0GBv1GPoLO7HxA6CGUU4xrvbjZEFLP0xSdgweoJ+u4hNfws/EgYXGlQFm8iIoP80mVsbGW6sFk6oa7Irb7wc8xSDwZkIK9bzfjPEyOfdbWEIveOBydiuXi/neO9FKAiG2lRc5vuN5ZngBMhO/p1UO2;3:si0Gl93dRDhrm16akn0A1DvP3ZQ19FFUgGeUj8Nq2JlDe2kBUMC3pXIjEvGXce5K5quxEnjvgXtLFSiIRZd1WYD6HTWQOXaHddUQOQ+ru8fGiAaF1OliTXmQnUMAwbgcuxUF0ItR5X0uWfnDQ7MK/cllrWFGApQ+Xx7CdtaY/ccnZ6PW71WkDqt703bn1tBG0E6f12P+KKxoeecp3L7lsZOeeArCdhzjk0ma8uYkyiKK+4yFTGXawEL47apn1ooOxOqjbSD7md7DEp2kekxkttrbhdU+z8+1snSu9EOlidkhcFdkkdIFhgZ1Mhqt3HssWvnNrlkt7u4t5GWI6nAbbt4RKvysDgDkLd8Hhsg1P7Y=
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(421252002)(240002)(3001016)(116002)(71701004)(71702002);SRVR:BLUPR0701MB1777;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR0701MB1777;25:Jf13Ese8ORkvLrNtQrq5Tr30T8cUXeyJpsk8aXI2wI2woaBytPYdx4Wujer7KFRQBgu/jpgNTz771oLbotcPY+MB/4dD/5KCMZvDnzACoL05Vceg4HH2eETolXiDvb/S8kZ0raIV4DKJ/JNvaFNOoYzIkC/q3w7yUptpZgcTHIz65FndWNIzxBURVjC9KeVSRnOD4oW730whdZrYx9r69Ir54CklSma90lz7jONtZ4RjWiPYg7GZg5wLNigYCTg+zkOs74AKCvvg9ImeZj4shTMgs2AnkCIDAXec3U+jPPC1tVg/87FpJE6+8zhcp8YAy+OVvoarBbdC/HWpuvoVFJHWnHzN0wAoK+NjOE5KR3zEYQsSfOmy0+ryf2SJkZpxut/K3WE9PpeK/7LaUnWH4CB+h+rLWrMYGucT3gT6CYgMekqxjW1T5/4sMT7CIATvNBVNJCTsA3of9ipe6ZO2oCZaC1Jx4WoJoZm89EZxHeDDw6VtMPKH2jxLW2dHMHTqtJ3qR1ZtP3Do74WW1srSS6R8ArITrS3tpOcSGOz51g2f8Fv4KKfdzpmZbERmyuec/uxVocYFwkpXwxzt0zcUV7JInWduqPBz3Fw3ToMhcwh07FA1J8OCm/XF5FP6drnjxjGl2ZKrkyyQdxSty5Z4TTHTNdNkqwkAzO0wfcLogipbhuHL5eWY4XHLVg+d8Dwvttx6HgrUjY19vuN+aJ1IC5N3Xs2yIRo1kqARUa13mQz8w7CwnZ2JVpXbmpsXIsnNMW0DmYrVWd3hDsY7qFTVdr5sKJ28yFBkrQZcSQOT/vMKwsd7l+3SrD3VZ8iq4XQM
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR0701MB1777;20:sZfgm2RCaIzEaXBuvun+7jJGnDE1YhVi9SmxBlWUFd4D7PgDGzr8Tf/PIhcLUVDToLSFh9LXtym0CncX4yPPHXzee/JrWumHHlMsYWdLpQosKwMIsWx8SgrgBWK9Tu7YquPV7y6szAMZg1rHctoe/Azot5Epfw+T98hvUCDWdtCUiEvpkc5xXZcDIuywLNP2bUjLf8bLQ3eLHqmW+5GIK4oj5qaIiCXmTMbopNqoZoJAfEyuT/oO4zqollwtyixmuljLWAQenA1xQwPVHR9FBQHrsFOZbt1j0xsn5GBkBTh6/e4xOYPqo6l4p9pjLsWEB5AkTXr5+NYSFY9eOPBKR0XlXN/NjXSAKUp3lJaJUkLVdINIAzCtzVxSS0TCh9PkfFt+I6CsYRsSBmoGpUV4OLO5QRBfisdEc6sxZYWOnZo=;4:CQ3wBORZkcbTxhIjwqlGaHzyAn1QCx+KwYpEVrnxZdZcG/kEZaXmVbWJh4F7aiUJnlb0ALt1sCl5W7XoRf7iTtxDvOFU+Z8F/BA1xBlAddpUsmksRSWUNbSV2i5/CoiDpgRKhnmcYu0w3h5PfpbJxLR0T/DMkFLQoNZYfh6gRJIwcgxXIvPDA1hpHbzst49eu2uaMNoKxI+qPXQt89dbErmsSGrJO/9LTpIuDv1lulwP5Nt/O0rHstce1Heznyi8KDmspQtpqki/pBW8VTJu8YYReUeBd4s2KHIwopMkNGCBbq4TOjDlaTecg9RBp8EWvbt4nUAfH4Lwrrytip8QB+ASmv398whldwpS9JgTr/8wCfu8Qe8hbbYAveervkFbMF4S88PEtN9J7p60up6Hazr2qTugbcMVJ8D0ymt9H3k=
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(5010005)(5011007)(13016025)(13018025)(8121501046)(3002001)(10201501046);SRVR:BLUPR0701MB1777;BCL:8;PCL:0;RULEID:;SRVR:BLUPR0701MB1777;BCL:0;PCL:0;RULEID:(601004)(2401047)(5005006)(13016025)(13018025)(8121501046)(3002001)(10201501046);SRVR:BY1PR0701MB1783;BCL:0;PCL:0;RULEID:;SRVR:BY1PR0701MB1783;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR0701MB1777;23:hfC+/jvDq7/U6KAnHPw7qQqR1lNKps92Emlfaz7rAZzgL3cBNKhOotWbLW6WsmIG/OMSo3hftTopmOhZAK2QT/5/vavowErqPH3eUFFjJMbyCi+USFTJjLmNibMDovX5eaFWbF2OY/hKvj/lh1UUhtk98/ybtlhQeWv+hoexo4WtUZaxBrzcmhkXPLSdN/kIB8mf0s+E+ogmlAiHPHKfDW2T6w/Cq1sSSuVhToVQKrJvQdu5ghy7qVpAJ4T5JyplBXIp1MeT5gRrEg/Znl9c8yv3DXZK0P4vozeDgSmIASka825vmUdqM1o+dgH+SA+ZgWdgsExmPyhRfkfahv8QwDwjf/fRzClJyj3VTvsRHxRgjMxDAPbKbvPBTG8ddnRq;5:IASllx8jFUIm5zcpp/wuKmENvn+qJLqxRxSbGc2GV9CXV+UxJN9NztCh5MiimZq2VR5RlAJ/vhXzDJS5bT/b1nshCNVZMYiAgq8/extNoTCFhLGdpK4Q/xrKwqd/MZHnEDsYdoX4FGFlbYyHXY/E+Q==;24:j5IwqnUVSBffvW0ip0Yfdvr8vxFbOk9OyT31KcPpFEuMd9L2D2XATVSosFvHbPyl/Qfsow3cNyT9mAejdg18iw==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR0701MB1777
+X-OrganizationHeadersPreserved: BLUPR0701MB1777.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS2.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BL2FFO11OLC005.protection.gbl
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.75;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1110001)(1109001)(339900001)(199003)(189002)(108616004)(47976999)(19580395003)(19580405001)(50986999)(106466001)(11100500001)(53806999)(19617315012)(512874002)(89996002)(450100001)(43066003)(46656002)(15975445007)(229853001)(57986006)(146001)(81166005)(85426001)(84326002)(50226001)(110136002)(107886002)(4290100001)(3820100002)(18206015028)(5002220100002)(189998001)(19618635001)(586003)(1220700001)(105606002)(1096002)(956001)(3480700003)(2171001)(33646002)(88552002)(87936001)(23466002)(2906002)(18926415007)(6806005)(75432002)(24736003)(5008740100001)(4001450100002)(7029014)(7099028)(95576001)(105616011)(87552003)(42882005)(42262002)(110126006)(110146012);DIR:OUT;SFP:1101;SCL:1;SRVR:BY1PR0701MB1783;H:mail.law.georgetown.edu;FPR:;SPF:Fail;MLV:nov;A:1;MX:1;PTR:InfoDomainNonexistent;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11OLC005;1:YzfMpafR9oRIoVKcmvbf9B5fe70a4cm9SMCEWLWIsgmqqiqM78E5H22rqjIggSxK5BH2MevCE6L9g//srK5YIthj5qH+6D3ilAtGlRBkJCAODTjySKnRAIE+FWLGHhGnTC4pk1s29EWHAS/Ylx0dZ81HewmF+6LfCCnSnRozGWasUlpbc9zDLmQXwArKHB4CrAkXGYmVY05QllkGw3OPf46lCRI9bYAVTD0Qdt0iLNo16tA8NXc5nym67hecdHrxGVFdm934lLWwrNEteC8Ed2TauQvUGETcJpnc5BTTrmD7TFjXXZ+BWC5BhBMxrCeKlGq7wGhIcSIdaBhpS2BfFLPdGTFdEuy/USXsftpn8LWLZpiOG2jRh4cVi7llzjF7ZUIAUcMyu9Z9VjeE2E47qXjuz+42S27BF0yqjR1hm3W+B6nHxUIMbfh3f1+tjKpU
+X-Microsoft-Exchange-Diagnostics:
+	1;BY1PR0701MB1783;2:IlRlWYFGSRO4OqH8/ht8dlxj7aNMO3abmeKHROAHNxlzIsEstop2l4qZ/Ldmgv7o4qjZfh9w1CNIsgdTs9M61gfnggXdALpDjkN0vgFf/5tuHhxSYPyhVbhzboJ5+ly8JBSRDy96QYOb3EpxvxNvxGD1ZuACPJbGfcOmeAZXfn2cj3jl8mW3fzoF98BOEwZT;3:49NQYgdT7q2r98C2SLIc9ycLkjSjX+fT9lZcUblLSnboJOrOudJrj03Z/ENop58tCIRgBQCQONP9Xa4Jd2NIsgewVktscozAhIK0hWNavAQdU1ke2WjhlkzzaziF5H3M/Z9s9K6Yl+tHfXm+LRVbW9HRkiHJtPFzQafpKz6Jk0Cj+FQIO2tYDHc4xvTgn/yyV5VQNVMRraX61Ri7scEXkSBxE/ShOhhNQroTyo8VJPvbsxsGCjaDoqBdr+i5LdLABMONvh9HvCCpaKRylW8sPw==
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(421252002)(3002016);SRVR:BY1PR0701MB1783;
+X-Microsoft-Exchange-Diagnostics:
+	1;BY1PR0701MB1783;25:rYNwsj3S5+yGtOf1wdqnwq/WzbegxVNT0UHmLsJbgRqGRsiX/kad1YKXzm8RwsAEgt4uRAJgLWdVyrwTjtKKHaJcemq9VgL8/LIzqCRleF0bZZC38OMqyeMQujTPirdye0TQj/wgxnNfup6vKoHTnzr9OGgU7WiVg9S5wmsnOTPF4VTkcRcjTbbbM3TCCqg05JqAbN6JfGYrjRXCkolyKLA62uacOoxrFfcVF4Ze8Apq33XdeZobOS7yqa3YbzPwAH1QHoUBqrM1XPIUMLkIl/dmjzTdusN85+A+Oa+w2BeFnLC6xkDRsB03i6yLDP8b6n47SQjzAWA5Put1LT/lX1i7H7xAZiBcAk71sw49rRqOU8e2gVGdxozXtYkW2Nx5tQMYaRWwURmLv6EDv8sejmXh3W8TXIW06rJ09zAap6oWNtx7HLntGlJb5LfIQxv5IadA0EfE+r8U2Sp7bxuzVNVO0Qxp9k9reB5o+/+7t8kw00H2LdWu4xgreVf+HGbh7Ptng9xvFIU9SAvoZk5Iv2nP/5ZjXJqHH54oOVsoXKvywS1aZ1UoF96kcQQ44Z+ro9zzD5Mgxu2ux7uHPbdeeBz8jjIb64Wz2zi6uRpJFwVmsUpPxaETUQWYnxUngorMWCNlvU+9Qy/wqIhj5JcgbRivVveINVegMnJUKanQyo0+lJcY7MPY/FBqvSkZLTP6GIvpBRQNIcrx7FPcbYPGIWhOY0xmbuGb1MpAEJVMyBcc4zdBwUCZDWJWqZt1Npn3oNu57dvUtTtzkfvxGUQxkmOblleUgkHg483NzrBrBxzBw2SovV9iWWjkCvpPagqT
+X-Microsoft-Exchange-Diagnostics:
+	1;BY1PR0701MB1783;20:Ltgh6Lo6mSP0Vxt9VdTw2i9Erc/Ol3pUdvmPh4QsBC415rQE0H2z0KjrtrZTXSB70rMm3PBjhn4y+b/wLLySPPXaw9jJicboWBDCkXLVZW/SqBBJWj2+7vjV8teXb6sfcNhm/XVe+PdrDqh4cPgHVLGVyrJEuG3srHaJbMTB2SQlhuDMa6dsQfGJLcMWobxNVxWx/sVhCIQdZBaz051a4nAJYqqizZ8sVlWrh0o7rUdLt6JUmt9nouVWHhqOHOPMEUgKB1MDbQFWIeO7izhbOSpGdwq3B6taF6U+QYKUowxc/dKHK/ZuP0XgLJl7SGoSe0KBPoqJMbT3eE9QdXnLHiHubzBGjJ1h7ujAsZ6J9gERrld90ii0xYATfv3sAncqnCCfu8d+BPm1Ra9qwj0x3CqYfeqgybklJCZNYhzXdv4=;4:RTxmmrsbEG55eP8WyRd/1IFnpgak9bLl4ZrmAYVWBetzRcoUXSlbDQijFNAKUXL6cGbNyoDd3iMb41ZCSZ0TvfyWzjsY2YuFsF1vvvrLXAkwkHf1b6u4QDkPtkl3oZn+4iVhHxuNt+OCQHkvQCGC50PAH2BWWDuu+zFaI1hBET30E2jDfU4ETZj8GVbgCIMIp5P5hNwZFcmyKHCWnkLYmMwqKXEnYPes9/C+vUTIVK366v/oiaxslJrVMSbGqVc2qbvVnkWGsDYHig2xOgnFg0LMDn9CKUOke8SWY+Cg7BN4ULc2gYbrmv88flaL/AGZB35JhhWpprTTaW1SypcNBUYjxv3O5J1ImYxDIn6Yk39U4Dfi8SpFz3079Np5ioNEEtqYP+N0KAEeTdg9po3CWg==
+X-Microsoft-Antispam-PRVS:
+	<BY1PR0701MB1783F84F2F62159B2864DC00938C0@BY1PR0701MB1783.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 088552DE73
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BY1PR0701MB1783;23:lbR5ymvL7GqzOos941tFXWW0sqouCPTL+1m4rJm?=
+ =?us-ascii?Q?J/+s5J079TcbqbhfnPzodd8NGhHnO834FMJoNgtuKfhB6I1HBReWVv6a/7ln?=
+ =?us-ascii?Q?sLMUaplxRYxjnEgvHgPZ3BFU9H2aeFrDTa/MxyliiBWIdTqPkPwCslWZcSMB?=
+ =?us-ascii?Q?TuRPzXUppOl9qQFwtXgLlLhJUijZQ3l+OtWxWjMxbLF/NnFJ6y/WAZIwWTYo?=
+ =?us-ascii?Q?1GQYAOQCFHkKBk3wAOwmuqUc1qQSRgk/WjyaTGacFN5A9TCHUJhJIT1Coclb?=
+ =?us-ascii?Q?eFvuDPFIQ1/JKPdi80xP7QQj1z9+JoM9MpvLbzXGMRz9uk3JSMJ/piJwkTQ5?=
+ =?us-ascii?Q?VmxlU3nQVFbI7bZzzE5JB9fdtlrsBiM+9tFUcwy7FJhxC49lk42WvDiv6n06?=
+ =?us-ascii?Q?l7e/WPCRUwcZ77Vak/1rkXwVrXwn6TdhM1GuVrt419qFMXYHfKONvszwqLKO?=
+ =?us-ascii?Q?dlzR1TSU3WahM9SCcqPhyO0cq7RORShVwUsGX197pXTG4yL3aJM1/F+9+OZU?=
+ =?us-ascii?Q?7lLIisSIBh83RSEp4m/0W86TrSpL/r7vovzGCjgikCE8r3P/z0ls5+GfvOEh?=
+ =?us-ascii?Q?62MNfvzPJYyIYfXkmJMD5kMnWTJepnrW+C3yBd9De6Ph9k+HI/i1IEGPUTQi?=
+ =?us-ascii?Q?CAPONJFfrAyqoH6JVpLSD1xLjtNWF+RRK57aIitZ0/UJapZSojmcU9qzY9Zv?=
+ =?us-ascii?Q?wAaXyY8ukLBZ0M7Yqi9aHm24dGHXPWbMmipchJ0aBKFxbRechjItI4ZLD8nW?=
+ =?us-ascii?Q?xx/bf5W6rL1SKdu/85phJZcJktcImIqiy3t+hEyehsHOQGvEf4i+KPOvNnid?=
+ =?us-ascii?Q?OHkDHxp/sxLfloXMVUJLE+EB9O3j0s5GqPcFpthIa3ORHqaxqjKgzgD3+aBj?=
+ =?us-ascii?Q?u2elcQKJBmKHazIV1CB1+v37s6VJ4EHDYWyG3rotbpt5iH1VcrcevuZfBD48?=
+ =?us-ascii?Q?NZ2rBeTxQvuJHWl2JQ5SRgUJksxYGFTU//pwD4MSNyxRarB/3EZQKi/Q8lcs?=
+ =?us-ascii?Q?2vJvAjryNoHUNBsTPIAWRP2Jw++Up4nU6QnZJcjZKotEkLoO8nw0rtL0aAB9?=
+ =?us-ascii?Q?EqHtLFbCHKek+KpHtmyYTBZ4ficdvmWj4Y1VDLvksMQdyma0jPFmhcX8N43D?=
+ =?us-ascii?Q?aHfnGxd7EQSyrs7qewLkSIDmF+2QC3SPm4h7QHQR5hREv1cRvmedvvXCnj7z?=
+ =?us-ascii?Q?In1CUtis3c1d6mC0CbTTf6RV/sfU1OC5ZqAnhiPcnVeic7/nZZ8ScGNo4vAp?=
+ =?us-ascii?Q?uOqzmnkvmg2+v830Sv7ipPNsdHFt4C9yEtKR3zka+daLS8KnSLQGOTKU+Icj?=
+ =?us-ascii?Q?ayP8BH4mH9U4OdsGSUxUuWt4H8GGoe9wSac3IZi4XKYZMYPrX1EDwnbUcwnC?=
+ =?us-ascii?Q?G3MHx3gxSU9enKd+Ee1wSTsz3wMUIHUsI7Ny9ehsrATEs9p9c1FBZN1dXiti?=
+ =?us-ascii?Q?BiYC0WNm9w/2gBIQUcD4XQ3ljRCKOiQUNoXVW57uP29O2+L6R3u4LhpQ8H1R?=
+ =?us-ascii?Q?R69Yx/TtbhaplDLjhxt71+6Mo7JGPO81d7sbidFAcrA8TqafLPgZNx61+CVY?=
+ =?us-ascii?Q?hxt2KpSENcJaYYRiWrVX2FQLWyhGW2qVuSmkQgvw=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BY1PR0701MB1783;5:TeJgL96TqeT0n4RtRa2gPuoMan0hbd0VROxPJGQQs7UxavU0T95wCVDjf0PE5hMA77bZNak7ISNOGkKrVLYEusxWZ2aSTqrHfopof2xD10hpSWjrK1YDw32eAIM98P7QNWnrJnkD28e4q7ZWTDjnSw==;24:OBcw132MwZfiOMem+2XjtxJaeaEwkpJXUrKHQaHDtA3HKLzeibUFyURZqizkGBh4kFzBytwZaeX4PhG3W8tCFoZgSzHuTLxU9AXyJzB9HT4=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Mar 2016 20:17:49.7894
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.75];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY1PR0701MB1783
+
+--b1_7fad9e82dc2739c57b79cc54449ce3f2
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear John,
+
+Earlier this week, a California pollster went into the field to see where =
+Republicans voters in this state stood on the presidential race. The =
+results should not surprise you:
+
+Landslide Communications - California (March 17, 2016)
+Donald Trump 38%
+Ted Cruz 22%
+John Kasich 19%
+
+Donald Trump is romping to victory even here in California with a hateful =
+message about targeting minority communities, demeaning women, and undoing =
+all the progress we have made under President Obama. If you value justice, =
+equality, and peace for every single American, then we need you to stand =
+with our campaign today in fighting Trump's violent rhetoric.
+
+This is a dangerously unstable time in American politics. That's why we =
+need Mike Honda in Congress fighting for our progressive values. If you =
+agree, give $2 right now >> secure.actblue.com/contribute/page/mar2016_eom=
+_honda?refcode=3Dem20160318-poll&recurring=3Dyes
+
+I don't know about you, but I don't want to live in a country where Donald =
+Trump's hateful vision guides the direction of this country. If you agree, =
+please help our campaign today.
+
+In solidarity,
+
+Michael Beckendorf
+
+Paid For By Mike Honda for Congress
+
+
+This email was sent to podesta@law.georgetown.edu. Should you want to =
+unsubscribe, you can click here. Join Congressman Honda in defeating the =
+voices of hatred and bigotry that exist in our country's politics by =
+making a contribution to our campaign here.
+
+Honda for Congress=20
+2050 Gateway Pl=20
+Suite 100, PMB 218=20
+San Jose CA 95110 United States
+
+
+--b1_7fad9e82dc2739c57b79cc54449ce3f2
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" =
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<?xml encoding=3D"UTF-8"??>
+<html><body><table align=3D"center" border=3D"0" cellpadding=3D"1" =
+cellspacing=3D"1" style=3D"width: 600px;"><tbody><tr><td =
+style=3D"text-align: center;">
+				<p>
+					<a href=3D"http://action.mikehonda.com/page/m/1caab128/1ccf8908/13284=
+80/6ae64749/406717345/VEsH/" title=3D"https://secure.actblue.com/contribut=
+e/page/mar2016_eom_honda?refcode=3Dem20160318-poll&amp;recurring=3Dyes"><i=
+mg alt=3D"" height=3D"115" =
+src=3D"https://s.bsd.net/honda/main/page/-/Honda-logo.jpg" =
+width=3D"200"></a></p>
+				<p align=3D"left">
+					&nbsp;</p>
+				<p align=3D"left">
+					<span style=3D"font-family: Arial; font-size: 17px; line-height: =
+23.8px; text-align: center;">Dear John,</span></p>
+				<p align=3D"left">
+					<span style=3D"font-family: Arial; font-size: 17px; line-height: =
+23.8px; text-align: center;">Earlier this week, a California pollster went =
+into the field to see where Republicans voters in this state stood on the =
+presidential race. The results should not surprise you: </span></p>
+				<p>
+					<span style=3D"font-family: Arial; font-size: 17px; line-height: =
+23.8px; text-align: center;"><strong>Landslide Communications - California =
+(March 17, 2016)</strong><br>
+					Donald Trump 38%<br>
+					Ted Cruz 22%<br>
+					John Kasich 19% </span></p>
+				<p align=3D"left">
+					<span style=3D"font-family: Arial; font-size: 17px; line-height: =
+23.8px; text-align: center;">Donald Trump is romping to victory, even here =
+in California, with a hateful message about targeting minority =
+communities, demeaning women, and undoing all the progress we have made =
+under President Obama. If you value justice, equality, and peace for every =
+single American, then we need you to stand with our campaign today in =
+fighting Trump&rsquo;s violent rhetoric. </span></p>
+				<p align=3D"left">
+					<a href=3D"http://action.mikehonda.com/page/m/1caab128/1ccf8908/13284=
+80/6ae6474a/406717345/VEsE/" title=3D"http://secure.actblue.com/contribute=
+/page/mar2016_eom_honda?refcode=3Dem20160318-poll&amp;recurring=3Dyes"><st=
+rong><span style=3D"font-family: Arial; font-size: 17px; line-height: =
+23.8px; text-align: center;">This is a dangerously unstable time in =
+American politics. That&rsquo;s why we need Mike Honda in Congress =
+fighting for our progressive values. If you agree, give $3 right now =
+&gt;&gt; </span></strong></a></p>
+				<p align=3D"left">
+					<span style=3D"font-family: Arial; font-size: 17px; line-height: =
+23.8px; text-align: center;">I don&rsquo;t know about you, but I =
+don&rsquo;t want to live in a country where Donald Trump&rsquo;s hateful =
+vision guides the direction of this country. If you agree, please help our =
+campaign today. </span></p>
+				<p align=3D"left">
+					<span style=3D"font-family: Arial; font-size: 17px; line-height: =
+23.8px; text-align: center;">In solidarity, </span></p>
+				<p align=3D"left">
+					<span style=3D"font-family: Arial; font-size: 17px; line-height: =
+23.8px; text-align: center;">Michael Beckendorf </span></p>
+				<p align=3D"left">
+					&nbsp;</p>
+				<p align=3D"left">
+					<strong><span style=3D"font-family: Arial; font-size: 17px; =
+line-height: 23.8px; text-align: center;"><strong style=3D"line-height: =
+23.8px;"><a href=3D"http://action.mikehonda.com/page/m/1caab128/1ccf8908/1=
+328480/6ae64749/406717345/VEsF/" style=3D"font-family: sans-serif; =
+font-size: 18px; border-top-width: 1px; border-top-style: solid; =
+border-top-color: rgb(30, 136, 224); border-bottom-width: 2px; =
+border-bottom-style: solid; border-bottom-color: rgb(14, 114, 196); width: =
+290px; margin: 12px auto; border-radius: 4px; color: white; =
+text-decoration: none; padding: 12px 5px 11px; display: block; =
+text-transform: uppercase; letter-spacing: 0.075em; background-color: =
+rgb(1, 125, 195);" title=3D"https://secure.actblue.com/contribute/page/mar=
+2016_eom_honda?refcode=3Dem20160318-poll&amp;recurring=3Dyes">CONTRIBUTE</=
+a></strong></span></strong></p>
+			</td>
+		</tr></tbody></table><p>
+	&nbsp;</p><p>
+	&nbsp;</p>
+<hr><br><table align=3D"center" border=3D"1" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"height:40px;width:300px;"><tbody><tr><td =
+style=3D"text-align: center;">
+				<p>
+					Paid For By Mike Honda for Congress</p>
+			</td>
+		</tr></tbody></table><br><p style=3D"text-align: center;">
+	<span style=3D"color: rgb(51, 51, 51); font-family: arial, serif; =
+font-size: 9px; line-height: 13.5px;">This email was sent to =
+podesta@law.georgetown.edu</span><span style=3D"color: rgb(51, 51, 51); =
+font-family: Arial, serif; font-size: 9px; line-height: 13.5px;">. =
+</span><span style=3D"color: rgb(51, 51, 51); font-family: Arial, serif; =
+font-size: 9px; line-height: 13.5px;">Should you want to unsubscribe, you =
+can&nbsp;<a href=3D"http://action.mikehonda.com/page/m/1caab128/1ccf8908/1=
+328480/6ae6474b/406717345/VEsC/" =
+title=3D"http://action.mikehonda.com/unsubscribe">click here</a>. =
+J</span><span style=3D"color: rgb(51, 51, 51); font-family: Arial, serif; =
+font-size: 9px; line-height: 13.5px;">oin Congressman Honda in defeating =
+the voices of hatred and bigotry that exist in our country's politics =
+by</span><span style=3D"color: rgb(51, 51, 51); font-family: Arial, serif; =
+font-size: 9px; line-height: 13.5px;">&nbsp;</span><a =
+href=3D"http://action.mikehonda.com/page/m/1caab128/1ccf8908/1328480/6ae64=
+74c/406717345/VEsD/" style=3D"color: rgb(63, 81, 181); z-index: 0; =
+position: relative; font-family: Arial, serif; font-size: 9px; =
+line-height: 13.5px;" target=3D"_blank" =
+title=3D"https://secure.actblue.com/contribute/page/honda-footer">making a =
+contribution to our campaign here.</a></p>
+<p style=3D"text-align: center;">
+	<span style=3D"color: rgb(51, 51, 51); font-family: arial, serif; =
+font-size: 9px; line-height: 13.5px;">Honda for Congress<br>
+	2050 Gateway Pl<br>
+	Suite 100, PMB 218<br>
+	San Jose CA 95110 United States </span></p><img src=3D"http://action.mike=
+honda.com/page/o/1caab128/1ccf8908/1328480/6ae6474d/406717345/open.gif" =
+width=3D"1" height=3D"1"></body></html>
+
+
+
+--b1_7fad9e82dc2739c57b79cc54449ce3f2--

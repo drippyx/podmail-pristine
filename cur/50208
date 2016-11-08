@@ -1,0 +1,372 @@
+Delivered-To: john.podesta@gmail.com
+Received: by 10.25.88.78 with SMTP id m75csp551336lfb;
+        Sat, 19 Mar 2016 14:27:30 -0700 (PDT)
+X-Received: by 10.98.34.28 with SMTP id i28mr33295685pfi.160.1458422850323;
+        Sat, 19 Mar 2016 14:27:30 -0700 (PDT)
+Return-Path: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (mail-bn1on0082.outbound.protection.outlook.com. [157.56.110.82])
+        by mx.google.com with ESMTPS id x6si4797505pas.72.2016.03.19.14.27.29
+        for <john.podesta@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Sat, 19 Mar 2016 14:27:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.82 as permitted sender) client-ip=157.56.110.82;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of podesta@law.georgetown.edu designates 157.56.110.82 as permitted sender) smtp.mailfrom=podesta@law.georgetown.edu;
+       dkim=pass header.i=@gulaw.onmicrosoft.com;
+       dkim=neutral (body hash did not verify) header.i=@bounce.myngp.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gulaw.onmicrosoft.com;
+ s=selector1-law-georgetown-edu;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=mS4S0o1qGLelarB/eb2Eg60+cBTLZVwaFnKegrgSFMs=;
+ b=s+XjRcL64TUAnet5ZECmsWVOzjvdsWBm4+tJRg6ZlkHP/PMWKTD2WHoKhba7AVNRS4MSBxwp8rVq8ubDuGOmtHQGO9wihsdIELM/l3Tg+8XFOr1Wx4XBMeuYdqNQDBRvaedYYOOaNE9qNbBc7eYE8PQA9DCqv9ogGfRwX4d3txc=
+Received: from BLUPR07CA0047.namprd07.prod.outlook.com (10.255.223.160) by
+ BLUPR0701MB1779.namprd07.prod.outlook.com (10.162.87.149) with Microsoft SMTP
+ Server (TLS) id 15.1.443.12; Sat, 19 Mar 2016 21:27:28 +0000
+Received: from BN1BFFO11FD041.protection.gbl (2a01:111:f400:7c10::1:163) by
+ BLUPR07CA0047.outlook.office365.com (2a01:111:e400:841::32) with Microsoft
+ SMTP Server (TLS) id 15.1.443.12 via Frontend Transport; Sat, 19 Mar 2016
+ 21:27:27 +0000
+Authentication-Results: spf=fail (sender IP is 141.161.191.74)
+ smtp.mailfrom=law.georgetown.edu; gmail.com; dkim=fail (signature did not
+ verify) header.d=bounce.myngp.com;gmail.com; dmarc=none action=none
+ header.from=joselinepenamelnyk.com;
+Received-SPF: Fail (protection.outlook.com: domain of law.georgetown.edu does
+ not designate 141.161.191.74 as permitted sender)
+ receiver=protection.outlook.com; client-ip=141.161.191.74;
+ helo=mail.law.georgetown.edu;
+Received: from mail.law.georgetown.edu (141.161.191.74) by
+ BN1BFFO11FD041.mail.protection.outlook.com (10.58.144.104) with Microsoft
+ SMTP Server (TLS) id 15.1.443.6 via Frontend Transport; Sat, 19 Mar 2016
+ 21:27:27 +0000
+Resent-From: <podesta@law.georgetown.edu>
+Received: from na01-bn1-obe.outbound.protection.outlook.com (141.161.191.14)
+ by LAW-CAS1.law.georgetown.edu (141.161.191.21) with Microsoft SMTP Server
+ (TLS) id 14.3.279.2; Sat, 19 Mar 2016 17:23:59 -0400
+Received: from BN1PR07CA0075.namprd07.prod.outlook.com (10.255.193.50) by
+ BLUPR0701MB1779.namprd07.prod.outlook.com (10.162.87.149) with Microsoft SMTP
+ Server (TLS) id 15.1.443.12; Sat, 19 Mar 2016 21:23:58 +0000
+Received: from BL2FFO11FD013.protection.gbl (2a01:111:f400:7c09::122) by
+ BN1PR07CA0075.outlook.office365.com (2a01:111:e400:45::50) with Microsoft
+ SMTP Server (TLS) id 15.1.443.12 via Frontend Transport; Sat, 19 Mar 2016
+ 21:23:58 +0000
+Authentication-Results: spf=pass (sender IP is 192.82.209.57)
+ smtp.mailfrom=bounce.myngp.com; law.georgetown.edu; dkim=pass (signature was
+ verified) header.d=bounce.myngp.com;law.georgetown.edu; dmarc=none
+ action=none header.from=joselinepenamelnyk.com;
+Received-SPF: Pass (protection.outlook.com: domain of bounce.myngp.com
+ designates 192.82.209.57 as permitted sender)
+ receiver=protection.outlook.com; client-ip=192.82.209.57;
+ helo=mailout693.ngpweb.com;
+Received: from mailout693.ngpweb.com (192.82.209.57) by
+ BL2FFO11FD013.mail.protection.outlook.com (10.173.160.221) with Microsoft
+ SMTP Server (TLS) id 15.1.443.6 via Frontend Transport; Sat, 19 Mar 2016
+ 21:23:57 +0000
+Return-Path: podesta@law.georgetown.edu
+DKIM-Signature: v=1; a=rsa-sha1; d=bounce.myngp.com; s=ngpweb3; c=simple/simple;
+	q=dns/txt; i=@bounce.myngp.com; t=1458422637;
+	h=Sender:From:Subject:List-Unsubscribe:Date:To:Reply-To:Message-ID:MIME-Version:
+	Content-Type;
+	bh=+RgDl6KPvY8eljEyXjW0+Tqv8PU=;
+	b=s9ViFqCOvLxTZMbrhyE7g1ZjJi1rrNKRW5hGvAQQSJ5z2Sgqh+iqs/5ZyigUw//y
+	mQTUdOnCugxRZUhnPwTQP9h24BWne7KFzLmk5kHbO0SiGimNmb1M5vi3Iknnfa+Y
+	zCcNZq0r5X7d7TYr5DgBoa1tjOZ38+pU0njlxAudKa8=;
+X-MSFBL: 5Hf3EPRnh2pIFXo9+LZkNFqqS4dylLqLcn/R5Uy+sd8=|eyJiIjoibWFpbG91dDY
+	5MyIsInUiOiJib3VuY2VfMjUwMDAwMDE0MDI3NDM0OV9wb2QxMiIsInIiOiJwb2R
+	lc3RhQGxhdy5nZW9yZ2V0b3duLmVkdSIsImciOiJkZWZhdWx0Z3JvdXAwMSJ9
+Received: from [10.11.74.252] ([10.11.74.252:60224] helo=NSV11OBMAIL1202)	by
+ asv11mtam002.ngpweb.com (envelope-from
+ <bounce_2500000140274349_pod12@bounce.myngp.com>)	(ecelerity 4.2.1.51032
+ r(Core:4.2.1.4)) with ESMTP	id 56/9F-09917-D63CDE65; Sat, 19 Mar 2016
+ 17:23:57 -0400
+Sender: =?UTF-8?B?TW9sbGllIEJpbm90dG8=?= <bounce@bounce.myngp.com>
+X-Binding: default
+Reply-To: <lamont@joselinepenamelnyk.com>
+From: Mollie Binotto <mollie@joselinepenamelnyk.com>
+To: John & Mary Podesta <podesta@law.georgetown.edu>
+Message-ID: <0154c55850a74d5a8d9e11a872c39488@joselinepenamelnyk.com>
+Date: Sat, 19 Mar 2016 17:23:44 -0400
+Subject: Results, Not Rhetoric
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----ACA77AAA218E42288325E9F50E70D8F5"
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CIP:192.82.209.57;IPV:NLI;CTRY:US;EFV:NLI;SFV:SPM;SFS:(31640200002)(2980300002)(438002)(359002)(286005)(189002)(199003)(349900001)(36944003)(349012);DIR:INB;SFP:;SCL:9;SRVR:BLUPR0701MB1779;H:mailout693.ngpweb.com;FPR:;SPF:Pass;MLV:ovrnspm;MX:1;A:0;PTR:mailout693.ngpweb.com;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BL2FFO11FD013;1:tzOg9QmQx+LfcjX4N4ruCQjreIVMPONZJVq1Qyom149pRo4YyGkG5GxsFTKobVvhO+K489U9ZrjsQYAB+AdLW0uIzwLJp4RqCLs3ZWp2ErtctzKWMMKUULH3MrCGeeKpDbS9oZsrTu6OgDB2Wue+2PZX1seBbPrXzuaRpagJQug9Kwa2NOrT7mB9stbajXY2/SW2+Axg6bP1U5vJhXJlKMDyJ9EVotzgpAA0ms1GS6LHVNWa/FGbCrMGNZBjbrgyyYsjZEQ5ZdQk2bXvuqx2xVFBu2Dv5tm1wizB4WcExBzp12o/Atwo1cjUN4IByXiTlkkFgCEZ6RDtgtH5LelD68xB7r06GnfCOuZx/AlMq7nfVO1A/9L/VLuHeEv6EEgNRwrlCgZ9OxLIOJH9MFRPAuCIVKbTWegwq+rvpSlxnSDsIk7goAEbJccQjRjCQRZd5reFFhfFjYDyz8hreMc3kA==
+X-MS-Office365-Filtering-Correlation-Id: 9d540374-c5ea-4075-4f9a-08d3503d4574
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR0701MB1779;2:eT6N5qqNWL5SmEdLdwBG5dvqfAqv9JJ+lcm/vL44zGrE0MJgmJ5n0EOrtNbIVJhU0abxfXpne99YYQlqyxxfKuy30QGsbBPJvMlFKXGVqpFLKuuERCFUkng4nXHCft+qhO+83+Kr7Zr+uiZvSvt/mwYYjFPW1L3pSC+KvD8IjdmqwjPvVZGROxE7UegE/ZYE;3:rObN8BaSi87FvMTffXQeY/zwOcpoCg8Tt+8ELxjRqV7ka9roAB+fI0ayNRWRlAgLsItutrHCYFfejndw4gtEEZ7vOtjlU8ZTtgJcNKhS0xL76IaNnXPzR/F3rbArzzLeMtNv8w+bg/A3MGiVxs4Bege4o+DxidfI13iCoYYTQzLjonDR+Z+jIOIn1MBdx/2bQlREdXP++Exd8V4I+WCe9UzkdpH80pjdrgBaFU4UfzkpacCUeetYzuiPSsdFYxIMYFFrewp6vSFBtPuYNTt6G+xjw+GBBdIc8o+1DfFkOtg=
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:8;PCL:0;RULEID:(3001016)(71701004)(71702002);SRVR:BLUPR0701MB1779;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR0701MB1779;25:FCu7Lopq+fZZsoHTmxlnfJF4y3NgrUKu2bq/qjDduB66UXPmctDMsfs438+rowbIvs3xPq/aPp/6//sNJKCVswTO3WX14FVPvVAVX0KGgrq4WRpHT1sd60VY2VHuLgOnWbhA8BFIfifOLjc9BuAv8fXxoe1oNX8PGzZnBXSR/aTzxcZvTorbSGdxxxoOGPsdEYdZ39yROCvLAL4BxtUbege4PLmKKKnCkcLNL1EkQOSan8duUF+rXL4ycNPgb5NUHQIZqNqjJRqOR4ZiMoYyNMKANye21kbvbX/PJnCF39l/Jz6xX0+IJtJQUBAM19ytWL1C2HUvvuVDz3LCqK4TeUv82oTVNiU2YsfNuk2RyYVGgJG6Eg6sNQZ7Wbo93ex91MXk1PY8yRIYnWstwrCuRDz5LHyyhLbHan83anPZRpIQhFoE+KFg57kABdqbnJw746D1+zBdgQm2X6kWnRP4Jm2Ywmxx4D4OekQAx2QUUG+7fpjG7g33EoWW78mQt9zTNYZrhTRxIxxvEQId/VMjKDU3q7rNiTideu9+drWv3pnet3cw6rucf/szTioAZjoWCWnG7GCl4awxvYmBVbgxJrGWX/j0uRA0FxypI9ixtWZXs2rPQsTxuIHytMvSY/HfeuOX4VoW6AnS3UKJ6/0ozTA+izS+fO657YkH0s582Hl4lYf5ZaSBvcpAd/S9ml7L3cr4KV9oHEKtYKqdnXMCgv4sxcYK40t2CGGYRGfm5S22ULUlEJk4kbhPpS7HgHod9gK3YdCPxO0lLMkNchGVRT8CmfXu+Vr69/YcbjdHhd6WfgISwOSQQDPlBMZjH2WN8xQ6sZEtBkn2UvugjcDgn0SYNdnSlTQjPHyz5SV7lT4dCD4JqNl2rHMfYK17kSTN
+X-LD-Processed: 935c2642-8489-46fc-97cc-1143c4b55ea3,ExtAddr,ExtAddr
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR0701MB1779;20:ajFYqsishBlbB8/W2OyIiDD9tG9uWJpuWEZC1fngTHjVsuwAqUV+oy/vGW7UMwT+4TBpcAxT/pICuv3nCKCf0KDA2iq0M5hy/xLy8LF0gi6MZAH0Hu+E99jnZ9TvdboD+IKiX2OzLpWfadJoSmCBULQJz2b2cihQvwZZrIQ0Bdu5rJr1P3PCWU5xDnaHl6svETu56bIrMm+zrK6Uwf9zF6yoRfKNS8E572Ge7JwuhzdnaX4Ib6W0jQq2LSuSac0u7MYiZrH67QwtDKg5ZlVpbZLDgr7nmWVro/KQS6TthS49Qt8aQ0mskP3tbPw+chKF6aqYcW2286xxCqFQ1cMBn8xUtf3mR9E2ZJj4FxCnAjRMXWHW4QRK4nV4a9jv0+0PB+rTQqEsUo9oIVYIHH96cXo+Y9IztW1EbGEkyCc3Fpo=;4:3KOJTy+7yReL0C9VxFyS1n8nA8yS5tKQ0VLwuN1H2JxLDPmyUqAD5spleGWNC9x4vqt2xnZO68RobNp+RJRWljAz/5cFvoN3TSvBosQ1htTyD5UQHPbQM05Gsax80aDezUFIMGqTX6Itj/v0pl6C/ChOpAX5bcZlL20BoDCLnGai3twk1bG30uCnzVq42txqkS3/l8Ww9P8bS7YYYQe8K5FAYTKOSh3xjadf/0xdii+NOntw1aerFiY4RnhjhvimiHczrrbPMLoLaKUxcQKR/hjBnLEC+dAyTJ7Df/mrjjMRszUlHBF2jKDTb1iSIvCmBMhqqdEwcjElFziYSRquZrNn6cUjQO00zyaXchsfZDc3EkluSaEdyslkxgOi/y8xfu+edsC21tkxOkFgE43W4g==
+X-Exchange-Antispam-Report-Test: UriScan:;UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:8;PCL:0;RULEID:(601004)(2401047)(8121501046)(13018025)(13016025)(10201501046)(3002001);SRVR:BLUPR0701MB1779;BCL:8;PCL:0;RULEID:;SRVR:BLUPR0701MB1779;BCL:0;PCL:0;RULEID:(601004)(2401047)(8121501046)(5005006)(13018025)(13016025)(10201501046)(3002001);SRVR:BLUPR0701MB1779;BCL:0;PCL:0;RULEID:;SRVR:BLUPR0701MB1779;
+X-CustomSpam: Bulk Mail | Bulk Mail
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;BLUPR0701MB1779;23:yl9wrIoNqyXrEXsARx34hmS+gZRIEIRcru/rciw8r7ipA8+Qrc9SyzwsDEaCq4DavN8jKKu2+Lw34oWeuzF55uU4/IOuoqOyPKJ4fSiFQ/dIVg7WtFX3iLEYOy0n1kIuehbFwabC591gmZbeUC6Te2p6soJZqzYig45WZwe1xZLR2+phtl6xjJg59io4ACSTMm2Worwn6sNElU/OKIwtFs9wxaiK8pQ8DbyoXgWI7yj1eK+jHICnfsoa2HInj6/ZOS/dEa3DMrTPkuy++R/ccQJroHlIzMHsFnZlShFgEaVAd4DogcbldHeq+K15NL2Bkv3IU9rkc5PecuZRCKl4tuNKelFsjcz0w3XCvuUqFv+27AbCMJPFJrXkrfjUXHThuWRRI3Zdn2f/C26wOkvJ+Xg7PcSVB7T0YVAQIv2T7tc=;5:QGbaWapyLVPuoP58X9ll9JvnHvfX0Lq1SX2Tn4gmiAtb4YVINRefdxlLWPSDqOeIlqNxM/ePvDi1R57QUJ09jWv8Sa9EaeYlIF8LxtdPjEUEk3Hl56FVNYMT716p0g9utYd66K7EFL1siMoESZI0KA==;24:/xHTxX3uDTIEphf+jVEaoxW5KS49SQyEt5XN1io5AxpTaIj8fqAR1AoHVHfICoLRYQynQ3N3a8xg57Ig/bNsIA==
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR0701MB1779
+X-OrganizationHeadersPreserved: BLUPR0701MB1779.namprd07.prod.outlook.com
+X-CrossPremisesHeadersFiltered: LAW-CAS1.law.georgetown.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: BN1BFFO11FD041.protection.gbl
+X-Forefront-Antispam-Report:
+	CIP:141.161.191.74;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(10009020)(2980300002)(1110001)(1109001)(339900001)(36944003)(189002)(199003)(4290100001)(33646002)(2906002)(88552002)(110136002)(15975445007)(960300001)(5002220100002)(77096005)(19580395003)(85426001)(189998001)(84326002)(107886002)(18926405002)(105606002)(24736003)(19622755009)(450100001)(2171001)(36756003)(108616004)(18206015028)(1220700001)(106466001)(586003)(1096002)(4001450100002)(81166005)(43066003)(229853001)(512874002)(87936001)(956001)(6806005)(53806999)(11100500001)(104016004)(75432002)(50986999)(54356999)(19617315012)(7029014)(7099028)(105616011)(42882005)(110126006)(110146012)(18200335002);DIR:OUT;SFP:1101;SCL:1;SRVR:BLUPR0701MB1779;H:mail.law.georgetown.edu;FPR:;SPF:Fail;MLV:nov;MX:1;A:1;PTR:InfoDomainNonexistent;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BN1BFFO11FD041;1:6tABE8TTEnq+5uqyvazIEQC6IjAia45841NR5LE0rI2T/f+5FqEoUDSGyyN2CNZswfrboDZLy7TLwY1QxQ/XQOpLFESlhu2tlOwUciiHj7SVFAoG1B+Y304EbXGrgR3aGsCb8igSkIyOdj8M6jZcjyPv28iAOzhTxRIDos6ktC+NquONpblOohpTDitX0+nfaoCyjQ8CLroi114LppTEMJsD8yEMdP3OhUlKPo/N3GK9umn5Ca05InQSeUhKygMtzfOR/flg767DyOcQ7InXAKDVQbzzdyRMT+PbnftFqx3LzjTlmfLusPd9Vb4brPHoJx5dz6+F2vchJX9uiGPoREoseeHMGeTMvAHomgEwGtumNktVpe7BxCcBm7ZM3tmDNU/O7BzkR4DA+1aSTwpP/ObeE3UngB6tJl4KAXSybqovgdvxHBzouD06ysoHNpEP
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR0701MB1779;2:cg75miq9NkFvTzraNP14spJD1w99OW+QwmfM/NPYZW+LMF1rBbOBd0LNDERQUa6vRMSYf0QbLl7LOshB8axiK0d6F89KVfFh1x30EW+kSWT89qchsj/4i4E/1Njnp9yUOsyGq9bKOPRYwcyMVC4nmhN2QBH5pKWtGdsGgRTG+IZrPJG819TJDLWglQa8pYv+;3:glJUT0qqhL4EFpJt5znFFjwpXVPA9HaQihetOg7L4vOwSnH8qtKfj9ano146lYy+qpA16SBpMu6GbjwqgbuH31qblJVBIhDi8fPwAlc+Q75gj44dW8KOEfvI0k3s7Jxz7TRzsmE63tGglYckxIHfKN5DyN7sOb6SpVcgtU6u6XEd8xYjFAutYy1jeoYzEvVMUvrLD+wL6P4W3elimR/G2re9pCMsYnGO+jQ4GglvWosinlMteyP8bdRN4ozBb96C
+X-DkimResult-Test: Failed
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(3002016);SRVR:BLUPR0701MB1779;
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR0701MB1779;25:8BO2KbS3BmnNEyheqquRU/YHWvdA3MwmY9bAY1u127LmhuZ8ODjNm2v8iQoWc0bu5P/g1uWBbX60sKvCVPjWhCZR9qCsb7Sb6BR7uimVHL8De+XAggzzbyixkhVB7VEaUzmCdSkMQKDC0Qtc4TInDddIXJ6RKce5buit43F2AaS5yvousJ4M2utNRcWvgLLBKgCS/9s168pwMpJ4SkCke5D59yaGvKJsUDcKnEu0Qo4huXna1hM1KFfuc08Bm0mSGMXIjhyI1wqIzBlvtfi149vsUG/FvFLUjyKslx3FaaKjJ7r7/fo15aByxbBMt7GIHDHZEDIuPUDgT542vk512ydfL4BJ7DjFrn5sj7AtYrRURrlOTWy2CNjyhhRxoVvjj3ac8UH6QWTrlBf8PkCxwgFx4VMf5S+Yvfq8C1s7hCQ335fRsRdNbFiRzzZCpSROSMLBeKqd+a7AigwTg36Wnk0xvYN5XljsioH5kCJbZf2cnvzaoZtdzeitNWi5w04zLzJapglDIme4lBJ7eyZo8YzlMGkumtPpmY/bkNM7xyCblnihdiy1dyF6uW+G00tKylS7h2j0CIhgTrObeiYhqjV9tkM3XaXK7qVhx6HHypeEQ2e3VJxyUzJE9CbLdgHUO/1w17A5R2Cq5DWvtMu6LpfFn0vO9cWO1YBMvmL77/2XEXgwq1Qw5xRsOEDREAsuiJ4tuV/EWCecJojRm2idWcc97gGP6OdFC/LFroCFMX3rpTaEW8WCuM1CK07YkoN5GjfQerUhsMXY9HWxvaucdL3a1LSyFjhRDZm16I0AC6Vdnra+FopFqvuWzCGvXnJQr/kKcPek6BmxX00ZChEC4jLPqkUbnZQdw08Ovo2i9Wiwn9o8ItokTya0NzwwxfI2
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR0701MB1779;20:WtYDU4DJNTvom54gUrnciCeNO4Sv2a/9Z7URtKRI/NveOtivuD+VdFQ0RdxXzICP+5Oye74owIOEo4qTEzUYsb4E9kUOHi8rob+jL6l2NyGF4vDevsLFWeI2zZ9ZVP/jCunyGG/UtVGkrsja/6+G7JgJiL/YaLfjTf0LA4ri54+b9p9QjBDcKx22Lden0v5+/IGbkhchffyBx2swNdtzK8FBBm24+9LG1hXOqM4wYG7k7SJCMI6wTANXVLsgH3T23VuyV7xacUYIiXmwZUi+79j9MC9Z5xTPnMj+SLoCUTa7uhyopHbsgD6Kbn9ibQY906zmnZEN51RnJmEbu/04kVf+HCs4352ywdp/EK1ZNu6EDMpscxgtjfRLPbpdlgmyae3jJt14N5LDm2aG7ZlPJOS5hHUOZQbUOTqnR0+3cZ0=;4:gJzcNfOWCEMkRGRpMxkrE4Nq+GHczblPQF/FIGM8Ar8m/MMQwMI+53cOpq0HnVXe/+tlIs1mPQKQZDnlI78keV0OuQ+xWLAT4e1nW2l7WjEe/XcdU5ymGJc18f3LYQxzC6+vRJLmL+s1kdqYqadANzF5tcfMmXLOLI7X0hni/DUyic7QK/3fxFMtXNzlzpB9spQ9COVDJOEYdFsvJr9sib2MpdhCK9xkEo1hGw4EsBFBrINDVQFDwO0YR+hf3LsZbEB30KJZBWGkjobg6u+1dYxW64EVedRJfSR+3eEwBLTlOr+wgrEA3VNYRglhBQdWwYLouQYPvqvHwA4xmDiDAQ4dq9CG0r52TVfqJSSdAja/Lzdsf6QEY91ZTGHVxuiCJbIYMX89xchrST9jRdruow==
+X-Microsoft-Antispam-PRVS:
+	<BLUPR0701MB17790B7D0621CD2852F90094938D0@BLUPR0701MB1779.namprd07.prod.outlook.com>
+X-Forefront-PRVS: 08864C38AC
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BLUPR0701MB1779;23:/Qcm0fKeJB8fD4t2u+mU/cF/L7URcDVd1uizCZq?=
+ =?us-ascii?Q?amqbb/ipZuVnOlQcDqwBe77FlDihclCappWss5OZx3kNfRpSC+zvL/dc5exh?=
+ =?us-ascii?Q?jIKaaEegZXAuq/DkPyksW/xKgbXcrz8TcYRrSG8W/3ecIsVSR1JZ6P7dlteq?=
+ =?us-ascii?Q?Q7biB7jjrvmO96JuBSj5pYiB+t+nikJ0+XH7P4mlT39iPr7dFrtZNZU3QcMn?=
+ =?us-ascii?Q?5ExtatPRA6G3s7Xal7DocqAUdqcizIY3a3pGTANXFDT6UN67Em0KtqnrgScn?=
+ =?us-ascii?Q?IycQYra4OhACO8cdkffkFqiwdvQwyocSzHSggqmkjEsYVZXPgdQVj6JwDH+Y?=
+ =?us-ascii?Q?f3O5pQynhqIzYNoBVjqvD8X090hTvbkOm5ZMuHOsR/aDq2n+DZ9xudsZ855v?=
+ =?us-ascii?Q?VwAWXJp3B7PECWRDQv+XAnV4h4ucQV2lfgy5EOPn4Pvf4Hfp/Ns8zuX95zOR?=
+ =?us-ascii?Q?IkwA9kKyqeVIkL/e3LM1OxrEmKhtvyZd3djmGPSelNrI0LIJN1605SHaHvCg?=
+ =?us-ascii?Q?HwVaDarmf5z+YnqVdz62AFHVMV4HGxcFiEv6iSriviX87tohdrawI+4af1qz?=
+ =?us-ascii?Q?p0IhDjQA6IcxK7HacJPTTs0Uy0+HEZgeyPmI+Tx7KCyxKlc+7iM4KOQCCCEn?=
+ =?us-ascii?Q?JElzrM82lQR5wS1kxIXgSAOoIaIjWzNRPGsIYe+UGslLoPeur9i9W63A+E5n?=
+ =?us-ascii?Q?cg44nfEZLFi50usZfVC90cgBjHVL5VbWXaJ0shoYvvdw+5h0G5Ut3cyl9FWL?=
+ =?us-ascii?Q?ywDEFOVsAV2i+ciRicyPLxU9zYbOUOsUAPE/SrS9DqnRVtzGGnjSuC78kfdj?=
+ =?us-ascii?Q?HNZdG0rFh5SOiT96u7vun7Pe9jYGmZ/TRuBDrViIluwiekc385sKRJYulXsr?=
+ =?us-ascii?Q?hcGJqLakhdrK7zIeChxrXEQr+hPFsVdkyG95CU/wN/fSf/FfQF92G7S4YmPR?=
+ =?us-ascii?Q?QGHMAEL9X0s5svYPxomHGQLXZ9ReQlLM9RVOZyD0zCPQkFQUfvizdkiyp1ri?=
+ =?us-ascii?Q?KHw3hxNlQRWCPcHNeD183C21vg9uRIv9tPVZUdbW+ikxbmWhH/Kz1HCEdMJR?=
+ =?us-ascii?Q?NzP09CqdAw7p0l9B4SM2hOBKLqYO6JCfiGR97Ed5LKDnIbziRXhFbkSs8LdG?=
+ =?us-ascii?Q?ZPVussyAcb4j6DN/HgiI6sbT6kLSMEZKQDLbJKL0M80avdJFyfiw0FiumqWy?=
+ =?us-ascii?Q?fIcLm7lX8Lxe3lxJSwPMsfkmPh7H5N04V9XbYE4ky0BDijhj5p68ombeDZ3P?=
+ =?us-ascii?Q?FZtS1SKRr3TCZ5zAv6mwvqDJxJP5uYRrMRKahFMlyHPBp9MRKupFkDgp/BJe?=
+ =?us-ascii?Q?KYdcjeOARqTJ2o8is5ROOodMELdK1MRSvoXZiKR8AqIW3V5Pk4nO2Km7hV3g?=
+ =?us-ascii?Q?/uI7z7rpWEA6sqJYZz3K3wccHaiDZ6JPcYed1mHOobbRKXFL8a062QwuX3mu?=
+ =?us-ascii?Q?46l4E6rIlIA=3D=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR0701MB1779;5:Y3abOtvy34eqpiMVTzejMHV/BpYkITcIk/CXvuAxTLAQQmGlimyIEqjmhJwJCqCNsbAR/SJxAJnhmgYsiF8EAXf1A8CuroMFharsATJpLFg5vGn38tF/p8UvMNojhToBo5HhqIjJ8C6hOxwoxQPi7A==;24:NtirS0rOzCz4F8Xr22qO4Xl7jnNcwyTha7muiQP5OlmhW7mqwnX8Jm+J8M7luWvVmdHHC9P0DYvN3DOUvoH1HI47oWzYJmZyfVoirbgOOmM=
+SpamDiagnosticOutput: 1:6
+SpamDiagnosticMetadata: 00000000%2D0000%2D0000%2D0000%2D000000000000
+SpamDiagnosticMetadata: 0
+X-OriginatorOrg: law.georgetown.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Mar 2016 21:27:27.5509
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 935c2642-8489-46fc-97cc-1143c4b55ea3
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=935c2642-8489-46fc-97cc-1143c4b55ea3;Ip=[141.161.191.74];Helo=[mail.law.georgetown.edu]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR0701MB1779
+
+------ACA77AAA218E42288325E9F50E70D8F5
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+John & Mary,
+
+Did you hear the fantastic news?
+
+While our opponents were busy buying TV time this week, Joseline was in=
+ Annapolis passing Maryland=E2=80=99s Equal Pay for Equal Work legislat=
+ion in the General Assembly=2E=C2=A0 Once this legislation passes the M=
+aryland Senate this month, Maryland women will finally earn the same wa=
+ge as men for doing the same work=2E
+
+No wonder the Washington Post called Joseline, =E2=80=9Ca doer with a k=
+nack for making things happen=2E=E2=80=9D=C2=A0 We have suspected all a=
+long that Joseline is basically =E2=80=98Superwoman=E2=80=99, but she s=
+till needs our help=2E
+
+Will you join our grassroots campaign today?
+
+Joseline is running the strongest campaign in this race and is locking =
+up support across the state and from national progressive organizations=
+=2E=C2=A0 In addition to her EMILY=E2=80=99s List endorsement, Joseline=
+ has been endorsed by the PCCC, the Sierra Club, and nine labor unions,=
+ including AFGE, which have significant presence in the 4th District=2E
+
+Every day we have more and more volunteers signing-up to help us make s=
+ure we push Joseline over the finish line=2E=C2=A0 All we are missing n=
+ow is you!=C2=A0=C2=A0Please=C2=A0join us for the next five weeks to ma=
+ke sure we send the toughest progressive fighter to Congress=2E
+
+As always we are grateful for your support=2E
+
+Best,
+
+Mollie Binotto
+Campaign Manager
+
+P=2ES=2E- Can=E2=80=99t help us before election day? Help us power our =
+volunteers by giving a donation of $5, $10, or $25 today=2E
+
+=C2=A0
+
+
+
+
+
+=C2=A0
+
+
+
+=C2=A0
+
+Forward to a Friend: https://act=2Emyngp=2Ecom/el/-5932845288679995392/=
+-4371879664497391616
+
+=C2=A0
+
+=C2=A0
+
+=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0
+
+
+=C2=A0
+
+
+-------------------------------------------------------
+|    Paid for by Joseline Pe=C3=B1a-Melnyk for Congress    |
+-------------------------------------------------------
+
+Joseline Pe=C3=B1a-Melnyk for Congress
+P=2EO=2E Box 5785
+Hyattsville MD 20782 United States
+
+If you believe you received this message in error or wish to no longer =
+receive email from us, please https://act=2Emyngp=2Ecom/el/-59328452886=
+79995392/-4443937258535319552=2E
+------ACA77AAA218E42288325E9F50E70D8F5
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div>
+=09<p style=3D"text-align: center;">
+=09=09<img alt=3D"" height=3D"200" src=3D"https://d1kxpthy2j2ikk=2Eclou=
+dfront=2Enet/Uploads/9551/images/5815CF1A-9CB5-49AD-89F9-23ADEF2F2F67%2=
+0%281%29=2Epng" style=3D"font-size: 12px; text-align: center;" width=3D=
+"700" /></p>
+=09<p>
+=09=09&nbsp;</p>
+=09<p>
+=09=09John & Mary,</p>
+=09<p>
+=09=09Did you hear the fantastic news?</p>
+=09<p>
+=09=09While our opponents were busy buying TV time this week, Joseline =
+was in Annapolis passing Maryland&rsquo;s Equal Pay for Equal Work legi=
+slation in the General Assembly=2E&nbsp; Once this legislation passes t=
+he Maryland Senate this month, Maryland women<strong><u> will finally e=
+arn the same wage as men for doing the same work=2E</u></strong></p>
+=09<p>
+=09=09<strong>No wonder the Washington Post called Joseline, &ldquo;a d=
+oer with a knack for making things happen=2E&rdquo;</strong>&nbsp; We h=
+ave suspected all along that Joseline is basically &lsquo;Superwoman&rs=
+quo;, but she still needs our help=2E</p>
+=09<p>
+=09=09<a data-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el/-5932=
+845288679995392/-4227764476421535744">Will you join our grassroots camp=
+aign today?</a></p>
+=09<p>
+=09=09<strong>Joseline is running the strongest campaign in this race a=
+nd is locking up support across the state and from national progressive=
+ organizations=2E&nbsp; In addition to her EMILY&rsquo;s List endorseme=
+nt, Joseline has been endorsed by the PCCC, the Sierra Club, and nine l=
+abor unions, including AFGE, which have significant presence in the 4th=
+ District=2E</strong></p>
+=09<p>
+=09=09Every day we have more and more volunteers signing-up to help us =
+make sure we push Joseline over the finish line=2E&nbsp; All we are mis=
+sing now is you!&nbsp;<a data-form-type=3D"" href=3D"https://act=2Emyng=
+p=2Ecom/el/-5932845288679995392/-4227764476421535744">&nbsp;<strong>Ple=
+ase</strong><strong><u>&nbsp;join us for the next five weeks to make su=
+re we send the toughest progressive fighter to Congress</u></strong></a=
+>=2E</p>
+=09<p>
+=09=09As always we are grateful for your support=2E</p>
+=09<p>
+=09=09Best,</p>
+=09<p>
+=09=09<span style=3D"font-size: 12px;">Mollie Binotto</span><br />
+=09=09<span style=3D"font-size: 12px;">Campaign Manager</span></p>
+=09<p>
+=09=09<strong>P=2ES=2E- Can&rsquo;t help us before election day? Help u=
+s power our volunteers by<a data-form-type=3D"" href=3D"https://act=2Em=
+yngp=2Ecom/el/-5932845288679995392/-4155706882383607808"> </a><a data-f=
+orm-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el/-5932845288679995392=
+/-4083649288345679872?page_id=3D70">giving a donation of $5, $10, or $2=
+5 today=2E</a></strong></p>
+=09<p>
+=09=09&nbsp;</p>
+</div>
+<div align=3D"center">
+=09<div style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Helvetica Ne=
+ue', Helvetica, sans-serif; font-size: 15px; line-height: 18=2E75px;">
+=09=09<a data-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el/-5932=
+845288679995392/-4155706882383607808"><img alt=3D"" height=3D"45" src=3D=
+"https://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/9551/images/button%2=
+0%282%29=2Epng" width=3D"174" /></a></div>
+=09<div style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Helvetica Ne=
+ue', Helvetica, sans-serif; font-size: 15px; line-height: 18=2E75px;">
+=09=09&nbsp;</div>
+=09<div style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Helvetica Ne=
+ue', Helvetica, sans-serif; font-size: 15px; line-height: 18=2E75px;">
+=09=09<a href=3D"https://act=2Emyngp=2Ecom/el/-5932845288679995392/-401=
+1591694307751936?subject=3DSign%20Me%20Up!&amp;body=3DPhone%3A%0A%0AAva=
+ilability%3A%0A%0AActivity%3A%20Door%20to%20Door%2C%20Phone%20Calls%2C%=
+20Host%20an%20Meet%20and%20Greet"><img alt=3D"" height=3D"45" src=3D"ht=
+tps://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/9551/images/button%20%2=
+81%29=2Epng" width=3D"167" /></a></div>
+=09<div style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Helvetica Ne=
+ue', Helvetica, sans-serif; font-size: 15px; line-height: 18=2E75px;">
+=09=09&nbsp;</div>
+=09<div style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Helvetica Ne=
+ue', Helvetica, sans-serif; font-size: 15px; line-height: 18=2E75px;">
+=09=09<a href=3D"https://act=2Emyngp=2Ecom/el/-5932845288679995392/-437=
+1879664497391616">Forward To A Friend</a></div>
+=09<div style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Helvetica Ne=
+ue', Helvetica, sans-serif; font-size: 15px; line-height: 18=2E75px;">
+=09=09&nbsp;</div>
+=09<div style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Helvetica Ne=
+ue', Helvetica, sans-serif; font-size: 15px; line-height: 18=2E75px;">
+=09=09&nbsp;</div>
+=09<div style=3D"color: rgb(0, 0, 0); font-family: Arial, 'Helvetica Ne=
+ue', Helvetica, sans-serif; font-size: 15px; line-height: 18=2E75px;">
+=09=09<a data-form-type=3D"" href=3D"https://act=2Emyngp=2Ecom/el/-5932=
+845288679995392/-3939534100269824000?fref=3Dts"><img alt=3D"" height=3D=
+"45" src=3D"https://d1kxpthy2j2ikk=2Ecloudfront=2Enet/Uploads/9551/imag=
+es/FB_Logo=2Epng" width=3D"65" /></a>&nbsp; &nbsp;&nbsp;<a data-form-ty=
+pe=3D"" href=3D"https://act=2Emyngp=2Ecom/el/-5932845288679995392/-3867=
+476506231896064"><img alt=3D"" height=3D"35" src=3D"https://d1kxpthy2j2=
+ikk=2Ecloudfront=2Enet/Uploads/9551/images/twitter=2Epng" width=3D"35" =
+/></a>&nbsp; &nbsp;<img alt=3D"" height=3D"38" src=3D"https://d1kxpthy2=
+j2ikk=2Ecloudfront=2Enet/Uploads/9551/images/instagram-logo-transparent=
+%281%29=2Epng" width=3D"50" /></div>
+</div>
+<div align=3D"center">
+=09&nbsp;</div>
+<div align=3D"center">
+=09<div style=3D'text-align: center;' class=3D'disclaimer-info'><table =
+style=3D'border: 1px solid #000; margin: auto;'><tbody><tr><td style=3D=
+'padding: 8px; text-align: center;'>Paid for by Joseline Pe=C3=B1a-Meln=
+yk for Congress</td></tr></tbody></table></div></div>
+<p align=3D"center" class=3D"orginfo" style=3D"text-align:center">
+=09<div style=3D'text-align: center;' class=3D'org-address-info'>Joseli=
+ne Pe=C3=B1a-Melnyk for Congress<br/>P=2EO=2E Box 5785<br/>Hyattsville =
+MD 20782 United States</div></p>
+<p align=3D"center" class=3D"unsubscribelink" style=3D"text-align:cente=
+r">
+=09If you believe you received this message in error or wish to no long=
+er receive email from us, please  <a href=3D"https://act=2Emyngp=2Ecom/=
+el/-5932845288679995392/-4443937258535319552" class=3D"unsubscribe-link=
+">unsubscribe</a>=2E</p>
+<img src=3D'https://act=2Emyngp=2Ecom/el/-5932845288679995392/-57409739=
+51218022400' />
+------ACA77AAA218E42288325E9F50E70D8F5--
